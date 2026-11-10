@@ -109,6 +109,25 @@ p.one(14, 0.301, 0.69, 40, 11).one(15, 0.383, 0.65, 16, 13)
 p.one(16, 0.086, 0.53, 24, 24, start=1).one(16, 0.916, 0.53, 24, 24, start=2)
 
 
+# KUMO 1616-12G (1RU): rear photo on the product page. Same groups as the 3232-12G.
+p = layout('aja-kumo-1616-12g', 1, 'AJA KUMO 1616-12G product page rear photo')
+for g, cy in ((0, 0.235), (1, 0.802)):
+    p.line(g, 0.370, 0.617, cy, 8, hmm=16, start=1).line(g, 0.699, 0.944, cy, 8, hmm=16, start=9)
+p.one(2, 0.316, 0.235).one(3, 0.316, 0.802)
+p.one(4, 0.166, 0.456, 16, 14).one(5, 0.124, 0.594, 12.5, 31).one(6, 0.205, 0.435, 8, 5)
+p.one(7, 0.069, 0.388, 10, 10, start=1).one(7, 0.069, 0.776, 10, 10, start=2)
+
+# KUMO 6464-12G (4RU): rear photo on the product page. Inputs 1-32 on the top two rows, outputs 1-64 on the middle four,
+# inputs 33-64 on the bottom two; each row is 8 + 8 with a gap. Same groups as the 3232-12G.
+p = layout('aja-kumo-6464-12g', 4, 'AJA KUMO 6464-12G product page rear photo')
+rows = [(0, 0.065, 1), (0, 0.192, 17), (1, 0.318, 1), (1, 0.442, 17), (1, 0.563, 33), (1, 0.686, 49), (0, 0.811, 33), (0, 0.933, 49)]
+for g, cy, first in rows:
+    p.line(g, 0.2445, 0.4860, cy, 8, hmm=20, start=first).line(g, 0.6775, 0.9170, cy, 8, hmm=20, start=first + 8)
+p.one(2, 0.1963, 0.065).one(3, 0.1963, 0.192)
+p.one(5, 0.127, 0.315, 31, 12.5).one(4, 0.146, 0.434, 16, 14).one(6, 0.134, 0.546, 8, 5)
+p.one(7, 0.139, 0.158, 10, 10, start=1).one(7, 0.104, 0.158, 10, 10, start=2)
+p.fixture('label', 0.05, 0.88, 0.21, 0.97, 'KUMO 6464-12G')
+
 # ---------------- Ross ----------------
 # Ultrix FR1 / FR2: rear-panel line drawings, Ultrix Installation Guide (2101DR-003) figures 8 and 9 (ear-less chassis,
 # x as chassis fractions). Groups: 0 SDI In, 1 SDI Out, 2 AUX (SFP), 3 Ref A, 4 Ref Loop, 5 ENET, 6 USB, 7 PSU 15V (4).
@@ -153,6 +172,20 @@ p.one(9, 0.508, 0.156, 70, 15, start=3).one(9, 0.508, 0.374, 70, 15, start=6)
 p.one(9, 0.853, 0.189, 70, 15, start=7).one(9, 0.853, 0.407, 70, 15, start=8)
 p.one(10, 0.1664, 0.762, 24, 20, start=1).one(10, 0.9445, 0.762, 24, 20, start=2)
 p.fixture('psu', 0.0142, 0.53, 0.2104, 0.977, 'PSU 1').fixture('psu', 0.789, 0.53, 0.985, 0.977, 'PSU 2')
+
+# ---------------- Riedel ----------------
+# Artist-1024 front (product page photo): 10 card bays, 2 rows of 5. The manual puts the primary NIC in bay 3 and the
+# secondary in bay 8; bays are assumed to run 1-5 on the top row and 6-10 on the bottom. Groups: 0 SIC bay (8),
+# 1 NIC bay (2), 2 NIC SFP (4), 3 NIC Mgmt (2), 4 NIC USB (2), 5 PSU (rear, not traced).
+p = layout('riedel-artist-1024', 2, 'Riedel Artist product page front photo; bay numbers from the Artist-1024 manual (row order assumed)')
+F = dict(face='front')
+for y0, y1, s0 in ((0.25, 0.486, 1), (0.503, 0.747, 5)):
+    p.blk(0, 0.052, y0, 0.361, y1, 1, 2, start=s0, count=2, **F).blk(0, 0.515, y0, 0.823, y1, 1, 2, start=s0 + 2, count=2, **F)
+p.blk(1, 0.361, 0.25, 0.515, 0.486, start=1, count=1, **F).blk(1, 0.361, 0.503, 0.515, 0.747, start=2, count=1, **F)
+p.line(2, 0.392, 0.421, 0.358, 2, hmm=12, start=1, **F).line(2, 0.454, 0.483, 0.642, 2, hmm=12, start=3, **F)
+p.one(3, 0.485, 0.347, 15, 13, start=1, **F).one(3, 0.395, 0.642, 15, 13, start=2, **F)
+p.one(4, 0.454, 0.41, 9, 4, start=1, **F).one(4, 0.422, 0.59, 9, 4, start=2, **F)
+p.fixture('label', 0.826, 0.12, 0.93, 0.75, 'Display', face='front')
 
 # ---------------- Sony ----------------
 # PDW-F1600 / PDW-HD1500 (half-rack, 3RU box; 210 mm face centred in it): rear-panel drawing, PDW-HD1500/F1600

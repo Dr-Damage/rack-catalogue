@@ -39,7 +39,7 @@ Generator scripts live in `../tools/` (e.g. `tools/ross.py`).
 |---|---|
 | `g` | index into `portGroups` (0-based). Several blocks may share one `g` |
 | `start`, `count` | optional slice of that group (1-based first port, number of ports); default is the whole group |
-| `x0,y0,x1,y1` | block rectangle as fractions of the panel, origin top-left. Rear is as seen from behind the rack (no mirroring) |
+| `x0,y0,x1,y1` | block rectangle as fractions of the panel, origin top-left. Rear is as seen from behind the rack (no mirroring). The panel is the full 19-inch width with ears; for a part-width unit (`widthCols` < 12) it is that unit's own share of the width |
 | `rows`, `cols` | grid inside the block |
 | `order` | `row` fills across then down, `col` fills down then across |
 | `from` | start corner: `tl`, `tr`, `bl`, `br` |

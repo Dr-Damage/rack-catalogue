@@ -62,7 +62,179 @@
     "count": 2,
     "prefix": "PSU-1024"
    }
-  ]
+  ],
+  "layout": {
+   "front": [
+    {
+     "g": 0,
+     "start": 1,
+     "count": 2,
+     "x0": 0.052,
+     "y0": 0.25,
+     "x1": 0.361,
+     "y1": 0.486,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 0,
+     "start": 3,
+     "count": 2,
+     "x0": 0.515,
+     "y0": 0.25,
+     "x1": 0.823,
+     "y1": 0.486,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 0,
+     "start": 5,
+     "count": 2,
+     "x0": 0.052,
+     "y0": 0.503,
+     "x1": 0.361,
+     "y1": 0.747,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 0,
+     "start": 7,
+     "count": 2,
+     "x0": 0.515,
+     "y0": 0.503,
+     "x1": 0.823,
+     "y1": 0.747,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 1,
+     "start": 1,
+     "count": 1,
+     "x0": 0.361,
+     "y0": 0.25,
+     "x1": 0.515,
+     "y1": 0.486,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 1,
+     "start": 2,
+     "count": 1,
+     "x0": 0.361,
+     "y0": 0.503,
+     "x1": 0.515,
+     "y1": 0.747,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 1,
+     "count": 2,
+     "x0": 0.3775,
+     "y0": 0.2905,
+     "x1": 0.4355,
+     "y1": 0.4255,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 3,
+     "count": 2,
+     "x0": 0.4395,
+     "y0": 0.5745,
+     "x1": 0.4975,
+     "y1": 0.7095,
+     "rows": 1,
+     "cols": 2,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 3,
+     "start": 1,
+     "count": 1,
+     "x0": 0.4695,
+     "y0": 0.2739,
+     "x1": 0.5005,
+     "y1": 0.4201,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 3,
+     "start": 2,
+     "count": 1,
+     "x0": 0.3795,
+     "y0": 0.5689,
+     "x1": 0.4105,
+     "y1": 0.7151,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 4,
+     "start": 1,
+     "count": 1,
+     "x0": 0.4447,
+     "y0": 0.3875,
+     "x1": 0.4633,
+     "y1": 0.4325,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 4,
+     "start": 2,
+     "count": 1,
+     "x0": 0.4127,
+     "y0": 0.5675,
+     "x1": 0.4313,
+     "y1": 0.6125,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    }
+   ],
+   "fixtures": [
+    {
+     "face": "front",
+     "kind": "label",
+     "x0": 0.826,
+     "y0": 0.12,
+     "x1": 0.93,
+     "y1": 0.75,
+     "text": "Display"
+    }
+   ]
+  },
+  "layoutSource": "Riedel Artist product page front photo; bay numbers from the Artist-1024 manual (row order assumed)"
  },
  {
   "id": "riedel-artist-32",
