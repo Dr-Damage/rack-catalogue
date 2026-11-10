@@ -1,0 +1,834 @@
+[
+ {
+  "id": "aja-kumo-1616-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "KUMO 1616-12G",
+  "name": "KUMO 1616-12G router",
+  "family": "KUMO",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA KUMO 1616-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/kumo-1616-12g",
+  "notes": "1RU 16x16 12G-SDI router, 39 mm deep. Looping non-terminating reference (black burst or tri-level), gigabit Ethernet, RS-422 DB9, Mini-USB for eMini-Setup. Dual redundant 10-14V DC inputs (4-pin Molex), 16 W typical; one AC adapter included, second sold separately. Same hardware as the Grass Valley Sirius compact routers.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "4-pin Molex",
+    "count": 2,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "aja-kumo-3232-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "KUMO 3232-12G",
+  "name": "KUMO 3232-12G router",
+  "family": "KUMO",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA KUMO 3232-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/kumo-3232-12g",
+  "notes": "2RU 32x32 12G-SDI router, 39 mm deep. Looping non-terminating reference (black burst or tri-level), gigabit Ethernet, RS-422 DB9, Mini-USB for eMini-Setup. Dual redundant 10-14V DC inputs (4-pin Molex), 20 W typical; one AC adapter included, second sold separately. Same hardware as the Grass Valley Sirius compact routers.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "4-pin Molex",
+    "count": 2,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "aja-kumo-6464-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "KUMO 6464-12G",
+  "name": "KUMO 6464-12G router",
+  "family": "KUMO",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA KUMO 6464-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/kumo-6464-12g",
+  "notes": "4RU 64x64 12G-SDI router, 39 mm deep. Looping non-terminating reference (black burst or tri-level), gigabit Ethernet, RS-422 DB9, Mini-USB for eMini-Setup. Dual redundant 10-14V DC inputs (4-pin Molex), 50 W typical; one AC adapter included, second sold separately. Same hardware as the Grass Valley Sirius compact routers.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "4-pin Molex",
+    "count": 2,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "aja-fs4",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "FS4",
+  "name": "FS4 frame sync / converter",
+  "family": "FS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "AJA FS4 spec sheet",
+  "productUrl": "https://www.aja.com/products/fs4",
+  "notes": "1RU, 444.5 x 406.4 mm deep. 4 x 3G-SDI BNC in/out plus 4 x 12G-SDI in/out on optional SFP modules (fibre or HD-BNC), 3G monitor out, HDMI monitor out, 2 looping ref BNC, 8 AES in and out on DB25s, 2 MADI in/out (BNC + ST fibre), GPI DB25 (4 in, 4 out), gigabit Ethernet, dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "12G In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "12G Out (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "ST fibre",
+    "count": 1,
+    "prefix": "MADI In Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "ST fibre",
+    "count": 1,
+    "prefix": "MADI Out Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI (4/4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aja-fs-hdr",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "FS-HDR",
+  "name": "FS-HDR frame sync / converter",
+  "family": "FS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "AJA FS-HDR spec sheet",
+  "productUrl": "https://www.aja.com/products/fs-hdr",
+  "notes": "1RU, 444.5 x 406.4 mm deep. 4 x 3G-SDI BNC in/out plus 4 x 12G-SDI in/out on optional SFP modules (fibre or HD-BNC), 3G monitor out, 2 looping ref BNC, 8 AES in and out on DB25s, 2 MADI in/out (BNC + ST fibre), GPI DB25 (4 in, 4 out), gigabit Ethernet, dual redundant AC supplies. HDR/WCG conversion with Colorfront engine.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "12G In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "12G Out (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "ST fibre",
+    "count": 1,
+    "prefix": "MADI In Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "ST fibre",
+    "count": 1,
+    "prefix": "MADI Out Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI (4/4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aja-ki-pro-ultra-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "Ki Pro Ultra 12G",
+  "name": "Ki Pro Ultra 12G recorder",
+  "family": "Ki Pro",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA Ki Pro Ultra 12G spec sheet",
+  "productUrl": "https://www.aja.com/products/ki-pro-ultra-12g",
+  "notes": "Half rack wide, 2RU, 219 x 269 x 84 mm, 2.6 kg. 4K/UHD/HD recorder with 2 AJA Pak media slots. SDI in/out: 1 x 12G + 3 x 3G BNC, plus optional fibre/HD-BNC SFPs; HDMI in/out; AES and analog audio on TASCAM DB25s; LTC in/out, looping ref, LAN, RS-422 (Sony 9-pin), dual 4-pin XLR DC (external AC adapter). Check: which face each connector is on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Fibre In (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Fibre Out (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "12-18V DC"
+   }
+  ]
+ },
+ {
+  "id": "aja-bridge-live-12g-4",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "BRIDGE LIVE 12G-4",
+  "name": "BRIDGE LIVE 12G-4 streaming / transcoding appliance",
+  "family": "BRIDGE LIVE",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "AJA BRIDGE LIVE spec sheet",
+  "productUrl": "https://www.aja.com/products/bridge-live",
+  "notes": "1RU, 436.9 x 429.3 x 43.2 mm, 8.2 kg. 4 SDI ports, each input or output, 2 x 10GigE RJ45, dual redundant 100-240 V PSUs. Local UI via DisplayPort and USB. Encodes/decodes H.264/HEVC/MPEG-2, SRT, RTMP, HLS, NDI. Check: USB and DisplayPort counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aja-bridge-live-3g-8",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "BRIDGE LIVE 3G-8",
+  "name": "BRIDGE LIVE 3G-8 streaming / transcoding appliance",
+  "family": "BRIDGE LIVE",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "AJA BRIDGE LIVE spec sheet",
+  "productUrl": "https://www.aja.com/products/bridge-live",
+  "notes": "1RU, 436.9 x 429.3 x 43.2 mm, 8.2 kg. 8 SDI ports, each input or output, 2 x 10GigE RJ45, dual redundant 100-240 V PSUs. Local UI via DisplayPort and USB. Encodes/decodes H.264/HEVC/MPEG-2, SRT, RTMP, HLS, NDI. Check: USB and DisplayPort counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 8,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

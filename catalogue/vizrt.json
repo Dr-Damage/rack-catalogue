@@ -1,0 +1,285 @@
+[
+ {
+  "id": "vizrt-tricaster-vizion-1ru",
+  "manufacturer": "Vizrt (NewTek)",
+  "partNumber": "TriCaster Vizion 1RU",
+  "name": "TriCaster Vizion 1RU",
+  "family": "TriCaster",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Vizrt TriCaster Vizion tech specs",
+  "productUrl": "https://routing.vizrt.com/products/tricaster/vizion/tech-specs/",
+  "notes": "1RU, 25.7 x 17.2 x 1.7 in, 12.1 kg. Up to 16 configurable SDI ports (input or output, up to 8 at 12G) on HD-BNC with BNC pigtails, genlock per I/O board, 4 DisplayPort multiviewers, 10GbE + 1GbE, redundant 675 W PSUs. Audio is SDI embedded or Dante (licence). Tally over NDI, GPI via JLCooper eBox. Check: SDI port count for your hardware version and 10GbE connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Multiview"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vizrt-tricaster-2-elite",
+  "manufacturer": "Vizrt (NewTek)",
+  "partNumber": "TC2E3RU",
+  "name": "TriCaster 2 Elite 3RU",
+  "family": "TriCaster",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "TriCaster 2 Elite datasheet",
+  "productUrl": "https://www.fullcompass.com/prod/599126-vizrt-formerly-newtek-tricaster-2-elite-live-video-production-system",
+  "notes": "3RU, 48.3 x 13.34 x 49.7 cm with ears. 8 x 3G SDI in, 8 x 3G SDI out, genlock, 1 HDMI + 3 DP multiviewer outputs, 10GbE SFP (bring your own SFP) and 1GbE, balanced XLR stereo in/out, 3 stereo 1/4\" in pairs, 1/4\" stereo out pair and headphones, HD15 tally, 650 W redundant PSU. Check: SDI connector type (BNC assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Multiview HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 3,
+    "prefix": "Multiview DP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "10GbE SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Audio In XLR"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" jack",
+    "count": 6,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Audio Out XLR"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" jack",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" jack",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Tally/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vizrt-nc2-studio-io",
+  "manufacturer": "Vizrt (NewTek)",
+  "partNumber": "NC2 Studio I/O",
+  "name": "NC2 Studio I/O module",
+  "family": "NDI I/O",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Vizrt NC2 Studio I/O specifications (reseller page)",
+  "productUrl": "https://www.trm.fr/en/video-mixers/newtek-nc2-studio-io-module/",
+  "notes": "SDI to NDI converter, 1RU (4.28 cm), 57.75 cm deep, rack kit included. 8 HD-BNC ports each set as input or output, up to 2 x 12G (or 2 x 12G plus 4 x 3G), genlock (bi-level, tri-level or NDI), 10GBASE-T + 1GbE, redundant PSU. Also sold as Viz Connect Studio I/O (2RU). Check: reference connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

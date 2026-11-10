@@ -1,0 +1,691 @@
+[
+ {
+  "id": "ah-dlive-dm32",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive DM32",
+  "name": "dLive DM32 MixRack",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "dLive DM32/DM48/DM64 MixRack guide",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "7U dLive S Class MixRack, 32 mic in, 16 line out (+4 dBu XLR), 3 I/O ports (128 x 128 each, e.g. Dante, MADI, Waves), 2 gigaACE (redundant surface link), 4 DX ports for 2 redundant DX expanders, ME port, 2 gigabit network, word clock, hot-swap PSU (ships with one, second optional). Check: word clock BNC count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "ME"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ah-dlive-dm48",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive DM48",
+  "name": "dLive DM48 MixRack",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "dLive DM32/DM48/DM64 MixRack guide",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "8U dLive S Class MixRack, 48 mic in, 24 line out (+4 dBu XLR), 3 I/O ports (128 x 128 each, e.g. Dante, MADI, Waves), 2 gigaACE (redundant surface link), 4 DX ports for 2 redundant DX expanders, ME port, 2 gigabit network, word clock, hot-swap PSU (ships with one, second optional). Check: word clock BNC count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 48,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "ME"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ah-dlive-dm64",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive DM64",
+  "name": "dLive DM64 MixRack",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 10,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "dLive DM32/DM48/DM64 MixRack guide",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "10U dLive S Class MixRack, 64 mic in, 32 line out (+4 dBu XLR), 3 I/O ports (128 x 128 each, e.g. Dante, MADI, Waves), 2 gigaACE (redundant surface link), 4 DX ports for 2 redundant DX expanders, ME port, 2 gigabit network, word clock, hot-swap PSU (ships with one, second optional). Check: word clock BNC count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 64,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "ME"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ah-dlive-cdm32",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive CDM32",
+  "name": "dLive CDM32 MixRack (C Class)",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Reseller listings",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "dLive C Class MixRack, 32 mic in, 16 line out, XCVI 160x64 core, 1 I/O port. Check: rack height, DX/ME port count and network ports (from model naming, not a datasheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "ah-dlive-cdm48",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive CDM48",
+  "name": "dLive CDM48 MixRack (C Class)",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Reseller listings",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "dLive C Class MixRack, 48 mic in, 24 line out, XCVI 160x64 core, 1 I/O port. Check: rack height, DX/ME port count and network ports (from model naming, not a datasheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 48,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "ah-dlive-cdm64",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive CDM64",
+  "name": "dLive CDM64 MixRack (C Class)",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Reseller listings",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "dLive C Class MixRack, 64 mic in, 32 line out, XCVI 160x64 core, 1 I/O port. Check: rack height, DX/ME port count and network ports (from model naming, not a datasheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 64,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "ah-dx168",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "DX168",
+  "name": "DX168 96kHz expander 16x8",
+  "family": "DX",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DX168 datasheet",
+  "productUrl": "https://www.fullcompass.com/common/files/37069-DX168Datasheet.pdf",
+  "notes": "Portable 96 kHz expander for dLive, Avantis, SQ and AHM-64: 16 mic preamps, 8 XLR line outs, DX A and DX B (daisy chain or redundancy). Rack kit optional. Check: rack height (4U per dealer) and front/rear split.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "DX A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "DX B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ah-ab168",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "AB168",
+  "name": "AB168 AudioRack 16x8",
+  "family": "AudioRack",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AB168 datasheet",
+  "productUrl": "https://www.allen-heath.com/hardware/audiorack/",
+  "notes": "48 kHz dSNAKE stagebox for SQ, Qu, Avantis and AHM-64: 16 mic in, 8 XLR line out, dSNAKE and expander/ME etherCON, 45 W internal supply. Rack kit optional. Check: rack height (4U per dealer).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "dSNAKE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Expander"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ah-dx32",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "DX32",
+  "name": "DX32 modular expander",
+  "family": "DX",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DX32 technical datasheet",
+  "productUrl": "https://www.allen-heath.com/hardware/dlive/",
+  "notes": "Modular 96 kHz expander with 4 slots for 8-channel modules (8 mic XLR in, 8 line XLR out, 4 stereo AES3 in or 4 stereo AES3 out), redundant DX etherCON pair, dual hot-swap PSU option. Add the module connectors as extra ports. Check: rack height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Module Slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

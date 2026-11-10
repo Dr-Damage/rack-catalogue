@@ -1,0 +1,84 @@
+[
+ {
+  "id": "teradek-prism-rack-1ru",
+  "manufacturer": "Teradek",
+  "partNumber": "Prism Rack 1RU",
+  "name": "Prism Rack 1RU chassis (3 cards)",
+  "family": "Prism",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Teradek Prism Rack page and Prism 4K 1RU/2RU specs",
+  "productUrl": "https://teradek.com/pages/prism-ru",
+  "notes": "1RU chassis for 3 Prism cards: 853 encoder (12G-SDI in + loop, 3.5 mm audio), 873 decoder (2 x 12G-SDI out), 877 Duplex (SDI or HDMI, encode or decode), server cards. Up to 15 W per card. Dual gigabit Ethernet. Add each card's connectors as extra ports. Check: which face cards load from, PSU inlets.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "Prism card"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "teradek-prism-rack-2ru",
+  "manufacturer": "Teradek",
+  "partNumber": "Prism Rack 2RU",
+  "name": "Prism Rack 2RU chassis (9 cards)",
+  "family": "Prism",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Teradek Prism Rack page and Prism 4K 1RU/2RU specs",
+  "productUrl": "https://teradek.com/pages/prism-ru",
+  "notes": "2RU chassis for 9 Prism cards: 853 encoder (12G-SDI in + loop, 3.5 mm audio), 873 decoder (2 x 12G-SDI out), 877 Duplex (SDI or HDMI, encode or decode), server cards. Up to 15 W per card. Dual gigabit Ethernet, redundant power. Add each card's connectors as extra ports. Check: which face cards load from, PSU inlets.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 9,
+    "prefix": "Prism card"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

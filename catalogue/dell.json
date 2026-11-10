@@ -1,0 +1,2869 @@
+[
+ {
+  "id": "dell-poweredge-r660",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R660",
+  "name": "PowerEdge R660 1U two-socket server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell PowerEdge R660 spec sheet",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r660",
+  "notes": "1U, 42.8 x 482 x 822.9 mm with bezel (809 mm without). Intel Xeon 4th/5th gen. Up to 3 PCIe, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial optional. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r760",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R760",
+  "name": "PowerEdge R760 2U two-socket server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "PowerEdge R760 technical specifications",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r760",
+  "notes": "2U, 86.8 x 482 x 772.1 mm with bezel. Intel Xeon 4th/5th gen. Up to 8 PCIe Gen4/Gen5, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-2800 W. Common for GPU, media server and playout builds. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r660xs",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R660xs",
+  "name": "PowerEdge R660xs 1U Intel Xeon server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r660xs",
+  "notes": "1U 16th-generation PowerEdge (Intel Xeon), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r760xs",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R760xs",
+  "name": "PowerEdge R760xs 2U Intel Xeon server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r760xs",
+  "notes": "2U 16th-generation PowerEdge (Intel Xeon), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (6 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r6615",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R6615",
+  "name": "PowerEdge R6615 1U AMD EPYC server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r6615",
+  "notes": "1U 16th-generation PowerEdge (AMD EPYC), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r7615",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R7615",
+  "name": "PowerEdge R7615 2U AMD EPYC server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r7615",
+  "notes": "2U 16th-generation PowerEdge (AMD EPYC), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (8 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r6625",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R6625",
+  "name": "PowerEdge R6625 1U AMD EPYC server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r6625",
+  "notes": "1U 16th-generation PowerEdge (AMD EPYC), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r7625",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R7625",
+  "name": "PowerEdge R7625 2U AMD EPYC server",
+  "family": "PowerEdge 16G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 16G family (R660/R760 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r7625",
+  "notes": "2U 16th-generation PowerEdge (AMD EPYC), same rear I/O layout as the R660/R760: iDRAC, VGA, USB, optional serial, LOM and OCP 3.0, redundant PSUs. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (8 assumed) and LOM option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r250",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R250",
+  "name": "PowerEdge R250 1U single-socket server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell EMC PowerEdge R250 spec sheet",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r250",
+  "notes": "1U, 42.8 x 482 x 598.6 mm with bezel. Intel Xeon E-2300. 2 low-profile PCIe Gen4, 2 x 1GbE embedded, single cabled PSU 450 or 700 W. Short depth, good for edge and control racks.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r350",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R350",
+  "name": "PowerEdge R350 1U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r350",
+  "notes": "1U 15th-generation PowerEdge. Intel Xeon E-2300, short depth, optional redundant hot-plug PSUs. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (2 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r450",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R450",
+  "name": "PowerEdge R450 1U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r450",
+  "notes": "1U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen, OCP 3.0 option. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (2 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r550",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R550",
+  "name": "PowerEdge R550 2U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r550",
+  "notes": "2U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (5 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r650",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R650",
+  "name": "PowerEdge R650 1U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r650",
+  "notes": "1U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r750",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R750",
+  "name": "PowerEdge R750 2U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r750",
+  "notes": "2U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen, GPU capable. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (8 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r650xs",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R650xs",
+  "name": "PowerEdge R650xs 1U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r650xs",
+  "notes": "1U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen, scale-out version. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r750xs",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R750xs",
+  "name": "PowerEdge R750xs 2U server",
+  "family": "PowerEdge 15G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 15G family (R250/R660 spec sheets for shared I/O)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r750xs",
+  "notes": "2U 15th-generation PowerEdge. Two-socket Intel Xeon 3rd gen, scale-out version. iDRAC9, VGA, USB 2.0/3.0, serial, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (5 assumed), PSU count and OCP option.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r640",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R640",
+  "name": "PowerEdge R640 1U server (14G)",
+  "family": "PowerEdge 14G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 14G owner's manuals (from memory of the platform; not re-checked)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r640",
+  "notes": "1U 14th-generation PowerEdge (2017-2021), still common in broadcast installs. Rear: VGA, serial, 2 x USB 3.0, iDRAC9, rNDC network daughter card (4 ports, 1GbE or 10GbE RJ45/SFP+). PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (3 assumed) and front USB count.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 0,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "rNDC NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r740",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R740",
+  "name": "PowerEdge R740 2U server (14G)",
+  "family": "PowerEdge 14G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 14G owner's manuals (from memory of the platform; not re-checked)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r740",
+  "notes": "2U 14th-generation PowerEdge (2017-2021), still common in broadcast installs. Rear: VGA, serial, 2 x USB 3.0, iDRAC9, rNDC network daughter card (4 ports, 1GbE or 10GbE RJ45/SFP+). PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (8 assumed) and front USB count.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 0,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "rNDC NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r440",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R440",
+  "name": "PowerEdge R440 1U server (14G)",
+  "family": "PowerEdge 14G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 14G owner's manuals (from memory of the platform; not re-checked)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r440",
+  "notes": "1U 14th-generation PowerEdge (2017-2021), still common in broadcast installs. Rear: VGA, serial, 2 x USB 3.0, iDRAC9, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (2 assumed) and front USB count.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 0,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r540",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R540",
+  "name": "PowerEdge R540 2U server (14G)",
+  "family": "PowerEdge 14G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 14G owner's manuals (from memory of the platform; not re-checked)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r540",
+  "notes": "2U 14th-generation PowerEdge (2017-2021), still common in broadcast installs. Rear: VGA, serial, 2 x USB 3.0, iDRAC9, 2 x 1GbE LOM. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: PCIe slot count (5 assumed) and front USB count.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 0,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r670",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R670",
+  "name": "PowerEdge R670 1U server (17G)",
+  "family": "PowerEdge 17G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 17G (ports assumed from 16G)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r670",
+  "notes": "1U 17th-generation PowerEdge (Intel Xeon 6, 2025). Rear I/O assumed the same as the 16G R660/R760. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: all ports against the Dell spec sheet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-poweredge-r770",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R770",
+  "name": "PowerEdge R770 2U server (17G)",
+  "family": "PowerEdge 17G",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge 17G (ports assumed from 16G)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r770",
+  "notes": "2U 17th-generation PowerEdge (Intel Xeon 6, 2025). Rear I/O assumed the same as the 16G R660/R760. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. Check: all ports against the Dell spec sheet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-precision-7960-rack",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7960 Rack",
+  "name": "Precision 7960 Rack 2U workstation",
+  "family": "Precision Rack",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 7960 Rack spec sheet",
+  "productUrl": "https://www.dell.com/en-au/shop/desktop-computers/precision-7960-rack/spd/precision-r7960-workstation",
+  "notes": "2U, 86.8 x 482 x 772 mm. Intel Xeon W-3400. 7 PCIe slots with dual CPUs, up to 2 double-wide GPUs (RTX Pro 6000 / RTX 6000 Ada), one or two hot-plug PSUs 800-2400 W (1400/2400 W need C19 cords). GPU DisplayPort count depends on the card fitted (4 assumed). Serial only via PCIe card.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA (iDRAC)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA (iDRAC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-precision-7920-rack",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7920 Rack",
+  "name": "Precision 7920 Rack 2U workstation",
+  "family": "Precision Rack",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell Precision rack workstation family",
+  "productUrl": "https://www.dell.com/en-au/shop/workstations",
+  "notes": "2U rack workstation (previous generation). Two-socket Xeon Scalable, up to 3 double-wide GPUs, iDRAC9, dual PSUs. Check: every port count (catalogued from the platform family, not the spec sheet).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC/Remote mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-precision-3930-rack",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3930 Rack",
+  "name": "Precision 3930 Rack 1U workstation",
+  "family": "Precision Rack",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell Precision rack workstation family",
+  "productUrl": "https://www.dell.com/en-au/shop/workstations",
+  "notes": "1U rack workstation (previous generation). Single-socket Xeon E / Core, short depth, up to 1 GPU, 1 or 2 PSUs. Check: every port count (catalogued from the platform family, not the spec sheet).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC/Remote mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-dlt1500rmi2uc",
+  "manufacturer": "Dell",
+  "partNumber": "DLT1500RMI2UC",
+  "name": "Dell Smart-UPS 1500VA LCD RM 2U 230V with SmartConnect",
+  "family": "Dell Smart-UPS",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Smart-UPS listing and APC SMT data",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/ups",
+  "notes": "2U line-interactive 1500 VA / 1000 W, 230 V. Dell-branded APC Smart-UPS (same unit as APC SMT1500RMI2UC). SmartConnect cloud port, SmartSlot for an AP9640/AP9641 network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "dell-dlt3000rmi2uc",
+  "manufacturer": "Dell",
+  "partNumber": "DLT3000RMI2UC",
+  "name": "Dell Smart-UPS 3000VA LCD RM 2U 230V with SmartConnect",
+  "family": "Dell Smart-UPS",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Smart-UPS listing and APC SMT data",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/ups",
+  "notes": "2U line-interactive 3000 VA / 2700 W, 230 V. Dell-branded APC Smart-UPS (same unit as APC SMT3000RMI2UC). SmartConnect cloud port, SmartSlot for an AP9640/AP9641 network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ }
+]

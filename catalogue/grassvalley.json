@@ -1,0 +1,2068 @@
+[
+ {
+  "id": "gv-k-frame-vxp",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K-Frame VXP",
+  "name": "K-Frame VXP switcher engine",
+  "family": "K-Frame",
+  "category": "switcher",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV K-Frame switchers datasheet (DS-PUB-3-0572E)",
+  "productUrl": "https://www.grassvalley.com/wp-content/uploads/2025/01/K-Frame_Switchers_DS-PUB-3-0572E-EN.pdf",
+  "notes": "5RU K-Frame VXP video production engine, up to 48 in x 24 out on SDI and/or IP I/O cards (IP ports are 25 or 100 GbE, SFP/QSFP ordered separately), up to 3 multiviewers. 8 GPI in / 8 out, 24 tallies, serial and Ethernet machine control. 2 x K-FRM-PSU-VXP hot-swap supplies (internal). Shown fully loaded with SDI. Check: connector types (BNC vs HD-BNC), reference and control port details, and your card fit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally (24)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-k-frame-cxp",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K-Frame CXP",
+  "name": "K-Frame CXP switcher engine",
+  "family": "K-Frame",
+  "category": "switcher",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV K-Frame switchers datasheet (DS-PUB-3-0572E)",
+  "productUrl": "https://www.grassvalley.com/wp-content/uploads/2025/01/K-Frame_Switchers_DS-PUB-3-0572E-EN.pdf",
+  "notes": "8RU K-Frame CXP video production engine, up to 80 in x 40 out on SDI and/or IP I/O cards (IP ports are 25 or 100 GbE, SFP/QSFP ordered separately), up to 4 multiviewers. 8 GPI in / 8 out, 32 tallies, serial and Ethernet machine control. 2 x K-FRM-PSU-XP hot-swap supplies (internal). Shown fully loaded with SDI. Check: connector types (BNC vs HD-BNC), reference and control port details, and your card fit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 80,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 40,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally (32)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-k-frame-sxp",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K-Frame SXP",
+  "name": "K-Frame SXP switcher engine",
+  "family": "K-Frame",
+  "category": "switcher",
+  "ru": 15,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV K-Frame switchers datasheet (DS-PUB-3-0572E)",
+  "productUrl": "https://www.grassvalley.com/wp-content/uploads/2025/01/K-Frame_Switchers_DS-PUB-3-0572E-EN.pdf",
+  "notes": "15RU K-Frame SXP video production engine, up to 192 in x 96 out on SDI and/or IP I/O cards (IP ports are 25 or 100 GbE, SFP/QSFP ordered separately), up to 5 multiviewers. 8 GPI in / 8 out, 32 tallies, serial and Ethernet machine control. 3 x K-FRM-PSU-XP hot-swap supplies in a separate 1RU external power frame. Shown fully loaded with SDI. Check: connector types (BNC vs HD-BNC), reference and control port details, and your card fit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 192,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally (32)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 3,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-k-frame-sxp-psu",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K-Frame SXP power frame",
+  "name": "K-Frame SXP external power frame",
+  "family": "K-Frame",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV K-Frame switchers datasheet",
+  "productUrl": "https://www.grassvalley.com/wp-content/uploads/2025/01/K-Frame_Switchers_DS-PUB-3-0572E-EN.pdf",
+  "notes": "1RU external power frame that sits with the 15RU K-Frame SXP and holds its K-FRM-PSU-XP supplies. Check: inlet count and DC link.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 3,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC to frame"
+   }
+  ]
+ },
+ {
+  "id": "gv-scr-1616-12g",
+  "manufacturer": "Grass Valley",
+  "partNumber": "SCR 1616-12G",
+  "name": "Sirius 16x16 12G compact router",
+  "family": "Sirius",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "GV Sirius compact routers datasheet (DS-PUB-3-1006C)",
+  "productUrl": "https://grassvalley.com/products/routing/sirius-12g-compact-routers",
+  "notes": "1RU 16x16 single-link 12G-SDI router, BNC, 39 mm deep. Two looping non-terminating reference BNCs (black burst or tri-level), gigabit Ethernet, RS-422 on DB9 (GV Native protocol), Mini-USB for setup. 10-14V DC from an external AC adapter, two DC inputs for the optional redundant supply (SCRPS1A). Check: DC connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "gv-scr-3232-12g",
+  "manufacturer": "Grass Valley",
+  "partNumber": "SCR 3232-12G",
+  "name": "Sirius 32x32 12G compact router",
+  "family": "Sirius",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "GV Sirius compact routers datasheet (DS-PUB-3-1006C)",
+  "productUrl": "https://grassvalley.com/products/routing/sirius-12g-compact-routers",
+  "notes": "2RU 32x32 single-link 12G-SDI router, BNC, 39 mm deep. Two looping non-terminating reference BNCs (black burst or tri-level), gigabit Ethernet, RS-422 on DB9 (GV Native protocol), Mini-USB for setup. 10-14V DC from an external AC adapter, two DC inputs for the optional redundant supply (SCRPS1A). Check: DC connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "gv-sirius-830",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Sirius 830",
+  "name": "Sirius 830 router frame (288x288)",
+  "family": "Sirius",
+  "category": "router",
+  "ru": 17,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV Sirius 800 datasheet (DS-PUB-3-0711C)",
+  "productUrl": "https://gvcmsumb.grassvalley.com/products/routing/sirius-800-series",
+  "notes": "17RU including redundant PSUs, 288x288 video, coax and fibre I/O cards, integrated audio processing, dual redundant controllers with auto failover, 4 video references. Card I/O not included: add it to the device as extra ports. Check: rear layout, PSU inlet count and Ethernet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Controller"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-sirius-840",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Sirius 840",
+  "name": "Sirius 840 router frame (576x576)",
+  "family": "Sirius",
+  "category": "router",
+  "ru": 29,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV Sirius 800 datasheet (DS-PUB-3-0711C)",
+  "productUrl": "https://gvcmsumb.grassvalley.com/products/routing/sirius-800-series",
+  "notes": "29RU including redundant PSUs, 576x576 video, coax and fibre I/O cards, integrated audio processing, dual redundant controllers with auto failover, 4 video references. Card I/O not included: add it to the device as extra ports. Check: rear layout, PSU inlet count and Ethernet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Controller"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-sirius-850",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Sirius 850",
+  "name": "Sirius 850 router frame (576x1152)",
+  "family": "Sirius",
+  "category": "router",
+  "ru": 38,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV Sirius 800 datasheet (DS-PUB-3-0711C)",
+  "productUrl": "https://gvcmsumb.grassvalley.com/products/routing/sirius-800-series",
+  "notes": "38RU including redundant PSUs, 576x1152 video, coax and fibre I/O cards, integrated audio processing, dual redundant controllers with auto failover, 4 video references. Card I/O not included: add it to the device as extra ports. Check: rear layout, PSU inlet count and Ethernet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Controller"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-8x1",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-8X1",
+  "name": "Kaleido-MX 8x1 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 8 inputs, single head (1 HDMI + 1 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-8x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-8X2",
+  "name": "Kaleido-MX 8x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 8 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-16x1",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-16X1",
+  "name": "Kaleido-MX 16x1 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 16 inputs, single head (1 HDMI + 1 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-16x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-16X2",
+  "name": "Kaleido-MX 16x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 16 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-16x4",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-16X4",
+  "name": "Kaleido-MX 16x4 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 16 inputs, quad head (4 HDMI + 4 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-24x1",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-24X1",
+  "name": "Kaleido-MX 24x1 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 24 inputs, single head (1 HDMI + 1 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-24x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-24X2",
+  "name": "Kaleido-MX 24x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "1RU multiviewer, 24 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 opto GPI in + 8 bidirectional, hot-swap redundant PSUs (150 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-32x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-32X2",
+  "name": "Kaleido-MX 32x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 32 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-32x4",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-32X4",
+  "name": "Kaleido-MX 32x4 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 32 inputs, quad head (4 HDMI + 4 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-48x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-48X2",
+  "name": "Kaleido-MX 48x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 48 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-48x4",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-48X4",
+  "name": "Kaleido-MX 48x4 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 48 inputs, quad head (4 HDMI + 4 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-64x2",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-64X2",
+  "name": "Kaleido-MX 64x2 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 64 inputs, dual head (2 HDMI + 2 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-mx-64x4",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KALEIDO-MX-64X4",
+  "name": "Kaleido-MX 64x4 multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kaleido-MX datasheet",
+  "productUrl": "https://media.iewc.com/SpecificationSheets/KALEIDO-MX-8X1.pdf",
+  "notes": "3RU multiviewer, 64 inputs, quad head (4 HDMI + 4 HD-SDI outputs). External multiformat reference, 10/100 Ethernet, 20 (40 optional) opto GPI in + 8 (16) bidirectional, hot-swap redundant PSUs (350 W max). Optional discrete audio via ABT modules. Check: GPI and audio monitor connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "Audio Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kip-x240",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KIP-X240",
+  "name": "Kaleido-IP X240 IP multiviewer",
+  "family": "Kaleido",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "GV Kaleido-IP datasheet (DS-PUB-3-0133C)",
+  "productUrl": "https://www.grassvalley.com/products/multiviewers-hardware/kaleido-ip/",
+  "notes": "1RU IP multiviewer: 2 x 10GbE compressed inputs, optional up to 4 x 100GbE uncompressed, 4 independent HDMI or DisplayPort outputs, 2 x 1GbE management, 750 W 1+1 hot-swap PSUs. SDI via GV ST 2110 gateways, GPI via GPI-1501. Check: optional 100GbE fit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10GbE Media"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SFP",
+    "connector": "QSFP",
+    "count": 4,
+    "prefix": "100GbE Media (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "Head Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-k2-summit-3gplus-2ch",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K2 Summit 3G+ 2 channel",
+  "name": "K2 Summit 3G+ 2-channel server",
+  "family": "K2",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "K2 Summit 3G+ production client specifications",
+  "productUrl": "https://wwwapps.grassvalley.com/manuals/k2_summit_v10.1.3/core/sub/topic/k2/c_k2_summit_3gplus_production_client_specifications.html",
+  "notes": "2RU, 61.6 cm deep. 2 bidirectional HD/SD-SDI record/play channels (each channel configured as in or out), SDI monitor out with timecode burn-in, 2 HD-BNC reference loop, LTC on mini-XLR per channel, 4 RS-422, GPI 12 in/12 out on DB25, 1G plus 10GbE, 4 AES pairs per channel (optional DB25), DisplayPort GUI out, dual redundant hot-swap 600 W PSUs. Check: SDI connector type and whether each channel has separate in and out BNCs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Ch"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "Mini-XLR",
+    "count": 2,
+    "prefix": "LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 4,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI (12 in/12 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet 1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-k2-summit-3gplus-4ch",
+  "manufacturer": "Grass Valley",
+  "partNumber": "K2 Summit 3G+ 4 channel",
+  "name": "K2 Summit 3G+ 4-channel server",
+  "family": "K2",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "K2 Summit 3G+ production client specifications",
+  "productUrl": "https://wwwapps.grassvalley.com/manuals/k2_summit_v10.1.3/core/sub/topic/k2/c_k2_summit_3gplus_production_client_specifications.html",
+  "notes": "2RU, 61.6 cm deep. 4 bidirectional HD/SD-SDI record/play channels (each channel configured as in or out), SDI monitor out with timecode burn-in, 2 HD-BNC reference loop, LTC on mini-XLR per channel, 4 RS-422, GPI 12 in/12 out on DB25, 1G plus 10GbE, 4 AES pairs per channel (optional DB25), DisplayPort GUI out, dual redundant hot-swap 600 W PSUs. Check: SDI connector type and whether each channel has separate in and out BNCs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Ch"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "Mini-XLR",
+    "count": 4,
+    "prefix": "LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 4,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI (12 in/12 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet 1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 4,
+    "prefix": "AES (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-xcu-xpress-uxf",
+  "manufacturer": "Grass Valley",
+  "partNumber": "XCU Xpress UXF + cradle",
+  "name": "XCU Xpress UXF camera base station",
+  "family": "LDX cameras",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "GV XCU datasheet (DS-PUB-3-1041B)",
+  "productUrl": "https://www.grassvalley.com/products/cameras/xcu-xpress-uxf/",
+  "notes": "2RU base station that slides into a rack cradle (cradle stores settings), 12.5 kg with cradle. Outputs depend on mode: 4K 2 x 4K + 2 x 3G; 1X 6 x 3G + 2 x 1.5G; 3X/6X 6 x 3G. 3 return inputs (input 1 loops), ref and prompter loop-through, intercom DB15, tally DB15, RS-232 DB9, 2 XLR + 2 AES audio out, C2IP and IP trunk Ethernet, 4 SFP+ (12G or 10GbE), LEMO hybrid fibre. Check: exact BNC count on the rear.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Live/Effect"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SD Out/Mon"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "CVBS Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "SFP (12G/10GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Prompter Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Data RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO SMPTE",
+    "count": 1,
+    "prefix": "Camera Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

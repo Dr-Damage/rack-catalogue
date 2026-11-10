@@ -1,0 +1,84 @@
+[
+ {
+  "id": "lynx-rfr-1000",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "RFR 1000",
+  "name": "yellobrik RFR 1000 1RU rack frame (14 modules)",
+  "family": "yellobrik",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik RFR 1000 specification sheet",
+  "productUrl": "https://lynx-technik.com/p/rfr-1000/",
+  "notes": "1RU, 145 mm deep. Holds up to 14 yellobriks; two 12 V DC inputs (RPS 1000 12 V 8 A supplies, one or two). Add each yellobrik as its own device with its ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 14,
+    "prefix": "yellobrik bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Molex Mini-Fit",
+    "count": 2,
+    "prefix": "12V DC (primary/redundant)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "PSU fail GPO"
+   }
+  ]
+ },
+ {
+  "id": "lynx-rfr-6000",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "RFR 6000",
+  "name": "greenMachine RFR 6000 1RU rack frame (2 units)",
+  "family": "greenMachine",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik RFR 6000 page",
+  "productUrl": "https://lynx-technik.com/p/rfr-6000/",
+  "notes": "1RU frame for 1 or 2 greenMachine units, two RPS A100 supplies (sold separately) for redundancy. Add each greenMachine as its own device.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "greenMachine bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 2,
+    "prefix": "RPS A100 PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "PSU fail GPI"
+   }
+  ]
+ }
+]

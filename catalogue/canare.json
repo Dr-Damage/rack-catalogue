@@ -1,0 +1,2667 @@
+[
+ {
+  "id": "canare-32mcka-st",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-ST",
+  "name": "32MCKA-ST 12G-SDI staggered micro video patchbay, 2x32",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "1RU. 32 circuits (64 front jacks, 64 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32mcka-sts",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-STS",
+  "name": "32MCKA-STS 12G-SDI staggered micro video patchbay, 2x32 (straight through)",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "1RU. 32 circuits (64 front jacks, 64 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32mcka-st-15u",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-ST-1.5U",
+  "name": "32MCKA-ST-1.5U 12G-SDI staggered micro video patchbay, 2x32",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "1.5RU panel (catalogued as 2RU of rack space; two fit in 3RU). 32 circuits (64 front jacks, 64 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ],
+  "ruExact": 1.5
+ },
+ {
+  "id": "canare-32mcka-sts-15u",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-STS-1.5U",
+  "name": "32MCKA-STS-1.5U 12G-SDI staggered micro video patchbay, 2x32 (straight through)",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "1.5RU panel (catalogued as 2RU of rack space; two fit in 3RU). 32 circuits (64 front jacks, 64 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ],
+  "ruExact": 1.5
+ },
+ {
+  "id": "canare-32mcka-st-2u",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-ST-2U",
+  "name": "32MCKA-ST-2U 12G-SDI staggered micro video patchbay, 2x32",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "2RU. 32 circuits (64 front jacks, 64 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32mcka-sts-2u",
+  "manufacturer": "Canare",
+  "partNumber": "32MCKA-STS-2U",
+  "name": "32MCKA-STS-2U 12G-SDI staggered micro video patchbay, 2x32 (straight through)",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_015",
+  "notes": "2RU. 32 circuits (64 front jacks, 64 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 1.5 GHz, 4 dB at 12 GHz; isolation 45 dB or more at 6 GHz. Front takes Canare Micro patch cords (MCVPC) only. Staggered BNC rear with vertical stud position. Dust-proof shutters, channel designator strip, 25 mm recess standard (1RU can recess 50/75 mm with M-MA1U02A brackets). About 2.8 kg. Unloaded frame: MJ2-M32CKA-*U. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-48mck-h",
+  "manufacturer": "Canare",
+  "partNumber": "48MCK-H",
+  "name": "48MCK-H 12G-SDI micro video patchbay, 2x48, Micro BNC rear",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_045",
+  "notes": "1RU. 48 circuits (96 front jacks, 96 rear Micro BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 12G-SDI (SMPTE ST 2082-1). 48 channels of I/O in 1RU. Jacks MCVJHK-W/-S. Micro BNC rear (Canare HBC series; check mating with HD-BNC before ordering cables). Dust-proof shutters, channel designator strip, 25 mm recess. Unloaded frame: MJ2-M48CK-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "Micro BNC",
+    "count": 48,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "Micro BNC",
+    "count": 48,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-48mck-hs",
+  "manufacturer": "Canare",
+  "partNumber": "48MCK-HS",
+  "name": "48MCK-HS 12G-SDI micro video patchbay, 2x48, Micro BNC rear (straight through)",
+  "family": "12G Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_045",
+  "notes": "1RU. 48 circuits (96 front jacks, 96 rear Micro BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 12G-SDI (SMPTE ST 2082-1). 48 channels of I/O in 1RU. Jacks MCVJHK-W/-S. Micro BNC rear (Canare HBC series; check mating with HD-BNC before ordering cables). Dust-proof shutters, channel designator strip, 25 mm recess. Unloaded frame: MJ2-M48CK-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "Micro BNC",
+    "count": 48,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "Micro BNC",
+    "count": 48,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32svk-st",
+  "manufacturer": "Canare",
+  "partNumber": "32SVK-ST",
+  "name": "32SVK-ST 12G-SDI single video jack patchbay, 64 jacks",
+  "family": "12G Single Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_035",
+  "notes": "1RU. 32 x SVJK-L plus 32 x SVJK-S single jacks (long and short, staggered), 64 front jacks each wired to its own rear BNC. Not normalled; use SVP-ULK U-links to join pairs and SVP-TK termination plugs. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 12 GHz.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Single jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-32svk-st-15u",
+  "manufacturer": "Canare",
+  "partNumber": "32SVK-ST-1.5U",
+  "name": "32SVK-ST-1.5U 12G-SDI single video jack patchbay, 64 jacks",
+  "family": "12G Single Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_035",
+  "notes": "1.5RU panel (catalogued as 2RU of rack space; two fit in 3RU). 32 x SVJK-L plus 32 x SVJK-S single jacks (long and short, staggered), 64 front jacks each wired to its own rear BNC. Not normalled; use SVP-ULK U-links to join pairs and SVP-TK termination plugs. 12G-SDI (SMPTE ST 2082-1), return loss 15 dB at 12 GHz.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Canare Single jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "Rear"
+   }
+  ],
+  "ruExact": 1.5
+ },
+ {
+  "id": "canare-48mc",
+  "manufacturer": "Canare",
+  "partNumber": "48MC",
+  "name": "48MC 3G-SDI micro video patchbay, 2x48, DIN 1.0/2.3 rear",
+  "family": "Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_011",
+  "notes": "1RU. 48 circuits (96 front jacks, 96 rear DIN 1.0/2.3). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-SDI (SMPTE ST 424). High-density 48 circuits in 1RU, jacks MCVJ-W/-S. Unloaded frame: MJ2-M48CK-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 48,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 48,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-48mcs",
+  "manufacturer": "Canare",
+  "partNumber": "48MCS",
+  "name": "48MCS 3G-SDI micro video patchbay, 2x48, DIN 1.0/2.3 rear (straight through)",
+  "family": "Micro Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_011",
+  "notes": "1RU. 48 circuits (96 front jacks, 96 rear DIN 1.0/2.3). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-SDI (SMPTE ST 424). High-density 48 circuits in 1RU, jacks MCVJ-W/-S. Unloaded frame: MJ2-M48CK-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Canare Micro jack",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 48,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 48,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-st",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-ST",
+  "name": "32MD-ST 3G-SDI staggered mid-size video patchbay, 2x32",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "1RU. 32 circuits (64 front jacks, 64 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-sts",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-STS",
+  "name": "32MD-STS 3G-SDI staggered mid-size video patchbay, 2x32 (straight through)",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "1RU. 32 circuits (64 front jacks, 64 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-st-2u",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-ST-2U",
+  "name": "32MD-ST-2U 3G-SDI staggered mid-size video patchbay, 2x32",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "2RU. 32 circuits (64 front jacks, 64 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-sts-2u",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-STS-2U",
+  "name": "32MD-STS-2U 3G-SDI staggered mid-size video patchbay, 2x32 (straight through)",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "2RU. 32 circuits (64 front jacks, 64 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-st-4u",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-ST-4U",
+  "name": "32MD-ST-4U 3G-SDI staggered mid-size video patchbay, 3x2x32",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "4RU. 96 circuits (192 front jacks, 192 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear. 4RU version holds 3 rows of 32 circuits.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 192,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32md-sts-4u",
+  "manufacturer": "Canare",
+  "partNumber": "32MD-STS-4U",
+  "name": "32MD-STS-4U 3G-SDI staggered mid-size video patchbay, 3x2x32 (straight through)",
+  "family": "Mid-size Video Patchbay",
+  "category": "patch",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_005",
+  "notes": "4RU. 96 circuits (192 front jacks, 192 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready (2K/4K, 3G-SDI, HD-SDI). Mini-WECO front jacks MDVJ-STW/-STS, staggered BNC rear. 4RU version holds 3 rows of 32 circuits.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 192,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-20dv",
+  "manufacturer": "Canare",
+  "partNumber": "20DV",
+  "name": "20DV WECO video patchbay, 2x20",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 20 circuits (40 front jacks, 40 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V20-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 40,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-20dvs",
+  "manufacturer": "Canare",
+  "partNumber": "20DVS",
+  "name": "20DVS WECO video patchbay, 2x20 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 20 circuits (40 front jacks, 40 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V20-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 40,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-20dv-2u",
+  "manufacturer": "Canare",
+  "partNumber": "20DV-2U",
+  "name": "20DV-2U WECO video patchbay, 2x20",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 20 circuits (40 front jacks, 40 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V20-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 40,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-20dvs-2u",
+  "manufacturer": "Canare",
+  "partNumber": "20DVS-2U",
+  "name": "20DVS-2U WECO video patchbay, 2x20 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 20 circuits (40 front jacks, 40 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V20-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 40,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-24dv",
+  "manufacturer": "Canare",
+  "partNumber": "24DV",
+  "name": "24DV WECO video patchbay, 2x24",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 24 circuits (48 front jacks, 48 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V24-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-24dvs",
+  "manufacturer": "Canare",
+  "partNumber": "24DVS",
+  "name": "24DVS WECO video patchbay, 2x24 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 24 circuits (48 front jacks, 48 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V24-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-24dv-2u",
+  "manufacturer": "Canare",
+  "partNumber": "24DV-2U",
+  "name": "24DV-2U WECO video patchbay, 2x24",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 24 circuits (48 front jacks, 48 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V24-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-24dvs-2u",
+  "manufacturer": "Canare",
+  "partNumber": "24DVS-2U",
+  "name": "24DVS-2U WECO video patchbay, 2x24 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 24 circuits (48 front jacks, 48 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V24-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-26dv",
+  "manufacturer": "Canare",
+  "partNumber": "26DV",
+  "name": "26DV WECO video patchbay, 2x26",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 26 circuits (52 front jacks, 52 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V26-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 52,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-26dvs",
+  "manufacturer": "Canare",
+  "partNumber": "26DVS",
+  "name": "26DVS WECO video patchbay, 2x26 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "1RU. 26 circuits (52 front jacks, 52 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V26-1U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 52,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-26dv-2u",
+  "manufacturer": "Canare",
+  "partNumber": "26DV-2U",
+  "name": "26DV-2U WECO video patchbay, 2x26",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 26 circuits (52 front jacks, 52 rear BNC). W (Normal Through): unpatched, top and bottom rear BNC are joined; a plug in the top jack takes the source and terminates the bottom. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V26-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 52,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-26dvs-2u",
+  "manufacturer": "Canare",
+  "partNumber": "26DVS-2U",
+  "name": "26DVS-2U WECO video patchbay, 2x26 (straight through)",
+  "family": "DV Video Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_001",
+  "notes": "2RU. 26 circuits (52 front jacks, 52 rear BNC). S (Straight Through): two independent jacks per circuit, each self-terminating when unpatched. 3G-ready HD-SDI patchbay (SMPTE ST 292, ST 424, ST 425). WECO standard front jacks DVJB-W/-S, BNC rear. Unloaded frame: VJ2-V26-2U.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "WECO jack",
+    "count": 52,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Top (source)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 26,
+    "prefix": "Bottom (dest)"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-jruk",
+  "manufacturer": "Canare",
+  "partNumber": "161U-JRUK",
+  "name": "161U-JRUK 12G-SDI BNC feedthrough panel, 16 x BNC",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU, 16 x BCJ-JRUK BNC jack-to-jack (female-female) 12G-SDI receptacles.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "BNC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-162u-jruk",
+  "manufacturer": "Canare",
+  "partNumber": "162U-JRUK",
+  "name": "162U-JRUK 12G-SDI BNC feedthrough panel, 32 x BNC",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "2RU, 32 x BCJ-JRUK BNC jack-to-jack (female-female) 12G-SDI receptacles, 2 rows.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "BNC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-x1f",
+  "manufacturer": "Canare",
+  "partNumber": "161U-X1F",
+  "name": "161U-X1F XLR connector panel, 16 x XLR",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU. 16 x XLR3-31F77 (XLR female, solder rear). Rear is solder cups (hard-wired).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "XLR F"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-x2f",
+  "manufacturer": "Canare",
+  "partNumber": "161U-X2F",
+  "name": "161U-X2F XLR connector panel, 16 x XLR",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU. 16 x XLR3-32F77 (XLR male, solder rear). Rear is solder cups (hard-wired).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "XLR M"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-x12f",
+  "manufacturer": "Canare",
+  "partNumber": "161U-X12F",
+  "name": "161U-X12F XLR connector panel, 16 x XLR",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU. 8 x XLR3-31F77 female (left) and 8 x XLR3-32F77 male (right), solder rear. Rear is solder cups (hard-wired).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "XLR F"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "XLR M"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-b1",
+  "manufacturer": "Canare",
+  "partNumber": "161U-B1",
+  "name": "161U-B1 XLR connector panel, 16 x XLR",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU. 16 x Neutrik NC3FD-LX-B (D-type XLR female, black). Rear is solder cups (hard-wired).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "XLR F"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-161u-b2",
+  "manufacturer": "Canare",
+  "partNumber": "161U-B2",
+  "name": "161U-B2 XLR connector panel, 16 x XLR",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "1RU. 16 x Neutrik NC3MD-LX-B (D-type XLR male, black). Rear is solder cups (hard-wired).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "XLR M"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 16,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-162u-x21",
+  "manufacturer": "Canare",
+  "partNumber": "162U-X21",
+  "name": "162U-X21 XLR feedthrough panel, 16 male + 16 female",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "2RU. Upper row 16 x XJ3M-P3FA (front XLR male, rear XLR female), lower row 16 x XJ3F-P3MA (front XLR female, rear XLR male). Plug-in on both sides, no soldering.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "Upper XLR M"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "Lower XLR F"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "Upper rear XLR F"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "Lower rear XLR M"
+   }
+  ]
+ },
+ {
+  "id": "canare-162u-x22",
+  "manufacturer": "Canare",
+  "partNumber": "162U-X22",
+  "name": "162U-X22 XLR feedthrough panel, 32 x male-to-female",
+  "family": "Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_010",
+  "notes": "2RU, 2 rows of 16 x XJ3M-P3FA (front XLR male, rear XLR female).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 32,
+    "prefix": "XLR M"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 32,
+    "prefix": "Rear XLR F"
+   }
+  ]
+ },
+ {
+  "id": "canare-1u-as1",
+  "manufacturer": "Canare",
+  "partNumber": "1U-AS1",
+  "name": "1U-AS1 unloaded connector panel, 16 holes (flat panel)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "1RU, 1 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 16,
+    "prefix": "Hole"
+   }
+  ]
+ },
+ {
+  "id": "canare-1u-as3",
+  "manufacturer": "Canare",
+  "partNumber": "1U-AS3",
+  "name": "1U-AS3 unloaded connector panel, 16 holes (flat panel with cable tie bar)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "1RU, 1 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel with cable tie bar, 64.8 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 16,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 64.8
+ },
+ {
+  "id": "canare-1u-as5",
+  "manufacturer": "Canare",
+  "partNumber": "1U-AS5",
+  "name": "1U-AS5 unloaded connector panel, 16 holes (variable panel with cable tie bar, short)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "1RU, 1 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, short, 100 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 16,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 100
+ },
+ {
+  "id": "canare-1u-as7",
+  "manufacturer": "Canare",
+  "partNumber": "1U-AS7",
+  "name": "1U-AS7 unloaded connector panel, 16 holes (variable panel with cable tie bar, long)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "1RU, 1 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, long, 217 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 16,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 217
+ },
+ {
+  "id": "canare-2u-as1",
+  "manufacturer": "Canare",
+  "partNumber": "2U-AS1",
+  "name": "2U-AS1 unloaded connector panel, 32 holes (flat panel)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "2RU, 2 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 32,
+    "prefix": "Hole"
+   }
+  ]
+ },
+ {
+  "id": "canare-2u-as3",
+  "manufacturer": "Canare",
+  "partNumber": "2U-AS3",
+  "name": "2U-AS3 unloaded connector panel, 32 holes (flat panel with cable tie bar)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "2RU, 2 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel with cable tie bar, 64.8 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 32,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 64.8
+ },
+ {
+  "id": "canare-2u-as5",
+  "manufacturer": "Canare",
+  "partNumber": "2U-AS5",
+  "name": "2U-AS5 unloaded connector panel, 32 holes (variable panel with cable tie bar, short)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "2RU, 2 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, short, 100 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 32,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 100
+ },
+ {
+  "id": "canare-2u-as7",
+  "manufacturer": "Canare",
+  "partNumber": "2U-AS7",
+  "name": "2U-AS7 unloaded connector panel, 32 holes (variable panel with cable tie bar, long)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "2RU, 2 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, long, 217 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 32,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 217
+ },
+ {
+  "id": "canare-3u-as1",
+  "manufacturer": "Canare",
+  "partNumber": "3U-AS1",
+  "name": "3U-AS1 unloaded connector panel, 48 holes (flat panel)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "3RU, 3 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 48,
+    "prefix": "Hole"
+   }
+  ]
+ },
+ {
+  "id": "canare-3u-as3",
+  "manufacturer": "Canare",
+  "partNumber": "3U-AS3",
+  "name": "3U-AS3 unloaded connector panel, 48 holes (flat panel with cable tie bar)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "3RU, 3 row(s) of 16 XLR F-77 / Neutrik D-size holes, flat panel with cable tie bar, 64.8 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 48,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 64.8
+ },
+ {
+  "id": "canare-3u-as5",
+  "manufacturer": "Canare",
+  "partNumber": "3U-AS5",
+  "name": "3U-AS5 unloaded connector panel, 48 holes (variable panel with cable tie bar, short)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "3RU, 3 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, short, 100 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 48,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 100
+ },
+ {
+  "id": "canare-3u-as7",
+  "manufacturer": "Canare",
+  "partNumber": "3U-AS7",
+  "name": "3U-AS7 unloaded connector panel, 48 holes (variable panel with cable tie bar, long)",
+  "family": "AS Connector Panel",
+  "category": "patch",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_026",
+  "notes": "3RU, 3 row(s) of 16 XLR F-77 / Neutrik D-size holes, variable panel with cable tie bar, long, 217 mm deep. Unloaded: fit Canare recessed BNC, F, RCA or XLR (ITT XLR-F77 or Neutrik D) and change the port type to suit. A (D) variant is also listed; Canare does not define the suffix.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR-D cutout",
+    "count": 48,
+    "prefix": "Hole"
+   }
+  ],
+  "depthMm": 217
+ },
+ {
+  "id": "canare-48wb-f",
+  "manufacturer": "Canare",
+  "partNumber": "48WB-F",
+  "name": "48WB-F bantam audio patchbay, 2x48, wired (full normal (series))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU, 96 bantam jacks (820AQ) in 2 rows of 48, wired box, full normal (series) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Top row = device outputs, bottom row = device inputs. Check: multipin pinout and which jacks each connector carries.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-32wb-f",
+  "manufacturer": "Canare",
+  "partNumber": "32WB-F",
+  "name": "32WB-F Skini audio patchbay, 2x32, wired (full normal (series))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU, 64 Skini jacks (620A) in 2 rows of 32, wired box, full normal (series) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Check: multipin pinout.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-48xp-f",
+  "manufacturer": "Canare",
+  "partNumber": "48XP-F",
+  "name": "48XP-F bantam audio patchbay, 2x48, wired to XLR panels (full normal (series))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU jackfield (96 bantam jacks, 2x48, full normal (series)) pre-wired to two 3RU XLR panels with 48 x XLR3-31F77 female and 48 x XLR3-32F77 male in total. Add two \"48XP rear XLR panel\" entries for the XLR panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-32xp-f",
+  "manufacturer": "Canare",
+  "partNumber": "32XP-F",
+  "name": "32XP-F Skini audio patchbay, 2x32, wired to XLR panel (full normal (series))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU jackfield (64 Skini jacks, 2x32, full normal (series)) pre-wired to a 4RU XLR panel with 32 x XLR3-31F77 female and 32 x XLR3-32F77 male. Add the \"32XP rear XLR panel\" entry for the XLR panel.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-48wb-h",
+  "manufacturer": "Canare",
+  "partNumber": "48WB-H",
+  "name": "48WB-H bantam audio patchbay, 2x48, wired (half normal (half-parallel))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU, 96 bantam jacks (820AQ) in 2 rows of 48, wired box, half normal (half-parallel) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Top row = device outputs, bottom row = device inputs. Check: multipin pinout and which jacks each connector carries.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-32wb-h",
+  "manufacturer": "Canare",
+  "partNumber": "32WB-H",
+  "name": "32WB-H Skini audio patchbay, 2x32, wired (half normal (half-parallel))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU, 64 Skini jacks (620A) in 2 rows of 32, wired box, half normal (half-parallel) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Check: multipin pinout.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-48xp-h",
+  "manufacturer": "Canare",
+  "partNumber": "48XP-H",
+  "name": "48XP-H bantam audio patchbay, 2x48, wired to XLR panels (half normal (half-parallel))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU jackfield (96 bantam jacks, 2x48, half normal (half-parallel)) pre-wired to two 3RU XLR panels with 48 x XLR3-31F77 female and 48 x XLR3-32F77 male in total. Add two \"48XP rear XLR panel\" entries for the XLR panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-32xp-h",
+  "manufacturer": "Canare",
+  "partNumber": "32XP-H",
+  "name": "32XP-H Skini audio patchbay, 2x32, wired to XLR panel (half normal (half-parallel))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU jackfield (64 Skini jacks, 2x32, half normal (half-parallel)) pre-wired to a 4RU XLR panel with 32 x XLR3-31F77 female and 32 x XLR3-32F77 male. Add the \"32XP rear XLR panel\" entry for the XLR panel.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-48wb-w",
+  "manufacturer": "Canare",
+  "partNumber": "48WB-W",
+  "name": "48WB-W bantam audio patchbay, 2x48, wired (double normal (series-parallel))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU, 96 bantam jacks (820AQ) in 2 rows of 48, wired box, double normal (series-parallel) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Top row = device outputs, bottom row = device inputs. Check: multipin pinout and which jacks each connector carries.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-32wb-w",
+  "manufacturer": "Canare",
+  "partNumber": "32WB-W",
+  "name": "32WB-W Skini audio patchbay, 2x32, wired (double normal (series-parallel))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU, 64 Skini jacks (620A) in 2 rows of 32, wired box, double normal (series-parallel) normalling. Rear 4 x 90-602 multipin connectors (mate with 90-608). Check: multipin pinout.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "90-602 multipin",
+    "count": 4,
+    "prefix": "Multipin"
+   }
+  ]
+ },
+ {
+  "id": "canare-48xp-w",
+  "manufacturer": "Canare",
+  "partNumber": "48XP-W",
+  "name": "48XP-W bantam audio patchbay, 2x48, wired to XLR panels (double normal (series-parallel))",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU jackfield (96 bantam jacks, 2x48, double normal (series-parallel)) pre-wired to two 3RU XLR panels with 48 x XLR3-31F77 female and 48 x XLR3-32F77 male in total. Add two \"48XP rear XLR panel\" entries for the XLR panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-32xp-w",
+  "manufacturer": "Canare",
+  "partNumber": "32XP-W",
+  "name": "32XP-W Skini audio patchbay, 2x32, wired to XLR panel (double normal (series-parallel))",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU jackfield (64 Skini jacks, 2x32, double normal (series-parallel)) pre-wired to a 4RU XLR panel with 32 x XLR3-31F77 female and 32 x XLR3-32F77 male. Add the \"32XP rear XLR panel\" entry for the XLR panel.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   }
+  ]
+ },
+ {
+  "id": "canare-48xp-xlr-3u",
+  "manufacturer": "Canare",
+  "partNumber": "48XP (XLR panel)",
+  "name": "48XP rear XLR panel, 3RU, 24 F + 24 M",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "One of the two 3RU XLR panels supplied with a 48XP-F/H/W bantam patchbay (48 F + 48 M across both). Check: how Canare splits the 48 female and 48 male XLRs between the two panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 24,
+    "prefix": "XLR F (to top row)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 24,
+    "prefix": "XLR M (from bottom row)"
+   }
+  ]
+ },
+ {
+  "id": "canare-32xp-xlr-4u",
+  "manufacturer": "Canare",
+  "partNumber": "32XP (XLR panel)",
+  "name": "32XP rear XLR panel, 4RU, 32 F + 32 M",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "4RU XLR panel supplied with a 32XP-F/H/W Skini patchbay: 32 x XLR3-31F77 female and 32 x XLR3-32F77 male. Check: which row each gender feeds.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 32,
+    "prefix": "XLR F (to top row)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 32,
+    "prefix": "XLR M (from bottom row)"
+   }
+  ]
+ },
+ {
+  "id": "canare-481u-820aq",
+  "manufacturer": "Canare",
+  "partNumber": "481U-820AQ",
+  "name": "481U-820AQ bantam patchbay, 2x48, unwired",
+  "family": "Bantam Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_020",
+  "notes": "1RU, 96 bantam jack holes in 2 rows (820AQ jacks), unwired: rear terminations are made by the installer. Can be recessed 25 mm.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 96,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-32-12a-620a-eia",
+  "manufacturer": "Canare",
+  "partNumber": "32-12A/620A/EIA",
+  "name": "32-12A/620A/EIA Skini patchbay, 2x32, unwired",
+  "family": "Skini Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_019",
+  "notes": "1RU, 2 rows of 32 Skini (620A) jacks, unwired.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Skini jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Solder",
+    "count": 64,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-rs-422-1u-16",
+  "manufacturer": "Canare",
+  "partNumber": "RS-422-1U-16",
+  "name": "RS-422-1U-16 RS-422 bantam patchbay, 16 x DB9",
+  "family": "RS-422 Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_023",
+  "notes": "1RU bantam jack panel for RS-422 serial data, full-normalled at the jacks, T/R/S wired to 16 x 9-pin D-sub female (M2.6 screws). Resold by Canare (made by another manufacturer). Check: front jack count (Canare does not list it; 2 per port assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Bantam (TT)",
+    "count": 32,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 16,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "canare-rs-422-1u-24",
+  "manufacturer": "Canare",
+  "partNumber": "RS-422-1U-24",
+  "name": "RS-422-1U-24 RS-422 bantam patchbay, 24 x DB9",
+  "family": "RS-422 Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_023",
+  "notes": "1RU bantam jack panel for RS-422 serial data, full-normalled at the jacks, T/R/S wired to 24 x 9-pin D-sub female (M2.6 screws). Resold by Canare (made by another manufacturer). Check: front jack count (Canare does not list it; 2 per port assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Bantam (TT)",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 24,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "canare-rs-422-2u-32",
+  "manufacturer": "Canare",
+  "partNumber": "RS-422-2U-32",
+  "name": "RS-422-2U-32 RS-422 bantam patchbay, 32 x DB9",
+  "family": "RS-422 Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_023",
+  "notes": "2RU bantam jack panel for RS-422 serial data, full-normalled at the jacks, T/R/S wired to 32 x 9-pin D-sub female (M2.6 screws). Resold by Canare (made by another manufacturer). Check: front jack count (Canare does not list it; 2 per port assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Bantam (TT)",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 32,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "canare-rs-422-2u-48",
+  "manufacturer": "Canare",
+  "partNumber": "RS-422-2U-48",
+  "name": "RS-422-2U-48 RS-422 bantam patchbay, 48 x DB9",
+  "family": "RS-422 Patchbay",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_023",
+  "notes": "2RU bantam jack panel for RS-422 serial data, full-normalled at the jacks, T/R/S wired to 48 x 9-pin D-sub female (M2.6 screws). Resold by Canare (made by another manufacturer). Check: front jack count (Canare does not list it; 2 per port assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 48,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "canare-24krj-6ajj",
+  "manufacturer": "Canare",
+  "partNumber": "24KRJ-6AJJ",
+  "name": "24KRJ-6AJJ 24-port keystone Cat6A coupler panel (unshielded)",
+  "family": "Keystone IP Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_042",
+  "notes": "1RU black keystone panel loaded with 24 RJ45 unshielded Cat6A couplers (jack-to-jack).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-24krjs-6ajj",
+  "manufacturer": "Canare",
+  "partNumber": "24KRJS-6AJJ",
+  "name": "24KRJS-6AJJ 24-port keystone Cat6A coupler panel (shielded)",
+  "family": "Keystone IP Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_042",
+  "notes": "1RU black keystone panel loaded with 24 RJ45 shielded Cat6A couplers (jack-to-jack).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-k24s-1u-blk",
+  "manufacturer": "Canare",
+  "partNumber": "K24S-1U-BLK",
+  "name": "K24S-1U-BLK 24-hole keystone panel (unloaded)",
+  "family": "Keystone IP Panel",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Panels and Patchbays)",
+  "productUrl": "https://www.canare.co.jp/en/products/panels_and_patchbays/index.php?tid=5_042",
+  "notes": "1RU black, 24 keystone holes, unloaded. Modules: RJUJ-J6A / RJSJ-J6A RJ45, FKDLJ LC duplex, FKSJ SC, FKMPJ MPO, KBCJ-JRK BNC 12G, KBCJ-HBCJK BNC to Micro BNC, KBCJ-DCJ BNC to DIN, KHBCJ-JRK Micro BNC, KDCJ-JR DIN, BP-K blanks. Change the port types to the modules fitted.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Keystone",
+    "count": 24,
+    "prefix": "Slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Keystone",
+    "count": 24,
+    "prefix": "Rear"
+   }
+  ]
+ },
+ {
+  "id": "canare-48kfce-dlc-sjjs",
+  "manufacturer": "Canare",
+  "partNumber": "48KFCE-DLC-SJJS",
+  "name": "48KFCE-DLC-SJJS fibre splice panel, 24 x LC duplex SM",
+  "family": "Fibre Splice Unit",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Fiber-Optic Splice Unit)",
+  "productUrl": "https://www.canare.co.jp/en/products/fiber_optic_systems/index.php?tid=1_059",
+  "notes": "1RU splice unit, 48 fibres on 24 x FKDLJ-JS-S LC duplex single-mode couplers with shutters, 4 splice trays.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 24,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 48,
+    "prefix": "Splice"
+   }
+  ]
+ },
+ {
+  "id": "canare-24kfce-sc-sjjs",
+  "manufacturer": "Canare",
+  "partNumber": "24KFCE-SC-SJJS",
+  "name": "24KFCE-SC-SJJS fibre splice panel, 24 x SC SM",
+  "family": "Fibre Splice Unit",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Fiber-Optic Splice Unit)",
+  "productUrl": "https://www.canare.co.jp/en/products/fiber_optic_systems/index.php?tid=1_059",
+  "notes": "1RU splice unit, 24 fibres on 24 x FKSJ-JS-S SC single-mode couplers with shutters, 2 splice trays.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 24,
+    "prefix": "SC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 24,
+    "prefix": "Splice"
+   }
+  ]
+ },
+ {
+  "id": "canare-161upsc",
+  "manufacturer": "Canare",
+  "partNumber": "161UPSC",
+  "name": "161UPSC 1RU optical converter platform, 16 slots",
+  "family": "Optical Platform",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canare product page (Platforms)",
+  "productUrl": "https://www.canare.co.jp/en/products/fiber_optic_systems/index.php?tid=1_008",
+  "notes": "1RU frame for up to 16 hot-swap Canare TRM plug-in converter modules (SDI, audio, Ethernet, RS-422 over fibre), 100-240 V AC, D-sub 9 female alarm output (4 alarm types). Add a PSM2 module for redundant power. Add each module's connectors as extra ports. Check: which face the modules load from, and the AC inlet type (Canare lists \"AC3P jack\").",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 16,
+    "prefix": "Module slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Alarm"
+   }
+  ]
+ }
+]

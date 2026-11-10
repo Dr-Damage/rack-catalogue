@@ -1,0 +1,91 @@
+[
+ {
+  "id": "dv-se-1200mu",
+  "manufacturer": "Datavideo",
+  "partNumber": "SE-1200MU",
+  "name": "SE-1200MU 6-input switcher",
+  "family": "SE",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo SE-1200MU product page",
+  "productUrl": "https://datavideo.com/us/product/SE-1200MU",
+  "notes": "1RU mainframe, 440 x 215 x 49 mm, 1.5 kg, rack ears included; controlled by RMC panels or PC over Ethernet. 4 HD-SDI + 2 HDMI in, 2 SDI + 2 HDMI out (assignable), internal genlock, 2 balanced XLR audio in, dual-colour tally DB15, 12V 19 W adapter. Check: RS-422/232 connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-422/232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ }
+]

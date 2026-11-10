@@ -1,0 +1,166 @@
+[
+ {
+  "id": "dveo-premio-1ch",
+  "manufacturer": "DVEO",
+  "partNumber": "Premio 1ch SDI",
+  "name": "Premio 1-channel 3G-SDI to IP broadcast encoder",
+  "family": "Premio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "DVEO Premio data sheet",
+  "productUrl": "https://dveo.com/products/premio",
+  "notes": "1RU Windows-based broadcast encoder, 1 x 3G-SDI in, 2 Ethernet ports, 100-240 V. Encodes H.264/HEVC to SRT, UDP, RTMP, HLS. Check: extra server ports (USB, VGA) and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dveo-premio-2ch",
+  "manufacturer": "DVEO",
+  "partNumber": "Premio 2ch SDI",
+  "name": "Premio 2-channel 3G-SDI to IP broadcast encoder",
+  "family": "Premio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "DVEO Premio data sheet",
+  "productUrl": "https://dveo.com/products/premio-2ch-sdi",
+  "notes": "1RU Windows-based broadcast encoder, 2 x 3G-SDI in, 2 Ethernet ports, 100-240 V. Encodes H.264/HEVC to SRT, UDP, RTMP, HLS. Check: extra server ports (USB, VGA) and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dveo-premio-4ch",
+  "manufacturer": "DVEO",
+  "partNumber": "Premio 4ch SDI",
+  "name": "Premio 4-channel 3G-SDI to IP broadcast encoder",
+  "family": "Premio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "DVEO Premio data sheet",
+  "productUrl": "https://dveo.com/products/premio-4ch-sdi",
+  "notes": "1RU Windows-based broadcast encoder, 4 x 3G-SDI in, 2 Ethernet ports, 100-240 V. Encodes H.264/HEVC to SRT, UDP, RTMP, HLS. Check: extra server ports (USB, VGA) and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dveo-premio-8ch",
+  "manufacturer": "DVEO",
+  "partNumber": "Premio 8ch SDI",
+  "name": "Premio 8-channel 3G-SDI to IP broadcast encoder",
+  "family": "Premio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "DVEO Premio data sheet",
+  "productUrl": "https://dveo.com/products/premio-8ch-sdi",
+  "notes": "1RU Windows-based broadcast encoder, 8 x 3G-SDI in, 2 Ethernet ports, 100-240 V. Encodes H.264/HEVC to SRT, UDP, RTMP, HLS. Check: extra server ports (USB, VGA) and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

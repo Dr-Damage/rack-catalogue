@@ -1,0 +1,430 @@
+[
+ {
+  "id": "beh-x32-rack",
+  "manufacturer": "Behringer",
+  "partNumber": "X32 RACK",
+  "name": "X32 RACK digital mixer",
+  "family": "X32",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "X32 RACK quick start / spec sheet",
+  "productUrl": "https://www.behringer.com/product.html?modelCode=0603-ACV",
+  "notes": "3U 40-input, 25-bus digital mixer: 16 Midas mic preamps, 8 XLR outs, 6 aux in/out, 2 AES50 (A/B), Ultranet for P-16, MIDI, Ethernet remote, 1 option card slot (32 ch, e.g. X-USB, X-Dante, X-MADI), 5\" display on the front. Check: USB position (top or front).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "Talkback Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Aux In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "RCA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Aux Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "RCA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ultranet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ]
+ },
+ {
+  "id": "beh-wing-rack",
+  "manufacturer": "Behringer",
+  "partNumber": "WING RACK",
+  "name": "WING RACK digital mixer",
+  "family": "WING",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Reseller product page (Andertons)",
+  "productUrl": "https://www.behringer.com/product.html?modelCode=0604-AAE",
+  "notes": "4U 48-channel, 28-bus mixing engine. 24 Midas PRO mic preamps, 8 outputs, 3 AES50 ports (144 I/O), StageConnect (32 ch over XLR), expansion slot (64 ch Dante, MADI or SoundGrid), dual Ethernet, USB audio/MIDI 48 ch, dual SD recorder, 4 phones outs. Check: aux jacks, AES/EBU, MIDI DIN and talkback connectors, and front/rear split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 3,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "StageConnect"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Phones"
+   }
+  ]
+ },
+ {
+  "id": "beh-s32",
+  "manufacturer": "Behringer",
+  "partNumber": "S32",
+  "name": "S32 digital snake 32x16",
+  "family": "X32",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Full Compass product page",
+  "productUrl": "https://www.fullcompass.com/prod/278127-behringer-s32-digital-snake-stagebox-with-32-inputs-16-outputs",
+  "notes": "3U stagebox, 19 x 5.4 x 9.5 in. 32 Midas mic preamps, 16 XLR line outs, 2 AES/EBU outs, 2 AES50 (48 ch each), Ultranet for P-16, 2 ADAT outs, MIDI, USB-B for updates. Check: which connectors are on the front vs rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ultranet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Toslink",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "beh-s16",
+  "manufacturer": "Behringer",
+  "partNumber": "S16",
+  "name": "S16 digital snake 16x8",
+  "family": "X32",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Thomann product page",
+  "productUrl": "https://www.thomann.ae/behringer_s16.htm",
+  "notes": "16 Midas preamps, 8 XLR outs, AES50, Ultranet and direct P-16 port, 2 ADAT, MIDI, USB, phones. 483 x 89 x 210 mm (2U), 4.9 kg. Check: AES50 port count (1 or 2) and front/rear split.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ultranet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Toslink",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ }
+]

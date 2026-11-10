@@ -1,0 +1,91 @@
+[
+ {
+  "id": "lumens-lc200",
+  "manufacturer": "Lumens",
+  "partNumber": "LC200",
+  "name": "LC200 CaptureVision media processor (switch/record/stream)",
+  "family": "CaptureVision",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lumens VS-LC200 spec sheet",
+  "productUrl": "https://www.mylumens.com/en/Products/LC200",
+  "notes": "1RU, 431 x 44.3 x 122.5 mm, 12 V 2 A external supply. 4 HDMI + 3 IP (H.264) sources, program and multiview HDMI outputs, records and streams. Check: serial port connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out (PGM/MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 4,
+    "prefix": "Line/Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (3 IP sources)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-232/RS-485"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

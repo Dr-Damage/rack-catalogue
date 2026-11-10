@@ -1,0 +1,3233 @@
+[
+ {
+  "id": "aja-og-x-fr",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-X-FR",
+  "name": "openGear OG-X-FR 20-slot frame",
+  "family": "openGear frames",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "AJA OG-X-FR spec sheet",
+  "productUrl": "https://www.aja.com/products/og-x-fr",
+  "notes": "AJA-branded Ross OGX-FR: 2RU openGear frame, 20 card slots, two front-loading OG-X-PS supplies (500 W card power), two looping reference inputs (black burst, tri-level or AES DARS), fans in the front door. 483 x 427 x 90 mm, 9.1 kg with two PSUs. Rear modules cover two slots: full rear module = 1 card, split = 2 cards, double-wide = 4 slots. Check: rear position of the Ethernet, REF and power inlets (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "REF"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "REF Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "rearGen": 4,
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 frame controller in a dedicated slot; network card per frame option",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "bmdog-sdi-analog",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGASA",
+  "name": "OpenGear Converter SDI to Analog",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "HD/SD-SDI to analog component, NTSC or PAL with redundant SDI input and loop. Analog or AES/EBU audio out. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGASA rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In Alt"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Y/Comp Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "B-Y/Y Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "R-Y/C Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 1,
+      "prefix": "Audio L/AES 1-2 Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 1,
+      "prefix": "Audio R Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-analog-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGAAS",
+  "name": "OpenGear Converter Analog to SDI",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "Analog component/composite to HD/SD-SDI with analog or AES/EBU audio embedding. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGAAS rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Y/Comp In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "B-Y In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "R-Y In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 1,
+      "prefix": "Audio L/AES 1-2 In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 1,
+      "prefix": "Audio R In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-sdi-hdmi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGBSH",
+  "name": "OpenGear Converter SDI to HDMI",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "SDI to HDMI with embedded HDMI audio. Connectors are integrated with the card. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGBSH rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-hdmi-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGBHS",
+  "name": "OpenGear Converter HDMI to SDI",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "HDMI (non copy protected) to SDI, both SDI outs carry the same signal. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGBHS rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-sdi-audio",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGCSAUD",
+  "name": "OpenGear Converter SDI to Audio",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "De-embeds 4 ch analog or 8 ch AES/EBU (4 pairs) from SDI. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGCSAUD rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In Alt"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 4,
+      "prefix": "Audio/AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-audio-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGCAUDS",
+  "name": "OpenGear Converter Audio to SDI",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "Embeds 4 ch analog or 8 ch AES/EBU (4 pairs) into SDI. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGCAUDS rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In Alt"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR 3-pin",
+      "count": 4,
+      "prefix": "Audio/AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-optical-fiber",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGOF",
+  "name": "OpenGear Converter Optical Fiber",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "SDI to fibre and fibre to SDI, two independent directions. The LC fibre port is on a removable SFP at the card edge. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre"
+   }
+  ],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGOF rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-sync-gen",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGSYNC",
+  "name": "OpenGear Converter Sync Generator",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "Sync generator with 10 reference outputs (black burst / tri-level). Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGSYNC rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 10,
+      "prefix": "Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-udc",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGUDC",
+  "name": "OpenGear Converter UpDownCross",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "Up, down and cross converter with 7 SDI outs. Check: the loop is passive (listed as \"Passive Loop\"). Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGUDC rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Sync In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 7,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB mini-B",
+      "count": 1,
+      "prefix": "USB"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "bmdog-sdi-da",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "CONVOPENGSDIDA",
+  "name": "OpenGear Converter SDI Distribution",
+  "family": "Blackmagic OpenGear Converters",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic OpenGear Converters manual (connection diagrams pp. 9-18); part numbers from dealer listings",
+  "productUrl": "https://www.blackmagicdesign.com/products/openGearconverters",
+  "notes": "1 x 9 reclocking SDI distribution amplifier. No USB port. Blackmagic rear module supplied with the card. Fits 20-card 2RU openGear frames (OG3-FR, OGX-FR, DFR-8321). Check: rear module width assumed to be a full (2-slot) module, and port order on the module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "CONVOPENGSDIDA rear",
+    "name": "Blackmagic rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "gen": 2,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-sra-8901-10",
+  "manufacturer": "Ross Video",
+  "partNumber": "SRA-8901-10",
+  "name": "SRA-8901-10 12G-SDI DA 1x10",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SRA-8901 product page",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/distribution/sra-8901",
+  "notes": "12G/6G/3G/HD/SD/MADI reclocking DA, 1 in, 10 non-inverting outs. Sold as SRA-8901-10-R3 with the full rear module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3-8901-10",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 10,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-sra-8901-4",
+  "manufacturer": "Ross Video",
+  "partNumber": "SRA-8901-4",
+  "name": "SRA-8901-4 12G-SDI DA 1x4",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SRA-8901 product page",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/distribution/sra-8901",
+  "notes": "12G/6G/3G/HD/SD/MADI reclocking DA, 1 in, 4 outs. Sold as SRA-8901-4-R3S: the split rear module serves this card and a second SRA-8901-4 in the next slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3S-8901-4",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dra-8902-10",
+  "manufacturer": "Ross Video",
+  "partNumber": "DRA-8902-10",
+  "name": "DRA-8902-10 dual 12G-SDI DA 2x10",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross 8900 Series cut sheet; DRA-8902-10-R3 dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Dual 12G/6G/3G/HD/SD/MADI reclocking DA, 2 in, 10 outs assignable to either input, or one DA with main/standby auto-failover. HD-BNC. OG3-FR and OGX-FR only. Sold as DRA-8902-10-R3.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3-8902-10",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 10,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dra-8902-16",
+  "manufacturer": "Ross Video",
+  "partNumber": "DRA-8902-16",
+  "name": "DRA-8902-16 dual 12G-SDI DA 2x16",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross 8900 Series cut sheet; DRA-8902-10-R3 dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Dual 12G/6G/3G/HD/SD/MADI reclocking DA, 2 in, 16 outs assignable to either input, or one DA with main/standby auto-failover. HD-BNC. OG3-FR and OGX-FR only. Sold as DRA-8902-16-R3.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3-8902-16",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 16,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-qra-8808",
+  "manufacturer": "Ross Video",
+  "partNumber": "QRA-8808",
+  "name": "QRA-8808 quad 3G reclocking DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross QRA-8808 product page",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/distribution/qra-8808/",
+  "notes": "Four DAs on one card: channels 1-2 are 1x4, channels 3-4 are 1x3 (18 HD-BNCs). Out 1-4 = ch 1, 5-8 = ch 2, 9-11 = ch 3, 12-14 = ch 4. Check: output numbering per channel.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2H",
+    "name": "High-density rear module (HD-BNC)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 14,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dra-8804",
+  "manufacturer": "Ross Video",
+  "partNumber": "DRA-8804",
+  "name": "DRA-8804 dual 3G reclocking DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DRA-8804 product page",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/distribution/dra-8804/",
+  "notes": "Dual 3G reclocking DA: dual 1x4 with -R2, dual 1x8 with -R2H, or a single 1x16 with A/B input failover.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Standard 10 BNC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2H",
+    "name": "HD-BNC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 16,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-udc-8625a",
+  "manufacturer": "Ross Video",
+  "partNumber": "UDC-8625A",
+  "name": "UDC-8625A 3G/HD/SD up/down/cross converter",
+  "family": "openGear conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross UDC-8625A-A and UDC-8625A-B cut sheets",
+  "productUrl": "https://documentation.rossvideo.com/files/Cut%20Sheets/Infrastructure/UDC-8625A-A.pdf",
+  "notes": "Multi-function 3G/HD/SD format converter with frame sync, ARC, keyer and logo inserter. SDI In 1-2 have full frame sync. The 8 AES ports are set as 8 in, 4 in/4 out or 8 out (needs the audio daughter card). -A card = 75 ohm (R2H/R2D), -B card = 110 ohm (R2B). The card also has 4 GPI/O, an RS-232/485 port and 10/100 Ethernet. Check: which of these are on the rear module and their connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2H",
+    "name": "HD-BNC audio rear module (UDC-8625A-A)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES I/O"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2D",
+    "name": "DIN audio rear module (UDC-8625A-A)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "AES I/O"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2B",
+    "name": "110 ohm audio rear module (UDC-8625A-B)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "Terminal",
+      "count": 8,
+      "prefix": "AES I/O"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-mux-8258-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "MUX-8258-A",
+  "name": "MUX-8258-A 8 ch AES embedder (75 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MUX-8258 dealer listings (10-BNC rear module: 1 SDI in, 1 SDI out, 8 AES in)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Embeds 8 AES/EBU inputs (75 ohm) into HD/SD-SDI.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2A",
+    "name": "Rear module, 75 ohm",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES In"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dmx-8259-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "DMX-8259-A",
+  "name": "DMX-8259-A 8 ch AES de-embedder (75 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DMX-8259 dealer listings",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "De-embeds 8 AES/EBU outputs (75 ohm) from 3G/HD/SD-SDI. Check: SDI in/out count on the 10-connector module (assumed 1 in, 1 out like MUX-8258).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2A",
+    "name": "Rear module, 75 ohm",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-mux-8258-b",
+  "manufacturer": "Ross Video",
+  "partNumber": "MUX-8258-B",
+  "name": "MUX-8258-B 8 ch AES embedder (110 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MUX-8258 dealer listings (10-BNC rear module: 1 SDI in, 1 SDI out, 8 AES in)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Embeds 8 AES/EBU inputs (110 ohm) into HD/SD-SDI. Check: WECO vs BNC split on the R2B module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2B",
+    "name": "Rear module, 110 ohm",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 8,
+      "prefix": "AES In"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dmx-8259-b",
+  "manufacturer": "Ross Video",
+  "partNumber": "DMX-8259-B",
+  "name": "DMX-8259-B 8 ch AES de-embedder (110 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DMX-8259 dealer listings",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "De-embeds 8 AES/EBU outputs (110 ohm) from 3G/HD/SD-SDI. Check: SDI in/out count on the 10-connector module (assumed 1 in, 1 out like MUX-8258).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2B",
+    "name": "Rear module, 110 ohm",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-ada-8402-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "ADA-8402-A",
+  "name": "ADA-8402-A AES/EBU DA (75 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ADA-8402 dealer listings",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Reclocking AES-3id DA: 1 in, 4 outs with the split module or 8 with the full module. 2 W. Check: R2A full module part number (listings name R2B for the 110 ohm card).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2AS",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2A",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-ada-8402-b",
+  "manufacturer": "Ross Video",
+  "partNumber": "ADA-8402-B",
+  "name": "ADA-8402-B AES/EBU DA (110 ohm)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ADA-8402-B-R2B dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Reclocking balanced AES3 DA: 1 in, 8 outs with the full module or 4 with the split module. Check: connector type (WECO terminal assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2B",
+    "name": "Standard rear module, 110 ohm",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2BS",
+    "name": "Split rear module, 110 ohm (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-spg-8260",
+  "manufacturer": "Ross Video",
+  "partNumber": "SPG-8260",
+  "name": "SPG-8260 sync pulse generator",
+  "family": "openGear sync",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SPG-8260 cut sheet",
+  "productUrl": "https://documentation.rossvideo.com/files/Cut%20Sheets/Infrastructure/SPG-8260.pdf",
+  "notes": "Sync generator: output pairs 1A-4A / 1B-4B each set to tri-level, black burst or colour bars; 48 kHz AES reference and AES tone. Locks to frame REF 1/2, its own ref input or internal. SPG-8260-W adds word clock. Check: which outputs the split module keeps.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2-8260",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ext Ref In / AES Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   },
+   {
+    "partNumber": "R2S-8260",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ext Ref In / AES Ref Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-shc-8932-f",
+  "manufacturer": "Ross Video",
+  "partNumber": "SHC-8932-F",
+  "name": "SHC-8932-F dual 12G-SDI/fibre to HDMI converter",
+  "family": "openGear conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "R3F-8932 dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Low-latency dual UHD SDI or fibre to HDMI converter. Check: SDI connector type (HD-BNC assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3F-8932",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "SFP",
+      "connector": "SFP (dual Rx)",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI Out"
+     }
+    ],
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-amx-8952",
+  "manufacturer": "Ross Video",
+  "partNumber": "AMX-8952",
+  "name": "AMX-8952 12G embedder/de-embedder, frame sync",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "R3C-8952 dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "4K UHD 12G-SDI audio embedder/de-embedder and frame synchroniser. -C version: 8 balanced analog channels on a pluggable terminal block. -B version uses R3B-8952. Check: SDI in/out split of the 3 HD-BNCs, and analog in/out split.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3C-8952",
+    "name": "Rear module, analog audio",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog Audio"
+     }
+    ],
+    "gen": 3,
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-dac-8418-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "DAC-8418-A",
+  "name": "DAC-8418-A dual AES to quad analog audio",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DAC-8418-A-R2A dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "Converts 2 unbalanced AES inputs to 4 balanced analog outputs. Check: connector types.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2A",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-hdc-8223",
+  "manufacturer": "Ross Video",
+  "partNumber": "HDC-8223",
+  "name": "HDC-8223 HD monitoring down converter and DA",
+  "family": "openGear conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HDC-8223-R2 dealer listing",
+  "productUrl": "https://www.rossvideo.com/infrastructure/opengear-modular/all",
+  "notes": "2 in (manual or auto failover), 4 outs each set to SDI or analog composite with HD down conversion, optional analog audio out. Check: connector allocation on the 10 BNC module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "10 BNC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out (SDI/composite)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Audio Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-3gda-2x4",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-3GDA-2x4",
+  "name": "OG-3GDA-2x4 3G-SDI DA (2x4 or 1x8)",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-3GDA-2x4 specifications",
+  "productUrl": "https://www.aja.com/products/og-3gda-2x4",
+  "notes": "Reclocking 3G-SDI DA, two 1x4 DAs (In 1 to Out 1-4, In 2 to Out 5-8) or one 1x8 (In 2 unused). Two slots per card, 10 BNC rear module included. Check: AJA spec table says 2 outs per DA while the overview says 4; drawn as 8 outs total.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-3GDA-2x4 rear",
+    "name": "10 BNC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-tr",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-TR",
+  "name": "OG-FiDO-TR 3G-SDI fibre single-mode transceiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido",
+  "notes": "3G-SDI/fibre single-mode transceiver, LC connectors. Occupies two frame slots. -MM multimode versions have the same connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-TR rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-t",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-T",
+  "name": "OG-FiDO-T 3G-SDI fibre single-mode transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido",
+  "notes": "3G-SDI/fibre single-mode transmitter, LC connectors. Occupies two frame slots. -MM multimode versions have the same connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-T rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-r",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-R",
+  "name": "OG-FiDO-R 3G-SDI fibre single-mode receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido",
+  "notes": "3G-SDI/fibre single-mode receiver, LC connectors. Occupies two frame slots. -MM multimode versions have the same connectors. Out 2 on R models is inverting (not DVB-ASI compatible).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-R rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2t",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2T",
+  "name": "OG-FiDO-2T 3G-SDI fibre dual single-mode transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido",
+  "notes": "3G-SDI/fibre dual single-mode transmitter, LC connectors. Occupies two frame slots. -MM multimode versions have the same connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2T rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2r",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2R",
+  "name": "OG-FiDO-2R 3G-SDI fibre dual single-mode receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido",
+  "notes": "3G-SDI/fibre dual single-mode receiver, LC connectors. Occupies two frame slots. -MM multimode versions have the same connectors. Out 2 on R models is inverting (not DVB-ASI compatible).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2R rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9904-udx-4k",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9904-UDX-4K",
+  "name": "9904-UDX-4K 12G UHD up/down/cross converter, frame sync",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "openGear.tv 9904-UDX-4K card page",
+  "productUrl": "https://opengear.tv/card/9904-udx-4k/",
+  "notes": "UHD/HD/3G up/down/cross converter and frame sync, 12G single wire or quad 3G, embed/de-embed, HDR options. Up to 5 per OG3/HPF-9000 frame, 7 per oGx frame; leave 1RU above the frame. Variants -IP (2 x 10GigE) and -DSP use the same rear modules. Check: specs marked preliminary by Cobalt.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9904-D-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9904-B-HDBNC",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In (-H2S)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "notes": "Card sits in the even slot and consumes the adjacent odd slot. Cannot be fitted in slots 19/20.",
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9904-C-HDBNC",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9904-F-HDBNC",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 9,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "notes": "Check: width not stated.",
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9904-G-HDBNC",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 3,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 1,
+      "prefix": "SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     }
+    ],
+    "notes": "Mates to card in odd slot. Check: width and SFP count.",
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9904-J-HDBNC",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 5,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 7,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI Out Relay"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     }
+    ],
+    "notes": "Relay-protected out passes SDI In 5 on power loss. Mates to card in odd slot. Check: width.",
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-2udx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-2UDX",
+  "name": "9902-2UDX dual 3G up/down/cross converter, frame sync",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "openGear.tv 9902-2UDX card page",
+  "productUrl": "https://www.opengear.tv/card/9902-2udx/",
+  "notes": "Two independent 3G/HD/SD paths: up/down/cross conversion, frame sync, audio embed/de-embed. Many more RM20-9902-2UDX rear modules exist (D, F, H, J, K, L, M/S): add them in the catalogue editor if needed.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-2UDX-C",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out Relay"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9902-2UDX-A/S",
+    "name": "Split (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9902-2UDX-E-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9902-2UDX-P-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "notes": "SDI In 1-2 have independent relay bypass.",
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9902-2UDX-N-HDBNC",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "CVBS In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "CVBS Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "notes": "Check: analog audio connector type.",
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "tpl-og-card-full",
+  "manufacturer": "Generic",
+  "partNumber": "openGear card (full rear)",
+  "name": "openGear card, full rear module (template)",
+  "family": "Templates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Template",
+  "productUrl": "",
+  "notes": "Template. Edit the part number and rear module ports to match your card.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Full rear module",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "tpl-og-card-split",
+  "manufacturer": "Generic",
+  "partNumber": "openGear card (split rear)",
+  "name": "openGear card, split rear module (template)",
+  "family": "Templates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Template",
+  "productUrl": "",
+  "notes": "Template. Edit the part number and rear module ports to match your card.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Split rear module",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    },
+    "included": false
+   }
+  ]
+ }
+]

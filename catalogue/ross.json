@@ -1,0 +1,2317 @@
+[
+ {
+  "id": "ross-ultrix-fr1",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIX-NS-FR1",
+  "name": "Ultrix FR1 (1RU)",
+  "family": "Ultrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Ultrix specifications page and Ultrix FR1/FR2 Quick Start Guide (2101DR-002)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "1RU hyperconverged router frame. Built-in 16 x 16 HD-BNC plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 1 I/O/processing card slot, max matrix 36x36. ENET 1 primary, ENET 2 backup 1GbE. Powered from external 15V supply (brick or Ultripower) on PWR 1 with optional redundant PWR 2. Frame weight 4.06 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Check: power connector type and any GPI/serial ports on your hardware revision.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "AUX"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ENET"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultrix-fr2",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIX-NS-FR2",
+  "name": "Ultrix FR2 (2RU)",
+  "family": "Ultrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Ultrix specifications page and Ultrix FR1/FR2 Quick Start Guide (2101DR-002)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "2RU hyperconverged router frame. Built-in 16 x 16 HD-BNC plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 3 I/O/processing card slots, max matrix 72x72. ENET 1 primary, ENET 2 backup 1GbE. Powered from external 15V supply (brick or Ultripower) on PWR 1 with optional redundant PWR 2. Frame weight 5.44 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Also the host frame for Ultrix Carbonite (up to 2 SDPE switcher blades). Check: power connector type and any GPI/serial ports on your hardware revision.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "AUX"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ENET"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultrix-fr5",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIX-FR5",
+  "name": "Ultrix FR5 (5RU)",
+  "family": "Ultrix",
+  "category": "router",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Ultrix specifications page; Ultrix Carbonite and Acuity frame guides",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "5RU Ultrix frame with 9 I/O/processing slots (one is a FLEX slot), max matrix 160x160, no built-in SDI. Powered from up to 2 external 1RU Ultripower frames (plus redundant). Frame weight 6.35 kg without cards. Host frame for Ultrix Carbonite and Ultrix Acuity (SDPE blades: up to 4; each blade adds GPI DB25, Tally DB25, Editor, 2 AES, LTC). Card I/O is not included: add it to the device as extra ports. Check: exact rear layout and connector types for the reference, serial and Ethernet ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ENET"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "Ultripower In"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultrix-fr12",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIX-FR12",
+  "name": "Ultrix FR12 (12RU)",
+  "family": "Ultrix",
+  "category": "router",
+  "ru": 12,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Ultrix specifications page; Ultrix Carbonite and Acuity frame guides",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "12RU Ultrix frame with 16 I/O/processing slots, max matrix 288x288, no built-in SDI. Powered from up to 3 external 1RU Ultripower frames (plus redundant). Frame weight 34.47 kg without cards. Host frame for Ultrix Carbonite and Ultrix Acuity (SDPE blades: up to 8; each blade adds GPI DB25, Tally DB25, Editor, 2 AES, LTC). Card I/O is not included: add it to the device as extra ports. Check: exact rear layout and connector types for the reference, serial and Ethernet ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ENET"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 3,
+    "prefix": "Ultripower In"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultrix-fr30",
+  "manufacturer": "Ross Video",
+  "partNumber": "Ultrix 30RU frame",
+  "name": "Ultrix 30RU frame",
+  "family": "Ultrix",
+  "category": "router",
+  "ru": 30,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Ultrix specifications page",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "30RU Ultrix frame, 32 I/O/processing slots, max matrix 576x576, up to 8 integrated plug-in power modules (2N redundancy), 16.9 in deep, 123 kg without cards. Card I/O not included. Check: part number, rear connectors and power inlet type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ENET"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 8,
+    "prefix": "PSU module"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultripower",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIPOWER",
+  "name": "Ultripower 1RU power frame",
+  "family": "Ultrix",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ultrix Acuity FR12 frame guide (4842DR-201)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
+  "notes": "1RU external power frame for Ultrix FR5/FR12, Ultrix Carbonite and Acuity blades, optional on FR1/FR2 and Carbonite Ultra. Front labelled ports 1-4, OUT, RESTART, ETHERNET, RESET. Several units are grouped and managed with Ultripower Manager. Check: which face the DC outputs are on, mains inlet count, and output count on your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 4,
+    "prefix": "DC Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   }
+  ]
+ },
+ {
+  "id": "ross-nrg-fr1",
+  "manufacturer": "Ross Video",
+  "partNumber": "NRG-FR1",
+  "name": "NRG 16x16 router (1RU)",
+  "family": "NRG",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NRG-FR1 and NRG-FR1-LCP Quick Start Guide (2200DR-401)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/nrg/",
+  "notes": "1RU 16x16 12G router, 270 Mb/s to 12G, ASI, MADI. Output 16 doubles as the quad-split multiviewer SDI output; DisplayPort 1.2a multiviewer head. 15V DC on PWR 1, optional redundant supply on PWR 2, no power switch. 31.7 W max. 8.8 cm deep. Control: GVG Native, SW-P-08. Check: USB connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-nrg-fr2",
+  "manufacturer": "Ross Video",
+  "partNumber": "NRG-FR2",
+  "name": "NRG 32x34 router (2RU)",
+  "family": "NRG",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NRG-FR2 and NRG-FR2-LCP Quick Start Guide (2200DR-402)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/nrg/",
+  "notes": "2RU 32x34 12G router (32 BNC in and out plus MV1/MV2 outputs). One quad-split multiviewer head standard, second licensable; DisplayPort 1.2a head output. ETH 1 primary, ETH 2 backup. 15V DC, redundant PWR 2. 56.6 W max. Check: MV1/MV2 connector type (assumed HD-BNC SDI).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 32,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "MV"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ETH"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-nrg-fr1-lcp",
+  "manufacturer": "Ross Video",
+  "partNumber": "NRG-FR1-LCP",
+  "name": "NRG 16x16 router (1RU) with local panel",
+  "family": "NRG",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NRG-FR1 and NRG-FR1-LCP Quick Start Guide (2200DR-401)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/nrg/",
+  "notes": "1RU 16x16 12G router, 270 Mb/s to 12G, ASI, MADI. Output 16 doubles as the quad-split multiviewer SDI output; DisplayPort 1.2a multiviewer head. 15V DC on PWR 1, optional redundant supply on PWR 2, no power switch. Front local control panel. 35.2 W max. 8.8 cm deep. Control: GVG Native, SW-P-08. Check: USB connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-nrg-fr2-lcp",
+  "manufacturer": "Ross Video",
+  "partNumber": "NRG-FR2-LCP",
+  "name": "NRG 32x34 router (2RU) with local panel",
+  "family": "NRG",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NRG-FR2 and NRG-FR2-LCP Quick Start Guide (2200DR-402)",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/nrg/",
+  "notes": "2RU 32x34 12G router (32 BNC in and out plus MV1/MV2 outputs). One quad-split multiviewer head standard, second licensable; DisplayPort 1.2a head output. ETH 1 primary, ETH 2 backup. 15V DC, redundant PWR 2. Front local control panel. 64.0 W max. Check: MV1/MV2 connector type (assumed HD-BNC SDI).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 32,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "MV"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ETH"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-nrg-fr3",
+  "manufacturer": "Ross Video",
+  "partNumber": "NRG-FR3",
+  "name": "NRG 64x68 router (3RU)",
+  "family": "NRG",
+  "category": "router",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NRG product page and solution brief",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/nrg/",
+  "notes": "3RU 64x68 12G router, no local panel option, 2.90 kg. Check: part number, how the 68 outputs split between router and MV outputs, and the rear ports (inferred from the FR2).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 64,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 64,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "MV"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ETH"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (MV)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 1 (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "PWR 2 (redundant)"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-3g164",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G164",
+  "name": "NK-3G164 16x4 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK series product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-3g-series/",
+  "notes": "1RU 16x4 3G-SDI utility router, 75 ohm BNC, cable-equalised inputs, reclocking outputs. +15V DC from the included universal supply, 16 W; optional redundant NK-RP1/P (1RU) or a second NK-P1. Set up by web browser or DashBoard via NK-IPS. Check: T-Bus and reference connectors on the rear (not listed on the Ross page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-3g16",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G16",
+  "name": "NK-3G16 16x16 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK series product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-3g-series/",
+  "notes": "1RU 16x16 3G-SDI utility router, 75 ohm BNC, cable-equalised inputs, reclocking outputs. +15V DC from the included universal supply, 16 W; optional redundant NK-RP1/P (1RU) or a second NK-P1. Set up by web browser or DashBoard via NK-IPS. Check: T-Bus and reference connectors on the rear (not listed on the Ross page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-3g34",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G34",
+  "name": "NK-3G34 34x34 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK series product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-3g-series/",
+  "notes": "2RU 34x34 3G-SDI utility router, 75 ohm BNC, cable-equalised inputs, reclocking outputs. +15V DC from the included universal supply, 30 W; optional redundant NK-RP1/P (1RU) or a second NK-P1. Set up by web browser or DashBoard via NK-IPS. Check: T-Bus and reference connectors on the rear (not listed on the Ross page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 34,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 34,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-3g64",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G64",
+  "name": "NK-3G64 64x64 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK series product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-3g64/",
+  "notes": "3RU 64x64 3G-SDI utility router, 75 ohm BNC, cable-equalised inputs, reclocking outputs. +15V DC from the included universal supply, 60 W; optional redundant NK-RP1/P (1RU) or a second NK-P1. Set up by web browser or DashBoard via NK-IPS. Expandable in groups of 8 in and 8 out. Check: rack height. Check: T-Bus and reference connectors on the rear (not listed on the Ross page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-3g72",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G72",
+  "name": "NK-3G72 72x72 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK series product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-3g72/",
+  "notes": "3RU 72x72 3G-SDI utility router, 75 ohm BNC, cable-equalised inputs, reclocking outputs. +15V DC from the included universal supply, 60 W; optional redundant NK-RP1/P (1RU) or a second NK-P1. Set up by web browser or DashBoard via NK-IPS. Expandable in groups of 8 in and 8 out, 12 cm deep. Check: T-Bus and reference connectors on the rear (not listed on the Ross page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 72,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 72,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-rp1",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-RP1/P",
+  "name": "NK-RP1 redundant power supply",
+  "family": "NK",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK product pages",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-rp1/",
+  "notes": "1RU 100 W +15V redundant supply for NK routers, connects with NK-S12/P or NK-D12/PN cables. Check: number of DC outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "+15V DC Out"
+   }
+  ]
+ },
+ {
+  "id": "ross-carbonite-ultra",
+  "manufacturer": "Ross Video",
+  "partNumber": "Carbonite Ultra",
+  "name": "Carbonite Ultra 1RU switcher frame",
+  "family": "Carbonite",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Carbonite Ultra specifications page",
+  "productUrl": "https://www.rossvideo.com/live-production/production-switchers/carbonite-ultra/specifications/",
+  "notes": "1RU, 254 mm deep, 5.9 kg. 24 HD-BNC inputs (18 at UHD), 12 outputs: 10 assignable plus 2 dedicated MultiViewer (11 at UHD). Up to 3 MEs and 4 MiniMEs, up to 4 MultiViewers. 24 GPI/O and 24 tallies, RS-422 editor port, LTC input, 2 AES outputs. 114 W from the standard external supply or optional Ultripower. Also the frame for Carbonite Mosaic. Optional 1RU Audio Breakout Module (8 analog in, 5 out, AES in/out). Check: GPI/tally, LTC and AES connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 24,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 10,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Editor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI/O (24)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally (24)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "ross-carbonite-ultra-solo",
+  "manufacturer": "Ross Video",
+  "partNumber": "Carbonite Ultra Solo",
+  "name": "Carbonite Ultra Solo switcher",
+  "family": "Carbonite",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Carbonite Ultra series page",
+  "productUrl": "https://www.rossvideo.com/products/production-switchers/carbonite-ultra-solo/",
+  "notes": "12 in, 6 out, 1 ME, 2 MiniMEs, 1 MultiViewer, UHD capable. Sold as an all-in-one unit or 1RU. Check: rear connectors (only counts are published) and whether outputs include the MultiViewer.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "ross-carbonite-ultra-60",
+  "manufacturer": "Ross Video",
+  "partNumber": "Carbonite Ultra 60",
+  "name": "Carbonite Ultra 60 3RU switcher frame",
+  "family": "Carbonite",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Ultra 60 / Ultrix Carbonite / Acuity product matrix (2024)",
+  "productUrl": "https://www.rossvideo.com/live-production/production-switchers/carbonite-ultra-60/",
+  "notes": "3RU modular frame, 444.5 mm rear width, 9.07 kg. Shown fully loaded (3 I/O boards: 60 in x 25 out). Base engine is 12 x 4; 2 boards give 36 x 12. Up to 3 MEs, 4 MiniMEs, up to 7 MultiViewers. 24 GPI/O, 24 tallies, 1 serial, LTC in, ref in and loop plus independent ref out. 800 W 12V DC supply, AC 100-240 V. Check: split of the 25 outputs between program and MV, connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 60,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 20,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 5,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI/O (24)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally (24)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ross-carbonite-black-x36",
+  "manufacturer": "Ross Video",
+  "partNumber": "Carbonite Black (x36 / x36+ / x36+12G)",
+  "name": "Carbonite Black frame (x36 family)",
+  "family": "Carbonite",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Carbonite Black hardware quick start (4804DR-200-11)",
+  "productUrl": "https://www.rossvideo.com/products/production-switchers/carbonite-ultra/",
+  "notes": "Carbonite Black / Black+ / Black+ 12G frame (x36, x36+, x36+12G). 36 BNC inputs, outputs up to 22 (11-22 have format converters on x36+), MultiViewers on outputs 1-2 plus MV3-MV5 on x36+ frames. GPI/O DB37 (34 lines), Tally DB37 (34), RS-422 on RJ45, LAN1/LAN2, AES stereo out, LTC in, PS1/PS2 supplies. 120 W (x36), 180 W (x36+), 206 W (x36+12G); x36+12G inputs are 12G. Check: rack height and exact output count for your frame.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 36,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 17,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB37",
+    "count": 1,
+    "prefix": "GPI/O (34)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB37",
+    "count": 1,
+    "prefix": "Tally (34)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ]
+ },
+ {
+  "id": "ross-graphite",
+  "manufacturer": "Ross Video",
+  "partNumber": "Graphite",
+  "name": "Graphite all-in-one production system",
+  "family": "Graphite",
+  "category": "switcher",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Graphite product page",
+  "productUrl": "https://www.rossvideo.com/products/production-switchers/all-in-one-production-systems/",
+  "notes": "4RU all-in-one system: Carbonite switcher, audio mixer, XPression graphics and clip player. Check: rear I/O is not published on the product page, add the ports from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "ross-tria-plus-4ch",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria+ 4 channel",
+  "name": "Tria+ 4-channel production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Tria+ specifications page",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-plus/specifications/",
+  "notes": "3RU, 65.1 cm deep, slide rails included. 4 bi-directional channels (each 1 SDI in, 1 SDI out on HD-BNC, quad-link 2160p supported), 1 quad viewer BNC out. Ref in, LTC XLR, 8 RS-422 on RJ45 (octal breakout to D9), gigabit Ethernet, 2 DP + 1 HDMI GUI outputs, AES on 2 x D25, dual hot-swap PSUs. Check: 10G Ethernet option.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 9,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ross-tria-plus-8ch",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria+ 8 channel",
+  "name": "Tria+ 8-channel production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Tria+ specifications page",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-plus/specifications/",
+  "notes": "3RU, 65.1 cm deep, slide rails included. 8 bi-directional channels (each 1 SDI in, 1 SDI out on HD-BNC, quad-link 2160p supported), 2 quad viewer BNC out. Ref in, LTC XLR, 8 RS-422 on RJ45 (octal breakout to D9), gigabit Ethernet, 2 DP + 1 HDMI GUI outputs, AES on 2 x D25, dual hot-swap PSUs. Check: 10G Ethernet option.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 9,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ross-tria-plus-12ch",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria+ 12 channel",
+  "name": "Tria+ 12-channel production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Tria+ specifications page",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-plus/specifications/",
+  "notes": "3RU, 65.1 cm deep, slide rails included. 12 bi-directional channels (each 1 SDI in, 1 SDI out on HD-BNC, quad-link 2160p supported), 3 quad viewer BNC out. Ref in, LTC XLR, 8 RS-422 on RJ45 (octal breakout to D9), gigabit Ethernet, 2 DP + 1 HDMI GUI outputs, AES on 2 x D25, dual hot-swap PSUs. Check: 10G Ethernet option.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 12,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 9,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 3,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ross-ogx-fr-cns",
+  "manufacturer": "Ross Video",
+  "partNumber": "OGX-FR-CNS",
+  "name": "openGear OGX-FR-CNS 20-slot frame",
+  "family": "openGear",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "OGX-FR Quick Start Guide (8322DR-202)",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/frames-accessories/ogx-frame/",
+  "notes": "2RU openGear oGx frame, 20 front-loading card slots with rear module slots. MFC-OG3-N network/controller card (1000BASE-T, SNMP). REF 1 and REF 2 with loops, PS1 main and PS2 redundant power (100-240 V, IEC C13 cords). Allow 2 in side and 5 in rear clearance. Place cards in the frame's slots.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 in a dedicated slot right of PS1; network card MFC-OG3-N",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rearGen": 4
+  }
+ },
+ {
+  "id": "ross-ogx-fr-cn",
+  "manufacturer": "Ross Video",
+  "partNumber": "OGX-FR-CN",
+  "name": "openGear OGX-FR-CN 20-slot frame",
+  "family": "openGear",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "OGX-FR Quick Start Guide (8322DR-202)",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/frames-accessories/ogx-frame/",
+  "notes": "2RU openGear oGx frame, 20 front-loading card slots with rear module slots. MFC-OG3-N network/controller card (1000BASE-T). REF 1 and REF 2 with loops, PS1 main and PS2 redundant power (100-240 V, IEC C13 cords). Allow 2 in side and 5 in rear clearance. Place cards in the frame's slots.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 in a dedicated slot right of PS1; network card MFC-OG3-N",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rearGen": 4
+  }
+ },
+ {
+  "id": "ross-ogx-fr-c",
+  "manufacturer": "Ross Video",
+  "partNumber": "OGX-FR-C",
+  "name": "openGear OGX-FR-C 20-slot frame",
+  "family": "openGear",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "OGX-FR Quick Start Guide (8322DR-202)",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/frames-accessories/ogx-frame/",
+  "notes": "2RU openGear oGx frame, 20 front-loading card slots with rear module slots. MFC-8322-S network/controller card (100BASE-TX). REF 1 and REF 2 with loops, PS1 main and PS2 redundant power (100-240 V, IEC C13 cords). Allow 2 in side and 5 in rear clearance. Place cards in the frame's slots.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 in a dedicated slot right of PS1; network card MFC-OG3-N",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rearGen": 4
+  }
+ },
+ {
+  "id": "ross-og3-fr",
+  "manufacturer": "Ross Video",
+  "partNumber": "OG3-FR",
+  "name": "openGear OG3-FR 20-slot frame (legacy)",
+  "family": "openGear",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross openGear page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/frames-accessories/ogx-frame/",
+  "notes": "Previous-generation 2RU, 20-slot openGear frame. Place cards in the frame's slots. Check: rear layout (assumed same as OGX-FR).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 in a dedicated slot right of PS1; network card MFC-OG3-N",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rearGen": 3
+  }
+ },
+ {
+  "id": "ross-ultritouch-2ru",
+  "manufacturer": "Ross Video",
+  "partNumber": "Ultritouch 2RU",
+  "name": "Ultritouch 2RU touchscreen panel",
+  "family": "Ultrix",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross Ultritouch specifications page",
+  "productUrl": "https://www.rossvideo.com/control-systems/routing-control/ultritouch/specifications/",
+  "notes": "2RU touchscreen control panel (DashBoard/Ultrix control), 2.5 in deep, Gorilla Glass. Redundant Ethernet, HDMI, USB, external power supply with optional redundant supply. Check: connector counts (page lists features, not counts).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "ross-ultritouch-4ru",
+  "manufacturer": "Ross Video",
+  "partNumber": "Ultritouch 4RU",
+  "name": "Ultritouch 4RU touchscreen panel",
+  "family": "Ultrix",
+  "category": "control",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross Ultritouch specifications page",
+  "productUrl": "https://www.rossvideo.com/control-systems/routing-control/ultritouch/specifications/",
+  "notes": "4RU touchscreen control panel (DashBoard/Ultrix control), 2.5 in deep, Gorilla Glass. Redundant Ethernet, HDMI, USB, external power supply with optional redundant supply. VESA mount. Check: connector counts (page lists features, not counts).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

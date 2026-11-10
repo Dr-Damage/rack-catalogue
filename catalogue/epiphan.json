@@ -1,0 +1,212 @@
+[
+ {
+  "id": "epiphan-pearl-2-rackmount",
+  "manufacturer": "Epiphan",
+  "partNumber": "ESP1151",
+  "name": "Pearl-2 Rackmount live production / streaming / recording system",
+  "family": "Pearl-2",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Epiphan Pearl-2 tech specs",
+  "productUrl": "https://www.epiphan.com/products/pearl-2/",
+  "notes": "2RU, 485 x 89 x 276 mm incl. tabs, 5.5 kg. Per system: 2 x 12G-SDI, 2 x HDMI, 2 x 4K HDMI (4K add-on), 4 XLR line, RCA pair, 2 HDMI out, front touch screen. Check: AC inlet count on the Twin.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "4K HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "XLR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "RCA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0 (UVC)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "epiphan-pearl-2-rackmount-twin",
+  "manufacturer": "Epiphan",
+  "partNumber": "ESP1152",
+  "name": "Pearl-2 Rackmount Twin live production / streaming / recording system",
+  "family": "Pearl-2",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Epiphan Pearl-2 tech specs",
+  "productUrl": "https://www.epiphan.com/products/pearl-2/",
+  "notes": "2RU, 485 x 89 x 276 mm incl. tabs, 6.6 kg; two independent Pearl-2 systems in one chassis. Per system: 2 x 12G-SDI, 2 x HDMI, 2 x 4K HDMI (4K add-on), 4 XLR line, RCA pair, 2 HDMI out, front touch screen. Check: AC inlet count on the Twin.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "4K HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "XLR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 4,
+    "prefix": "RCA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0 (UVC)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Audio monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

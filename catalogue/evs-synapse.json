@@ -1,0 +1,2315 @@
+[
+ {
+  "id": "evs-sfr18",
+  "manufacturer": "EVS",
+  "partNumber": "SFR18",
+  "name": "Synapse SFR18 4RU 18-slot frame",
+  "family": "EVS Synapse frames",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS SFR04/08/18 product data sheet; ERC/ERS108/118 data sheet",
+  "productUrl": "https://evs.com/sites/default/files/2021-08/SFR04-08-18_PD.pdf",
+  "notes": "Synapse (ex Axon) 4RU frame, 18 card slots, 2 genlock reference inputs, 500 W max. Rack controller ERC118 / ERS118 (SNMP) sits in a separate slot. SFR18R has redundant power supplies (one PSU as standard). Each card has its own back panel (BPH/BPL/BHX...) ordered separately. Check: slot numbering direction. Check: rear connector positions (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Synapse",
+   "slots": 18,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "v",
+   "controller": "ERC118 / ERS118 (SNMP) rack controller in its own slot (not a card slot)",
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "evs-sfr08",
+  "manufacturer": "EVS",
+  "partNumber": "SFR08",
+  "name": "Synapse SFR08 2RU 8-slot frame",
+  "family": "EVS Synapse frames",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS SFR04/08/18 product data sheet; ERC/ERS108/118 data sheet",
+  "productUrl": "https://evs.com/sites/default/files/2021-08/SFR04-08-18_PD.pdf",
+  "notes": "Synapse (ex Axon) 2RU frame, 8 card slots, 2 genlock reference inputs, 275 W max. Rack controller ERC108 / ERS108 (SNMP) sits in a separate slot. SFR08R has redundant power supplies (one PSU as standard). Each card has its own back panel (BPH/BPL/BHX...) ordered separately. Check: card orientation and slot numbering (cards assumed flat, two columns, slot 1 bottom-left). Check: rear connector positions (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Synapse",
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "ERC108 / ERS108 (SNMP) rack controller in its own slot (not a card slot)",
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "cols": 2
+  }
+ },
+ {
+  "id": "evs-sfr04",
+  "manufacturer": "EVS",
+  "partNumber": "SFR04",
+  "name": "Synapse SFR04 1RU 4-slot frame",
+  "family": "EVS Synapse frames",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS SFR04/08/18 product data sheet; ERC/ERS108/118 data sheet",
+  "productUrl": "https://evs.com/sites/default/files/2021-08/SFR04-08-18_PD.pdf",
+  "notes": "Synapse (ex Axon) 1RU frame, 4 card slots, 1 genlock reference input, 160 W max. Rack controller RRC04 / RRS04 (SNMP) sits in a separate slot. Single PSU. Each card has its own back panel (BPH/BPL/BHX...) ordered separately. Check: card orientation and slot numbering (cards assumed flat, two columns, slot 1 bottom-left). Check: rear connector positions (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Synapse",
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "RRC04 / RRS04 (SNMP) rack controller in its own slot (not a card slot)",
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "cols": 2
+  }
+ },
+ {
+  "id": "evs-syn-gdr108",
+  "manufacturer": "EVS",
+  "partNumber": "GDR108",
+  "name": "GDR108 3G/HD/SD reclocking DA 1x8",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "1 in, 8 reclocked outs, ASI/DVB compatible. SDR108 is the SD-only version with the same panels. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH34",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX34",
+    "name": "Back panel with relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH35R",
+    "name": "Back panel with SFP input",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 1,
+      "prefix": "SFP In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdr216",
+  "manufacturer": "EVS",
+  "partNumber": "GDR216",
+  "name": "GDR216 dual-input 3G reclocking DA, 16 outs",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "2 in, 16 outs (as 2 x 1x8 or 1x16 with failover). BPH42/BHX42 BNC panels and BPH38T/BPH39R SFP panels have fewer outputs: add them in the catalogue editor if you use them. Check: DIN connectors assumed for 18 connectors in one slot; GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH37",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 16,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX37",
+    "name": "Back panel with relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 16,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdr416",
+  "manufacturer": "EVS",
+  "partNumber": "GDR416",
+  "name": "GDR416 4K/3G quad reclocking DA",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Four 1x4 DAs, or quad-link 4K. BPH48T/BPH48R add SFPs. Check: DIN connectors assumed. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH43",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 16,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX43",
+    "name": "Back panel with relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 16,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-udr108",
+  "manufacturer": "EVS",
+  "partNumber": "UDR108",
+  "name": "UDR108 12G UHD reclocking DA 1x8",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "UHD/FHD/HD/SD single-wire 12G DA with 8 reclocked outs. Check: input count and back panel part number. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "UDR108 back panel",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-cdv29",
+  "manufacturer": "EVS",
+  "partNumber": "CDV29",
+  "name": "CDV29 reference DA (black burst / tri-level)",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Black burst / tri-level reference DA with 9 outputs. Check: input on the panel. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPL01",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "Ref Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-dad08",
+  "manufacturer": "EVS",
+  "partNumber": "DAD08",
+  "name": "DAD08 AES/EBU DA 1x8",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "AES/EBU DA, 1 in, 8 outs. BPX01 adds relay bypass. Check: BPL05D connector type. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPL01",
+    "name": "Back panel, 75 ohm",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPL05D",
+    "name": "Back panel, 110 ohm balanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-dwc08",
+  "manufacturer": "EVS",
+  "partNumber": "DWC08",
+  "name": "DWC08 word clock DA 1x8",
+  "family": "Synapse distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Word clock DA, 1 in, 8 outs. DWC18 also generates video-locked word clock. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPL01",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "WC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "WC Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-aad08",
+  "manufacturer": "EVS",
+  "partNumber": "AAD08",
+  "name": "AAD08 dual 1x8 analog audio DA",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Two channels of 1x8 analog audio distribution. Check: connector type (BPL06M is a variant). Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPL06",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 16,
+      "prefix": "Audio Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-geb800",
+  "manufacturer": "EVS",
+  "partNumber": "GEB800",
+  "name": "GEB800 3G/HD/SD 8 ch AES embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-geb880",
+  "manufacturer": "EVS",
+  "partNumber": "GEB880",
+  "name": "GEB880 3G/HD/SD 16 ch AES embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-geb440",
+  "manufacturer": "EVS",
+  "partNumber": "GEB440",
+  "name": "GEB440 3G/HD/SD 8 ch analog embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-geb990",
+  "manufacturer": "EVS",
+  "partNumber": "GEB990",
+  "name": "GEB990 3G/HD/SD 16 ch AES, enhanced (TWINS) embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio embedder: 2 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdb800",
+  "manufacturer": "EVS",
+  "partNumber": "GDB800",
+  "name": "GDB800 3G/HD/SD 8 ch AES de-embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio de-embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdb880",
+  "manufacturer": "EVS",
+  "partNumber": "GDB880",
+  "name": "GDB880 3G/HD/SD 16 ch AES de-embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio de-embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdb440",
+  "manufacturer": "EVS",
+  "partNumber": "GDB440",
+  "name": "GDB440 3G/HD/SD 8 ch analog de-embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio de-embedder: 1 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "Audio Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-gdb990",
+  "manufacturer": "EVS",
+  "partNumber": "GDB990",
+  "name": "GDB990 3G/HD/SD 16 ch AES, enhanced (TWINS) de-embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Audio de-embedder: 2 SDI in, 2 SDI out. Audio counts are read as channels, so AES ports = channel pairs. Other models in the range: 400/440 (analog), 800/840/880 (AES), 500-990 enhanced with 2 SDI in. Check: audio port counts and GPI connector. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18",
+    "name": "Back panel, unbalanced",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, balanced, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "D-sub",
+      "count": 1,
+      "prefix": "GPI"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "evs-syn-grf990",
+  "manufacturer": "EVS",
+  "partNumber": "GRF990",
+  "name": "GRF990 frame sync with AES re-embedder",
+  "family": "Synapse audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "EVS Synapse catalogue (January 2026)",
+  "productUrl": "https://evs.com/sites/default/files/2026-03/Synapse%20Catalog%20-%20January%202026.pdf",
+  "notes": "Frame synchroniser with audio de-embed/re-embed: 2 SDI in/out, 4 AES in and 4 AES out. GRF050-GRF950 are the analog/mixed versions. Synapse cards are all one slot wide, with a separate back panel. Check: back panel connector types (BNC assumed; high-density panels may differ).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "BPH18D",
+    "name": "Back panel, balanced (D-sub)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   },
+   {
+    "partNumber": "BHX18D",
+    "name": "Back panel, relay bypass",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "D-sub",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "tpl-syn-card",
+  "manufacturer": "Generic",
+  "partNumber": "Synapse card",
+  "name": "Synapse card with back panel (template)",
+  "family": "Templates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Template",
+  "productUrl": "",
+  "notes": "Template for any Synapse card: edit the part number and back panel ports to match your card.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Synapse"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Back panel",
+    "name": "Back panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": false
+   }
+  ]
+ }
+]

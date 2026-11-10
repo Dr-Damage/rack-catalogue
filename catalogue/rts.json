@@ -1,0 +1,830 @@
+[
+ {
+  "id": "rts-odin",
+  "manufacturer": "RTS",
+  "partNumber": "ODIN",
+  "name": "ODIN digital matrix intercom",
+  "family": "OMNEO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS ODIN technical data sheet (Rev 08, 2023)",
+  "productUrl": "https://products.rtsintercoms.com/r/odin",
+  "notes": "1RU, 482.6 x 43.7 x 363.5 mm, 5.2 kg, 47 W. 16 to 128 licensed ports per frame, up to 8 frames (1024 ports). OMNEO (Dante) primary/secondary on RJ45 or optional SFP, 16 analog 4-wire RJ45, 2 partyline XLR, 4 inter-frame SFP, GPIO, BNC sync, 2 redundant load-sharing PSUs on locking IEC C14. Check: GPIO connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "OMNEO Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "AIO 4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "2-wire PL"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Inter-Frame (2 up/2 down)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PAP/LCP/GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (4 relay/4 opto)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Front Panel Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-5032",
+  "manufacturer": "RTS",
+  "partNumber": "KP-5032",
+  "name": "KP-5032 OMNEO keypanel",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-5032 product page and KP-Series brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/kp-5032",
+  "notes": "2RU (87.96 mm high, 98.5 mm deep), 32 lever keys with HD colour displays. OMNEO (Dante) IP plus analog matrix connection, aux 1/2 balanced inputs, rear headset and speaker, GPIO (SPDT relays, opto inputs) and RC standard, external DC supply. Headset 5-pin XLR (4-pin option). Up to 6 expansion panels. Check: rear connector counts and types (RTS lists features, not counts).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "OMNEO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Analog Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Headset (rear)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Aux In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO/RC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-4016",
+  "manufacturer": "RTS",
+  "partNumber": "KP-4016",
+  "name": "KP-4016 OMNEO keypanel",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-4016 product page and KP-Series brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/kp-4016",
+  "notes": "1RU (43.8 mm high, 98.5 mm deep), 16 lever keys with HD colour displays. OMNEO (Dante) IP plus analog matrix connection, aux 1/2 balanced inputs, rear headset and speaker, GPIO (SPDT relays, opto inputs) and RC standard, external DC supply. Headset 5-pin XLR (4-pin option). Up to 7 expansion panels. Check: rear connector counts and types (RTS lists features, not counts).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "OMNEO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Analog Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Headset (rear)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Aux In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO/RC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-adam",
+  "manufacturer": "RTS",
+  "partNumber": "ADAM",
+  "name": "ADAM digital matrix intercom frame",
+  "family": "ADAM",
+  "category": "audio",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "RTS ADAM product page",
+  "productUrl": "https://products.rtsintercoms.com/r/adam-2",
+  "notes": "7RU, 19 x 20 in deep. 17 front AIO slots, 2 master controller slots, 1 blank; redundant universal PSUs 100-240 V AC, 700 VA. Up to 512 ports per frame with MADI/OMNEO cards (8 to 880 per system). Rear interface cards: AIO-16A, MADI-16, OMI, RVON; cabling via RJ11, RJ45, DB9 or XCP breakout panels. Add each back card's connectors as extra ports. Check: rear connector counts and controller Ethernet position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 17,
+    "prefix": "AIO slot"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Master controller"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Back card",
+    "count": 17,
+    "prefix": "Back card"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AZedit (MCII-e)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "rts-adam-m",
+  "manufacturer": "RTS",
+  "partNumber": "ADAM-M",
+  "name": "ADAM-M mid-size modular matrix intercom",
+  "family": "ADAM",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "RTS ADAM-M product page and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/adam-m",
+  "notes": "3RU, 8 interface cards (AIO-16A etc.) plus redundant master controllers and power supplies, 90-264 V AC. 128 ports per frame, 512 expanded (OMNEO). Fibre trunking single or multi-mode; external GPIO-16 for GPI. Add each back card's connectors as extra ports. Check: rear connector counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "Interface card"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Master controller"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Back card",
+    "count": 8,
+    "prefix": "Back card"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AZedit"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "rts-cronus",
+  "manufacturer": "RTS",
+  "partNumber": "Cronus",
+  "name": "Cronus 32-port digital matrix intercom",
+  "family": "Cronus",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS Cronus user manual and RTS matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/808509/Rts-Cronus.html",
+  "notes": "2RU, 32 ports on up to 4 AIO or RVON-C cards (8 ports each), backcards RJ-12 or MDR (break out to XCP-48-RJ45, XCP-32-DB9 or XCP-48-Telco panels). Up to 4 frames linked (128 ports) over coax links A/B or optional SC fibre. Redundant power. 4 relays. Check: connector counts (from the user manual, which does not tabulate them).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "AIO / RVON-C slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Back card",
+    "count": 4,
+    "prefix": "Backcard (RJ-12 or MDR)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Frame link A/B (coax)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "rts-zeus-iii",
+  "manufacturer": "RTS",
+  "partNumber": "Zeus III",
+  "name": "Zeus III digital matrix intercom, 32 ports",
+  "family": "Zeus",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS Zeus III technical data sheet",
+  "productUrl": "https://www.fullcompass.com/common/files/13743-ZEUSIIITechnicalDataSheet.pdf",
+  "notes": "1RU, 44 x 415.8 x 381 mm, 3.18 kg. 32 RJ45 keypanel/4-wire ports plus 2 configurable party line channels, DB9 RS485 trunk, RS485 peripheral port (UIO-256, LCP-102), RS232, 10/100 Ethernet, 2 relays, front USB for AZedit, two independent AC supplies (90-264 V) on separate feeds. Check: party line, peripheral, RS232 and relay connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "Party line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Trunk (RS485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Peripheral (RS485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "PC (RS232)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Relay"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (AZedit)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-zeus-iii-leplus",
+  "manufacturer": "RTS",
+  "partNumber": "Zeus III LE+",
+  "name": "Zeus III LE+ digital matrix intercom, 16 ports",
+  "family": "Zeus",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS Zeus III technical data sheet",
+  "productUrl": "https://www.fullcompass.com/common/files/13743-ZEUSIIITechnicalDataSheet.pdf",
+  "notes": "1RU, 44 x 415.8 x 381 mm, 3.18 kg. 16 RJ45 keypanel/4-wire ports plus 2 configurable party line channels, DB9 RS485 trunk, RS485 peripheral port (UIO-256, LCP-102), RS232, 10/100 Ethernet, 2 relays, front USB for AZedit, two independent AC supplies (90-264 V) on separate feeds. LE+ is the 16-port version. Check: party line, peripheral, RS232 and relay connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "Party line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Trunk (RS485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Peripheral (RS485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "PC (RS232)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Relay"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (AZedit)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-32",
+  "manufacturer": "RTS",
+  "partNumber": "KP-32",
+  "name": "KP-32 legacy 32-key keypanel",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS EPAP-32 page and KP-32 dealer listings",
+  "productUrl": "https://www.manualslib.com/manual/327219/Rts-Kp-32.html",
+  "notes": "Legacy RTS Telex 32-key rackmount keypanel with per-key alphanumeric displays (KP-32, KP-632, KP-832 variants); takes EPAP-32 expansion panels (20 keys each, up to 2). Optional RVON-1 card adds RJ45 VoIP. Check: rack height (sources disagree, 1RU or 2RU), matrix connector (DB9 or RJ) and power inlet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion (EPAP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-epap-32",
+  "manufacturer": "RTS",
+  "partNumber": "EPAP-32",
+  "name": "EPAP-32 20-key expansion panel",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS EPAP-32 product page",
+  "productUrl": "https://products.rtsintercoms.com/na/en/epap-32",
+  "notes": "2RU (88.9 x 482.6 mm), adds 20 keys to a KP-32 / KP-632 / KP-832 / PAP-32; up to 2 per station (52 keys in 3RU per RTS). Pushbutton or lever keys, black or grey. Check: link connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   }
+  ]
+ },
+ {
+  "id": "rts-ps-20",
+  "manufacturer": "RTS",
+  "partNumber": "PS-20",
+  "name": "PS-20 two-channel TW intercom power supply",
+  "family": "TW",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS PS-20 spec sheet and Canford listing",
+  "productUrl": "https://www.fullcompass.com/common/files/10335-RTSPS20SpecSheet.pdf",
+  "notes": "1RU half-rack (207.9 mm wide), 90-264 V AC, 28-32 V DC out, about 2 A per channel. Powers 2 wet TW channels (RTS 2-channel, RTS 4-channel or Clear-Com mode), selectable 200/400 ohm termination. Four rear XLR3M TW outputs, program XLR3F, two 6.3 mm link jacks to a second PS-20, front monitor XLR. Mount with an RMK-S / RMK-D (MCP-style) rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "TW line"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Audio link In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Audio link Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-ssa-324",
+  "manufacturer": "RTS",
+  "partNumber": "SSA-324",
+  "name": "SSA-324 two-wire to four-wire interface",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS SSA-324 spec sheet",
+  "productUrl": "https://www.fullcompass.com/common/files/4374-SSA324SpecSheet.pdf",
+  "notes": "1RU half-rack, 208 x 204 mm deep. Two TW channels to 4-wire (or one 2-wire to 2-wire), call signalling, front XLR4F headset. Mains 120 V (P option 230 V). Check: rear connector counts and types (spec sheet does not list them).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "TW (2-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "4-wire In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "4-wire Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

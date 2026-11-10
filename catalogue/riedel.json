@@ -1,0 +1,1096 @@
+[
+ {
+  "id": "riedel-artist-1024",
+  "manufacturer": "Riedel",
+  "partNumber": "Artist-1024",
+  "name": "Artist-1024 intercom node",
+  "family": "Artist",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel Artist-1024 datasheet",
+  "productUrl": "https://www.riedel.net/intercom/artist/",
+  "notes": "2RU, 483 x 88 x 404 mm. Front: 8 SIC bays and 2 NIC bays (both take UIC-128-II cards), e-paper display, rotary encoder, air filters. Each NIC card: 2 SFP slots, 1 RJ45 100/1000BASE-T, 1 USB-C. Each UIC-128-II subscriber card: SFP media slots (AES67, MADI or Dante), Artist-Fiber, RJ45 management; 8 to 128 ports per card. Rear: 2 hot-swap load-sharing PSU-1024 (225 W each), bays A-D for future use. Add subscriber card SFPs as extra ports for the cards you fit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "SIC bay (UIC-128-II)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "NIC bay"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "NIC SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "NIC Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "NIC USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU-1024"
+   }
+  ]
+ },
+ {
+  "id": "riedel-artist-32",
+  "manufacturer": "Riedel",
+  "partNumber": "Artist-32",
+  "name": "Artist-32 intercom mainframe (discontinued)",
+  "family": "Artist",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Riedel Artist page and dealer listings",
+  "productUrl": "https://www.riedel.net/intercom/artist/artist-128-64-32/",
+  "notes": "2RU legacy Artist mainframe, up to 32 ports on 8-port client cards (AES, analog, MADI, fibre). Discontinued but common in trucks. Add the client card connectors as extra ports. Check: rack height, slot count, fibre/controller card positions and PSU inlets (from model naming and dealer listings).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Client card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Fibre link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-artist-64",
+  "manufacturer": "Riedel",
+  "partNumber": "Artist-64",
+  "name": "Artist-64 intercom mainframe (discontinued)",
+  "family": "Artist",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Riedel Artist page and dealer listings",
+  "productUrl": "https://www.riedel.net/intercom/artist/artist-128-64-32/",
+  "notes": "3RU legacy Artist mainframe, up to 64 ports on 8-port client cards (AES, analog, MADI, fibre). Discontinued but common in trucks. Add the client card connectors as extra ports. Check: rack height, slot count, fibre/controller card positions and PSU inlets (from model naming and dealer listings).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "Client card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Fibre link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-artist-128",
+  "manufacturer": "Riedel",
+  "partNumber": "Artist-128",
+  "name": "Artist-128 intercom mainframe (discontinued)",
+  "family": "Artist",
+  "category": "audio",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Riedel Artist page and dealer listings",
+  "productUrl": "https://www.riedel.net/intercom/artist/artist-128-64-32/",
+  "notes": "6RU legacy Artist mainframe, up to 128 ports on 8-port client cards (AES, analog, MADI, fibre). Discontinued but common in trucks. Add the client card connectors as extra ports. Check: rack height, slot count, fibre/controller card positions and PSU inlets (from model naming and dealer listings).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 16,
+    "prefix": "Client card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Fibre link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-rsp-1232hl",
+  "manufacturer": "Riedel",
+  "partNumber": "RSP-1232HL",
+  "name": "RSP-1232HL SmartPanel 32-key",
+  "family": "SmartPanel",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel RSP-1232HL datasheet",
+  "productUrl": "https://www.riedel.net/intercom/smartpanels/",
+  "notes": "2RU, 483 x 88 x 138 mm, 3.4 kg. 32 lever keys, touch displays, 2 speakers. AES67/ST 2110-30 on 2 RJ45 + 2 SFP (2022-7), 2 analog 4-wire, 3 GPO + 3 GPI on Sub-D9, AES3 Artist matrix port (RJ and BNC), 2 rear headset ports, expansion port for ESP-1216HL. Check: 4-wire and headset rear connector types (assumed RJ45).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm jack",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ETH 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ETH 3/4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9M",
+    "count": 1,
+    "prefix": "GPO (3)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "GPI (3)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Artist Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Artist Matrix BNC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Headset A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt (future)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (future)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "riedel-rsp-1216hl",
+  "manufacturer": "Riedel",
+  "partNumber": "RSP-1216HL",
+  "name": "RSP-1216HL SmartPanel 16-key",
+  "family": "SmartPanel",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel RSP-1216HL datasheet",
+  "productUrl": "https://www.riedel.net/intercom/smartpanels/",
+  "notes": "1RU, 483 x 44 x 138 mm, 2.3 kg. 16 lever keys. Same rear I/O as RSP-1232HL. Check: 4-wire and headset rear connector types (assumed RJ45).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm jack",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ETH 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ETH 3/4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9M",
+    "count": 1,
+    "prefix": "GPO (3)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "GPI (3)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Artist Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Artist Matrix BNC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Headset A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt (future)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP (future)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "riedel-esp-1216hl",
+  "manufacturer": "Riedel",
+  "partNumber": "ESP-1216HL",
+  "name": "ESP-1216HL expansion panel",
+  "family": "SmartPanel",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel ESP-1216HL datasheet",
+  "productUrl": "https://www.riedel.net/intercom/smartpanels/",
+  "notes": "1RU, 138 mm deep, 16 lever keys, 2 displays, up to 6 cascaded on an RSP-1232HL/1216HL. 15 W max.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Expansion I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "riedel-rsp-2318",
+  "manufacturer": "Riedel",
+  "partNumber": "RSP-2318",
+  "name": "RSP-2318 SmartPanel 18-key",
+  "family": "SmartPanel",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel RSP-2318 datasheet",
+  "productUrl": "https://www.riedel.net/intercom/smartpanels/",
+  "notes": "1RU, 446 x 44 x 79 mm installed, 1.7 kg, 3 touch displays, 18 keys, built-in PSU (30 W). AES67/AVB on 2 RJ45, AES3 via SPX-AES option card. Power loop-through out (6 A) feeds ESP-2324 expansion panels. Check: GPIO and power connector types.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm jack",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet AES67/AVB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (3 in/3 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI (disabled)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Option slot (SPX-AES)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power Loop Out"
+   }
+  ]
+ },
+ {
+  "id": "riedel-esp-2324",
+  "manufacturer": "Riedel",
+  "partNumber": "ESP-2324",
+  "name": "ESP-2324 expansion panel",
+  "family": "SmartPanel",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel ESP-2324 datasheet",
+  "productUrl": "https://www.riedel.net/intercom/smartpanels/",
+  "notes": "1RU, 79 mm deep, 24 keys, 4 displays, 5 W, daisy-chained from an RSP-2318. Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion Out"
+   }
+  ]
+ },
+ {
+  "id": "riedel-micron",
+  "manufacturer": "Riedel",
+  "partNumber": "MicroN",
+  "name": "MediorNet MicroN",
+  "family": "MediorNet",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Riedel MediorNet MicroN datasheet",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-micron/",
+  "notes": "1RU, 483 x 44 x 241 mm. 12 x 3G-SDI in and out, 2 optical MADI, 8 x 10G SFP+ MediorNet links, GbE, switchable sync in/out plus sync out, redundant wide-range AC supply. Check: SDI connector type (BNC vs HD-BNC) and which face carries the config port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "MADI (optical)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G Link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-micron-uhd",
+  "manufacturer": "Riedel",
+  "partNumber": "MicroN UHD",
+  "name": "MediorNet MicroN UHD",
+  "family": "MediorNet",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Riedel MicroN UHD page and MediorNet brochure",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-micron-uhd/",
+  "notes": "1RU, 48 SDI ports: 8 in + 8 out at 12G, 8 in + 8 out at 3G, 16 switchable 3G. 4 x 100G links (400G), 2 MADI (128 ch), 3 x 1G Ethernet tunnels, sync reference (black burst, tri-level, word clock). Check: connector types (HD-BNC assumed), link port form factor and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "12G In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "12G Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "3G In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "3G Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "3G In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G Link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "MADI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "GbE Tunnel"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-horizon",
+  "manufacturer": "Riedel",
+  "partNumber": "HorizoN",
+  "name": "MediorNet HorizoN",
+  "family": "MediorNet",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Riedel HorizoN page and MediorNet brochure",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-horizon/",
+  "notes": "1RU, 478 x 44 x 500 mm, 10 kg, 350 W. 8 x 12G-SDI in and out, 4 x 100G MediorNet links, 4 x 100G ST 2110 IP interfaces (up to 16 x 25GE), sync (black burst, tri-level, word clock), 2 wide-range AC PSUs. Check: SDI connector type (HD-BNC assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G Link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G IP (2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-metron",
+  "manufacturer": "Riedel",
+  "partNumber": "MetroN",
+  "name": "MediorNet MetroN core router",
+  "family": "MediorNet",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Riedel MetroN page",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-metron/",
+  "notes": "2RU MediorNet core: 64 auto-sensing ports (1-32 up to 10G, 33-64 up to 4.25G), 2 Ethernet + config port, 1 sync in / 2 out, redundant PSUs and fans. Front- or rear-connector versions. Check: sync and power connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 32,
+    "prefix": "10G Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 32,
+    "prefix": "4.25G Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-virtu-32",
+  "manufacturer": "Riedel",
+  "partNumber": "VirtU 32",
+  "name": "MediorNet VirtU 32 processing frame",
+  "family": "MediorNet",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Riedel VirtU page and MediorNet brochure",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-virtu/",
+  "notes": "1RU passive frame with 32 processing SFP slots in 8 clusters of 4 (MuoN B SFPs: BNC, fibre or HDMI I/O, gateways, multiviewer), dual 100/40GE uplinks per cluster, redundant PSU option. Check: uplink count (dual per cluster vs per frame).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 32,
+    "prefix": "MuoN SFP slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G Uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "riedel-fusion-bracket",
+  "manufacturer": "Riedel",
+  "partNumber": "FusioN 2RU bracket",
+  "name": "MediorNet FusioN 2RU bracket",
+  "family": "MediorNet",
+  "category": "shelf",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Riedel FusioN page",
+  "productUrl": "https://www.riedel.net/mediornet/mediornet-fusion/",
+  "notes": "2RU bracket holding up to 9 FusioN 6B or 18 FusioN 3B miniature SFP frames (3 or 6 SFP slots each, 2 x 25/10GE uplinks). Add the frames' SFP and uplink ports as extra ports.",
+  "portGroups": []
+ },
+ {
+  "id": "riedel-rmk-1002",
+  "manufacturer": "Riedel",
+  "partNumber": "RMK-1002",
+  "name": "Bolero charger rack kit",
+  "family": "Bolero",
+  "category": "shelf",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Riedel Bolero accessories",
+  "productUrl": "https://www.riedel.net/produkt/intercom/bolero/accessories/charger-rack-mount-kit-rmk-1002/",
+  "notes": "19 in 4RU rack kit holding two Bolero 5-bay chargers with a lockable drawer. Add the chargers' power inlets as extra ports.",
+  "portGroups": []
+ }
+]

@@ -1,0 +1,582 @@
+[
+ {
+  "id": "gv-densite-3",
+  "manufacturer": "Grass Valley",
+  "partNumber": "DENSITE-3",
+  "name": "Densité 3 3RU 20-slot frame",
+  "family": "Densité frames",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Grass Valley Densité 3 frame data sheet (3-0011B)",
+  "productUrl": "https://grassvalley.com/products/densite_3_frame",
+  "notes": "3RU frame for 20 Densité cards. Two hot-swap 300 W PSUs (100-240 V). Rear connector panels are blank until ordered with each card (single, double -3DRP or triple -3TRP width); the card sits in the right-most slot of a multi-slot panel. Check: rear position of Ethernet, GPI and power (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "Terminal",
+    "count": 1,
+    "prefix": "Alarm GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "Densite",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.85,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "slots": 20,
+   "controller": "Densité-CPU-ETH2 controller with front control panel, in its own slot"
+  }
+ },
+ {
+  "id": "gv-densite-3plus-fr4",
+  "manufacturer": "Grass Valley",
+  "partNumber": "DENSITE-3+FR4",
+  "name": "Densité 3+ FR4 4RU 24-slot frame",
+  "family": "Densité frames",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Grass Valley Densité 3+ FR4 data sheet (GVB-1-0337D)",
+  "productUrl": "https://gvcmsumb.grassvalley.com/products/modular-processing/densite-3-fr4-frame",
+  "notes": "4RU frame for 24 Densité cards at up to 25 W each. Two 700 W hot-swap PSUs, dual GbE, optional passive loop-through reference, alarm GPI. Check: reference loop is optional; rear layout (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "Terminal",
+    "count": 1,
+    "prefix": "Alarm GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "Densite",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.85,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "slots": 24,
+   "controller": "Densité 3+ controller; ADV controller adds a second reference and LTC"
+  }
+ },
+ {
+  "id": "gv-densite-3plus-fr1",
+  "manufacturer": "Grass Valley",
+  "partNumber": "DENSITE-3+FR1",
+  "name": "Densité 3+ FR1 1RU 4-slot frame",
+  "family": "Densité frames",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Grass Valley Densité 3+ FR1 data sheet",
+  "productUrl": "https://grassvalley.com/products/densite_3_frame",
+  "notes": "1RU frame for 4 cards including the system slot (REF-1801-D3+FR1). Two PSUs, 2 x 10/100 Ethernet. Check: cards assumed horizontal; which slot is the system slot.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "Densite",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.85,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "slots": 4,
+   "orient": "h",
+   "fixed": [
+    {
+     "slot": 4,
+     "label": "System (REF-1801-D3+FR1)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "gv-xvp-3901",
+  "manufacturer": "Grass Valley",
+  "partNumber": "XVP-3901",
+  "name": "XVP-3901 3G/HD/SD up/down/cross converter, frame sync",
+  "family": "Densité video processing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Grass Valley XVP-3901 data sheet and Installation Guide v3.11",
+  "productUrl": "https://grassvalley.com/products/xvp-3901-fs",
+  "notes": "Up/down/cross converter and frame sync with 4 AES in/out. The card goes in the right-most slot of its double or triple rear panel. Variants XVP-3901-FS, -DC, -DPI share the rear panels. Check: ref loop on some panels; fibre cartridge SFP-R-LC, SFP-RR-LC or SFP-RT-S13-LC sets the fibre ports.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Densite"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVP-3901-75-3TRP",
+    "name": "Triple rear panel, 75 ohm",
+    "width": 3,
+    "cardsPerModule": 1,
+    "cardOffset": 2,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out B"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "DB26",
+      "count": 1,
+      "prefix": "GPI/RS-422 B"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "RS-422 A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "XVP-3901-75-3TRP-F",
+    "name": "Triple rear panel, 75 ohm, fibre",
+    "width": 3,
+    "cardsPerModule": 1,
+    "cardOffset": 2,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out B"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "DB26",
+      "count": 1,
+      "prefix": "GPI/RS-422 B"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "RS-422 A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC (SFP)",
+      "count": 1,
+      "prefix": "Fibre"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "XVP-3901-110-3TRP",
+    "name": "Triple rear panel, 110 ohm",
+    "width": 3,
+    "cardsPerModule": 1,
+    "cardOffset": 2,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out B"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "DB26",
+      "count": 1,
+      "prefix": "GPI/RS-422 B"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "RS-422 A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "WECO",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "XVP-3901-75-3DRP-F",
+    "name": "Double rear panel, 75 ohm, fibre",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out B"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "DB26",
+      "count": 1,
+      "prefix": "GPI/RS-422 B"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "RS-422 A"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "DB26",
+      "count": 1,
+      "prefix": "AES (D-sub)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC (SFP)",
+      "count": 1,
+      "prefix": "Fibre"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "gv-densite-card",
+  "manufacturer": "Generic",
+  "partNumber": "Densité card",
+  "name": "Densité card, single rear panel (template)",
+  "family": "Templates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Template",
+  "productUrl": "",
+  "notes": "Template for any Densité card: edit the part number and rear panel ports to match your card.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Densite"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Single rear panel",
+    "name": "Single rear panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": false
+   }
+  ]
+ }
+]

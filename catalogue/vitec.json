@@ -1,0 +1,91 @@
+[
+ {
+  "id": "vitec-mgw-diamond",
+  "manufacturer": "VITEC",
+  "partNumber": "MGW Diamond",
+  "name": "MGW Diamond 4K / multi-channel HEVC encoder",
+  "family": "MGW",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "VITEC MGW Diamond datasheet",
+  "productUrl": "https://vitec.com/product/mgw-diamond",
+  "notes": "Compact box 109.6 x 40.1 x 107.6 mm, 12 V DC 14-17 W (external PSU). Optional 1RU 19-inch rack kit; also made as an openGear card (MGW Diamond OG). Up to 4 x 3G/HD/SD-SDI or composite inputs on HD-BNC, 1 x 4K or 4 x HD HEVC/H.264. Analog audio, talkback and serial are on breakout cable 17239. Check: how many units the rack kit holds (4 per 1RU assumed) and the DVB-ASI port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI/Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Breakout",
+    "count": 4,
+    "prefix": "Analog audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Breakout",
+    "count": 1,
+    "prefix": "Talkback Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "SFP (GigE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Breakout",
+    "count": 4,
+    "prefix": "RS-232 (KLV)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "DVB-ASI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,293 @@
+[
+ {
+  "id": "roland-xs-82h",
+  "manufacturer": "Roland",
+  "partNumber": "XS-82H",
+  "name": "XS-82H 8 x 2 multi-format AV matrix switcher",
+  "family": "XS",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland XS Series spec sheet",
+  "productUrl": "https://proav.roland.com/global/products/xs-84h/",
+  "notes": "2RU (EIA), 481 x 88 x 353 mm. 8 HDMI + 8 analog RGB/component inputs, 2 HDMI outputs mirrored on 2 HDBaseT, audio mixer with 8 balanced inputs on 5-pin terminal blocks.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "HD-15",
+    "count": 8,
+    "prefix": "RGB/Component In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "roland-xs-83h",
+  "manufacturer": "Roland",
+  "partNumber": "XS-83H",
+  "name": "XS-83H 8 x 3 multi-format AV matrix switcher",
+  "family": "XS",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland XS Series spec sheet",
+  "productUrl": "https://proav.roland.com/global/products/xs-84h/",
+  "notes": "2RU (EIA), 481 x 88 x 353 mm. 8 HDMI + 8 analog RGB/component inputs, 3 HDMI outputs mirrored on 3 HDBaseT, audio mixer with 8 balanced inputs on 5-pin terminal blocks.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "HD-15",
+    "count": 8,
+    "prefix": "RGB/Component In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 3,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "roland-xs-84h",
+  "manufacturer": "Roland",
+  "partNumber": "XS-84H",
+  "name": "XS-84H 8 x 4 multi-format AV matrix switcher",
+  "family": "XS",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland XS Series spec sheet",
+  "productUrl": "https://proav.roland.com/global/products/xs-84h/",
+  "notes": "2RU (EIA), 481 x 88 x 353 mm. 8 HDMI + 8 analog RGB/component inputs, 4 HDMI outputs mirrored on 4 HDBaseT, audio mixer with 8 balanced inputs on 5-pin terminal blocks.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "HD-15",
+    "count": 8,
+    "prefix": "RGB/Component In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

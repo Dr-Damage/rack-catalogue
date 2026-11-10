@@ -1,0 +1,381 @@
+[
+ {
+  "id": "tascam-ss-r250n",
+  "manufacturer": "TASCAM",
+  "partNumber": "SS-R250N",
+  "name": "SS-R250N networked solid-state audio recorder",
+  "family": "SS-R",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TASCAM SS-R250N spec sheet",
+  "productUrl": "https://tascam.com/us/product/ss-r250n",
+  "notes": "1RU, 482.6 x 45 x 300.5 mm, 2.9 kg. Stereo SD/CF/USB recorder with FTP, parallel and RS-232C control, optional IF-DA2 Dante card. Check: connector counts and faces (spec sheet lists types only; one each per stereo pair assumed) and the front mic input.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Balanced In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Balanced Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Parallel"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Front Mic"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Other",
+    "connector": "2.5mm TRS",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Option slot (IF-DA2 Dante)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-da-6400",
+  "manufacturer": "TASCAM",
+  "partNumber": "DA-6400",
+  "name": "DA-6400 64-track recorder",
+  "family": "DA-6400",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TASCAM DA-6400/DA-6400dp data sheet",
+  "productUrl": "https://tascam.com/us/product/da-6400",
+  "notes": "1RU, 482.6 x 44.9 x 300.5 mm, 3.9 kg. 64 tracks to a hot-swap SSD caddy. Two option slots: IF-DA64 Dante (2 x RJ45), IF-MA64/EX MADI (BNC in/out/thru + optical), IF-MA64/BN MADI coax, IF-AE16 AES (2 x DB25), IF-AN16/OUT analog (2 x DB25). Add the fitted cards' connectors as extra ports. Check: AC inlet count on the dp.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Option slot (MADI/Dante/AES/Analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word/Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Thru/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15F",
+    "count": 1,
+    "prefix": "Parallel"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (control)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Caddy",
+    "count": 1,
+    "prefix": "AK-CC25 SSD caddy"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-da-6400dp",
+  "manufacturer": "TASCAM",
+  "partNumber": "DA-6400dp",
+  "name": "DA-6400dp 64-track recorder (dual PSU)",
+  "family": "DA-6400",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TASCAM DA-6400/DA-6400dp data sheet",
+  "productUrl": "https://tascam.com/us/product/da-6400",
+  "notes": "1RU, 482.6 x 44.9 x 300.5 mm, 4.0 kg. 64 tracks to a hot-swap SSD caddy. Two option slots: IF-DA64 Dante (2 x RJ45), IF-MA64/EX MADI (BNC in/out/thru + optical), IF-MA64/BN MADI coax, IF-AE16 AES (2 x DB25), IF-AN16/OUT analog (2 x DB25). Add the fitted cards' connectors as extra ports. Dual redundant PSUs. Check: AC inlet count on the dp.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Option slot (MADI/Dante/AES/Analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word/Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Thru/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15F",
+    "count": 1,
+    "prefix": "Parallel"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (control)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Caddy",
+    "count": 1,
+    "prefix": "AK-CC25 SSD caddy"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

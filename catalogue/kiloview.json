@@ -1,0 +1,92 @@
+[
+ {
+  "id": "kiloview-rf02",
+  "manufacturer": "Kiloview",
+  "partNumber": "RF02",
+  "name": "Cradle Series RF02 2RU media platform (18 card slots)",
+  "family": "Cradle",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Kiloview Cradle Series RF02 datasheet",
+  "productUrl": "https://kiloview.com/en/wp-content/uploads/2024/09/CRADLE-SERIES-RF02.pdf",
+  "notes": "2RU, 483 x 487 x 88 mm, rear plug-in cards: FN-60 HDMI 2.0 and FN-50 12G-SDI encoders, decoders, FMG-400 gateway, FMV-400/FD-400 multiview, NDI converters. Built-in 240 Gb/s switch, 18 x 1/2.5G links to the slots, dual redundant 500 W PSUs (optional). Front 3 in LCD. Add each card's connectors as extra ports. Check: front/rear placement of the network ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 18,
+    "prefix": "Card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 3,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "5G"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kiloview-ru01",
+  "manufacturer": "Kiloview",
+  "partNumber": "RU01",
+  "name": "RU01 1RU rack frame for 4 encoders (redundant power)",
+  "family": "Rack frames",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview RU01 dealer listing",
+  "productUrl": "https://videoguys.com/products/kiloview-ru01-1ru-4ch-redundant-power-rackmount-frame",
+  "notes": "1RU, 483 x 150 x 44 mm. Holds 4 Kiloview FULL NDI encoders/decoders (all except U40) with 2 x 35 W supplies for redundancy. Add each unit as its own device with its ports. Check: power inlet type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Encoder bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

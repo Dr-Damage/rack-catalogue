@@ -1,0 +1,91 @@
+[
+ {
+  "id": "lawo-a-uhd-core",
+  "manufacturer": "Lawo",
+  "partNumber": "A__UHD Core",
+  "name": "A__UHD Core audio engine",
+  "family": "A__line",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Lawo A__UHD Core datasheet",
+  "productUrl": "https://lawo.com/a__uhd-core/",
+  "notes": "1RU, 483 x 379 mm deep, 7.4 kg. IP audio engine (ST 2110-30 / AES67, RAVENNA): 2 redundant 1GbE management ports, 8 x 1GbE SFP streaming ports in redundant pairs, serial, word clock in/out/thru, service panel (USB-A, DisplayPort, USB-B), 2 hot-swap 220 W PSUs. Check: front/rear split (inferred from callouts).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "Media (4 redundant pairs)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Firmware USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "WCLK In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "WCLK Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "WCLK Thru"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Licence dongle"
+   }
+  ]
+ }
+]

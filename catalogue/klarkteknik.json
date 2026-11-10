@@ -1,0 +1,693 @@
+[
+ {
+  "id": "kt-dn9680",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN9680",
+  "name": "DN9680 8-port AES50 extender and multiplexer",
+  "family": "DN96xx networking",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Klark Teknik DN9680 product page and KT brochure",
+  "productUrl": "https://www.klarkteknik.com/en/products/0606-ABL",
+  "notes": "1RU steel. Multiplexes 8 AES50 streams onto one copper or fibre snake; single-mode opticalCON DUO up to 1000 m (DN9680-MM is the multi-mode version, 500 m). Universal auto-sensing PSU. Check: front/rear placement of the AES50 ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 8,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Snake (copper)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "Snake (fibre)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dn9680-mm",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN9680-MM",
+  "name": "DN9680-MM 8-port AES50 extender (multi-mode fibre)",
+  "family": "DN96xx networking",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Klark Teknik KT brochure",
+  "productUrl": "https://www.klarkteknik.com/en/products/0606-ACS",
+  "notes": "Multi-mode version of the DN9680, fibre snake up to 500 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 8,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Snake (copper)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "Snake (fibre MM)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dn9620",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN9620",
+  "name": "DN9620 dual-port AES50 extender",
+  "family": "DN96xx networking",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Klark Teknik KT brochure",
+  "productUrl": "https://www.klarkteknik.com/en/products/0606-ABM",
+  "notes": "1RU half-rack, rack bracket included. 2 AES50 ports over one multi-mode fibre (up to 500 m) or copper snake.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (config)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Snake (copper)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "Snake (fibre MM)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dn9650",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN9650",
+  "name": "DN9650 network bridge (AES50 to Dante/MADI etc.)",
+  "family": "DN96xx networking",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Klark Teknik DN9650 product page",
+  "productUrl": "https://www.klarkteknik.com/en/products/0606-AAZ",
+  "notes": "1RU, 483 x 44 x 411 mm, 5.1 kg. Up to 64 bidirectional channels between AES50 and a third-party network via a module (KT-DANTE64 Dante, KT-MADI, KT-USB, KT-AES50), ASRC between domains. Add the fitted module's connectors as extra ports. Check: AES50 port count (page says \"all three\") and control port connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES50",
+    "connector": "etherCON",
+    "count": 3,
+    "prefix": "AES50"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Network module (KT-DANTE64/KT-MADI)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Black Burst In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dn9652",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN9652",
+  "name": "DN9652 dual network bridge",
+  "family": "DN96xx networking",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Klark Teknik DN9652 product page and KT brochure",
+  "productUrl": "https://www.klarkteknik.com/en/products/0606-ABA",
+  "notes": "1RU, 483 x 44 x 411 mm, 5.0 kg, <50 W. Bridges two third-party networks (64 channels each way) using two modules: KT-DANTE64, KT-MADI, KT-USB or KT-AES50. Add the modules' connectors as extra ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Network module A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Black Burst In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dm8000",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DM8000",
+  "name": "DM8000 installation DSP (10 in / 6 out, AEC)",
+  "family": "DM processors",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Klark Teknik DM8000 data sheet",
+  "productUrl": "https://www.fullcompass.com/common/files/38553-DM8000DataSheet.pdf",
+  "notes": "1RU, 483 x 49 x 300 mm, 48 W. 10 balanced inputs (8 with acoustic echo cancellation, +48 V phantom), 6 outputs, ULTRANET 16x16, USB audio 2x2. Optional expansion (e.g. DM80 Ultranet). Check: GPIO connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 10,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 6,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ULTRANET"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "RS232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 6,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Expansion module"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dm8500",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DM8500",
+  "name": "DM8500 installation DSP with Dante (10 in / 6 out)",
+  "family": "DM processors",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Klark Teknik KT brochure",
+  "productUrl": "https://www.klarkteknik.com/en/products/0829-ABH",
+  "notes": "1RU, 483 x 44 x 293 mm, <48 W. Like the DM8000 with Dante 64x64 on two RJ45. Check: input connector type and Ethernet control port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 10,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 6,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec (64x64)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ULTRANET Out (16)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 6,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "RS232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-76-kt",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "76-KT",
+  "name": "76-KT FET compressor (1176-style)",
+  "family": "KT classics",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Klark Teknik 76-KT product page",
+  "productUrl": "https://www.klarkteknik.com/en/products/0817-ABA",
+  "notes": "2RU steel, discrete FET compressor with MIDAS transformers and VU meter, universal PSU. Check: connector counts (page gives types only).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-2a-kt",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "2A-KT",
+  "name": "2A-KT tube optical leveling amplifier (LA-2A-style)",
+  "family": "KT classics",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Klark Teknik 2A-KT product page",
+  "productUrl": "https://www.klarkteknik.com/en/products/0817-ABI",
+  "notes": "Tube leveling amplifier with optical attenuator and MIDAS transformers; XLR and TRS balanced I/O, stereo-link TRS. Check: rack height and power inlet (not on the product page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "In (TRS)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Out (TRS)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Stereo Link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-sq1d",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "Square ONE Dynamics",
+  "name": "Square ONE Dynamics 8-channel compressor/gate",
+  "family": "Square ONE",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Pro Acoustics listing (manufacturer data)",
+  "productUrl": "https://www.proacousticsusa.com/klark-teknik-square-one-dynamics-8-channel-dual-mode-compressor-gate.html",
+  "notes": "3RU, 483 x 133 x 227 mm, 4.7 kg, 100-240 V. 8 dual-mode compressor/gate channels, balanced Neutrik XLR I/O, TRS key input per channel. Discontinued but common in racks.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 8,
+    "prefix": "Sidechain"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Solo Bus In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Solo Bus Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kt-dn360",
+  "manufacturer": "Klark Teknik",
+  "partNumber": "DN360",
+  "name": "DN360 dual 31-band graphic equaliser",
+  "family": "DN analogue",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Klark Teknik DN360 dealer listings",
+  "productUrl": "https://www.adorama.com/ktdn360b.html",
+  "notes": "Classic 2-channel 1/3-octave graphic EQ. Check: rack height (3RU assumed) and any extra connectors such as the remote/bypass port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

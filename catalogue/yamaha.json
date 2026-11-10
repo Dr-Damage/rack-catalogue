@@ -1,0 +1,181 @@
+[
+ {
+  "id": "yam-rio3224-d2",
+  "manufacturer": "Yamaha",
+  "partNumber": "Rio3224-D2",
+  "name": "Rio3224-D2 Dante I/O rack",
+  "family": "Rio",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual",
+  "productUrl": "https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html",
+  "notes": "Dante stagebox, 32 mic/line XLR inputs and 16 XLR outputs on the front, 8 AES/EBU outputs on 4 XLR (1/2 to 7/8). Dante primary and secondary etherCON on the rear, dual internal power supplies on one V-lock AC inlet. Check: rack height (not stated in the manual).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 32,
+    "prefix": "In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 4,
+    "prefix": "AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC (V-lock)",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "yam-rio1608-d2",
+  "manufacturer": "Yamaha",
+  "partNumber": "Rio1608-D2",
+  "name": "Rio1608-D2 Dante I/O rack",
+  "family": "Rio",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual",
+  "productUrl": "https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html",
+  "notes": "Dante stagebox, 16 mic/line XLR inputs and 8 XLR outputs on the front. Dante primary and secondary etherCON on the rear, dual internal power supplies on one V-lock AC inlet. Check: rack height (not stated in the manual).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC (V-lock)",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "yam-tio1608-d2",
+  "manufacturer": "Yamaha",
+  "partNumber": "Tio1608-D2",
+  "name": "Tio1608-D2 Dante I/O rack",
+  "family": "Tio",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Yamaha Tio1608-D2 datasheet",
+  "productUrl": "https://europe.yamaha.com/en/audio/portable-pa/products/accessories/tio1608-d2/",
+  "notes": "2U, 480 x 88 x 364 mm. 16 combo inputs (XLR or TRS), 8 XLR outputs, Dante primary/secondary on etherCON, for TF and DM3 consoles. Check: which face carries the Dante and power connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 16,
+    "prefix": "In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

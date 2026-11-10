@@ -1,0 +1,63 @@
+[
+ {
+  "id": "dec-dmon-16s",
+  "manufacturer": "Decimator Design",
+  "partNumber": "DMON-16S",
+  "name": "DMON-16S 16-channel multiviewer",
+  "family": "DMON",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Decimator DMON-16S brochure",
+  "productUrl": "https://www.fullcompass.com/common/files/24640-DecimatorDesignDMON16SBrochure.pdf",
+  "notes": "Desktop 16-input 3G/HD/SD multiviewer, 220 x 103.7 x 29.5 mm; sits on a rack shelf (Decimator rack kits hold two). 1 SDI + 1 HDMI out, USB control, locking 5-32V DC inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 220,
+   "h": 29.5
+  }
+ }
+]

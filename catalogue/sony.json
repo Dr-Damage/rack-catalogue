@@ -1,0 +1,2402 @@
+[
+ {
+  "id": "sony-xvs-g1",
+  "manufacturer": "Sony",
+  "partNumber": "XVS-G1",
+  "name": "XVS-G1 switcher processor",
+  "family": "XVS",
+  "category": "switcher",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony XVS-G1 specifications (pro.sony)",
+  "productUrl": "https://pro.sony/en_DK/products/video-switchers/xvs-g1",
+  "notes": "4RU, 440 x 176 x 583 mm, 22 kg fully optioned. 44 primary inputs and 24 outputs with all XKS-G1110 boards (1.5G/3G/12G), two HD multiviewers standard. Ref in x2 with loop, ref out. GPI DB25 (16 out, 6 in); optional Tally/GPI DB25 x2 (32 out, 12 in); optional RS-422 x8 on 4 RJ45 via breakout. LAN 1/2 gigabit, built-in redundant PSU. Check: AC inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 44,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Tally/GPI (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "RS-422 x2 (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (maint)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-xvs-9000",
+  "manufacturer": "Sony",
+  "partNumber": "XVS-9000",
+  "name": "XVS-9000 switcher processor",
+  "family": "XVS",
+  "category": "switcher",
+  "ru": 15,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony Production Switcher System catalogue 2022 (sony.jp)",
+  "productUrl": "https://pro.sony/ue_US/products/video-switchers/xvs-9000",
+  "notes": "15RU processor. Shown fully loaded in HD: 160 in, 80 out (4K: 80 in, 40 out). 5 M/E (split M/E doubles it). I/O comes from 12G-SDI and 100G IP option boards (XKS-S9112, XKS-C9111), so remove ports you do not fit. Ref in with loop, MVS LAN and UTL LAN. GPI out DB25 (4 relay, 4 open collector). Tally, GPI and RS-422 are on the separate MKS-X7700/X2700 interface units. Check: AC inlet count and SDI board standard (12G boards available).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 160,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 80,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MVS LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "UTL LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-xvs-8000",
+  "manufacturer": "Sony",
+  "partNumber": "XVS-8000",
+  "name": "XVS-8000 switcher processor",
+  "family": "XVS",
+  "category": "switcher",
+  "ru": 10,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony Production Switcher System catalogue 2022 (sony.jp)",
+  "productUrl": "https://pro.sony/ue_US/products/video-switchers/xvs-8000",
+  "notes": "10RU processor. Shown fully loaded in HD: 160 in, 48 out plus 16 format-converter outputs (4K: 40 in, 12 out). 5 M/E (split M/E doubles it). I/O comes from 12G-SDI and 100G IP option boards (XKS-S9112, XKS-C9111), so remove ports you do not fit. Ref in with loop, MVS LAN and UTL LAN. Tally, GPI and RS-422 are on the separate MKS-X7700/X2700 interface units. Check: AC inlet count and SDI board standard (12G boards available).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 160,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "FC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MVS LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "UTL LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-xvs-7000",
+  "manufacturer": "Sony",
+  "partNumber": "XVS-7000",
+  "name": "XVS-7000 switcher processor",
+  "family": "XVS",
+  "category": "switcher",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony Production Switcher System catalogue 2022 (sony.jp)",
+  "productUrl": "https://pro.sony/ue_US/products/video-switchers/xvs-7000",
+  "notes": "8RU processor. Shown fully loaded in HD: 112 in, 48 out plus 16 format-converter outputs (4K: 28 in, 12 out). 3 M/E (split M/E doubles it). I/O comes from 12G-SDI and 100G IP option boards (XKS-S9112, XKS-C9111), so remove ports you do not fit. Ref in with loop, MVS LAN and UTL LAN. Tally, GPI and RS-422 are on the separate MKS-X7700/X2700 interface units. Check: AC inlet count and SDI board standard (12G boards available).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 112,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "FC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MVS LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "UTL LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-xvs-6000",
+  "manufacturer": "Sony",
+  "partNumber": "XVS-6000",
+  "name": "XVS-6000 switcher processor",
+  "family": "XVS",
+  "category": "switcher",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony Production Switcher System catalogue 2022 (sony.jp)",
+  "productUrl": "https://pro.sony/ue_US/products/video-switchers/xvs-6000",
+  "notes": "6RU processor. Shown fully loaded in HD: 64 in, 24 out plus 16 format-converter outputs (4K: 16 in, 6 out). 2 M/E (split M/E doubles it). I/O comes from 12G-SDI and 100G IP option boards (XKS-S9112, XKS-C9111), so remove ports you do not fit. Ref in with loop, MVS LAN and UTL LAN. Tally, GPI and RS-422 are on the separate MKS-X7700/X2700 interface units. Check: AC inlet count and SDI board standard (12G boards available).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 24,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "FC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MVS LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "UTL LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdcu-3500",
+  "manufacturer": "Sony",
+  "partNumber": "HDCU-3500",
+  "name": "HDCU-3500 camera control unit",
+  "family": "HDCU",
+  "category": "converter",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony HDCU-3500 specifications",
+  "productUrl": "https://pro.sony/en_CZ/products/camera-control-unit/hdcu-3500",
+  "notes": "3RU half-rack width CCU, 6.3 kg. UHD SDI A/B out and C/D I/O on 12G BNC (12G/6G need HZCU-UHD35), 4 SDI out, 4 SDI I/O and 4 return on 3G BNC, 2 prompter, ref loop, intercom/tally/IO D-sub 50, RCP/CNU 8-pin, trunk 12-pin, LAN-COM, network trunk, 2 XLR audio out, character/AES BNC. Check: whether LAN-COM and network trunk are RJ45.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SMPTE 304 fibre",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI C/D"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Ret"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Prompter"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50",
+    "count": 1,
+    "prefix": "Intercom/Tally/IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "8-pin multi",
+    "count": 1,
+    "prefix": "RCP/CNU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "12-pin",
+    "count": 1,
+    "prefix": "Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN-COM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Character/AES"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdcu-5500",
+  "manufacturer": "Sony",
+  "partNumber": "HDCU-5500",
+  "name": "HDCU-5500 camera control unit",
+  "family": "HDCU",
+  "category": "converter",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony HDCU-5500 specifications",
+  "productUrl": "https://pro.sony/es_PT/pdf/hdcu-5500",
+  "notes": "3RU half-rack width CCU with the same rear I/O as HDCU-3500 plus options: HKCU-SFP50 ST 2110 IP interface, HKCU-SM50 single-mode fibre, HKCU-REC55 recording. Check: LAN connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SMPTE 304 fibre",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI C/D"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Ret"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Prompter"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50",
+    "count": 1,
+    "prefix": "Intercom/Tally/IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "8-pin multi",
+    "count": 1,
+    "prefix": "RCP/CNU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "12-pin",
+    "count": 1,
+    "prefix": "Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN-COM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Character/AES"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdcu-5000",
+  "manufacturer": "Sony",
+  "partNumber": "HDCU-5000",
+  "name": "HDCU-5000 camera control unit",
+  "family": "HDCU",
+  "category": "converter",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sony HDCU-5000 specifications",
+  "productUrl": "https://pro.sony/ue_US/pdf/hdcu-5000",
+  "notes": "Full 19 in rack-width CCU, 19.5 kg, 2 camera fibre connectors. Same SDI, prompter, ref, intercom and audio I/O as HDCU-3500. Check: rack height (not stated by Sony) and LAN connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SMPTE 304 fibre",
+    "count": 2,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "UHD SDI C/D"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Ret"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Prompter"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50",
+    "count": 1,
+    "prefix": "Intercom/Tally/IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "8-pin multi",
+    "count": 1,
+    "prefix": "RCP/CNU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "12-pin",
+    "count": 1,
+    "prefix": "Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN-COM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Character/AES"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-pws-4500",
+  "manufacturer": "Sony",
+  "partNumber": "PWS-4500",
+  "name": "PWS-4500 multi-port server",
+  "family": "PWS",
+  "category": "recorder",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sony PWS-4500 specifications",
+  "productUrl": "https://pro.sony/en_AU/pdf/pws-4500",
+  "notes": "4K/HD multi-port AV storage server, 22 kg, 480 W max, redundant power. 4 SDI encoder inputs and 8 decoder outputs (3G), 2 HD monitor outs, 4 input monitor outs, ref loop, TC in/out BNC, 8 remote ports on 4 RJ45, GPIO DB25, 2 x 1G network, optional SFP+ 10G, 2 x 10G share play. 12G needs PWSK-4508. Check: rack height (assumed 4RU) and AC inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Input Monitor 5-8"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Remote 1/2-7/8"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "10G Network (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Share Play 10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "NMI Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Maintenance"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-pdw-f1600",
+  "manufacturer": "Sony",
+  "partNumber": "PDW-F1600",
+  "name": "PDW-F1600 XDCAM HD professional disc recorder",
+  "family": "XDCAM",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sony PDW-F1600 specifications (pro.sony)",
+  "productUrl": "https://pro.sony/ue_US/pdf/pdw-f1600",
+  "notes": "Half-rack desktop deck, 210 x 132 x 396 mm (3RU high, half width), about 6.5 kg, AC 100-240 V or DC 12 V, 80 W. Rack mount needs a Sony half-rack mount kit (two decks side by side in 3RU). Full-feature XDCAM HD deck (MPEG HD 4:2:0 up to 35 Mb/s, DVCAM, IMX), jog/shuttle. Check: USB and i.LINK panel face.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD/SD-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote (9-pin)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Video Control (RS-423)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "IEEE 1394 6-pin",
+    "count": 1,
+    "prefix": "i.LINK"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 2,
+    "prefix": "USB (maint)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "4-pin",
+    "count": 1,
+    "prefix": "DC Out 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-pdw-hd1500",
+  "manufacturer": "Sony",
+  "partNumber": "PDW-HD1500",
+  "name": "PDW-HD1500 XDCAM HD422 compact recording deck",
+  "family": "XDCAM",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sony PDW-HD1500 specifications (pro.sony) and XDCAM HD422 catalogue",
+  "productUrl": "https://pro.sony/en_DO/pdf/pdw-hd1500",
+  "notes": "Half-rack desktop deck, 210 x 132 x 396 mm (3RU high, half width), about 6.5 kg, AC 100-240 V or DC 12 V, 80 W. Rack mount needs a Sony half-rack mount kit (two decks side by side in 3RU). XDCAM HD422 50 Mb/s, up to 8 audio channels. Also has a REMOTE 4-pin (DC 12 V) port. Check: USB and i.LINK panel face.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD/SD-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote (9-pin)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Video Control (RS-423)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "IEEE 1394 6-pin",
+    "count": 1,
+    "prefix": "i.LINK"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 2,
+    "prefix": "USB (maint)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "4-pin",
+    "count": 1,
+    "prefix": "DC Out 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-pdw-f1500",
+  "manufacturer": "Sony",
+  "partNumber": "PDW-F1500",
+  "name": "PDW-F1500 XDCAM HD compact deck",
+  "family": "XDCAM",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony PDW-F1600 / PDW-HD1500 specifications (shared chassis)",
+  "productUrl": "https://pro.sony/ue_US/pdf/pdw-f1600",
+  "notes": "Half-rack desktop deck, 210 x 132 x 396 mm (3RU high, half width), about 6.5 kg, AC 100-240 V or DC 12 V, 80 W. Rack mount needs a Sony half-rack mount kit (two decks side by side in 3RU). First-generation XDCAM HD half-rack deck (MPEG HD 4:2:0, 35/25/18 Mb/s), predecessor of the PDW-HD1500 and PDW-F1600. Check: connectors assumed the same as the PDW-F1600 (same chassis); Sony no longer publishes the F1500 sheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD/SD-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote (9-pin)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Video Control (RS-423)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "IEEE 1394 6-pin",
+    "count": 1,
+    "prefix": "i.LINK"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 2,
+    "prefix": "USB (maint)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "4-pin",
+    "count": 1,
+    "prefix": "DC Out 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-xds-pd2000",
+  "manufacturer": "Sony",
+  "partNumber": "XDS-PD2000",
+  "name": "XDS-PD2000 XDCAM professional media station (disc + SxS + SSD)",
+  "family": "XDCAM",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sony XDS-PD2000 specifications (pro.sony)",
+  "productUrl": "https://pro.sony/ue_US/pdf/xds-pd2000-a",
+  "notes": "424 x 132 x 460 mm (3RU, full width), 16 kg, AC 100-240 V, 210 W. Professional Disc drive, 2 SxS slots, internal SSD; XAVC, MPEG HD422, IMX, DVCAM. Check: which USB ports are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD/SD-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Monitor (HD/SD)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "System TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES In (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES Out (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DE-15",
+    "count": 1,
+    "prefix": "VGA Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 2,
+    "prefix": "Remote (RS-422A)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Video Control (RS-423)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15F",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 5,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdw-m2000",
+  "manufacturer": "Sony",
+  "partNumber": "HDW-M2000P",
+  "name": "HDW-M2000P HDCAM studio VTR (multi-format playback)",
+  "family": "HDCAM",
+  "category": "recorder",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Expandore HDW-M2000P specification page and HDW-M2000 operation manual",
+  "productUrl": "https://expandore.com/PRODUCT/Sony/Proav/model/HD/HDCAM_VTR_M2000P.htm",
+  "notes": "427 x 174 x 544 mm (194 mm with feet), 23 kg, AC 100-240 V, 220 W. Records HDCAM, plays Digital Betacam, Betacam SX, Betacam SP. Optional HKDW-102 adds SDTI in/out. Rack mount on slides. Check: rack height (4RU without feet) and the D-sub 9 video control port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "HD-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Component Out (Y/R-Y/B-Y)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 5,
+    "prefix": "Audio In (CH1-4, Cue)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 5,
+    "prefix": "Audio Out (CH1-4, Cue)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote In (RS-422A)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote Out (RS-422A)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Video Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50F",
+    "count": 1,
+    "prefix": "Parallel Remote"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-srw-5800",
+  "manufacturer": "Sony",
+  "partNumber": "SRW-5800",
+  "name": "SRW-5800 HDCAM SR studio VTR",
+  "family": "HDCAM SR",
+  "category": "recorder",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Sony SRW-5800 catalogue (sony.jp)",
+  "productUrl": "https://www-origin.sony.jp/products/catalog/SPC_SRW-5800.pdf",
+  "notes": "About 427 x 218 x 544 mm (5RU), 30 kg, 380 W with all options. HDCAM SR 4:4:4 / 4:2:2 dual-link capable with input/output B option boards; HKSR-5001 adds format conversion and a second reference. Check: rack height with feet removed, AC voltage range outside Japan (source is the Japanese catalogue, AC 100 V).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI In A (1 loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD-SDI In B (opt, 1 loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In 1 (1 loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In 2 (HKSR-5001)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "AES In (CH1-12)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "HD-SDI Out A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "HD-SDI Out B (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Format Conv Out A/B (HKSR-5001)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SD Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "HD Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "AES Out (CH1-12)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Cue Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote 1 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Remote 1 I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Video Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50F",
+    "count": 1,
+    "prefix": "Parallel I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "sony-dvw-a500",
+  "manufacturer": "Sony",
+  "partNumber": "DVW-A500P",
+  "name": "DVW-A500P Digital Betacam studio VTR",
+  "family": "Digital Betacam",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sony Digital Betacam family brochure",
+  "productUrl": "https://archive.decromancer.ca/vtda.org/docs/AV/Sony/DVW-A500/SonyDigitalBetacamFamily.pdf",
+  "notes": "427 x 237 x 520 mm, 35 kg, AC 90-265 V, 175 W. Digital Betacam record, plays analogue Betacam/SP (A500). DVW-500P is the same without analogue playback (33 kg). Same frame size as BVW studio VTRs. Check: rack height (237 mm includes feet; 6RU assumed, may fit 5RU on slides).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In (active loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Component In (Y/R-Y/B-Y)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite In (opt BKDW-506, loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In (loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Component Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 5,
+    "prefix": "Audio In (CH1-4, Cue)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 5,
+    "prefix": "Audio Out (CH1-4, Cue)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9F",
+    "count": 2,
+    "prefix": "Remote 1 In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB50",
+    "count": 1,
+    "prefix": "Parallel (opt BKDW-509)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Video Control"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

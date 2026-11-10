@@ -1,0 +1,1684 @@
+[
+ {
+  "id": "apc-smt750rmi2uc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMT750RMI2UC",
+  "name": "Smart-UPS 750VA LCD RM 2U 230V with SmartConnect",
+  "family": "Smart-UPS SMT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMT750RMI2UC",
+  "notes": "2U line-interactive 750 VA / 500 W, 230 V, LCD. Input IEC C14. SmartSlot takes an AP9640/AP9641 network card. SMT750RMI2U (no C) is the same without the SmartConnect port; SMT750RMI2UNC ships with a network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   }
+  ]
+ },
+ {
+  "id": "apc-smt1000rmi2uc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMT1000RMI2UC",
+  "name": "Smart-UPS 1000VA LCD RM 2U 230V with SmartConnect",
+  "family": "Smart-UPS SMT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMT1000RMI2UC",
+  "notes": "2U line-interactive 1000 VA / 700 W, 230 V, LCD. Input IEC C14. SmartSlot takes an AP9640/AP9641 network card. SMT1000RMI2U (no C) is the same without the SmartConnect port; SMT1000RMI2UNC ships with a network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   }
+  ]
+ },
+ {
+  "id": "apc-smt1500rmi2uc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMT1500RMI2UC",
+  "name": "Smart-UPS 1500VA LCD RM 2U 230V with SmartConnect",
+  "family": "Smart-UPS SMT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMT1500RMI2UC",
+  "notes": "2U line-interactive 1500 VA / 1000 W, 230 V, LCD. Input IEC C14. SmartSlot takes an AP9640/AP9641 network card. SMT1500RMI2U (no C) is the same without the SmartConnect port; SMT1500RMI2UNC ships with a network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   }
+  ]
+ },
+ {
+  "id": "apc-smt2200rmi2uc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMT2200RMI2UC",
+  "name": "Smart-UPS 2200VA LCD RM 2U 230V with SmartConnect",
+  "family": "Smart-UPS SMT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMT2200RMI2UC",
+  "notes": "2U line-interactive 2200 VA / 1980 W, 230 V, LCD. Input IEC C20. SmartSlot takes an AP9640/AP9641 network card. SMT2200RMI2U (no C) is the same without the SmartConnect port; SMT2200RMI2UNC ships with a network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   }
+  ]
+ },
+ {
+  "id": "apc-smt3000rmi2uc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMT3000RMI2UC",
+  "name": "Smart-UPS 3000VA LCD RM 2U 230V with SmartConnect",
+  "family": "Smart-UPS SMT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMT3000RMI2UC",
+  "notes": "2U line-interactive 3000 VA / 2700 W, 230 V, LCD. Input IEC C20. SmartSlot takes an AP9640/AP9641 network card. SMT3000RMI2U (no C) is the same without the SmartConnect port; SMT3000RMI2UNC ships with a network card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SmartConnect"
+   }
+  ]
+ },
+ {
+  "id": "apc-smx1500rmi2u",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMX1500RMI2U",
+  "name": "Smart-UPS X 1500VA rack/tower 2U 230V",
+  "family": "Smart-UPS SMX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMX1500RMI2U",
+  "notes": "2U rack/tower line-interactive 1500 VA / 1200 W, extended runtime with SMX48RMBP2U packs. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   }
+  ]
+ },
+ {
+  "id": "apc-smx2200rmhv2u",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMX2200RMHV2U",
+  "name": "Smart-UPS X 2200VA rack/tower 2U 200-240V",
+  "family": "Smart-UPS SMX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMX2200RMHV2U",
+  "notes": "2U rack/tower line-interactive 2200 VA / 1980 W, extended runtime with SMX120RMBP2U packs. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   }
+  ]
+ },
+ {
+  "id": "apc-smx3000rmhv2u",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMX3000RMHV2U",
+  "name": "Smart-UPS X 3000VA rack/tower 2U 200-240V",
+  "family": "Smart-UPS SMX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMX3000RMHV2U",
+  "notes": "2U rack/tower line-interactive 3000 VA / 2700 W, extended runtime with SMX120RMBP2U packs. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt1000rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT1000RMXLI",
+  "name": "Smart-UPS On-Line SRT 1000VA RM 2U 230V",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT1000RMXLI",
+  "notes": "2U double-conversion online 1000 VA / 1000 W, 230 V, input IEC C14, EPO, extended runtime with SRT48RMBP 2U battery packs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt1000rmxli-nc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT1000RMXLI-NC",
+  "name": "Smart-UPS On-Line SRT 1000VA RM 2U 230V with network card",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT1000RMXLI-NC",
+  "notes": "2U double-conversion online 1000 VA / 1000 W, 230 V, input IEC C14, EPO, extended runtime with SRT48RMBP 2U battery packs. Ships with an AP9641 network management card (environmental monitoring).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network card (AP9641)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt1500rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT1500RMXLI",
+  "name": "Smart-UPS On-Line SRT 1500VA RM 2U 230V",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT1500RMXLI",
+  "notes": "2U double-conversion online 1500 VA / 1500 W, 230 V, input IEC C14, EPO, extended runtime with SRT48RMBP 2U battery packs. Check: outlet count and battery pack model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt1500rmxli-nc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT1500RMXLI-NC",
+  "name": "Smart-UPS On-Line SRT 1500VA RM 2U 230V with network card",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT1500RMXLI-NC",
+  "notes": "2U double-conversion online 1500 VA / 1500 W, 230 V, input IEC C14, EPO, extended runtime with SRT48RMBP 2U battery packs. Ships with an AP9641 network management card (environmental monitoring). Check: outlet count and battery pack model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network card (AP9641)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt2200rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT2200RMXLI",
+  "name": "Smart-UPS On-Line SRT 2200VA RM 2U 230V",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT2200RMXLI",
+  "notes": "2U double-conversion online 2200 VA / 1980 W, 230 V, input IEC C20, EPO, extended runtime with SRT72RMBP 2U battery packs. Check: outlet count and battery pack model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt2200rmxli-nc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT2200RMXLI-NC",
+  "name": "Smart-UPS On-Line SRT 2200VA RM 2U 230V with network card",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT2200RMXLI-NC",
+  "notes": "2U double-conversion online 2200 VA / 1980 W, 230 V, input IEC C20, EPO, extended runtime with SRT72RMBP 2U battery packs. Ships with an AP9641 network management card (environmental monitoring). Check: outlet count and battery pack model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network card (AP9641)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt3000rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT3000RMXLI",
+  "name": "Smart-UPS On-Line SRT 3000VA RM 2U 230V",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT3000RMXLI",
+  "notes": "2U double-conversion online 3000 VA / 2700 W, 230 V, input IEC C20, EPO, extended runtime with SRT96RMBP 2U battery packs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt3000rmxli-nc",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT3000RMXLI-NC",
+  "name": "Smart-UPS On-Line SRT 3000VA RM 2U 230V with network card",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT3000RMXLI-NC",
+  "notes": "2U double-conversion online 3000 VA / 2700 W, 230 V, input IEC C20, EPO, extended runtime with SRT96RMBP 2U battery packs. Ships with an AP9641 network management card (environmental monitoring).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network card (AP9641)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt5krmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT5KRMXLI",
+  "name": "Smart-UPS On-Line SRT 5kVA RM 230V",
+  "family": "Smart-UPS SRT",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT5KRMXLI",
+  "notes": "5000 VA / 4500 W double-conversion online, 230 V, hardwired input, 6 x C13 + 4 x C19 outlets. Rack kit included (tower/rack). Check: rack height (3U assumed) and input terminal type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Hardwire",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srtl1000rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRTL1000RMXLI",
+  "name": "Smart-UPS On-Line Li-Ion SRTL 1000VA RM 3U 230V",
+  "family": "Smart-UPS SRTL",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRTL1000RMXLI",
+  "notes": "3U lithium-ion double-conversion online 1000 VA / 900 W, 8 x C13, input C14. -NC version includes an AP9641. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srtl1500rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRTL1500RMXLI",
+  "name": "Smart-UPS On-Line Li-Ion SRTL 1500VA RM 3U 230V",
+  "family": "Smart-UPS SRTL",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRTL1500RMXLI",
+  "notes": "3U lithium-ion double-conversion online 1500 VA / 1350 W, 8 x C13, input C14. -NC version includes an AP9641. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srtl2200rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRTL2200RMXLI",
+  "name": "Smart-UPS On-Line Li-Ion SRTL 2200VA RM 3U 230V",
+  "family": "Smart-UPS SRTL",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRTL2200RMXLI",
+  "notes": "3U lithium-ion double-conversion online 2200 VA / 1980 W, 6 x C13 + 2 x C19, input C20. -NC version includes an AP9641. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srtl3000rmxli",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRTL3000RMXLI",
+  "name": "Smart-UPS On-Line Li-Ion SRTL 3000VA RM 3U 230V",
+  "family": "Smart-UPS SRTL",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRTL3000RMXLI",
+  "notes": "3U lithium-ion double-conversion online 3000 VA / 2700 W, 6 x C13 + 2 x C19, input C20. -NC version includes an AP9641. Check: interface ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery pack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SmartSlot (NMC)"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt48rmbp",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT48RMBP",
+  "name": "SRT48RMBP external battery pack",
+  "family": "Battery packs",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT48RMBP",
+  "notes": "2U rack battery pack for SRT1000/1500RMXLI; daisy-chains for longer runtime. Heavy: mount low in the rack. Check: rack height and connector count (two assumed, in and out).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery link"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt72rmbp",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT72RMBP",
+  "name": "SRT72RMBP external battery pack",
+  "family": "Battery packs",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT72RMBP",
+  "notes": "2U rack battery pack for SRT2200RMXLI; daisy-chains for longer runtime. Heavy: mount low in the rack. Check: rack height and connector count (two assumed, in and out).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery link"
+   }
+  ]
+ },
+ {
+  "id": "apc-srt96rmbp",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SRT96RMBP",
+  "name": "SRT96RMBP external battery pack",
+  "family": "Battery packs",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SRT96RMBP",
+  "notes": "2U rack battery pack for SRT3000RMXLI; daisy-chains for longer runtime. Heavy: mount low in the rack. Check: rack height and connector count (two assumed, in and out).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery link"
+   }
+  ]
+ },
+ {
+  "id": "apc-smx48rmbp2u",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMX48RMBP2U",
+  "name": "SMX48RMBP2U external battery pack",
+  "family": "Battery packs",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMX48RMBP2U",
+  "notes": "2U rack battery pack for SMX750/1000/1500 (48 V); daisy-chains for longer runtime. Heavy: mount low in the rack. Check: rack height and connector count (two assumed, in and out).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery link"
+   }
+  ]
+ },
+ {
+  "id": "apc-smx120rmbp2u",
+  "manufacturer": "APC (Schneider Electric)",
+  "partNumber": "SMX120RMBP2U",
+  "name": "SMX120RMBP2U external battery pack",
+  "family": "Battery packs",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "APC Smart-UPS datasheets and APC solutions guide 2022",
+  "productUrl": "https://www.apc.com/shop/au/en/products/P-SMX120RMBP2U",
+  "notes": "2U rack battery pack for SMX2200/3000 (120 V); daisy-chains for longer runtime. Heavy: mount low in the rack. Check: rack height and connector count (two assumed, in and out).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery link"
+   }
+  ]
+ }
+]

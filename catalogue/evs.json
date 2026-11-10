@@ -1,0 +1,873 @@
+[
+ {
+  "id": "evs-xt-via",
+  "manufacturer": "EVS",
+  "partNumber": "XT-VIA",
+  "name": "XT-VIA live production server",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/products/live-production-servers/xt-via",
+  "notes": "6U, 445 x 270 x 689 mm. 12 HD/1080p channels (6 UHD, 2 8K on the special edition, 6 fill/key), each SDI connector set to record or play; 1.5G/3G/12G selectable. Embedded multiviewer (2 external inputs, 4 outputs). 10G SFP+ (100G via XHub-VIA), dual 10G media sharing, redundant 1G management LAN, XNet, embedded/AES/MADI audio (192 tracks), 18 TB internal, up to 54 TB. Also an IP-panel variant. Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-xs-via",
+  "manufacturer": "EVS",
+  "partNumber": "XS-VIA",
+  "name": "XS-VIA studio production server",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/products/live-production-servers/xs-via",
+  "notes": "Studio server on the XT-VIA platform: 12 channels (e.g. 6 rec + 6 play HD, 6 rec 12G UHD), embedded multiviewer (2 in, 4 out), 10G SFP+ (100G option), dual 10G media sharing, redundant 1G management LAN, XNet/XNet-VIA, AES/MADI audio, 18 TB to 54 TB. Check: rack height (assumed 6U like XT-VIA). Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-xt-go",
+  "manufacturer": "EVS",
+  "partNumber": "XT-GO",
+  "name": "XT-GO replay server",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/products/live-production-servers/xt-go",
+  "notes": "Entry-level replay server: 8 HD channels (4 UHD, 4 fill/key), 1.5G/3G/12G selectable, embedded multiviewer (2 in, 4 out), 10G SFP+ (ST 2110), dual 10G XNet-GO, redundant 1G management LAN, AES/MADI audio (128 tracks), 11 TB internal (22 TB max). Check: rack height (assumed 4U, nano family). Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-xt4k",
+  "manufacturer": "EVS",
+  "partNumber": "XT4K",
+  "name": "XT4K live production server (legacy)",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/backpanel/xt4k.html",
+  "notes": "6U, 39 kg with 12 hot-swap drives. 4 codec modules, MADI on every unit, 2 PC LAN, XNet, up to 192 audio channels. Earlier generation still common in OB trucks. Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-xt3-6u",
+  "manufacturer": "EVS",
+  "partNumber": "XT3 6U",
+  "name": "XT3 6U server (legacy)",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/backpanel/xt36uMVW.html",
+  "notes": "Previous-generation 6U XT3 with multiviewer loop, analog/digital/MADI audio options; configs such as 8 rec + 4 play or 6 rec + 2 play mix. Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-neuron-sdi",
+  "manufacturer": "EVS",
+  "partNumber": "Neuron 1RU frame + 2 x NEU-SDI40-BOARD",
+  "name": "Neuron 1RU with SDI (2 boards)",
+  "family": "Neuron",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "EVS Neuron product sheet (Oct 2026) and Neuron Bridge V7 datasheet",
+  "productUrl": "https://evs.com/products/real-time-media-processing/neuron",
+  "notes": "1RU Neuron frame with 2 processing boards (NEU-BASE-BOARD), redundant hot-swap PSUs, about 250 W with 2 Bridge boards. Each board: 2 x 100GbE QSFP28 (main/backup), 4 SFP+ (MADI or 10GbE), ref in with 2 loop/ref outs on HD-BNC, 3 GigE (control, GPI/O); plus the SDI expansion board (8 x 12G in, 8 x 12G out, 24 x 3G bidirectional on HD-BNC, 40 per board). Identity is set by licence: Bridge (SDI/IP gateway), Convert, Compress (JPEG XS), Shuffle (audio), View (multiviewer). Broadcast version has I/O at the rear, datacentre version at the front. Check: PSU inlet type and whether 3 GigE ports are per board or per frame.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "12G In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 16,
+    "prefix": "12G Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 48,
+    "prefix": "3G I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "SFP (MADI/10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "GigE Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-neuron-ip",
+  "manufacturer": "EVS",
+  "partNumber": "Neuron 1RU frame",
+  "name": "Neuron 1RU IP only (2 boards)",
+  "family": "Neuron",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "EVS Neuron product sheet (Oct 2026) and Neuron Bridge V7 datasheet",
+  "productUrl": "https://evs.com/products/real-time-media-processing/neuron",
+  "notes": "1RU Neuron frame with 2 processing boards (NEU-BASE-BOARD), redundant hot-swap PSUs, about 250 W with 2 Bridge boards. Each board: 2 x 100GbE QSFP28 (main/backup), 4 SFP+ (MADI or 10GbE), ref in with 2 loop/ref outs on HD-BNC, 3 GigE (control, GPI/O). Identity is set by licence: Bridge (SDI/IP gateway), Convert, Compress (JPEG XS), Shuffle (audio), View (multiviewer). Broadcast version has I/O at the rear, datacentre version at the front. Check: PSU inlet type and whether 3 GigE ports are per board or per frame.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "SFP (MADI/10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "GigE Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

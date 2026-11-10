@@ -1,0 +1,51 @@
+[
+ {
+  "id": "aws-live-l900",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L900 series",
+  "name": "Elemental Live L900-series encoder appliance",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/elemental-live/",
+  "notes": "1RU server chassis (L900, L901, L910, L920, L940, L980; -U models add uncompressed ST 2110). Needs 31.85 in rack depth (L900/L901: 21.04 in). SDI I/O on AJA PCIe cards, 10/25/40/100G networking on NVIDIA ConnectX-6 QSFP28. DC kits for L910 and up. Check: SDI count per SKU, management ports and PSUs (AWS publishes these per SKU on request).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card (AJA, 3G/12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "ConnectX-6 (red/blue)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,440 @@
+[
+ {
+  "id": "cc-hx-delta-lite",
+  "manufacturer": "Clear-Com",
+  "partNumber": "Eclipse HX-Delta Lite",
+  "name": "Eclipse HX-Delta Lite matrix frame",
+  "family": "Eclipse HX",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Clear-Com Eclipse HX pages and HX-Delta manual",
+  "productUrl": "https://clearcom.com/Products/Products-By-Name/Eclipse-HX",
+  "notes": "3RU Eclipse HX matrix, 16 or 32 ports. Redundant CPU cards, backplanes and power supplies. Delta: 4 interface card rear slots (2 on Delta Lite), 3 built-in interface module slots, LAN/PNL feed-through, external 12V supplies. Add interface card rear panels (MVX-A16, E-IPA, E-MADI64, E-FIB) as extra ports. Check: CPU rear connector list and power inlet type (Delta Lite port connector type assumed RJ45).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "Port (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Interface card rear"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "CPU LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "CPU rear (alarm, matrix links)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN/PNL feed-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cc-hx-delta",
+  "manufacturer": "Clear-Com",
+  "partNumber": "Eclipse HX-Delta",
+  "name": "Eclipse HX-Delta matrix frame",
+  "family": "Eclipse HX",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Clear-Com Eclipse HX pages and HX-Delta manual",
+  "productUrl": "https://clearcom.com/Products/Products-By-Name/Eclipse-HX",
+  "notes": "3RU Eclipse HX matrix, up to 416 ports. Redundant CPU cards, backplanes and power supplies. Delta: 4 interface card rear slots (2 on Delta Lite), 3 built-in interface module slots, LAN/PNL feed-through, external 12V supplies. Add interface card rear panels (MVX-A16, E-IPA, E-MADI64, E-FIB) as extra ports. Check: CPU rear connector list and power inlet type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Interface card rear"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "CPU LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "CPU rear (alarm, matrix links)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN/PNL feed-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cc-hx-median",
+  "manufacturer": "Clear-Com",
+  "partNumber": "Eclipse HX-Median",
+  "name": "Eclipse HX-Median matrix frame",
+  "family": "Eclipse HX",
+  "category": "audio",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Clear-Com Eclipse HX pages and HX-Delta manual",
+  "productUrl": "https://clearcom.com/Products/Products-By-Name/Eclipse-HX",
+  "notes": "6RU Eclipse HX matrix, up to 496 ports. Redundant CPU cards, backplanes and power supplies. Median/Omega take MVX-A16 (16-port analog RJ45), E-IPA, E-MADI64, E-FIB and E-QUE cards. Add interface card rear panels (MVX-A16, E-IPA, E-MADI64, E-FIB) as extra ports. Check: CPU rear connector list and power inlet type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Interface card rears (see note)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "CPU LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "CPU rear (alarm, matrix links)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN/PNL feed-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cc-hx-omega",
+  "manufacturer": "Clear-Com",
+  "partNumber": "Eclipse HX-Omega",
+  "name": "Eclipse HX-Omega matrix frame",
+  "family": "Eclipse HX",
+  "category": "audio",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Clear-Com Eclipse HX pages and HX-Delta manual",
+  "productUrl": "https://clearcom.com/Products/Products-By-Name/Eclipse-HX",
+  "notes": "6RU Eclipse HX matrix, up to 496 ports. Redundant CPU cards, backplanes and power supplies. Median/Omega take MVX-A16 (16-port analog RJ45), E-IPA, E-MADI64, E-FIB and E-QUE cards. Add interface card rear panels (MVX-A16, E-IPA, E-MADI64, E-FIB) as extra ports. Check: CPU rear connector list and power inlet type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Interface card rears (see note)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "CPU LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "CPU rear (alarm, matrix links)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN/PNL feed-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cc-arcadia",
+  "manufacturer": "Clear-Com",
+  "partNumber": "ARCADIA-X4/X5",
+  "name": "Arcadia central station",
+  "family": "Arcadia",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com Arcadia datasheet and online manual",
+  "productUrl": "https://clearcom.com/Product/arcadia-central-station",
+  "notes": "1RU, 482.6 x 43.6 x 353.8 mm, 3.29 kg. IP central station for HelixNet, FreeSpeak II/Edge, partyline and Dante: 4 x 2-wire XLR, 8 x 4-wire RJ45 (port 8 = program/SA with split cable), 2 RJ45 + 2 SFP LAN (management, Dante primary/secondary, AES67 for IP transceivers), E1 transceiver ports (2 RJ45 + 2 fibre, 2 active, up to 10 transceivers), DECT sync in/out, 2 GPIO DB9, internal 160 W PSU on IEC C14 plus 12V DC input from the supplied PSU-EXT-001 for redundancy. X4 = 4-pin XLR-M headset, X5 = 5-pin XLR-F. Licensed 32 to 96 ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire PL"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "LAN 3/4 (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "E1 Copper"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "E1 Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "DECT Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9F",
+    "count": 2,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Program In / SA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cc-hms-4x",
+  "manufacturer": "Clear-Com",
+  "partNumber": "HMS-4X",
+  "name": "HelixNet HMS-4X main station (discontinued)",
+  "family": "HelixNet",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com HMS-4X datasheet",
+  "productUrl": "https://www.clearcom.com/Products/Products-By-Name/Station-IC/hms-4x",
+  "notes": "1RU, 483 x 320 mm deep, 2.65 kg, 4-channel digital partyline main station. 2 intercom lines each on XLR-3 M and F, program in, SA out, hot mic out, GPIO DB25, 3 option slots (HLI-ET2 Ethernet, HLI-4W2 4-wire, HLI-2W2 2-wire). Superseded by Arcadia.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 4,
+    "prefix": "Line 1/2 (M+F)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Stage Announce"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hot Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25F",
+    "count": 1,
+    "prefix": "GPIO (4 relay/4 opto)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "Option module"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

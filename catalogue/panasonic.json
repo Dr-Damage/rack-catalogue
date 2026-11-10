@@ -1,0 +1,99 @@
+[
+ {
+  "id": "pana-av-uhs500",
+  "manufacturer": "Panasonic",
+  "partNumber": "AV-UHS500",
+  "name": "AV-UHS500 4K live switcher main unit",
+  "family": "Live switchers",
+  "category": "switcher",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic AV-UHS500 specifications",
+  "productUrl": "https://pro-av.panasonic.net/en/products/av-uhs500/spec.html",
+  "notes": "440 x 170 x 360 mm (4RU), 7 kg, AC 100-240 V. 8 x 12G-SDI in (1/2 shared with HDMI 1/2), 5 SDI out, 2 HDMI in/out. Options: AV-UHS5M1G 4 SDI in, M2G 4 SDI out, M3G 3 HDMI in, M4G 3 HDMI out, M6G NDI (2 LAN). Control panel AV-UHS500 control unit is separate. Check: option slot count, tally connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref (loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "D-sub",
+    "count": 1,
+    "prefix": "Tally/GPI (8 in, 19 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Alarm"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Option slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

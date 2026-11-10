@@ -1,0 +1,1285 @@
+[
+ {
+  "id": "evertz-7800fr",
+  "manufacturer": "Evertz",
+  "partNumber": "7800FR",
+  "name": "7800FR 3RU 15-slot MultiFrame",
+  "family": "Evertz frames",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Evertz multiframes page and 7800 MultiFrame manual",
+  "productUrl": "https://evertz.com/products/infrastructure-conversion/multiframes-controllers-accessories/",
+  "notes": "3RU multiframe for 15 single-slot 7700/7800 modules; dual-slot modules take two. Cards order with the +3RU rear plate. Slot 1 is on the right of the rear panel, so slot 1 is at the left seen from the front. Fit a 7800FC in slot 1 for Ethernet/SNMP control. Check: second (redundant) power supply is an option on some builds; power inlet position (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Evertz 7700/7800",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "slots": 15,
+   "controllerSlot": 1,
+   "controller": "Optional 7800FC VistaLINK frame controller fits slot 1 (rightmost slot seen from the rear)"
+  }
+ },
+ {
+  "id": "evertz-7800fr-qt",
+  "manufacturer": "Evertz",
+  "partNumber": "7800FR-QT",
+  "name": "7800FR-QT 3RU 15-slot quiet MultiFrame",
+  "family": "Evertz frames",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Evertz multiframes page and 7800 MultiFrame manual",
+  "productUrl": "https://evertz.com/products/infrastructure-conversion/multiframes-controllers-accessories/",
+  "notes": "Quiet (low noise) version. 3RU multiframe for 15 single-slot 7700/7800 modules; dual-slot modules take two. Cards order with the +3RU rear plate. Slot 1 is on the right of the rear panel, so slot 1 is at the left seen from the front. Fit a 7800FC in slot 1 for Ethernet/SNMP control. Check: second (redundant) power supply is an option on some builds; power inlet position (drawing fractions are estimates).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Evertz 7700/7800",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "slots": 15,
+   "controllerSlot": 1,
+   "controller": "Optional 7800FC VistaLINK frame controller fits slot 1 (rightmost slot seen from the rear)"
+  }
+ },
+ {
+  "id": "evertz-7801fr",
+  "manufacturer": "Evertz",
+  "partNumber": "7801FR",
+  "name": "7801FR 1RU 4-slot MultiFrame",
+  "family": "Evertz frames",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Evertz multiframes page",
+  "productUrl": "https://evertz.com/products/infrastructure-conversion/multiframes-controllers-accessories/",
+  "notes": "1RU multiframe for up to 4 single-slot or 2 dual-slot 7700/7800 modules (+3RU rear plates). Check: cards are assumed to lie horizontally with slot 1 at the bottom; power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Evertz 7700/7800",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "slots": 4,
+   "orient": "h",
+   "controller": "Optional 7801FC frame controller"
+  }
+ },
+ {
+  "id": "evertz-570fr",
+  "manufacturer": "Evertz",
+  "partNumber": "570FR",
+  "name": "570FR 3RU 15-slot frame",
+  "family": "Evertz frames",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Evertz 570FR product page",
+  "productUrl": "https://evertz.com/products/570FR",
+  "notes": "3RU high-density frame for 15 single-slot modules, compatible with all 7700/7800 and 570 series modules. One PSU standard, redundant hot-swap PSU option +57PS (separate inlets, 100-240 V). 750 W module load. 570FR-HF has high-flow fans. Check: frame rear connectors besides power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC"
+   }
+  ],
+  "frame": {
+   "system": "Evertz 7700/7800",
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": true,
+   "front": {
+    "x0": 0.03,
+    "x1": 0.97,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "rear": {
+    "x0": 0.03,
+    "x1": 0.84,
+    "y0": 0.04,
+    "y1": 0.96
+   },
+   "also": [
+    "Evertz 570"
+   ],
+   "slots": 15,
+   "controllerSlot": 1,
+   "controller": "Optional 570FC VistaLINK PRO frame controller in slot 1"
+  }
+ },
+ {
+  "id": "evertz-7800fc",
+  "manufacturer": "Evertz",
+  "partNumber": "7800FC",
+  "name": "7800FC VistaLINK frame controller",
+  "family": "Evertz frame controllers",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 7800 MultiFrame manual (7800FC installation)",
+  "productUrl": "https://evertz.com/products/7800FC",
+  "notes": "Frame controller for 7700FR-C, 7800FR and 7800FR-QT: SNMP/VistaLINK control of all modules. Installs in slot 1 with its rear plate and 7700CM-2 connector module. Check: rear connectors (Ethernet and serial) from the manual's rear panel section.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1,
+   "onlySlots": [
+    1
+   ]
+  },
+  "rearModules": [
+   {
+    "partNumber": "7800FC+3RU",
+    "name": "Rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-232",
+      "connector": "DB9",
+      "count": 1,
+      "prefix": "Serial"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7814udx-4k",
+  "manufacturer": "Evertz",
+  "partNumber": "7814UDX-4K",
+  "name": "7814UDX-4K UHD up/down/cross converter",
+  "family": "Evertz 7800 conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 7814-4K product page",
+  "productUrl": "https://evertz.com/products/7814-4K",
+  "notes": "UHD/HD/3G up/down/cross converter, 16 ch embedded audio. Each card occupies two slots (7 per 7800FR, 2 per 7801FR). Also 7814UC-4K, 7814HDC-4K, 7814XC-4K with the same rear plates. Check: quad SDI in/out counts are assumed (4 in, 4 out); Evertz page does not list connector counts.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "7814UDX-4K+3RU",
+    "name": "Dual-slot rear plate (DIN)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI Out"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7814UDX-AES8-4K+3RU",
+    "name": "Dual-slot rear plate with AES",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7814UDX-4K-12G+3RU",
+    "name": "Dual-slot rear plate with 12G SFPs",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "Quad SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "12G SFP"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7700da7",
+  "manufacturer": "Evertz",
+  "partNumber": "7700DA7",
+  "name": "7700DA7 SD-SDI / DVB-ASI reclocking DA 1x7",
+  "family": "Evertz 7700/7800 distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7700DA7 product page",
+  "productUrl": "https://evertz.com/products/7700DA7",
+  "notes": "SD-SDI / DVB-ASI reclocking DA: auto-equalised input, 7 isolated reclocked outputs. 1 slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7700DA7+3RU",
+    "name": "Single-slot rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "SD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "SD-SDI",
+      "connector": "BNC",
+      "count": 7,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7700da7-3g",
+  "manufacturer": "Evertz",
+  "partNumber": "7700DA7-3G",
+  "name": "7700DA7-3G 3G/HD/SD-SDI reclocking DA 1x7",
+  "family": "Evertz 7700/7800 distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7700DA7-3G product page",
+  "productUrl": "https://evertz.com/products/7700DA7-3G",
+  "notes": "3G/HD/SD-SDI reclocking DA: auto-equalised input, 7 isolated reclocked outputs. 1 slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7700DA7-3G+3RU",
+    "name": "Single-slot rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 7,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7800da8-12g",
+  "manufacturer": "Evertz",
+  "partNumber": "7800DA8-12G",
+  "name": "7800DA8-12G 12G/3G/HD/SD reclocking DA 1x8",
+  "family": "Evertz 7700/7800 distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 7800DA8-12G product page",
+  "productUrl": "https://evertz.com/products/7800DA8-12G",
+  "notes": "1 in, 8 isolated reclocked outputs. Check: connector type (BNC or HD-BNC) and slot width.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7800DA8-12G+3RU",
+    "name": "Rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7800ida8-3g-f",
+  "manufacturer": "Evertz",
+  "partNumber": "7800IDA8-3G-F",
+  "name": "7800IDA8-3G-F intelligent 3G DA 1x8 with fibre outs",
+  "family": "Evertz 7700/7800 distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7800IDA8-3G-F product page",
+  "productUrl": "https://evertz.com/products/7800IDA8-3G-F",
+  "notes": "3G/HD/SD intelligent DA: 1 BNC input, 8 reclocked DIN 1.0/2.3 outputs, optional dual Tx SFP (SFP3T13-2) for 2 fibre outputs. Needs 7800FC for full control.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7800IDA8-3G-F+3RU",
+    "name": "Single-slot rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC (SFP)",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7821ae8-3g",
+  "manufacturer": "Evertz",
+  "partNumber": "7821AE8-3G",
+  "name": "7821AE8-3G 8 AES embedder",
+  "family": "Evertz 7700/7800 audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7821AE8-3G product page",
+  "productUrl": "https://evertz.com/products/7821AE8-3G",
+  "notes": "3G/HD/SD 8 AES embedder. LTC model adds Dolby metadata insert and LTC embedding; AES, LTC and metadata come in on a DB15 with breakout cable. One output is bypass-relay protected. 1 slot in 7800FR (2 in 7700FR-C/350FR). -AESD version has 8 DIN AES inputs.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7821AE8-LTC-3G+3RU",
+    "name": "LTC model rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out (relay bypass)"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DB15 (BNC breakout)",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "DB15 (breakout)",
+      "count": 1,
+      "prefix": "LTC In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "RS-422",
+      "connector": "DB15 (breakout)",
+      "count": 1,
+      "prefix": "Metadata In"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7821AE8-B-3G+3RU",
+    "name": "Base model rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out (relay bypass)"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "AES In"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7821ad8-3g",
+  "manufacturer": "Evertz",
+  "partNumber": "7821AD8-3G",
+  "name": "7821AD8-3G 8 AES de-embedder",
+  "family": "Evertz 7700/7800 audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7821AD8-3G product page",
+  "productUrl": "https://evertz.com/products/7821AD8-3G",
+  "notes": "3G/HD/SD 8 AES de-embedder. LTC model adds Dolby metadata extraction and LTC out on a DB15 breakout. One output is bypass-relay protected. 1 slot in 7800FR (2 in 7700FR-C/350FR).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7821AD8-LTC-3G+3RU",
+    "name": "LTC model rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out (relay bypass)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DB15 (BNC breakout)",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "DB15 (breakout)",
+      "count": 1,
+      "prefix": "LTC Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RS-422",
+      "connector": "DB15 (breakout)",
+      "count": 1,
+      "prefix": "Metadata Out"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7821AD8-B-3G+3RU",
+    "name": "Base model rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out (relay bypass)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7812udx-aav",
+  "manufacturer": "Evertz",
+  "partNumber": "7812UDX-AAV-3G",
+  "name": "7812UDX-AAV 3G/HD up/down/cross converter",
+  "family": "Evertz 7700/7800 conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7812UDX-AAV series manual v1.0",
+  "productUrl": "https://evertz.com/products/7812UDX-AAV-3G",
+  "notes": "Up/down/cross converter with frame sync, analog audio/video I/O. Occupies 2 slots in 7800FR (3 in 7700FR-C). -F versions add dual SFP fibre in/out. Check: the AES8 ports are on DB15 connectors (counted as 8 in and 8 out here).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "7812UDX-AAV-3G+3RU",
+    "name": "Dual-slot rear plate",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In B"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "PGM Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Composite In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Composite Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB15",
+      "count": 1,
+      "prefix": "GPIO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7812UDX-AES8-AAV-3G+3RU",
+    "name": "Dual-slot rear plate with AES",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In B"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "PGM Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Composite In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Composite Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB15",
+      "count": 1,
+      "prefix": "GPIO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DB15",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DB15",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7812udx-3g",
+  "manufacturer": "Evertz",
+  "partNumber": "7812UDX-3G",
+  "name": "7812UDX-3G 3G/HD up/down/cross converter",
+  "family": "Evertz 7700/7800 conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 7812 series page and 7812UDX-AAV manual",
+  "productUrl": "https://evertz.com/products/7812UDX-3G",
+  "notes": "Up/down/cross converter with frame sync and external genlock. Check: ports are assumed to match the 7812UDX-AAV manual without the analog I/O; confirm against your rear plate.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "7812UDX-3G+3RU",
+    "name": "Dual-slot rear plate",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "PGM In B"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "PGM Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB15",
+      "count": 1,
+      "prefix": "GPIO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": true
+   },
+   {
+    "partNumber": "7812UDX-AES8-3G+3RU",
+    "name": "Dual-slot rear plate with AES",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "PGM In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "PGM Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DB15",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DB15",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB15",
+      "count": 1,
+      "prefix": "GPIO"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7708sfp-2",
+  "manufacturer": "Evertz",
+  "partNumber": "7708SFP-2",
+  "name": "7708SFP-2 dual SFP carrier",
+  "family": "Evertz 7700/7800 fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 3405/7708SFP product page",
+  "productUrl": "https://evertz.com/products/7708SFP-2",
+  "notes": "Card carrier for 2 Evertz 3405-series SFPs (fibre transmitters, receivers or regenerators). The SFPs fitted decide the direction of each SDI and fibre port: set the ports to in or out to match. 7708SFP has 1 SFP; 7708SFP-2-DIN uses DIN connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "7708SFP-2+3RU",
+    "name": "Single-slot rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC (SFP)",
+      "count": 2,
+      "prefix": "Fibre"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "tpl-ev-card",
+  "manufacturer": "Generic",
+  "partNumber": "Evertz 7800 card",
+  "name": "Evertz 7700/7800 single-slot card (template)",
+  "family": "Templates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Template",
+  "productUrl": "",
+  "notes": "Template for any 7700/7800 module: edit the part number and rear plate ports to match your card.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "+3RU rear plate",
+    "name": "Single-slot rear plate",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": false
+   }
+  ]
+ }
+]
