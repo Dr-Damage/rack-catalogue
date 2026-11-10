@@ -14,7 +14,7 @@ def add(id, pn, name, fam, cat, ru, ports, notes, src, url, verified=True, w=12,
     m.update(kw); M.append(m)
 
 ULX = 'https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/'
-ULXQS = 'Ross Ultrix specifications page and Ultrix FR1/FR2 Quick Start Guide (2101DR-002)'
+ULXQS = 'Ross Ultrix specifications page, Ultrix FR1/FR2 Quick Start Guide (2101DR-002) and Ultrix Installation Guide (2101DR-003)'
 DCIN = lambda: [R('in', 'Power', 'DC locking', 1, 'PWR 1 (main)'), R('in', 'Power', 'DC locking', 1, 'PWR 2 (redundant)')]
 
 # ---------------- Ultrix ----------------
@@ -22,13 +22,14 @@ for fr, ru, slots, mx, wt in [('FR1', 1, 1, '36x36', '4.06 kg'), ('FR2', 2, 3, '
     add(f'ultrix-{fr.lower()}', f'ULTRIX-NS-{fr}', f'Ultrix {fr} ({ru}RU)', 'Ultrix', 'router', ru,
         [R('in', '12G-SDI', 'HD-BNC', 16, 'SDI In'), R('out', '12G-SDI', 'HD-BNC', 16, 'SDI Out'),
          R('io', 'SFP', 'SFP', 2, 'AUX'), R('in', 'Reference', 'HD-BNC', 1, 'Ref A'), R('out', 'Reference', 'HD-BNC', 1, 'Ref Loop'),
-         R('io', 'Ethernet', 'RJ45', 2, 'ENET')] + DCIN(),
-        f'{ru}RU hyperconverged router frame. Built-in 16 x 16 HD-BNC plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), '
-        f'{slots} I/O/processing card slot{"s" if slots > 1 else ""}, max matrix {mx}. ENET 1 primary, ENET 2 backup 1GbE. '
-        f'Powered from external 15V supply (brick or Ultripower) on PWR 1 with optional redundant PWR 2. Frame weight {wt}. '
+         R('io', 'Ethernet', 'RJ45', 2, 'ENET'), R('io', 'USB', 'USB-A', 1, 'USB (serial)'), R('in', 'Power', '4-pin DC', 4, 'PSU 15V')],
+        f'{ru}RU hyperconverged router frame. Built-in 16 x 16 HD-BNC (bottom row: OUT 1-16 then IN 1-16) plus 2 AUX SFP ports '
+        f'(SDI, HDMI or 64 ch MADI), {slots} I/O/processing card slot{"s" if slots > 1 else ""} above it, max matrix {mx}. '
+        'ENET 1 primary, ENET 2 backup 1GbE. USB-A for a USB-serial adapter. Four 15V DC PSU inputs numbered 1-4 from the left, '
+        f'fed by external supplies (brick or Ultripower); ships with {"one supply" if fr == "FR1" else "two supplies"}. Frame weight {wt}. '
         'Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. '
         + ('Also the host frame for Ultrix Carbonite (up to 2 SDPE switcher blades). ' if fr == 'FR2' else '') +
-        'Check: power connector type and any GPI/serial ports on your hardware revision.',
+        'Check: any GPI ports on your hardware revision.',
         ULXQS, ULX)
 for fr, ru, slots, mx, ups, wt in [('FR5', 5, 9, '160x160', 2, '6.35 kg'), ('FR12', 12, 16, '288x288', 3, '34.47 kg')]:
     add(f'ultrix-{fr.lower()}', f'ULTRIX-{fr}', f'Ultrix {fr} ({ru}RU)', 'Ultrix', 'router', ru,

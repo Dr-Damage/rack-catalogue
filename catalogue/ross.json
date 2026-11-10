@@ -10,9 +10,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": true,
-  "source": "Ross Ultrix specifications page and Ultrix FR1/FR2 Quick Start Guide (2101DR-002)",
+  "source": "Ross Ultrix specifications page, Ultrix FR1/FR2 Quick Start Guide (2101DR-002) and Ultrix Installation Guide (2101DR-003)",
   "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
-  "notes": "1RU hyperconverged router frame. Built-in 16 x 16 HD-BNC plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 1 I/O/processing card slot, max matrix 36x36. ENET 1 primary, ENET 2 backup 1GbE. Powered from external 15V supply (brick or Ultripower) on PWR 1 with optional redundant PWR 2. Frame weight 4.06 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Check: power connector type and any GPI/serial ports on your hardware revision.",
+  "notes": "1RU hyperconverged router frame. Built-in 16 x 16 HD-BNC (bottom row: OUT 1-16 then IN 1-16) plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 1 I/O/processing card slot above it, max matrix 36x36. ENET 1 primary, ENET 2 backup 1GbE. USB-A for a USB-serial adapter. Four 15V DC PSU inputs numbered 1-4 from the left, fed by external supplies (brick or Ultripower); ships with one supply. Frame weight 4.06 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Check: any GPI ports on your hardware revision.",
   "portGroups": [
    {
     "face": "rear",
@@ -64,21 +64,155 @@
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "DC locking",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
     "count": 1,
-    "prefix": "PWR 1 (main)"
+    "prefix": "USB (serial)"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "DC locking",
-    "count": 1,
-    "prefix": "PWR 2 (redundant)"
+    "connector": "4-pin DC",
+    "count": 4,
+    "prefix": "PSU 15V"
    }
-  ]
+  ],
+  "layout": {
+   "rear": [
+    {
+     "g": 1,
+     "x0": 0.3082,
+     "y0": 0.7048,
+     "x1": 0.6312,
+     "y1": 0.9072,
+     "rows": 1,
+     "cols": 16,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 0,
+     "x0": 0.6325,
+     "y0": 0.7048,
+     "x1": 0.9555,
+     "y1": 0.9072,
+     "rows": 1,
+     "cols": 16,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 3,
+     "x0": 0.1937,
+     "y0": 0.7048,
+     "x1": 0.2124,
+     "y1": 0.9072,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 4,
+     "x0": 0.219,
+     "y0": 0.7048,
+     "x1": 0.2376,
+     "y1": 0.9072,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 1,
+     "count": 1,
+     "x0": 0.2466,
+     "y0": 0.6388,
+     "x1": 0.2756,
+     "y1": 0.8412,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 2,
+     "count": 1,
+     "x0": 0.2749,
+     "y0": 0.6388,
+     "x1": 0.3039,
+     "y1": 0.8412,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 5,
+     "start": 1,
+     "count": 1,
+     "x0": 0.049,
+     "y0": 0.1468,
+     "x1": 0.0821,
+     "y1": 0.4392,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 5,
+     "start": 2,
+     "count": 1,
+     "x0": 0.049,
+     "y0": 0.6178,
+     "x1": 0.0821,
+     "y1": 0.9102,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 6,
+     "x0": 0.0821,
+     "y0": 0.5838,
+     "x1": 0.0946,
+     "y1": 0.8762,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 7,
+     "x0": 0.1022,
+     "y0": 0.7048,
+     "x1": 0.1861,
+     "y1": 0.9072,
+     "rows": 1,
+     "cols": 4,
+     "order": "row",
+     "from": "tl"
+    }
+   ],
+   "fixtures": [
+    {
+     "face": "rear",
+     "kind": "slot",
+     "x0": 0.1016,
+     "y0": 0.01,
+     "x1": 0.955,
+     "y1": 0.48,
+     "text": "Slot 1 (I/O blade)"
+    }
+   ]
+  },
+  "layoutSource": "Ross Ultrix Installation Guide (2101DR-003), rear panel figure"
  },
  {
   "id": "ross-ultrix-fr2",
@@ -91,9 +225,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": true,
-  "source": "Ross Ultrix specifications page and Ultrix FR1/FR2 Quick Start Guide (2101DR-002)",
+  "source": "Ross Ultrix specifications page, Ultrix FR1/FR2 Quick Start Guide (2101DR-002) and Ultrix Installation Guide (2101DR-003)",
   "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrix/specifications/",
-  "notes": "2RU hyperconverged router frame. Built-in 16 x 16 HD-BNC plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 3 I/O/processing card slots, max matrix 72x72. ENET 1 primary, ENET 2 backup 1GbE. Powered from external 15V supply (brick or Ultripower) on PWR 1 with optional redundant PWR 2. Frame weight 5.44 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Also the host frame for Ultrix Carbonite (up to 2 SDPE switcher blades). Check: power connector type and any GPI/serial ports on your hardware revision.",
+  "notes": "2RU hyperconverged router frame. Built-in 16 x 16 HD-BNC (bottom row: OUT 1-16 then IN 1-16) plus 2 AUX SFP ports (SDI, HDMI or 64 ch MADI), 3 I/O/processing card slots above it, max matrix 72x72. ENET 1 primary, ENET 2 backup 1GbE. USB-A for a USB-serial adapter. Four 15V DC PSU inputs numbered 1-4 from the left, fed by external supplies (brick or Ultripower); ships with two supplies. Frame weight 5.44 kg. Card I/O (HDX-IO, MODX-IO, IP cards) is not included: add it to the device as extra ports. Also the host frame for Ultrix Carbonite (up to 2 SDPE switcher blades). Check: any GPI ports on your hardware revision.",
   "portGroups": [
    {
     "face": "rear",
@@ -145,21 +279,173 @@
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "DC locking",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
     "count": 1,
-    "prefix": "PWR 1 (main)"
+    "prefix": "USB (serial)"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "DC locking",
-    "count": 1,
-    "prefix": "PWR 2 (redundant)"
+    "connector": "4-pin DC",
+    "count": 4,
+    "prefix": "PSU 15V"
    }
-  ]
+  ],
+  "layout": {
+   "rear": [
+    {
+     "g": 1,
+     "x0": 0.3082,
+     "y0": 0.8528,
+     "x1": 0.6312,
+     "y1": 0.9652,
+     "rows": 1,
+     "cols": 16,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 0,
+     "x0": 0.6325,
+     "y0": 0.8528,
+     "x1": 0.9555,
+     "y1": 0.9652,
+     "rows": 1,
+     "cols": 16,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 3,
+     "x0": 0.1937,
+     "y0": 0.8528,
+     "x1": 0.2124,
+     "y1": 0.9652,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 4,
+     "x0": 0.219,
+     "y0": 0.8528,
+     "x1": 0.2376,
+     "y1": 0.9652,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 1,
+     "count": 1,
+     "x0": 0.2466,
+     "y0": 0.8494,
+     "x1": 0.2756,
+     "y1": 0.9506,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 2,
+     "start": 2,
+     "count": 1,
+     "x0": 0.2749,
+     "y0": 0.8494,
+     "x1": 0.3039,
+     "y1": 0.9506,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 5,
+     "start": 1,
+     "count": 1,
+     "x0": 0.049,
+     "y0": 0.5939,
+     "x1": 0.0821,
+     "y1": 0.7401,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 5,
+     "start": 2,
+     "count": 1,
+     "x0": 0.049,
+     "y0": 0.7989,
+     "x1": 0.0821,
+     "y1": 0.9451,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 6,
+     "x0": 0.0821,
+     "y0": 0.7869,
+     "x1": 0.0946,
+     "y1": 0.9331,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    },
+    {
+     "g": 7,
+     "x0": 0.1022,
+     "y0": 0.8584,
+     "x1": 0.1861,
+     "y1": 0.9596,
+     "rows": 1,
+     "cols": 4,
+     "order": "row",
+     "from": "tl"
+    }
+   ],
+   "fixtures": [
+    {
+     "face": "rear",
+     "kind": "slot",
+     "x0": 0.1016,
+     "y0": 0.01,
+     "x1": 0.955,
+     "y1": 0.262,
+     "text": "Slot 1 (I/O blade)"
+    },
+    {
+     "face": "rear",
+     "kind": "slot",
+     "x0": 0.1016,
+     "y0": 0.282,
+     "x1": 0.955,
+     "y1": 0.501,
+     "text": "Slot 2 (I/O blade)"
+    },
+    {
+     "face": "rear",
+     "kind": "slot",
+     "x0": 0.1016,
+     "y0": 0.521,
+     "x1": 0.955,
+     "y1": 0.751,
+     "text": "Slot 3 (I/O blade)"
+    }
+   ]
+  },
+  "layoutSource": "Ross Ultrix Installation Guide (2101DR-003), rear panel figure"
  },
  {
   "id": "ross-ultrix-fr5",

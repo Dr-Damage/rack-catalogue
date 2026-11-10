@@ -13,7 +13,8 @@ This repository holds data only: one JSON file per manufacturer describing each 
 | `catalogue/FRAMES.md` | Extra fields for card frames (openGear, Evertz, Densité) and their cards |
 | `catalogue/manifest.json` | `version` stamp plus the SHA-256, entry count and size of every listed file |
 | `tools/*.py` | Generators that write the brand files (`python3 tools/<brand>.py`) |
-| `tools/manifest.py` | Rebuilds `manifest.json`; run it after any generator |
+| `tools/layouts.py` | Adds traced panel layouts (`layout`) to entries; run it after any generator |
+| `tools/manifest.py` | Rebuilds `manifest.json`; run it after `layouts.py` |
 
 ## How the app uses it
 
@@ -26,9 +27,10 @@ This repository holds data only: one JSON file per manufacturer describing each 
 ## Data notes
 
 - Port and connector data comes from manufacturers' published specification sheets and manuals. Each entry names its `source`.
+- `layout` (optional) places each connector where it really sits on the panel, traced from the maker's published rear-panel drawing or photo (`layoutSource` names it). Entries without one get an automatic grid.
 - `verified: false` means some details are estimates. The entry's `notes` start the doubt with "Check:". Confirm these against the hardware before issuing drawings.
 - Product names and part numbers belong to their manufacturers. This catalogue is not affiliated with or endorsed by any of them.
 
 ## Adding equipment
 
-Edit or add a generator in `tools/`, run it, run `python3 tools/manifest.py`, and commit both the JSON and the manifest. Generators append new file names to `index.json` and never rewrite it.
+Edit or add a generator in `tools/`, run it, then run `python3 tools/layouts.py && python3 tools/manifest.py`, and commit the JSON and the manifest. Generators append new file names to `index.json` and never rewrite it.

@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "version": "e8e349e0614c",
- "updated": "2026-11-10T22:55:14Z",
+ "version": "d14b293565a6",
+ "updated": "2026-11-10T23:39:39Z",
  "entries": 388,
  "files": {
   "ross.json": {
-   "sha256": "07e0ca311294eb66613e848816346a67d428d4e4fe6688264c26a5d9e6836d69",
+   "sha256": "6b71c035bae007d9b094338750778cbdcde895950b33e908d46ca0ddd340dfbc",
    "entries": 31,
-   "bytes": 54580
+   "bytes": 59427
   },
   "grassvalley.json": {
    "sha256": "dd70b2d580a2bec7013f95733f747d6c03a12fb92c418c4a742e9d4d7f7f853c",
@@ -40,9 +40,9 @@
    "bytes": 14814
   },
   "aja.json": {
-   "sha256": "27248601cc8ea83cda4f516d7b95b498cb7aad28f084569132d13e85a077588f",
+   "sha256": "61680b9fb7a15d18ff53f18da87ebe8607c8a8ef1665d266f15dcab4c2e81f0a",
    "entries": 8,
-   "bytes": 17651
+   "bytes": 24579
   },
   "decimator.json": {
    "sha256": "1e2482ab1cd474b173dbf09b3fe13b2991afc1b2c36f3e207e0a5eaae8263664",
@@ -165,9 +165,9 @@
    "bytes": 1853
   },
   "dell.json": {
-   "sha256": "ad31e118749b89ac9ee9ee51912558900833e54aec5a8753bd519fce3fbd752a",
+   "sha256": "4a8b2c697134dd1a2749d0fb1e1619771430cc8d87b6b3c9ec9e212f532d8777",
    "entries": 27,
-   "bytes": 61238
+   "bytes": 68558
   },
   "apc.json": {
    "sha256": "99f8c541e885c47de532b8cd5c5864c7d68a13b5932f3223d23ac7a369a8aba5",
