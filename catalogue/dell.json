@@ -12,7 +12,7 @@
   "verified": true,
   "source": "Dell PowerEdge R660 spec sheet",
   "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r660",
-  "notes": "1U, 42.8 x 482 x 822.9 mm with bezel (809 mm without). Intel Xeon 4th/5th gen. Up to 3 PCIe, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial optional. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
+  "notes": "1U, 42.8 x 482 x 822.9 mm with bezel (809 mm without). Intel Xeon 4th/5th gen. Up to 3 PCIe, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial port optional (add it as an extra port if fitted). PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
   "portGroups": [
    {
     "face": "front",
@@ -69,14 +69,6 @@
     "connector": "RJ45",
     "count": 1,
     "prefix": "iDRAC"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Other",
-    "connector": "DB9",
-    "count": 1,
-    "prefix": "Serial"
    },
    {
     "face": "rear",
@@ -158,7 +150,7 @@
      "from": "tl"
     },
     {
-     "g": 8,
+     "g": 7,
      "start": 1,
      "count": 1,
      "x0": 0.2854,
@@ -171,7 +163,7 @@
      "from": "tl"
     },
     {
-     "g": 8,
+     "g": 7,
      "start": 2,
      "count": 1,
      "x0": 0.3301,
@@ -184,7 +176,7 @@
      "from": "tl"
     },
     {
-     "g": 9,
+     "g": 8,
      "x0": 0.3791,
      "y0": 0.5993,
      "x1": 0.5304,
@@ -195,7 +187,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "x0": 0.2967,
      "y0": 0.1378,
      "x1": 0.7753,
@@ -206,7 +198,7 @@
      "from": "tl"
     },
     {
-     "g": 11,
+     "g": 10,
      "start": 1,
      "count": 1,
      "x0": 0.1775,
@@ -219,7 +211,7 @@
      "from": "tl"
     },
     {
-     "g": 11,
+     "g": 10,
      "start": 2,
      "count": 1,
      "x0": 0.8735,
@@ -312,7 +304,7 @@
   "verified": true,
   "source": "PowerEdge R760 technical specifications",
   "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r760",
-  "notes": "2U, 86.8 x 482 x 772.1 mm with bezel. Intel Xeon 4th/5th gen. Up to 8 PCIe Gen4/Gen5, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-2800 W. Common for GPU, media server and playout builds. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
+  "notes": "2U, 86.8 x 482 x 772.1 mm with bezel. Intel Xeon 4th/5th gen. Up to 8 PCIe Gen4/Gen5, optional 2 x 1GbE LOM and/or OCP 3.0, hot-swap redundant PSUs 700-2800 W. Serial port optional (add it as an extra port if fitted). Common for GPU, media server and playout builds. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
   "portGroups": [
    {
     "face": "front",
@@ -369,14 +361,6 @@
     "connector": "RJ45",
     "count": 1,
     "prefix": "iDRAC"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Other",
-    "connector": "DB9",
-    "count": 1,
-    "prefix": "Serial"
    },
    {
     "face": "rear",
@@ -458,7 +442,7 @@
      "from": "tl"
     },
     {
-     "g": 8,
+     "g": 7,
      "start": 1,
      "count": 1,
      "x0": 0.2849,
@@ -471,7 +455,7 @@
      "from": "tl"
     },
     {
-     "g": 8,
+     "g": 7,
      "start": 2,
      "count": 1,
      "x0": 0.3305,
@@ -484,7 +468,7 @@
      "from": "tl"
     },
     {
-     "g": 9,
+     "g": 8,
      "x0": 0.3951,
      "y0": 0.8096,
      "x1": 0.5464,
@@ -495,7 +479,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "start": 1,
      "count": 1,
      "x0": 0.1123,
@@ -508,7 +492,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "start": 2,
      "count": 1,
      "x0": 0.1123,
@@ -521,8 +505,8 @@
      "from": "tl"
     },
     {
-     "g": 10,
-     "start": 3,
+     "g": 9,
+     "start": 4,
      "count": 1,
      "x0": 0.311,
      "y0": 0.5716,
@@ -534,8 +518,8 @@
      "from": "tl"
     },
     {
-     "g": 10,
-     "start": 4,
+     "g": 9,
+     "start": 5,
      "count": 1,
      "x0": 0.4725,
      "y0": 0.5716,
@@ -547,8 +531,8 @@
      "from": "tl"
     },
     {
-     "g": 10,
-     "start": 5,
+     "g": 9,
+     "start": 3,
      "count": 1,
      "x0": 0.4347,
      "y0": 0.0716,
@@ -560,7 +544,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "start": 6,
      "count": 1,
      "x0": 0.4347,
@@ -573,7 +557,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "start": 7,
      "count": 1,
      "x0": 0.7449,
@@ -586,7 +570,7 @@
      "from": "tl"
     },
     {
-     "g": 10,
+     "g": 9,
      "start": 8,
      "count": 1,
      "x0": 0.7449,
@@ -599,7 +583,7 @@
      "from": "tl"
     },
     {
-     "g": 11,
+     "g": 10,
      "start": 1,
      "count": 1,
      "x0": 0.1751,
@@ -612,7 +596,7 @@
      "from": "tl"
     },
     {
-     "g": 11,
+     "g": 10,
      "start": 2,
      "count": 1,
      "x0": 0.8749,
@@ -681,7 +665,7 @@
     }
    ]
   },
-  "layoutSource": "Dell PowerEdge R760 Technical Guide, chassis views (slot numbering not confirmed)"
+  "layoutSource": "Dell PowerEdge R760 Technical Guide, chassis views and riser map"
  },
  {
   "id": "dell-poweredge-r660xs",

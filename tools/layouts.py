@@ -2,7 +2,8 @@
 """Adds traced panel layouts (`layout` + `layoutSource`) to catalogue entries. Format: catalogue/README.md, "Panel layout".
 
 Each layout is traced from the maker's published rear (or front) panel picture. Coordinates are fractions of the
-full 19-inch panel (482.6 mm wide, rack ears included), origin top-left; rear is as seen from behind the rack.
+full 19-inch panel (482.6 mm wide, rack ears included; a part-width unit uses its own widthCols share of it),
+origin top-left; rear is as seen from behind the rack.
 For an ear-less rear view the chassis is centred in the 19-inch frame before tracing.
 
 Run after any generator (generators rewrite their brand files without layouts), then tools/manifest.py:
@@ -21,13 +22,13 @@ class Panel:
     With `chassis` (mm), rear x values given to the helpers are fractions of an ear-less chassis of that width,
     centred in the 19-inch frame (front views include the ears, so front x values are used as given);
     y values are always fractions of the panel height."""
-    def __init__(self, ru, source, chassis=None):
-        self.h = ru * 44.45; self.source = source
-        self.k = (chassis or W_MM) / W_MM; self.off = (1 - self.k) / 2
+    def __init__(self, ru, source, chassis=None, width=W_MM):
+        self.h = ru * 44.45; self.w = width; self.source = source
+        self.k = (chassis or width) / width; self.off = (1 - self.k) / 2
         self.out = {'rear': [], 'front': [], 'fixtures': []}
 
     def X(self, x, face='rear'): return self.off + x * self.k if face == 'rear' else x
-    def fx(self, mm, axis): return mm / (W_MM if axis == 'x' else self.h)
+    def fx(self, mm, axis): return mm / (self.w if axis == 'x' else self.h)
 
     def _blk(self, g, x0, y0, x1, y1, rows=1, cols=1, start=None, count=None, order='row', frm='tl', size=None, face='rear'):
         b = dict(g=g)
@@ -52,7 +53,7 @@ class Panel:
         """n connectors in one row, first centre cx0, last centre cx1 (x order as drawn; use frm='tr' for right-to-left numbering)."""
         cx0, cx1 = self.X(cx0, face), self.X(cx1, face)
         p = (cx1 - cx0) / (n - 1) if n > 1 else self.fx(14, 'x')
-        h = self.fx(hmm, 'y') / 2 if hmm else min(p * W_MM / self.h, 0.9) / 2
+        h = self.fx(hmm, 'y') / 2 if hmm else min(p * self.w / self.h, 0.9) / 2
         cnt = None if start is None else n
         return self._blk(g, cx0 - p / 2, cy - h, cx1 + p / 2, cy + h, 1, n, start=start, count=cnt, frm=frm, face=face)
 
@@ -77,8 +78,8 @@ class Panel:
 LAYOUTS = {}
 
 
-def layout(pid, ru, source, chassis=None):
-    p = Panel(ru, source, chassis); LAYOUTS[pid] = p; return p
+def layout(pid, ru, source, chassis=None, cols=12):
+    p = Panel(ru, source, chassis, W_MM * cols / 12); LAYOUTS[pid] = p; return p
 
 
 # ---------------- AJA ----------------
@@ -127,30 +128,47 @@ for fr, ru, ys in (('fr1', 1, dict(base=0.806, aux=0.74, e1=0.293, e2=0.764, usb
 
 # ---------------- Dell ----------------
 # PowerEdge R660: technical guide figure 1 (front, 8 x 2.5-inch) and figure 5 (rear, 3 x LP slots). Rear chassis 434 mm.
-# Groups: 0-2 front VGA, USB 2.0, iDRAC Direct; 3 VGA, 4 USB 2.0, 5 USB 3.0, 6 iDRAC, 7 Serial (optional, not drawn),
-# 8 1GbE LOM (2), 9 OCP 3.0, 10 PCIe slot (3), 11 PSU (2, PSU 1 assumed left as seen from the rear).
+# Groups: 0-2 front VGA, USB 2.0, iDRAC Direct; 3 VGA, 4 USB 2.0, 5 USB 3.0, 6 iDRAC,
+# 7 1GbE LOM (2), 8 OCP 3.0, 9 PCIe slot (3), 10 PSU (2, PSU 1 assumed left as seen from the rear). The optional
+# serial port is not shown in Dell's views, so the R660/R760 entries leave it out.
 p = layout('dell-poweredge-r660', 1, 'Dell PowerEdge R660 Technical Guide, chassis views', chassis=434)
 p.one(0, 0.922, 0.49, 11, 15, face='front').one(1, 0.959, 0.45, 6, 13, face='front').one(2, 0.959, 0.77, 7, 4, face='front')
 p.one(3, 0.7335, 0.735, 17, 9).one(5, 0.6755, 0.639, 14, 6).one(4, 0.6755, 0.865, 14, 6).one(6, 0.6303, 0.768, 15, 13)
-p.one(8, 0.2787, 0.768, 15, 13, start=1).one(8, 0.3284, 0.768, 15, 13, start=2).one(9, 0.4497, 0.768, 73, 15)
-p.line(10, 0.3626, 0.7174, 0.284, 3, hmm=13)
-p.one(11, 0.169, 0.51, 24, 20, start=1).one(11, 0.943, 0.51, 24, 20, start=2)
+p.one(7, 0.2787, 0.768, 15, 13, start=1).one(7, 0.3284, 0.768, 15, 13, start=2).one(8, 0.4497, 0.768, 73, 15)
+p.line(9, 0.3626, 0.7174, 0.284, 3, hmm=13)
+p.one(10, 0.169, 0.51, 24, 20, start=1).one(10, 0.943, 0.51, 24, 20, start=2)
 p.fixture('psu', 0.082, 0.05, 0.217, 0.95, 'PSU 1').fixture('psu', 0.843, 0.05, 0.989, 0.95, 'PSU 2')
 p.fixture('slot', 0.011, 0.08, 0.066, 0.92, 'BOSS')
 
 # PowerEdge R760: technical guide figure 6 (front, 16 x E3.S) and figure 7 (rear, 8 slots). Rear chassis 434 mm.
-# Same groups as the R660, with 8 PCIe slots (numbered here in visual order: left riser, lower middle, middle riser,
-# right riser; Dell's slot numbers are not confirmed).
-p = layout('dell-poweredge-r760', 2, 'Dell PowerEdge R760 Technical Guide, chassis views (slot numbering not confirmed)', chassis=434)
+# Same groups as the R660, with 8 PCIe slots per Dell's riser map: riser 1 (left) slots 1-2, riser 2 (middle) 3 and 6,
+# riser 3 (lower middle) 4-5, riser 4 (right) 7-8. Which slot is upper in each riser is assumed.
+p = layout('dell-poweredge-r760', 2, 'Dell PowerEdge R760 Technical Guide, chassis views and riser map', chassis=434)
 p.one(1, 0.9586, 0.305, 6, 13, face='front').one(0, 0.9858, 0.305, 11, 15, face='front').one(2, 0.9599, 0.796, 5, 9, face='front')
 p.one(3, 0.728, 0.871, 17, 9).one(5, 0.6739, 0.838, 14, 6).one(4, 0.6739, 0.937, 14, 6).one(6, 0.6333, 0.894, 15, 13)
-p.one(8, 0.2781, 0.894, 15, 13, start=1).one(8, 0.3288, 0.894, 15, 13, start=2).one(9, 0.4675, 0.894, 73, 15)
-p.one(10, 0.1495, 0.156, 70, 15, start=1).one(10, 0.1495, 0.374, 70, 15, start=2)
-p.one(10, 0.359, 0.656, 60, 15, start=3).one(10, 0.5386, 0.656, 60, 15, start=4)
-p.one(10, 0.508, 0.156, 70, 15, start=5).one(10, 0.508, 0.374, 70, 15, start=6)
-p.one(10, 0.853, 0.189, 70, 15, start=7).one(10, 0.853, 0.407, 70, 15, start=8)
-p.one(11, 0.1664, 0.762, 24, 20, start=1).one(11, 0.9445, 0.762, 24, 20, start=2)
+p.one(7, 0.2781, 0.894, 15, 13, start=1).one(7, 0.3288, 0.894, 15, 13, start=2).one(8, 0.4675, 0.894, 73, 15)
+p.one(9, 0.1495, 0.156, 70, 15, start=1).one(9, 0.1495, 0.374, 70, 15, start=2)
+p.one(9, 0.359, 0.656, 60, 15, start=4).one(9, 0.5386, 0.656, 60, 15, start=5)
+p.one(9, 0.508, 0.156, 70, 15, start=3).one(9, 0.508, 0.374, 70, 15, start=6)
+p.one(9, 0.853, 0.189, 70, 15, start=7).one(9, 0.853, 0.407, 70, 15, start=8)
+p.one(10, 0.1664, 0.762, 24, 20, start=1).one(10, 0.9445, 0.762, 24, 20, start=2)
 p.fixture('psu', 0.0142, 0.53, 0.2104, 0.977, 'PSU 1').fixture('psu', 0.789, 0.53, 0.985, 0.977, 'PSU 2')
+
+# ---------------- Sony ----------------
+# PDW-F1600 / PDW-HD1500 (half-rack, 3RU box; 210 mm face centred in it): rear-panel drawing, PDW-HD1500/F1600
+# Operation Manual, "Rear Panel". Groups: 0 SDI In, 1 HD-SDI Out, 2 SD-SDI Out, 3 Composite Out, 4 Ref In, 5 Ref Loop,
+# 6 TC In, 7 TC Out, 8 Audio In, 9 Audio Out, 10 Monitor Out, 11 AES In, 12 AES Out, 13 Remote (9-pin), 14 Video Control,
+# 15 i.LINK, 16 Ethernet, 17 USB (maint), 18 Headphones (front), 19 AC In, 20 DC In 12V, 21 DC Out 12V (REMOTE 4-pin).
+for pid in ('sony-pdw-f1600', 'sony-pdw-hd1500'):
+    p = layout(pid, 3, 'Sony PDW-HD1500/F1600 Operation Manual, rear panel drawing', chassis=210, cols=6)
+    p.one(19, 0.2615, 0.140, 27, 20).one(21, 0.5705, 0.189, 9, 9).one(20, 0.6883, 0.129, 19, 19)
+    p.line(8, 0.1057, 0.2182, 0.398, 2, hmm=20).line(9, 0.336, 0.4444, 0.413, 2, hmm=20).line(10, 0.5569, 0.6707, 0.413, 2, hmm=20)
+    p.line(11, 0.0894, 0.1870, 0.6065, 2, hmm=12).line(12, 0.0894, 0.1870, 0.7269, 2, hmm=12)
+    p.one(0, 0.3198, 0.6065).line(1, 0.4065, 0.4892, 0.6065, 2, hmm=12).line(2, 0.336, 0.4648, 0.731, 2, hmm=12)
+    p.line(3, 0.6369, 0.7263, 0.7204, 2, hmm=12).one(4, 0.813, 0.7204).one(5, 0.8916, 0.7204)
+    p.one(6, 0.813, 0.8925).one(7, 0.8916, 0.8925)
+    p.one(15, 0.1057, 0.8817, 11, 7).one(14, 0.271, 0.8925, 31, 12.5).one(13, 0.4743, 0.8925, 31, 12.5)
+    p.line(17, 0.5867, 0.6274, 0.8925, 2, hmm=14).one(16, 0.7114, 0.8817, 16, 13)
 
 # ---------------- apply ----------------
 def check(e, lay):

@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "d14b293565a6",
- "updated": "2026-11-10T23:39:39Z",
+ "version": "3b006b13f073",
+ "updated": "2026-11-10T23:43:34Z",
  "entries": 388,
  "files": {
   "ross.json": {
@@ -15,9 +15,9 @@
    "bytes": 47185
   },
   "sony.json": {
-   "sha256": "a7bff13faef3ff250da0372eba47a175c41f1b7982358d14f30ca707bcd9f1fe",
+   "sha256": "fad3a05538da2dd12a4985fb70f93ce97669d199c0cb381e271640cd3d7ea1a2",
    "entries": 16,
-   "bytes": 49043
+   "bytes": 56523
   },
   "vizrt.json": {
    "sha256": "a0565873779374fe0f2f055af9dbcfb7c31ffc9be4a93c9a96401517ae8c7c1a",
@@ -165,9 +165,9 @@
    "bytes": 1853
   },
   "dell.json": {
-   "sha256": "4a8b2c697134dd1a2749d0fb1e1619771430cc8d87b6b3c9ec9e212f532d8777",
+   "sha256": "8693b3ee1c54cdab32bb53aee93021970706d5b44c19d4a946cb496f54bd80f2",
    "entries": 27,
-   "bytes": 68558
+   "bytes": 68367
   },
   "apc.json": {
    "sha256": "99f8c541e885c47de532b8cd5c5864c7d68a13b5932f3223d23ac7a369a8aba5",

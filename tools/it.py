@@ -29,13 +29,13 @@ PSU_NOTE = 'PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20
 NIC_NOTE = 'Add NIC, GPU and SDI card ports as extra ports for the cards fitted. '
 PE = 'https://www.dell.com/en-au/shop/ipovw/poweredge-'
 
-DE('poweredge-r660', 'PowerEdge R660', 'PowerEdge R660 1U two-socket server', 'PowerEdge 16G', 'computer', 1, pe_ports(3),
+DE('poweredge-r660', 'PowerEdge R660', 'PowerEdge R660 1U two-socket server', 'PowerEdge 16G', 'computer', 1, pe_ports(3, serial=False),
    '1U, 42.8 x 482 x 822.9 mm with bezel (809 mm without). Intel Xeon 4th/5th gen. Up to 3 PCIe, optional 2 x 1GbE LOM and/or OCP 3.0, '
-   'hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial optional. ' + PSU_NOTE + NIC_NOTE,
+   'hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial port optional (add it as an extra port if fitted). ' + PSU_NOTE + NIC_NOTE,
    'Dell PowerEdge R660 spec sheet', PE + 'r660', full=True)
-DE('poweredge-r760', 'PowerEdge R760', 'PowerEdge R760 2U two-socket server', 'PowerEdge 16G', 'computer', 2, pe_ports(8),
+DE('poweredge-r760', 'PowerEdge R760', 'PowerEdge R760 2U two-socket server', 'PowerEdge 16G', 'computer', 2, pe_ports(8, serial=False),
    '2U, 86.8 x 482 x 772.1 mm with bezel. Intel Xeon 4th/5th gen. Up to 8 PCIe Gen4/Gen5, optional 2 x 1GbE LOM and/or OCP 3.0, '
-   'hot-swap redundant PSUs 700-2800 W. Common for GPU, media server and playout builds. ' + PSU_NOTE + NIC_NOTE,
+   'hot-swap redundant PSUs 700-2800 W. Serial port optional (add it as an extra port if fitted). Common for GPU, media server and playout builds. ' + PSU_NOTE + NIC_NOTE,
    'PowerEdge R760 technical specifications', PE + 'r760', full=True)
 for code, ru, pcie in [('R660xs', 1, 3), ('R760xs', 2, 6), ('R6615', 1, 3), ('R7615', 2, 8), ('R6625', 1, 3), ('R7625', 2, 8)]:
     amd = code[1] in '67' and len(code) == 5
