@@ -33,6 +33,17 @@ DE('poweredge-r660', 'PowerEdge R660', 'PowerEdge R660 1U two-socket server', 'P
    '1U, 42.8 x 482 x 822.9 mm with bezel (809 mm without). Intel Xeon 4th/5th gen. Up to 3 PCIe, optional 2 x 1GbE LOM and/or OCP 3.0, '
    'hot-swap redundant PSUs 700-1800 W (and -48 V DC). Serial port optional (add it as an extra port if fitted). ' + PSU_NOTE + NIC_NOTE,
    'Dell PowerEdge R660 spec sheet', PE + 'r660', full=True)
+DE('poweredge-r470', 'PowerEdge R470', 'PowerEdge R470 1U single-socket server', 'PowerEdge 17G', 'computer', 1, pe_ports(2, serial=False),
+   '1U single-socket Intel Xeon 6 server (2025). Up to 2 PCIe, OCP 3.0 NIC, optional 2 x 1GbE LOM, hot-swap redundant PSUs. '
+   'Check: PCIe slot count and LOM for your build. ' + PSU_NOTE + NIC_NOTE,
+   'Dell PowerEdge R470 product page', PE + 'r470', verified=False, full=True)
+DE('powerscale-gen6-4u', 'PowerScale Gen6 chassis', 'PowerScale (Isilon) Gen6 4U chassis, 4 nodes', 'PowerScale', 'computer', 4,
+   [R('io', 'Ethernet', 'SFP28', 8, 'Front-end (2 per node)'), R('io', 'Ethernet', 'QSFP', 8, 'Back-end (2 per node)'),
+    R('io', 'Ethernet', 'RJ45', 4, 'Management (1 per node)'), R('io', 'Other', 'DB9', 4, 'Serial console'), R('in', 'Power', 'IEC C14', 4, 'PSU')],
+   '4U chassis holding up to 4 PowerScale/Isilon Gen6 nodes (A200, A300, A3000, H400, H500, H700, H7000 and others), 15 or 20 drives per node '
+   'in front sleds. Each node pair shares redundant PSUs. Back-end network is 10/25/40/100GbE or InfiniBand to a pair of back-end switches. '
+   'Check: front-end and back-end port types depend on the node model; a half-filled chassis has 2 nodes.',
+   'Dell PowerScale Gen6 hardware guides', 'https://www.dell.com/en-au/dt/storage/powerscale.htm', verified=False, full=True)
 DE('poweredge-r760', 'PowerEdge R760', 'PowerEdge R760 2U two-socket server', 'PowerEdge 16G', 'computer', 2, pe_ports(8, serial=False),
    '2U, 86.8 x 482 x 772.1 mm with bezel. Intel Xeon 4th/5th gen. Up to 8 PCIe Gen4/Gen5, optional 2 x 1GbE LOM and/or OCP 3.0, '
    'hot-swap redundant PSUs 700-2800 W. Serial port optional (add it as an extra port if fitted). Common for GPU, media server and playout builds. ' + PSU_NOTE + NIC_NOTE,

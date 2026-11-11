@@ -1,0 +1,75 @@
+[
+ {
+  "id": "hpe-dl360p-gen8",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL360p Gen8",
+  "name": "ProLiant DL360p Gen8 1U server (legacy)",
+  "family": "ProLiant",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE QuickSpecs DL360p Gen8",
+  "productUrl": "https://www.hpe.com/psnow/doc/c04123079",
+  "notes": "1U two-socket Xeon E5-2600 / v2 server (2012-2015), 4-port 1GbE FlexibleLOM (or 2 x 10GbE), dedicated iLO 4, 2 PCIe slots, redundant Flex Slot PSUs. Check: FlexibleLOM fitted and PCIe cards.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

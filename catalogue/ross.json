@@ -1431,6 +1431,267 @@
   ]
  },
  {
+  "id": "ross-nk-3g144",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-3G144",
+  "name": "NK-3G144 144x144 router",
+  "family": "NK",
+  "category": "router",
+  "ru": 10,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross NK-3G144 User Guide (9807DR-5600)",
+  "productUrl": "https://documentation.rossvideo.com/files/Manuals/Routers/NK/NK-3G144%20User%20Guide%20(9807DR-5600).pdf",
+  "notes": "10RU, 320 mm deep, 144x144 3G/HD/SD-SDI router built from 8-port input (NK-I3G) and output (NK-O3G) cards, 18 input and 22 output slots. Slots 15D-18D give duplicate outputs 113D-144D for monitoring. Looping reference, T-Bus on RJ45 (straight CAT5), alarm relay, one PSU included with a second IEC for a redundant load-sharing PSU, under 500 W. No Ethernet on the frame; control via NK-IPS. Check: number of T-Bus RJ45 connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 144,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 144,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Out Dup (113-144)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Vid Ref (loop)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal",
+    "count": 1,
+    "prefix": "Alarm GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-ips",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-IPS",
+  "name": "NK-IPS network bridge",
+  "family": "NK",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK-IPS product page",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-ips/",
+  "notes": "1RU, 2.4 cm deep. Gateway from Ethernet (10 Mbps, static or DHCP) to the NK T-Bus, with a buffered 8-port T-Bus hub; web and DashBoard set-up, firmware and alarms. Universal supply included, optional NK-RP1/P or NK-P1 redundant power. Check: T-Bus connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-vrc",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-VRC",
+  "name": "NK-VRC virtual routing core",
+  "family": "NK",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross NK-VRC product page",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-vrc/",
+  "notes": "Maps physical sources and destinations of an NK system to virtual ones and ties router levels (for example analog and digital) through external resources. Universal supply included, optional NK-RP1/P (NK-D12/P cable) or NK-P1. Needs DashBoard. Check: rack height (1RU assumed from a site drawing) and rear connectors, not listed on the Ross page.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-m16",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-M16",
+  "name": "NK-M16 machine control / data router",
+  "family": "NK",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross NK-M series product page",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-m-series/",
+  "notes": "1RU 16-port RS-422 machine control (data) router, DB9 female ports, 6.4 cm deep, 9 W. Universal supply included, optional NK-RP1/P or NK-P1 redundant power. Check: T-Bus connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 16,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
+  "id": "ross-nk-m32",
+  "manufacturer": "Ross Video",
+  "partNumber": "NK-M32",
+  "name": "NK-M32 machine control / data router",
+  "family": "NK",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross NK-M series product page",
+  "productUrl": "https://www.rossvideo.com/products/routing-systems/nk-m-series/",
+  "notes": "2RU 32-port RS-422 machine control (data) router, DB9 female ports, 6.4 cm deep, 15 W. Universal supply included, optional NK-RP1/P or NK-P1 redundant power. Check: T-Bus connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "T-Bus"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+15V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Redundant DC"
+   }
+  ]
+ },
+ {
   "id": "ross-carbonite-ultra",
   "manufacturer": "Ross Video",
   "partNumber": "Carbonite Ultra",
@@ -2500,6 +2761,76 @@
     "y1": 0.95
    },
    "rearGen": 3
+  }
+ },
+ {
+  "id": "ross-dfr-8321",
+  "manufacturer": "Ross Video",
+  "partNumber": "DFR-8321",
+  "name": "openGear DFR-8321 20-slot frame (legacy)",
+  "family": "openGear",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross openGear page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/frames-accessories/ogx-frame/",
+  "notes": "First-generation 2RU, 20-slot openGear frame (DFR-8321-BN with network card, -C with cooling door); takes DFR-8321 generation rear modules. Superseded by OG3-FR and OGX-FR. Place cards in the frame's slots. Check: rear layout (assumed same as OGX-FR) and the Ethernet option fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PS"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "GFC-8322 in a dedicated slot right of PS1; network card MFC-OG3-N",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rearGen": 2
   }
  },
  {

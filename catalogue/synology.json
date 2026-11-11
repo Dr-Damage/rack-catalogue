@@ -1,0 +1,67 @@
+[
+ {
+  "id": "synology-sa3400",
+  "manufacturer": "Synology",
+  "partNumber": "SA3400",
+  "name": "SA3400 12-bay rackmount NAS",
+  "family": "SA series",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Synology SA3400 datasheet",
+  "productUrl": "https://www.synology.com/en-global/products/SA3400",
+  "notes": "2U, 12 x 3.5/2.5 in hot-swap bays, Intel Xeon D-1541, 4 x 1GbE RJ45 and 2 x 10GbE SFP+ onboard, 2 PCIe 3.0 x8 slots, 2 expansion ports for RX1217sas units, redundant PSUs. Rails needed (a support shelf is often fitted under it).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

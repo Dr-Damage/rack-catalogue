@@ -1599,6 +1599,127 @@
   ]
  },
  {
+  "id": "aja-fs2",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "FS2",
+  "name": "FS2 dual-channel frame sync / converter (legacy)",
+  "family": "FS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AJA FS2 product page (archived)",
+  "productUrl": "https://www.aja.com/products/fs2",
+  "notes": "1RU dual-channel universal frame synchroniser and up/down/cross converter (two independent channels, 3G-SDI, optional fibre SFPs), dual redundant AC supplies, web control. Discontinued; replaced by FS4. Check: connector counts are from memory of the rear panel, not from the AJA spec sheet; correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Analog Audio I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
   "id": "aja-bridge-live-12g-4",
   "manufacturer": "AJA Video Systems",
   "partNumber": "BRIDGE LIVE 12G-4",

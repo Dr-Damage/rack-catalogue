@@ -580,6 +580,257 @@
   ]
  },
  {
+  "id": "evs-xs4k",
+  "manufacturer": "EVS",
+  "partNumber": "XS4K",
+  "name": "XS4K studio production server (legacy)",
+  "family": "Live production servers",
+  "category": "recorder",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "EVS product page and back panel map",
+  "productUrl": "https://evs.com/backpanel",
+  "notes": "Studio version of the XT4K platform (6U): channels set to record or play, multiviewer, MADI, 2 PC LAN, XNet. Check: channel count and rack height (6U as drawn on site drawings). Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Ch (in/out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Ext In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DA-15",
+    "count": 2,
+    "prefix": "AES (DA-15)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PC LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "XNet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evs-xhub3",
+  "manufacturer": "EVS",
+  "partNumber": "XHub3",
+  "name": "XHub3 XNet SDTI network hub",
+  "family": "Networking",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Rental listings (Gravity Media, NEP)",
+  "productUrl": "https://www.gravitymedia.com/au/product/evs-xhub-3/",
+  "notes": "1RU hub for the EVS XNet SDTI network: 8 SDTI in/out connections with 8 branch status LEDs, USB 2 for upgrades. Check: SDTI connector layout (in/out pairs) and power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDTI XNet"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Upgrade USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "evs-xfile3",
+  "manufacturer": "EVS",
+  "partNumber": "XFile3",
+  "name": "XFile3 media archiving station",
+  "family": "Media management",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Rental listing (Gravity Media)",
+  "productUrl": "https://www.gravitymedia.com/product/evs-xfile3/",
+  "notes": "2U platform (XF32-4301D) for backing up and restoring clips from EVS servers: 6 front USB 3, 4 front eSATA, 5 rear USB 3, 2 x gigabit Ethernet (jumbo frames), 2 x 10GbE SFP+ (modules not included). Check: PSU count and video outputs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "eSATA",
+    "count": 4,
+    "prefix": "eSATA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 5,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
   "id": "evs-xt3-6u",
   "manufacturer": "EVS",
   "partNumber": "XT3 6U",

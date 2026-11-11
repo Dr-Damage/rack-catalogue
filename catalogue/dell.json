@@ -292,6 +292,168 @@
   "layoutSource": "Dell PowerEdge R660 Technical Guide, chassis views"
  },
  {
+  "id": "dell-poweredge-r470",
+  "manufacturer": "Dell",
+  "partNumber": "PowerEdge R470",
+  "name": "PowerEdge R470 1U single-socket server",
+  "family": "PowerEdge 17G",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerEdge R470 product page",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/poweredge-r470",
+  "notes": "1U single-socket Intel Xeon 6 server (2025). Up to 2 PCIe, OCP 3.0 NIC, optional 2 x 1GbE LOM, hot-swap redundant PSUs. Check: PCIe slot count and LOM for your build. PSUs up to 1400 W take C13/C14 cords; 1800 W and larger take C19/C20. Add NIC, GPU and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-powerscale-gen6-4u",
+  "manufacturer": "Dell",
+  "partNumber": "PowerScale Gen6 chassis",
+  "name": "PowerScale (Isilon) Gen6 4U chassis, 4 nodes",
+  "family": "PowerScale",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerScale Gen6 hardware guides",
+  "productUrl": "https://www.dell.com/en-au/dt/storage/powerscale.htm",
+  "notes": "4U chassis holding up to 4 PowerScale/Isilon Gen6 nodes (A200, A300, A3000, H400, H500, H700, H7000 and others), 15 or 20 drives per node in front sleds. Each node pair shares redundant PSUs. Back-end network is 10/25/40/100GbE or InfiniBand to a pair of back-end switches. Check: front-end and back-end port types depend on the node model; a half-filled chassis has 2 nodes.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "Front-end (2 per node)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP",
+    "count": 8,
+    "prefix": "Back-end (2 per node)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Management (1 per node)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 4,
+    "prefix": "Serial console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
   "id": "dell-poweredge-r760",
   "manufacturer": "Dell",
   "partNumber": "PowerEdge R760",
