@@ -37,10 +37,10 @@ server('xs-via', 'XS-VIA', 'XS-VIA studio production server', 6, 12, '12G-SDI',
        'Studio server on the XT-VIA platform: 12 channels (e.g. 6 rec + 6 play HD, 6 rec 12G UHD), embedded multiviewer (2 in, 4 out), '
        '10G SFP+ (100G option), dual 10G media sharing, redundant 1G management LAN, XNet/XNet-VIA, AES/MADI audio, 18 TB to 54 TB. '
        'Check: rack height (assumed 6U like XT-VIA).', 'https://evs.com/products/live-production-servers/xs-via')
-server('xt-go', 'XT-GO', 'XT-GO replay server', 4, 8, '12G-SDI',
+server('xt-go', 'XT-GO', 'XT-GO replay server', 6, 8, '12G-SDI',
        'Entry-level replay server: 8 HD channels (4 UHD, 4 fill/key), 1.5G/3G/12G selectable, embedded multiviewer (2 in, 4 out), '
        '10G SFP+ (ST 2110), dual 10G XNet-GO, redundant 1G management LAN, AES/MADI audio (128 tracks), 11 TB internal (22 TB max). '
-       'Check: rack height (assumed 4U, nano family).', 'https://evs.com/products/live-production-servers/xt-go')
+       '6U: EVS\'s back-panel picture shows the same chassis as the XT-VIA (two stacked PSUs). Check: rack height on your unit.', 'https://evs.com/products/live-production-servers/xt-go')
 server('xt4k', 'XT4K', 'XT4K live production server (legacy)', 6, 12, '12G-SDI',
        '6U, 39 kg with 12 hot-swap drives. 4 codec modules, MADI on every unit, 2 PC LAN, XNet, up to 192 audio channels. Earlier generation still '
        'common in OB trucks.', 'https://evs.com/backpanel/xt4k.html')

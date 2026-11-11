@@ -296,13 +296,13 @@
   "name": "XT-GO replay server",
   "family": "Live production servers",
   "category": "recorder",
-  "ru": 4,
+  "ru": 6,
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
   "source": "EVS product page and back panel map",
   "productUrl": "https://evs.com/products/live-production-servers/xt-go",
-  "notes": "Entry-level replay server: 8 HD channels (4 UHD, 4 fill/key), 1.5G/3G/12G selectable, embedded multiviewer (2 in, 4 out), 10G SFP+ (ST 2110), dual 10G XNet-GO, redundant 1G management LAN, AES/MADI audio (128 tracks), 11 TB internal (22 TB max). Check: rack height (assumed 4U, nano family). Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
+  "notes": "Entry-level replay server: 8 HD channels (4 UHD, 4 fill/key), 1.5G/3G/12G selectable, embedded multiviewer (2 in, 4 out), 10G SFP+ (ST 2110), dual 10G XNet-GO, redundant 1G management LAN, AES/MADI audio (128 tracks), 11 TB internal (22 TB max). 6U: EVS's back-panel picture shows the same chassis as the XT-VIA (two stacked PSUs). Check: rack height on your unit. Check: EVS shows the rear panel only as a picture (evs.com/backpanel), so the SDI BNC count is set to the channel count and the control/audio connector counts are estimates. Correct them from your unit.",
   "portGroups": [
    {
     "face": "rear",
