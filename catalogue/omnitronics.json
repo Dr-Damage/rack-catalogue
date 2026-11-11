@@ -1,0 +1,59 @@
+[
+ {
+  "id": "omnitronics-ipr100",
+  "manufacturer": "Omnitronics",
+  "partNumber": "IPR100",
+  "name": "IPR100 radio-over-IP gateway (1 channel, desktop)",
+  "family": "RoIP gateway",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 7,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Omnitronics RoIP/VoIP connectivity pages",
+  "productUrl": "https://www.omnitronicsworld.com/voip-connectivity/",
+  "notes": "Desktop gateway that links one analog two-way radio (or a 4-wire E&M line) to IP: RTP unicast/multicast and SIP, 12 VoIP channels, DTMF / CTCSS / Selcall signalling, serial data pass-through and serial channel change, web set-up, 12 V DC plug-pack. Front: status LEDs and a handset jack (Omnitronics 960 handsets). Sits on a rack shelf; superseded by the IPR110+. Check: rear connector types (radio port, serial) and the width (estimated at about 270 mm from the maker photo); the maker's manual is behind a customer login.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Radio (4-wire E&M)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Handset"
+   }
+  ]
+ }
+]

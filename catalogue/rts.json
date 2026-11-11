@@ -1491,6 +1491,63 @@
   ]
  },
  {
+  "id": "rts-mda-100",
+  "manufacturer": "RTS",
+  "partNumber": "MDA-100",
+  "name": "MDA-100 mixing distribution amplifier (8x1 mixer + 1x8 DA)",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS MDA-100 technical data sheet (F01U282189 Rev 01, 2013)",
+  "productUrl": "https://products.rtsintercoms.com/binary/MDA%20100%20Technical%20Data%20Sheet.pdf",
+  "notes": "1RU full width, 483 x 44 x 213 mm deep, 4.1 kg, 18 W. 8x1 summing amplifier (8 camera talk inputs to the master) and 1x8 DA (master return to 8 cameras), all active balanced; front trimmers per input and output, input impedance 20k/600/150 ohm by rear jumpers, IEC inlet with voltage selector. Check: rear audio connector type (the data sheet does not say).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 8,
+    "prefix": "Mixer In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Mixer Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 8,
+    "prefix": "DA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
   "id": "rts-lms-325",
   "manufacturer": "RTS",
   "partNumber": "LMS-325",

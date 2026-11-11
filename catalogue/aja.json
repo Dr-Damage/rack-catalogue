@@ -1608,17 +1608,89 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "AJA FS2 product page (archived)",
+  "verified": true,
+  "source": "AJA FS2 spec sheet",
   "productUrl": "https://www.aja.com/products/fs2",
-  "notes": "1RU dual-channel universal frame synchroniser and up/down/cross converter (two independent channels, 3G-SDI, optional fibre SFPs), dual redundant AC supplies, web control. Discontinued; replaced by FS4. Check: connector counts are from memory of the rear panel, not from the AJA spec sheet; correct them from your unit.",
+  "notes": "1RU, 438 x 44 x 368 mm deep, 3.6 kg, 55 W typical / 80 W max. Dual-channel frame synchroniser and up/down/cross converter: 2 x 3G-SDI in and out (BNC), optional dual LC fibre in and out, HDMI 1.3 in and out, HD/SD component (3 BNC) and composite in and out, 16 ch AES in/out and 8 ch balanced analog audio in/out on DB25 breakouts, looping reference (black burst or tri-level), GPI DB15 (4 in, 4 out), RS-422 DB9, gigabit LAN (web and VTECS control), dual redundant AC supplies. Discontinued; replaced by FS4. Rear panel read from the maker photo.",
   "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Ch 1-16 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Ch 1-16 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Audio Ch 1-8 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Audio Ch 1-8 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre Out (option)"
+   },
    {
     "face": "rear",
     "dir": "in",
     "type": "3G-SDI",
     "connector": "BNC",
-    "count": 4,
+    "count": 2,
     "prefix": "SDI In"
    },
    {
@@ -1626,15 +1698,23 @@
     "dir": "out",
     "type": "3G-SDI",
     "connector": "BNC",
-    "count": 4,
+    "count": 2,
     "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
    },
    {
     "face": "rear",
     "dir": "out",
     "type": "HDMI",
     "connector": "HDMI",
-    "count": 2,
+    "count": 1,
     "prefix": "HDMI Out"
    },
    {
@@ -1642,16 +1722,32 @@
     "dir": "in",
     "type": "Analog video",
     "connector": "BNC",
-    "count": 2,
-    "prefix": "Analog In"
+    "count": 3,
+    "prefix": "Component In"
    },
    {
     "face": "rear",
     "dir": "out",
     "type": "Analog video",
     "connector": "BNC",
-    "count": 2,
-    "prefix": "Analog Out"
+    "count": 3,
+    "prefix": "Component Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
    },
    {
     "face": "rear",
@@ -1659,7 +1755,7 @@
     "type": "Reference",
     "connector": "BNC",
     "count": 1,
-    "prefix": "Ref"
+    "prefix": "Ref In"
    },
    {
     "face": "rear",
@@ -1668,46 +1764,6 @@
     "connector": "BNC",
     "count": 1,
     "prefix": "Ref Loop"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "AES/EBU",
-    "connector": "DB25",
-    "count": 2,
-    "prefix": "AES I/O"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Analog audio",
-    "connector": "DB25",
-    "count": 2,
-    "prefix": "Analog Audio I/O"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Other",
-    "connector": "DB25",
-    "count": 1,
-    "prefix": "GPI"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "RS-422",
-    "connector": "DB9",
-    "count": 2,
-    "prefix": "RS-422"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Ethernet",
-    "connector": "RJ45",
-    "count": 1,
-    "prefix": "Ethernet"
    },
    {
     "face": "rear",

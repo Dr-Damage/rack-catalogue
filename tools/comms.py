@@ -268,6 +268,14 @@ for code, name, extra in [('MCE-325', 'MCE-325 TW user station', 'Two channels (
 RT('ps-15', 'PS-15', 'PS-15 TW intercom power supply', 'TW', 'power', 1,
    [R('io', AA, 'XLR3M', 2, 'TW line'), R('in', 'Power', 'IEC', 1, 'AC In')],
    f'{HALF}. Powers RTS TW party-line channels. Check: channel count and rear connectors.', DWF, DWFURL, verified=False, w=6)
+RT('mda-100', 'MDA-100', 'MDA-100 mixing distribution amplifier (8x1 mixer + 1x8 DA)', 'Interfaces', 'audio', 1,
+   [R('in', AA, 'Other', 8, 'Mixer In'), R('out', AA, 'Other', 1, 'Mixer Out'), R('in', AA, 'Other', 1, 'DA In'),
+    R('out', AA, 'Other', 8, 'DA Out'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   '1RU full width, 483 x 44 x 213 mm deep, 4.1 kg, 18 W. 8x1 summing amplifier (8 camera talk inputs to the master) and 1x8 DA '
+   '(master return to 8 cameras), all active balanced; front trimmers per input and output, input impedance 20k/600/150 ohm by rear '
+   'jumpers, IEC inlet with voltage selector. Check: rear audio connector type (the data sheet does not say).',
+   'RTS MDA-100 technical data sheet (F01U282189 Rev 01, 2013)',
+   'https://products.rtsintercoms.com/binary/MDA%20100%20Technical%20Data%20Sheet.pdf', verified=False)
 for code, name in [('LMS-325', 'LMS-325 loudspeaker'), ('MCS-325', 'MCS-325 speaker')]:
     RT(code.lower(), code, name, 'TW', 'audio', 1, [R('in', AA, 'Other', 1, 'Audio In'), R('in', 'Power', 'IEC', 1, 'AC In')],
        f'{HALF}. Rack monitor loudspeaker{" with front volume" if code == "LMS-325" else ""}. Check: input and power connectors.',

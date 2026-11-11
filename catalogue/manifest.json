@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "10b748a00565",
- "updated": "2026-11-11T06:59:04Z",
- "entries": 557,
+ "version": "41edf46b3c8e",
+ "updated": "2026-11-11T07:33:43Z",
+ "entries": 559,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -40,9 +40,9 @@
    "bytes": 14814
   },
   "aja.json": {
-   "sha256": "10e388e93428e79e7709d7668fcfe0fe04a9b5f622c9cbe244866fce7bafcdea",
+   "sha256": "5184d70147630c62a49c1c006307aa86a5a327d18f4e48f703517e519d2217fd",
    "entries": 9,
-   "bytes": 34143
+   "bytes": 35385
   },
   "decimator.json": {
    "sha256": "1e2482ab1cd474b173dbf09b3fe13b2991afc1b2c36f3e207e0a5eaae8263664",
@@ -95,9 +95,9 @@
    "bytes": 10876
   },
   "rts.json": {
-   "sha256": "8e22efb8071c8cb9743a732040d46e93624926d93e3f0302d39b7d115c0d30e4",
-   "entries": 29,
-   "bytes": 37220
+   "sha256": "d532015977e01c7e3e6414aee2aea14e08a402d6df52b001173779337a92f1dd",
+   "entries": 30,
+   "bytes": 38765
   },
   "canare.json": {
    "sha256": "2cc34ef9579c93c6ad24d5516d92e35e3f350c24271bb9a07dde97757d788fcc",
@@ -218,6 +218,11 @@
    "sha256": "3c5aab7583abfe967948eaa41b35f3d049b09ed6323f07f7f666f2c5329cd180",
    "entries": 5,
    "bytes": 6632
+  },
+  "omnitronics.json": {
+   "sha256": "5618ea35ff1652577df76f291573e24b0b557d8188f6427cc277c53276aa1340",
+   "entries": 1,
+   "bytes": 1669
   }
  }
 }

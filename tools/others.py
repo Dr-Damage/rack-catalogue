@@ -77,15 +77,20 @@ add('datavideo.json', 'dv-', 'Datavideo', 'se-1200mu', 'SE-1200MU', 'SE-1200MU 6
 
 # AJA FS2 (added 2026-11-11, legacy dual-channel frame sync)
 A('fs2', 'FS2', 'FS2 dual-channel frame sync / converter (legacy)', 'FS', 'converter', 1,
-  [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out'), R('out', 'HDMI', 'HDMI', 2, 'HDMI Out'),
-   R('in', 'Analog video', 'BNC', 2, 'Analog In'), R('out', 'Analog video', 'BNC', 2, 'Analog Out'),
-   R('in', 'Reference', 'BNC', 1, 'Ref'), R('out', 'Reference', 'BNC', 1, 'Ref Loop'),
-   R('io', 'AES/EBU', 'DB25', 2, 'AES I/O'), R('io', 'Analog audio', 'DB25', 2, 'Analog Audio I/O'), R('io', 'Other', 'DB25', 1, 'GPI'),
-   R('io', 'RS-422', 'DB9', 2, 'RS-422'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('in', 'Power', 'IEC', 2, 'PSU')],
-  '1RU dual-channel universal frame synchroniser and up/down/cross converter (two independent channels, 3G-SDI, optional fibre SFPs), '
-  'dual redundant AC supplies, web control. Discontinued; replaced by FS4. Check: connector counts are from memory of the rear panel, not '
-  'from the AJA spec sheet; correct them from your unit.', 'AJA FS2 product page (archived)', 'https://www.aja.com/products/fs2',
-  verified=False, full=True)
+  [R('io', 'AES/EBU', 'DB25', 1, 'AES Ch 1-16 In'), R('io', 'AES/EBU', 'DB25', 1, 'AES Ch 1-16 Out'),
+   R('in', 'Analog audio', 'DB25', 1, 'Analog Audio Ch 1-8 In'), R('out', 'Analog audio', 'DB25', 1, 'Analog Audio Ch 1-8 Out'),
+   R('io', 'RS-422', 'DB9', 1, 'RS-422'), R('io', 'GPI', 'DB15', 1, 'GPI'), R('io', 'Ethernet', 'RJ45', 1, 'LAN'),
+   R('in', 'Fibre', 'LC', 2, 'Fibre In (option)'), R('out', 'Fibre', 'LC', 2, 'Fibre Out (option)'),
+   R('in', '3G-SDI', 'BNC', 2, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('in', 'HDMI', 'HDMI', 1, 'HDMI In'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'),
+   R('in', 'Analog video', 'BNC', 3, 'Component In'), R('out', 'Analog video', 'BNC', 3, 'Component Out'),
+   R('in', 'Analog video', 'BNC', 1, 'Composite In'), R('out', 'Analog video', 'BNC', 1, 'Composite Out'),
+   R('in', 'Reference', 'BNC', 1, 'Ref In'), R('out', 'Reference', 'BNC', 1, 'Ref Loop'), R('in', 'Power', 'IEC', 2, 'PSU')],
+  '1RU, 438 x 44 x 368 mm deep, 3.6 kg, 55 W typical / 80 W max. Dual-channel frame synchroniser and up/down/cross converter: '
+  '2 x 3G-SDI in and out (BNC), optional dual LC fibre in and out, HDMI 1.3 in and out, HD/SD component (3 BNC) and composite in and out, '
+  '16 ch AES in/out and 8 ch balanced analog audio in/out on DB25 breakouts, looping reference (black burst or tri-level), '
+  'GPI DB15 (4 in, 4 out), RS-422 DB9, gigabit LAN (web and VTECS control), dual redundant AC supplies. Discontinued; replaced by FS4. '
+  'Rear panel read from the maker photo.',
+  'AJA FS2 spec sheet', 'https://www.aja.com/products/fs2', full=True)
 # AJA BRIDGE LIVE (added 2026-11-11)
 for code, n, t, c in [('12G-4', 4, '12G-SDI', 'BNC'), ('3G-8', 8, '3G-SDI', 'DIN 1.0/2.3')]:
     A(f'bridge-live-{code.lower()}', f'BRIDGE LIVE {code}', f'BRIDGE LIVE {code} streaming / transcoding appliance', 'BRIDGE LIVE', 'converter', 1,

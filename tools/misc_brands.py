@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generates catalogue files for brands first met on site drawings (added 2026-11-11 for the CAR rack import):
-evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
+evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), omnitronics.json, hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
 for the app's built-in Blackmagic catalogue). Avid, Synology, Tieline and Dejero moved to media_brands.py (full ranges). verified=False and a 'Check:' note mark anything not confirmed from a maker's document."""
 import json, os
 CAT = os.path.join(os.path.dirname(__file__), '..', 'catalogue')
@@ -61,6 +61,18 @@ BL('smart-videohub-12x12', 'Smart Videohub 12x12', 'Smart Videohub 12x12 6G rout
    '1RU 12x12 6G-SDI router with front LCD and spin-knob control, Ethernet and USB set-up, reference input. Replaced by the '
    'Smart Videohub 12G and CleanSwitch 12x12. Check: 6G or 12G version and whether a second (redundant) AC inlet is fitted.',
    'Blackmagic support archive', 'https://www.blackmagicdesign.com/support', verified=False, full=True)
+
+# ---------------- Omnitronics ----------------
+OM = lambda *a, **k: add('omnitronics.json', 'omnitronics-', 'Omnitronics', *a, **k)
+OM('ipr100', 'IPR100', 'IPR100 radio-over-IP gateway (1 channel, desktop)', 'RoIP gateway', 'audio', 1,
+   [R('io', 'Analog audio', 'DB15', 1, 'Radio (4-wire E&M)'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('io', 'RS-232', 'DB9', 1, 'Serial'),
+    R('in', 'Power', '12V DC', 1, 'DC In'), F('io', 'Analog audio', 'RJ11', 1, 'Handset')],
+   'Desktop gateway that links one analog two-way radio (or a 4-wire E&M line) to IP: RTP unicast/multicast and SIP, '
+   '12 VoIP channels, DTMF / CTCSS / Selcall signalling, serial data pass-through and serial channel change, web set-up, '
+   '12 V DC plug-pack. Front: status LEDs and a handset jack (Omnitronics 960 handsets). Sits on a rack shelf; superseded by the IPR110+. '
+   'Check: rear connector types (radio port, serial) and the width (estimated at about 270 mm from the maker photo); the maker\'s '
+   'manual is behind a customer login.',
+   'Omnitronics RoIP/VoIP connectivity pages', 'https://www.omnitronicsworld.com/voip-connectivity/', verified=False, w=7)
 
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids))
