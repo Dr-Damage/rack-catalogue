@@ -210,6 +210,117 @@ for sfx, desc, ports in [
         + (' Out 2 on R models is inverting (not DVB-ASI compatible).' if 'R' in sfx and sfx != 'TR' else ''),
         'AJA OG-FiDO Series manual v2.0.2', FIDO))
 
+# ---- AJA openGear range (aja.com/family/opengear-infrastructure, spec sheets at aja.com/products/<model>/spec-sheet.pdf) ----
+# AJA: "two slots required for each card" (front card plus rear module covering two frame slots); 40 FiDO-4 channels per
+# 20-slot frame confirms 10 cards per frame. Frame reference comes over the backplane (no reference BNC on the modules).
+def aja(slug, pn, name, ports, notes, watts=None, verified=True, cols=2, rows=None, src=None, url=None):
+    OG.append(card('aja', slug, 'AJA Video Systems', pn, name, 'AJA openGear', ['openGear'],
+        [rm(f'{pn} rear', f'{sum(p["count"] for p in ports)}-connector rear module', 2, ports, default=True, cols=cols, rows=rows)],
+        notes, src or f'AJA {pn} spec sheet', url or f'https://www.aja.com/products/{slug}', verified=verified, watts=watts))
+ATB = lambda d, n=2, p='Audio': R(d, 'Analog audio', 'Terminal block', n, p)
+aja('og-3gda-1x9', 'OG-3GDA-1x9', 'OG-3GDA-1x9 3G-SDI reclocking DA (1x9)',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 9, 'SDI Out')],
+    'Reclocking 3G-SDI DA, one input to nine outputs, 10 BNC rear module. 5 of the 9 outputs are noninverting.', 2.5, rows=5)
+aja('og-12gda-2x4', 'OG-12GDA-2x4', 'OG-12GDA-2x4 12G-SDI reclocking DA (2x4 or 1x8)',
+    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', '12G-SDI', 'BNC', 8, 'SDI Out')],
+    'Reclocking 12G-SDI DA, two 1x4 or one 1x8, 10 BNC rear module, noninverting outputs.', 4.5, rows=5)
+aja('og-gen10', 'OG-GEN10', 'OG-GEN10 sync generator',
+    [R('out', 'Reference', 'BNC', 9, 'Sync Out'), R('out', 'AES/EBU', 'BNC', 1, 'AES-11 Out')],
+    'SD/HD sync generator: 9 analog sync outputs in two independently set groups (black burst, 75% bars or tri-level, 19 HD formats), '
+    'plus one AES-11 48 kHz output (silence or 1 kHz tone).', 6.75, rows=5)
+aja('og-c10da', 'OG-C10DA', 'OG-C10DA analog video/reference DA',
+    [R('in', 'Analog video', 'BNC', 1, 'Video In'), R('out', 'Analog video', 'BNC', 1, 'Loop Out'), R('out', 'Analog video', 'BNC', 8, 'Out')],
+    'Analog video and reference DA: differential input with active or passive loop, 8 outputs.', 6.75, rows=5)
+aja('og-12gm', 'OG-12GM', 'OG-12GM 12G-SDI multiplexer / demultiplexer',
+    [R('in', '12G-SDI', 'BNC', 4, 'SDI In'), R('out', '12G-SDI', 'BNC', 4, 'SDI Out')],
+    'Converts between single-link 12G, dual 6G, quad 3G and dual 3G; each BNC accepts any of those configurations.', 13, rows=4)
+aja('og-12g-am', 'OG-12G-AM', 'OG-12G-AM 12G-SDI AES embedder/disembedder',
+    [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out'), R('io', 'AES/EBU', 'BNC', 8, 'AES')],
+    '16 channels of AES audio in or out, set in pairs on 8 BNC connectors.', 6, rows=5)
+aja('og-12g-ama', 'OG-12G-AMA', 'OG-12G-AMA 12G-SDI analog audio embedder/disembedder',
+    [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out'), ATB('io', 8, 'Audio Ch')],
+    '8 balanced analog audio channels on 3-pin terminal blocks, each pair set as input or output.', 8)
+aja('og-3g-ama', 'OG-3G-AMA', 'OG-3G-AMA 3G-SDI analog audio embedder/disembedder',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), ATB('io', 8, 'Audio Ch')],
+    '8 balanced analog audio channels on 3-pin terminal blocks, each pair set as input or output.', 5)
+aja('og-3g-amd', 'OG-3G-AMD', 'OG-3G-AMD 3G-SDI AES embedder/disembedder',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), R('in', 'AES/EBU', 'BNC', 4, 'AES In'), R('out', 'AES/EBU', 'BNC', 4, 'AES Out')],
+    'AES3id embedder and disembedder, 10 BNC rear module.', 5, rows=5)
+for sfx, fib, desc in [('', [], ''), ('-R', [R('in', 'Fibre', 'LC', 1, 'Fibre In')], ' with single-mode LC fibre receiver'),
+                       ('-TR', [R('in', 'Fibre', 'LC', 1, 'Fibre In'), R('out', 'Fibre', 'LC', 1, 'Fibre Out')], ' with single-mode LC fibre transceiver'),
+                       ('-R-ST', [R('in', 'Fibre', 'ST', 1, 'Fibre In')], ' with single-mode ST fibre receiver')]:
+    aja(f'og-hi5-12g{sfx.lower()}', f'OG-Hi5-12G{sfx}', f'OG-Hi5-12G{sfx} 12G-SDI to HDMI 2.0 converter{desc}',
+        [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Loop Out')] + fib + [R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), ATB('out')],
+        '12G-SDI to HDMI 2.0b (DVI fallback without audio), 2-channel balanced analog audio out. '
+        'Check: the reclocked SDI loop-out is in the overview but not the spec table.', 13, verified=False,
+        src='AJA OG-Hi5-12G spec sheet (covers -R, -TR, -R-ST)')
+for sfx, fib, desc in [('', [], ''), ('-T', [R('out', 'Fibre', 'LC', 1, 'Fibre Out')], ' with single-mode LC fibre transmitter'),
+                       ('-T-ST', [R('out', 'Fibre', 'ST', 1, 'Fibre Out')], ' with single-mode ST fibre transmitter')]:
+    aja(f'og-ha5-12g{sfx.lower()}', f'OG-HA5-12G{sfx}', f'OG-HA5-12G{sfx} HDMI 2.0 to 12G-SDI converter{desc}',
+        [R('in', 'HDMI', 'HDMI', 1, 'HDMI In'), ATB('in'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out')] + fib,
+        'HDMI 2.0b to 12G-SDI with 2-channel balanced analog audio in. '
+        'Check: the overview mentions two 12G-SDI outputs, the spec table lists one.', 14, verified=False,
+        src='AJA OG-HA5-12G spec sheet (covers -T, -T-ST)')
+aja('og-hi5-4k-plus', 'OG-Hi5-4K-Plus', 'OG-Hi5-4K-Plus quad 3G-SDI to HDMI 2.0 converter',
+    [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out')],
+    'Quad-link 3G-SDI (4K/UHD) to HDMI 2.0b, embedded audio to HDMI.', 12)
+aja('og-ha5-4k', 'OG-HA5-4K', 'OG-HA5-4K HDMI 2.0 to quad 3G-SDI converter',
+    [R('in', 'HDMI', 'HDMI', 1, 'HDMI In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out')],
+    'HDMI 2.0b to quad-link 3G-SDI (4K/UHD), 8-channel embedded audio.', 10)
+aja('og-roi-hdmi', 'OG-ROI-HDMI', 'OG-ROI-HDMI HDMI to SDI scan converter',
+    [R('in', 'HDMI', 'HDMI', 1, 'HDMI In'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Loop'), ATB('in'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out')],
+    'Region-of-interest scan converter for computer or video HDMI, with HDMI loop-through and 2-channel analog audio in. Locks to frame reference.', 8)
+aja('og-roi-sdi', 'OG-ROI-SDI', 'OG-ROI-SDI SDI scan converter',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Loop'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), ATB('out')],
+    'Region-of-interest scaler for SDI with loop-through, SDI and HDMI 1.4 outputs and 2-channel analog audio out. Locks to frame reference.', 7)
+aja('og-roi-dvi', 'OG-ROI-DVI', 'OG-ROI-DVI DVI to SDI scan converter',
+    [R('in', 'DVI', 'DVI', 1, 'DVI In'), R('out', 'DVI', 'DVI', 1, 'DVI Loop'), ATB('in'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out')],
+    'Region-of-interest scan converter for DVI computer or video sources, 2-channel analog audio in. Locks to frame reference. '
+    'Check: the spec table calls the loop-through HDMI; drawn as DVI.', 8, verified=False)
+aja('og-udc', 'OG-UDC', 'OG-UDC 3G-SDI up/down/cross converter',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), ATB('out')],
+    'Up, down and cross conversion with HDMI 1.4a monitor out and 2-channel analog audio out. Locks to frame reference.', 7)
+aja('og-fs-mini', 'OG-FS-Mini', 'OG-FS-Mini 3G-SDI frame synchronizer',
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), ATB('out')],
+    'Frame sync locked to frame reference (tri-level or black burst), HDMI monitor out and 2-channel analog audio out.', 7)
+aja('og-colorbox', 'OG-ColorBox', 'OG-ColorBox 12G-SDI colour pipeline / LUT processor',
+    [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), R('io', 'Ethernet', 'RJ45', 1, 'LAN')],
+    'Colour management (LUTs, ORION-CONVERT, Colorfront, BBC HDR LUTs) with gigabit Ethernet for the web UI. '
+    'Check: the spec lists a USB interface without saying where it is.', 19, verified=False)
+aja('og-dante-12gam', 'OG-DANTE-12GAM', 'OG-DANTE-12GAM 12G-SDI / Dante audio embedder/disembedder',
+    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out'), R('io', 'Dante', 'RJ45', 2, 'Dante')],
+    '64 channels between two 12G-SDI paths (16 embedded channels each way) and Dante, primary and secondary gigabit ports '
+    '(RJ45, as in AJA\'s rear photo).', 15)
+FIDO12 = [('TR-12G', 'transceiver', [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out'), R('in', 'Fibre', 'LC', 1, 'Fibre In'), R('out', 'Fibre', 'LC', 1, 'Fibre Out')], True),
+          ('2T-12G', 'dual transmitter', [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', 'Fibre', 'LC', 2, 'Fibre Out')], True),
+          ('2R-12G', 'dual receiver', [R('in', 'Fibre', 'LC', 2, 'Fibre In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out')], True),
+          ('4T-12G', '4-channel transmitter', [R('in', '12G-SDI', 'BNC', 4, 'SDI In'), R('out', 'Fibre', 'LC', 4, 'Fibre Out')], False),
+          ('4R-12G', '4-channel receiver', [R('in', 'Fibre', 'LC', 4, 'Fibre In'), R('out', '12G-SDI', 'BNC', 4, 'SDI Out')], False),
+          ('4X-12G', '4-channel 2 Tx / 2 Rx', [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', 'Fibre', 'LC', 2, 'Fibre Out'), R('in', 'Fibre', 'LC', 2, 'Fibre In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out')], False),
+          ('T-12G-ST', 'transmitter, ST', [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Loop Out'), R('out', 'Fibre', 'ST', 1, 'Fibre Out')], True),
+          ('R-12G-ST', 'receiver, ST', [R('in', 'Fibre', 'ST', 1, 'Fibre In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out')], True)]
+for sfx, desc, ports, ver in FIDO12:
+    aja(f'og-fido-{sfx.lower()}', f'OG-FiDO-{sfx}', f'OG-FiDO-{sfx} 12G-SDI single-mode fibre {desc}', ports,
+        f'12G-SDI / single-mode fibre {desc}, independent channels.'
+        + ('' if ver else ' Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.'),
+        3, verified=ver, cols=1 if sum(p['count'] for p in ports) <= 4 else 2)
+FIDO3 = [('4T', '4-channel transmitter', [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', 'Fibre', 'LC', 4, 'Fibre Out')]),
+         ('4R', '4-channel receiver', [R('in', 'Fibre', 'LC', 4, 'Fibre In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out')]),
+         ('4X', '4-channel 2 Tx / 2 Rx', [R('in', '3G-SDI', 'BNC', 2, 'SDI In'), R('out', 'Fibre', 'LC', 2, 'Fibre Out'), R('in', 'Fibre', 'LC', 2, 'Fibre In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out')])]
+for sfx, desc, ports in FIDO3:
+    aja(f'og-fido-{sfx.lower()}', f'OG-FiDO-{sfx}', f'OG-FiDO-{sfx} 3G-SDI single-mode fibre {desc}', ports,
+        f'3G-SDI / single-mode LC fibre {desc}, independent isolated channels; 10 cards (40 channels) per 20-slot frame. '
+        'Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.', verified=False)
+# multimode (-MM, 850 nm LC) versions: same rear connectors as the single-mode cards above
+for base in [m for m in list(OG) if m['id'] in ('aja-og-fido-tr', 'aja-og-fido-t', 'aja-og-fido-r', 'aja-og-fido-2t', 'aja-og-fido-2r',
+                                                 'aja-og-fido-4t', 'aja-og-fido-4r', 'aja-og-fido-4x')]:
+    mm = json.loads(json.dumps(base)); pn = base['partNumber'] + '-MM'
+    mm.update(id=base['id'] + '-mm', partNumber=pn, name=base['name'].replace(base['partNumber'], pn).replace('single-mode', 'multimode'),
+              notes=base['notes'].replace('single-mode', 'multimode (850 nm)').replace(' -MM multimode versions have the same connectors.', ''),
+              productUrl=f'https://www.aja.com/products/{pn.lower()}')
+    mm['rearModules'][0]['partNumber'] = pn + ' rear'
+    OG.append(mm)
+
 # ---- Cobalt openGear ----
 C9904 = 'https://opengear.tv/card/9904-udx-4k/'
 GPIO = lambda: R('io', 'GPIO', 'RJ45', 1, 'GPIO/COMM')

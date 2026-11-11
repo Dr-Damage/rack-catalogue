@@ -2478,6 +2478,2814 @@
   ]
  },
  {
+  "id": "aja-og-3gda-1x9",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-3GDA-1x9",
+  "name": "OG-3GDA-1x9 3G-SDI reclocking DA (1x9)",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-3GDA-1x9 spec sheet",
+  "productUrl": "https://www.aja.com/products/og-3gda-1x9",
+  "notes": "Reclocking 3G-SDI DA, one input to nine outputs, 10 BNC rear module. 5 of the 9 outputs are noninverting.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 2.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-3GDA-1x9 rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-12gda-2x4",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-12GDA-2x4",
+  "name": "OG-12GDA-2x4 12G-SDI reclocking DA (2x4 or 1x8)",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-12GDA-2x4 spec sheet",
+  "productUrl": "https://www.aja.com/products/og-12gda-2x4",
+  "notes": "Reclocking 12G-SDI DA, two 1x4 or one 1x8, 10 BNC rear module, noninverting outputs.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 4.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-12GDA-2x4 rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-gen10",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-GEN10",
+  "name": "OG-GEN10 sync generator",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-GEN10 spec sheet",
+  "productUrl": "https://www.aja.com/products/og-gen10",
+  "notes": "SD/HD sync generator: 9 analog sync outputs in two independently set groups (black burst, 75% bars or tri-level, 19 HD formats), plus one AES-11 48 kHz output (silence or 1 kHz tone).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 6.75
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-GEN10 rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "Sync Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "AES-11 Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-c10da",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-C10DA",
+  "name": "OG-C10DA analog video/reference DA",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-C10DA spec sheet",
+  "productUrl": "https://www.aja.com/products/og-c10da",
+  "notes": "Analog video and reference DA: differential input with active or passive loop, 8 outputs.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 6.75
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-C10DA rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Video In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-12gm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-12GM",
+  "name": "OG-12GM 12G-SDI multiplexer / demultiplexer",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-12GM spec sheet",
+  "productUrl": "https://www.aja.com/products/og-12gm",
+  "notes": "Converts between single-link 12G, dual 6G, quad 3G and dual 3G; each BNC accepts any of those configurations.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 13
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-12GM rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 4
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-12g-am",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-12G-AM",
+  "name": "OG-12G-AM 12G-SDI AES embedder/disembedder",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-12G-AM spec sheet",
+  "productUrl": "https://www.aja.com/products/og-12g-am",
+  "notes": "16 channels of AES audio in or out, set in pairs on 8 BNC connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-12G-AM rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-12g-ama",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-12G-AMA",
+  "name": "OG-12G-AMA 12G-SDI analog audio embedder/disembedder",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-12G-AMA spec sheet",
+  "productUrl": "https://www.aja.com/products/og-12g-ama",
+  "notes": "8 balanced analog audio channels on 3-pin terminal blocks, each pair set as input or output.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-12G-AMA rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Audio Ch"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-3g-ama",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-3G-AMA",
+  "name": "OG-3G-AMA 3G-SDI analog audio embedder/disembedder",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-3G-AMA spec sheet",
+  "productUrl": "https://www.aja.com/products/og-3g-ama",
+  "notes": "8 balanced analog audio channels on 3-pin terminal blocks, each pair set as input or output.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-3G-AMA rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Audio Ch"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-3g-amd",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-3G-AMD",
+  "name": "OG-3G-AMD 3G-SDI AES embedder/disembedder",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-3G-AMD spec sheet",
+  "productUrl": "https://www.aja.com/products/og-3g-amd",
+  "notes": "AES3id embedder and disembedder, 10 BNC rear module.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-3G-AMD rear",
+    "name": "10-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-hi5-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-Hi5-12G",
+  "name": "OG-Hi5-12G 12G-SDI to HDMI 2.0 converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-Hi5-12G spec sheet (covers -R, -TR, -R-ST)",
+  "productUrl": "https://www.aja.com/products/og-hi5-12g",
+  "notes": "12G-SDI to HDMI 2.0b (DVI fallback without audio), 2-channel balanced analog audio out. Check: the reclocked SDI loop-out is in the overview but not the spec table.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 13
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-Hi5-12G rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-hi5-12g-r",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-Hi5-12G-R",
+  "name": "OG-Hi5-12G-R 12G-SDI to HDMI 2.0 converter with single-mode LC fibre receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-Hi5-12G spec sheet (covers -R, -TR, -R-ST)",
+  "productUrl": "https://www.aja.com/products/og-hi5-12g-r",
+  "notes": "12G-SDI to HDMI 2.0b (DVI fallback without audio), 2-channel balanced analog audio out. Check: the reclocked SDI loop-out is in the overview but not the spec table.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 13
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-Hi5-12G-R rear",
+    "name": "6-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-hi5-12g-tr",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-Hi5-12G-TR",
+  "name": "OG-Hi5-12G-TR 12G-SDI to HDMI 2.0 converter with single-mode LC fibre transceiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-Hi5-12G spec sheet (covers -R, -TR, -R-ST)",
+  "productUrl": "https://www.aja.com/products/og-hi5-12g-tr",
+  "notes": "12G-SDI to HDMI 2.0b (DVI fallback without audio), 2-channel balanced analog audio out. Check: the reclocked SDI loop-out is in the overview but not the spec table.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 13
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-Hi5-12G-TR rear",
+    "name": "7-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-hi5-12g-r-st",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-Hi5-12G-R-ST",
+  "name": "OG-Hi5-12G-R-ST 12G-SDI to HDMI 2.0 converter with single-mode ST fibre receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-Hi5-12G spec sheet (covers -R, -TR, -R-ST)",
+  "productUrl": "https://www.aja.com/products/og-hi5-12g-r-st",
+  "notes": "12G-SDI to HDMI 2.0b (DVI fallback without audio), 2-channel balanced analog audio out. Check: the reclocked SDI loop-out is in the overview but not the spec table.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 13
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-Hi5-12G-R-ST rear",
+    "name": "6-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-ha5-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-HA5-12G",
+  "name": "OG-HA5-12G HDMI 2.0 to 12G-SDI converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-HA5-12G spec sheet (covers -T, -T-ST)",
+  "productUrl": "https://www.aja.com/products/og-ha5-12g",
+  "notes": "HDMI 2.0b to 12G-SDI with 2-channel balanced analog audio in. Check: the overview mentions two 12G-SDI outputs, the spec table lists one.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 14
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-HA5-12G rear",
+    "name": "4-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-ha5-12g-t",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-HA5-12G-T",
+  "name": "OG-HA5-12G-T HDMI 2.0 to 12G-SDI converter with single-mode LC fibre transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-HA5-12G spec sheet (covers -T, -T-ST)",
+  "productUrl": "https://www.aja.com/products/og-ha5-12g-t",
+  "notes": "HDMI 2.0b to 12G-SDI with 2-channel balanced analog audio in. Check: the overview mentions two 12G-SDI outputs, the spec table lists one.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 14
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-HA5-12G-T rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-ha5-12g-t-st",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-HA5-12G-T-ST",
+  "name": "OG-HA5-12G-T-ST HDMI 2.0 to 12G-SDI converter with single-mode ST fibre transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-HA5-12G spec sheet (covers -T, -T-ST)",
+  "productUrl": "https://www.aja.com/products/og-ha5-12g-t-st",
+  "notes": "HDMI 2.0b to 12G-SDI with 2-channel balanced analog audio in. Check: the overview mentions two 12G-SDI outputs, the spec table lists one.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 14
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-HA5-12G-T-ST rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-hi5-4k-plus",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-Hi5-4K-Plus",
+  "name": "OG-Hi5-4K-Plus quad 3G-SDI to HDMI 2.0 converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-Hi5-4K-Plus spec sheet",
+  "productUrl": "https://www.aja.com/products/og-hi5-4k-plus",
+  "notes": "Quad-link 3G-SDI (4K/UHD) to HDMI 2.0b, embedded audio to HDMI.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-Hi5-4K-Plus rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-ha5-4k",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-HA5-4K",
+  "name": "OG-HA5-4K HDMI 2.0 to quad 3G-SDI converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-HA5-4K spec sheet",
+  "productUrl": "https://www.aja.com/products/og-ha5-4k",
+  "notes": "HDMI 2.0b to quad-link 3G-SDI (4K/UHD), 8-channel embedded audio.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-HA5-4K rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-roi-hdmi",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-ROI-HDMI",
+  "name": "OG-ROI-HDMI HDMI to SDI scan converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-ROI-HDMI spec sheet",
+  "productUrl": "https://www.aja.com/products/og-roi-hdmi",
+  "notes": "Region-of-interest scan converter for computer or video HDMI, with HDMI loop-through and 2-channel analog audio in. Locks to frame reference.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-ROI-HDMI rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-roi-sdi",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-ROI-SDI",
+  "name": "OG-ROI-SDI SDI scan converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-ROI-SDI spec sheet",
+  "productUrl": "https://www.aja.com/products/og-roi-sdi",
+  "notes": "Region-of-interest scaler for SDI with loop-through, SDI and HDMI 1.4 outputs and 2-channel analog audio out. Locks to frame reference.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-ROI-SDI rear",
+    "name": "6-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-roi-dvi",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-ROI-DVI",
+  "name": "OG-ROI-DVI DVI to SDI scan converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-ROI-DVI spec sheet",
+  "productUrl": "https://www.aja.com/products/og-roi-dvi",
+  "notes": "Region-of-interest scan converter for DVI computer or video sources, 2-channel analog audio in. Locks to frame reference. Check: the spec table calls the loop-through HDMI; drawn as DVI.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-ROI-DVI rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "DVI",
+      "connector": "DVI",
+      "count": 1,
+      "prefix": "DVI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DVI",
+      "connector": "DVI",
+      "count": 1,
+      "prefix": "DVI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-udc",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-UDC",
+  "name": "OG-UDC 3G-SDI up/down/cross converter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-UDC spec sheet",
+  "productUrl": "https://www.aja.com/products/og-udc",
+  "notes": "Up, down and cross conversion with HDMI 1.4a monitor out and 2-channel analog audio out. Locks to frame reference.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-UDC rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fs-mini",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FS-Mini",
+  "name": "OG-FS-Mini 3G-SDI frame synchronizer",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FS-Mini spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fs-mini",
+  "notes": "Frame sync locked to frame reference (tri-level or black burst), HDMI monitor out and 2-channel analog audio out.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FS-Mini rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Audio"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-colorbox",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-ColorBox",
+  "name": "OG-ColorBox 12G-SDI colour pipeline / LUT processor",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-ColorBox spec sheet",
+  "productUrl": "https://www.aja.com/products/og-colorbox",
+  "notes": "Colour management (LUTs, ORION-CONVERT, Colorfront, BBC HDR LUTs) with gigabit Ethernet for the web UI. Check: the spec lists a USB interface without saying where it is.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 19
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-ColorBox rear",
+    "name": "5-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "LAN"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-dante-12gam",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-DANTE-12GAM",
+  "name": "OG-DANTE-12GAM 12G-SDI / Dante audio embedder/disembedder",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-DANTE-12GAM spec sheet",
+  "productUrl": "https://www.aja.com/products/og-dante-12gam",
+  "notes": "64 channels between two 12G-SDI paths (16 embedded channels each way) and Dante, primary and secondary gigabit ports (RJ45, as in AJA's rear photo).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 15
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-DANTE-12GAM rear",
+    "name": "6-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-tr-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-TR-12G",
+  "name": "OG-FiDO-TR-12G 12G-SDI single-mode fibre transceiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO-TR-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-tr-12g",
+  "notes": "12G-SDI / single-mode fibre transceiver, independent channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-TR-12G rear",
+    "name": "4-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2t-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2T-12G",
+  "name": "OG-FiDO-2T-12G 12G-SDI single-mode fibre dual transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO-2T-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-2t-12g",
+  "notes": "12G-SDI / single-mode fibre dual transmitter, independent channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2T-12G rear",
+    "name": "4-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2r-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2R-12G",
+  "name": "OG-FiDO-2R-12G 12G-SDI single-mode fibre dual receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO-2R-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-2r-12g",
+  "notes": "12G-SDI / single-mode fibre dual receiver, independent channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2R-12G rear",
+    "name": "4-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4t-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4T-12G",
+  "name": "OG-FiDO-4T-12G 12G-SDI single-mode fibre 4-channel transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4T-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4t-12g",
+  "notes": "12G-SDI / single-mode fibre 4-channel transmitter, independent channels. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4T-12G rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4r-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4R-12G",
+  "name": "OG-FiDO-4R-12G 12G-SDI single-mode fibre 4-channel receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4R-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4r-12g",
+  "notes": "12G-SDI / single-mode fibre 4-channel receiver, independent channels. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4R-12G rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4x-12g",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4X-12G",
+  "name": "OG-FiDO-4X-12G 12G-SDI single-mode fibre 4-channel 2 Tx / 2 Rx",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4X-12G spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4x-12g",
+  "notes": "12G-SDI / single-mode fibre 4-channel 2 Tx / 2 Rx, independent channels. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4X-12G rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-t-12g-st",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-T-12G-ST",
+  "name": "OG-FiDO-T-12G-ST 12G-SDI single-mode fibre transmitter, ST",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO-T-12G-ST spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-t-12g-st",
+  "notes": "12G-SDI / single-mode fibre transmitter, ST, independent channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-T-12G-ST rear",
+    "name": "3-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-r-12g-st",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-R-12G-ST",
+  "name": "OG-FiDO-R-12G-ST 12G-SDI single-mode fibre receiver, ST",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO-R-12G-ST spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-r-12g-st",
+  "notes": "12G-SDI / single-mode fibre receiver, ST, independent channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-R-12G-ST rear",
+    "name": "3-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4t",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4T",
+  "name": "OG-FiDO-4T 3G-SDI single-mode fibre 4-channel transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4T spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4t",
+  "notes": "3G-SDI / single-mode LC fibre 4-channel transmitter, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4T rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4r",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4R",
+  "name": "OG-FiDO-4R 3G-SDI single-mode fibre 4-channel receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4R spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4r",
+  "notes": "3G-SDI / single-mode LC fibre 4-channel receiver, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4R rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4x",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4X",
+  "name": "OG-FiDO-4X 3G-SDI single-mode fibre 4-channel 2 Tx / 2 Rx",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4X spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4x",
+  "notes": "3G-SDI / single-mode LC fibre 4-channel 2 Tx / 2 Rx, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4X rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-tr-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-TR-MM",
+  "name": "OG-FiDO-TR-MM 3G-SDI fibre multimode transceiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido-tr-mm",
+  "notes": "3G-SDI/fibre multimode (850 nm) transceiver, LC connectors. Occupies two frame slots.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-TR-MM rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-t-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-T-MM",
+  "name": "OG-FiDO-T-MM 3G-SDI fibre multimode transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido-t-mm",
+  "notes": "3G-SDI/fibre multimode (850 nm) transmitter, LC connectors. Occupies two frame slots.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-T-MM rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-r-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-R-MM",
+  "name": "OG-FiDO-R-MM 3G-SDI fibre multimode receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido-r-mm",
+  "notes": "3G-SDI/fibre multimode (850 nm) receiver, LC connectors. Occupies two frame slots. Out 2 on R models is inverting (not DVB-ASI compatible).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-R-MM rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2t-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2T-MM",
+  "name": "OG-FiDO-2T-MM 3G-SDI fibre dual multimode transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido-2t-mm",
+  "notes": "3G-SDI/fibre dual multimode (850 nm) transmitter, LC connectors. Occupies two frame slots.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2T-MM rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-2r-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-2R-MM",
+  "name": "OG-FiDO-2R-MM 3G-SDI fibre dual multimode receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AJA OG-FiDO Series manual v2.0.2",
+  "productUrl": "https://www.aja.com/products/og-fido-2r-mm",
+  "notes": "3G-SDI/fibre dual multimode (850 nm) receiver, LC connectors. Occupies two frame slots. Out 2 on R models is inverting (not DVB-ASI compatible).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-2R-MM rear",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 1
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4t-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4T-MM",
+  "name": "OG-FiDO-4T-MM 3G-SDI multimode fibre 4-channel transmitter",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4T spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4t-mm",
+  "notes": "3G-SDI / multimode (850 nm) LC fibre 4-channel transmitter, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4T-MM rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4r-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4R-MM",
+  "name": "OG-FiDO-4R-MM 3G-SDI multimode fibre 4-channel receiver",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4R spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4r-mm",
+  "notes": "3G-SDI / multimode (850 nm) LC fibre 4-channel receiver, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4R-MM rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aja-og-fido-4x-mm",
+  "manufacturer": "AJA Video Systems",
+  "partNumber": "OG-FiDO-4X-MM",
+  "name": "OG-FiDO-4X-MM 3G-SDI multimode fibre 4-channel 2 Tx / 2 Rx",
+  "family": "AJA openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA OG-FiDO-4X spec sheet",
+  "productUrl": "https://www.aja.com/products/og-fido-4x-mm",
+  "notes": "3G-SDI / multimode (850 nm) LC fibre 4-channel 2 Tx / 2 Rx, independent isolated channels; 10 cards (40 channels) per 20-slot frame. Check: port counts follow the model description; AJA publishes no spec sheet for the 4-channel models.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "OG-FiDO-4X-MM rear",
+    "name": "8-connector rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ],
+    "layout": {
+     "cols": 2
+    },
+    "included": true
+   }
+  ]
+ },
+ {
   "id": "cobalt-9904-udx-4k",
   "manufacturer": "Cobalt Digital",
   "partNumber": "9904-UDX-4K",
