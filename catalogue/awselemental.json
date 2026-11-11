@@ -12,7 +12,7 @@
   "verified": false,
   "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
   "productUrl": "https://aws.amazon.com/elemental-live/",
-  "notes": "1RU server chassis (L900, L901, L910, L920, L940, L980; -U models add uncompressed ST 2110). Needs 31.85 in rack depth (L900/L901: 21.04 in). SDI I/O on AJA PCIe cards, 10/25/40/100G networking on NVIDIA ConnectX-6 QSFP28. DC kits for L910 and up. Check: SDI count per SKU, management ports and PSUs (AWS publishes these per SKU on request).",
+  "notes": "1RU server chassis, L900 and L901 (the short 21.04 in deep models; L910 to L980 are listed separately). -U models add uncompressed ST 2110. SDI I/O on AJA PCIe cards, 10/25/40/100G networking on NVIDIA ConnectX-6 QSFP28. Check: SDI count per SKU, management ports and PSUs (AWS publishes these per SKU on request).",
   "portGroups": [
    {
     "face": "rear",
@@ -45,6 +45,528 @@
     "connector": "IEC",
     "count": 2,
     "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-live-l910",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L910",
+  "name": "Elemental Live L910 encoder appliance",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows",
+  "notes": "1RU L900-series server, mid-density HD; needs 31.85 in rack depth, DC power kit available. The -U version adds uncompressed ST 2110 / 2022-6 / JPEG XS I/O on an NVIDIA ConnectX-6 card (10/25/40/100G QSFP28). SDI I/O on AJA PCIe cards. Check: SDI count per SKU, management ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card (AJA, 3G/12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "ConnectX-6 (-U models)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-live-l920",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L920",
+  "name": "Elemental Live L920 encoder appliance",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows",
+  "notes": "1RU L900-series server, UHD HEVC and HDR (HLG, Dolby Vision); needs 31.85 in rack depth, DC power kit available. The -U version adds uncompressed ST 2110 / 2022-6 / JPEG XS I/O on an NVIDIA ConnectX-6 card (10/25/40/100G QSFP28). SDI I/O on AJA PCIe cards. Check: SDI count per SKU, management ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card (AJA, 3G/12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "ConnectX-6 (-U models)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-live-l940",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L940",
+  "name": "Elemental Live L940 encoder appliance",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows",
+  "notes": "1RU L900-series server, higher-density UHD / HDR; needs 31.85 in rack depth, DC power kit available. The -U version adds uncompressed ST 2110 / 2022-6 / JPEG XS I/O on an NVIDIA ConnectX-6 card (10/25/40/100G QSFP28). SDI I/O on AJA PCIe cards. Check: SDI count per SKU, management ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card (AJA, 3G/12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "ConnectX-6 (-U models)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-live-l980",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L980",
+  "name": "Elemental Live L980 encoder appliance",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows",
+  "notes": "1RU L900-series server, highest UHD / HDR channel density; needs 31.85 in rack depth, DC power kit available. The -U version adds uncompressed ST 2110 / 2022-6 / JPEG XS I/O on an NVIDIA ConnectX-6 card (10/25/40/100G QSFP28). SDI I/O on AJA PCIe cards. Check: SDI count per SKU, management ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card (AJA, 3G/12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "ConnectX-6 (-U models)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-live-l800",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Live L800 series",
+  "name": "Elemental Live L800-series encoder appliance (legacy)",
+  "family": "Elemental Live",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental Live L900 announcement (AWS Media blog)",
+  "productUrl": "https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows",
+  "notes": "1RU previous-generation Elemental Live appliance, replaced by the L900 series. Check: SDI card and network ports on your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "SDI card"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-conductor-live",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Conductor Live",
+  "name": "Elemental Conductor Live management node",
+  "family": "Elemental appliances",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental appliances and software page",
+  "productUrl": "https://aws.amazon.com/elemental-appliances-software/",
+  "notes": "1RU server appliance supplied by AWS Elemental. Runs Conductor Live, which manages a fleet of Elemental Live encoders (redundancy, scheduling, monitoring); usually two nodes for HA. Check: server model, network ports (10/25GbE options) and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management (BMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-server",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Server",
+  "name": "Elemental Server file transcoding appliance (legacy)",
+  "family": "Elemental appliances",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental appliances and software page",
+  "productUrl": "https://aws.amazon.com/elemental-appliances-software/",
+  "notes": "1RU server appliance supplied by AWS Elemental. On-premises file-based transcoder. Check: server model, network ports (10/25GbE options) and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management (BMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-statmux",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Statmux",
+  "name": "Elemental Statmux node",
+  "family": "Elemental appliances",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AWS Elemental appliances and software page",
+  "productUrl": "https://aws.amazon.com/elemental-appliances-software/",
+  "notes": "1RU server appliance supplied by AWS Elemental. Statistical multiplexer for Elemental Live channels going to satellite, cable or terrestrial distribution. Check: server model, network ports (10/25GbE options) and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management (BMC)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aws-link-uhd",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Link UHD",
+  "name": "Elemental Link UHD contribution device",
+  "family": "Elemental Link",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AWS Elemental Link UHD specification sheet",
+  "productUrl": "https://docs.aws.amazon.com/elemental-onprem/latest/pdf/AWS_Elemental_Link_UHD_Specification_Sheet.pdf",
+  "notes": "145 x 43 x 157 mm (W x H x D), 0.8 kg, 25 W max. Sends one 12G-SDI or HDMI 2.0 source (UHD HDR, 16 embedded audio channels) to AWS Elemental MediaLive. Front LCD and button. Sits on a rack shelf. Check: power connector (100-240 VAC input listed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "aws-link-hd",
+  "manufacturer": "AWS Elemental",
+  "partNumber": "Elemental Link (HD)",
+  "name": "Elemental Link HD contribution device",
+  "family": "Elemental Link",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AWS MediaLive user guide: HD and UHD Link devices",
+  "productUrl": "https://docs.aws.amazon.com/en_us/medialive/latest/ug/elink-device-hd-uhd.html",
+  "notes": "Compact device that sends one HD source (SDI or HDMI) to AWS Elemental MediaLive. Sits on a rack shelf. Check: size, USB port and power connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
    }
   ]
  }

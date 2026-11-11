@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Generates catalogue files for brands first met on site drawings (added 2026-11-11 for the CAR rack import):
-evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), avid.json, synology.json, hpe.json,
-tieline.json, dejero.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
-for the app's built-in Blackmagic catalogue). verified=False and a 'Check:' note mark anything not confirmed from a maker's document."""
+evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
+for the app's built-in Blackmagic catalogue). Avid, Synology, Tieline and Dejero moved to media_brands.py (full ranges). verified=False and a 'Check:' note mark anything not confirmed from a maker's document."""
 import json, os
 CAT = os.path.join(os.path.dirname(__file__), '..', 'catalogue')
 def g(face, d, t, c, n, p): return dict(face=face, dir=d, type=t, connector=c, count=n, prefix=p)
@@ -34,24 +33,6 @@ EV('5601aco2', '5601ACO2', '5601ACO2 automatic changeover', 'Master clock', 'oth
    'removable terminal blocks; two redundant 40 W supplies, each with its own cord. Check: separate AES and analog audio changeover connectors.',
    'Evertz 5601ACO2 user manual', 'https://evertz.com/products/5600ACO', full=False)
 
-# ---------------- Avid ----------------
-AV = lambda *a, **k: add('avid.json', 'avid-', 'Avid', *a, **k)
-AV('nexis-e4', 'NEXIS | E4', 'NEXIS E4 storage engine', 'NEXIS', 'computer', 4,
-   [R('io', 'Ethernet', 'QSFP', 2, '40GbE'), R('io', 'Ethernet', 'SFP+', 4, '10GbE'), R('io', 'Ethernet', 'RJ45', 2, 'Management'),
-    R('in', 'Power', 'IEC', 2, 'PSU')],
-   '4U shared-storage engine for Avid NEXIS with 60 drive slots (top-loading drawers), two controllers with redundant PSUs. '
-   'Check: controller network ports for your build (10/40/100GbE) and whether a System Director / NEXIS | E2 sits alongside.',
-   'Avid NEXIS product information', 'https://www.avid.com/products/avid-nexis', verified=False, full=True)
-
-# ---------------- Synology ----------------
-SY = lambda *a, **k: add('synology.json', 'synology-', 'Synology', *a, **k)
-SY('sa3400', 'SA3400', 'SA3400 12-bay rackmount NAS', 'SA series', 'computer', 2,
-   [R('io', 'Ethernet', 'RJ45', 4, '1GbE'), R('io', 'Ethernet', 'SFP+', 2, '10GbE'), R('io', 'Other', 'Card slot', 2, 'PCIe slot'),
-    R('io', 'Other', 'Mini-SAS HD', 2, 'Expansion'), R('io', 'USB', 'USB-A', 2, 'USB 3.2'), R('in', 'Power', 'IEC', 2, 'PSU')],
-   '2U, 12 x 3.5/2.5 in hot-swap bays, Intel Xeon D-1541, 4 x 1GbE RJ45 and 2 x 10GbE SFP+ onboard, 2 PCIe 3.0 x8 slots, '
-   '2 expansion ports for RX1217sas units, redundant PSUs. Rails needed (a support shelf is often fitted under it).',
-   'Synology SA3400 datasheet', 'https://www.synology.com/en-global/products/SA3400', full=True)
-
 # ---------------- HPE ----------------
 HP = lambda *a, **k: add('hpe.json', 'hpe-', 'HPE', *a, **k)
 HP('dl360p-gen8', 'ProLiant DL360p Gen8', 'ProLiant DL360p Gen8 1U server (legacy)', 'ProLiant', 'computer', 1,
@@ -61,27 +42,6 @@ HP('dl360p-gen8', 'ProLiant DL360p Gen8', 'ProLiant DL360p Gen8 1U server (legac
    '1U two-socket Xeon E5-2600 / v2 server (2012-2015), 4-port 1GbE FlexibleLOM (or 2 x 10GbE), dedicated iLO 4, 2 PCIe slots, '
    'redundant Flex Slot PSUs. Check: FlexibleLOM fitted and PCIe cards.',
    'HPE QuickSpecs DL360p Gen8', 'https://www.hpe.com/psnow/doc/c04123079', verified=False, full=True)
-
-# ---------------- Tieline ----------------
-TL = lambda *a, **k: add('tieline.json', 'tieline-', 'Tieline', *a, **k)
-for code, ch, notes in [('Gateway', 16, 'Up to 16 IP audio codec channels (8 stereo) '), ('Gateway 4', 4, 'Up to 4 IP audio codec channels ')]:
-    TL(code.lower().replace(' ', ''), code, f'{code} IP audio codec', 'Gateway', 'audio', 1,
-       [R('io', 'Analog audio', 'XLR', 2, 'Analog In/Out'), R('io', 'AES/EBU', 'XLR', 1, 'AES3'), R('io', 'Dante/AES67', 'RJ45', 2, 'AoIP'),
-        R('io', 'Ethernet', 'RJ45', 2, 'WAN'), R('io', 'Other', 'DB15', 1, 'GPIO'), R('io', 'USB', 'USB-A', 1, 'USB'),
-        R('in', 'Power', 'IEC', 2, 'PSU')],
-       f'1RU multichannel IP audio codec for radio and STL links. {notes}over Dante/AES67/ST 2110-30 (and WheatNet-IP, Livewire), '
-       'dual Ethernet WAN with SmartStream Plus redundancy, dual redundant PSUs. '
-       'Check: analog and AES I/O counts on the rear (the Gateway is mainly an AoIP device).',
-       'Tieline Gateway product page', 'https://www.tieline.com/gateway/', verified=False)
-
-# ---------------- Dejero ----------------
-DJ = lambda *a, **k: add('dejero.json', 'dejero-', 'Dejero', *a, **k)
-DJ('waypoint', 'WayPoint', 'WayPoint receiver', 'WayPoint', 'converter', 1,
-   [R('out', '3G-SDI', 'BNC', 4, 'SDI Out'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'), R('in', 'Reference', 'BNC', 1, 'Genlock'),
-    R('io', 'Ethernet', 'RJ45', 2, 'Network'), R('io', 'USB', 'USB-A', 2, 'USB'), R('in', 'Power', 'IEC', 2, 'PSU')],
-   '1RU receiver that decodes and reassembles Dejero transmitter (EnGo, PathWay) streams and outputs SDI/HDMI or IP (NDI, SRT, RTMP). '
-   'Models 101, 102 and 104 differ in decode channels. Check: model and SDI output count on your unit.',
-   'Dejero WayPoint product page', 'https://www.dejero.com/products/waypoint-receiver/', verified=False, full=True)
 
 # ---------------- Blackmagic Design (discontinued) ----------------
 BL = lambda *a, **k: add('bmd-legacy.json', 'bmdl-', 'Blackmagic Design', *a, **k)

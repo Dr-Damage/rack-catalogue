@@ -1,0 +1,1067 @@
+[
+ {
+  "id": "haivision-makito-x4-enc",
+  "manufacturer": "Haivision",
+  "partNumber": "S-MX4E-SDI4",
+  "name": "Makito X4 HD encoder appliance",
+  "family": "Makito X4",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Ultra-compact appliance, 24 x 152 x 192 mm (H x W x D), 12 V DC 18 W from an external supply. Four SDI inputs (3G/HD/SD), single, dual or quad channel H.264/HEVC with SRT. Rack it with the RU-MB1-1 / RU-MB1-2 1RU brackets, or order it as blade B-MX4E-SDI4 for the MB6X / MB21X chassis. Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ (ST 2110)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Serial (RS-232/422)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-makito-x4-enc-uhd",
+  "manufacturer": "Haivision",
+  "partNumber": "S-MX4E-SDI4-UHD",
+  "name": "Makito X4 4K UHD encoder appliance",
+  "family": "Makito X4",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Ultra-compact appliance, 24 x 152 x 192 mm (H x W x D), 12 V DC 18 W from an external supply. Four SDI inputs (12G-SDI / quad-link UHD), single, dual or quad channel H.264/HEVC with SRT. Rack it with the RU-MB1-1 / RU-MB1-2 1RU brackets, or order it as blade B-MX4E-SDI4-UHD for the MB6X / MB21X chassis. Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ (ST 2110)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Serial (RS-232/422)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-makito-x4-dec",
+  "manufacturer": "Haivision",
+  "partNumber": "S-MX4D-SDI4",
+  "name": "Makito X4 HD decoder appliance",
+  "family": "Makito X4",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Ultra-compact appliance, 24 x 152 x 192 mm (H x W x D), 12 V DC 18 W from an external supply. Four SDI outputs (3G/HD/SD), single, dual or quad channel H.264/HEVC with SRT. Rack it with the RU-MB1-1 / RU-MB1-2 1RU brackets, or order it as blade B-MX4D-SDI4 for the MB6X / MB21X chassis. Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ (ST 2110)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Serial (RS-232/422)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-makito-x4-dec-uhd",
+  "manufacturer": "Haivision",
+  "partNumber": "S-MX4D-SDI4-UHD",
+  "name": "Makito X4 4K UHD decoder appliance",
+  "family": "Makito X4",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Ultra-compact appliance, 24 x 152 x 192 mm (H x W x D), 12 V DC 18 W from an external supply. Four SDI outputs (12G-SDI / quad-link UHD), single, dual or quad channel H.264/HEVC with SRT. Rack it with the RU-MB1-1 / RU-MB1-2 1RU brackets, or order it as blade B-MX4D-SDI4-UHD for the MB6X / MB21X chassis. Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ (ST 2110)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Serial (RS-232/422)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-mb6x",
+  "manufacturer": "Haivision",
+  "partNumber": "F-MB6X-RAC",
+  "name": "MB6X 1RU 6-slot blade chassis",
+  "family": "Makito blade chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "1RU chassis for up to 6 single-height (or 3 dual-height) Makito X / X4 encoder and decoder blades, 300 W. F-MB6X-RAC has redundant AC supplies (90-264 VAC); F-MB6X-DC takes 20-36 VDC. Blades shown as 3 columns of 2. Check: blade orientation and slot numbering, and whether the blade connectors face the rear.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "Haivision MB",
+   "slots": 6,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "cols": 3,
+   "controller": "None: each blade has its own network port and web interface",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.06,
+    "y1": 0.94
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.06,
+    "y1": 0.94
+   }
+  }
+ },
+ {
+  "id": "haivision-mb21x",
+  "manufacturer": "Haivision",
+  "partNumber": "F-MB21X-R",
+  "name": "MB21X 4RU 21-slot blade chassis",
+  "family": "Makito blade chassis",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "4RU chassis for up to 21 single-height (or 10 dual-height) Makito X / X4 encoder and decoder blades, redundant dual AC supplies, 100-240 VAC, 600 W. Blades shown as 3 columns of 7. Check: blade orientation and slot numbering, and whether the blade connectors face the rear.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "Haivision MB",
+   "slots": 21,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "cols": 3,
+   "controller": "None: each blade has its own network port and web interface",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.06,
+    "y1": 0.94
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.06,
+    "y1": 0.94
+   }
+  }
+ },
+ {
+  "id": "haivision-blade-mx4e",
+  "manufacturer": "Haivision",
+  "partNumber": "B-MX4E-SDI4",
+  "name": "Makito X4 HD encoder blade",
+  "family": "Makito X4",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Blade version of the Makito X4 appliance for the MB6X and MB21X chassis (single-height). Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Haivision MB"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "B-MX4E-SDI4",
+    "name": "Blade connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 1,
+      "prefix": "10G SFP+ (ST 2110)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "Serial (RS-232/422)"
+     }
+    ],
+    "layout": {
+     "cols": 6
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "haivision-blade-mx4e-uhd",
+  "manufacturer": "Haivision",
+  "partNumber": "B-MX4E-SDI4-UHD",
+  "name": "Makito X4 4K UHD encoder blade",
+  "family": "Makito X4",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Blade version of the Makito X4 appliance for the MB6X and MB21X chassis (single-height). Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Haivision MB"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "B-MX4E-SDI4-UHD",
+    "name": "Blade connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 1,
+      "prefix": "10G SFP+ (ST 2110)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "Serial (RS-232/422)"
+     }
+    ],
+    "layout": {
+     "cols": 6
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "haivision-blade-mx4d",
+  "manufacturer": "Haivision",
+  "partNumber": "B-MX4D-SDI4",
+  "name": "Makito X4 HD decoder blade",
+  "family": "Makito X4",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Blade version of the Makito X4 appliance for the MB6X and MB21X chassis (single-height). Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Haivision MB"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "B-MX4D-SDI4",
+    "name": "Blade connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 1,
+      "prefix": "10G SFP+ (ST 2110)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "Serial (RS-232/422)"
+     }
+    ],
+    "layout": {
+     "cols": 6
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "haivision-blade-mx4d-uhd",
+  "manufacturer": "Haivision",
+  "partNumber": "B-MX4D-SDI4-UHD",
+  "name": "Makito X4 4K UHD decoder blade",
+  "family": "Makito X4",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito X4 series datasheets",
+  "productUrl": "https://doc.haivision.com/MakitoX4Enc/1.9/chassis-styles",
+  "notes": "Blade version of the Makito X4 appliance for the MB6X and MB21X chassis (single-height). Check: connector type on the SDI ports (BNC assumed), and whether the second RJ45 and the SFP+ (ST 2110 licence) are fitted.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Haivision MB"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "B-MX4D-SDI4-UHD",
+    "name": "Blade connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 1,
+      "prefix": "10G SFP+ (ST 2110)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "Serial (RS-232/422)"
+     }
+    ],
+    "layout": {
+     "cols": 6
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "haivision-streamhub-std-4sdi",
+  "manufacturer": "Haivision",
+  "partNumber": "StreamHub STD-4SDI",
+  "name": "StreamHub receiver / decoder, Standard 4 x SDI",
+  "family": "StreamHub",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision StreamHub hardware requirements",
+  "productUrl": "https://doc.haivision.com/StreamHub/4.4/hardware-requirements",
+  "notes": "1RU server (Supermicro CSE-514 chassis) running StreamHub: receives SRT / SST bonded-cellular feeds from Haivision Pro and Air transmitters and outputs SDI, NDI, SRT or ST 2110. Xeon E-2176G, DeckLink Duo 2 card (STD-1SDI uses a DeckLink Mini Monitor 4K). Single PSU. Check: card I/O direction set in software, and onboard NIC count of your build.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In/Out (DeckLink Duo 2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-streamhub-ult-8hd",
+  "manufacturer": "Haivision",
+  "partNumber": "StreamHub ULT-8HD",
+  "name": "StreamHub receiver / decoder, Ultra 8 x HD",
+  "family": "StreamHub",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision StreamHub hardware requirements",
+  "productUrl": "https://doc.haivision.com/StreamHub/4.4/hardware-requirements",
+  "notes": "1RU server (Supermicro CSE-514 chassis) running StreamHub: receives SRT / SST bonded-cellular feeds from Haivision Pro and Air transmitters and outputs SDI, NDI, SRT or ST 2110. Xeon Gold 6226R, DeckLink Quad 2 card. Single PSU. Check: card I/O direction set in software, and onboard NIC count of your build.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In/Out (DeckLink Quad 2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-streamhub-ult-4kmhd",
+  "manufacturer": "Haivision",
+  "partNumber": "StreamHub ULT-4KMHD",
+  "name": "StreamHub receiver / decoder, Ultra 4K / multi-HD",
+  "family": "StreamHub",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision StreamHub hardware requirements",
+  "productUrl": "https://doc.haivision.com/StreamHub/4.4/hardware-requirements",
+  "notes": "1RU server (Supermicro CSE-514 chassis) running StreamHub: receives SRT / SST bonded-cellular feeds from Haivision Pro and Air transmitters and outputs SDI, NDI, SRT or ST 2110. Xeon Gold 6226R, DeckLink 8K Pro card. Single PSU. Check: card I/O direction set in software, and onboard NIC count of your build.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In/Out (DeckLink 8K Pro)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-streamhub-st2110",
+  "manufacturer": "Haivision",
+  "partNumber": "StreamHub STD/ULT-ST2110",
+  "name": "StreamHub receiver / decoder, ST 2110",
+  "family": "StreamHub",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Haivision StreamHub hardware requirements",
+  "productUrl": "https://doc.haivision.com/StreamHub/4.4/hardware-requirements",
+  "notes": "1RU server (Supermicro CSE-514 chassis) running StreamHub: receives SRT / SST bonded-cellular feeds from Haivision Pro and Air transmitters and outputs SDI, NDI, SRT or ST 2110. Mellanox ConnectX-6 Lx NIC for ST 2110 in and out. Single PSU. Check: card I/O direction set in software, and onboard NIC count of your build.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "25GbE SFP28 (ConnectX-6 Lx)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-rack200",
+  "manufacturer": "Haivision",
+  "partNumber": "Rack200",
+  "name": "Rack200 contribution encoder (half-rack)",
+  "family": "Rack series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Rack product page",
+  "productUrl": "https://www.haivision.com/products/rack-video-encoder/",
+  "notes": "Compact half-width 1RU encoder (ex AVIWEST); a kit fits one or two in 1RU. HD, H.264, 4 audio channels. Ethernet, Wi-Fi, satellite and cellular (Quad CellLink) bonding, HDMI return-feed output, SD card recording. Check: SDI and HDMI input counts, Ethernet ports and power connector (not given on the product page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (return)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB (modems)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-rack300",
+  "manufacturer": "Haivision",
+  "partNumber": "Rack300",
+  "name": "Rack300 contribution encoder (half-rack)",
+  "family": "Rack series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Rack product page",
+  "productUrl": "https://www.haivision.com/products/rack-video-encoder/",
+  "notes": "Compact half-width 1RU encoder (ex AVIWEST); a kit fits one or two in 1RU. HD, HEVC/H.264, 4 audio channels. Ethernet, Wi-Fi, satellite and cellular (Quad CellLink) bonding, HDMI return-feed output, SD card recording. Check: SDI and HDMI input counts, Ethernet ports and power connector (not given on the product page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (return)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB (modems)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "haivision-rack400",
+  "manufacturer": "Haivision",
+  "partNumber": "Rack400",
+  "name": "Rack400 contribution encoder (half-rack)",
+  "family": "Rack series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Rack product page",
+  "productUrl": "https://www.haivision.com/products/rack-video-encoder/",
+  "notes": "Compact half-width 1RU encoder (ex AVIWEST); a kit fits one or two in 1RU. 4K UHD or up to 4 HD feeds, HEVC/H.264, 8 audio channels. Ethernet, Wi-Fi, satellite and cellular (Quad CellLink) bonding, HDMI return-feed output, SD card recording. Check: SDI and HDMI input counts, Ethernet ports and power connector (not given on the product page).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (return)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB (modems)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ }
+]

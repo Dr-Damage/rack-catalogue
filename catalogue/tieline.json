@@ -2,33 +2,33 @@
  {
   "id": "tieline-gateway",
   "manufacturer": "Tieline",
-  "partNumber": "Gateway",
-  "name": "Gateway IP audio codec",
+  "partNumber": "TLR6200-16",
+  "name": "Gateway 8/16 multichannel IP audio codec",
   "family": "Gateway",
   "category": "audio",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Tieline Gateway product page",
+  "source": "Tieline Gateway product page; Tieline G5/G6 codec comparison v10 (May 2026)",
   "productUrl": "https://www.tieline.com/gateway/",
-  "notes": "1RU multichannel IP audio codec for radio and STL links. Up to 16 IP audio codec channels (8 stereo) over Dante/AES67/ST 2110-30 (and WheatNet-IP, Livewire), dual Ethernet WAN with SmartStream Plus redundancy, dual redundant PSUs. Check: analog and AES I/O counts on the rear (the Gateway is mainly an AoIP device).",
+  "notes": "1RU, 300 mm deep plus connectors, 4 kg. Up to 16 stereo / 32 mono codec streams (Gateway 16, TLR6200-16; the Gateway 8, TLR6200-8, is the same chassis licensed for 8 stereo streams). 8 analog and 16 AES3 channels in and out on RJ45, dual AoIP ports (AES67, ST 2110-30, ST 2022-7, Livewire+, RAVENNA; Dante or WheatNet-IP by option card), dual Gigabit LAN with automatic redundancy (SmartStream Plus), 16 GPIO on the Control Port, dual internal PSUs with two IEC inlets, front LCD, meters and keypad. Check: how many RJ45 sockets carry the analog and AES3 channels, and the Control Port (GPIO) connector type; the maker lists channel counts, not sockets.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "io",
     "type": "Analog audio",
-    "connector": "XLR",
+    "connector": "RJ45",
     "count": 2,
-    "prefix": "Analog In/Out"
+    "prefix": "Analog I/O"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "AES/EBU",
-    "connector": "XLR",
-    "count": 1,
-    "prefix": "AES3"
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES3 I/O"
    },
    {
     "face": "rear",
@@ -44,15 +44,15 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "WAN"
+    "prefix": "LAN (WAN)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Other",
-    "connector": "DB15",
+    "connector": "Other",
     "count": 1,
-    "prefix": "GPIO"
+    "prefix": "Control Port (16 GPIO)"
    },
    {
     "face": "rear",
@@ -68,7 +68,15 @@
     "type": "Power",
     "connector": "IEC",
     "count": 2,
-    "prefix": "PSU"
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SD card"
    }
   ]
  },
@@ -83,25 +91,25 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Tieline Gateway product page",
+  "source": "Tieline Gateway product page; Tieline G5/G6 codec comparison v10 (May 2026)",
   "productUrl": "https://www.tieline.com/gateway/",
-  "notes": "1RU multichannel IP audio codec for radio and STL links. Up to 4 IP audio codec channels over Dante/AES67/ST 2110-30 (and WheatNet-IP, Livewire), dual Ethernet WAN with SmartStream Plus redundancy, dual redundant PSUs. Check: analog and AES I/O counts on the rear (the Gateway is mainly an AoIP device).",
+  "notes": "1RU, 300 mm deep plus connectors, 4 kg. Up to 4 stereo / 8 mono codec streams. 4 analog and 4 AES3 channels in and out on RJ45, dual AoIP ports (AES67, ST 2110-30, ST 2022-7, Livewire+, RAVENNA; Dante or WheatNet-IP by option card), dual Gigabit LAN with automatic redundancy (SmartStream Plus), 8 GPIO on the Control Port, dual internal PSUs with two IEC inlets, front LCD, meters and keypad. Check: how many RJ45 sockets carry the analog and AES3 channels, and the Control Port (GPIO) connector type; the maker lists channel counts, not sockets.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "io",
     "type": "Analog audio",
-    "connector": "XLR",
+    "connector": "RJ45",
     "count": 2,
-    "prefix": "Analog In/Out"
+    "prefix": "Analog I/O"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "AES/EBU",
-    "connector": "XLR",
-    "count": 1,
-    "prefix": "AES3"
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES3 I/O"
    },
    {
     "face": "rear",
@@ -117,7 +125,428 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "WAN"
+    "prefix": "LAN (WAN)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Control Port (8 GPIO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SD card"
+   }
+  ]
+ },
+ {
+  "id": "tieline-gateway-nexus",
+  "manufacturer": "Tieline",
+  "partNumber": "Gateway Nexus",
+  "name": "Gateway Nexus multichannel IP audio codec",
+  "family": "Gateway",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline Gateway product page; Tieline G5/G6 codec comparison v10 (May 2026)",
+  "productUrl": "https://tieline.com/?p=14613",
+  "notes": "1RU, 300 mm deep plus connectors, 4 kg. Up to 32 bidirectional mono / 16 stereo channels, built for AoIP-to-WAN bridging in large facilities. 8 analog and 16 AES3 channels in and out on RJ45, dual AoIP ports (AES67, ST 2110-30, ST 2022-7, Livewire+, RAVENNA; Dante or WheatNet-IP by option card), dual Gigabit LAN with automatic redundancy (SmartStream Plus), 16 GPIO on the Control Port, dual internal PSUs with two IEC inlets, front LCD, meters and keypad. Check: how many RJ45 sockets carry the analog and AES3 channels, and the Control Port (GPIO) connector type; the maker lists channel counts, not sockets.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Analog I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES3 I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AoIP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (WAN)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Control Port (16 GPIO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SD card"
+   }
+  ]
+ },
+ {
+  "id": "tieline-bridge-it-ii",
+  "manufacturer": "Tieline",
+  "partNumber": "TLB6150",
+  "name": "Bridge-IT II IP audio codec",
+  "family": "Bridge-IT",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline G5/G6 codec comparison v10 (May 2026)",
+  "productUrl": "https://www.tieline.com/bridge-it-ii/",
+  "notes": "1RU stereo IP codec for STL and remote broadcast links: 2 analog XLR in and out, AES3 in on XLR and out on RJ45, dual Gigabit Ethernet with LAN2 switchable to AES67 / ST 2110-30 / Livewire+, 4 relay GPI and 4 opto GPO, USB cellular port. Powered by a 12 V DC plug-pack. Check: GPIO connector type and which AES3 output connector your unit uses.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (LAN2 = AoIP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (cellular)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "tieline-bridge-it-xtra-ii",
+  "manufacturer": "Tieline",
+  "partNumber": "TLB6150-XTRA",
+  "name": "Bridge-IT XTRA II IP audio codec",
+  "family": "Bridge-IT",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline G5/G6 codec comparison v10 (May 2026)",
+  "productUrl": "https://www.tieline.com/bridge-it-ii/",
+  "notes": "1RU stereo IP codec for STL and remote broadcast links: 2 analog XLR in and out, AES3 in on XLR and out on RJ45, dual Gigabit Ethernet with LAN2 switchable to AES67 / ST 2110-30 / Livewire+, 4 relay GPI and 4 opto GPO, USB cellular port. XTRA adds a second, redundant power input and extra algorithms. Check: GPIO connector type and which AES3 output connector your unit uses.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (LAN2 = AoIP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (cellular)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "tieline-mpx-ii",
+  "manufacturer": "Tieline",
+  "partNumber": "MPX II",
+  "name": "MPX II FM composite (MPX) IP codec",
+  "family": "MPX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline MPX brochure (Feb 2026)",
+  "productUrl": "https://tieline.com/wp-content/uploads/bsk-pdf-manager/2026/04/MPX-16th-Feb-2026-v7_4_English.pdf",
+  "notes": "1RU codec that carries FM composite (MPX) plus RDS over IP to transmitter sites with low bit rates. MPX I is the single-program version. Check: MPX, AES192 and analog connector counts and the PSU arrangement (from the MPX brochure, not confirmed on a rear-panel drawing).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MPX In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MPX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "AES3/AES192 I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tieline-merlin-plus",
+  "manufacturer": "Tieline",
+  "partNumber": "Merlin PLUS",
+  "name": "Merlin PLUS multi-stream IP codec (legacy)",
+  "family": "Genie / Merlin",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline G5 range information",
+  "productUrl": "https://www.tieline.com/",
+  "notes": "1RU G5-generation IP audio codec, replaced by the Gateway and Bridge-IT II families. Up to 6 mono / 3 stereo IP streams for talk-show and network distribution. Check: rear connector counts (from the G5 range description, not a rear-panel drawing) and whether the second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
    },
    {
     "face": "rear",
@@ -141,7 +570,169 @@
     "type": "Power",
     "connector": "IEC",
     "count": 2,
-    "prefix": "PSU"
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tieline-genie-distribution",
+  "manufacturer": "Tieline",
+  "partNumber": "Genie Distribution",
+  "name": "Genie Distribution multi-stream IP codec (legacy)",
+  "family": "Genie / Merlin",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline G5 range information",
+  "productUrl": "https://www.tieline.com/",
+  "notes": "1RU G5-generation IP audio codec, replaced by the Gateway and Bridge-IT II families. Up to 6 mono / 3 stereo IP streams for program distribution. Check: rear connector counts (from the G5 range description, not a rear-panel drawing) and whether the second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tieline-genie-stl",
+  "manufacturer": "Tieline",
+  "partNumber": "Genie STL",
+  "name": "Genie STL studio-to-transmitter IP codec (legacy)",
+  "family": "Genie / Merlin",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline G5 range information",
+  "productUrl": "https://www.tieline.com/",
+  "notes": "1RU G5-generation IP audio codec, replaced by the Gateway and Bridge-IT II families. Stereo STL codec with redundant streaming (SmartStream Plus) and dual PSUs. Check: rear connector counts (from the G5 range description, not a rear-panel drawing) and whether the second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
    }
   ]
  }

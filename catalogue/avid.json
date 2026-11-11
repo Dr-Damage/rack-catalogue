@@ -25,7 +25,7 @@
    {
     "face": "rear",
     "dir": "io",
-    "type": "Ethernet",
+    "type": "SFP",
     "connector": "SFP+",
     "count": 4,
     "prefix": "10GbE"
@@ -45,6 +45,1127 @@
     "connector": "IEC",
     "count": 2,
     "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-pro-plus",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | PRO+",
+  "name": "NEXIS PRO+ storage engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "2U entry engine, one 40 TB Media Pack, two hot-swap SSDs for configuration and metadata, embedded System Director. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10/25GbE SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-f2",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | F2",
+  "name": "NEXIS F2 storage engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "2U engine, one Media Pack (60, 100 or 140 TB HDD), two hot-swap SSDs, embedded System Director, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10/25GbE SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-f2x",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | F2X",
+  "name": "NEXIS F2X expansion chassis",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "2U expansion for an F2 engine, one Media Pack (60, 100 or 140 TB HDD), optional hot-spare HDDs. Check: expansion cable type. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Expansion link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-f2-ssd",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | F2 SSD",
+  "name": "NEXIS F2 SSD all-flash engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "2U all-flash engine, 1-2 SSD Media Packs (38.4 or 153.6 TB), mirrored config SSDs, embedded System Director, optional redundant controller. Check: 100GbE connector (QSFP28 assumed). Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-f5",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | F5",
+  "name": "NEXIS F5 storage engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "5U engine, 4-8 Media Packs (60, 100 or 140 TB HDD), 2 hot-spare HDDs, 2 hot-swap SSDs, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP",
+    "count": 2,
+    "prefix": "50GbE QSFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-f5-nl",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | F5 NL",
+  "name": "NEXIS F5 NL nearline engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS family datasheet",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "5U nearline engine, 4-8 Media Packs of 160 TB, mirrored config SSDs, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "10GbE SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-e2",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | E2",
+  "name": "NEXIS E2 storage engine (legacy)",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS product information",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "Earlier NEXIS engine for mid-size systems, replaced by the F-series. Check: rack height, drive count and controller ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP",
+    "count": 2,
+    "prefix": "40GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-e5",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | E5",
+  "name": "NEXIS E5 storage engine (legacy)",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS product information",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "Earlier high-capacity NEXIS engine (E5 NL is the nearline version), replaced by the F5. Check: rack height and controller ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP",
+    "count": 2,
+    "prefix": "40GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-nexis-sda",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | SDA",
+  "name": "NEXIS System Director Appliance",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS product information",
+  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "notes": "1U server that runs the NEXIS System Director for systems whose engines have no embedded director (E-series). Check: server model and ports (shown as a typical 1U Dell server).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "avid-mtrx-ii",
+  "manufacturer": "Avid",
+  "partNumber": "MTRX II",
+  "name": "Pro Tools | MTRX II audio interface",
+  "family": "Pro Tools | MTRX",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid Pro Tools MTRX family comparison chart",
+  "productUrl": "https://www.avid.com/products/pro-tools-mtrx-ii/specifications",
+  "notes": "2U Pro Tools HD interface and monitor controller: 2 x 32-channel DigiLink Mini (64 ch), 64-channel MADI built in, 256-channel Dante built in, 8 option card slots (analog, AES, Dante, MADI, SPQ, Thunderbolt 3 module). Current model; 8 AES3 and Dual MADI are option cards. Check: MADI connector type, word clock BNC count and whether the second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink Mini"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "MADI (64 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante (256 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "Option card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock / VBB In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-mtrx",
+  "manufacturer": "Avid",
+  "partNumber": "MTRX",
+  "name": "Pro Tools | MTRX audio interface (discontinued)",
+  "family": "Pro Tools | MTRX",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid Pro Tools MTRX family comparison chart",
+  "productUrl": "https://www.avid.com/products/pro-tools-mtrx-ii/specifications",
+  "notes": "2U Pro Tools HD interface and monitor controller: 2 x 32-channel DigiLink Mini (64 ch), 64-channel MADI built in, Dante by option card, 8 option card slots (analog, AES, Dante, MADI, SPQ, Thunderbolt 3 module). Built-in 8 AES pairs on two DB25. Check: MADI connector type, word clock BNC count and whether the second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink Mini"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "MADI (64 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES3 (8 pairs)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES11 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "Option card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock / VBB In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-mtrx-studio",
+  "manufacturer": "Avid",
+  "partNumber": "MTRX Studio",
+  "name": "Pro Tools | MTRX Studio audio interface",
+  "family": "Pro Tools | MTRX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid Pro Tools MTRX family comparison chart",
+  "productUrl": "https://www.avid.com/products/pro-tools-mtrx-studio/specifications",
+  "notes": "1U interface: 2 mic preamps, 16 x 16 line I/O on DB25, 2 monitor outputs, 2 headphone outputs, 64-channel Dante, 2 DigiLink Mini ports, optional Thunderbolt 3 module (64 ch), word clock and Loop Sync. Check: front/rear position of the mic inputs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Line In (16)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Line Out (16)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 2,
+    "prefix": "Headphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink Mini"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante (64 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Thunderbolt 3 module"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-hd-io",
+  "manufacturer": "Avid",
+  "partNumber": "HD I/O",
+  "name": "Pro Tools | HD I/O interface (legacy)",
+  "family": "Pro Tools",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid product information",
+  "productUrl": "https://www.avid.com/",
+  "notes": "2U Pro Tools HD interface with 8 x 8 x 8 I/O (analog / AES / ADAT) as standard; analog and digital expansion cards change the mix. Check: connector counts are from memory of the rear panel, not from an Avid drawing.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog In (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Out (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES/EBU (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "ADAT optical"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "S/PDIF"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Word clock In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Loop Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink (Primary/Expansion)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-hd-omni",
+  "manufacturer": "Avid",
+  "partNumber": "HD OMNI",
+  "name": "Pro Tools | HD OMNI interface (legacy)",
+  "family": "Pro Tools",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid product information",
+  "productUrl": "https://www.avid.com/",
+  "notes": "1U all-in-one Pro Tools HD interface with 2 mic preamps, monitoring and headphone output. Check: connector counts are from memory of the rear panel, not from an Avid drawing.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "AES/EBU In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "ADAT optical"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Word clock / Loop Sync"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-hd-madi",
+  "manufacturer": "Avid",
+  "partNumber": "HD MADI",
+  "name": "Pro Tools | HD MADI interface (legacy)",
+  "family": "Pro Tools",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid product information",
+  "productUrl": "https://www.avid.com/",
+  "notes": "1U 64-channel MADI interface for Pro Tools HD. Check: connector counts are from memory of the rear panel, not from an Avid drawing.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI coax In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "MADI optical (SC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Word clock In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Loop Sync In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "DigiLink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-sync-x",
+  "manufacturer": "Avid",
+  "partNumber": "Sync X",
+  "name": "Pro Tools | Sync X synchroniser",
+  "family": "Pro Tools",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid product information",
+  "productUrl": "https://www.avid.com/",
+  "notes": "1U Pro Tools synchroniser: video reference, LTC, word clock and Loop Sync. Check: connector counts are from memory of the rear panel, not from an Avid drawing.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Word clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Loop Sync"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "9-pin"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "avid-artist-dnxiq",
+  "manufacturer": "Avid",
+  "partNumber": "Artist | DNxIQ",
+  "name": "Artist | DNxIQ video I/O",
+  "family": "Artist",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid product information",
+  "productUrl": "https://www.avid.com/",
+  "notes": "1U Thunderbolt 3 video interface for Media Composer with 12G-SDI, HDMI 2.0, analog and AES audio. Check: connector counts are from memory of the rear panel, not from an Avid drawing.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Deck control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
    }
   ]
  }

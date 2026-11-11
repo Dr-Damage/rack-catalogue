@@ -63,5 +63,1513 @@
     "prefix": "PSU"
    }
   ]
+ },
+ {
+  "id": "synology-rs422-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS422+",
+  "name": "RS422+ 4-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS422+",
+  "notes": "1U, 4 bays, short depth, AMD Ryzen R1600, 2 x 1GbE, no PCIe slots, no expansion ports, single PSU. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs822-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS822+",
+  "name": "RS822+ 4-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS822+",
+  "notes": "1U, 4 bays, AMD Ryzen V1500B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, single PSU. Expands with one RX418. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs822rp-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS822RP+",
+  "name": "RS822RP+ 4-bay rackmount NAS, redundant PSU",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS822RP+",
+  "notes": "1U, 4 bays, AMD Ryzen V1500B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, redundant PSUs. Expands with one RX418. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs1221-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS1221+",
+  "name": "RS1221+ 8-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS1221+",
+  "notes": "2U, 8 bays, AMD Ryzen V1500B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, single PSU. Expands with one RX418. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs1221rp-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS1221RP+",
+  "name": "RS1221RP+ 8-bay rackmount NAS, redundant PSU",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS1221RP+",
+  "notes": "2U, 8 bays, AMD Ryzen V1500B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, redundant PSUs. Expands with one RX418. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs2421-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS2421+",
+  "name": "RS2421+ 12-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS2421+",
+  "notes": "2U, 12 bays, AMD Ryzen V1780B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, single PSU. Expands with one RX1217. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs2421rp-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS2421RP+",
+  "name": "RS2421RP+ 12-bay rackmount NAS, redundant PSU",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS2421RP+",
+  "notes": "2U, 12 bays, AMD Ryzen V1780B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, redundant PSUs. Expands with one RX1217RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs2423-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS2423+",
+  "name": "RS2423+ 12-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS2423+",
+  "notes": "2U, 12 bays, AMD Ryzen V1780B, 2 x 1GbE + 1 x 10GbE RJ45, 1 PCIe slot, 1 expansion port, single PSU. Expands with one RX1223RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs2423rp-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS2423RP+",
+  "name": "RS2423RP+ 12-bay rackmount NAS, redundant PSU",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS2423RP+",
+  "notes": "2U, 12 bays, AMD Ryzen V1780B, 2 x 1GbE + 1 x 10GbE RJ45, 1 PCIe slot, 1 expansion port, redundant PSUs. Expands with one RX1223RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs2821rp-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS2821RP+",
+  "name": "RS2821RP+ 16-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS2821RP+",
+  "notes": "3U, 16 bays, AMD Ryzen V1780B, 4 x 1GbE, 1 PCIe slot, 1 expansion port, redundant PSUs. Expands with one RX1217RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs3621xs-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS3621xs+",
+  "name": "RS3621xs+ 12-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS3621xs+",
+  "notes": "2U, 12 bays, Intel Xeon D-1541, 4 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with up to two RX1217RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs3621rpxs",
+  "manufacturer": "Synology",
+  "partNumber": "RS3621RPxs",
+  "name": "RS3621RPxs 12-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS3621RPxs",
+  "notes": "2U, 12 bays, Intel Xeon D-1531, 4 x 1GbE, 2 PCIe slots, 1 expansion port, redundant PSUs. Expands with one RX1217RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rs4021xs-plus",
+  "manufacturer": "Synology",
+  "partNumber": "RS4021xs+",
+  "name": "RS4021xs+ 16-bay rackmount NAS",
+  "family": "RackStation",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RS4021xs+",
+  "notes": "3U, 16 bays, Intel Xeon D-1541, 4 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with up to two RX1217RP. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-sa3410",
+  "manufacturer": "Synology",
+  "partNumber": "SA3410",
+  "name": "SA3410 12-bay rackmount storage",
+  "family": "SA series",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/SA3410",
+  "notes": "2U, 12 bays, Intel Xeon D-1541, 2 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with RX1223RP or RX1225RP units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-sa3610",
+  "manufacturer": "Synology",
+  "partNumber": "SA3610",
+  "name": "SA3610 12-bay rackmount storage",
+  "family": "SA series",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/SA3610",
+  "notes": "2U, 12 bays, Intel Xeon D-1567, 2 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with RX1223RP units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-sa6400",
+  "manufacturer": "Synology",
+  "partNumber": "SA6400",
+  "name": "SA6400 12-bay rackmount storage",
+  "family": "SA series",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/SA6400",
+  "notes": "2U, 12 bays, AMD EPYC 7272, 2 x 1GbE + 2 x 10GbE RJ45, 6 PCIe slots, 2 expansion ports, redundant PSUs. Expands with RX1225RP / RX6025sas units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-fs2500",
+  "manufacturer": "Synology",
+  "partNumber": "FS2500",
+  "name": "FS2500 12-bay all-flash storage",
+  "family": "FlashStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/FS2500",
+  "notes": "1U, 12 x 2.5 in SSD bays, AMD Ryzen V1780B, 2 x 1GbE + 2 x 10GbE RJ45, 1 PCIe slot, 1 expansion port, redundant PSUs. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-fs3410",
+  "manufacturer": "Synology",
+  "partNumber": "FS3410",
+  "name": "FS3410 24-bay all-flash storage",
+  "family": "FlashStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/FS3410",
+  "notes": "2U, 24 x 2.5 in SSD bays, Intel Xeon D-1541, 2 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-fs6400",
+  "manufacturer": "Synology",
+  "partNumber": "FS6400",
+  "name": "FS6400 24-bay all-flash storage",
+  "family": "FlashStation",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/FS6400",
+  "notes": "2U, 24 x 2.5 in SSD bays, 2 x Intel Xeon Silver 4110, 2 x 1GbE + 2 x 10GbE RJ45, 4 PCIe slots, 2 expansion ports, redundant PSUs. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-hd6500",
+  "manufacturer": "Synology",
+  "partNumber": "HD6500",
+  "name": "HD6500 60-bay high-density storage",
+  "family": "HD series",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/HD6500",
+  "notes": "4U, 60 x 3.5 in top-loading bays, 2 x Intel Xeon Silver 4210R, 2 x 1GbE + 2 x 10GbE RJ45, 4 PCIe slots, 4 expansion ports, redundant PSUs. Expands with RX6022sas units. Needs a deep rack (about 1 m). Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 4,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-uc3400",
+  "manufacturer": "Synology",
+  "partNumber": "UC3400",
+  "name": "UC3400 dual-controller SAN storage",
+  "family": "UC series",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/UC3400",
+  "notes": "2U, 12 bays, dual active-active controllers, Intel Xeon D-1541 per controller, 4 x 1GbE + 4 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Port counts are for both controllers together. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx418",
+  "manufacturer": "Synology",
+  "partNumber": "RX418",
+  "name": "RX418 expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX418",
+  "notes": "1U drive expansion, 4 bays, single PSU. For RS422+ class 1U and 2U units (eSATA link). Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx1217",
+  "manufacturer": "Synology",
+  "partNumber": "RX1217",
+  "name": "RX1217 expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX1217",
+  "notes": "2U drive expansion, 12 bays, single PSU. For RS2421+ class units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx1217rp",
+  "manufacturer": "Synology",
+  "partNumber": "RX1217RP",
+  "name": "RX1217RP expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX1217RP",
+  "notes": "2U drive expansion, 12 bays, redundant PSUs. For RS2421RP+, RS3621xs+ and RS4021xs+ class units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx1223rp",
+  "manufacturer": "Synology",
+  "partNumber": "RX1223RP",
+  "name": "RX1223RP expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX1223RP",
+  "notes": "2U drive expansion, 12 bays, redundant PSUs. For RS2423+ / SA3410 class units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx1217sas",
+  "manufacturer": "Synology",
+  "partNumber": "RX1217sas",
+  "name": "RX1217sas expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX1217sas",
+  "notes": "2U drive expansion, 12 bays (SAS), redundant PSUs. For SA3400 and FS-series units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx2417sas",
+  "manufacturer": "Synology",
+  "partNumber": "RX2417sas",
+  "name": "RX2417sas expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX2417sas",
+  "notes": "2U drive expansion, 24 x 2.5 in bays (SAS), redundant PSUs. For SA and FS-series units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "synology-rx6022sas",
+  "manufacturer": "Synology",
+  "partNumber": "RX6022sas",
+  "name": "RX6022sas expansion unit",
+  "family": "Expansion units",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synology product information",
+  "productUrl": "https://www.synology.com/en-global/products/RX6022sas",
+  "notes": "4U drive expansion, 60 x 3.5 in bays (SAS), redundant PSUs. For the HD6500. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 2,
+    "prefix": "Expansion In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
  }
 ]

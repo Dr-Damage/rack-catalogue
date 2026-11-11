@@ -1,0 +1,295 @@
+[
+ {
+  "id": "liveu-lu2000-1",
+  "manufacturer": "LiveU",
+  "partNumber": "LU10-SV-1UL01",
+  "name": "LU2000 server, 1 x SDI out",
+  "family": "LU2000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LiveU LU2000 datasheet (Feb 2021)",
+  "productUrl": "https://www.liveu.tv/wp-content/uploads/2021/02/LU2000_Feb2021.pdf",
+  "notes": "1RU receiver / decoder server, 43 x 437 x 503 mm, 9.5 kg, 110-240 V. Receives bonded LiveU field-unit feeds and plays them out on 1 SD/HD/3G-SDI output; 2 x 10/100/1000 Ethernet. Check: VGA/USB server ports and whether a second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "liveu-lu2000-2",
+  "manufacturer": "LiveU",
+  "partNumber": "LU10-SV-1UL02",
+  "name": "LU2000 server, 2 x SDI out",
+  "family": "LU2000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LiveU LU2000 datasheet (Feb 2021)",
+  "productUrl": "https://www.liveu.tv/wp-content/uploads/2021/02/LU2000_Feb2021.pdf",
+  "notes": "1RU receiver / decoder server, 43 x 437 x 503 mm, 9.5 kg, 110-240 V. Receives bonded LiveU field-unit feeds and plays them out on 2 SD/HD/3G-SDI outputs; 2 x 10/100/1000 Ethernet. Check: VGA/USB server ports and whether a second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "liveu-lu2000-4",
+  "manufacturer": "LiveU",
+  "partNumber": "LU10-SV-1UL04",
+  "name": "LU2000 server, 4 x SDI out",
+  "family": "LU2000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LiveU LU2000 datasheet (Feb 2021)",
+  "productUrl": "https://www.liveu.tv/wp-content/uploads/2021/02/LU2000_Feb2021.pdf",
+  "notes": "1RU receiver / decoder server, 43 x 437 x 503 mm, 9.5 kg, 110-240 V. Receives bonded LiveU field-unit feeds and plays them out on 4 SD/HD/3G-SDI outputs; 2 x 10/100/1000 Ethernet. Check: VGA/USB server ports and whether a second PSU is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "liveu-lu4000",
+  "manufacturer": "LiveU",
+  "partNumber": "LU10-SV-1UL04-4K",
+  "name": "LU4000 server, single 4K / quad HD out",
+  "family": "LU4000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LiveU LU4000 dealer listings",
+  "productUrl": "https://www.adorama.com/lu10sv1ul04.html",
+  "notes": "1RU HEVC receiver / decoder server: one 4K UHD output (quad-link or 12G) or up to 4 HD outputs. Check: 12G vs quad-link 3G outputs, genlock input and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "liveu-lu4000-st2110",
+  "manufacturer": "LiveU",
+  "partNumber": "LU10-SV-1UL04-ST2110",
+  "name": "LU4000 ST 2110 server",
+  "family": "LU4000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LiveU LU4000 ST 2110 dealer listings",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1889662-REG/liveu_lu10_sv_1ul04_st2110_lu4000_st_2110_single.html",
+  "notes": "1RU LU4000 decoder that outputs uncompressed SMPTE ST 2110 instead of SDI (a dual-output version is LU10-SV-1UD04-ST2110). Check: SFP speed and count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ST 2110 (25GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -40,10 +40,55 @@ add('awselemental.json', 'aws-', 'AWS Elemental', 'live-l900', 'Elemental Live L
     'Elemental Live', 'converter', 1,
     [R('io', 'Other', 'Card slot', 2, 'SDI card (AJA, 3G/12G)'), R('io', 'SFP', 'QSFP28', 2, 'ConnectX-6 (red/blue)'),
      R('io', 'Ethernet', 'RJ45', 2, 'Management'), R('in', 'Power', 'IEC', 2, 'AC In')],
-    '1RU server chassis (L900, L901, L910, L920, L940, L980; -U models add uncompressed ST 2110). Needs 31.85 in rack depth '
-    '(L900/L901: 21.04 in). SDI I/O on AJA PCIe cards, 10/25/40/100G networking on NVIDIA ConnectX-6 QSFP28. DC kits for L910 and up. '
+    '1RU server chassis, L900 and L901 (the short 21.04 in deep models; L910 to L980 are listed separately). -U models add '
+    'uncompressed ST 2110. SDI I/O on AJA PCIe cards, 10/25/40/100G networking on NVIDIA ConnectX-6 QSFP28. '
     'Check: SDI count per SKU, management ports and PSUs (AWS publishes these per SKU on request).',
     'AWS Elemental Live L900 announcement (AWS Media blog)', 'https://aws.amazon.com/elemental-live/', verified=False, full=True)
+AWS_BLOG = 'https://aws.amazon.com/blogs/media/next-generation-aws-elemental-live-hardware-unlocks-new-possibilities-for-video-workflows'
+for sku, what in [('L910', 'mid-density HD'), ('L920', 'UHD HEVC and HDR (HLG, Dolby Vision)'), ('L940', 'higher-density UHD / HDR'),
+                  ('L980', 'highest UHD / HDR channel density')]:
+    add('awselemental.json', 'aws-', 'AWS Elemental', f'live-{sku.lower()}', f'Elemental Live {sku}', f'Elemental Live {sku} encoder appliance',
+        'Elemental Live', 'converter', 1,
+        [R('io', 'Other', 'Card slot', 2, 'SDI card (AJA, 3G/12G)'), R('io', 'SFP', 'QSFP28', 2, 'ConnectX-6 (-U models)'),
+         R('io', 'Ethernet', 'RJ45', 2, 'Management'), R('in', 'Power', 'IEC', 2, 'AC In')],
+        f'1RU L900-series server, {what}; needs 31.85 in rack depth, DC power kit available. The -U version adds uncompressed '
+        'ST 2110 / 2022-6 / JPEG XS I/O on an NVIDIA ConnectX-6 card (10/25/40/100G QSFP28). SDI I/O on AJA PCIe cards. '
+        'Check: SDI count per SKU, management ports and PSUs.', 'AWS Elemental Live L900 announcement (AWS Media blog)', AWS_BLOG,
+        verified=False, full=True)
+add('awselemental.json', 'aws-', 'AWS Elemental', 'live-l800', 'Elemental Live L800 series', 'Elemental Live L800-series encoder appliance (legacy)',
+    'Elemental Live', 'converter', 1,
+    [R('io', 'Other', 'Card slot', 2, 'SDI card'), R('io', 'SFP', 'SFP+', 2, '10GbE'), R('io', 'Ethernet', 'RJ45', 2, '1GbE'),
+     R('in', 'Power', 'IEC', 2, 'AC In')],
+    '1RU previous-generation Elemental Live appliance, replaced by the L900 series. '
+    'Check: SDI card and network ports on your unit.', 'AWS Elemental Live L900 announcement (AWS Media blog)', AWS_BLOG,
+    verified=False, full=True)
+for id, pn, name, notes in [
+        ('conductor-live', 'Elemental Conductor Live', 'Elemental Conductor Live management node',
+         'Runs Conductor Live, which manages a fleet of Elemental Live encoders (redundancy, scheduling, monitoring); usually two nodes for HA.'),
+        ('server', 'Elemental Server', 'Elemental Server file transcoding appliance (legacy)',
+         'On-premises file-based transcoder.'),
+        ('statmux', 'Elemental Statmux', 'Elemental Statmux node',
+         'Statistical multiplexer for Elemental Live channels going to satellite, cable or terrestrial distribution.')]:
+    add('awselemental.json', 'aws-', 'AWS Elemental', id, pn, name, 'Elemental appliances', 'computer', 1,
+        [R('io', 'Ethernet', 'RJ45', 4, '1GbE'), R('io', 'Ethernet', 'RJ45', 1, 'Management (BMC)'), R('out', 'Other', 'VGA', 1, 'VGA'),
+         R('io', 'USB', 'USB-A', 2, 'USB'), R('in', 'Power', 'IEC', 2, 'AC In')],
+        f'1RU server appliance supplied by AWS Elemental. {notes} Check: server model, network ports (10/25GbE options) and PSUs.',
+        'AWS Elemental appliances and software page', 'https://aws.amazon.com/elemental-appliances-software/', verified=False, full=True)
+add('awselemental.json', 'aws-', 'AWS Elemental', 'link-uhd', 'Elemental Link UHD', 'Elemental Link UHD contribution device',
+    'Elemental Link', 'converter', 1,
+    [R('in', '12G-SDI', 'BNC', 1, 'SDI In'), R('in', 'HDMI', 'HDMI', 1, 'HDMI 2.0 In'), R('io', 'Ethernet', 'RJ45', 1, '1GbE'),
+     R('io', 'USB', 'USB-A', 1, 'USB 3.0'), R('in', 'Power', 'Other', 1, 'Power In')],
+    '145 x 43 x 157 mm (W x H x D), 0.8 kg, 25 W max. Sends one 12G-SDI or HDMI 2.0 source (UHD HDR, 16 embedded audio channels) to '
+    'AWS Elemental MediaLive. Front LCD and button. Sits on a rack shelf. Check: power connector (100-240 VAC input listed).',
+    'AWS Elemental Link UHD specification sheet',
+    'https://docs.aws.amazon.com/elemental-onprem/latest/pdf/AWS_Elemental_Link_UHD_Specification_Sheet.pdf', w=4)
+add('awselemental.json', 'aws-', 'AWS Elemental', 'link-hd', 'Elemental Link (HD)', 'Elemental Link HD contribution device',
+    'Elemental Link', 'converter', 1,
+    [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('in', 'HDMI', 'HDMI', 1, 'HDMI In'), R('io', 'Ethernet', 'RJ45', 1, '1GbE'),
+     R('in', 'Power', 'Other', 1, 'Power In')],
+    'Compact device that sends one HD source (SDI or HDMI) to AWS Elemental MediaLive. Sits on a rack shelf. '
+    'Check: size, USB port and power connector.', 'AWS MediaLive user guide: HD and UHD Link devices',
+    'https://docs.aws.amazon.com/en_us/medialive/latest/ug/elink-device-hd-uhd.html', verified=False, w=4)
 
 # ---------------- Epiphan ----------------
 for code, twin in [('ESP1151', 1), ('ESP1152', 2)]:

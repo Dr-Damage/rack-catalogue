@@ -3,16 +3,16 @@
   "id": "dejero-waypoint",
   "manufacturer": "Dejero",
   "partNumber": "WayPoint",
-  "name": "WayPoint receiver",
+  "name": "WayPoint receiver (101 / 102 / 104)",
   "family": "WayPoint",
   "category": "converter",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Dejero WayPoint product page",
-  "productUrl": "https://www.dejero.com/products/waypoint-receiver/",
-  "notes": "1RU receiver that decodes and reassembles Dejero transmitter (EnGo, PathWay) streams and outputs SDI/HDMI or IP (NDI, SRT, RTMP). Models 101, 102 and 104 differ in decode channels. Check: model and SDI output count on your unit.",
+  "source": "Dejero WayPoint 104 product brief",
+  "productUrl": "https://www.dejero.com/products/waypoint-104",
+  "notes": "1RU receiver that decodes and reassembles Dejero transmitter (EnGo, PathWay) streams and outputs SDI/HDMI or IP (NDI, SRT, RTMP). Models 101, 102 and 104 differ in decode channels; dual PSUs. Check: model and SDI output count on your unit.",
   "portGroups": [
    {
     "face": "rear",
@@ -60,7 +60,121 @@
     "type": "Power",
     "connector": "IEC",
     "count": 2,
-    "prefix": "PSU"
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dejero-waypoint-3",
+  "manufacturer": "Dejero",
+  "partNumber": "WayPoint 3",
+  "name": "WayPoint 3 four-output receiver",
+  "family": "WayPoint",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dejero WayPoint product page",
+  "productUrl": "https://www.dejero.com/waypoint",
+  "notes": "Current Dejero receiver: up to 4 HD or 2 4K UHD sources at once, SDI or MPEG-TS outputs, front-access 1 TB drives with RAID, redundant power supplies. Check: rack height (1RU assumed), SDI output type and count, and network ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dejero-pathway",
+  "manufacturer": "Dejero",
+  "partNumber": "PathWay",
+  "name": "PathWay rack-mount encoder / transmitter",
+  "family": "PathWay",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dejero PathWay / WayPoint HEVC release",
+  "productUrl": "https://tvtechnology.com/equipment/dejero-releases-pathway-waypoint-for-hevc-support",
+  "notes": "1RU fixed-location encoder that sends HEVC/H.264 to WayPoint receivers over blended Ethernet, cellular and satellite links. Check: SDI input count, loop output, USB modem ports and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (modems)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
    }
   ]
  }
