@@ -75,6 +75,17 @@ add('datavideo.json', 'dv-', 'Datavideo', 'se-1200mu', 'SE-1200MU', 'SE-1200MU 6
     '2 SDI + 2 HDMI out (assignable), internal genlock, 2 balanced XLR audio in, dual-colour tally DB15, 12V 19 W adapter. '
     'Check: RS-422/232 connector type.', 'Datavideo SE-1200MU product page', 'https://datavideo.com/us/product/SE-1200MU')
 
+# AJA FS2 (added 2026-11-11, legacy dual-channel frame sync)
+A('fs2', 'FS2', 'FS2 dual-channel frame sync / converter (legacy)', 'FS', 'converter', 1,
+  [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out'), R('out', 'HDMI', 'HDMI', 2, 'HDMI Out'),
+   R('in', 'Analog video', 'BNC', 2, 'Analog In'), R('out', 'Analog video', 'BNC', 2, 'Analog Out'),
+   R('in', 'Reference', 'BNC', 1, 'Ref'), R('out', 'Reference', 'BNC', 1, 'Ref Loop'),
+   R('io', 'AES/EBU', 'DB25', 2, 'AES I/O'), R('io', 'Analog audio', 'DB25', 2, 'Analog Audio I/O'), R('io', 'Other', 'DB25', 1, 'GPI'),
+   R('io', 'RS-422', 'DB9', 2, 'RS-422'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('in', 'Power', 'IEC', 2, 'PSU')],
+  '1RU dual-channel universal frame synchroniser and up/down/cross converter (two independent channels, 3G-SDI, optional fibre SFPs), '
+  'dual redundant AC supplies, web control. Discontinued; replaced by FS4. Check: connector counts are from memory of the rear panel, not '
+  'from the AJA spec sheet; correct them from your unit.', 'AJA FS2 product page (archived)', 'https://www.aja.com/products/fs2',
+  verified=False, full=True)
 # AJA BRIDGE LIVE (added 2026-11-11)
 for code, n, t, c in [('12G-4', 4, '12G-SDI', 'BNC'), ('3G-8', 8, '3G-SDI', 'DIN 1.0/2.3')]:
     A(f'bridge-live-{code.lower()}', f'BRIDGE LIVE {code}', f'BRIDGE LIVE {code} streaming / transcoding appliance', 'BRIDGE LIVE', 'converter', 1,

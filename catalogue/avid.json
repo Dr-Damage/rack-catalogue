@@ -1,0 +1,51 @@
+[
+ {
+  "id": "avid-nexis-e4",
+  "manufacturer": "Avid",
+  "partNumber": "NEXIS | E4",
+  "name": "NEXIS E4 storage engine",
+  "family": "NEXIS",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avid NEXIS product information",
+  "productUrl": "https://www.avid.com/products/avid-nexis",
+  "notes": "4U shared-storage engine for Avid NEXIS with 60 drive slots (top-loading drawers), two controllers with redundant PSUs. Check: controller network ports for your build (10/40/100GbE) and whether a System Director / NEXIS | E2 sits alongside.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP",
+    "count": 2,
+    "prefix": "40GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

@@ -1,0 +1,148 @@
+[
+ {
+  "id": "tieline-gateway",
+  "manufacturer": "Tieline",
+  "partNumber": "Gateway",
+  "name": "Gateway IP audio codec",
+  "family": "Gateway",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline Gateway product page",
+  "productUrl": "https://www.tieline.com/gateway/",
+  "notes": "1RU multichannel IP audio codec for radio and STL links. Up to 16 IP audio codec channels (8 stereo) over Dante/AES67/ST 2110-30 (and WheatNet-IP, Livewire), dual Ethernet WAN with SmartStream Plus redundancy, dual redundant PSUs. Check: analog and AES I/O counts on the rear (the Gateway is mainly an AoIP device).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Analog In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "AES3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AoIP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "tieline-gateway4",
+  "manufacturer": "Tieline",
+  "partNumber": "Gateway 4",
+  "name": "Gateway 4 IP audio codec",
+  "family": "Gateway",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tieline Gateway product page",
+  "productUrl": "https://www.tieline.com/gateway/",
+  "notes": "1RU multichannel IP audio codec for radio and STL links. Up to 4 IP audio codec channels over Dante/AES67/ST 2110-30 (and WheatNet-IP, Livewire), dual Ethernet WAN with SmartStream Plus redundancy, dual redundant PSUs. Check: analog and AES I/O counts on the rear (the Gateway is mainly an AoIP device).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Analog In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "AES3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AoIP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

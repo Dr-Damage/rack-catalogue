@@ -1,0 +1,67 @@
+[
+ {
+  "id": "dejero-waypoint",
+  "manufacturer": "Dejero",
+  "partNumber": "WayPoint",
+  "name": "WayPoint receiver",
+  "family": "WayPoint",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dejero WayPoint product page",
+  "productUrl": "https://www.dejero.com/products/waypoint-receiver/",
+  "notes": "1RU receiver that decodes and reassembles Dejero transmitter (EnGo, PathWay) streams and outputs SDI/HDMI or IP (NDI, SRT, RTMP). Models 101, 102 and 104 differ in decode channels. Check: model and SDI output count on your unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

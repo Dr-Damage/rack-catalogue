@@ -1,0 +1,172 @@
+[
+ {
+  "id": "evertz-5601msc",
+  "manufacturer": "Evertz",
+  "partNumber": "5601MSC",
+  "name": "5601MSC master clock / SPG",
+  "family": "Master clock",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Evertz 5601MSC product page",
+  "productUrl": "https://evertz.com/products/5601MSC",
+  "notes": "1RU, 483 x 45 x 292 mm. GNSS-locked master clock and SPG: 6 configurable black burst / tri-level / 10 MHz / 1PPS outputs (HD-BNC), 2 LTC/IRIG outputs, 2 DARS outputs, 2 word clock outputs, PTP grandmaster on 2 SFP28 + 2 QSFP28, 2 control Ethernet, 2 GNSS inputs. Front-mounted hot-swap PSU, second one optional (+2PS), 200 W max. Pairs with the 5601ACO2 changeover. Check: rear connector layout and the word clock connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 6,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Mini-XLR",
+    "count": 2,
+    "prefix": "LTC/IRIG Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "DARS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "PTP SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "PTP QSFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "GNSS antenna",
+    "count": 2,
+    "prefix": "GNSS In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "evertz-5601aco2",
+  "manufacturer": "Evertz",
+  "partNumber": "5601ACO2",
+  "name": "5601ACO2 automatic changeover",
+  "family": "Master clock",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 5601ACO2 user manual",
+  "productUrl": "https://evertz.com/products/5600ACO",
+  "notes": "2RU, 90 mm high. Automatic changeover between two 5601MSC master clocks: 16 coax groups, each with an A input, a B input and one output (3G/HD/SD video, bi/tri-level sync, ATG, 10 MHz, word clock, AES/DARS); LTC/IRIG in (DB15, one per 5601MSC) and out (XLR); GPI/GPO on removable terminal blocks; two redundant 40 W supplies, each with its own cord. Check: separate AES and analog audio changeover connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "A In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "B In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "DB15",
+    "count": 2,
+    "prefix": "LTC/IRIG In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR-3M",
+    "count": 2,
+    "prefix": "LTC/IRIG Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "ACO GPI/GPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "MSC GPI/GPO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

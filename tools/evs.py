@@ -8,6 +8,7 @@ OUT = os.path.join(CAT, 'evs.json')
 M = []
 def g(face, d, t, c, n, p): return dict(face=face, dir=d, type=t, connector=c, count=n, prefix=p)
 def R(*a): return g('rear', *a)
+def F(*a): return g('front', *a)
 def add(id, pn, name, fam, cat, ru, ports, notes, src, url, verified=False, w=12, full=True, **kw):
     m = dict(id='evs-' + id, manufacturer='EVS', partNumber=pn, name=name, family=fam, category=cat,
              ru=ru, widthCols=w, fullDepth=full, verified=verified, source=src, productUrl=url, notes=notes, portGroups=ports)
@@ -43,6 +44,20 @@ server('xt-go', 'XT-GO', 'XT-GO replay server', 4, 8, '12G-SDI',
 server('xt4k', 'XT4K', 'XT4K live production server (legacy)', 6, 12, '12G-SDI',
        '6U, 39 kg with 12 hot-swap drives. 4 codec modules, MADI on every unit, 2 PC LAN, XNet, up to 192 audio channels. Earlier generation still '
        'common in OB trucks.', 'https://evs.com/backpanel/xt4k.html')
+server('xs4k', 'XS4K', 'XS4K studio production server (legacy)', 6, 12, '12G-SDI',
+       'Studio version of the XT4K platform (6U): channels set to record or play, multiviewer, MADI, 2 PC LAN, XNet. Check: channel count '
+       'and rack height (6U as drawn on site drawings).', 'https://evs.com/backpanel')
+add('xhub3', 'XHub3', 'XHub3 XNet SDTI network hub', 'Networking', 'network', 1,
+    [R('io', 'Other', 'BNC', 8, 'SDTI XNet'), F('io', 'USB', 'USB-A', 1, 'Upgrade USB'), R('in', 'Power', 'IEC', 1, 'Power')],
+    '1RU hub for the EVS XNet SDTI network: 8 SDTI in/out connections with 8 branch status LEDs, USB 2 for upgrades. '
+    'Check: SDTI connector layout (in/out pairs) and power inlet count.', 'Rental listings (Gravity Media, NEP)',
+    'https://www.gravitymedia.com/au/product/evs-xhub-3/', full=False)
+add('xfile3', 'XFile3', 'XFile3 media archiving station', 'Media management', 'computer', 2,
+    [F('io', 'USB', 'USB-A', 6, 'USB 3'), F('io', 'Other', 'eSATA', 4, 'eSATA'), R('io', 'USB', 'USB-A', 5, 'USB 3'),
+     R('io', 'Ethernet', 'RJ45', 2, 'GbE'), R('io', 'Ethernet', 'SFP+', 2, '10GbE'), R('in', 'Power', 'IEC', 2, 'PSU')],
+    '2U platform (XF32-4301D) for backing up and restoring clips from EVS servers: 6 front USB 3, 4 front eSATA, 5 rear USB 3, '
+    '2 x gigabit Ethernet (jumbo frames), 2 x 10GbE SFP+ (modules not included). Check: PSU count and video outputs.',
+    'Rental listing (Gravity Media)', 'https://www.gravitymedia.com/product/evs-xfile3/')
 server('xt3-6u', 'XT3 6U', 'XT3 6U server (legacy)', 6, 12, 'HD-SDI',
        'Previous-generation 6U XT3 with multiviewer loop, analog/digital/MADI audio options; configs such as 8 rec + 4 play or 6 rec + 2 play mix.',
        'https://evs.com/backpanel/xt36uMVW.html', sfp=0)

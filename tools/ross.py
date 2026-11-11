@@ -103,6 +103,34 @@ add('nk-rp1', 'NK-RP1/P', 'NK-RP1 redundant power supply', 'NK', 'power', 1,
     [R('in', 'Power', 'IEC', 1, 'Mains In'), R('out', 'Power', 'DC locking', 2, '+15V DC Out')],
     '1RU 100 W +15V redundant supply for NK routers, connects with NK-S12/P or NK-D12/PN cables. Check: number of DC outputs.',
     'Ross NK product pages', 'https://www.rossvideo.com/products/routing-systems/nk-rp1/', verified=False, full=False)
+add('nk-3g144', 'NK-3G144', 'NK-3G144 144x144 router', 'NK', 'router', 10,
+    [R('in', '3G-SDI', 'BNC', 144, 'In'), R('out', '3G-SDI', 'BNC', 144, 'Out'), R('out', '3G-SDI', 'BNC', 32, 'Out Dup (113-144)'),
+     R('in', 'Reference', 'BNC', 2, 'Vid Ref (loop)'), R('io', 'Other', 'RJ45', 2, 'T-Bus'), R('out', 'Other', 'Terminal', 1, 'Alarm GPI'),
+     R('in', 'Power', 'IEC', 2, 'PSU')],
+    '10RU, 320 mm deep, 144x144 3G/HD/SD-SDI router built from 8-port input (NK-I3G) and output (NK-O3G) cards, 18 input and 22 output slots. '
+    'Slots 15D-18D give duplicate outputs 113D-144D for monitoring. Looping reference, T-Bus on RJ45 (straight CAT5), alarm relay, '
+    'one PSU included with a second IEC for a redundant load-sharing PSU, under 500 W. No Ethernet on the frame; control via NK-IPS. '
+    'Check: number of T-Bus RJ45 connectors.',
+    'Ross NK-3G144 User Guide (9807DR-5600)', 'https://documentation.rossvideo.com/files/Manuals/Routers/NK/NK-3G144%20User%20Guide%20(9807DR-5600).pdf')
+add('nk-ips', 'NK-IPS', 'NK-IPS network bridge', 'NK', 'control', 1,
+    [R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('io', 'Other', 'RJ45', 8, 'T-Bus'), R('in', 'Power', 'DC locking', 1, '+15V DC'),
+     R('in', 'Power', 'DC locking', 1, 'Redundant DC')],
+    '1RU, 2.4 cm deep. Gateway from Ethernet (10 Mbps, static or DHCP) to the NK T-Bus, with a buffered 8-port T-Bus hub; web and DashBoard '
+    'set-up, firmware and alarms. Universal supply included, optional NK-RP1/P or NK-P1 redundant power. Check: T-Bus connector type.',
+    'Ross NK-IPS product page', 'https://www.rossvideo.com/products/routing-systems/nk-ips/', verified=False, full=False)
+add('nk-vrc', 'NK-VRC', 'NK-VRC virtual routing core', 'NK', 'control', 1,
+    [R('io', 'Other', 'RJ45', 2, 'T-Bus'), R('in', 'Power', 'DC locking', 1, '+15V DC'), R('in', 'Power', 'DC locking', 1, 'Redundant DC')],
+    'Maps physical sources and destinations of an NK system to virtual ones and ties router levels (for example analog and digital) through '
+    'external resources. Universal supply included, optional NK-RP1/P (NK-D12/P cable) or NK-P1. Needs DashBoard. '
+    'Check: rack height (1RU assumed from a site drawing) and rear connectors, not listed on the Ross page.',
+    'Ross NK-VRC product page', 'https://www.rossvideo.com/products/routing-systems/nk-vrc/', verified=False, full=False)
+for n, ru, w in [(16, 1, 9), (32, 2, 15)]:
+    add(f'nk-m{n}', f'NK-M{n}', f'NK-M{n} machine control / data router', 'NK', 'router', ru,
+        [R('io', 'RS-422', 'DB9', n, 'Port'), R('io', 'Other', 'RJ45', 2, 'T-Bus'), R('in', 'Power', 'DC locking', 1, '+15V DC'),
+         R('in', 'Power', 'DC locking', 1, 'Redundant DC')],
+        f'{ru}RU {n}-port RS-422 machine control (data) router, DB9 female ports, 6.4 cm deep, {w} W. Universal supply included, '
+        'optional NK-RP1/P or NK-P1 redundant power. Check: T-Bus connectors.',
+        'Ross NK-M series product page', 'https://www.rossvideo.com/products/routing-systems/nk-m-series/', full=False)
 
 # ---------------- Switchers ----------------
 CU = 'https://www.rossvideo.com/live-production/production-switchers/carbonite-ultra/specifications/'
@@ -182,6 +210,12 @@ add('og3-fr', 'OG3-FR', 'openGear OG3-FR 20-slot frame (legacy)', 'openGear', 'c
      R('in', 'Power', 'IEC', 2, 'PS')],
     'Previous-generation 2RU, 20-slot openGear frame. Place cards in the frame\'s slots. Check: rear layout (assumed same as OGX-FR).',
     'Ross openGear page', OGX, verified=False, frame=dict(FRAME, rearGen=3))
+add('dfr-8321', 'DFR-8321', 'openGear DFR-8321 20-slot frame (legacy)', 'openGear', 'converter', 2,
+    [R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('in', 'Reference', 'BNC', 2, 'Ref'), R('out', 'Reference', 'BNC', 2, 'Ref Loop'),
+     R('in', 'Power', 'IEC', 2, 'PS')],
+    'First-generation 2RU, 20-slot openGear frame (DFR-8321-BN with network card, -C with cooling door); takes DFR-8321 generation rear '
+    'modules. Superseded by OG3-FR and OGX-FR. Place cards in the frame\'s slots. Check: rear layout (assumed same as OGX-FR) and the Ethernet '
+    'option fitted.', 'Ross openGear page', OGX, verified=False, frame=dict(FRAME, rearGen=2))
 
 # ---------------- Control ----------------
 UT = 'https://www.rossvideo.com/control-systems/routing-control/ultritouch/specifications/'

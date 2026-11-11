@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "version": "2f8c87b6364c",
- "updated": "2026-11-10T23:48:57Z",
- "entries": 388,
+ "version": "db27788ae821",
+ "updated": "2026-11-11T00:13:33Z",
+ "entries": 410,
  "files": {
   "ross.json": {
-   "sha256": "6b71c035bae007d9b094338750778cbdcde895950b33e908d46ca0ddd340dfbc",
-   "entries": 31,
-   "bytes": 59427
+   "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
+   "entries": 37,
+   "bytes": 67590
   },
   "grassvalley.json": {
    "sha256": "dd70b2d580a2bec7013f95733f747d6c03a12fb92c418c4a742e9d4d7f7f853c",
@@ -40,9 +40,9 @@
    "bytes": 14814
   },
   "aja.json": {
-   "sha256": "6a8b3d699e319a02dd527370e43f610c9182c64d5b6d47f369297cfaf5d323d2",
-   "entries": 8,
-   "bytes": 31645
+   "sha256": "10e388e93428e79e7709d7668fcfe0fe04a9b5f622c9cbe244866fce7bafcdea",
+   "entries": 9,
+   "bytes": 34143
   },
   "decimator.json": {
    "sha256": "1e2482ab1cd474b173dbf09b3fe13b2991afc1b2c36f3e207e0a5eaae8263664",
@@ -80,9 +80,9 @@
    "bytes": 12370
   },
   "evs.json": {
-   "sha256": "a9a70abae7417c9eae986fb1e2a0036d4b214027688eede73c397244e9dda8cf",
-   "entries": 7,
-   "bytes": 19242
+   "sha256": "676f4e9b5a83d53ccb943a437f77b11555ccdf1f170297a1cea420904dd94fdc",
+   "entries": 10,
+   "bytes": 24613
   },
   "evs-synapse.json": {
    "sha256": "ad7470cc2102ec1d5334d30e0271437a055b1ba1f9f8838b2dc0ea28b21c2bbb",
@@ -165,14 +165,49 @@
    "bytes": 1853
   },
   "dell.json": {
-   "sha256": "8693b3ee1c54cdab32bb53aee93021970706d5b44c19d4a946cb496f54bd80f2",
-   "entries": 27,
-   "bytes": 68367
+   "sha256": "4b8b18023467f58ffbd8f7a8b71bc9acdc75bcb5cc28f7aca60e56847dc097cb",
+   "entries": 29,
+   "bytes": 72158
   },
   "apc.json": {
    "sha256": "99f8c541e885c47de532b8cd5c5864c7d68a13b5932f3223d23ac7a369a8aba5",
    "entries": 26,
    "bytes": 38504
+  },
+  "evertz.json": {
+   "sha256": "133d78f0113f8faf4a5ee81c343fb2e760e4bf912844d5fdbb278a43c6dbd9cb",
+   "entries": 2,
+   "bytes": 3996
+  },
+  "avid.json": {
+   "sha256": "a656ccb4a5095e8c2c310a904f698f35216aabb00cca481e42c5672519b4c120",
+   "entries": 1,
+   "bytes": 1167
+  },
+  "synology.json": {
+   "sha256": "d69569936209e0e041ad7509fcc48537e8bf60bc99f7b9900d454f5aaab7d7f8",
+   "entries": 1,
+   "bytes": 1445
+  },
+  "hpe.json": {
+   "sha256": "8429801a3f9d16c95f402d4bca45b18bb75b97405dda810d5340f09f3152f48b",
+   "entries": 1,
+   "bytes": 1553
+  },
+  "tieline.json": {
+   "sha256": "f9d282dd035b00060abd404d91328f2d264bd7413a88fe2df3c8e8d945e1186b",
+   "entries": 2,
+   "bytes": 3253
+  },
+  "dejero.json": {
+   "sha256": "cbda4ac9d0ec7d831325a33c15ea084abd9354414f6805ad307a5587fa6d987b",
+   "entries": 1,
+   "bytes": 1426
+  },
+  "bmd-legacy.json": {
+   "sha256": "41b07fccdef8e66344d91f190c136826f19ef7f63504863093faaffcddef7d65",
+   "entries": 2,
+   "bytes": 4087
   }
  }
 }

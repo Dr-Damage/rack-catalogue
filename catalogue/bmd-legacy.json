@@ -1,0 +1,188 @@
+[
+ {
+  "id": "bmdl-ultrastudio-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio 4K",
+  "name": "UltraStudio 4K Thunderbolt 2 capture / playback (legacy)",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Blackmagic support archive",
+  "productUrl": "https://www.blackmagicdesign.com/support",
+  "notes": "1RU Thunderbolt 2 capture and playback unit (2013): 6G-SDI, HDMI 4K, analog component/composite, balanced XLR and AES audio, genlock, RS-422 deck control, front LCD and audio meters. Discontinued; nearest current unit is UltraStudio 4K Extreme 3. Check: counts are from memory of the rear panel, not from a Blackmagic spec sheet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Component/Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Component/Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Analog Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Deck Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Thunderbolt 2",
+    "count": 2,
+    "prefix": "Thunderbolt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "bmdl-smart-videohub-12x12",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Smart Videohub 12x12",
+  "name": "Smart Videohub 12x12 6G router (legacy)",
+  "family": "Videohub",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Blackmagic support archive",
+  "productUrl": "https://www.blackmagicdesign.com/support",
+  "notes": "1RU 12x12 6G-SDI router with front LCD and spin-knob control, Ethernet and USB set-up, reference input. Replaced by the Smart Videohub 12G and CleanSwitch 12x12. Check: 6G or 12G version and whether a second (redundant) AC inlet is fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ }
+]
