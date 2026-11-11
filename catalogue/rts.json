@@ -826,5 +826,734 @@
     "prefix": "AC In"
    }
   ]
+ },
+ {
+  "id": "rts-kp-632",
+  "manufacturer": "RTS",
+  "partNumber": "KP-632",
+  "name": "KP-632 32-key keypanel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). Two rows of 16 lever keys with 8-character alphanumeric displays, keypad, volume, front mic and headset. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-832",
+  "manufacturer": "RTS",
+  "partNumber": "KP-832",
+  "name": "KP-832 32-key keypanel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). Two rows of 16 lever keys with 8-character alphanumeric displays, keypad, volume, front mic and headset. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-32-16",
+  "manufacturer": "RTS",
+  "partNumber": "KP-32/16",
+  "name": "KP-32/16 16-key keypanel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). The 16-key version of the KP-32: one block of lever keys with displays, keypad, front mic and headset. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-32-cld",
+  "manufacturer": "RTS",
+  "partNumber": "KP-32 CLD",
+  "name": "KP-32 CLD 32-key colour display keypanel",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). 32 keys with colour LCD labels, front mic and headset, USB and menu keys. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-pam-32",
+  "manufacturer": "RTS",
+  "partNumber": "PAM-32",
+  "name": "PAM-32 32-key panel with headset (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). 32 lever keys with alphanumeric displays, keypad and a front headset jack. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-ekp-32",
+  "manufacturer": "RTS",
+  "partNumber": "EKP-32",
+  "name": "EKP-32 32-key expansion panel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). Adds 32 lever keys with displays to a KP-32 family keypanel. Check: rear connectors (the drawing shows the front only).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   }
+  ]
+ },
+ {
+  "id": "rts-arp-32",
+  "manufacturer": "RTS",
+  "partNumber": "ARP-32",
+  "name": "ARP-32 32-key router control panel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). Inputs and outputs rows of lever keys with displays and IN/OUT keypad for routing on the matrix. Check: function name and rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-pap-32",
+  "manufacturer": "RTS",
+  "partNumber": "PAP-32",
+  "name": "PAP-32 program assign panel (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU full width (from the RTS drawing). Program source and IFB destination key rows with displays and SRC/DEST keypad. PAP-32LK has lever keys, PAP-32PB pushbuttons; takes EPAP-32 expansion. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix data"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-mkp-4",
+  "manufacturer": "RTS",
+  "partNumber": "MKP-4",
+  "name": "MKP-4 4-key keypanel",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). 4 listen/talk keys with a display, call waiting, copy/clear, front mic and headset XLR, volume. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-tif-2000a",
+  "manufacturer": "RTS",
+  "partNumber": "TIF-2000A",
+  "name": "TIF-2000A digital telephone interface",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Telephone hybrid with level meters to matrix and to telephone, drop/seize/auto-answer. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Telephone line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Matrix (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-dsi-2008",
+  "manufacturer": "RTS",
+  "partNumber": "DSI-2008",
+  "name": "DSI-2008 dual 2-wire / 4-wire interface",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Two systems (A and B) with to-4W and to-2W level meters, 2W channel select and 4W level reference. Check: function name and rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "2-wire (System A/B)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "4-wire (System A/B)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-csi-200",
+  "manufacturer": "RTS",
+  "partNumber": "CSI-200",
+  "name": "CSI-200 two-channel interface",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Channels A and B with TX/RX indicators, frame or keypanel mode, reset. Check: function and rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Channel A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-mce-325",
+  "manufacturer": "RTS",
+  "partNumber": "MCE-325",
+  "name": "MCE-325 TW user station",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Two channels (talk/listen, call, panel mic, speaker), channel volumes, program volume, dynamic-mic headset XLR and carbon-mic headset jack. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "TW line"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-mrt-327",
+  "manufacturer": "RTS",
+  "partNumber": "MRT-327",
+  "name": "MRT-327 TW user station",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Channel 1-2 select, call, panel mic, speaker and mic on keys, volume, sidetone, dynamic-mic headset XLR. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "TW line"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-ps-15",
+  "manufacturer": "RTS",
+  "partNumber": "PS-15",
+  "name": "PS-15 TW intercom power supply",
+  "family": "TW",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Powers RTS TW party-line channels. Check: channel count and rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "TW line"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-lms-325",
+  "manufacturer": "RTS",
+  "partNumber": "LMS-325",
+  "name": "LMS-325 loudspeaker",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Rack monitor loudspeaker with front volume. Check: input and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-mcs-325",
+  "manufacturer": "RTS",
+  "partNumber": "MCS-325",
+  "name": "MCS-325 speaker",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view)",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU half-rack (8.5 in, from the RTS drawing). Rack monitor loudspeaker. Check: input and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
  }
 ]

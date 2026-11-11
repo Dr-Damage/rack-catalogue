@@ -217,6 +217,62 @@ RT('ssa-324', 'SSA-324', 'SSA-324 two-wire to four-wire interface', 'TW', 'audio
    'Mains 120 V (P option 230 V). Check: rear connector counts and types (spec sheet does not list them).',
    'RTS SSA-324 spec sheet', 'https://www.fullcompass.com/common/files/4374-SSA324SpecSheet.pdf', verified=False, w=6)
 
+# ---- RTS legacy rack units from the RTS CAD drawing set (products.rtsintercoms.com downloads, DWF front drawings) ----
+# Rack height and width come from the drawings (2RU full width, or 1RU half-rack at 8.5 in). The DWFs show fronts only,
+# so rear connectors are typical for the family and marked unverified.
+DWF = 'RTS CAD drawing (DWF front view)'; DWFURL = 'https://products.rtsintercoms.com/na/en/downloads'
+KPREAR = lambda: [F('io', AA, 'XLR4F', 1, 'Headset'), F('in', AA, 'Other', 1, 'Panel mic'), R('io', AA, 'DB9', 1, 'Matrix'),
+                  R('io', 'Other', 'Other', 1, 'Expansion'), R('in', 'Power', 'IEC', 1, 'AC In')]
+for code, name, extra in [
+        ('KP-632', 'KP-632 32-key keypanel (legacy)', 'Two rows of 16 lever keys with 8-character alphanumeric displays, keypad, volume, front mic and headset.'),
+        ('KP-832', 'KP-832 32-key keypanel (legacy)', 'Two rows of 16 lever keys with 8-character alphanumeric displays, keypad, volume, front mic and headset.'),
+        ('KP-32/16', 'KP-32/16 16-key keypanel (legacy)', 'The 16-key version of the KP-32: one block of lever keys with displays, keypad, front mic and headset.'),
+        ('KP-32 CLD', 'KP-32 CLD 32-key colour display keypanel', '32 keys with colour LCD labels, front mic and headset, USB and menu keys.'),
+        ('PAM-32', 'PAM-32 32-key panel with headset (legacy)', '32 lever keys with alphanumeric displays, keypad and a front headset jack.'),
+        ('EKP-32', 'EKP-32 32-key expansion panel (legacy)', 'Adds 32 lever keys with displays to a KP-32 family keypanel.')]:
+    ports = KPREAR() if code != 'EKP-32' else [R('io', 'Other', 'Other', 1, 'Expansion link')]
+    RT(code.lower().replace('/', '-').replace(' ', '-'), code, name, 'KP-Series (legacy)', 'control', 2, ports,
+       f'2RU full width (from the RTS drawing). {extra} Check: rear connectors (the drawing shows the front only).', DWF, DWFURL, verified=False)
+RT('arp-32', 'ARP-32', 'ARP-32 32-key router control panel (legacy)', 'KP-Series (legacy)', 'control', 2,
+   [R('io', 'Other', 'DB9', 1, 'Matrix data'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   '2RU full width (from the RTS drawing). Inputs and outputs rows of lever keys with displays and IN/OUT keypad for routing on the matrix. '
+   'Check: function name and rear connectors.', DWF, DWFURL, verified=False)
+RT('pap-32', 'PAP-32', 'PAP-32 program assign panel (legacy)', 'KP-Series (legacy)', 'control', 2,
+   [R('io', 'Other', 'DB9', 1, 'Matrix data'), R('io', 'Other', 'Other', 1, 'Expansion'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   '2RU full width (from the RTS drawing). Program source and IFB destination key rows with displays and SRC/DEST keypad. '
+   'PAP-32LK has lever keys, PAP-32PB pushbuttons; takes EPAP-32 expansion. Check: rear connectors.', DWF, DWFURL, verified=False)
+HALF = '1RU half-rack (8.5 in, from the RTS drawing)'
+RT('mkp-4', 'MKP-4', 'MKP-4 4-key keypanel', 'KP-Series (legacy)', 'control', 1,
+   [F('io', AA, 'XLR4F', 1, 'Headset'), F('in', AA, 'Other', 1, 'Mic'), R('io', AA, 'DB9', 1, 'Matrix'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   f'{HALF}. 4 listen/talk keys with a display, call waiting, copy/clear, front mic and headset XLR, volume. Check: rear connectors.',
+   DWF, DWFURL, verified=False, w=6)
+RT('tif-2000a', 'TIF-2000A', 'TIF-2000A digital telephone interface', 'Interfaces', 'audio', 1,
+   [R('io', AA, 'Other', 1, 'Telephone line'), R('io', AA, 'Other', 1, 'Matrix (4-wire)'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   f'{HALF}. Telephone hybrid with level meters to matrix and to telephone, drop/seize/auto-answer. Check: rear connectors.',
+   DWF, DWFURL, verified=False, w=6)
+RT('dsi-2008', 'DSI-2008', 'DSI-2008 dual 2-wire / 4-wire interface', 'Interfaces', 'audio', 1,
+   [R('io', AA, 'XLR3', 2, '2-wire (System A/B)'), R('io', AA, 'Other', 2, '4-wire (System A/B)'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   f'{HALF}. Two systems (A and B) with to-4W and to-2W level meters, 2W channel select and 4W level reference. '
+   'Check: function name and rear connectors.', DWF, DWFURL, verified=False, w=6)
+RT('csi-200', 'CSI-200', 'CSI-200 two-channel interface', 'Interfaces', 'audio', 1,
+   [R('io', 'Other', 'Other', 2, 'Channel A/B'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   f'{HALF}. Channels A and B with TX/RX indicators, frame or keypanel mode, reset. Check: function and rear connectors.',
+   DWF, DWFURL, verified=False, w=6)
+for code, name, extra in [('MCE-325', 'MCE-325 TW user station', 'Two channels (talk/listen, call, panel mic, speaker), channel volumes, '
+                                                                    'program volume, dynamic-mic headset XLR and carbon-mic headset jack.'),
+                          ('MRT-327', 'MRT-327 TW user station', 'Channel 1-2 select, call, panel mic, speaker and mic on keys, volume, sidetone, '
+                                                                    'dynamic-mic headset XLR.')]:
+    RT(code.lower(), code, name, 'TW', 'audio', 1,
+       [F('io', AA, 'XLR4F', 1, 'Headset'), R('io', AA, 'XLR3', 2, 'TW line'), R('in', 'Power', 'IEC', 1, 'AC In')],
+       f'{HALF}. {extra} Check: rear connectors.', DWF, DWFURL, verified=False, w=6)
+RT('ps-15', 'PS-15', 'PS-15 TW intercom power supply', 'TW', 'power', 1,
+   [R('io', AA, 'XLR3M', 2, 'TW line'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   f'{HALF}. Powers RTS TW party-line channels. Check: channel count and rear connectors.', DWF, DWFURL, verified=False, w=6)
+for code, name in [('LMS-325', 'LMS-325 loudspeaker'), ('MCS-325', 'MCS-325 speaker')]:
+    RT(code.lower(), code, name, 'TW', 'audio', 1, [R('in', AA, 'Other', 1, 'Audio In'), R('in', 'Power', 'IEC', 1, 'AC In')],
+       f'{HALF}. Rack monitor loudspeaker{" with front volume" if code == "LMS-325" else ""}. Check: input and power connectors.',
+       DWF, DWFURL, verified=False, w=6)
+
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids))
     json.dump(ms, open(os.path.join(CAT, f), 'w'), indent=1)
