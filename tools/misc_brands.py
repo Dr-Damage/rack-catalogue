@@ -87,11 +87,12 @@ DM('dl241', 'DL241', 'DL241 dual auto compressor / expander / limiter', 'Pro Ser
 # ---------------- Alctron ----------------
 AL = lambda *a, **k: add('alctron.json', 'alctron-', 'Alctron', *a, **k)
 AL('ms8v2', 'MS8V2', 'MS8V2 8-channel passive mic splitter', 'Splitters', 'audio', 1,
-   [R('in', 'Analog audio', 'XLR3F', 8, 'Input'), R('out', 'Analog audio', 'XLR3M', 8, 'Direct Out'),
-    R('out', 'Analog audio', 'XLR3M', 8, 'Isolated (Link) Out')],
-   '1RU passive splitter: each of 8 balanced mic inputs feeds a direct output and a transformer-isolated (link) output, with a '
-   'ground lift switch and a 0 / -40 dB attenuator per channel, and inputs linkable in pairs (1-2, 3-4, 5-6, 7-8). Phantom power '
-   'passes through from the direct side. No mains power. Check: which XLRs are on the front and which on the rear, and the depth.',
+   [F('in', 'Analog audio', 'XLR3F', 8, 'Input'), R('out', 'Analog audio', 'XLR3M', 8, 'Out'),
+    R('out', 'Analog audio', 'XLR3M', 8, 'Link Out')],
+   '1RU passive splitter: each of 8 balanced mic inputs (front XLR-F) feeds a direct Out and a transformer-isolated Link Out '
+   '(rear XLR-M pair per channel), with a ground lift switch and a 0 / -40 dB attenuator per channel, and inputs linkable in pairs '
+   '(1-2, 3-4, 5-6, 7-8). Phantom power passes through from the direct side. No mains power. Connector sides taken from product '
+   'photos. Check: the depth.',
    'Alctron MS8V2 brochure (Swamp Industries)', 'https://www.swamp.net.au/alctron-ms8v2-8-channel-microphone-splitter', verified=False)
 
 # ---------------- Interactive Technologies (CueServer) ----------------
