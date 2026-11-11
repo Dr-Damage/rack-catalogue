@@ -49,21 +49,21 @@ B('s16', 'S16', 'S16 digital snake 16x8', 'X32', 'audio', 2,
 
 # ---------------- Yamaha ----------------
 Y = lambda *a, **k: add('yamaha.json', 'yam-', 'Yamaha', *a, **k)
-for code, ru, i, o, aes in [('Rio3224-D2', 4, 32, 16, 4), ('Rio1608-D2', 3, 16, 8, 0)]:
+for code, ru, i, o, aes in [('Rio3224-D2', 5, 32, 16, 4), ('Rio1608-D2', 3, 16, 8, 0)]:
     ports = [F('in', AA, 'XLR', i, 'In'), F('out', AA, 'XLR', o, 'Out')]
     if aes: ports.append(F('out', AO, 'XLR', aes, 'AES/EBU Out'))
     ports += [R('io', 'Dante/AES67', 'etherCON', 1, 'Dante Primary'), R('io', 'Dante/AES67', 'etherCON', 1, 'Dante Secondary'),
-              R('in', 'Power', 'IEC (V-lock)', 1, 'AC In')]
+              R('in', 'Power', 'IEC (V-lock)', 1, 'AC In A'), R('in', 'Power', 'IEC (V-lock)', 1, 'AC In B')]
     Y(code.lower(), code, f'{code} Dante I/O rack', 'Rio', 'audio', ru, ports,
       f'Dante stagebox, {i} mic/line XLR inputs and {o} XLR outputs on the front' + (', 8 AES/EBU outputs on 4 XLR (1/2 to 7/8)' if aes else '') +
-      '. Dante primary and secondary etherCON on the rear, dual internal power supplies on one V-lock AC inlet. '
-      'Check: rack height (not stated in the manual).', 'Yamaha Rio3224-D2/Rio1608-D2 owner\'s manual',
-      'https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html', verified=False)
+      '. Dante primary and secondary etherCON on the rear, two V-lock AC inlets (A and B) for the dual power supplies. '
+      f'{ru}U, height and layout from the Yamaha CAD drawing.', 'Yamaha Rio3224-D2/Rio1608-D2 owner\'s manual and CAD drawing',
+      'https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html')
 Y('tio1608-d2', 'Tio1608-D2', 'Tio1608-D2 Dante I/O rack', 'Tio', 'audio', 2,
   [F('in', AA, 'XLR/TRS combo', 16, 'In'), F('out', AA, 'XLR', 8, 'Out'), R('io', 'Dante/AES67', 'etherCON', 1, 'Dante Primary'),
    R('io', 'Dante/AES67', 'etherCON', 1, 'Dante Secondary'), R('in', 'Power', 'IEC', 1, 'AC In')],
   '2U, 480 x 88 x 364 mm. 16 combo inputs (XLR or TRS), 8 XLR outputs, Dante primary/secondary on etherCON, for TF and DM3 consoles. '
-  'Check: which face carries the Dante and power connectors.', 'Yamaha Tio1608-D2 datasheet', 'https://europe.yamaha.com/en/audio/portable-pa/products/accessories/tio1608-d2/')
+  'Dante and power on the rear (Yamaha CAD drawing).', 'Yamaha Tio1608-D2 datasheet and CAD drawing', 'https://europe.yamaha.com/en/audio/portable-pa/products/accessories/tio1608-d2/')
 
 # ---------------- Allen & Heath ----------------
 A = lambda *a, **k: add('allenheath.json', 'ah-', 'Allen & Heath', *a, **k)

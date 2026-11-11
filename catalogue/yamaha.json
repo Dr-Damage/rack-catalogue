@@ -6,13 +6,13 @@
   "name": "Rio3224-D2 Dante I/O rack",
   "family": "Rio",
   "category": "audio",
-  "ru": 4,
+  "ru": 5,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual",
+  "verified": true,
+  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual and CAD drawing",
   "productUrl": "https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html",
-  "notes": "Dante stagebox, 32 mic/line XLR inputs and 16 XLR outputs on the front, 8 AES/EBU outputs on 4 XLR (1/2 to 7/8). Dante primary and secondary etherCON on the rear, dual internal power supplies on one V-lock AC inlet. Check: rack height (not stated in the manual).",
+  "notes": "Dante stagebox, 32 mic/line XLR inputs and 16 XLR outputs on the front, 8 AES/EBU outputs on 4 XLR (1/2 to 7/8). Dante primary and secondary etherCON on the rear, two V-lock AC inlets (A and B) for the dual power supplies. 5U, height and layout from the Yamaha CAD drawing.",
   "portGroups": [
    {
     "face": "front",
@@ -60,7 +60,15 @@
     "type": "Power",
     "connector": "IEC (V-lock)",
     "count": 1,
-    "prefix": "AC In"
+    "prefix": "AC In A"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC (V-lock)",
+    "count": 1,
+    "prefix": "AC In B"
    }
   ]
  },
@@ -74,10 +82,10 @@
   "ru": 3,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual",
+  "verified": true,
+  "source": "Yamaha Rio3224-D2/Rio1608-D2 owner's manual and CAD drawing",
   "productUrl": "https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_2/index.html",
-  "notes": "Dante stagebox, 16 mic/line XLR inputs and 8 XLR outputs on the front. Dante primary and secondary etherCON on the rear, dual internal power supplies on one V-lock AC inlet. Check: rack height (not stated in the manual).",
+  "notes": "Dante stagebox, 16 mic/line XLR inputs and 8 XLR outputs on the front. Dante primary and secondary etherCON on the rear, two V-lock AC inlets (A and B) for the dual power supplies. 3U, height and layout from the Yamaha CAD drawing.",
   "portGroups": [
    {
     "face": "front",
@@ -117,7 +125,15 @@
     "type": "Power",
     "connector": "IEC (V-lock)",
     "count": 1,
-    "prefix": "AC In"
+    "prefix": "AC In A"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC (V-lock)",
+    "count": 1,
+    "prefix": "AC In B"
    }
   ]
  },
@@ -132,9 +148,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": true,
-  "source": "Yamaha Tio1608-D2 datasheet",
+  "source": "Yamaha Tio1608-D2 datasheet and CAD drawing",
   "productUrl": "https://europe.yamaha.com/en/audio/portable-pa/products/accessories/tio1608-d2/",
-  "notes": "2U, 480 x 88 x 364 mm. 16 combo inputs (XLR or TRS), 8 XLR outputs, Dante primary/secondary on etherCON, for TF and DM3 consoles. Check: which face carries the Dante and power connectors.",
+  "notes": "2U, 480 x 88 x 364 mm. 16 combo inputs (XLR or TRS), 8 XLR outputs, Dante primary/secondary on etherCON, for TF and DM3 consoles. Dante and power on the rear (Yamaha CAD drawing).",
   "portGroups": [
    {
     "face": "front",
