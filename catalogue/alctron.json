@@ -1,0 +1,43 @@
+[
+ {
+  "id": "alctron-ms8v2",
+  "manufacturer": "Alctron",
+  "partNumber": "MS8V2",
+  "name": "MS8V2 8-channel passive mic splitter",
+  "family": "Splitters",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Alctron MS8V2 brochure (Swamp Industries)",
+  "productUrl": "https://www.swamp.net.au/alctron-ms8v2-8-channel-microphone-splitter",
+  "notes": "1RU passive splitter: each of 8 balanced mic inputs feeds a direct output and a transformer-isolated (link) output, with a ground lift switch and a 0 / -40 dB attenuator per channel, and inputs linkable in pairs (1-2, 3-4, 5-6, 7-8). Phantom power passes through from the direct side. No mains power. Check: which XLRs are on the front and which on the rear, and the depth.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Direct Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Isolated (Link) Out"
+   }
+  ]
+ }
+]

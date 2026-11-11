@@ -1,0 +1,91 @@
+[
+ {
+  "id": "cueserver-cs-900",
+  "manufacturer": "Interactive Technologies",
+  "partNumber": "CS-900",
+  "name": "CueServer 2 Pro DMX lighting show controller",
+  "family": "CueServer",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CueServer 2 Pro CS-900 spec sheet (D0461)",
+  "productUrl": "https://interactive-online.com/products/cueserver",
+  "notes": "1RU, 435 mm wide (483 with brackets) x 44 x 153 mm deep, 1.43 kg, 12-24 V DC, 9 W (external supply). Show controller with 4 bi-directional DMX module slots (XLR-5 female or male modules, among others), 2 x 10/100 LAN, 8 contact closure inputs and 8 low-voltage outputs on pluggable terminal blocks, RS-232 / RS-485 terminal blocks, 2 x 3.5 mm audio, USB host and device, microSD. Front: 40 x 2 LCD, 5-way navigation switch, 8 RGB function buttons. Check: which DMX modules are fitted; the current 1RU unit is the CueServer 3 Pro (CS-3900).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR5F",
+    "count": 4,
+    "prefix": "DMX (module slot)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Contact Inputs 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Digital Outputs 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "RS-232 / RS-485"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 2,
+    "prefix": "Audio I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB Host"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "USB Device"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 1,
+    "prefix": "12-24V DC In"
+   }
+  ]
+ }
+]

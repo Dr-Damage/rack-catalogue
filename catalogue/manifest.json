@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "b80f254f30c3",
- "updated": "2026-11-11T07:41:39Z",
- "entries": 560,
+ "version": "935ecda776db",
+ "updated": "2026-11-11T08:11:47Z",
+ "entries": 563,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -15,9 +15,9 @@
    "bytes": 47185
   },
   "sony.json": {
-   "sha256": "fad3a05538da2dd12a4985fb70f93ce97669d199c0cb381e271640cd3d7ea1a2",
-   "entries": 16,
-   "bytes": 56523
+   "sha256": "c1f067e37c65bbba21e86105ca2c3461eff6999249575e63650df28457093511",
+   "entries": 17,
+   "bytes": 59270
   },
   "vizrt.json": {
    "sha256": "a0565873779374fe0f2f055af9dbcfb7c31ffc9be4a93c9a96401517ae8c7c1a",
@@ -228,6 +228,16 @@
    "sha256": "7faf0722665989675845ffbbba01432d11ac9b54dfe901c3dd40feb4115b2a1b",
    "entries": 1,
    "bytes": 1516
+  },
+  "alctron.json": {
+   "sha256": "8a5b0de7bc186e58428de1f180bf6d08c01d126695fe038454a8b2fb79e6414a",
+   "entries": 1,
+   "bytes": 1254
+  },
+  "interactive-technologies.json": {
+   "sha256": "e7bc1ba2c300f8e9679b3fd15ffeb3a4a8ef695ad1df561a012673866b2b6826",
+   "entries": 1,
+   "bytes": 2298
   }
  }
 }

@@ -147,5 +147,19 @@ add('dvw-a500', 'DVW-A500P', 'DVW-A500P Digital Betacam studio VTR', 'Digital Be
     'analogue playback (33 kg). Same frame size as BVW studio VTRs. Check: rack height (237 mm includes feet; 6RU assumed, may fit 5RU on slides).',
     'Sony Digital Betacam family brochure', 'https://archive.decromancer.ca/vtda.org/docs/AV/Sony/DVW-A500/SonyDigitalBetacamFamily.pdf',
     verified=False)
+# Professional monitors
+add('pvm-1741', 'PVM-1741', 'PVM-1741 17-inch OLED professional monitor', 'PVM OLED', 'monitor', 7,
+    [R('in', '3G-SDI', 'BNC', 2, 'SDI In'), R('out', '3G-SDI', 'BNC', 1, 'SDI Out'), R('in', 'HDMI', 'HDMI', 1, 'HDMI In'),
+     R('in', 'Other', 'BNC', 1, 'Composite In'), R('out', 'Other', 'BNC', 1, 'Composite Loop'),
+     R('in', AA, '3.5mm TRS', 1, 'Audio In'), R('out', AA, '3.5mm TRS', 1, 'Audio Monitor Out'), R('out', AA, '3.5mm TRS', 1, 'Headphones'),
+     R('io', 'Other', '8-pin modular', 1, 'Parallel Remote'), R('io', 'Ethernet', 'RJ45', 1, 'LAN Remote'),
+     R('in', 'Power', 'IEC', 1, 'AC In'), R('in', 'Power', 'XLR4M', 1, '12V DC In')],
+    '17-inch Full HD OLED (1920 x 1080, 10-bit RGB). 436 x 289.6 x 120 mm without stand, 7.2 kg. EIA 19-inch rack mount with the '
+    'supplied brackets. AC 100-240 V or 12 V DC (XLR 4-pin), about 70 W typical, 90 W max. 2 x 3G/HD/SD-SDI in, 1 SDI out, HDMI in, '
+    'composite in with loop-through, stereo mini-jack audio in, audio monitor out and headphones, parallel remote (8-pin modular), '
+    'Ethernet remote (up to 32 monitors). Replaced by the PVM-1741A. Check: rack height (7RU from the 290 mm panel height), the AC inlet '
+    'type and which jacks are on the front.',
+    'Sony PVM-1741 specifications (pro.sony)', 'https://pro.sony/en_AU/products/broadcastpromonitors/pvm-1741', full=False,
+    screens={'count': 1, 'sizeIn': 17, 'aspect': '16:9'})
 json.dump(M, open(OUT, 'w'), indent=1)
 print(len(M), 'entries,', sum(m['verified'] for m in M), 'verified')

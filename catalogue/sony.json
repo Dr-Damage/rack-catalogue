@@ -2870,5 +2870,123 @@
     "prefix": "AC In"
    }
   ]
+ },
+ {
+  "id": "sony-pvm-1741",
+  "manufacturer": "Sony",
+  "partNumber": "PVM-1741",
+  "name": "PVM-1741 17-inch OLED professional monitor",
+  "family": "PVM OLED",
+  "category": "monitor",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sony PVM-1741 specifications (pro.sony)",
+  "productUrl": "https://pro.sony/en_AU/products/broadcastpromonitors/pvm-1741",
+  "notes": "17-inch Full HD OLED (1920 x 1080, 10-bit RGB). 436 x 289.6 x 120 mm without stand, 7.2 kg. EIA 19-inch rack mount with the supplied brackets. AC 100-240 V or 12 V DC (XLR 4-pin), about 70 W typical, 90 W max. 2 x 3G/HD/SD-SDI in, 1 SDI out, HDMI in, composite in with loop-through, stereo mini-jack audio in, audio monitor out and headphones, parallel remote (8-pin modular), Ethernet remote (up to 32 monitors). Replaced by the PVM-1741A. Check: rack height (7RU from the 290 mm panel height), the AC inlet type and which jacks are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Audio Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "8-pin modular",
+    "count": 1,
+    "prefix": "Parallel Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "screens": {
+   "count": 1,
+   "sizeIn": 17,
+   "aspect": "16:9"
+  }
  }
 ]

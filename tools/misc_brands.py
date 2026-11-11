@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Generates catalogue files for brands first met on site drawings (added 2026-11-11 for the CAR rack import):
-evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), omnitronics.json, drawmer.json, hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
+"""Generates catalogue files for brands first met on site drawings (added 2026-11-11):
+evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), omnitronics.json, drawmer.json, alctron.json, interactive-technologies.json, hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
 for the app's built-in Blackmagic catalogue). Avid, Synology, Tieline and Dejero moved to media_brands.py (full ranges). verified=False and a 'Check:' note mark anything not confirmed from a maker's document."""
 import json, os
 CAT = os.path.join(os.path.dirname(__file__), '..', 'catalogue')
@@ -83,6 +83,30 @@ DM('dl241', 'DL241', 'DL241 dual auto compressor / expander / limiter', 'Pro Ser
    'peak limiter with gain reduction and output meters, stereo link, hard-wire bypass per channel, rear +4 dBu / -10 dBV switch per '
    'channel. Balanced I/O. Also built with 6.3 mm jack I/O instead of XLR: check which version you have.',
    'Drawmer DL241 product page and operator manual', 'https://www.drawmer.com/products/pro-series/dl241.php', w=12)
+
+# ---------------- Alctron ----------------
+AL = lambda *a, **k: add('alctron.json', 'alctron-', 'Alctron', *a, **k)
+AL('ms8v2', 'MS8V2', 'MS8V2 8-channel passive mic splitter', 'Splitters', 'audio', 1,
+   [R('in', 'Analog audio', 'XLR3F', 8, 'Input'), R('out', 'Analog audio', 'XLR3M', 8, 'Direct Out'),
+    R('out', 'Analog audio', 'XLR3M', 8, 'Isolated (Link) Out')],
+   '1RU passive splitter: each of 8 balanced mic inputs feeds a direct output and a transformer-isolated (link) output, with a '
+   'ground lift switch and a 0 / -40 dB attenuator per channel, and inputs linkable in pairs (1-2, 3-4, 5-6, 7-8). Phantom power '
+   'passes through from the direct side. No mains power. Check: which XLRs are on the front and which on the rear, and the depth.',
+   'Alctron MS8V2 brochure (Swamp Industries)', 'https://www.swamp.net.au/alctron-ms8v2-8-channel-microphone-splitter', verified=False)
+
+# ---------------- Interactive Technologies (CueServer) ----------------
+IT = lambda *a, **k: add('interactive-technologies.json', 'cueserver-', 'Interactive Technologies', *a, **k)
+IT('cs-900', 'CS-900', 'CueServer 2 Pro DMX lighting show controller', 'CueServer', 'control', 1,
+   [R('io', 'Other', 'XLR5F', 4, 'DMX (module slot)'), R('io', 'Ethernet', 'RJ45', 2, 'LAN'),
+    R('in', 'Other', 'Terminal block', 1, 'Contact Inputs 1-8'), R('out', 'Other', 'Terminal block', 1, 'Digital Outputs 1-8'),
+    R('io', 'RS-232', 'Terminal block', 2, 'RS-232 / RS-485'), R('io', 'Analog audio', '3.5mm TRS', 2, 'Audio I/O'),
+    R('io', 'USB', 'USB-A', 1, 'USB Host'), R('io', 'USB', 'Micro-USB', 1, 'USB Device'), R('in', 'Power', 'DC jack', 1, '12-24V DC In')],
+   '1RU, 435 mm wide (483 with brackets) x 44 x 153 mm deep, 1.43 kg, 12-24 V DC, 9 W (external supply). Show controller with 4 '
+   'bi-directional DMX module slots (XLR-5 female or male modules, among others), 2 x 10/100 LAN, 8 contact closure inputs and 8 '
+   'low-voltage outputs on pluggable terminal blocks, RS-232 / RS-485 terminal blocks, 2 x 3.5 mm audio, USB host and device, microSD. '
+   'Front: 40 x 2 LCD, 5-way navigation switch, 8 RGB function buttons. Check: which DMX modules are fitted; the current 1RU '
+   'unit is the CueServer 3 Pro (CS-3900).',
+   'CueServer 2 Pro CS-900 spec sheet (D0461)', 'https://interactive-online.com/products/cueserver', verified=False)
 
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids))
