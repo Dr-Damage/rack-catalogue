@@ -1,0 +1,59 @@
+[
+ {
+  "id": "drawmer-dl241",
+  "manufacturer": "Drawmer",
+  "partNumber": "DL241",
+  "name": "DL241 dual auto compressor / expander / limiter",
+  "family": "Pro Series",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Drawmer DL241 product page and operator manual",
+  "productUrl": "https://www.drawmer.com/products/pro-series/dl241.php",
+  "notes": "1RU, 482 x 44 x 200 mm deep, 3.2 kg, 9 VA (115/230 V selector, fused IEC inlet). Two channels of auto compressor, expander/gate and peak limiter with gain reduction and output meters, stereo link, hard-wire bypass per channel, rear +4 dBu / -10 dBV switch per channel. Balanced I/O. Also built with 6.3 mm jack I/O instead of XLR: check which version you have.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Ch 2 Output"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Ch 2 Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Ch 1 Output"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Ch 1 Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

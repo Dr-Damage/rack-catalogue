@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "41edf46b3c8e",
- "updated": "2026-11-11T07:33:43Z",
- "entries": 559,
+ "version": "b80f254f30c3",
+ "updated": "2026-11-11T07:41:39Z",
+ "entries": 560,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -180,14 +180,14 @@
    "bytes": 3996
   },
   "avid.json": {
-   "sha256": "64b475f5e7c41aedcba86cc6e5a4eaed45075281f56c7ff948419d0f620fe3ce",
+   "sha256": "94cc4610836f770bb12c82d1637367716f29df25de44c7e56660df985c1efa9e",
    "entries": 18,
-   "bytes": 26100
+   "bytes": 26842
   },
   "synology.json": {
-   "sha256": "c23cb8df8076991cb06236fa502ba6f85dc79fb60ef676c67d4afe1203828fd7",
+   "sha256": "41a61104c31613de4db6577729711e821d254bdd709b555a88548d2d20a85daa",
    "entries": 29,
-   "bytes": 36653
+   "bytes": 37528
   },
   "hpe.json": {
    "sha256": "8429801a3f9d16c95f402d4bca45b18bb75b97405dda810d5340f09f3152f48b",
@@ -223,6 +223,11 @@
    "sha256": "5618ea35ff1652577df76f291573e24b0b557d8188f6427cc277c53276aa1340",
    "entries": 1,
    "bytes": 1669
+  },
+  "drawmer.json": {
+   "sha256": "7faf0722665989675845ffbbba01432d11ac9b54dfe901c3dd40feb4115b2a1b",
+   "entries": 1,
+   "bytes": 1516
   }
  }
 }

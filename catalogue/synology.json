@@ -831,18 +831,34 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "Synology product information",
-  "productUrl": "https://www.synology.com/en-global/products/SA3410",
-  "notes": "2U, 12 bays, Intel Xeon D-1541, 2 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with RX1223RP or RX1225RP units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "verified": true,
+  "source": "Synology SA3000 series specifications",
+  "productUrl": "https://www.synology.com/en-us/products/SA3000",
+  "notes": "2U, 482 x 88 x 724 mm deep, 14.5 kg. 12 x 3.5/2.5 in SAS/SATA hot-swap bays (up to 96 drives with seven RX1222sas units), Intel Xeon D-1541 (8 cores), 4 x 1GbE and 2 x 10GbE RJ45, out-of-band management port, COM console port, 2 PCIe 3.0 x8 slots, 1 Mini-SAS HD expansion port, 2 x USB 3.2, redundant 550 W PSUs (about 137 W in use). RKS-02 rails needed. Rear panel read from the maker photo.",
   "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "COM"
+   },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 2,
-    "prefix": "1GbE"
+    "count": 4,
+    "prefix": "LAN 1-4 (1GbE)"
    },
    {
     "face": "rear",
@@ -850,7 +866,23 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "10GbE"
+    "prefix": "LAN 5-6 (10GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MGMT"
    },
    {
     "face": "rear",
@@ -865,24 +897,8 @@
     "dir": "io",
     "type": "Other",
     "connector": "Mini-SAS HD",
-    "count": 2,
+    "count": 1,
     "prefix": "Expansion"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "USB",
-    "connector": "USB-A",
-    "count": 2,
-    "prefix": "USB 3.2"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "IEC",
-    "count": 2,
-    "prefix": "PSU"
    }
   ]
  },
@@ -896,18 +912,34 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "Synology product information",
-  "productUrl": "https://www.synology.com/en-global/products/SA3610",
-  "notes": "2U, 12 bays, Intel Xeon D-1567, 2 x 1GbE + 2 x 10GbE RJ45, 2 PCIe slots, 2 expansion ports, redundant PSUs. Expands with RX1223RP units. Check: port counts are from Synology product knowledge, not checked against this model's datasheet.",
+  "verified": true,
+  "source": "Synology SA3000 series specifications",
+  "productUrl": "https://www.synology.com/en-us/products/SA3000",
+  "notes": "2U, 482 x 88 x 724 mm deep, 14.5 kg. 12 x 3.5/2.5 in SAS/SATA hot-swap bays (up to 96 drives with seven RX1222sas units), Intel Xeon D-1567 (12 cores), 4 x 1GbE and 2 x 10GbE RJ45, out-of-band management port, COM console port, 2 PCIe 3.0 x8 slots, 1 Mini-SAS HD expansion port, 2 x USB 3.2, redundant 550 W PSUs (about 137 W in use). RKS-02 rails needed. Rear panel read from the maker photo.",
   "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "COM"
+   },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 2,
-    "prefix": "1GbE"
+    "count": 4,
+    "prefix": "LAN 1-4 (1GbE)"
    },
    {
     "face": "rear",
@@ -915,7 +947,23 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "10GbE"
+    "prefix": "LAN 5-6 (10GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MGMT"
    },
    {
     "face": "rear",
@@ -930,24 +978,8 @@
     "dir": "io",
     "type": "Other",
     "connector": "Mini-SAS HD",
-    "count": 2,
+    "count": 1,
     "prefix": "Expansion"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "USB",
-    "connector": "USB-A",
-    "count": 2,
-    "prefix": "USB 3.2"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "IEC",
-    "count": 2,
-    "prefix": "PSU"
    }
   ]
  },

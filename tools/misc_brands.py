@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generates catalogue files for brands first met on site drawings (added 2026-11-11 for the CAR rack import):
-evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), omnitronics.json, hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
+evertz.json (standalone Evertz units; frames and cards stay in evertz-frames.json), omnitronics.json, drawmer.json, hpe.json and bmd-legacy.json (discontinued Blackmagic units; ids use `bmdl-` because `bmd-` is reserved
 for the app's built-in Blackmagic catalogue). Avid, Synology, Tieline and Dejero moved to media_brands.py (full ranges). verified=False and a 'Check:' note mark anything not confirmed from a maker's document."""
 import json, os
 CAT = os.path.join(os.path.dirname(__file__), '..', 'catalogue')
@@ -73,6 +73,16 @@ OM('ipr100', 'IPR100', 'IPR100 radio-over-IP gateway (1 channel, desktop)', 'RoI
    'Check: rear connector types (radio port, serial) and the width (estimated at about 270 mm from the maker photo); the maker\'s '
    'manual is behind a customer login.',
    'Omnitronics RoIP/VoIP connectivity pages', 'https://www.omnitronicsworld.com/voip-connectivity/', verified=False, w=7)
+
+# ---------------- Drawmer ----------------
+DM = lambda *a, **k: add('drawmer.json', 'drawmer-', 'Drawmer', *a, **k)
+DM('dl241', 'DL241', 'DL241 dual auto compressor / expander / limiter', 'Pro Series', 'audio', 1,
+   [R('out', 'Analog audio', 'XLR3M', 1, 'Ch 2 Output'), R('in', 'Analog audio', 'XLR3F', 1, 'Ch 2 Input'),
+    R('out', 'Analog audio', 'XLR3M', 1, 'Ch 1 Output'), R('in', 'Analog audio', 'XLR3F', 1, 'Ch 1 Input'), R('in', 'Power', 'IEC', 1, 'AC In')],
+   '1RU, 482 x 44 x 200 mm deep, 3.2 kg, 9 VA (115/230 V selector, fused IEC inlet). Two channels of auto compressor, expander/gate and '
+   'peak limiter with gain reduction and output meters, stereo link, hard-wire bypass per channel, rear +4 dBu / -10 dBV switch per '
+   'channel. Balanced I/O. Also built with 6.3 mm jack I/O instead of XLR: check which version you have.',
+   'Drawmer DL241 product page and operator manual', 'https://www.drawmer.com/products/pro-series/dl241.php', w=12)
 
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids))

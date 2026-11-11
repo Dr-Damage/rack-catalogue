@@ -59,9 +59,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "2U entry engine, one 40 TB Media Pack, two hot-swap SSDs for configuration and metadata, embedded System Director. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "2U entry engine, one 80 TB Media Pack (10 HDDs; older units 40 TB), up to 480 MB/s, two hot-swap SSDs for configuration and metadata, embedded System Director. Up to four PRO+ engines link to 320 TB; cannot be mixed with F-series engines. Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
@@ -100,9 +100,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "2U engine, one Media Pack (60, 100 or 140 TB HDD), two hot-swap SSDs, embedded System Director, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "2U engine, one 200 TB Media Pack (10 HDDs; earlier packs 60, 100 or 140 TB), up to 480 MB/s, two hot-swap SSDs, embedded System Director (an SDA+ is needed beyond 4 Media Packs), optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
@@ -141,17 +141,17 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "2U expansion for an F2 engine, one Media Pack (60, 100 or 140 TB HDD), optional hot-spare HDDs. Check: expansion cable type. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "2U SAS expansion for an F2 engine: adds one 200 TB Media Pack (10 HDDs) and 480 MB/s, 2 hot-spare HDDs shared with the host. Check: number of SAS ports. Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "io",
     "type": "Other",
-    "connector": "Other",
+    "connector": "SAS",
     "count": 2,
-    "prefix": "Expansion link"
+    "prefix": "SAS expansion"
    },
    {
     "face": "rear",
@@ -182,9 +182,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "2U all-flash engine, 1-2 SSD Media Packs (38.4 or 153.6 TB), mirrored config SSDs, embedded System Director, optional redundant controller. Check: 100GbE connector (QSFP28 assumed). Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "2U all-flash engine, 1-2 SSD Media Packs of 10 SSDs (153.6 or 307.2 TB each; earlier 38.4 TB), over 6 GB/s per pack, dual 100GbE per storage controller, mirrored config SSDs, embedded System Director, optional redundant controller. Check: 100GbE connector (QSFP28 assumed). Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
@@ -223,9 +223,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "5U engine, 4-8 Media Packs (60, 100 or 140 TB HDD), 2 hot-spare HDDs, 2 hot-swap SSDs, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "5U engine, 4-8 Media Packs of 200 TB (up to 80 HDDs, 800 TB-1.12 PB), 2 hot-spare HDDs, 2 hot-swap SSDs, 3.84 GB/s, 2 x 50GbE QSFP+, needs an SDA+ System Director Appliance, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
@@ -264,9 +264,9 @@
   "widthCols": 12,
   "fullDepth": true,
   "verified": false,
-  "source": "Avid NEXIS family datasheet",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "5U nearline engine, 4-8 Media Packs of 160 TB, mirrored config SSDs, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
+  "source": "Avid NEXIS storage and specs page (2026) and family datasheet",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "5U nearline engine, 4 or 8 Media Packs of 240 TB (40 or 80 HDDs, 960 TB-1.28 PB), up to 1 GB/s, 10GbE SFP28, mirrored config SSDs, needs an SDA+ System Director Appliance, optional redundant controller. Redundant power and cooling. Check: management port and the number of data ports per controller.",
   "portGroups": [
    {
     "face": "rear",
@@ -306,7 +306,7 @@
   "fullDepth": true,
   "verified": false,
   "source": "Avid NEXIS product information",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
   "notes": "Earlier NEXIS engine for mid-size systems, replaced by the F-series. Check: rack height, drive count and controller ports.",
   "portGroups": [
    {
@@ -355,7 +355,7 @@
   "fullDepth": true,
   "verified": false,
   "source": "Avid NEXIS product information",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
   "notes": "Earlier high-capacity NEXIS engine (E5 NL is the nearline version), replaced by the F5. Check: rack height and controller ports.",
   "portGroups": [
    {
@@ -395,8 +395,8 @@
  {
   "id": "avid-nexis-sda",
   "manufacturer": "Avid",
-  "partNumber": "NEXIS | SDA",
-  "name": "NEXIS System Director Appliance",
+  "partNumber": "NEXIS | SDA+",
+  "name": "NEXIS SDA+ System Director Appliance",
   "family": "NEXIS",
   "category": "computer",
   "ru": 1,
@@ -404,8 +404,8 @@
   "fullDepth": true,
   "verified": false,
   "source": "Avid NEXIS product information",
-  "productUrl": "https://www.avid.com/products/avid-nexis/storage-and-specs",
-  "notes": "1U server that runs the NEXIS System Director for systems whose engines have no embedded director (E-series). Check: server model and ports (shown as a typical 1U Dell server).",
+  "productUrl": "https://www.avid.com/nexis/storage-and-specs",
+  "notes": "1U server that runs the NEXIS System Director. Needed for F5 and F5 NL engines and for any system beyond 4 Media Packs. Standard licence: up to 24 Media Packs, 3.8 PB, 165 clients; Advanced: up to 64 Media Packs, 10+ PB, 330 clients. Not used with PRO+. Check: server model and ports (shown as a typical 1U Dell server).",
   "portGroups": [
    {
     "face": "rear",

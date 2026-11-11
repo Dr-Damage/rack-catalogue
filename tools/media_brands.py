@@ -203,8 +203,8 @@ LU('lu4000-st2110', 'LU10-SV-1UL04-ST2110', 'LU4000 ST 2110 server', 'LU4000', '
 # Avid
 # =====================================================================================
 AV = lambda *a, **k: add('avid.json', 'avid-', 'Avid', *a, **k)
-NX = 'Avid NEXIS family datasheet'
-NX_URL = 'https://www.avid.com/products/avid-nexis/storage-and-specs'
+NX = 'Avid NEXIS storage and specs page (2026) and family datasheet'
+NX_URL = 'https://www.avid.com/nexis/storage-and-specs'
 AV('nexis-e4', 'NEXIS | E4', 'NEXIS E4 storage engine', 'NEXIS', 'computer', 4,
    [R('io', ETH, 'QSFP', 2, '40GbE'), R('io', 'SFP', 'SFP+', 4, '10GbE'), R('io', ETH, 'RJ45', 2, 'Management'),
     R('in', PWR, 'IEC', 2, 'PSU')],
@@ -213,18 +213,23 @@ AV('nexis-e4', 'NEXIS | E4', 'NEXIS E4 storage engine', 'NEXIS', 'computer', 4,
    'Avid NEXIS product information', 'https://www.avid.com/products/avid-nexis', verified=False, full=True)
 for id, pn, name, ru, net, notes, v in [
         ('nexis-pro-plus', 'NEXIS | PRO+', 'NEXIS PRO+ storage engine', 2, [R('io', 'SFP', 'SFP', 2, '10/25GbE SFP28')],
-         '2U entry engine, one 40 TB Media Pack, two hot-swap SSDs for configuration and metadata, embedded System Director.', True),
+         '2U entry engine, one 80 TB Media Pack (10 HDDs; older units 40 TB), up to 480 MB/s, two hot-swap SSDs for configuration and metadata, '
+         'embedded System Director. Up to four PRO+ engines link to 320 TB; cannot be mixed with F-series engines.', True),
         ('nexis-f2', 'NEXIS | F2', 'NEXIS F2 storage engine', 2, [R('io', 'SFP', 'SFP', 2, '10/25GbE SFP28')],
-         '2U engine, one Media Pack (60, 100 or 140 TB HDD), two hot-swap SSDs, embedded System Director, optional redundant controller.', True),
-        ('nexis-f2x', 'NEXIS | F2X', 'NEXIS F2X expansion chassis', 2, [R('io', 'Other', 'Other', 2, 'Expansion link')],
-         '2U expansion for an F2 engine, one Media Pack (60, 100 or 140 TB HDD), optional hot-spare HDDs. Check: expansion cable type.', False),
+         '2U engine, one 200 TB Media Pack (10 HDDs; earlier packs 60, 100 or 140 TB), up to 480 MB/s, two hot-swap SSDs, embedded System Director '
+         '(an SDA+ is needed beyond 4 Media Packs), optional redundant controller.', True),
+        ('nexis-f2x', 'NEXIS | F2X', 'NEXIS F2X expansion chassis', 2, [R('io', 'Other', 'SAS', 2, 'SAS expansion')],
+         '2U SAS expansion for an F2 engine: adds one 200 TB Media Pack (10 HDDs) and 480 MB/s, 2 hot-spare HDDs shared with the host. '
+         'Check: number of SAS ports.', False),
         ('nexis-f2-ssd', 'NEXIS | F2 SSD', 'NEXIS F2 SSD all-flash engine', 2, [R('io', ETH, 'QSFP28', 2, '100GbE')],
-         '2U all-flash engine, 1-2 SSD Media Packs (38.4 or 153.6 TB), mirrored config SSDs, embedded System Director, optional '
-         'redundant controller. Check: 100GbE connector (QSFP28 assumed).', False),
+         '2U all-flash engine, 1-2 SSD Media Packs of 10 SSDs (153.6 or 307.2 TB each; earlier 38.4 TB), over 6 GB/s per pack, dual 100GbE per '
+         'storage controller, mirrored config SSDs, embedded System Director, optional redundant controller. Check: 100GbE connector (QSFP28 assumed).', False),
         ('nexis-f5', 'NEXIS | F5', 'NEXIS F5 storage engine', 5, [R('io', ETH, 'QSFP', 2, '50GbE QSFP+')],
-         '5U engine, 4-8 Media Packs (60, 100 or 140 TB HDD), 2 hot-spare HDDs, 2 hot-swap SSDs, optional redundant controller.', True),
+         '5U engine, 4-8 Media Packs of 200 TB (up to 80 HDDs, 800 TB-1.12 PB), 2 hot-spare HDDs, 2 hot-swap SSDs, 3.84 GB/s, '
+         '2 x 50GbE QSFP+, needs an SDA+ System Director Appliance, optional redundant controller.', True),
         ('nexis-f5-nl', 'NEXIS | F5 NL', 'NEXIS F5 NL nearline engine', 5, [R('io', 'SFP', 'SFP', 2, '10GbE SFP28')],
-         '5U nearline engine, 4-8 Media Packs of 160 TB, mirrored config SSDs, optional redundant controller.', True)]:
+         '5U nearline engine, 4 or 8 Media Packs of 240 TB (40 or 80 HDDs, 960 TB-1.28 PB), up to 1 GB/s, 10GbE SFP28, mirrored config SSDs, '
+         'needs an SDA+ System Director Appliance, optional redundant controller.', True)]:
     AV(id, pn, name, 'NEXIS', 'computer', ru, net + [R('io', ETH, 'RJ45', 1, 'Management'), R('in', PWR, 'IEC', 2, 'PSU')],
        notes + ' Redundant power and cooling. Check: management port and the number of data ports per controller.', NX, NX_URL,
        verified=False, full=True)
@@ -236,10 +241,11 @@ for id, pn, name, ru, notes in [
     AV(id, pn, name, 'NEXIS', 'computer', ru,
        [R('io', 'SFP', 'SFP+', 4, '10GbE'), R('io', ETH, 'QSFP', 2, '40GbE'), R('io', ETH, 'RJ45', 2, 'Management'), R('in', PWR, 'IEC', 2, 'PSU')],
        notes, 'Avid NEXIS product information', NX_URL, verified=False, full=True)
-AV('nexis-sda', 'NEXIS | SDA', 'NEXIS System Director Appliance', 'NEXIS', 'computer', 1,
+AV('nexis-sda', 'NEXIS | SDA+', 'NEXIS SDA+ System Director Appliance', 'NEXIS', 'computer', 1,
    [R('io', ETH, 'RJ45', 2, '1GbE'), R('io', 'SFP', 'SFP+', 2, '10GbE'), R('io', ETH, 'RJ45', 1, 'iDRAC'), R('out', 'Other', 'VGA', 1, 'VGA'),
     R('io', USB, 'USB-A', 2, 'USB'), R('in', PWR, 'IEC', 2, 'PSU')],
-   '1U server that runs the NEXIS System Director for systems whose engines have no embedded director (E-series). '
+   '1U server that runs the NEXIS System Director. Needed for F5 and F5 NL engines and for any system beyond 4 Media Packs. '
+   'Standard licence: up to 24 Media Packs, 3.8 PB, 165 clients; Advanced: up to 64 Media Packs, 10+ PB, 330 clients. Not used with PRO+. '
    'Check: server model and ports (shown as a typical 1U Dell server).', 'Avid NEXIS product information', NX_URL, verified=False, full=True)
 MTRX = 'Avid Pro Tools MTRX family comparison chart'
 MTRX_URL = 'https://www.avid.com/products/pro-tools-mtrx-ii/specifications'
@@ -333,10 +339,15 @@ syn('RS2821RP+', '16-bay rackmount NAS', 'RackStation', 3, '16 bays', 'AMD Ryzen
 syn('RS3621xs+', '12-bay rackmount NAS', 'RackStation', 2, '12 bays', 'Intel Xeon D-1541', 4, 2, 2, 2, 'Expands with up to two RX1217RP. ', ten=2)
 syn('RS3621RPxs', '12-bay rackmount NAS', 'RackStation', 2, '12 bays', 'Intel Xeon D-1531', 4, 2, 1, 2, 'Expands with one RX1217RP. ')
 syn('RS4021xs+', '16-bay rackmount NAS', 'RackStation', 3, '16 bays', 'Intel Xeon D-1541', 4, 2, 2, 2, 'Expands with up to two RX1217RP. ', ten=2)
-syn('SA3410', '12-bay rackmount storage', 'SA series', 2, '12 bays', 'Intel Xeon D-1541', 2, 2, 2, 2,
-    'Expands with RX1223RP or RX1225RP units. ', ten=2, exp_conn='Mini-SAS HD')
-syn('SA3610', '12-bay rackmount storage', 'SA series', 2, '12 bays', 'Intel Xeon D-1567', 2, 2, 2, 2,
-    'Expands with RX1223RP units. ', ten=2, exp_conn='Mini-SAS HD')
+for model, cpu in [('SA3410', 'Intel Xeon D-1541 (8 cores)'), ('SA3610', 'Intel Xeon D-1567 (12 cores)')]:
+    SY(model.lower(), model, f'{model} 12-bay rackmount storage', 'SA series', 'computer', 2,
+       [R('in', PWR, 'IEC', 2, 'PSU'), R('io', 'Other', 'DB9', 1, 'COM'), R('io', ETH, 'RJ45', 4, 'LAN 1-4 (1GbE)'),
+        R('io', ETH, 'RJ45', 2, 'LAN 5-6 (10GbE)'), R('io', USB, 'USB-A', 2, 'USB 3.2'), R('io', ETH, 'RJ45', 1, 'MGMT'),
+        R('io', 'Other', 'Card slot', 2, 'PCIe slot'), R('io', 'Other', 'Mini-SAS HD', 1, 'Expansion')],
+       f'2U, 482 x 88 x 724 mm deep, 14.5 kg. 12 x 3.5/2.5 in SAS/SATA hot-swap bays (up to 96 drives with seven RX1222sas units), {cpu}, '
+       '4 x 1GbE and 2 x 10GbE RJ45, out-of-band management port, COM console port, 2 PCIe 3.0 x8 slots, 1 Mini-SAS HD expansion port, '
+       '2 x USB 3.2, redundant 550 W PSUs (about 137 W in use). RKS-02 rails needed. Rear panel read from the maker photo.',
+       'Synology SA3000 series specifications', 'https://www.synology.com/en-us/products/SA3000', full=True)
 syn('SA6400', '12-bay rackmount storage', 'SA series', 2, '12 bays', 'AMD EPYC 7272', 2, 6, 2, 2,
     'Expands with RX1225RP / RX6025sas units. ', ten=2, exp_conn='Mini-SAS HD')
 syn('FS2500', '12-bay all-flash storage', 'FlashStation', 1, '12 x 2.5 in SSD bays', 'AMD Ryzen V1780B', 2, 1, 1, 2, ten=2,
