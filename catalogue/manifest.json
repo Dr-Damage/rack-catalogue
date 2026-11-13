@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "0fc79dbf9541",
- "updated": "2026-11-13T03:08:16Z",
+ "version": "402df83c1c2a",
+ "updated": "2026-11-13T04:07:12Z",
  "entries": 679,
  "files": {
   "ross.json": {
@@ -250,9 +250,9 @@
    "bytes": 75455
   },
   "ubiquiti.json": {
-   "sha256": "35c5fb2f8f55b07112825acd907e311ac8a33fa881819e203ad2f7e0a3b7cfb8",
+   "sha256": "61d5911c58d3ac30303c19ee137305483ed74de3acb4ad7e038d7f205c9e9096",
    "entries": 46,
-   "bytes": 52973
+   "bytes": 53571
   }
  }
 }

@@ -579,10 +579,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-professional/products/usw-pro-24-poe",
-  "notes": "1RU, Layer 3, touchscreen, RPS DC input. PoE+/PoE++ ports, about 400 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe",
+  "notes": "1RU, Layer 3, touchscreen, USP-RPS DC input. 442 x 285 mm deep. 16 PoE+ and 8 PoE++ (60 W) ports, 400 W PoE budget, internal 450 W PSU.",
   "portGroups": [
    {
     "face": "front",
@@ -628,10 +628,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-professional/products/usw-pro-48-poe",
-  "notes": "1RU, Layer 3, touchscreen, RPS DC input. PoE+/PoE++ ports, about 600 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-48-poe",
+  "notes": "1RU, Layer 3, touchscreen, USP-RPS DC input. 442 x 400 mm deep. 40 PoE+ and 8 PoE++ (60 W) ports, 600 W PoE budget, internal 660 W PSU.",
   "portGroups": [
    {
     "face": "front",
@@ -677,10 +677,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-professional",
-  "notes": "1RU, Layer 3, touchscreen, RPS DC input.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-24",
+  "notes": "1RU, Layer 3, touchscreen, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -726,10 +726,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-professional",
-  "notes": "1RU, Layer 3, touchscreen, RPS DC input.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-48",
+  "notes": "1RU, Layer 3, touchscreen, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -775,10 +775,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-24-poe",
-  "notes": "1RU, Layer 2, front status display. 16 PoE+ ports, about 95 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-24-poe",
+  "notes": "1RU, Layer 2, touchscreen, no RPS input. 442 x 200 mm deep. 16 of the 24 ports PoE+, 95 W PoE budget, internal 120 W PSU.",
   "portGroups": [
    {
     "face": "front",
@@ -816,10 +816,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-48-poe",
-  "notes": "1RU, Layer 2, front status display. 32 PoE+ ports, about 195 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-48-poe",
+  "notes": "1RU, Layer 2, touchscreen, no RPS input. 442 x 285 mm deep. 32 of the 48 ports PoE+, 195 W PoE budget, internal 240 W PSU.",
   "portGroups": [
    {
     "face": "front",
@@ -857,10 +857,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-24",
-  "notes": "1RU, Layer 2, front status display.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-24",
+  "notes": "1RU, Layer 2, touchscreen, no RPS input.",
   "portGroups": [
    {
     "face": "front",
@@ -898,10 +898,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-48",
-  "notes": "1RU, Layer 2, front status display.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-48",
+  "notes": "1RU, Layer 2, touchscreen, no RPS input.",
   "portGroups": [
    {
     "face": "front",
@@ -939,10 +939,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-pro-aggregation",
-  "notes": "1RU, Layer 3 aggregation, 28 x 10G SFP+ and 4 x 25G SFP28. Check: PSU arrangement (drawn as internal AC plus RPS).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-aggregation",
+  "notes": "1RU, 442 x 325 mm deep, 100 W. Layer 3 aggregation, 28 x 10G SFP+ and 4 x 25G SFP28, touchscreen, internal 100 W PSU, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -987,11 +987,11 @@
   "category": "network",
   "ru": 1,
   "widthCols": 12,
-  "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-pro-xg-aggregation",
-  "notes": "1RU, 32 x 25G SFP28. Check: PSU arrangement.",
+  "fullDepth": true,
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-pro-xg-aggregation",
+  "notes": "1RU, 442 x 480 mm deep, 200 W. 32 x 25G SFP28, Layer 3, Etherlighting, touchscreen, internal 200 W PSU, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -1029,10 +1029,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-aggregation",
-  "notes": "1RU, 8 x 10G SFP+, Layer 2. Check: width and power inlet (drawn full width with an AC inlet).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-aggregation",
+  "notes": "1RU, 442 x 120 mm deep, 36 W. 8 x 10G SFP+, Layer 2, touchscreen, internal AC PSU (no RPS input).",
   "portGroups": [
    {
     "face": "front",
@@ -1062,10 +1062,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-aggregation",
-  "notes": "1RU, 48 x 25G SFP28 and 6 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/ecs-aggregation",
+  "notes": "1RU, 442 x 496 mm deep, 340 W. 48 x 25G SFP28 and 6 x 100G QSFP28, Layer 3, MC-LAG, touchscreen. Two hot-swap 550 W PSUs and five hot-swap fans on the rear.",
   "portGroups": [
    {
     "face": "front",
@@ -1088,8 +1088,8 @@
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",
-    "count": 1,
-    "prefix": "AC In"
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1103,10 +1103,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-core",
-  "notes": "1RU, 32 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/ecs-core",
+  "notes": "1RU, 442 x 480 mm deep, 360 W. 32 x 100G QSFP28, Layer 3, MC-LAG, touchscreen. Management RJ45 and console on the rear, two hot-swap 550 W PSUs, five hot-swap fans.",
   "portGroups": [
    {
     "face": "front",
@@ -1118,11 +1118,27 @@
    },
    {
     "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",
-    "count": 1,
-    "prefix": "AC In"
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1136,10 +1152,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus/products/ecs-48-poe",
-  "notes": "1RU. Check: PoE budget and PSUs.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/ecs-48-poe",
+  "notes": "1RU, 442 x 496 mm deep. All 48 RJ45 ports PoE+++ (90 W); PoE budget 2,150 W shared or 950 W redundant at 200-240 V. Two hot-swap 1,200 W PSUs, four hot-swap fans, Layer 3, touchscreen.",
   "portGroups": [
    {
     "face": "front",
@@ -1147,7 +1163,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 16,
-    "prefix": "2.5GbE PoE"
+    "prefix": "2.5GbE PoE+++"
    },
    {
     "face": "front",
@@ -1155,7 +1171,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 32,
-    "prefix": "10GbE PoE"
+    "prefix": "10GbE PoE+++"
    },
    {
     "face": "front",
@@ -1170,16 +1186,8 @@
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",
-    "count": 1,
-    "prefix": "AC In"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "DC (USP-RPS)",
-    "count": 1,
-    "prefix": "RPS In"
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1192,11 +1200,11 @@
   "category": "network",
   "ru": 1,
   "widthCols": 12,
-  "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus/products/ecs-24-poe",
-  "notes": "1RU. Check: PoE budget and PSUs.",
+  "fullDepth": true,
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/ecs-24-poe",
+  "notes": "1RU, 442 x 496 mm deep. All 24 RJ45 ports PoE+++ (90 W); PoE budget 1,050 W shared or 450 W redundant with 600 W modules (up to 2,250 W shared with 1,200 W modules). Two hot-swap PSUs, four hot-swap fans, Layer 3, touchscreen.",
   "portGroups": [
    {
     "face": "front",
@@ -1204,7 +1212,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 8,
-    "prefix": "2.5GbE PoE"
+    "prefix": "2.5GbE PoE+++"
    },
    {
     "face": "front",
@@ -1212,14 +1220,14 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 16,
-    "prefix": "10GbE PoE"
+    "prefix": "10GbE PoE+++"
    },
    {
     "face": "front",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP28",
-    "count": 4,
+    "count": 2,
     "prefix": "SFP28"
    },
    {
@@ -1227,16 +1235,8 @@
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",
-    "count": 1,
-    "prefix": "AC In"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "DC (USP-RPS)",
-    "count": 1,
-    "prefix": "RPS In"
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1249,11 +1249,11 @@
   "category": "network",
   "ru": 1,
   "widthCols": 12,
-  "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-audiovideo/products/eav-xg-24-poe",
-  "notes": "1RU AV-over-IP switch (Dante / AES67 / IPMX profiles), 24 x 10G PoE, 4 x 100G QSFP28. Check: PoE budget and PSUs.",
+  "fullDepth": true,
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/eav-xg-24-poe",
+  "notes": "1RU AV-over-IP switch, 442 x 480 mm deep. PTP (IEEE 1588v2 with SMPTE 2059-2, AES67 and AES-R16 profiles; grandmaster, boundary and transparent clock) with an SMA timing input, management RJ45 and console on the rear. 24 x 10G RJ45 all PoE+++ (90 W), PoE budget 2,150 W shared or 1,050 W redundant at 200-240 V. Two hot-swap 1,200 W PSUs, four hot-swap fans.",
   "portGroups": [
    {
     "face": "front",
@@ -1261,7 +1261,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 24,
-    "prefix": "10GbE PoE"
+    "prefix": "10GbE PoE+++"
    },
    {
     "face": "front",
@@ -1273,19 +1273,35 @@
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "IEC C14",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
     "count": 1,
-    "prefix": "AC In"
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GPS/PPS In"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "DC (USP-RPS)",
-    "count": 1,
-    "prefix": "RPS In"
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1298,11 +1314,11 @@
   "category": "network",
   "ru": 1,
   "widthCols": 12,
-  "fullDepth": false,
-  "verified": false,
-  "source": "UniFi store switching list",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-audiovideo/products/eav-fiber",
-  "notes": "1RU AV-over-IP fibre switch, 20 x 10G, 2 x 100G QSFP28. Check: whether the 10G ports are SFP+ cages, and PSUs.",
+  "fullDepth": true,
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/eav-fiber",
+  "notes": "1RU AV-over-IP fibre switch, 442 x 480 mm deep, 150 W. 20 x 10G SFP+ and 2 x 100G QSFP28. PTP (SMPTE 2059-2, AES67, AES-R16) with an SMA timing input, management RJ45 and console on the rear. Two hot-swap 150 W PSUs, four hot-swap fans.",
   "portGroups": [
    {
     "face": "front",
@@ -1322,19 +1338,35 @@
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "Power",
-    "connector": "IEC C14",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
     "count": 1,
-    "prefix": "AC In"
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GPS/PPS In"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "DC (USP-RPS)",
-    "count": 1,
-    "prefix": "RPS In"
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
    }
   ]
  },
@@ -1348,10 +1380,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi product information",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise",
-  "notes": "1RU, 400 W PoE budget, RPS DC input. Replaced by the Pro Max range. Check: from product knowledge.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-enterprise-24-poe",
+  "notes": "1RU, 442 x 325 mm deep. All 24 RJ45 ports PoE+, 400 W PoE budget, internal 550 W PSU, USP-RPS DC input. Replaced by the Pro Max range.",
   "portGroups": [
    {
     "face": "front",
@@ -1359,7 +1391,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 12,
-    "prefix": "2.5GbE PoE+"
+    "prefix": "1GbE PoE+"
    },
    {
     "face": "front",
@@ -1367,7 +1399,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 12,
-    "prefix": "1GbE PoE+"
+    "prefix": "2.5GbE PoE+"
    },
    {
     "face": "front",
@@ -1405,10 +1437,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi product information",
-  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise",
-  "notes": "1RU, 24 x 10G RJ45, 2 x 25G SFP28, dual hot-swap PSUs. Replaced by the Pro XG range. Check: from product knowledge.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/switching/usw-enterprisexg-24",
+  "notes": "1RU, 442 x 285 mm deep, 100 W. 24 x 10G RJ45 and 2 x 25G SFP28, internal 100 W PSU, USP-RPS DC input. Replaced by the Pro XG range.",
   "portGroups": [
    {
     "face": "front",
@@ -1433,6 +1465,14 @@
     "connector": "IEC C14",
     "count": 1,
     "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
    }
   ]
  },
@@ -1519,10 +1559,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
+  "verified": true,
   "source": "UniFi UDM-Pro-Max datasheet",
   "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/UDM-Pro-Max.pdf",
-  "notes": "1RU, 442 x 286 mm deep, 100 W. Internal 100 W PSU, RPS DC input (11.5 V). Check: two drive bays (from product knowledge).",
+  "notes": "1RU, 442 x 286 mm deep, 100 W. Two 3.5 in drive bays, internal 100 W PSU, RPS DC input (11.5 V).",
   "portGroups": [
    {
     "face": "front",
@@ -1592,10 +1632,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi product information",
-  "productUrl": "https://store.ui.com/us/en/category/cloud-gateways",
-  "notes": "1RU gateway with 8 PoE LAN ports (2 PoE+), about 180 W PoE budget, one 3.5 in drive bay, RPS DC input. Check: from product knowledge.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/cloud-gateways/udm-se",
+  "notes": "1RU, 442 x 286 mm deep, 50 W plus PoE. Gateway with 8 x 1G PoE LAN ports (180 W PoE budget), 2.5G WAN, 2 x 10G SFP+, one 3.5 in drive bay plus 128 GB SSD, touchscreen, internal 240 W PSU, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -1668,10 +1708,10 @@
   "verified": true,
   "source": "UniFi UNVR datasheet",
   "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/UNVR.pdf",
-  "notes": "1RU, 442 x 325 mm deep, 4 front drive bays, internal 120 W PSU, USP-RPS DC input, 100 W max.",
+  "notes": "1RU, 442 x 325 mm deep, 4 front drive bays, 1G RJ45 and 10G SFP+ on the rear, internal 120 W PSU, USP-RPS DC input, 100 W max.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -1679,7 +1719,7 @@
     "prefix": "1GbE"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -1722,10 +1762,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi product information",
-  "productUrl": "https://store.ui.com/us/en/category/unifi-protect",
-  "notes": "2RU, 7 front drive bays, touchscreen, RPS DC input. Check: from product knowledge.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/physical-security/unvr-pro",
+  "notes": "2RU, 442 x 325 mm deep, 160 W. 7 front 2.5/3.5 in drive bays, 1G RJ45 and 10G SFP+ on the front, touchscreen, internal 200 W PSU, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -1779,10 +1819,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "UniFi product information",
-  "productUrl": "https://store.ui.com/us/en/category/unifi-storage",
-  "notes": "2RU NAS, 7 front drive bays, 1G RJ45 and 10G SFP+. Check: from product knowledge.",
+  "verified": true,
+  "source": "UniFi tech specs",
+  "productUrl": "https://techspecs.ui.com/unifi/integrations/unas-pro",
+  "notes": "2RU NAS, 442 x 325 mm deep, 160 W. 7 front 2.5/3.5 in drive bays, 1G RJ45 and 10G SFP+ on the front, touchscreen, internal 200 W PSU, USP-RPS DC input.",
   "portGroups": [
    {
     "face": "front",
@@ -1836,10 +1876,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU router, 8 x 10G SFP+, 1 x 1G RJ45, dual hot-swap AC PSUs. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/er-8-xg",
+  "notes": "1RU router, 442 x 286 mm deep. 8 x 10G SFP+, 1 x 1G RJ45, RJ45 console, USB and microSD on the front. Two hot-swap AC PSU slots (one fitted as standard). EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -1942,10 +1982,10 @@
   "ru": 1,
   "widthCols": 8,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "Desktop router (rack ears optional), 10 x 1G RJ45 (passive PoE in/out on some ports), 2 x SFP, external DC adapter. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/er-12",
+  "notes": "Desktop router, 268 x 136.5 x 31 mm (rack ears optional), 20 W. 10 x 1G RJ45 (24 V passive PoE in on port 0, passthrough out on port 9), 2 x 1G SFP, console and USB on the front, 24 V DC jack on the rear (external adapter, 9-30 V DC). EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -1972,12 +2012,20 @@
     "prefix": "Console"
    },
    {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
     "face": "rear",
     "dir": "in",
     "type": "Power",
     "connector": "DC barrel",
     "count": 1,
-    "prefix": "DC In"
+    "prefix": "DC In 24 V"
    }
   ]
  },
@@ -1991,10 +2039,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 250 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-24-250w",
+  "notes": "1RU managed switch, RJ45 console on the rear, internal AC PSU. 802.3af/at and 24 V passive PoE, 250 W total. EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -2013,7 +2061,7 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "RJ45",
@@ -2041,9 +2089,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-24-500w",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued). Check: console position (not visible in the maker's pictures).",
   "portGroups": [
    {
     "face": "front",
@@ -2089,10 +2137,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-48-500w",
+  "notes": "1RU managed switch, RJ45 console on the rear, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -2119,7 +2167,7 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "RJ45",
@@ -2147,9 +2195,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 750 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-48-750w",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 750 W total. EdgeMax (discontinued). Check: console position (not visible in the maker's pictures).",
   "portGroups": [
    {
     "face": "front",
@@ -2309,10 +2357,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 12 x 10G SFP+ and 4 x 10GBASE-T. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-16-xg",
+  "notes": "1RU managed switch, RJ45 console on the rear, internal AC PSU. 12 x 10G SFP+ and 4 x 10GBASE-T. EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -2331,7 +2379,7 @@
     "prefix": "10GbE"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "RJ45",
@@ -2358,10 +2406,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Ubiquiti EdgeMax product information",
-  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
-  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 150 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "verified": true,
+  "source": "UISP tech specs",
+  "productUrl": "https://techspecs.ui.com/uisp/wired/es-16-150w",
+  "notes": "1RU managed switch, RJ45 console on the rear, internal AC PSU. 802.3af/at and 24 V passive PoE, 150 W total. EdgeMax (discontinued).",
   "portGroups": [
    {
     "face": "front",
@@ -2380,7 +2428,7 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "RJ45",

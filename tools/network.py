@@ -258,6 +258,14 @@ def uw(sku, name, fam, ports, notes, src, url, verified=True, ru=1, rps=True, fu
     UB(sku.lower().replace('.', '-'), sku, name, fam, 'network', ru, ports + [AC(1)] + ([RPS] if rps else []), notes, src, url,
        verified=verified, full=full, w=w)
 STORE = 'UniFi store switching list'
+TS = 'https://techspecs.ui.com/unifi/switching/'
+TSS = 'UniFi tech specs'          # port layout, PoE and power from techspecs.ui.com; panels checked against the maker's pictures
+UMGMT = R('io', 'Ethernet', 'RJ45', 1, 'Mgmt')
+UCON = R('io', 'Other', 'RJ45', 1, 'Console')
+USMA = R('in', 'Reference', 'SMA', 1, 'GPS/PPS In')
+def ue(sku, name, fam, ports, notes, rear=()):
+    """Enterprise campus / AV switch: two hot-swap AC PSU modules on the rear, no RPS input."""
+    UB(sku.lower(), sku, name, fam, 'network', 1, ports + list(rear) + [AC(2)], notes, TSS, TS + sku.lower(), full=True)
 # UniFi Pro Max / Pro HD / Pro XG (Etherlighting, touchscreen, no console port)
 uw('USW-Pro-Max-24-PoE', 'UniFi Switch Pro Max 24 PoE', 'UniFi Pro Max', [RJ(16, '1GbE PoE'), RJ(8, '2.5GbE PoE'), CAGE(2, 'SFP+')],
    '1RU, 442 x 325 mm deep. 8 ports PoE/PoE+ and 16 ports PoE++ (60 W), 400 W PoE budget, internal 450 W PSU, USP-RPS DC input. '
@@ -285,51 +293,59 @@ uw('USW-Pro-XG-24-PoE', 'UniFi Switch Pro XG 24 PoE', 'UniFi Pro XG', [RJ(8, '2.
 uw('USW-Pro-XG-24', 'UniFi Switch Pro XG 24', 'UniFi Pro XG', [RJ(8, '2.5GbE'), RJ(16, '10GbE'), CAGE(2, 'SFP28')],
    '1RU, Layer 3, RPS DC input.', STORE, UST + 'switching-professional-max-xg/products/usw-pro-xg-24')
 # UniFi Pro (Gen 2) and Standard
-for sku, dl, up, notes, path in [
-        ('USW-Pro-24-PoE', [RJ(24, '1GbE PoE+')], CAGE(2, 'SFP+'), 'PoE+/PoE++ ports, about 400 W PoE budget.', 'switching-professional/products/usw-pro-24-poe'),
-        ('USW-Pro-48-PoE', [RJ(48, '1GbE PoE+')], CAGE(4, 'SFP+'), 'PoE+/PoE++ ports, about 600 W PoE budget.', 'switching-professional/products/usw-pro-48-poe'),
-        ('USW-Pro-24', [RJ(24, '1GbE')], CAGE(2, 'SFP+'), '', 'switching-professional'),
-        ('USW-Pro-48', [RJ(48, '1GbE')], CAGE(4, 'SFP+'), '', 'switching-professional'),
-        ('USW-24-PoE', [RJ(24, '1GbE PoE+')], CAGE(2, 'SFP', '1G SFP'), '16 PoE+ ports, about 95 W PoE budget.', 'switching-standard/products/usw-24-poe'),
-        ('USW-48-PoE', [RJ(48, '1GbE PoE+')], CAGE(4, 'SFP', '1G SFP'), '32 PoE+ ports, about 195 W PoE budget.', 'switching-standard/products/usw-48-poe'),
-        ('USW-24', [RJ(24, '1GbE')], CAGE(2, 'SFP', '1G SFP'), '', 'switching-standard/products/usw-24'),
-        ('USW-48', [RJ(48, '1GbE')], CAGE(4, 'SFP', '1G SFP'), '', 'switching-standard/products/usw-48')]:
+for sku, dl, up, notes in [
+        ('USW-Pro-24-PoE', [RJ(24, '1GbE PoE+')], CAGE(2, 'SFP+'),
+         '442 x 285 mm deep. 16 PoE+ and 8 PoE++ (60 W) ports, 400 W PoE budget, internal 450 W PSU.'),
+        ('USW-Pro-48-PoE', [RJ(48, '1GbE PoE+')], CAGE(4, 'SFP+'),
+         '442 x 400 mm deep. 40 PoE+ and 8 PoE++ (60 W) ports, 600 W PoE budget, internal 660 W PSU.'),
+        ('USW-Pro-24', [RJ(24, '1GbE')], CAGE(2, 'SFP+'), ''),
+        ('USW-Pro-48', [RJ(48, '1GbE')], CAGE(4, 'SFP+'), ''),
+        ('USW-24-PoE', [RJ(24, '1GbE PoE+')], CAGE(2, 'SFP', '1G SFP'),
+         '442 x 200 mm deep. 16 of the 24 ports PoE+, 95 W PoE budget, internal 120 W PSU.'),
+        ('USW-48-PoE', [RJ(48, '1GbE PoE+')], CAGE(4, 'SFP', '1G SFP'),
+         '442 x 285 mm deep. 32 of the 48 ports PoE+, 195 W PoE budget, internal 240 W PSU.'),
+        ('USW-24', [RJ(24, '1GbE')], CAGE(2, 'SFP', '1G SFP'), ''),
+        ('USW-48', [RJ(48, '1GbE')], CAGE(4, 'SFP', '1G SFP'), '')]:
     pro = 'Pro' in sku
     uw(sku, 'UniFi ' + sku.replace('USW-', 'Switch ').replace('-', ' '), 'UniFi Pro' if pro else 'UniFi Standard', dl + [up],
-       '1RU, ' + ('Layer 3, touchscreen, RPS DC input. ' if pro else 'Layer 2, front status display. ') + notes
-       + ' Check: PoE budget and which ports carry PoE (port counts from the UniFi store).',
-       STORE, UST + path, verified=False, rps=pro)
+       ('1RU, ' + ('Layer 3, touchscreen, USP-RPS DC input. ' if pro else 'Layer 2, touchscreen, no RPS input. ') + notes).strip(),
+       TSS, TS + sku.lower(), rps=pro)
 # Aggregation and enterprise
 uw('USW-Pro-Aggregation', 'UniFi Switch Hi-Capacity Aggregation', 'UniFi Aggregation', [CAGE(28, 'SFP+'), CAGE(4, 'SFP28')],
-   '1RU, Layer 3 aggregation, 28 x 10G SFP+ and 4 x 25G SFP28. Check: PSU arrangement (drawn as internal AC plus RPS).',
-   STORE, UST + 'switching-aggregation/products/usw-pro-aggregation', verified=False)
+   '1RU, 442 x 325 mm deep, 100 W. Layer 3 aggregation, 28 x 10G SFP+ and 4 x 25G SFP28, touchscreen, internal 100 W PSU, USP-RPS DC input.',
+   TSS, TS + 'usw-pro-aggregation')
 uw('USW-Pro-XG-Aggregation', 'UniFi Switch Pro XG Aggregation', 'UniFi Aggregation', [CAGE(32, 'SFP28')],
-   '1RU, 32 x 25G SFP28. Check: PSU arrangement.', STORE, UST + 'switching-aggregation/products/usw-pro-xg-aggregation', verified=False)
+   '1RU, 442 x 480 mm deep, 200 W. 32 x 25G SFP28, Layer 3, Etherlighting, touchscreen, internal 200 W PSU, USP-RPS DC input.',
+   TSS, TS + 'usw-pro-xg-aggregation', full=True)
 uw('USW-Aggregation', 'UniFi Switch Aggregation', 'UniFi Aggregation', [CAGE(8, 'SFP+')],
-   '1RU, 8 x 10G SFP+, Layer 2. Check: width and power inlet (drawn full width with an AC inlet).', STORE,
-   UST + 'switching-aggregation/products/usw-aggregation', verified=False, rps=False)
-uw('ECS-Aggregation', 'UniFi Enterprise Campus Aggregation', 'UniFi Enterprise Campus', [CAGE(48, 'SFP28'), CAGE(6, 'QSFP28')],
-   '1RU, 48 x 25G SFP28 and 6 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).', STORE,
-   UST + 'switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-aggregation', verified=False, rps=False, full=True)
-uw('ECS-Core', 'UniFi Enterprise Campus Switch Core', 'UniFi Enterprise Campus', [CAGE(32, 'QSFP28')],
-   '1RU, 32 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).', STORE,
-   UST + 'switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-core', verified=False, rps=False, full=True)
-uw('ECS-48-PoE', 'UniFi Enterprise Campus 48 PoE', 'UniFi Enterprise Campus', [RJ(16, '2.5GbE PoE'), RJ(32, '10GbE PoE'), CAGE(4, 'SFP28')],
-   '1RU. Check: PoE budget and PSUs.', STORE, UST + 'switching-enterprise/collections/enterprise-campus/products/ecs-48-poe', verified=False, full=True)
-uw('ECS-24-PoE', 'UniFi Enterprise Campus 24 PoE', 'UniFi Enterprise Campus', [RJ(8, '2.5GbE PoE'), RJ(16, '10GbE PoE'), CAGE(4, 'SFP28')],
-   '1RU. Check: PoE budget and PSUs.', STORE, UST + 'switching-enterprise/collections/enterprise-campus/products/ecs-24-poe', verified=False)
-uw('EAV-XG-24-PoE', 'UniFi Enterprise Audio/Video XG 24 PoE', 'UniFi Enterprise AV', [RJ(24, '10GbE PoE'), CAGE(4, 'QSFP28')],
-   '1RU AV-over-IP switch (Dante / AES67 / IPMX profiles), 24 x 10G PoE, 4 x 100G QSFP28. Check: PoE budget and PSUs.', STORE,
-   UST + 'switching-enterprise/collections/enterprise-audiovideo/products/eav-xg-24-poe', verified=False)
-uw('EAV-Fiber', 'UniFi Enterprise Audio/Video Fiber', 'UniFi Enterprise AV', [CAGE(20, 'SFP+'), CAGE(2, 'QSFP28')],
-   '1RU AV-over-IP fibre switch, 20 x 10G, 2 x 100G QSFP28. Check: whether the 10G ports are SFP+ cages, and PSUs.', STORE,
-   UST + 'switching-enterprise/collections/enterprise-audiovideo/products/eav-fiber', verified=False)
-uw('USW-Enterprise-24-PoE', 'UniFi Switch Enterprise 24 PoE (legacy)', 'UniFi Enterprise', [RJ(12, '2.5GbE PoE+'), RJ(12, '1GbE PoE+'), CAGE(2, 'SFP+')],
-   '1RU, 400 W PoE budget, RPS DC input. Replaced by the Pro Max range. Check: from product knowledge.', 'UniFi product information',
-   UST + 'switching-enterprise', verified=False)
+   '1RU, 442 x 120 mm deep, 36 W. 8 x 10G SFP+, Layer 2, touchscreen, internal AC PSU (no RPS input).', TSS, TS + 'usw-aggregation', rps=False)
+ue('ECS-Aggregation', 'UniFi Enterprise Campus Aggregation', 'UniFi Enterprise Campus', [CAGE(48, 'SFP28'), CAGE(6, 'QSFP28')],
+   '1RU, 442 x 496 mm deep, 340 W. 48 x 25G SFP28 and 6 x 100G QSFP28, Layer 3, MC-LAG, touchscreen. '
+   'Two hot-swap 550 W PSUs and five hot-swap fans on the rear.')
+ue('ECS-Core', 'UniFi Enterprise Campus Switch Core', 'UniFi Enterprise Campus', [CAGE(32, 'QSFP28')],
+   '1RU, 442 x 480 mm deep, 360 W. 32 x 100G QSFP28, Layer 3, MC-LAG, touchscreen. Management RJ45 and console on the rear, '
+   'two hot-swap 550 W PSUs, five hot-swap fans.', rear=[UMGMT, UCON])
+ue('ECS-48-PoE', 'UniFi Enterprise Campus 48 PoE', 'UniFi Enterprise Campus', [RJ(16, '2.5GbE PoE+++'), RJ(32, '10GbE PoE+++'), CAGE(4, 'SFP28')],
+   '1RU, 442 x 496 mm deep. All 48 RJ45 ports PoE+++ (90 W); PoE budget 2,150 W shared or 950 W redundant at 200-240 V. '
+   'Two hot-swap 1,200 W PSUs, four hot-swap fans, Layer 3, touchscreen.')
+ue('ECS-24-PoE', 'UniFi Enterprise Campus 24 PoE', 'UniFi Enterprise Campus', [RJ(8, '2.5GbE PoE+++'), RJ(16, '10GbE PoE+++'), CAGE(2, 'SFP28')],
+   '1RU, 442 x 496 mm deep. All 24 RJ45 ports PoE+++ (90 W); PoE budget 1,050 W shared or 450 W redundant with 600 W modules '
+   '(up to 2,250 W shared with 1,200 W modules). Two hot-swap PSUs, four hot-swap fans, Layer 3, touchscreen.')
+ue('EAV-XG-24-PoE', 'UniFi Enterprise Audio/Video XG 24 PoE', 'UniFi Enterprise AV', [RJ(24, '10GbE PoE+++'), CAGE(4, 'QSFP28')],
+   '1RU AV-over-IP switch, 442 x 480 mm deep. PTP (IEEE 1588v2 with SMPTE 2059-2, AES67 and AES-R16 profiles; grandmaster, boundary '
+   'and transparent clock) with an SMA timing input, management RJ45 and console on the rear. 24 x 10G RJ45 all PoE+++ (90 W), '
+   'PoE budget 2,150 W shared or 1,050 W redundant at 200-240 V. Two hot-swap 1,200 W PSUs, four hot-swap fans.',
+   rear=[UMGMT, UCON, USMA])
+ue('EAV-Fiber', 'UniFi Enterprise Audio/Video Fiber', 'UniFi Enterprise AV', [CAGE(20, 'SFP+'), CAGE(2, 'QSFP28')],
+   '1RU AV-over-IP fibre switch, 442 x 480 mm deep, 150 W. 20 x 10G SFP+ and 2 x 100G QSFP28. PTP (SMPTE 2059-2, AES67, AES-R16) '
+   'with an SMA timing input, management RJ45 and console on the rear. Two hot-swap 150 W PSUs, four hot-swap fans.',
+   rear=[UMGMT, UCON, USMA])
+uw('USW-Enterprise-24-PoE', 'UniFi Switch Enterprise 24 PoE (legacy)', 'UniFi Enterprise', [RJ(12, '1GbE PoE+'), RJ(12, '2.5GbE PoE+'), CAGE(2, 'SFP+')],
+   '1RU, 442 x 325 mm deep. All 24 RJ45 ports PoE+, 400 W PoE budget, internal 550 W PSU, USP-RPS DC input. Replaced by the Pro Max range.',
+   TSS, TS + 'usw-enterprise-24-poe')
 uw('USW-EnterpriseXG-24', 'UniFi Switch Enterprise XG 24 (legacy)', 'UniFi Enterprise', [RJ(24, '10GbE'), CAGE(2, 'SFP28')],
-   '1RU, 24 x 10G RJ45, 2 x 25G SFP28, dual hot-swap PSUs. Replaced by the Pro XG range. Check: from product knowledge.',
-   'UniFi product information', UST + 'switching-enterprise', verified=False, rps=False)
+   '1RU, 442 x 285 mm deep, 100 W. 24 x 10G RJ45 and 2 x 25G SFP28, internal 100 W PSU, USP-RPS DC input. Replaced by the Pro XG range.',
+   TSS, TS + 'usw-enterprisexg-24')
 # UniFi gateways, NVRs and storage
 UB('udm-pro', 'UDM-Pro', 'UniFi Dream Machine Pro', 'UniFi Cloud Gateway', 'network', 1,
    [RJ(1, '1GbE WAN'), CAGE(1, 'SFP+', '10G SFP+ WAN'), RJ(8, '1GbE LAN'), CAGE(1, 'SFP+', '10G SFP+ LAN'), F('io', 'Other', '3.5in bay', 1, 'HDD bay'),
@@ -339,46 +355,62 @@ UB('udm-pro', 'UDM-Pro', 'UniFi Dream Machine Pro', 'UniFi Cloud Gateway', 'netw
 UB('udm-pro-max', 'UDM-Pro-Max', 'UniFi Dream Machine Pro Max', 'UniFi Cloud Gateway', 'network', 1,
    [RJ(1, '2.5GbE WAN'), CAGE(1, 'SFP+', '10G SFP+ WAN'), RJ(8, '1GbE LAN'), CAGE(1, 'SFP+', '10G SFP+ LAN'), F('io', 'Other', '3.5in bay', 2, 'HDD bay'),
     AC(1), RPS],
-   '1RU, 442 x 286 mm deep, 100 W. Internal 100 W PSU, RPS DC input (11.5 V). Check: two drive bays (from product knowledge).',
-   'UniFi UDM-Pro-Max datasheet', DS + 'UDM-Pro-Max.pdf', verified=False)
+   '1RU, 442 x 286 mm deep, 100 W. Two 3.5 in drive bays, internal 100 W PSU, RPS DC input (11.5 V).',
+   'UniFi UDM-Pro-Max datasheet', DS + 'UDM-Pro-Max.pdf')
 UB('udm-se', 'UDM-SE', 'UniFi Dream Machine Special Edition', 'UniFi Cloud Gateway', 'network', 1,
    [RJ(1, '2.5GbE WAN'), CAGE(1, 'SFP+', '10G SFP+ WAN'), RJ(8, '1GbE LAN PoE'), CAGE(1, 'SFP+', '10G SFP+ LAN'), F('io', 'Other', '3.5in bay', 1, 'HDD bay'),
     AC(1), RPS],
-   '1RU gateway with 8 PoE LAN ports (2 PoE+), about 180 W PoE budget, one 3.5 in drive bay, RPS DC input. Check: from product knowledge.',
-   'UniFi product information', UST + 'cloud-gateways', verified=False)
+   '1RU, 442 x 286 mm deep, 50 W plus PoE. Gateway with 8 x 1G PoE LAN ports (180 W PoE budget), 2.5G WAN, 2 x 10G SFP+, '
+   'one 3.5 in drive bay plus 128 GB SSD, touchscreen, internal 240 W PSU, USP-RPS DC input.',
+   TSS, 'https://techspecs.ui.com/unifi/cloud-gateways/udm-se')
 UB('unvr', 'UNVR', 'UniFi Network Video Recorder', 'UniFi Protect', 'recorder', 1,
-   [RJ(1, '1GbE'), CAGE(1, 'SFP+'), F('io', 'Other', '3.5in bay', 4, 'HDD bay'), AC(1), RPS],
-   '1RU, 442 x 325 mm deep, 4 front drive bays, internal 120 W PSU, USP-RPS DC input, 100 W max.', 'UniFi UNVR datasheet', DS + 'UNVR.pdf')
+   [R('io', 'Ethernet', 'RJ45', 1, '1GbE'), R('io', 'SFP', 'SFP+', 1, 'SFP+'), F('io', 'Other', '3.5in bay', 4, 'HDD bay'), AC(1), RPS],
+   '1RU, 442 x 325 mm deep, 4 front drive bays, 1G RJ45 and 10G SFP+ on the rear, internal 120 W PSU, USP-RPS DC input, 100 W max.',
+   'UniFi UNVR datasheet', DS + 'UNVR.pdf')
 UB('unvr-pro', 'UNVR-Pro', 'UniFi Network Video Recorder Pro', 'UniFi Protect', 'recorder', 2,
    [RJ(1, '1GbE'), CAGE(1, 'SFP+'), F('io', 'Other', '3.5in bay', 7, 'HDD bay'), AC(1), RPS],
-   '2RU, 7 front drive bays, touchscreen, RPS DC input. Check: from product knowledge.', 'UniFi product information', UST + 'unifi-protect', verified=False)
+   '2RU, 442 x 325 mm deep, 160 W. 7 front 2.5/3.5 in drive bays, 1G RJ45 and 10G SFP+ on the front, touchscreen, internal 200 W PSU, '
+   'USP-RPS DC input.', TSS, 'https://techspecs.ui.com/unifi/physical-security/unvr-pro')
 UB('unas-pro', 'UNAS-Pro', 'UniFi NAS Pro', 'UniFi Storage', 'computer', 2,
    [RJ(1, '1GbE'), CAGE(1, 'SFP+'), F('io', 'Other', '3.5in bay', 7, 'HDD bay'), AC(1), RPS],
-   '2RU NAS, 7 front drive bays, 1G RJ45 and 10G SFP+. Check: from product knowledge.', 'UniFi product information', UST + 'unifi-storage', verified=False)
+   '2RU NAS, 442 x 325 mm deep, 160 W. 7 front 2.5/3.5 in drive bays, 1G RJ45 and 10G SFP+ on the front, touchscreen, internal 200 W PSU, '
+   'USP-RPS DC input.', TSS, 'https://techspecs.ui.com/unifi/integrations/unas-pro')
 # EdgeMax (EdgeRouter and EdgeSwitch: discontinued but widely installed; from product knowledge)
 EM = ' EdgeMax (discontinued). Check: from Ubiquiti product knowledge.'
 EMU = 'https://help.ui.com/hc/en-us/categories/6583256751383'
 UB('er-8-xg', 'ER-8-XG', 'EdgeRouter Infinity', 'EdgeRouter', 'network', 1,
    [CAGE(8, 'SFP+'), RJ(1, '1GbE'), CON, USB, R('in', 'Power', 'IEC C14', 2, 'PSU')],
-   '1RU router, 8 x 10G SFP+, 1 x 1G RJ45, dual hot-swap AC PSUs.' + EM, 'Ubiquiti EdgeMax product information', EMU, verified=False)
+   '1RU router, 442 x 286 mm deep. 8 x 10G SFP+, 1 x 1G RJ45, RJ45 console, USB and microSD on the front. Two hot-swap AC PSU slots '
+   '(one fitted as standard). EdgeMax (discontinued).', 'UISP tech specs', 'https://techspecs.ui.com/uisp/wired/er-8-xg')
 UB('erpro-8', 'ERPro-8', 'EdgeRouter Pro', 'EdgeRouter', 'network', 1,
    [RJ(6, '1GbE'), F('io', 'Ethernet', 'RJ45/SFP combo', 2, '1G combo'), CON, AC(1)],
    '1RU router, 6 x 1G RJ45 plus 2 combo ports (RJ45 or SFP), internal AC PSU.' + EM, 'Ubiquiti EdgeMax product information', EMU, verified=False)
 UB('er-12', 'ER-12', 'EdgeRouter 12', 'EdgeRouter', 'network', 1,
-   [RJ(10, '1GbE'), CAGE(2, 'SFP', '1G SFP'), CON, DCJ()],
-   'Desktop router (rack ears optional), 10 x 1G RJ45 (passive PoE in/out on some ports), 2 x SFP, external DC adapter.' + EM,
-   'Ubiquiti EdgeMax product information', EMU, verified=False, w=8)
-for sku, dl, up, notes in [
-        ('ES-24-250W', [RJ(24, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 250 W total.'),
-        ('ES-24-500W', [RJ(24, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 500 W total.'),
-        ('ES-48-500W', [RJ(48, '1GbE PoE+')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 500 W total.'),
-        ('ES-48-750W', [RJ(48, '1GbE PoE+')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 750 W total.'),
-        ('ES-24-Lite', [RJ(24, '1GbE')], [CAGE(2, 'SFP', '1G SFP')], 'No PoE.'),
-        ('ES-48-Lite', [RJ(48, '1GbE')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], 'No PoE.'),
-        ('ES-16-XG', [CAGE(12, 'SFP+'), RJ(4, '10GbE')], [], '12 x 10G SFP+ and 4 x 10GBASE-T.'),
-        ('ES-16-150W', [RJ(16, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 150 W total.')]:
-    UB(sku.lower(), sku, 'EdgeSwitch ' + sku[3:], 'EdgeSwitch', 'network', 1, dl + up + [CON, AC(1)],
-       '1RU managed switch, RJ45 serial console, internal AC PSU. ' + notes + EM, 'Ubiquiti EdgeMax product information', EMU, verified=False)
+   [RJ(10, '1GbE'), CAGE(2, 'SFP', '1G SFP'), CON, USB, DCJ('DC In 24 V')],
+   'Desktop router, 268 x 136.5 x 31 mm (rack ears optional), 20 W. 10 x 1G RJ45 (24 V passive PoE in on port 0, passthrough out on port 9), '
+   '2 x 1G SFP, console and USB on the front, 24 V DC jack on the rear (external adapter, 9-30 V DC). EdgeMax (discontinued).',
+   'UISP tech specs', 'https://techspecs.ui.com/uisp/wired/er-12', w=8)
+UTS = 'https://techspecs.ui.com/uisp/wired/'
+for sku, dl, up, notes, con in [
+        ('ES-24-250W', [RJ(24, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 250 W total.', 'rear'),
+        ('ES-24-500W', [RJ(24, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 500 W total.', None),
+        ('ES-48-500W', [RJ(48, '1GbE PoE+')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 500 W total.', 'rear'),
+        ('ES-48-750W', [RJ(48, '1GbE PoE+')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 750 W total.', None),
+        ('ES-24-Lite', [RJ(24, '1GbE')], [CAGE(2, 'SFP', '1G SFP')], 'No PoE.', ''),
+        ('ES-48-Lite', [RJ(48, '1GbE')], [CAGE(2, 'SFP+'), CAGE(2, 'SFP', '1G SFP')], 'No PoE.', ''),
+        ('ES-16-XG', [CAGE(12, 'SFP+'), RJ(4, '10GbE')], [], '12 x 10G SFP+ and 4 x 10GBASE-T.', 'rear'),
+        ('ES-16-150W', [RJ(16, '1GbE PoE+')], [CAGE(2, 'SFP', '1G SFP')], '802.3af/at and 24 V passive PoE, 150 W total.', 'rear')]:
+    # con: 'rear' = console seen on the rear in the maker's pictures; None = pictures found but console not visible; '' = no pictures
+    if con == 'rear':
+        UB(sku.lower(), sku, 'EdgeSwitch ' + sku[3:], 'EdgeSwitch', 'network', 1, dl + up + [UCON, AC(1)],
+           '1RU managed switch, RJ45 console on the rear, internal AC PSU. ' + notes + ' EdgeMax (discontinued).',
+           'UISP tech specs', UTS + sku.lower())
+    else:
+        UB(sku.lower(), sku, 'EdgeSwitch ' + sku[3:], 'EdgeSwitch', 'network', 1, dl + up + [CON, AC(1)],
+           '1RU managed switch, RJ45 serial console, internal AC PSU. ' + notes
+           + (' EdgeMax (discontinued). Check: console position (not visible in the maker\'s pictures).' if con is None else EM),
+           'UISP tech specs' if con is None else 'Ubiquiti EdgeMax product information', UTS + sku.lower() if con is None else EMU,
+           verified=False)
 
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids)), f
