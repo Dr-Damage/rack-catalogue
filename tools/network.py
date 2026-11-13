@@ -232,22 +232,32 @@ RT = [('isr4331', 'ISR4331/K9', 'ISR 4331 integrated services router', 'ISR 4000
 for id, pn, name, fam, ru, ports, notes, url in RT:
     CI(id, pn, name, fam, 'network', ru, ports, notes + ' Check: ports and PSU arrangement are from Cisco product knowledge.',
        f'Cisco {fam} product information', f'https://www.cisco.com/c/en/us/products/{url}/index.html', verified=False)
-# Meraki (cloud managed)
+# Meraki (cloud managed): ports, PoE and power from the Meraki installation guides; panels checked against their drawings
 MR = 'https://documentation.meraki.com/'
-for id, pn, name, ports, notes in [
-        ('ms120-24p', 'MS120-24P', 'Meraki MS120-24P switch', [RJ(24, '1GbE PoE+'), CAGE(4, 'SFP', '1G SFP'), AC(1)],
-         '1RU, 370 W PoE budget, internal PSU.'),
-        ('ms225-48fp', 'MS225-48FP', 'Meraki MS225-48FP switch', [RJ(48, '1GbE PoE+'), CAGE(4, 'SFP+', '10G SFP+'), R('io', 'Other', 'Stack', 2, 'Stack'), AC(1)],
-         '1RU, 740 W PoE budget, physical stacking on the rear.'),
-        ('ms250-48fp', 'MS250-48FP', 'Meraki MS250-48FP switch', [RJ(48, '1GbE PoE+'), CAGE(4, 'SFP+', '10G SFP+'), R('io', 'Other', 'Stack', 2, 'Stack'),
-         R('in', 'Power', 'IEC C14', 2, 'PSU')], '1RU, 740 W PoE budget, dual field-replaceable PSUs, stacking on the rear.'),
-        ('mx105', 'MX105', 'Meraki MX105 security appliance', [RJ(2, '1GbE WAN'), CAGE(2, 'SFP+', '10G SFP+ WAN'), RJ(6, '1GbE LAN'),
-         CAGE(2, 'SFP+', '10G SFP+ LAN'), R('in', 'Power', 'IEC C14', 2, 'PSU')], '1RU SD-WAN appliance, dual PSU slots.'),
-        ('mx250', 'MX250', 'Meraki MX250 security appliance', [RJ(8, '1GbE'), CAGE(8, 'SFP', '1G SFP'), CAGE(8, 'SFP+', '10G SFP+'),
-         R('in', 'Power', 'IEC C14', 2, 'PSU')], '1RU SD-WAN appliance, dual hot-swap PSUs.')]:
-    CI('meraki-' + id, pn, name, 'Meraki', 'network', 1, ports,
-       notes + ' Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.',
-       'Cisco Meraki product information', MR, verified=False)
+MRG = MR + 'MS/MS_Installation_Guides/'
+RMGMT = R('io', 'Ethernet', 'RJ45', 1, 'Mgmt')
+for id, pn, name, ports, notes, url in [
+        ('ms120-24p', 'MS120-24P', 'Meraki MS120-24P switch', [RJ(24, '1GbE PoE+'), CAGE(4, 'SFP', '1G SFP'), RMGMT, AC(1)],
+         '1RU Layer 2 switch, 370 W PoE budget, 425 W max, internal PSU. Management RJ45 on the rear.', MRG + 'MS120_Series_Installation_Guide'),
+        ('ms225-48fp', 'MS225-48FP', 'Meraki MS225-48FP switch', [RJ(48, '1GbE PoE+'), CAGE(4, 'SFP+', '10G SFP+'), RMGMT,
+         R('io', 'Other', 'Stack', 2, 'Stack'), R('in', 'Power', 'RPS 22-pin', 1, 'RPS In'), AC(1)],
+         '1RU stackable Layer 2 switch, 740 W PoE budget, 882 W max, fixed internal PSU. Management RJ45, two stack ports and an RPS '
+         'connector (RPS2300) on the rear.', MRG + 'MS225_Series_Installation_Guide'),
+        ('ms250-48fp', 'MS250-48FP', 'Meraki MS250-48FP switch', [RJ(48, '1GbE PoE+'), CAGE(4, 'SFP+', '10G SFP+'), RMGMT,
+         R('io', 'Other', 'Stack', 2, 'Stack'), R('in', 'Power', 'IEC C14', 2, 'PSU')],
+         '1RU stackable Layer 3 switch, 740 W PoE budget, dual hot-swap PSUs (1,025 W). Management RJ45 and two stack ports on the rear.',
+         MRG + 'MS250_Series_Installation_Guide'),
+        ('mx105', 'MX105', 'Meraki MX105 security appliance', [CAGE(2, 'SFP+', '10G SFP+ WAN'), RJ(2, '2.5GbE WAN'), RJ(4, '1GbE LAN'),
+         CAGE(2, 'SFP+', '10G SFP+ LAN'), MGMT, USB, R('in', 'Power', 'IEC C14', 2, 'PSU')],
+         '1RU SD-WAN appliance, 285 mm deep, 123 W max. WAN: 2 x 10G SFP+ and 2 x 2.5G RJ45 (one with PoE+ out). LAN: 4 x 1G RJ45 and '
+         '2 x 10G SFP+. Two hot-swap 150 W PSUs and two fan modules on the rear.',
+         MR + 'MX/MX_Installation_Guides/MX95%2F%2FMX105_Series_Hardware_Installation_Guide'),
+        ('mx250', 'MX250', 'Meraki MX250 security appliance', [CAGE(2, 'SFP+', '10G SFP+ WAN'), RJ(8, '1GbE'), CAGE(8, 'SFP', '1G SFP'),
+         CAGE(8, 'SFP+', '10G SFP+'), MGMT, USB, R('in', 'Power', 'IEC C14', 2, 'PSU')],
+         '1RU SD-WAN appliance. 2 x 10G SFP+ internet uplinks, 8 x 1G RJ45, 8 x 1G SFP and 8 x 10G SFP+. Dual hot-swap PSUs and fan '
+         'modules on the rear.', MR + 'MX/MX_Installation_Guides/MX250_Installation_Guide')]:
+    CI('meraki-' + id, pn, name, 'Meraki', 'network', 1, ports, notes + ' Cloud managed (no console port).',
+       'Cisco Meraki installation guide', url)
 
 # ======================= Ubiquiti =======================
 UB = lambda *a, **k: add('ubiquiti.json', 'ubiquiti-', 'Ubiquiti', *a, **k)

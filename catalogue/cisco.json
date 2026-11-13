@@ -3069,10 +3069,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Cisco Meraki product information",
-  "productUrl": "https://documentation.meraki.com/",
-  "notes": "1RU, 370 W PoE budget, internal PSU. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "verified": true,
+  "source": "Cisco Meraki installation guide",
+  "productUrl": "https://documentation.meraki.com/MS/MS_Installation_Guides/MS120_Series_Installation_Guide",
+  "notes": "1RU Layer 2 switch, 370 W PoE budget, 425 W max, internal PSU. Management RJ45 on the rear. Cloud managed (no console port).",
   "portGroups": [
    {
     "face": "front",
@@ -3089,6 +3089,14 @@
     "connector": "SFP",
     "count": 4,
     "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
    },
    {
     "face": "rear",
@@ -3110,10 +3118,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Cisco Meraki product information",
-  "productUrl": "https://documentation.meraki.com/",
-  "notes": "1RU, 740 W PoE budget, physical stacking on the rear. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "verified": true,
+  "source": "Cisco Meraki installation guide",
+  "productUrl": "https://documentation.meraki.com/MS/MS_Installation_Guides/MS225_Series_Installation_Guide",
+  "notes": "1RU stackable Layer 2 switch, 740 W PoE budget, 882 W max, fixed internal PSU. Management RJ45, two stack ports and an RPS connector (RPS2300) on the rear. Cloud managed (no console port).",
   "portGroups": [
    {
     "face": "front",
@@ -3134,10 +3142,26 @@
    {
     "face": "rear",
     "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
     "type": "Other",
     "connector": "Stack",
     "count": 2,
     "prefix": "Stack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "RPS 22-pin",
+    "count": 1,
+    "prefix": "RPS In"
    },
    {
     "face": "rear",
@@ -3159,10 +3183,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Cisco Meraki product information",
-  "productUrl": "https://documentation.meraki.com/",
-  "notes": "1RU, 740 W PoE budget, dual field-replaceable PSUs, stacking on the rear. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "verified": true,
+  "source": "Cisco Meraki installation guide",
+  "productUrl": "https://documentation.meraki.com/MS/MS_Installation_Guides/MS250_Series_Installation_Guide",
+  "notes": "1RU stackable Layer 3 switch, 740 W PoE budget, dual hot-swap PSUs (1,025 W). Management RJ45 and two stack ports on the rear. Cloud managed (no console port).",
   "portGroups": [
    {
     "face": "front",
@@ -3179,6 +3203,14 @@
     "connector": "SFP+",
     "count": 4,
     "prefix": "10G SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
    },
    {
     "face": "rear",
@@ -3208,19 +3240,11 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Cisco Meraki product information",
-  "productUrl": "https://documentation.meraki.com/",
-  "notes": "1RU SD-WAN appliance, dual PSU slots. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "verified": true,
+  "source": "Cisco Meraki installation guide",
+  "productUrl": "https://documentation.meraki.com/MX/MX_Installation_Guides/MX95%2F%2FMX105_Series_Hardware_Installation_Guide",
+  "notes": "1RU SD-WAN appliance, 285 mm deep, 123 W max. WAN: 2 x 10G SFP+ and 2 x 2.5G RJ45 (one with PoE+ out). LAN: 4 x 1G RJ45 and 2 x 10G SFP+. Two hot-swap 150 W PSUs and two fan modules on the rear. Cloud managed (no console port).",
   "portGroups": [
-   {
-    "face": "front",
-    "dir": "io",
-    "type": "Ethernet",
-    "connector": "RJ45",
-    "count": 2,
-    "prefix": "1GbE WAN"
-   },
    {
     "face": "front",
     "dir": "io",
@@ -3234,7 +3258,15 @@
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 6,
+    "count": 2,
+    "prefix": "2.5GbE WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
     "prefix": "1GbE LAN"
    },
    {
@@ -3244,6 +3276,22 @@
     "connector": "SFP+",
     "count": 2,
     "prefix": "10G SFP+ LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
    },
    {
     "face": "rear",
@@ -3265,11 +3313,19 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Cisco Meraki product information",
-  "productUrl": "https://documentation.meraki.com/",
-  "notes": "1RU SD-WAN appliance, dual hot-swap PSUs. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "verified": true,
+  "source": "Cisco Meraki installation guide",
+  "productUrl": "https://documentation.meraki.com/MX/MX_Installation_Guides/MX250_Installation_Guide",
+  "notes": "1RU SD-WAN appliance. 2 x 10G SFP+ internet uplinks, 8 x 1G RJ45, 8 x 1G SFP and 8 x 10G SFP+. Dual hot-swap PSUs and fan modules on the rear. Cloud managed (no console port).",
   "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+ WAN"
+   },
    {
     "face": "front",
     "dir": "io",
@@ -3293,6 +3349,22 @@
     "connector": "SFP+",
     "count": 8,
     "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
    },
    {
     "face": "rear",
