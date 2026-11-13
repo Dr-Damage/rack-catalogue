@@ -12,7 +12,7 @@
   "verified": true,
   "source": "MikroTik CRS326-24G-2S+RM product page",
   "productUrl": "https://mikrotik.com/product/CRS326-24G-2SplusRM",
-  "notes": "1RU, rack ears included. 443 x 144 mm deep, 24 W. Dual boot RouterOS / SwOS. Powered by a 24 V adapter (included) or passive PoE-in on port 1. Check: DC jack side (drawn on the rear).",
+  "notes": "1RU, rack ears included. 443 x 144 mm deep, 24 W. Dual boot RouterOS / SwOS. Powered by a 24 V adapter (included) or passive PoE-in on port 1. DC jack on the rear (maker photo).",
   "portGroups": [
    {
     "face": "front",
@@ -61,7 +61,7 @@
   "verified": true,
   "source": "MikroTik CSS326-24G-2S+RM product page",
   "productUrl": "https://mikrotik.com/product/CSS326-24G-2SplusRM",
-  "notes": "1RU, rack ears included. 443 x 144 mm deep, 19 W. SwOS only. Powered by a 24 V adapter (included) or passive PoE-in on port 1. Check: DC jack side.",
+  "notes": "1RU, rack ears included. 443 x 144 mm deep, 19 W. SwOS only. Powered by a 24 V adapter (included) or passive PoE-in on port 1. DC jack on the rear (maker photo).",
   "portGroups": [
    {
     "face": "front",
@@ -1168,7 +1168,7 @@
   "verified": true,
   "source": "MikroTik RB4011iGS+RM product page",
   "productUrl": "https://mikrotik.com/product/rb4011igs_rm",
-  "notes": "1RU, rack ears included. Desktop case (228 x 120 mm) on 1U rack ears. Port 10 has passive PoE-out; powered by DC jack or passive PoE-in on port 1. Check: DC jack side.",
+  "notes": "1RU, rack ears included. Desktop case (228 x 120 mm) on 1U rack ears. Port 10 has passive PoE-out; powered by DC jack or passive PoE-in on port 1. The front has only the ports, SFP+ and reset, so the RJ45 console and DC jack are drawn on the rear.",
   "portGroups": [
    {
     "face": "front",
@@ -1187,7 +1187,7 @@
     "prefix": "SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "RJ45",

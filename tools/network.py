@@ -31,10 +31,10 @@ def mk(code, slug, name, fam, ports, notes, **k):
 mk('CRS326-24G-2S+RM', 'crs326-24g-2s-rm', '24-port Gigabit switch', 'CRS',
    [RJ(24, '1GbE'), CAGE(2, 'SFP+'), CON, DCJ('DC In 10-30 V')],
    '443 x 144 mm deep, 24 W. Dual boot RouterOS / SwOS. Powered by a 24 V adapter (included) or passive PoE-in on port 1. '
-   'Check: DC jack side (drawn on the rear).', url='CRS326-24G-2SplusRM')
+   'DC jack on the rear (maker photo).', url='CRS326-24G-2SplusRM')
 mk('CSS326-24G-2S+RM', 'css326-24g-2s-rm', '24-port Gigabit switch (SwOS)', 'CSS',
    [RJ(24, '1GbE'), CAGE(2, 'SFP+'), DCJ('DC In 10-30 V')],
-   '443 x 144 mm deep, 19 W. SwOS only. Powered by a 24 V adapter (included) or passive PoE-in on port 1. Check: DC jack side.',
+   '443 x 144 mm deep, 19 W. SwOS only. Powered by a 24 V adapter (included) or passive PoE-in on port 1. DC jack on the rear (maker photo).',
    url='CSS326-24G-2SplusRM')
 mk('CRS328-24P-4S+RM', 'crs328-24p-4s-rm', '24-port PoE switch', 'CRS',
    [RJ(24, '1GbE PoE+'), CAGE(4, 'SFP+'), CON, AC(1)],
@@ -101,9 +101,9 @@ mk('RB1100AHx4', 'rb1100ahx4', 'router', 'RouterBOARD',
    '443 x 148 mm deep, 20 W. 13 x Gigabit, RS232 console, microSD, dual redundant AC supplies plus 2 DC terminal inputs '
    '(-48 V or 12-57 V) and PoE-in. The Dude Edition (RB1100Dx4) adds a 60 GB M.2 drive.', url='rb1100ahx4')
 mk('RB4011iGS+RM', 'rb4011igs-rm', 'router', 'RouterBOARD',
-   [RJ(10, '1GbE'), CAGE(1, 'SFP+'), CON, DCJ('DC In 12-57 V')],
+   [RJ(10, '1GbE'), CAGE(1, 'SFP+'), R('io', 'Other', 'RJ45', 1, 'Console'), DCJ('DC In 12-57 V')],
    'Desktop case (228 x 120 mm) on 1U rack ears. Port 10 has passive PoE-out; powered by DC jack or passive PoE-in on port 1. '
-   'Check: DC jack side.', url='rb4011igs_rm')
+   'The front has only the ports, SFP+ and reset, so the RJ45 console and DC jack are drawn on the rear.', url='rb4011igs_rm')
 
 # ======================= Cisco =======================
 CI = lambda *a, **k: add('cisco.json', 'cisco-', 'Cisco', *a, **k)
