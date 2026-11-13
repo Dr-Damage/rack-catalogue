@@ -2456,7 +2456,7 @@
   "verified": false,
   "source": "Cisco ISR 4000 product information",
   "productUrl": "https://www.cisco.com/c/en/us/products/isr-4000-series-integrated-services-routers/index.html",
-  "notes": "1RU branch router, 3 onboard GE (2 RJ45 + 1 SFP), 2 NIM slots and 1 service-module slot, single internal AC PSU (PoE option). End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "notes": "1RU branch router, 3 onboard GE (2 RJ45 + 1 SFP), 2 NIM slots and 1 service-module slot, single internal AC PSU (PoE option). End of sale. The I/O side, which Cisco calls the rear panel, is drawn as the front (Cisco Visio drawing). Check: ports and PSU arrangement are from Cisco product knowledge.",
   "portGroups": [
    {
     "face": "front",
@@ -2545,7 +2545,7 @@
   "verified": false,
   "source": "Cisco ISR 4000 product information",
   "productUrl": "https://www.cisco.com/c/en/us/products/isr-4000-series-integrated-services-routers/index.html",
-  "notes": "1RU router, 4 onboard GE (RJ45 or SFP), 3 NIM slots, dual hot-swap PSUs. End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "notes": "1RU router, 4 onboard GE (RJ45 or SFP), 3 NIM slots, dual hot-swap PSUs. End of sale. The I/O side, which Cisco calls the rear panel, is drawn as the front (Cisco Visio drawing). Check: ports and PSU arrangement are from Cisco product knowledge.",
   "portGroups": [
    {
     "face": "front",
@@ -2861,7 +2861,7 @@
   "verified": false,
   "source": "Cisco Firepower product information",
   "productUrl": "https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html",
-  "notes": "1RU next-generation firewall, 8 x 1G RJ45, 4 x 1G SFP, single AC PSU. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "notes": "1RU next-generation firewall, 8 x 1G RJ45, 4 x 1G SFP, single AC PSU on the I/O side. The I/O side, which Cisco calls the rear panel, is drawn as the front (Cisco Visio drawing). Check: ports and PSU arrangement are from Cisco product knowledge.",
   "portGroups": [
    {
     "face": "front",
@@ -2912,7 +2912,7 @@
     "prefix": "USB"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",
@@ -3007,7 +3007,7 @@
   "verified": false,
   "source": "Cisco ASA 5500-X product information",
   "productUrl": "https://www.cisco.com/c/en/us/products/security/asa-5500-series-next-generation-firewalls/index.html",
-  "notes": "1RU firewall, 8 x 1G RJ45, one I/O expansion slot, optional second PSU. End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "notes": "1RU firewall, 8 x 1G RJ45, one I/O expansion slot, AC PSU on the I/O side (optional second PSU). End of sale. The I/O side, which Cisco calls the rear panel, is drawn as the front (Cisco Visio drawing). Check: ports and PSU arrangement are from Cisco product knowledge.",
   "portGroups": [
    {
     "face": "front",
@@ -3050,7 +3050,7 @@
     "prefix": "USB"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "in",
     "type": "Power",
     "connector": "IEC C14",

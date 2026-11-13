@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "9e547691ca7a",
- "updated": "2026-11-13T04:33:39Z",
+ "version": "3bf6cc2b1a0b",
+ "updated": "2026-11-13T05:43:33Z",
  "entries": 679,
  "files": {
   "ross.json": {
@@ -245,9 +245,9 @@
    "bytes": 26514
   },
   "cisco.json": {
-   "sha256": "c7814be550ef701991ce3c906dc5d9b200dfe766574d1162f65af43a2ce9e756",
+   "sha256": "e13249464bb1e1fcf3eb14c8a51e4db2ffeb28dfb0ac841ff463c5ec1aec9efb",
    "entries": 49,
-   "bytes": 77106
+   "bytes": 77521
   },
   "ubiquiti.json": {
    "sha256": "61d5911c58d3ac30303c19ee137305483ed74de3acb4ad7e038d7f205c9e9096",
