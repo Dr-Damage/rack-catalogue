@@ -17,6 +17,8 @@ Each file is an array of models:
 | `source`, `productUrl`, `notes` | where the data came from; notes start any doubt with "Check:" |
 | `portGroups` | `[{face: front/rear, dir: in/out/io, type, connector, count, prefix}]`; `type` is one of the app's signal types (12G-SDI, 3G-SDI, HD-SDI, HDMI, DisplayPort, Ethernet, Fibre, SFP, Reference, RS-422, USB, Power, Analog audio, AES/EBU, Dante/AES67, Other) or a descriptive one such as Timecode or MADI audio |
 | optional | `frontImg`/`rearImg` (`panels/<id>-F.jpg`), `frontAR`/`rearAR` (width/height), `screens {count,sizeIn,aspect}`, `boxMm {w,h}` |
+| desktop units | `boxMm {w,h}` draws a desktop box (Mac mini, NUC) at real size on its shelf space; `formFactor` names its body shape (`Mac mini (2024+)`, `Mac mini (2018-2023)`, `Mac Studio`, `NUC 4x4 tall`, `NUC 4x4 slim`, `NUC Pro+ slim`) |
+| rack kits | a shelf or enclosure (category `shelf`) that holds desktop units has `carrier {bays, fits}`: how many it holds and the `formFactor`s it takes (Sonnet RackMac, Penn Elcom R1498, MyElectronics NUC mounts; `tools/computers.py`) |
 
 Card-based frames (Ultrix, openGear) list only the fixed frame ports; card I/O is added per device.
 Generator scripts live in `../tools/` (e.g. `tools/ross.py`).

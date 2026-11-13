@@ -1,0 +1,68 @@
+[
+ {
+  "id": "sonnet-rack-min-3x",
+  "manufacturer": "Sonnet Technologies",
+  "partNumber": "RACK-MIN-3X",
+  "name": "RackMac mini (2024+) 2U enclosure for 3 Mac mini",
+  "family": "RackMac",
+  "category": "shelf",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sonnet RackMac mini (2024+) dealer listing (Adorama)",
+  "productUrl": "https://www.adorama.com/snrackmin3x.html",
+  "notes": "2U steel enclosure, 483 x 131 mm deep (5.2 in mounting depth), 2.7 kg. Holds one to three Mac mini (2024 and later) side by side. Each bay has a front power button that presses the Mac's underside button; front and rear openings reach all the Macs' ports; space under each Mac for a 4 x 4 x 0.5 in USB SSD. Add each Mac mini as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Mac mini (2024+)"
+   ]
+  }
+ },
+ {
+  "id": "sonnet-rack-min-2xa",
+  "manufacturer": "Sonnet Technologies",
+  "partNumber": "RACK-MIN-2XA",
+  "name": "RackMac mini (2018-2023) 1U enclosure for 2 Mac mini",
+  "family": "RackMac",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sonnet RackMac mini (2018) dealer listing (B&H)",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1449876-REG/sonnet_rack_min_2xa_rackmac_mini_rackmount_enclosure.html",
+  "notes": "1U steel enclosure, 483 x 216 mm (8.25 in mounting depth), 3 kg. Holds two Mac mini (2011 to 2023, Intel, M1 and M2) side by side. Front: a power button and a USB 3 port for each Mac; open back with cable tie points. Add each Mac mini as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "Mac mini (2018-2023)"
+   ]
+  }
+ },
+ {
+  "id": "sonnet-rack-std-2x",
+  "manufacturer": "Sonnet Technologies",
+  "partNumber": "RACK-STD-2X",
+  "name": "RackMac Studio 3U enclosure for 1 or 2 Mac Studio",
+  "family": "RackMac",
+  "category": "shelf",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Sonnet RackMac Studio product page",
+  "productUrl": "https://www.sonnetstore.com/products/rackmac-studio",
+  "notes": "3U steel enclosure, 9.5 in (241 mm) mounting depth. Holds one or two Mac Studio. Removable front panel with a power button for each Mac, pass-through USB-A ports, and access to the Macs' front ports and SD slots; open back. Space under each Mac for up to three Thunderbolt or USB SSDs. Add each Mac Studio as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "Mac Studio"
+   ]
+  }
+ }
+]

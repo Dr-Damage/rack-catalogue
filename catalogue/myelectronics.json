@@ -1,0 +1,93 @@
+[
+ {
+  "id": "myelectronics-6514",
+  "manufacturer": "MyElectronics",
+  "partNumber": "6514",
+  "name": "19\" 1U rack mount for 1-3 slim NUCs",
+  "family": "NUC rack mounts",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MyElectronics product page",
+  "productUrl": "https://www.myelectronics.nl/us/nuc-minipc-19-rackmount-kit-1-3-nucs.html",
+  "notes": "1U, three bays for slim (K) 4 x 4 in NUCs: NUC 7 to NUC 15 Pro. Three blanked openings on the front for optional LAN, USB, USB-C, HDMI, DisplayPort or audio feed-through inserts; blank covers for empty bays sold separately. Add each NUC as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "NUC 4x4 slim"
+   ]
+  }
+ },
+ {
+  "id": "myelectronics-6534",
+  "manufacturer": "MyElectronics",
+  "partNumber": "6534",
+  "name": "19\" 1.5U rack mount for 1-3 tall NUCs",
+  "family": "NUC rack mounts",
+  "category": "shelf",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MyElectronics product page",
+  "productUrl": "https://www.myelectronics.nl/us/nuc-minipc-15u-19-rackmount-kit.html",
+  "notes": "1.5U (shown as 2RU), three bays for tall (H) 4 x 4 in NUCs: NUC 8 to NUC 15 Pro. Three blanked openings on the front for optional connector inserts. Add each NUC as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "NUC 4x4 tall",
+    "NUC 4x4 slim"
+   ]
+  }
+ },
+ {
+  "id": "myelectronics-6547",
+  "manufacturer": "MyElectronics",
+  "partNumber": "6547",
+  "name": "19\" 3U rack for 1-8 NUCs (expandable to 12)",
+  "family": "NUC rack mounts",
+  "category": "shelf",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MyElectronics product page",
+  "productUrl": "https://www.myelectronics.nl/us/nuc-minipc-19-3u-rackmount-kit-for-1-12-nucs.html",
+  "notes": "3U, 8 mounting plates for tall (H) NUCs, or up to 12 slim (K) NUCs with 4 extra plates; tall and slim can be mixed. NUC 10 to NUC 13 Pro, NUC 14 and NUC 15 Pro (not NUC 15 Pro+). Optional front LAN, USB 3.0 and HDMI inserts. Add each NUC as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 12,
+   "fits": [
+    "NUC 4x4 tall",
+    "NUC 4x4 slim"
+   ]
+  }
+ },
+ {
+  "id": "myelectronics-nuc-pro-plus-1u",
+  "manufacturer": "MyElectronics",
+  "partNumber": "1U NUC Essential/Pro/Pro+",
+  "name": "19\" 1U rack mount for 1-3 NUC Essential, Pro or Pro+",
+  "family": "NUC rack mounts",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MyElectronics NUC rack mounts list",
+  "productUrl": "https://www.myelectronics.nl/us/19-inch-1u-rack-mount-for-13-nuc-essential-pro-pro.html",
+  "notes": "1U, three bays for ASUS NUC Essential, Pro and Pro+ units. Add each NUC as its own device. Check: article number and which heights fit.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "NUC 4x4 slim",
+    "NUC Pro+ slim"
+   ]
+  }
+ }
+]

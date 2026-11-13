@@ -1,0 +1,47 @@
+[
+ {
+  "id": "pennelcom-r1498-3uk-macstudio",
+  "manufacturer": "Penn Elcom",
+  "partNumber": "R1498/3UK-MACSTUDIO",
+  "name": "3U vented rack shelf with magnetic faceplate for 1 Mac Studio",
+  "family": "R1498",
+  "category": "shelf",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Penn Elcom product page",
+  "productUrl": "https://penn-elcom.com/es_en/3u-vented-rack-shelf-with-cnc-cut-magnetic-faceplates-for-1-x-mac-studio",
+  "notes": "3U vented 2 mm steel shelf, 366 mm deep, 3.6 kg, 38 kg load. CNC-cut magnetic faceplate for one Mac Studio and an R1288/CBK clamp bar. Lift the faceplate off to reach the Mac's power button. Add the Mac Studio as its own device.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 1,
+   "fits": [
+    "Mac Studio"
+   ]
+  }
+ },
+ {
+  "id": "pennelcom-r1498-2uk-macmini",
+  "manufacturer": "Penn Elcom",
+  "partNumber": "R1498/2UK-MACMINI",
+  "name": "2U vented rack shelf with magnetic faceplate for 1 Mac mini",
+  "family": "R1498",
+  "category": "shelf",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Penn Elcom product listing",
+  "productUrl": "https://www.penn-elcom.com/es/estanteria-con-ventilacion-2u-con-placa-frontal-magnetica-para-1x-mac-mini-r1498-2uk-mac-mini-13",
+  "notes": "2U vented steel shelf with a CNC-cut magnetic faceplate for one Mac mini. Add the Mac mini as its own device. Check: full part number (listed as R1498/2UK-MACMINI13) and which Mac mini generation the faceplate is cut for.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 1,
+   "fits": [
+    "Mac mini (2024+)",
+    "Mac mini (2018-2023)"
+   ]
+  }
+ }
+]

@@ -1,0 +1,522 @@
+[
+ {
+  "id": "intel-nuc13anh",
+  "manufacturer": "Intel",
+  "partNumber": "NUC13ANH",
+  "name": "NUC 13 Pro kit, tall (NUC13ANH)",
+  "family": "NUC 13 Pro",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 13 Pro tech specs",
+  "productUrl": "https://www.asus.com/in/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/techspec/",
+  "notes": "117 x 112 x 54 mm (tall chassis). 13th gen Intel Core (Arena Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, 3.5 mm headset jack, power button. Back: 2 x Thunderbolt 4 (USB-C with DisplayPort 1.4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x HDMI 2.1, 2.5GbE (Intel I226), DC in. 90 W 19 V (i3) or 120 W 20 V (i5/i7) adapter. Needs 2RU on a shelf; three per MyElectronics 1.5U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19-20V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 54
+  },
+  "formFactor": "NUC 4x4 tall",
+  "powerW": 120
+ },
+ {
+  "id": "intel-nuc12wsh",
+  "manufacturer": "Intel",
+  "partNumber": "NUC12WSH",
+  "name": "NUC 12 Pro kit, tall (NUC12WSH)",
+  "family": "NUC 12 Pro",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Intel NUC12WS Technical Product Specification",
+  "productUrl": "https://www.intel.com/content/dam/support/us/en/documents/intel-nuc/NUC12WS_TechProdSpec.pdf",
+  "notes": "117 x 112 x 54 mm (tall chassis). 12th gen Intel Core (Wall Street Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, 3.5 mm headset jack, power button. Back: 12-20 V DC jack, 2 x HDMI 2.0b, 2.5GbE (Intel I225), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x Thunderbolt 4 (USB-C; not on Lite models). 90 W 19 V (i3) or 120 W 20 V (i5/i7) adapter. Needs 2RU on a shelf; three per MyElectronics 1.5U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12-20V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 54
+  },
+  "formFactor": "NUC 4x4 tall",
+  "powerW": 120
+ },
+ {
+  "id": "intel-nuc11tnh",
+  "manufacturer": "Intel",
+  "partNumber": "NUC11TNH",
+  "name": "NUC 11 Pro kit, tall (NUC11TNH)",
+  "family": "NUC 11 Pro",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Simply NUC NUC11TN product brief",
+  "productUrl": "https://simplynuc.com/wp-content/uploads/briefs/SimplyNUCProductBrief-11TNHi5.pdf",
+  "notes": "117 x 112 x 54 mm (tall chassis). 11th gen Intel Core (Tiger Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, power button. Back: 1 x Thunderbolt 4 and 1 x Thunderbolt 3 (USB-C), 2 x HDMI 2.0b, 2.5GbE, 19 V DC. Check: rear USB-A count (the product brief lists both one and three USB 2.0 ports). Needs 2RU on a shelf; three per MyElectronics 1.5U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.0b"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 54
+  },
+  "formFactor": "NUC 4x4 tall"
+ },
+ {
+  "id": "intel-nuc13ank",
+  "manufacturer": "Intel",
+  "partNumber": "NUC13ANK",
+  "name": "NUC 13 Pro kit, slim (NUC13ANK)",
+  "family": "NUC 13 Pro",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 13 Pro tech specs",
+  "productUrl": "https://www.asus.com/in/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/techspec/",
+  "notes": "117 x 112 x 37 mm (slim chassis). 13th gen Intel Core (Arena Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, 3.5 mm headset jack, power button. Back: 2 x Thunderbolt 4 (USB-C with DisplayPort 1.4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x HDMI 2.1, 2.5GbE (Intel I226), DC in. 90 W 19 V (i3) or 120 W 20 V (i5/i7) adapter. Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19-20V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 37
+  },
+  "formFactor": "NUC 4x4 slim",
+  "powerW": 120
+ },
+ {
+  "id": "intel-nuc12wsk",
+  "manufacturer": "Intel",
+  "partNumber": "NUC12WSK",
+  "name": "NUC 12 Pro kit, slim (NUC12WSK)",
+  "family": "NUC 12 Pro",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Intel NUC12WS Technical Product Specification",
+  "productUrl": "https://www.intel.com/content/dam/support/us/en/documents/intel-nuc/NUC12WS_TechProdSpec.pdf",
+  "notes": "117 x 112 x 37 mm (slim chassis). 12th gen Intel Core (Wall Street Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, 3.5 mm headset jack, power button. Back: 12-20 V DC jack, 2 x HDMI 2.0b, 2.5GbE (Intel I225), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x Thunderbolt 4 (USB-C; not on Lite models). 90 W 19 V (i3) or 120 W 20 V (i5/i7) adapter. Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12-20V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 37
+  },
+  "formFactor": "NUC 4x4 slim",
+  "powerW": 120
+ },
+ {
+  "id": "intel-nuc11tnk",
+  "manufacturer": "Intel",
+  "partNumber": "NUC11TNK",
+  "name": "NUC 11 Pro kit, slim (NUC11TNK)",
+  "family": "NUC 11 Pro",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Simply NUC NUC11TN product brief",
+  "productUrl": "https://simplynuc.com/wp-content/uploads/briefs/SimplyNUCProductBrief-11TNHi5.pdf",
+  "notes": "117 x 112 x 37 mm (slim chassis). 11th gen Intel Core (Tiger Canyon). Front: 2 x USB 3.2 Gen 2 Type-A, power button. Back: 1 x Thunderbolt 4 and 1 x Thunderbolt 3 (USB-C), 2 x HDMI 2.0b, 2.5GbE, 19 V DC. Check: rear USB-A count (the product brief lists both one and three USB 2.0 ports). Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.0b"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 37
+  },
+  "formFactor": "NUC 4x4 slim"
+ }
+]

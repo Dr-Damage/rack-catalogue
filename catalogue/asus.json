@@ -1,0 +1,437 @@
+[
+ {
+  "id": "asus-nuc15crh",
+  "manufacturer": "ASUS",
+  "partNumber": "NUC15CRH",
+  "name": "NUC 15 Pro, tall (NUC15CRH)",
+  "family": "NUC 15 Pro",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 15 Pro tech specs",
+  "productUrl": "https://www.asus.com/us/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-15-pro/techspec/",
+  "notes": "117 x 112 x 54 mm (tall chassis). Intel Core Ultra 200H (Arrow Lake). Front: USB 3.2 Gen 2x2 Type-C, 2 x USB 3.2 Gen 2 Type-A. Back: 2 x HDMI 2.1, 2 x Thunderbolt 4 (DisplayPort 2.1, USB4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2.5GbE (Intel I226), DC in. 120 W 19 V adapter (90 W for Core 3). Needs 2RU on a shelf; three per MyElectronics 1.5U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 54
+  },
+  "formFactor": "NUC 4x4 tall",
+  "powerW": 120
+ },
+ {
+  "id": "asus-nuc14rvh",
+  "manufacturer": "ASUS",
+  "partNumber": "NUC14RVH",
+  "name": "NUC 14 Pro, tall (NUC14RVH)",
+  "family": "NUC 14 Pro",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 14 Pro tech specs",
+  "productUrl": "https://asus.com/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-14-pro/techspec",
+  "notes": "117 x 112 x 54 mm (tall chassis). Intel Core Ultra (Meteor Lake). Front: USB 3.2 Gen 2x2 Type-C, 2 x USB 3.2 Gen 2 Type-A. Back: 2 x Thunderbolt 4 (USB-C with DisplayPort 1.4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x HDMI 2.1, 2.5GbE (Intel I226), DC in. 90 W or 120 W 19 V adapter. Needs 2RU on a shelf; three per MyElectronics 1.5U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 54
+  },
+  "formFactor": "NUC 4x4 tall",
+  "powerW": 120
+ },
+ {
+  "id": "asus-nuc15crk",
+  "manufacturer": "ASUS",
+  "partNumber": "NUC15CRK",
+  "name": "NUC 15 Pro, slim (NUC15CRK)",
+  "family": "NUC 15 Pro",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 15 Pro tech specs",
+  "productUrl": "https://www.asus.com/us/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-15-pro/techspec/",
+  "notes": "117 x 112 x 36.8 mm (slim chassis). Intel Core Ultra 200H (Arrow Lake). Front: USB 3.2 Gen 2x2 Type-C, 2 x USB 3.2 Gen 2 Type-A. Back: 2 x HDMI 2.1, 2 x Thunderbolt 4 (DisplayPort 2.1, USB4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2.5GbE (Intel I226), DC in. 120 W 19 V adapter (90 W for Core 3). Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 36.8
+  },
+  "formFactor": "NUC 4x4 slim",
+  "powerW": 120
+ },
+ {
+  "id": "asus-nuc14rvk",
+  "manufacturer": "ASUS",
+  "partNumber": "NUC14RVK",
+  "name": "NUC 14 Pro, slim (NUC14RVK)",
+  "family": "NUC 14 Pro",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 14 Pro tech specs",
+  "productUrl": "https://asus.com/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-14-pro/techspec",
+  "notes": "117 x 112 x 37 mm (slim chassis). Intel Core Ultra (Meteor Lake). Front: USB 3.2 Gen 2x2 Type-C, 2 x USB 3.2 Gen 2 Type-A. Back: 2 x Thunderbolt 4 (USB-C with DisplayPort 1.4), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x HDMI 2.1, 2.5GbE (Intel I226), DC in. 90 W or 120 W 19 V adapter. Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 117,
+   "h": 37
+  },
+  "formFactor": "NUC 4x4 slim",
+  "powerW": 120
+ },
+ {
+  "id": "asus-nuc14rvs",
+  "manufacturer": "ASUS",
+  "partNumber": "NUC14RVS",
+  "name": "NUC 14 Pro+ (NUC14RVS)",
+  "family": "NUC 14 Pro+",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 14 Pro+ datasheet",
+  "productUrl": "https://dlcdnwebimgs.asus.com/files/media/4c4cc2ec-f3e9-4d35-b413-29c8524857a3/asus-nuc-14-pro-plus-datasheet.pdf",
+  "notes": "144 x 112 x 41 mm (slim chassis). Intel Core Ultra (Meteor Lake), aluminium tool-less chassis. Front: USB 3.2 Gen 2x2 Type-C, 2 x USB 3.2 Gen 2 Type-A. Back: 2 x Thunderbolt 4 (USB-C with DisplayPort 2.1), USB 3.2 Gen 2 Type-A, USB 2.0 Type-A, 2 x HDMI 2.1, 2.5GbE (Intel I226), DC in. 150 W 19.5 V (Core Ultra 9) or 120 W 19 V adapter. Needs 1RU on a shelf; three per MyElectronics 1U NUC rack kit.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 19V"
+   }
+  ],
+  "boxMm": {
+   "w": 144,
+   "h": 41
+  },
+  "formFactor": "NUC Pro+ slim",
+  "powerW": 150
+ }
+]
