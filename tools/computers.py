@@ -30,7 +30,9 @@ def DCIN(label='DC In 19V'): return R('in', 'Power', 'DC barrel', 1, label)
 AP = lambda *a, **k: add('apple.json', 'apple-', 'Apple', *a, **k)
 SUP = 'https://support.apple.com/'
 SHELF = ' Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom).'
-CORD = ' Check: AC inlet type (figure-8 assumed).'
+CORD = ' AC inlet is a figure-8 IEC C8 (C7 cord), per Apple\'s port drawings.'
+SCORD = ' AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple\'s port drawings.'
+STUDIO_AC = R('in', 'Power', 'IEC C6 inlet (cloverleaf)', 1, 'AC In')
 
 # Mac mini, 2024 and later: 127 x 127 x 50 mm, front USB-C and headphones, power button underneath
 for chip, yr, pn, tb, lan, w_kg, url in [
@@ -71,19 +73,19 @@ for yr, chip, tb, watts, kg, url in [
     ultra = 'Ultra' in chip
     front = TB(2, tb, 'front') if ultra else UC(2, 'USB-C (10 Gb/s)')
     AP(f'mac-studio-{chip.lower().replace(" ", "-")}', f'Mac Studio ({chip})', f'Mac Studio ({chip}, {yr})', 'Mac Studio', 'computer', 3,
-       [front, TB(4, tb), UA(2, 'USB-A (5 Gb/s)'), HD(1, 'HDMI 2.1' if yr >= 2025 else 'HDMI'), LAN(1, '10Gb Ethernet'), HP(), APPLE_AC],
+       [front, TB(4, tb), UA(2, 'USB-A (5 Gb/s)'), HD(1, 'HDMI 2.1' if yr >= 2025 else 'HDMI'), LAN(1, '10Gb Ethernet'), HP(), STUDIO_AC],
        f'197 x 197 x 95 mm, {kg} kg, {watts} W max. Back: 4 x Thunderbolt {tb} (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, '
        '1/2.5/5/10Gb), 3.5 mm headphone jack. Front: ' + (f'2 x Thunderbolt {tb}' if ultra else '2 x USB-C (10 Gb/s)')
-       + ' and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U).' + SHELF + CORD,
+       + ' and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U).' + SHELF + SCORD,
        f'Apple Mac Studio ({yr}) tech specs', url, w=5, boxMm={'w': 197, 'h': 95}, powerW=watts, formFactor='Mac Studio')
 
 AP('mac-pro-rack-2023', 'Mac Pro (Rack, 2023)', 'Mac Pro (Rack, 2023) M2 Ultra 5U', 'Mac Pro', 'computer', 5,
    [TB(2, 4, 'front'), TB(6, 4), UA(2, 'USB-A (5 Gb/s)'), HD(2), LAN(2, '10Gb Ethernet'), HP(),
-    R('io', 'Other', 'Card slot', 6, 'PCIe Gen 4 slot'), R('in', 'Power', 'AC inlet', 1, 'AC In')],
+    R('io', 'Other', 'Card slot', 6, 'PCIe Gen 4 slot'), R('in', 'Power', 'IEC C14 inlet', 1, 'AC In')],
    '5U rack-mount, 482 mm wide, 493.5 mm deep from the fascia (539.5 mm with handles), fits racks 610 to 1067 mm deep; 17.2 kg. '
    'Front: power button, status light, 2 x Thunderbolt 4. Back: 6 x Thunderbolt 4, 2 x USB-A, 2 x HDMI, 2 x 10Gb Ethernet, '
    '3.5 mm headphone jack, power. 6 full-length PCIe Gen 4 slots (2 x16, 4 x8) plus the Apple I/O card slot; add capture, '
-   'SDI and network card ports as extra ports. 1280 W max (12 A at 100-125 V, 6 A at 220-240 V). Check: AC inlet type.',
+   'SDI and network card ports as extra ports. 1280 W max (12 A at 100-125 V, 6 A at 220-240 V); IEC C14 inlet per Apple\'s drawing.',
    'Apple Mac Pro (Rack, 2023) tech specs and Mac Pro (Rack) tour', SUP + '111836', full=True, powerW=1280)
 
 # ======================= Intel NUC (Intel-branded kits, now supported by ASUS) =======================

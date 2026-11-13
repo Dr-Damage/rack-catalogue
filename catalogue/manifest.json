@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "9901c066bfdb",
- "updated": "2026-11-13T06:32:00Z",
+ "version": "983a38822d5c",
+ "updated": "2026-11-13T06:47:48Z",
  "entries": 716,
  "files": {
   "ross.json": {
@@ -255,9 +255,9 @@
    "bytes": 53571
   },
   "apple.json": {
-   "sha256": "ba26fa2558bb92f2c7a6ea02366f49d3f1822c9cb43c02f16a7dd1b8e44c75a7",
+   "sha256": "816d96617518d88485ba67e78f86f63eb78fce9cec5a9f617fcd0badf86f7924",
    "entries": 17,
-   "bytes": 30617
+   "bytes": 31307
   },
   "intel.json": {
    "sha256": "a5acf108065a91ecab64acbb510d0b688a41bc4f5845acdb8c90a85a2493213b",

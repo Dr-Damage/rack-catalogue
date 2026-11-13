@@ -12,7 +12,7 @@
   "verified": true,
   "source": "Apple Mac mini (2026) tech specs",
   "productUrl": "https://support.apple.com/128108",
-  "notes": "127 x 127 x 50 mm, 0.67 kg, 155 W max. Back: 2.5Gb Ethernet (10Gb option), HDMI, 3 x Thunderbolt 4 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "127 x 127 x 50 mm, 0.67 kg, 155 W max. Back: 2.5Gb Ethernet (10Gb option), HDMI, 3 x Thunderbolt 4 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -83,7 +83,7 @@
   "verified": true,
   "source": "Apple Mac mini (2026) tech specs",
   "productUrl": "https://support.apple.com/128108",
-  "notes": "127 x 127 x 50 mm, 0.73 kg, 155 W max. Back: 2.5Gb Ethernet (10Gb option), HDMI, 3 x Thunderbolt 5 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Genlock on the Thunderbolt 5 ports. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "127 x 127 x 50 mm, 0.73 kg, 155 W max. Back: 2.5Gb Ethernet (10Gb option), HDMI, 3 x Thunderbolt 5 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Genlock on the Thunderbolt 5 ports. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -154,7 +154,7 @@
   "verified": true,
   "source": "Apple Mac mini (2024) tech specs",
   "productUrl": "https://support.apple.com/121555",
-  "notes": "127 x 127 x 50 mm, 0.67 kg, 155 W max. Back: Gigabit Ethernet (10Gb option), HDMI, 3 x Thunderbolt 4 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "127 x 127 x 50 mm, 0.67 kg, 155 W max. Back: Gigabit Ethernet (10Gb option), HDMI, 3 x Thunderbolt 4 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -225,7 +225,7 @@
   "verified": true,
   "source": "Apple Mac mini (2024) tech specs",
   "productUrl": "https://support.apple.com/121555",
-  "notes": "127 x 127 x 50 mm, 0.73 kg, 155 W max. Back: Gigabit Ethernet (10Gb option), HDMI, 3 x Thunderbolt 5 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "127 x 127 x 50 mm, 0.73 kg, 155 W max. Back: Gigabit Ethernet (10Gb option), HDMI, 3 x Thunderbolt 5 (USB-C, also DisplayPort). Front: 2 x USB-C (USB 3, 10 Gb/s) and a 3.5 mm headphone jack. Power button on the underside. Needs 2RU on a shelf (50 mm tall). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -296,7 +296,7 @@
   "verified": true,
   "source": "Apple Mac mini (M2 Pro, 2023) tech specs",
   "productUrl": "https://support.apple.com/111837",
-  "notes": "197 x 197 x 36 mm, 1.28 kg, 185 W max. Every port is on the back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 36 mm, 1.28 kg, 185 W max. Every port is on the back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "rear",
@@ -367,7 +367,7 @@
   "verified": true,
   "source": "Apple Mac mini (M2, 2023) tech specs",
   "productUrl": "https://support.apple.com/111837",
-  "notes": "197 x 197 x 36 mm, 1.18 kg, 150 W max. Every port is on the back: 2 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 36 mm, 1.18 kg, 150 W max. Every port is on the back: 2 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "rear",
@@ -438,7 +438,7 @@
   "verified": true,
   "source": "Apple Mac mini (M1, 2020) tech specs",
   "productUrl": "https://support.apple.com/111894",
-  "notes": "197 x 197 x 36 mm, 1.2 kg, 150 W max. Every port is on the back: 2 x Thunderbolt / USB 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 36 mm, 1.2 kg, 150 W max. Every port is on the back: 2 x Thunderbolt / USB 4 (USB-C), 2 x USB-A, HDMI, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Front: status light only. Fits 1RU on a shelf; two side by side in a Sonnet RackMac mini (2018-2023). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "rear",
@@ -509,7 +509,7 @@
   "verified": true,
   "source": "Apple Mac mini (2018) tech specs",
   "productUrl": "https://support.apple.com/111912",
-  "notes": "197 x 197 x 36 mm, 1.3 kg, 150 W max, Intel Core i3/i5/i7. Every port is on the back: 4 x Thunderbolt 3 (USB-C), 2 x USB-A, HDMI 2.0, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Fits 1RU on a shelf. Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 36 mm, 1.3 kg, 150 W max, Intel Core i3/i5/i7. Every port is on the back: 4 x Thunderbolt 3 (USB-C), 2 x USB-A, HDMI 2.0, Gigabit Ethernet (10Gb option), 3.5 mm headphone jack. Fits 1RU on a shelf. Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a figure-8 IEC C8 (C7 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "rear",
@@ -580,7 +580,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2026) tech specs",
   "productUrl": "https://support.apple.com/128107",
-  "notes": "197 x 197 x 95 mm, 2.7 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 2.7 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -634,7 +634,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -659,7 +659,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2026) tech specs",
   "productUrl": "https://support.apple.com/128107",
-  "notes": "197 x 197 x 95 mm, 3.6 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 5 and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 3.6 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 5 and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -713,7 +713,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -738,7 +738,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2025) tech specs",
   "productUrl": "https://support.apple.com/122211",
-  "notes": "197 x 197 x 95 mm, 2.74 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 2.74 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -792,7 +792,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -817,7 +817,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2025) tech specs",
   "productUrl": "https://support.apple.com/122211",
-  "notes": "197 x 197 x 95 mm, 3.64 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 5 and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 3.64 kg, 480 W max. Back: 4 x Thunderbolt 5 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 5 and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -871,7 +871,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -896,7 +896,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2023) tech specs",
   "productUrl": "https://support.apple.com/111835",
-  "notes": "197 x 197 x 95 mm, 2.7 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 2.7 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -950,7 +950,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -975,7 +975,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2023) tech specs",
   "productUrl": "https://support.apple.com/111835",
-  "notes": "197 x 197 x 95 mm, 3.6 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 4 and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 3.6 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 4 and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -1029,7 +1029,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -1054,7 +1054,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2022) tech specs",
   "productUrl": "https://support.apple.com/111900",
-  "notes": "197 x 197 x 95 mm, 2.7 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 2.7 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x USB-C (10 Gb/s) and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -1108,7 +1108,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -1133,7 +1133,7 @@
   "verified": true,
   "source": "Apple Mac Studio (2022) tech specs",
   "productUrl": "https://support.apple.com/111900",
-  "notes": "197 x 197 x 95 mm, 3.6 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 4 and an SDXC card slot. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). Check: AC inlet type (figure-8 assumed).",
+  "notes": "197 x 197 x 95 mm, 3.6 kg, 370 W max. Back: 4 x Thunderbolt 4 (USB-C), 2 x USB-A, HDMI, 10Gb Ethernet (RJ45, 1/2.5/5/10Gb), 3.5 mm headphone jack. Front: 2 x Thunderbolt 4 and an SDXC card slot; power button on the back. Needs 3RU on a shelf; one or two in a Sonnet RackMac Studio (3U). Sits on a rack shelf or in a rack kit (Sonnet, Penn Elcom). AC inlet is a cloverleaf IEC C6 (C5 cord), per Apple's port drawings.",
   "portGroups": [
    {
     "face": "front",
@@ -1187,7 +1187,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C8 inlet (figure-8)",
+    "connector": "IEC C6 inlet (cloverleaf)",
     "count": 1,
     "prefix": "AC In"
    }
@@ -1212,7 +1212,7 @@
   "verified": true,
   "source": "Apple Mac Pro (Rack, 2023) tech specs and Mac Pro (Rack) tour",
   "productUrl": "https://support.apple.com/111836",
-  "notes": "5U rack-mount, 482 mm wide, 493.5 mm deep from the fascia (539.5 mm with handles), fits racks 610 to 1067 mm deep; 17.2 kg. Front: power button, status light, 2 x Thunderbolt 4. Back: 6 x Thunderbolt 4, 2 x USB-A, 2 x HDMI, 2 x 10Gb Ethernet, 3.5 mm headphone jack, power. 6 full-length PCIe Gen 4 slots (2 x16, 4 x8) plus the Apple I/O card slot; add capture, SDI and network card ports as extra ports. 1280 W max (12 A at 100-125 V, 6 A at 220-240 V). Check: AC inlet type.",
+  "notes": "5U rack-mount, 482 mm wide, 493.5 mm deep from the fascia (539.5 mm with handles), fits racks 610 to 1067 mm deep; 17.2 kg. Front: power button, status light, 2 x Thunderbolt 4. Back: 6 x Thunderbolt 4, 2 x USB-A, 2 x HDMI, 2 x 10Gb Ethernet, 3.5 mm headphone jack, power. 6 full-length PCIe Gen 4 slots (2 x16, 4 x8) plus the Apple I/O card slot; add capture, SDI and network card ports as extra ports. 1280 W max (12 A at 100-125 V, 6 A at 220-240 V); IEC C14 inlet per Apple's drawing.",
   "portGroups": [
    {
     "face": "front",
@@ -1274,7 +1274,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "AC inlet",
+    "connector": "IEC C14 inlet",
     "count": 1,
     "prefix": "AC In"
    }
