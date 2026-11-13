@@ -1,0 +1,1207 @@
+[
+ {
+  "id": "mikrotik-crs326-24g-2s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS326-24G-2S+RM",
+  "name": "CRS326-24G-2S+RM 24-port Gigabit switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS326-24G-2S+RM product page",
+  "productUrl": "https://mikrotik.com/product/CRS326-24G-2SplusRM",
+  "notes": "1RU, rack ears included. 443 x 144 mm deep, 24 W. Dual boot RouterOS / SwOS. Powered by a 24 V adapter (included) or passive PoE-in on port 1. Check: DC jack side (drawn on the rear).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 10-30 V"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-css326-24g-2s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CSS326-24G-2S+RM",
+  "name": "CSS326-24G-2S+RM 24-port Gigabit switch (SwOS)",
+  "family": "CSS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CSS326-24G-2S+RM product page",
+  "productUrl": "https://mikrotik.com/product/CSS326-24G-2SplusRM",
+  "notes": "1RU, rack ears included. 443 x 144 mm deep, 19 W. SwOS only. Powered by a 24 V adapter (included) or passive PoE-in on port 1. Check: DC jack side.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 10-30 V"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs328-24p-4s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS328-24P-4S+RM",
+  "name": "CRS328-24P-4S+RM 24-port PoE switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS328-24P-4S+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs328_24p_4s_rm",
+  "notes": "1RU, rack ears included. 443 x 300 mm deep. PoE-out on all 24 ports (802.3af/at and passive), 450 W PoE budget, internal 500 W PSU. Dual boot RouterOS / SwOS.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs317-1g-16s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS317-1G-16S+RM",
+  "name": "CRS317-1G-16S+RM 16-port SFP+ switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS317-1G-16S+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs317_1g_16s_rm",
+  "notes": "1RU, rack ears included. 443 x 224 mm deep, 44 W. Dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 16,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs326-24s-2q-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS326-24S+2Q+RM",
+  "name": "CRS326-24S+2Q+RM 24-port SFP+ switch with 40G uplinks",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS326-24S+2Q+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs326_24s_2q_rm",
+  "notes": "1RU, rack ears included. 443 x 200 mm deep, 69 W. 10/100 management port, dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs312-4c-8xg-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS312-4C+8XG-RM",
+  "name": "CRS312-4C+8XG-RM 12-port 10G switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS312-4C+8XG-RM product page",
+  "productUrl": "https://mikrotik.com/product/crs312_4c_8xg_rm",
+  "notes": "1RU, rack ears included. 443 x 183 mm deep, 60 W. 8 x 10G RJ45 plus 4 combo ports (10G RJ45 or SFP+), 10/100 management port, dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45/SFP+ combo",
+    "count": 4,
+    "prefix": "10G combo"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs328-4c-20s-4s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS328-4C-20S-4S+RM",
+  "name": "CRS328-4C-20S-4S+RM 28-port SFP switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS328-4C-20S-4S+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs328_4c_20s_4s_rm",
+  "notes": "1RU, rack ears included. 443 x 194 mm deep, 43 W. 20 x 1G SFP, 4 combo ports (1G RJ45 or SFP), 4 x SFP+, dual AC supplies with failover.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 20,
+    "prefix": "SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45/SFP combo",
+    "count": 4,
+    "prefix": "1G combo"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs354-48g-4s-2q-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS354-48G-4S+2Q+RM",
+  "name": "CRS354-48G-4S+2Q+RM 48-port Gigabit switch with 40G uplinks",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS354-48G-4S+2Q+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs354_48g_4splus2qplusrm",
+  "notes": "1RU, rack ears included. 443 x 297 mm deep, 60 W. 10/100 management port, two AC PSU slots.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs354-48p-4s-2q-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS354-48P-4S+2Q+RM",
+  "name": "CRS354-48P-4S+2Q+RM 48-port PoE switch with 40G uplinks",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "MikroTik CRS354-48P-4S+2Q+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs354_48p_4s_2q_rm",
+  "notes": "1RU, rack ears included. 443 x 382 mm deep. PoE-out on all 48 ports (802.3af/at and passive), 700 W PoE budget, single 750 W PSU, 800 W max. Rear support ears and cable bracket included.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs326-4c-20g-2q-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS326-4C+20G+2Q+RM",
+  "name": "CRS326-4C+20G+2Q+RM 2.5G switch with 40G uplinks",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS326-4C+20G+2Q+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs326_4c_20g_2q_rm",
+  "notes": "1RU, rack ears included. 70 W. 20 x 2.5G RJ45, 4 combo ports (2.5G RJ45 or 10G SFP+), 2 x 40G QSFP+, 10/100 management port, dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 20,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45/SFP+ combo",
+    "count": 4,
+    "prefix": "2.5G/10G combo"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs320-8p-8b-4s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS320-8P-8B-4S+RM",
+  "name": "CRS320-8P-8B-4S+RM 16-port PoE++ switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS320-8P-8B-4S+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs320_8p_8b_4s_rm",
+  "notes": "1RU, rack ears included. Ports 1-8 802.3af/at, ports 9-16 802.3bt up to 90 W. Ships with one 600 W hot-swap PSU (963 W PoE total with a second PSU fitted, 1150 W). Gigabit management port. Check: depth (see the maker drawing).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE PoE++ (bt)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs418-8p-8g-2s-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS418-8P-8G-2S+RM",
+  "name": "CRS418-8P-8G-2S+RM 16-port switch with 8 PoE ports",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS418-8P-8G-2S+RM product page",
+  "productUrl": "https://mikrotik.com/product/crs418_8p_8g_2s_rm",
+  "notes": "1RU, rack ears included. Ports 9-16 PoE-out (802.3af/at and 24 V passive), 150 W budget. Gigabit management port to the CPU, USB 3.0, dual redundant AC supplies, 215 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs518-16xs-2xq-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS518-16XS-2XQ-RM",
+  "name": "CRS518-16XS-2XQ-RM 25G / 100G switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS518-16XS-2XQ-RM product page",
+  "productUrl": "https://mikrotik.com/product/crs518_16xs_2xq",
+  "notes": "1RU, rack ears included. 95 W max. 10/100 management port, dual redundant hot-swap AC supplies and fans.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs520-4xs-16xq-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS520-4XS-16XQ-RM",
+  "name": "CRS520-4XS-16XQ-RM 100G switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "MikroTik CRS520-4XS-16XQ-RM product page",
+  "productUrl": "https://mikrotik.com/product/crs520_4xs_16xq_rm",
+  "notes": "1RU, rack ears included. 220 W max. 2 x 10G RJ45, 2 hot-swap 150 W AC supplies (optional -48 V DC unit), 4 hot-swap fans. Rear support ears included.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 16,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-crs804-4ddq",
+  "manufacturer": "MikroTik",
+  "partNumber": "CRS804-4DDQ-hRM",
+  "name": "CRS804-4DDQ-hRM CRS804 DDQ 400G switch",
+  "family": "CRS",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CRS804-4DDQ-hRM product page",
+  "productUrl": "https://mikrotik.com/product/crs804_ddq",
+  "notes": "1RU, rack ears included. 123 W max. 4 x 400G QSFP56-DD (break-out to 10-200G), 2 x 10G RJ45, dual redundant hot-swap AC supplies, 2 hot-swap fans.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP56-DD",
+    "count": 4,
+    "prefix": "400G QSFP56-DD"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-ccr2004-16g-2s",
+  "manufacturer": "MikroTik",
+  "partNumber": "CCR2004-16G-2S+",
+  "name": "CCR2004-16G-2S+ cloud core router",
+  "family": "CCR",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CCR2004-16G-2S+ product page",
+  "productUrl": "https://mikrotik.com/product/ccr2004_16g_2splus",
+  "notes": "1RU, rack ears included. 443 x 210 mm deep, 48 W. Dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-ccr2004-1g-12s-2xs",
+  "manufacturer": "MikroTik",
+  "partNumber": "CCR2004-1G-12S+2XS",
+  "name": "CCR2004-1G-12S+2XS cloud core router",
+  "family": "CCR",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CCR2004-1G-12S+2XS product page",
+  "productUrl": "https://mikrotik.com/product/ccr2004_1g_12s_2xs",
+  "notes": "1RU, rack ears included. 443 x 224 mm deep, 60 W. Dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 12,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-ccr2116-12g-4s",
+  "manufacturer": "MikroTik",
+  "partNumber": "CCR2116-12G-4S+",
+  "name": "CCR2116-12G-4S+ cloud core router",
+  "family": "CCR",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CCR2116-12G-4S+ product page",
+  "productUrl": "https://mikrotik.com/product/ccr2116_12g_4splus",
+  "notes": "1RU, rack ears included. 443 x 199 mm deep, 83 W. Gigabit management port to the CPU, M.2 slot, dual redundant AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-ccr2216-1g-12xs-2xq",
+  "manufacturer": "MikroTik",
+  "partNumber": "CCR2216-1G-12XS-2XQ",
+  "name": "CCR2216-1G-12XS-2XQ cloud core router",
+  "family": "CCR",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik CCR2216-1G-12XS-2XQ product page",
+  "productUrl": "https://mikrotik.com/product/ccr2216_1g_12xs_2xq",
+  "notes": "1RU, rack ears included. 443 x 367 mm deep, 128 W. 2 x M.2 (SATA), dual redundant hot-swap AC supplies.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 12,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-rb1100ahx4",
+  "manufacturer": "MikroTik",
+  "partNumber": "RB1100AHx4",
+  "name": "RB1100AHx4 router",
+  "family": "RouterBOARD",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik RB1100AHx4 product page",
+  "productUrl": "https://mikrotik.com/product/rb1100ahx4",
+  "notes": "1RU, rack ears included. 443 x 148 mm deep, 20 W. 13 x Gigabit, RS232 console, microSD, dual redundant AC supplies plus 2 DC terminal inputs (-48 V or 12-57 V) and PoE-in. The Dude Edition (RB1100Dx4) adds a 60 GB M.2 drive.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 13,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "mikrotik-rb4011igs-rm",
+  "manufacturer": "MikroTik",
+  "partNumber": "RB4011iGS+RM",
+  "name": "RB4011iGS+RM router",
+  "family": "RouterBOARD",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MikroTik RB4011iGS+RM product page",
+  "productUrl": "https://mikrotik.com/product/rb4011igs_rm",
+  "notes": "1RU, rack ears included. Desktop case (228 x 120 mm) on 1U rack ears. Port 10 has passive PoE-out; powered by DC jack or passive PoE-in on port 1. Check: DC jack side.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 10,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12-57 V"
+   }
+  ]
+ }
+]

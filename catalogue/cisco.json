@@ -1,0 +1,3307 @@
+[
+ {
+  "id": "cisco-c9200l-24t-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-24T-4G",
+  "name": "Catalyst C9200L-24T-4G switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, one PSU fitted, second slot for redundancy, two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-24p-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-24P-4G",
+  "name": "Catalyst C9200L-24P-4G switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, 370 W PoE+ budget with one PSU (second PSU adds redundancy or PoE), two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-48t-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-48T-4G",
+  "name": "Catalyst C9200L-48T-4G switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, one PSU fitted, second slot for redundancy, two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-48p-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-48P-4G",
+  "name": "Catalyst C9200L-48P-4G switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, 740 W PoE+ budget with one PSU (second PSU adds redundancy or PoE), two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-24t-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-24T-4X",
+  "name": "Catalyst C9200L-24T-4X switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, one PSU fitted, second slot for redundancy, two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-24p-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-24P-4X",
+  "name": "Catalyst C9200L-24P-4X switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, 370 W PoE+ budget with one PSU (second PSU adds redundancy or PoE), two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-48t-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-48T-4X",
+  "name": "Catalyst C9200L-48T-4X switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, one PSU fitted, second slot for redundancy, two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-48p-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-48P-4X",
+  "name": "Catalyst C9200L-48P-4X switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 28.8 cm deep. Fixed uplinks, 740 W PoE+ budget with one PSU (second PSU adds redundancy or PoE), two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9200l-48pxg-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9200L-48PXG-4X",
+  "name": "Catalyst C9200L-48PXG-4X switch",
+  "family": "Catalyst 9200",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco Catalyst 9200 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+  "notes": "1RU, 35.0 cm deep. Fixed uplinks, 740 W PoE+ budget with one PSU (second PSU adds redundancy or PoE), two field-replaceable PSU slots (rear), fixed fans, RJ45 and mini-USB console, RJ45 management port. StackWise-160 on the rear. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "mGig 10G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 36,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-24t",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-24T",
+  "name": "Catalyst C9300-24T switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 350 W AC PSU; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-48t",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-48T",
+  "name": "Catalyst C9300-48T switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 350 W AC PSU; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-24p",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-24P",
+  "name": "Catalyst C9300-24P switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 715 W AC PSU, 445 W PoE budget; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-48p",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-48P",
+  "name": "Catalyst C9300-48P switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 715 W AC PSU, 437 W PoE budget; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-48u",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-48U",
+  "name": "Catalyst C9300-48U switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 1100 W AC PSU, 822 W PoE budget; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE UPOE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-24ux",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-24UX",
+  "name": "Catalyst C9300-24UX switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 1100 W AC PSU, 560 W PoE budget; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "mGig 10G UPOE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300-48uxm",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300-48UXM",
+  "name": "Catalyst C9300-48UXM switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Modular uplinks (network module: 4 x 1G, 8 x 10G, 2 x 25G or 2 x 40G). Ships with one 1100 W AC PSU, 490 W PoE budget; second slot for redundancy. StackWise-480 and StackPower on the rear. Add the uplink module ports as extra ports. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 36,
+    "prefix": "2.5GbE UPOE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "mGig 10G UPOE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Uplink module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-480"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackPower",
+    "count": 2,
+    "prefix": "StackPower"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300l-24t-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300L-24T-4G",
+  "name": "Catalyst C9300L-24T-4G switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Fixed uplinks, StackWise-320 on the rear, two PSU slots (350 W PSU). Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-320"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c9300l-48p-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C9300L-48P-4X",
+  "name": "Catalyst C9300L-48P-4X switch",
+  "family": "Catalyst 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Catalyst 9300 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html",
+  "notes": "1RU. Fixed uplinks, StackWise-320 on the rear, two PSU slots, 505 W PoE+ budget with the 715 W PSU. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "StackWise",
+    "count": 2,
+    "prefix": "StackWise-320"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c93180yc-fx3",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C93180YC-FX3",
+  "name": "Nexus 93180YC-FX3 switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Nexus 9300-FX3 data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-744052.html",
+  "notes": "1RU. 48 x 1/10/25G SFP28 and 6 x 40/100G QSFP28. Up to 2 hot-swap PSUs (650 W AC, 930 W DC or 1200 W HVAC/HVDC), 4 hot-swap fans, port-side intake or exhaust. Widely used for SMPTE ST 2110 fabrics with NBM. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c93108tc-fx3p",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C93108TC-FX3P",
+  "name": "Nexus 93108TC-FX3P switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Nexus 9300-FX3 data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-744052.html",
+  "notes": "1RU. 48 x 100M-10G multigig RJ45 with PoE/PoE+/UPOE (60 W), 6 x 40/100G QSFP28. Up to 2 PSUs (1100 W or 1900 W AC), 4 fans. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "mGig 10G UPOE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Mgmt SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c93108tc-fx3",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C93108TC-FX3",
+  "name": "Nexus 93108TC-FX3 switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Nexus 9300-FX3 data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-744052.html",
+  "notes": "1RU. 48 x 100M/1/10G RJ45, 6 x 40/100G QSFP28. Up to 2 PSUs (500 W AC, 930 W DC or 1200 W HVAC/HVDC), 4 fans. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Mgmt SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c9348gc-fx3",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C9348GC-FX3",
+  "name": "Nexus 9348GC-FX3 switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cisco Nexus 9300-FX3 data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-744052.html",
+  "notes": "1RU. 48 x 10M/100M/1G RJ45, 4 x 10/25G SFP28, 2 x 40/100G QSFP28. Up to 2 PSUs (350 W AC, 440 W DC), 3 fans. Often used as a management / out-of-band switch. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "10/25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Mgmt SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c9336c-fx2",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C9336C-FX2",
+  "name": "Nexus 9336C-FX2 switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cisco Nexus 9300 40/100G comparison",
+  "productUrl": "https://www.cisco.com/c/dam/en/us/products/switches/nexus-9000-series-switches/nexus-9300-40GE-switches-comparison.html",
+  "notes": "1RU spine / leaf, 36 x 40/100G QSFP28 (breakout to 4 x 10/25G). 2 x 1100 W PSUs. Common spine for ST 2110 fabrics. Check: fan module count. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 36,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c9332c",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C9332C",
+  "name": "Nexus 9332C switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cisco Nexus 9300 40/100G comparison",
+  "productUrl": "https://www.cisco.com/c/dam/en/us/products/switches/nexus-9000-series-switches/nexus-9300-40GE-switches-comparison.html",
+  "notes": "1RU, 32 x 40/100G QSFP28 and 2 x 1/10G SFP+. 2 x 1100 W PSUs. Check: fan module count. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c9364c-gx",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C9364C-GX",
+  "name": "Nexus 9364C-GX switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cisco Nexus 9300 40/100G comparison",
+  "productUrl": "https://www.cisco.com/c/dam/en/us/products/switches/nexus-9000-series-switches/nexus-9300-40GE-switches-comparison.html",
+  "notes": "2RU spine, 64 x 40/100G QSFP28. 2 x 2000 W PSUs. Check: fan module count. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 64,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-n9k-c93600cd-gx",
+  "manufacturer": "Cisco",
+  "partNumber": "N9K-C93600CD-GX",
+  "name": "Nexus 93600CD-GX switch",
+  "family": "Nexus 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cisco Nexus 9300-GX product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/nexus-9000-series-switches/index.html",
+  "notes": "1RU, 28 x 40/100G QSFP28 and 8 x 400G QSFP-DD. 2 PSUs. Check: port counts, PSUs and fans are from Cisco product knowledge. Check: console and management port side (drawn on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 28,
+    "prefix": "40/100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 8,
+    "prefix": "400G QSFP-DD"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c1000-24t-4g-l",
+  "manufacturer": "Cisco",
+  "partNumber": "C1000-24T-4G-L",
+  "name": "Catalyst 1000 C1000-24T-4G-L switch",
+  "family": "Catalyst 1000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 1000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-1000-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c1000-48p-4g-l",
+  "manufacturer": "Cisco",
+  "partNumber": "C1000-48P-4G-L",
+  "name": "Catalyst 1000 C1000-48P-4G-L switch",
+  "family": "Catalyst 1000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 1000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-1000-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU, about 370 W PoE budget. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c1300-24t-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "C1300-24T-4G",
+  "name": "Catalyst 1300 C1300-24T-4G switch",
+  "family": "Catalyst 1300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 1300 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-1300-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c1300-48p-4x",
+  "manufacturer": "Cisco",
+  "partNumber": "C1300-48P-4X",
+  "name": "Catalyst 1300 C1300-48P-4X switch",
+  "family": "Catalyst 1300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 1300 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-1300-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU, about 375 W PoE budget. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-cbs350-24t-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "CBS350-24T-4G",
+  "name": "Business 350 CBS350-24T-4G switch",
+  "family": "Business 350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Business 350 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/business-350-series-managed-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-cbs350-48p-4g",
+  "manufacturer": "Cisco",
+  "partNumber": "CBS350-48P-4G",
+  "name": "Business 350 CBS350-48P-4G switch",
+  "family": "Business 350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Business 350 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/business-350-series-managed-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU, about 370 W PoE budget. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-ws-c2960x-24ts-l",
+  "manufacturer": "Cisco",
+  "partNumber": "WS-C2960X-24TS-L",
+  "name": "Catalyst 2960-X WS-C2960X-24TS-L switch (legacy)",
+  "family": "Catalyst 2960-X",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 2960-X product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-2960-x-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU. End of sale; FlexStack-Plus module optional on the rear. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FlexStack",
+    "count": 2,
+    "prefix": "FlexStack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-ws-c2960x-48ts-l",
+  "manufacturer": "Cisco",
+  "partNumber": "WS-C2960X-48TS-L",
+  "name": "Catalyst 2960-X WS-C2960X-48TS-L switch (legacy)",
+  "family": "Catalyst 2960-X",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 2960-X product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-2960-x-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU. End of sale; FlexStack-Plus module optional on the rear. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FlexStack",
+    "count": 2,
+    "prefix": "FlexStack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-ws-c2960x-24ps-l",
+  "manufacturer": "Cisco",
+  "partNumber": "WS-C2960X-24PS-L",
+  "name": "Catalyst 2960-X WS-C2960X-24PS-L switch (legacy)",
+  "family": "Catalyst 2960-X",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 2960-X product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-2960-x-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU, about 370 W PoE budget. End of sale; FlexStack-Plus module optional on the rear. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FlexStack",
+    "count": 2,
+    "prefix": "FlexStack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-ws-c2960x-48fps-l",
+  "manufacturer": "Cisco",
+  "partNumber": "WS-C2960X-48FPS-L",
+  "name": "Catalyst 2960-X WS-C2960X-48FPS-L switch (legacy)",
+  "family": "Catalyst 2960-X",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 2960-X product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/catalyst-2960-x-series-switches/index.html",
+  "notes": "1RU, fixed uplinks, internal AC PSU, about 740 W PoE budget. End of sale; FlexStack-Plus module optional on the rear. Check: PoE budget, console type and whether a management port is fitted (from Cisco product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FlexStack",
+    "count": 2,
+    "prefix": "FlexStack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-isr4331",
+  "manufacturer": "Cisco",
+  "partNumber": "ISR4331/K9",
+  "name": "ISR 4331 integrated services router",
+  "family": "ISR 4000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco ISR 4000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/isr-4000-series-integrated-services-routers/index.html",
+  "notes": "1RU branch router, 3 onboard GE (2 RJ45 + 1 SFP), 2 NIM slots and 1 service-module slot, single internal AC PSU (PoE option). End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "NIM slot",
+    "count": 2,
+    "prefix": "NIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SM slot",
+    "count": 1,
+    "prefix": "SM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Aux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-isr4431",
+  "manufacturer": "Cisco",
+  "partNumber": "ISR4431/K9",
+  "name": "ISR 4431 integrated services router",
+  "family": "ISR 4000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco ISR 4000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/isr-4000-series-integrated-services-routers/index.html",
+  "notes": "1RU router, 4 onboard GE (RJ45 or SFP), 3 NIM slots, dual hot-swap PSUs. End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45/SFP combo",
+    "count": 4,
+    "prefix": "1GbE combo"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "NIM slot",
+    "count": 3,
+    "prefix": "NIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Aux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c8200-1n-4t",
+  "manufacturer": "Cisco",
+  "partNumber": "C8200-1N-4T",
+  "name": "Catalyst 8200 edge platform",
+  "family": "Catalyst 8000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 8000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/catalyst-8200-series-edge-platforms/index.html",
+  "notes": "1RU SD-WAN / branch router, 4 x 1G (2 RJ45 + 2 SFP), 1 NIM and 1 PIM slot. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "NIM slot",
+    "count": 1,
+    "prefix": "NIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "PIM slot",
+    "count": 1,
+    "prefix": "PIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-c8300-1n1s-6t",
+  "manufacturer": "Cisco",
+  "partNumber": "C8300-1N1S-6T",
+  "name": "Catalyst 8300 edge platform",
+  "family": "Catalyst 8000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Catalyst 8000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/catalyst-8300-series-edge-platforms/index.html",
+  "notes": "1RU branch router, 6 x 1G (4 RJ45 + 2 SFP), 1 NIM and 1 SM slot, dual PSUs. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "NIM slot",
+    "count": 1,
+    "prefix": "NIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SM slot",
+    "count": 1,
+    "prefix": "SM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-asr1001-x",
+  "manufacturer": "Cisco",
+  "partNumber": "ASR1001-X",
+  "name": "ASR 1001-X aggregation services router",
+  "family": "ASR 1000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco ASR 1000 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/asr-1000-series-aggregation-services-routers/index.html",
+  "notes": "1RU, 6 x 1G SFP, 2 x 10G SFP+, 1 NIM slot, dual PSUs. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 6,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "NIM slot",
+    "count": 1,
+    "prefix": "NIM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Aux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-fpr1140",
+  "manufacturer": "Cisco",
+  "partNumber": "FPR1140-NGFW-K9",
+  "name": "Firepower 1140 firewall",
+  "family": "Firepower",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Firepower product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html",
+  "notes": "1RU next-generation firewall, 8 x 1G RJ45, 4 x 1G SFP, single AC PSU. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "USB Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-fpr3110",
+  "manufacturer": "Cisco",
+  "partNumber": "FPR3110-NGFW-K9",
+  "name": "Secure Firewall 3110",
+  "family": "Secure Firewall 3100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Secure Firewall 3100 product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/security/secure-firewall-3100-series/index.html",
+  "notes": "1RU firewall, 8 x 1G RJ45, 8 x 10G SFP+, one network-module slot, dual hot-swap PSUs. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Network module",
+    "count": 1,
+    "prefix": "Network module"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-asa5525-x",
+  "manufacturer": "Cisco",
+  "partNumber": "ASA5525-K9",
+  "name": "ASA 5525-X firewall (legacy)",
+  "family": "ASA 5500-X",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco ASA 5500-X product information",
+  "productUrl": "https://www.cisco.com/c/en/us/products/security/asa-5500-series-next-generation-firewalls/index.html",
+  "notes": "1RU firewall, 8 x 1G RJ45, one I/O expansion slot, optional second PSU. End of sale. Check: ports and PSU arrangement are from Cisco product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Expansion slot",
+    "count": 1,
+    "prefix": "I/O card"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-meraki-ms120-24p",
+  "manufacturer": "Cisco",
+  "partNumber": "MS120-24P",
+  "name": "Meraki MS120-24P switch",
+  "family": "Meraki",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Meraki product information",
+  "productUrl": "https://documentation.meraki.com/",
+  "notes": "1RU, 370 W PoE budget, internal PSU. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-meraki-ms225-48fp",
+  "manufacturer": "Cisco",
+  "partNumber": "MS225-48FP",
+  "name": "Meraki MS225-48FP switch",
+  "family": "Meraki",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Meraki product information",
+  "productUrl": "https://documentation.meraki.com/",
+  "notes": "1RU, 740 W PoE budget, physical stacking on the rear. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Stack",
+    "count": 2,
+    "prefix": "Stack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-meraki-ms250-48fp",
+  "manufacturer": "Cisco",
+  "partNumber": "MS250-48FP",
+  "name": "Meraki MS250-48FP switch",
+  "family": "Meraki",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Meraki product information",
+  "productUrl": "https://documentation.meraki.com/",
+  "notes": "1RU, 740 W PoE budget, dual field-replaceable PSUs, stacking on the rear. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Stack",
+    "count": 2,
+    "prefix": "Stack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-meraki-mx105",
+  "manufacturer": "Cisco",
+  "partNumber": "MX105",
+  "name": "Meraki MX105 security appliance",
+  "family": "Meraki",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Meraki product information",
+  "productUrl": "https://documentation.meraki.com/",
+  "notes": "1RU SD-WAN appliance, dual PSU slots. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+ WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1GbE LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+ LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cisco-meraki-mx250",
+  "manufacturer": "Cisco",
+  "partNumber": "MX250",
+  "name": "Meraki MX250 security appliance",
+  "family": "Meraki",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco Meraki product information",
+  "productUrl": "https://documentation.meraki.com/",
+  "notes": "1RU SD-WAN appliance, dual hot-swap PSUs. Cloud managed (no console port). Check: port counts and PSUs are from Meraki product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

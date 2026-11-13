@@ -1,0 +1,2400 @@
+[
+ {
+  "id": "ubiquiti-usw-pro-max-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-Max-24-PoE",
+  "name": "UniFi Switch Pro Max 24 PoE",
+  "family": "UniFi Pro Max",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi USW-Pro-Max-24-PoE datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/USW-Pro-Max-24-PoE.pdf",
+  "notes": "1RU, 442 x 325 mm deep. 8 ports PoE/PoE+ and 16 ports PoE++ (60 W), 400 W PoE budget, internal 450 W PSU, USP-RPS DC input. Layer 3, Etherlighting, 1.3 in touchscreen. Check: which port group carries PoE++.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "1GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-max-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-Max-24",
+  "name": "UniFi Switch Pro Max 24",
+  "family": "UniFi Pro Max",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi USW-Pro-Max-24 datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/USW-Pro-Max-24.pdf",
+  "notes": "1RU, 442 x 325 mm deep, 50 W. Layer 3, Etherlighting, touchscreen, USP-RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-max-48-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-Max-48-PoE",
+  "name": "UniFi Switch Pro Max 48 PoE",
+  "family": "UniFi Pro Max",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi USW-Pro-Max-48-PoE datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/USW-Pro-Max-48-PoE.pdf",
+  "notes": "1RU, 442 x 400 mm deep. 720 W PoE budget, internal 820 W PSU, USP-RPS DC input. Layer 3, Etherlighting, touchscreen.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5GbE PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-max-48",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-Max-48",
+  "name": "UniFi Switch Pro Max 48",
+  "family": "UniFi Pro Max",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-max-48",
+  "notes": "1RU, Layer 3, Etherlighting, touchscreen, USP-RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-hd-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-HD-24-PoE",
+  "name": "UniFi Switch Pro HD 24 PoE",
+  "family": "UniFi Pro HD",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi USW-Pro-HD-24-PoE datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/USW-Pro-HD-24-PoE.pdf",
+  "notes": "1RU, 442 x 400 mm deep. PoE++ on all 24 RJ45 ports (64 W max), 600 W PoE budget, internal 660 W PSU, RPS DC input. Touchscreen.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 22,
+    "prefix": "2.5GbE PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-hd-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-HD-24",
+  "name": "UniFi Switch Pro HD 24",
+  "family": "UniFi Pro HD",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-hd-24",
+  "notes": "1RU, Layer 3, touchscreen, RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 22,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-xg-48-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-XG-48-PoE",
+  "name": "UniFi Switch Pro XG 48 PoE",
+  "family": "UniFi Pro XG",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "UniFi USW-Pro-XG-48-PoE datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/USW-Pro-XG-48-PoE.pdf",
+  "notes": "1RU, 442 x 480 mm deep, 8.8 kg. PoE on all RJ45 ports, 1080 W PoE budget at 200-240 V (972 W at 100-120 V), internal 1350 W PSU, RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "10GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-xg-48",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-XG-48",
+  "name": "UniFi Switch Pro XG 48",
+  "family": "UniFi Pro XG",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-xg-48",
+  "notes": "1RU, Layer 3, RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-xg-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-XG-24-PoE",
+  "name": "UniFi Switch Pro XG 24 PoE",
+  "family": "UniFi Pro XG",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-xg-24-poe",
+  "notes": "1RU, Layer 3, RPS DC input. Check: PoE budget.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "10GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-xg-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-XG-24",
+  "name": "UniFi Switch Pro XG 24",
+  "family": "UniFi Pro XG",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-xg-24",
+  "notes": "1RU, Layer 3, RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-24-PoE",
+  "name": "UniFi Switch Pro 24 PoE",
+  "family": "UniFi Pro",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional/products/usw-pro-24-poe",
+  "notes": "1RU, Layer 3, touchscreen, RPS DC input. PoE+/PoE++ ports, about 400 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-48-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-48-PoE",
+  "name": "UniFi Switch Pro 48 PoE",
+  "family": "UniFi Pro",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional/products/usw-pro-48-poe",
+  "notes": "1RU, Layer 3, touchscreen, RPS DC input. PoE+/PoE++ ports, about 600 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-24",
+  "name": "UniFi Switch Pro 24",
+  "family": "UniFi Pro",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional",
+  "notes": "1RU, Layer 3, touchscreen, RPS DC input.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-48",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-48",
+  "name": "UniFi Switch Pro 48",
+  "family": "UniFi Pro",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-professional",
+  "notes": "1RU, Layer 3, touchscreen, RPS DC input.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-24-PoE",
+  "name": "UniFi Switch 24 PoE",
+  "family": "UniFi Standard",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-24-poe",
+  "notes": "1RU, Layer 2, front status display. 16 PoE+ ports, about 95 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-48-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-48-PoE",
+  "name": "UniFi Switch 48 PoE",
+  "family": "UniFi Standard",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-48-poe",
+  "notes": "1RU, Layer 2, front status display. 32 PoE+ ports, about 195 W PoE budget. Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-24",
+  "name": "UniFi Switch 24",
+  "family": "UniFi Standard",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-24",
+  "notes": "1RU, Layer 2, front status display.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-48",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-48",
+  "name": "UniFi Switch 48",
+  "family": "UniFi Standard",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-standard/products/usw-48",
+  "notes": "1RU, Layer 2, front status display.  Check: PoE budget and which ports carry PoE (port counts from the UniFi store).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-aggregation",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-Aggregation",
+  "name": "UniFi Switch Hi-Capacity Aggregation",
+  "family": "UniFi Aggregation",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-pro-aggregation",
+  "notes": "1RU, Layer 3 aggregation, 28 x 10G SFP+ and 4 x 25G SFP28. Check: PSU arrangement (drawn as internal AC plus RPS).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 28,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-pro-xg-aggregation",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Pro-XG-Aggregation",
+  "name": "UniFi Switch Pro XG Aggregation",
+  "family": "UniFi Aggregation",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-pro-xg-aggregation",
+  "notes": "1RU, 32 x 25G SFP28. Check: PSU arrangement.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 32,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-aggregation",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Aggregation",
+  "name": "UniFi Switch Aggregation",
+  "family": "UniFi Aggregation",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-aggregation/products/usw-aggregation",
+  "notes": "1RU, 8 x 10G SFP+, Layer 2. Check: width and power inlet (drawn full width with an AC inlet).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-ecs-aggregation",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ECS-Aggregation",
+  "name": "UniFi Enterprise Campus Aggregation",
+  "family": "UniFi Enterprise Campus",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-aggregation",
+  "notes": "1RU, 48 x 25G SFP28 and 6 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-ecs-core",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ECS-Core",
+  "name": "UniFi Enterprise Campus Switch Core",
+  "family": "UniFi Enterprise Campus",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-aggregation/products/ecs-core",
+  "notes": "1RU, 32 x 100G QSFP28. Check: PSU arrangement (likely dual hot-swap).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-ecs-48-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ECS-48-PoE",
+  "name": "UniFi Enterprise Campus 48 PoE",
+  "family": "UniFi Enterprise Campus",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus/products/ecs-48-poe",
+  "notes": "1RU. Check: PoE budget and PSUs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "10GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-ecs-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ECS-24-PoE",
+  "name": "UniFi Enterprise Campus 24 PoE",
+  "family": "UniFi Enterprise Campus",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus/products/ecs-24-poe",
+  "notes": "1RU. Check: PoE budget and PSUs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "10GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-eav-xg-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "EAV-XG-24-PoE",
+  "name": "UniFi Enterprise Audio/Video XG 24 PoE",
+  "family": "UniFi Enterprise AV",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-audiovideo/products/eav-xg-24-poe",
+  "notes": "1RU AV-over-IP switch (Dante / AES67 / IPMX profiles), 24 x 10G PoE, 4 x 100G QSFP28. Check: PoE budget and PSUs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "10GbE PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-eav-fiber",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "EAV-Fiber",
+  "name": "UniFi Enterprise Audio/Video Fiber",
+  "family": "UniFi Enterprise AV",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi store switching list",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-audiovideo/products/eav-fiber",
+  "notes": "1RU AV-over-IP fibre switch, 20 x 10G, 2 x 100G QSFP28. Check: whether the 10G ports are SFP+ cages, and PSUs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 20,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "QSFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-enterprise-24-poe",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-Enterprise-24-PoE",
+  "name": "UniFi Switch Enterprise 24 PoE (legacy)",
+  "family": "UniFi Enterprise",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi product information",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise",
+  "notes": "1RU, 400 W PoE budget, RPS DC input. Replaced by the Pro Max range. Check: from product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "2.5GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-usw-enterprisexg-24",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "USW-EnterpriseXG-24",
+  "name": "UniFi Switch Enterprise XG 24 (legacy)",
+  "family": "UniFi Enterprise",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi product information",
+  "productUrl": "https://store.ui.com/us/en/category/switching-enterprise",
+  "notes": "1RU, 24 x 10G RJ45, 2 x 25G SFP28, dual hot-swap PSUs. Replaced by the Pro XG range. Check: from product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "SFP28"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-udm-pro",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UDM-Pro",
+  "name": "UniFi Dream Machine Pro",
+  "family": "UniFi Cloud Gateway",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi UDM-Pro datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/UDM-Pro.pdf",
+  "notes": "1RU, 442 x 286 mm deep, 33 W. Gateway with UniFi Network and Protect, one 3.5 in drive bay, internal 50 W PSU, USP-RPS DC input.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 1,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-udm-pro-max",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UDM-Pro-Max",
+  "name": "UniFi Dream Machine Pro Max",
+  "family": "UniFi Cloud Gateway",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi UDM-Pro-Max datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/UDM-Pro-Max.pdf",
+  "notes": "1RU, 442 x 286 mm deep, 100 W. Internal 100 W PSU, RPS DC input (11.5 V). Check: two drive bays (from product knowledge).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 2,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-udm-se",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UDM-SE",
+  "name": "UniFi Dream Machine Special Edition",
+  "family": "UniFi Cloud Gateway",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi product information",
+  "productUrl": "https://store.ui.com/us/en/category/cloud-gateways",
+  "notes": "1RU gateway with 8 PoE LAN ports (2 PoE+), about 180 W PoE budget, one 3.5 in drive bay, RPS DC input. Check: from product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1GbE LAN PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G SFP+ LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 1,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-unvr",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UNVR",
+  "name": "UniFi Network Video Recorder",
+  "family": "UniFi Protect",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "UniFi UNVR datasheet",
+  "productUrl": "https://download.axilogi.com/Ubiquiti/Datasheet/UNVR.pdf",
+  "notes": "1RU, 442 x 325 mm deep, 4 front drive bays, internal 120 W PSU, USP-RPS DC input, 100 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 4,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-unvr-pro",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UNVR-Pro",
+  "name": "UniFi Network Video Recorder Pro",
+  "family": "UniFi Protect",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi product information",
+  "productUrl": "https://store.ui.com/us/en/category/unifi-protect",
+  "notes": "2RU, 7 front drive bays, touchscreen, RPS DC input. Check: from product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 7,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-unas-pro",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "UNAS-Pro",
+  "name": "UniFi NAS Pro",
+  "family": "UniFi Storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "UniFi product information",
+  "productUrl": "https://store.ui.com/us/en/category/unifi-storage",
+  "notes": "2RU NAS, 7 front drive bays, 1G RJ45 and 10G SFP+. Check: from product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5in bay",
+    "count": 7,
+    "prefix": "HDD bay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC (USP-RPS)",
+    "count": 1,
+    "prefix": "RPS In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-er-8-xg",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ER-8-XG",
+  "name": "EdgeRouter Infinity",
+  "family": "EdgeRouter",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU router, 8 x 10G SFP+, 1 x 1G RJ45, dual hot-swap AC PSUs. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-erpro-8",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ERPro-8",
+  "name": "EdgeRouter Pro",
+  "family": "EdgeRouter",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU router, 6 x 1G RJ45 plus 2 combo ports (RJ45 or SFP), internal AC PSU. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45/SFP combo",
+    "count": 2,
+    "prefix": "1G combo"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-er-12",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ER-12",
+  "name": "EdgeRouter 12",
+  "family": "EdgeRouter",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "Desktop router (rack ears optional), 10 x 1G RJ45 (passive PoE in/out on some ports), 2 x SFP, external DC adapter. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 10,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-24-250w",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-24-250W",
+  "name": "EdgeSwitch 24-250W",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 250 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-24-500w",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-24-500W",
+  "name": "EdgeSwitch 24-500W",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-48-500w",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-48-500W",
+  "name": "EdgeSwitch 48-500W",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 500 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-48-750w",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-48-750W",
+  "name": "EdgeSwitch 48-750W",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 750 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-24-lite",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-24-Lite",
+  "name": "EdgeSwitch 24-Lite",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. No PoE. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-48-lite",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-48-Lite",
+  "name": "EdgeSwitch 48-Lite",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. No PoE. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-16-xg",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-16-XG",
+  "name": "EdgeSwitch 16-XG",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 12 x 10G SFP+ and 4 x 10GBASE-T. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 12,
+    "prefix": "SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ubiquiti-es-16-150w",
+  "manufacturer": "Ubiquiti",
+  "partNumber": "ES-16-150W",
+  "name": "EdgeSwitch 16-150W",
+  "family": "EdgeSwitch",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ubiquiti EdgeMax product information",
+  "productUrl": "https://help.ui.com/hc/en-us/categories/6583256751383",
+  "notes": "1RU managed switch, RJ45 serial console, internal AC PSU. 802.3af/at and 24 V passive PoE, 150 W total. EdgeMax (discontinued). Check: from Ubiquiti product knowledge.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "1GbE PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]
