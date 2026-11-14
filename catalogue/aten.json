@@ -1,0 +1,3793 @@
+[
+ {
+  "id": "aten-kn1132vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN1132VB",
+  "name": "KN1132VB 32-port Cat 5 KVM over IP switch (1 local / 1 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn1132vb/",
+  "notes": "Multi-interface KVM over IP switch: 32 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 1 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn2116vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN2116VB",
+  "name": "KN2116VB 16-port Cat 5 KVM over IP switch (1 local / 2 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn2116vb/",
+  "notes": "Multi-interface KVM over IP switch: 16 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 2 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn2124vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN2124VB",
+  "name": "KN2124VB 24-port Cat 5 KVM over IP switch (1 local / 2 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn2124vb/",
+  "notes": "Multi-interface KVM over IP switch: 24 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 2 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn2132vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN2132VB",
+  "name": "KN2132VB 32-port Cat 5 KVM over IP switch (1 local / 2 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn2132vb/",
+  "notes": "Multi-interface KVM over IP switch: 32 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 2 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn4016vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN4016VB",
+  "name": "KN4016VB 16-port Cat 5 KVM over IP switch (1 local / 4 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn4016vb/",
+  "notes": "Multi-interface KVM over IP switch: 16 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 4 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn4024vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN4024VB",
+  "name": "KN4024VB 24-port Cat 5 KVM over IP switch (1 local / 4 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn4024vb/",
+  "notes": "Multi-interface KVM over IP switch: 24 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 4 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn4032vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN4032VB",
+  "name": "KN4032VB 32-port Cat 5 KVM over IP switch (1 local / 4 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn4032vb/",
+  "notes": "Multi-interface KVM over IP switch: 32 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 4 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn4064vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN4064VB",
+  "name": "KN4064VB 64-port Cat 5 KVM over IP switch (1 local / 4 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn4064vb/",
+  "notes": "Multi-interface KVM over IP switch: 64 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 4 concurrent remote users over two gigabit LAN ports with virtual media. 2U, dual power. 43.4 x 41.3 x 8.8 cm, 7.1 kg, about 50 W.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 64,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn8032vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN8032VB",
+  "name": "KN8032VB 32-port Cat 5 KVM over IP switch (1 local / 8 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn8032vb/",
+  "notes": "Multi-interface KVM over IP switch: 32 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 8 concurrent remote users over two gigabit LAN ports with virtual media. 1U, dual power. About 40-50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn8064vb",
+  "manufacturer": "ATEN",
+  "partNumber": "KN8064VB",
+  "name": "KN8064VB 64-port Cat 5 KVM over IP switch (1 local / 8 remote)",
+  "family": "ATEN KN KVM over IP (VB)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn8064vb/",
+  "notes": "Multi-interface KVM over IP switch: 64 computer ports for KA7xxx computer adapters (VGA, DVI, HDMI or DisplayPort; USB or PS/2), cascades to 512 computers, one local console and 8 concurrent remote users over two gigabit LAN ports with virtual media. 2U, dual power. 43.4 x 41.3 x 8.8 cm, 7.1 kg, about 50 W. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 64,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media / peripherals)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio (mic / speaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 50
+ },
+ {
+  "id": "aten-kn1108va",
+  "manufacturer": "ATEN",
+  "partNumber": "KN1108VA",
+  "name": "KN1108VA 8-port Cat 5 KVM over IP switch with virtual media (1 local / 1 remote)",
+  "family": "ATEN KN KVM over IP (VA)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn1108va/",
+  "notes": "8 computer ports for KA7xxx adapters, one local VGA/USB console and one remote user, virtual media, 1920 x 1200. 1U. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (virtual media)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-kn1116va",
+  "manufacturer": "ATEN",
+  "partNumber": "KN1116VA",
+  "name": "KN1116VA 16-port Cat 5 KVM over IP switch with virtual media (1 local / 1 remote)",
+  "family": "ATEN KN KVM over IP (VA)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn1116va/",
+  "notes": "16 computer ports for KA7xxx adapters, one local VGA/USB console and one remote user, virtual media, 1920 x 1200. 1U. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (virtual media)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-kn2132va",
+  "manufacturer": "ATEN",
+  "partNumber": "KN2132VA",
+  "name": "KN2132VA 32-port Cat 5 KVM over IP switch (1 local / 2 remote, discontinued)",
+  "family": "ATEN KN KVM over IP (VA)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn2132va/",
+  "notes": "Discontinued; replaced by KN2132VB. 32 computer ports for KA7xxx adapters, cascades to 512, 1U, 43.4 x 41.2 x 4.4 cm, 5.7 kg, 40 W.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Local console DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Local console (Cat 5 remote console)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini-USB",
+    "count": 1,
+    "prefix": "Laptop USB Console (LUC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 5.69
+ },
+ {
+  "id": "aten-kn4116va",
+  "manufacturer": "ATEN",
+  "partNumber": "KN4116VA",
+  "name": "KN4116VA 16-port Cat 5 KVM over IP switch (1 local / 4 remote)",
+  "family": "ATEN KN KVM over IP (VA)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/kvm-over-ip-switches/kn4116va/",
+  "notes": "16 computer ports for KA7xxx adapters, 1 local + 4 remote users, 1U. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Local console DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Local console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Console audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (virtual media)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1G, dual)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kh1508a",
+  "manufacturer": "ATEN",
+  "partNumber": "KH1508A",
+  "name": "KH1508A 8-port Cat 5 KVM switch",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh1508a/",
+  "notes": "8 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 1 PS/2 or USB console, daisy-chains to 256 computers, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB-25",
+    "count": 2,
+    "prefix": "Daisy chain (in / out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh1516a",
+  "manufacturer": "ATEN",
+  "partNumber": "KH1516A",
+  "name": "KH1516A 16-port Cat 5 KVM switch",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh1516a/",
+  "notes": "16 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 1 PS/2 or USB console, daisy-chains to 256 computers, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB-25",
+    "count": 2,
+    "prefix": "Daisy chain (in / out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh1532a",
+  "manufacturer": "ATEN",
+  "partNumber": "KH1532A",
+  "name": "KH1532A 32-port Cat 5 KVM switch",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh1532a/",
+  "notes": "32 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 1 PS/2 or USB console, daisy-chains to 256 computers, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB-25",
+    "count": 2,
+    "prefix": "Daisy chain (in / out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh2508a",
+  "manufacturer": "ATEN",
+  "partNumber": "KH2508A",
+  "name": "KH2508A 2-console 8-port Cat 5 KVM switch",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh2508a/",
+  "notes": "8 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 2 PS/2 or USB consoles, daisy-chains to 256 computers, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 2,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB-25",
+    "count": 2,
+    "prefix": "Daisy chain (in / out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh2516a",
+  "manufacturer": "ATEN",
+  "partNumber": "KH2516A",
+  "name": "KH2516A 2-console 16-port Cat 5 KVM switch",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh2516a/",
+  "notes": "16 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 2 PS/2 or USB consoles, daisy-chains to 256 computers, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 2,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB-25",
+    "count": 2,
+    "prefix": "Daisy chain (in / out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh1508ai",
+  "manufacturer": "ATEN",
+  "partNumber": "KH1508Ai",
+  "name": "KH1508Ai 8-port Cat 5 KVM switch over IP (1 local / remote shared)",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh1508ai/",
+  "notes": "8 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 1 PS/2 or USB console, remote IP access, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-kh1516ai",
+  "manufacturer": "ATEN",
+  "partNumber": "KH1516Ai",
+  "name": "KH1516Ai 16-port Cat 5 KVM switch over IP (1 local / remote shared)",
+  "family": "ATEN KH Cat 5 KVM",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/cat-5-kvm-switches/kh1516ai/",
+  "notes": "16 computer ports for KA7xxx adapters (DisplayPort, HDMI, DVI or VGA computers), 1 PS/2 or USB console, remote IP access, 1U short-depth metal housing (43.7 x 15.6 x 4.4 cm for KH2516A, 2.85 kg, about 10 W), rack kit included. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Console USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 keyboard"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 1,
+    "prefix": "Console PS/2 mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "aten-km0932",
+  "manufacturer": "ATEN",
+  "partNumber": "KM0932",
+  "name": "KM0932 9-console 32-port Cat 5 matrix KVM switch",
+  "family": "ATEN KM matrix KVM",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/matrix-kvm-switches/km0932/",
+  "notes": "9 independent consoles (each on a Cat 5 console adapter) reach any of 32 computers (KA7xxx adapters); up to 7 units daisy-chain on the VHDCI port. 1U, 43.8 x 41.1 x 4.4 cm, about 6 kg, 50 W, dual power. Discontinued at ATEN; the KE matrix (KVM over IP extenders) replaces it.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 9,
+    "prefix": "Console port (KA7240 / KA7230 console adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "VHDCI-68",
+    "count": 1,
+    "prefix": "Daisy chain"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 54,
+  "weightKg": 6.08
+ },
+ {
+  "id": "aten-km0532",
+  "manufacturer": "ATEN",
+  "partNumber": "KM0532",
+  "name": "KM0532 5-console 32-port Cat 5 matrix KVM switch",
+  "family": "ATEN KM matrix KVM",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/matrix-kvm-switches/km0532/",
+  "notes": "5 independent consoles (each on a Cat 5 console adapter) reach any of 32 computers (KA7xxx adapters); up to 7 units daisy-chain on the VHDCI port. 1U, 43.8 x 41.1 x 4.4 cm, about 6 kg, 50 W, dual power. Discontinued at ATEN; the KE matrix (KVM over IP extenders) replaces it. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 5,
+    "prefix": "Console port (KA7240 / KA7230 console adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "VHDCI-68",
+    "count": 1,
+    "prefix": "Daisy chain"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 54,
+  "weightKg": 6.08
+ },
+ {
+  "id": "aten-km0432",
+  "manufacturer": "ATEN",
+  "partNumber": "KM0432",
+  "name": "KM0432 4-console 32-port Cat 5 matrix KVM switch",
+  "family": "ATEN KM matrix KVM",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/matrix-kvm-switches/km0432/",
+  "notes": "4 independent consoles (each on a Cat 5 console adapter) reach any of 32 computers (KA7xxx adapters); up to 7 units daisy-chain on the VHDCI port. 1U, 43.8 x 41.1 x 4.4 cm, about 6 kg, 50 W, dual power. Discontinued at ATEN; the KE matrix (KVM over IP extenders) replaces it. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Console port (KA7240 / KA7230 console adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "VHDCI-68",
+    "count": 1,
+    "prefix": "Daisy chain"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 54,
+  "weightKg": 6.08
+ },
+ {
+  "id": "aten-km0032",
+  "manufacturer": "ATEN",
+  "partNumber": "KM0032",
+  "name": "KM0032 32-port matrix KVM expansion switch",
+  "family": "ATEN KM matrix KVM",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/matrix-kvm-switches/km0032/",
+  "notes": "Adds 32 computer ports to a KM0932 / KM0532 / KM0432; up to 7 units daisy-chain on the VHDCI port. 1U, 43.8 x 41.1 x 4.4 cm, about 6 kg, 50 W, dual power. Discontinued at ATEN; the KE matrix (KVM over IP extenders) replaces it. Check: connectors (taken from a sibling model).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "VHDCI-68",
+    "count": 1,
+    "prefix": "Daisy chain"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (dual PSU)"
+   }
+  ],
+  "powerW": 54,
+  "weightKg": 6.08
+ },
+ {
+  "id": "aten-cl5708n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5708N",
+  "name": "CL5708N PS/2-USB VGA single rail LCD KVM switch, 8 ports (CL5708M 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5708n/",
+  "notes": "1U slide-out drawer with LCD screen (CL5708N 19 in, CL5708M 17 in), keyboard and touchpad, and a built-in 8-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 8,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl5716n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5716N",
+  "name": "CL5716N PS/2-USB VGA single rail LCD KVM switch, 16 ports (CL5716M 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5716n/",
+  "notes": "1U slide-out drawer with LCD screen (CL5716N 19 in, CL5716M 17 in), keyboard and touchpad, and a built-in 16-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 16,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl5708in",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5708iN",
+  "name": "CL5708iN PS/2-USB VGA single rail LCD KVM over IP switch, 8 ports (CL5708iM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5708in/",
+  "notes": "1U slide-out drawer with LCD screen (CL5708iN 19 in, CL5708iM 17 in), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 8,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl5716in",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5716iN",
+  "name": "CL5716iN PS/2-USB VGA single rail LCD KVM over IP switch, 16 ports (CL5716iM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5716in/",
+  "notes": "1U slide-out drawer with LCD screen (CL5716iN 19 in, CL5716iM 17 in), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 16,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl5808n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5808N",
+  "name": "CL5808N PS/2-USB VGA LCD KVM switch, 8 ports, dual rail",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5808n/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 8-port KVM switch. Dual rail: the screen and the keyboard slide out separately. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 8,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl5816n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5816N",
+  "name": "CL5816N PS/2-USB VGA LCD KVM switch, 16 ports, dual rail",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5816n/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 16-port KVM switch. Dual rail: the screen and the keyboard slide out separately. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 16,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl1308n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL1308N",
+  "name": "CL1308N PS/2-USB VGA single rail LCD KVM switch, 8 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl1308n/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 8-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 8,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl1316n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL1316N",
+  "name": "CL1316N PS/2-USB VGA single rail LCD KVM switch, 16 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl1316n/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 16-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 16,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3108nx",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3108NX",
+  "name": "CL3108NX PS/2-USB VGA single rail widescreen LCD KVM switch, 8 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3108nx/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 8-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 8,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3116nx",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3116NX",
+  "name": "CL3116NX PS/2-USB VGA single rail widescreen LCD KVM switch, 16 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3116nx/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 16-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-15",
+    "count": 16,
+    "prefix": "KVM port (ATEN KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3708nw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3708NW",
+  "name": "CL3708NW USB HDMI single rail widescreen LCD KVM switch, 8 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3708nw/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 8-port KVM switch. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "Other",
+    "count": 8,
+    "prefix": "KVM port (ATEN USB HDMI KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3716nw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3716NW",
+  "name": "CL3716NW USB HDMI single rail widescreen LCD KVM switch, 16 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3716nw/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 16-port KVM switch. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "Other",
+    "count": 16,
+    "prefix": "KVM port (ATEN USB HDMI KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3708inw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3708iNW",
+  "name": "CL3708iNW USB HDMI single rail widescreen FHD LCD KVM over IP switch, 8 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3708inw/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "Other",
+    "count": 8,
+    "prefix": "KVM port (ATEN USB HDMI KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3716inw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3716iNW",
+  "name": "CL3716iNW USB HDMI single rail widescreen FHD LCD KVM over IP switch, 16 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3716inw/",
+  "notes": "1U slide-out drawer with LCD screen (18.5 in wide), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "Other",
+    "count": 16,
+    "prefix": "KVM port (ATEN USB HDMI KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl6708mw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL6708MW",
+  "name": "CL6708MW USB DVI single rail widescreen LCD KVM switch, 8 ports",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl6708mw/",
+  "notes": "1U slide-out drawer with LCD screen (17.3 in wide), keyboard and touchpad, and a built-in 8-port KVM switch. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "Other",
+    "count": 8,
+    "prefix": "KVM port (ATEN USB DVI KVM cable)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1508an",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1508AN",
+  "name": "KL1508AN multi-interface Cat 5 LCD KVM switch, 8 ports, dual rail (KL1508AM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1508an/",
+  "notes": "1U slide-out drawer with LCD screen (KL1508AN 19 in, KL1508AM 17 in), keyboard and touchpad, and a built-in 8-port KVM switch. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1516an",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1516AN",
+  "name": "KL1516AN multi-interface Cat 5 LCD KVM switch, 16 ports, dual rail (KL1516AM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1516an/",
+  "notes": "1U slide-out drawer with LCD screen (KL1516AN 19 in, KL1516AM 17 in), keyboard and touchpad, and a built-in 16-port KVM switch. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1508ain",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1508AiN",
+  "name": "KL1508AiN multi-interface Cat 5 LCD KVM over IP switch, 8 ports, dual rail (KL1508AiM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1508ain/",
+  "notes": "1U slide-out drawer with LCD screen (KL1508AiN 19 in, KL1508AiM 17 in), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1516ain",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1516AiN",
+  "name": "KL1516AiN multi-interface Cat 5 LCD KVM over IP switch, 16 ports, dual rail (KL1516AiM 17 in)",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1516ain/",
+  "notes": "1U slide-out drawer with LCD screen (KL1516AiN 19 in, KL1516AiM 17 in), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1108vn",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1108VN",
+  "name": "KL1108VN multi-interface Cat 5 (1 local / 1 remote) LCD KVM over IP switch, 8 ports, dual rail",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1108vn/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-kl1116vn",
+  "manufacturer": "ATEN",
+  "partNumber": "KL1116VN",
+  "name": "KL1116VN multi-interface Cat 5 (1 local / 1 remote) LCD KVM over IP switch, 16 ports, dual rail",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/kl1116vn/",
+  "notes": "1U slide-out drawer with LCD screen (19 in), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Dual rail: the screen and the keyboard slide out separately. Computer ports take KA7xxx Cat 5 adapters. Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "KVM port (Cat 5, KA7xxx adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "External console VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote access)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PON (power switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl3884nw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3884NW",
+  "name": "CL3884NW 4-port USB HDMI multi-view dual rail widescreen LCD KVM switch",
+  "family": "ATEN LCD KVM switches",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3884nw/",
+  "notes": "1U dual-rail drawer with an 18.5 in widescreen showing up to four computers at once (multi-view), keyboard and touchpad. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "Computer HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 4,
+    "prefix": "Computer USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "External console HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "External console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40
+ },
+ {
+  "id": "aten-cl1000n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL1000N",
+  "name": "CL1000N PS/2-USB VGA single rail LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl1000/",
+  "notes": "1U slide-out LCD console (19 in (CL1000M 17 in)) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-cl5800n",
+  "manufacturer": "ATEN",
+  "partNumber": "CL5800N",
+  "name": "CL5800N PS/2-USB VGA dual rail LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5800/",
+  "notes": "1U slide-out LCD console (19 in) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Dual rail: screen and keyboard slide out separately. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-cl6700mw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL6700MW",
+  "name": "CL6700MW USB HDMI/DVI/VGA single rail LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl6700/",
+  "notes": "1U slide-out LCD console (17.3 in wide (CL6700N 19 in)) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-cl3100nx",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3100NX",
+  "name": "CL3100NX ultra short depth USB VGA single rail widescreen LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3100/",
+  "notes": "1U slide-out LCD console (18.5 in wide) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Ultra short depth, for shallow racks. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-cl3700nw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3700NW",
+  "name": "CL3700NW ultra short depth USB HDMI single rail widescreen LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3700/",
+  "notes": "1U slide-out LCD console (18.5 in wide (also CL3700NX)) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Ultra short depth, for shallow racks. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "aten-cl3800nw",
+  "manufacturer": "ATEN",
+  "partNumber": "CL3800NW",
+  "name": "CL3800NW ultra short depth USB HDMI/DVI/VGA dual rail widescreen LCD console",
+  "family": "ATEN LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATEN product page",
+  "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl3800/",
+  "notes": "1U slide-out LCD console (18.5 in wide (also CL3800NX)) with keyboard and touchpad, no KVM switch inside: it is the rack console for a separate KVM switch or one server. Dual rail: screen and keyboard slide out separately. Ultra short depth, for shallow racks. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In (from KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (keyboard, touchpad to KVM switch or computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ }
+]

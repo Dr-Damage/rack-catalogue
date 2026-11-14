@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "b742a64c3561",
- "updated": "2026-11-14T06:03:52Z",
- "entries": 1570,
+ "version": "9b4b3d39e71a",
+ "updated": "2026-11-14T06:14:19Z",
+ "entries": 1673,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -323,6 +323,21 @@
    "sha256": "9c2ce23abe3f283cfc8d71032ef4a2b102358d918db1c0f3aa7666be941d0066",
    "entries": 42,
    "bytes": 79890
+  },
+  "aten.json": {
+   "sha256": "5ac99398c57b42c1a3467b11030d6f9cecc61fdee3d3cc1c164a9aca210945f7",
+   "entries": 53,
+   "bytes": 92694
+  },
+  "novastar.json": {
+   "sha256": "b55af926e7701136c50ba2d5d7c20f15b38f4bac659d682ca912e02b16020e48",
+   "entries": 12,
+   "bytes": 27985
+  },
+  "netgear.json": {
+   "sha256": "91374e2576c17baea001ff1fdc8810eba12d7f4e048203560ed5c03243fc3db0",
+   "entries": 38,
+   "bytes": 61481
   }
  }
 }

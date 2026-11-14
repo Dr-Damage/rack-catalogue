@@ -1,0 +1,2632 @@
+[
+ {
+  "id": "netgear-gsm4210pd",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4210PD",
+  "name": "M4250-9G1F-PoE+ AV Line managed switch (GSM4210PD)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 110 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In (external adapter)"
+   }
+  ],
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "netgear-gsm4210px",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4210PX",
+  "name": "M4250-8G2XF-PoE+ AV Line managed switch (GSM4210PX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 220 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In (external adapter)"
+   }
+  ],
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "netgear-gsm4212p",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4212P",
+  "name": "M4250-10G2F-PoE+ AV Line managed switch (GSM4212P)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 125 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4212px",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4212PX",
+  "name": "M4250-10G2XF-PoE+ AV Line managed switch (GSM4212PX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 240 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4212ux",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4212UX",
+  "name": "M4250-10G2XF-PoE++ AV Line managed switch (GSM4212UX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 720 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4230p",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4230P",
+  "name": "M4250-26G4F-PoE+ AV Line managed switch (GSM4230P)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 300 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4230px",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4230PX",
+  "name": "M4250-26G4XF-PoE+ AV Line managed switch (GSM4230PX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4230up",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4230UP",
+  "name": "M4250-26G4F-PoE++ AV Line managed switch (GSM4230UP)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 1,440 W with all 2 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4248p",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4248P",
+  "name": "M4250-40G8F-PoE+ AV Line managed switch (GSM4248P)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4248px",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4248PX",
+  "name": "M4250-40G8XF-PoE+ AV Line managed switch (GSM4248PX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 960 W with all 2 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4248ux",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4248UX",
+  "name": "M4250-40G8XF-PoE++ AV Line managed switch (GSM4248UX)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 2,880 W with all 3 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "1G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 3,
+    "prefix": "AC In (PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4214x",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4214X",
+  "name": "M4250-12M2XF AV Line managed switch (MSM4214X)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "2.5G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4216f",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4216F",
+  "name": "M4250-16XF AV Line managed switch (XSM4216F)",
+  "family": "NETGEAR M4250",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4250 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 16,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4328",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4328",
+  "name": "M4350-24G4XF managed switch (GSM4328)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 648 W, up to 720 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4352",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4352",
+  "name": "M4350-48G4XF managed switch (GSM4352)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 236 W, up to 1,440 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4352",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4352",
+  "name": "M4350-44M4X4V managed switch (MSM4352)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 194 W, up to 3,314 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 44,
+    "prefix": "2.5G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4316",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4316",
+  "name": "M4350-8X8F managed switch (XSM4316)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4324",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4324",
+  "name": "M4350-12X12F managed switch (XSM4324)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 12,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4328cv",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4328CV",
+  "name": "M4350-24X4V managed switch (XSM4328CV)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 576 W, up to 720 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "10G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4328fv",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4328FV",
+  "name": "M4350-24F4V managed switch (XSM4328FV)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4340cv",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4340CV",
+  "name": "M4350-36X4V managed switch (XSM4340CV)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 280 W, up to 1,760 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 36,
+    "prefix": "10G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4340v",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4340V",
+  "name": "M4350-24X8F8V managed switch (XSM4340V)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 290 W, up to 1,770 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "10G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4340fv",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4340FV",
+  "name": "M4350-32F8V managed switch (XSM4340FV)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 32,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-vsm4320c",
+  "manufacturer": "NETGEAR",
+  "partNumber": "VSM4320C",
+  "name": "M4350-16V4C managed switch (VSM4320C)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4344c",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4344C",
+  "name": "M4350-40X4C managed switch (XSM4344C)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). PoE budget 196 W, up to 1,676 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "10G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4328f",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4328F",
+  "name": "M4350-24F4X managed switch (MSM4328F)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 24,
+    "prefix": "2.5G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10G (combo)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4310",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4310",
+  "name": "M4350-8M2V managed switch (MSM4310)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). PoE budget 119 W, up to 551 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4332",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4332",
+  "name": "M4350-24M4X4V managed switch (MSM4332)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). PoE budget 522 W, up to 1,972 W (110 V) or 2,520 W (220 V) (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "2.5G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4344fc",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4344FC",
+  "name": "M4350-40F4C managed switch (XSM4344FC)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 40,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-msm4320",
+  "manufacturer": "NETGEAR",
+  "partNumber": "MSM4320",
+  "name": "M4350-16M4V managed switch (MSM4320)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles). PoE budget 530 W, up to 1,130 W (with extra power supplies). 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "2.5G PoE++"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 8,
+    "prefix": "2.5G PoE++ (etherCON)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G SFP28 (APM414V card)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-csm4316",
+  "manufacturer": "NETGEAR",
+  "partNumber": "CSM4316",
+  "name": "M4350-16C managed switch (CSM4316)",
+  "family": "NETGEAR M4350",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "NETGEAR NETGEAR M4350 port and PoE table",
+  "productUrl": "https://kb.netgear.com/000066110/NETGEAR-AV-and-IT-Managed-Switches-M4350-Series",
+  "notes": "NETGEAR M4350 AV and IT switch (AV user interface, Dante / AES67 / NDI / ST 2110 profiles, SMPTE 2110 ready). No PoE. 1U rack mount, hot-swap modular power supplies and fans. Check: console/USB/management ports and number of PSU bays (typical for the series).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 16,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (modular PSU)"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4316s",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4316S",
+  "name": "M4300-8X8F managed switch (XSM4316S)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. Half-width 1U; two fit side by side on one rack kit. Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4324s",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4324S",
+  "name": "M4300-12X12F managed switch (XSM4324S)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. Half-width 1U; two fit side by side on one rack kit. Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 12,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-xsm4348s",
+  "manufacturer": "NETGEAR",
+  "partNumber": "XSM4348S",
+  "name": "M4300-24X24F managed switch (XSM4348S)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. 1U. Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4328s",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4328S",
+  "name": "M4300-28G managed switch (GSM4328S)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. 1U. Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4352s",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4352S",
+  "name": "M4300-52G managed switch (GSM4352S)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. 1U. Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4328pb",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4328PB",
+  "name": "M4300-28G-PoE+ managed switch (GSM4328PB)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. 1U, PoE+ (550 W PSU). Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "netgear-gsm4352pb",
+  "manufacturer": "NETGEAR",
+  "partNumber": "GSM4352PB",
+  "name": "M4300-52G-PoE+ managed switch (GSM4352PB)",
+  "family": "NETGEAR M4300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NETGEAR NETGEAR M4300 port and PoE table",
+  "productUrl": "https://www.netgear.com/business/wired/switches/fully-managed/",
+  "notes": "Previous-generation NETGEAR fully managed switch, stackable. 1U, PoE+ (550 W PSU). Check: ports and power inlets (from memory of the M4300 datasheet; the M4350 replaces it).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]
