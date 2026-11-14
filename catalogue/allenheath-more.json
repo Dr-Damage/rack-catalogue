@@ -1,0 +1,649 @@
+[
+ {
+  "id": "ah-ahm-64",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "AHM-64",
+  "name": "AHM-64 64x64 audio matrix processor",
+  "family": "AHM",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AHM-64 technical datasheet",
+  "productUrl": "https://goknight.com/content/documentation/AH-AHM-64%2064x64%20Audio%20Matrix%20Processor%20Spec%20Sheet.pdf",
+  "notes": "2U, 482.6 x 364 x 91 mm, 7 kg, 70 W max. 64x64 matrix processor for installed audio: 12 mic/line inputs (+48 V) and 12 outputs on pluggable Phoenix blocks, SLink port (128x128, to DX/GX expanders, AudioRacks or an SQ), one I/O Port slot (128x128, e.g. Dante 64x64), control network for System Manager and IP remotes, 2 GPI and 2 relay outputs, mains IEC plus 12 V DC backup input. Check: SLink connector type (the datasheet only says Cat5e).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 12,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 12,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "SLink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "GPIO (2 in, 2 relay out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "12 V DC backup"
+   }
+  ],
+  "powerW": 70,
+  "weightKg": 7
+ },
+ {
+  "id": "ah-ahm-32",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "AHM-32",
+  "name": "AHM-32 32x32 audio matrix processor",
+  "family": "AHM",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AHM-32 spec sheet",
+  "productUrl": "https://fullcompass.com/common/files/90205-AHM32SpecSheet.pdf",
+  "notes": "1U, 482.6 x 270 x 44 mm, 4 kg, 70 W max. 12 mic/line inputs (+48 V) and 12 outputs on Phoenix blocks, one I/O Port slot (128x128, Dante or SLink card), one processing module slot (e.g. AEC), control network, 2 GPI and 2 relay outputs. Front: screen and 8 SoftKeys.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 12,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 12,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Processing module (AEC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "GPIO (2 in, 2 relay out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 70,
+  "weightKg": 4
+ },
+ {
+  "id": "ah-ahm-16",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "AHM-16",
+  "name": "AHM-16 16x16 audio matrix processor",
+  "family": "AHM",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "AHM-16 technical datasheet",
+  "productUrl": "https://www.allen-heath.com/content/uploads/2023/06/AHM-16-Tech-Datasheet.pdf",
+  "notes": "1U, 482.6 x 270 x 44 mm, 3.8 kg, 65 W max. 8 mic/line inputs and 8 outputs on Phoenix blocks, one I/O Port slot (Dante or SLink), control network, 2 GPI and 2 relay outputs. Front: screen and 4 SoftKeys.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "GPIO (2 in, 2 relay out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 65,
+  "weightKg": 3.8
+ },
+ {
+  "id": "ah-dlive-dm0",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "dLive DM0",
+  "name": "dLive DM0 MixRack (no local I/O)",
+  "family": "dLive",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "dLive DM0 datasheet",
+  "productUrl": "https://goknight.com/content/documentation/DLIVE%20DM0%20Spec%20Sheet.pdf",
+  "notes": "4U (176 mm), 482.6 x 355 mm deep, 12 kg. Full XCVI core (128 inputs, 64 buses) with no analogue I/O: audio comes in on 3 I/O Port cards (128 ch at 96 kHz each), DX expanders and the surface. 2 gigaACE (redundant surface link), DX ports for 2 redundant DX expanders, ME port, 2 gigabit network, word clock, dual-redundant hot-swap PSUs (90 W max each) with their own IEC and switch. Reversible rack ears. DM0U is the same rack with UltraFX. Check: DX port count (datasheet sections differ) and which face the phones socket is on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "I/O Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "gigaACE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "ME"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 180,
+  "weightKg": 12
+ },
+ {
+  "id": "ah-dx012",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "DX012",
+  "name": "DX012 12-output DX expander (analogue/AES)",
+  "family": "DX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DX012 datasheet",
+  "productUrl": "https://www.allen-heath.com/content/uploads/2023/06/DX012-Datasheet.pdf",
+  "notes": "1U, 482.6 x 215 mm deep, 2.95 kg, 35 W max. 12 XLR outputs set as 12 analogue, 8 analogue + 4 stereo AES3 or 4 analogue + 8 stereo AES3; DX A and DX B (daisy chain or redundant). For dLive, Avantis, SQ and AHM-64 at 96 kHz. Reversible rack ears. Check: which face the XLRs and DX ports are on (the datasheet only puts the IEC on the rear).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 12,
+    "prefix": "Out (analogue or AES pairs)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "DX A"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "DX B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 35,
+  "weightKg": 2.95
+ },
+ {
+  "id": "ah-gx4816",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "GX4816",
+  "name": "GX4816 48x16 96kHz expander",
+  "family": "GX",
+  "category": "audio",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "GX4816 datasheet",
+  "productUrl": "https://media.musson.com/mti/docs/g/x/gx4816-datasheet.pdf",
+  "notes": "481.6 x 255 x 229.5 mm, 8 kg, 80 W max. 48 mic/line inputs (+48 V), 16 XLR outputs, GX port to the mixer (dLive, Avantis, SQ, AHM-64 through a GX card or SLink), 2 DX ports for further expanders (one can feed ME personal mixers on Avantis/SQ). The IEC is on the front panel. Check: rack height (5U assumed from 229.5 mm with feet).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 48,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "GX"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "DX"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 80,
+  "weightKg": 8
+ },
+ {
+  "id": "ah-dt168",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "DT168",
+  "name": "DT168 Dante expander 16x8",
+  "family": "Dante expanders",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DT168 technical datasheet",
+  "productUrl": "https://www.allen-heath.com/content/uploads/2023/06/DT168-Technical-Datasheet.pdf",
+  "notes": "Portable 16 x 8 Dante stagebox: 410 x 190 x 185 mm, 4.6 kg, 40 W max. 16 mic inputs (+48 V), 8 relay-protected XLR outputs, Dante primary and secondary (daisy chain or redundant) on etherCON. 4U with the optional 19-inch rack kit (same body as AB168/DX168). Check: which face the etherCONs are on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 4.6
+ },
+ {
+  "id": "ah-dx-hub",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "DX Hub",
+  "name": "DX Hub 4-port DX expander hub (half rack)",
+  "family": "DX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DX Hub brochure and weights/dims sheet",
+  "productUrl": "https://www.allen-heath.com/content/uploads/2023/06/DX-Hub-Weights-and-Dims.pdf",
+  "notes": "Half-width 1U box, 171 x 203 x 43 mm, 1.2 kg. Connects to an SQ SLink port or a dLive gigaACE card and fans out to 4 DX links (32x32 at 96 kHz each); 2 hubs on one gigaACE card give 4 redundant DX links. Mounts half-space or two side by side with the 1U kit. Check: power inlet type and which face the ports are on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Link (SLink / gigaACE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "DX"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 171,
+   "h": 43
+  },
+  "weightKg": 1.2
+ },
+ {
+  "id": "ah-me-u",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "ME-U",
+  "name": "ME-U 10-port personal mixing hub",
+  "family": "ME",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ME-U datasheet",
+  "productUrl": "https://www.allen-heath.com/content/uploads/2023/06/ME-U-Datasheet-WEB.pdf",
+  "notes": "2U, 483 x 253 x 92 mm, 4.6 kg, 250 W max. 10 ME outputs with PoE (15 W each) for ME-1 / ME-500 mixers; removable input card (dLive, SQ, Qu, GLD, iLive or A-Net, or M-DANTE / M-MADI / M-WAVES2); network port for browser setup. Rear power switch. Check: which face the network port is on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 10,
+    "prefix": "ME (PoE)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Input card"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 250,
+  "weightKg": 4.6
+ },
+ {
+  "id": "ah-ar2412",
+  "manufacturer": "Allen & Heath",
+  "partNumber": "AR2412",
+  "name": "AR2412 AudioRack 24x12 (GLD / SQ / Qu)",
+  "family": "AudioRack",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AR2412 cut sheet",
+  "productUrl": "https://shop.ccisolutions.com/StoreFront/jsp/pdf/AR2412-Cut-Sheet.pdf",
+  "notes": "4U stagebox, 24 mic inputs, 12 XLR outputs, dSNAKE to a GLD, SQ (SLink) or Qu mixer, expander port for an AR84 or AB168, ME port for personal mixers. Check: AES output, port faces and power figures (cut sheet gives only the counts above).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 12,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "dSNAKE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Expander"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "ME"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

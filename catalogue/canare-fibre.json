@@ -1,0 +1,68 @@
+[
+ {
+  "id": "canare-k24fce-s24-1u-blk",
+  "manufacturer": "Canare",
+  "partNumber": "K24FCE-S24-1U-BLK",
+  "name": "K24FCE-S24-1U-BLK 24-hole keystone fibre splice panel (24F)",
+  "family": "Fibre Splice Unit",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Fiber-Optic Splice Unit)",
+  "productUrl": "https://www.canare.co.jp/en/products/fiber_optic_systems/index.php?tid=1_059",
+  "notes": "1RU splice panel with 24 keystone positions and splice trays for 24 fibres. Keystone couplers are sold separately: FKDLJ-JS (LC duplex SM), FKSJ-JS (SC SM), FKDLJ-JM (LC duplex MM), FKSJ-JM (SC MM), FKMPJ-JM (MPO MM). Unloaded as listed; rename the front ports once couplers are fitted.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Keystone",
+    "count": 24,
+    "prefix": "Keystone"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 24,
+    "prefix": "Splice"
+   }
+  ]
+ },
+ {
+  "id": "canare-k24fce-s48-1u-blk",
+  "manufacturer": "Canare",
+  "partNumber": "K24FCE-S48-1U-BLK",
+  "name": "K24FCE-S48-1U-BLK 24-hole keystone fibre splice panel (48F)",
+  "family": "Fibre Splice Unit",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canare product page (Fiber-Optic Splice Unit)",
+  "productUrl": "https://www.canare.co.jp/en/products/fiber_optic_systems/index.php?tid=1_059",
+  "notes": "1RU splice panel with 24 keystone positions and splice trays for 48 fibres. Keystone couplers are sold separately: FKDLJ-JS (LC duplex SM), FKSJ-JS (SC SM), FKDLJ-JM (LC duplex MM), FKSJ-JM (SC MM), FKMPJ-JM (MPO MM). Unloaded as listed; rename the front ports once couplers are fitted.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Keystone",
+    "count": 24,
+    "prefix": "Keystone"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 48,
+    "prefix": "Splice"
+   }
+  ]
+ }
+]

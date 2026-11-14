@@ -1,0 +1,255 @@
+[
+ {
+  "id": "neutrik-nzp1ru-8",
+  "manufacturer": "Neutrik",
+  "partNumber": "NZP1RU-8",
+  "name": "NZP1RU-8 opticalCON panel, 8 D-size positions",
+  "family": "opticalCON rack panels",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product pages and Canford opticalCON panel listing",
+  "productUrl": "https://www.neutrik.com/product/nzp1ru-8",
+  "notes": "Angled 1U rack panel with 8 D-size cutouts for opticalCON ADVANCED chassis connectors. Made to order. Chassis connectors (cards here) and plates are bought separately.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "D-size hole",
+   "slots": 8,
+   "orient": "v",
+   "controller": "None (passive). Each position takes one D-size chassis connector."
+  }
+ },
+ {
+  "id": "neutrik-nzp1ru-12",
+  "manufacturer": "Neutrik",
+  "partNumber": "NZP1RU-12",
+  "name": "NZP1RU-12 opticalCON panel, 12 D-size positions",
+  "family": "opticalCON rack panels",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product pages and Canford opticalCON panel listing",
+  "productUrl": "https://www.neutrik.com/product/nzp1ru-12",
+  "notes": "Angled 1U rack panel with 12 D-size cutouts for opticalCON ADVANCED chassis connectors. Made to order. Chassis connectors (cards here) and plates are bought separately.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "D-size hole",
+   "slots": 12,
+   "orient": "v",
+   "controller": "None (passive). Each position takes one D-size chassis connector."
+  }
+ },
+ {
+  "id": "neutrik-nzpf1ru",
+  "manufacturer": "Neutrik",
+  "partNumber": "NZPF1RU",
+  "name": "NZPF1RU opticalCON panel, 2 D-size positions",
+  "family": "opticalCON rack panels",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product pages and Canford opticalCON panel listing",
+  "productUrl": "https://www.neutrik.com/product/nzpf1ru",
+  "notes": "1U Z-panel frame with a 45-degree angled outlet, for up to 2 plates (NZPFD single-D plates or NZPFBP blanks; not the dual NZPFD-2). Each position here is one NZPFD plate. Made for tight OB truck I/O panels. Chassis connectors (cards here) and plates are bought separately.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "D-size hole",
+   "slots": 2,
+   "orient": "h",
+   "cols": 2,
+   "controller": "None (passive). Each position takes one D-size chassis connector."
+  }
+ },
+ {
+  "id": "neutrik-nzpf3ru",
+  "manufacturer": "Neutrik",
+  "partNumber": "NZPF3RU",
+  "name": "NZPF3RU opticalCON panel, 9 D-size positions",
+  "family": "opticalCON rack panels",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product pages and Canford opticalCON panel listing",
+  "productUrl": "https://www.neutrik.com/product/nzpf3ru",
+  "notes": "3U Z-panel frame for up to 9 plates angled up or down. Each position here is one NZPFD single-D plate; with NZPFD-2 dual plates the frame takes 18 connectors (add the second connector of a plate as another device). Chassis connectors (cards here) and plates are bought separately.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "D-size hole",
+   "slots": 9,
+   "orient": "v",
+   "controller": "None (passive). Each position takes one D-size chassis connector."
+  }
+ },
+ {
+  "id": "neutrik-no2-4fdw-a",
+  "manufacturer": "Neutrik",
+  "partNumber": "NO2-4FDW-A",
+  "name": "NO2-4FDW-A opticalCON DUO ADVANCED chassis connector",
+  "family": "opticalCON chassis",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product page",
+  "productUrl": "https://www.neutrik.com/product/no2-4fdw-a",
+  "notes": "2-channel rugged fibre feed-through: opticalCON DUO on the front, standard LC duplex on the rear. D-size mounting, metal shutter, IP65 when mated with an SCDP gasket. Gasket colours: black multimode, blue single-mode PC, green single-mode APC.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "opticalCON DUO"
+   }
+  ],
+  "card": {
+   "fits": [
+    "D-size hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "NO2-4FDW-A",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 1,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "neutrik-no4fdw-a",
+  "manufacturer": "Neutrik",
+  "partNumber": "NO4FDW-A",
+  "name": "NO4FDW-A opticalCON QUAD ADVANCED chassis connector",
+  "family": "opticalCON chassis",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Neutrik product page",
+  "productUrl": "https://www.neutrik.com/product/no4fdw-a",
+  "notes": "4-channel rugged fibre feed-through: opticalCON QUAD on the front, four LC connectors on the rear. D-size mounting, metal shutter, IP65 when mated with an SCDP gasket. Gasket colours: black multimode, blue single-mode PC, green single-mode APC.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON QUAD",
+    "count": 1,
+    "prefix": "opticalCON QUAD"
+   }
+  ],
+  "card": {
+   "fits": [
+    "D-size hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "NO4FDW-A",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC simplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ }
+]

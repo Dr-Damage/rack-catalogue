@@ -1,0 +1,433 @@
+[
+ {
+  "id": "mackie-dl32r",
+  "manufacturer": "Mackie",
+  "partNumber": "DL32R",
+  "name": "DL32R 32-channel rack digital mixer",
+  "family": "DL",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Mackie DL32R specifications (Full Compass)",
+  "productUrl": "https://www.fullcompass.com/prod/269613-mackie-dl32r-32-channel-rackmount-digital-mixer-with-ios-connectivity",
+  "notes": "3U, 483 x 443 x 138 mm, 8.2 kg, 100 W. 32 Onyx+ preamps (24 XLR + 8 combo), 12 XLR outputs, AES out, monitor and phones, USB-B audio interface and USB-A multitrack recording; option slot for the network card (wired control) or Dante card. iPad control. Check: which face the option slot is on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 12,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out L/R"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio (32x32)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB drive (record/play)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Network/Dante option card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 100,
+  "weightKg": 8.2
+ },
+ {
+  "id": "mackie-dl32s",
+  "manufacturer": "Mackie",
+  "partNumber": "DL32S",
+  "name": "DL32S 32-channel wireless digital mixer",
+  "family": "DL",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Mackie DL32S specifications",
+  "productUrl": "https://fullcompass.com/prod/550991-mackie-dl32s-32-channel-wireless-digital-live-sound-mixer",
+  "notes": "4U, 414 mm wide x 147 mm deep, 4.0 kg, 60 W. 32 Onyx preamps (16 XLR + 16 combo, last two Hi-Z), 10 XLR outputs, phones, USB-B audio interface, 100 Mb Ethernet and built-in Wi-Fi (external SMA antenna). Check: rack ears (the body is 414 mm wide) and which face the Ethernet and IEC are on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 16,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 10,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio (32x32)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Wi-Fi antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 60,
+  "weightKg": 4.0
+ },
+ {
+  "id": "mackie-dl32se",
+  "manufacturer": "Mackie",
+  "partNumber": "DL32SE",
+  "name": "DL32SE 32-channel digital rack mixer (SE)",
+  "family": "DL",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Mackie DL32SE specifications",
+  "productUrl": "https://mackie.com/img/file_resources/DL16SE_DL32SE_SS[99].pdf",
+  "notes": "4U, 414 mm wide x 147 mm deep, 4.0 kg, 60 W. 32 Onyx preamps (16 XLR + 16 combo, last two Hi-Z), 10 XLR outputs, phones, USB-B audio interface, 100 Mb Ethernet and built-in Wi-Fi (external SMA antenna). SE version: same I/O, ships with the Master Fader SE control software. Check: rack ears (the body is 414 mm wide) and which face the Ethernet and IEC are on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 16,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 10,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio (32x32)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Wi-Fi antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 60,
+  "weightKg": 4.0
+ },
+ {
+  "id": "mackie-dl16s",
+  "manufacturer": "Mackie",
+  "partNumber": "DL16S",
+  "name": "DL16S 16-channel wireless digital mixer",
+  "family": "DL",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Mackie DL16S specifications",
+  "productUrl": "https://www.fullcompass.com/prod/550990-mackie-dl16s-16-channel-wireless-digital-live-sound-mixer",
+  "notes": "3U, 358 mm wide x 147 mm deep, 2.8 kg, 40 W. 16 Onyx preamps (8 XLR + 8 combo, last two Hi-Z), 8 XLR outputs, phones, USB-B audio interface, 100 Mb Ethernet and built-in Wi-Fi (external SMA antenna). Check: rack ears (the body is 358 mm wide) and which face the Ethernet and IEC are on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio (16x16)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Wi-Fi antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 2.8
+ },
+ {
+  "id": "mackie-dl16se",
+  "manufacturer": "Mackie",
+  "partNumber": "DL16SE",
+  "name": "DL16SE 16-channel digital rack mixer (SE)",
+  "family": "DL",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Mackie DL16SE specifications",
+  "productUrl": "https://mackie.com/img/file_resources/DL16SE_DL32SE_SS[99].pdf",
+  "notes": "3U, 358 mm wide x 147 mm deep, 2.8 kg, 40 W. 16 Onyx preamps (8 XLR + 8 combo, last two Hi-Z), 8 XLR outputs, phones, USB-B audio interface, 100 Mb Ethernet and built-in Wi-Fi (external SMA antenna). SE version: same I/O, ships with the Master Fader SE control software. Check: rack ears (the body is 358 mm wide) and which face the Ethernet and IEC are on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio (16x16)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Wi-Fi antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 2.8
+ }
+]

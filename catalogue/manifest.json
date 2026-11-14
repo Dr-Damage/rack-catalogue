@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "9b4b3d39e71a",
- "updated": "2026-11-14T06:14:19Z",
- "entries": 1673,
+ "version": "b21504c6d6ea",
+ "updated": "2026-11-14T06:25:32Z",
+ "entries": 1757,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -338,6 +338,41 @@
    "sha256": "91374e2576c17baea001ff1fdc8810eba12d7f4e048203560ed5c03243fc3db0",
    "entries": 38,
    "bytes": 61481
+  },
+  "allenheath-more.json": {
+   "sha256": "58f741e31ab80a093afd89d1bde0614abd39a1f5bf24b02f954e464cc815e8e2",
+   "entries": 10,
+   "bytes": 15819
+  },
+  "roland-more.json": {
+   "sha256": "eb34231be07edc7645a6de3cb31b2e6020a65ba4e92fa354468ca2fbcb0786bd",
+   "entries": 7,
+   "bytes": 13591
+  },
+  "mackie.json": {
+   "sha256": "cec76de1d0c24119c290cb553f72d2ce3361188753a8744ec8407ed9e2c63a48",
+   "entries": 5,
+   "bytes": 9939
+  },
+  "corning.json": {
+   "sha256": "954390efcc527123d75b2228d1b202cb28fcaf78bcc03d23a0f6a07fd0db8362",
+   "entries": 37,
+   "bytes": 49515
+  },
+  "panduit.json": {
+   "sha256": "0dfd262786a3894857079f4305bf98b557ecd8fda9f95b495aa2530d63e5d9cc",
+   "entries": 17,
+   "bytes": 21076
+  },
+  "neutrik.json": {
+   "sha256": "9fe5c650dfc3996c20f27ef07320f80e52fd91934827c2d860a6778a4f69c6df",
+   "entries": 6,
+   "bytes": 6798
+  },
+  "canare-fibre.json": {
+   "sha256": "03fafaedc2dccacda759482c3796d9fd331f831b255ff36aafdfd8d30ffe934b",
+   "entries": 2,
+   "bytes": 2132
   }
  }
 }

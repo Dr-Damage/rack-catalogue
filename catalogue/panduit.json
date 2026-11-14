@@ -1,0 +1,857 @@
+[
+ {
+  "id": "panduit-fce1u",
+  "manufacturer": "Panduit",
+  "partNumber": "FCE1U",
+  "name": "FCE1U Opticom fibre enclosure, 4 FAP/FMP panels or cassettes",
+  "family": "Opticom FCE enclosures",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://www.panduit.com/en/products/fiber-optic-systems/fiber-optic-panels-cassettes-enclosures/fiber-optic-enclosures/fce1u.html",
+  "notes": "1U enclosure, 447 mm wide, about 426 mm deep. Holds 4 FAP or FMP adapter panels or QuickNet cassettes: up to 96 fibres with 12-duplex LC panels. Front and rear doors. FCE1UA is the open-access version. Panels lie flat, four side by side. ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Panduit FAP",
+   "slots": 4,
+   "orient": "h",
+   "cols": 4,
+   "controller": "None (passive). Slots take FAP/FMP adapter panels or QuickNet cassettes."
+  }
+ },
+ {
+  "id": "panduit-fce2u",
+  "manufacturer": "Panduit",
+  "partNumber": "FCE2U",
+  "name": "FCE2U Opticom fibre enclosure, 8 FAP/FMP panels or cassettes",
+  "family": "Opticom FCE enclosures",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://www.panduit.com/en/products/fiber-optic-systems/fiber-optic-panels-cassettes-enclosures/fiber-optic-enclosures/fce2u.html",
+  "notes": "2U enclosure, 447 mm wide, about 426 mm deep. Holds 8 FAP or FMP adapter panels or QuickNet cassettes: up to 192 fibres with 12-duplex LC panels. Front and rear doors. Panels lie flat, four side by side. Check: panel order (left to right, then up). ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Panduit FAP",
+   "slots": 8,
+   "orient": "h",
+   "cols": 4,
+   "controller": "None (passive). Slots take FAP/FMP adapter panels or QuickNet cassettes."
+  }
+ },
+ {
+  "id": "panduit-fce4u",
+  "manufacturer": "Panduit",
+  "partNumber": "FCE4U",
+  "name": "FCE4U Opticom fibre enclosure, 12 FAP/FMP panels or cassettes",
+  "family": "Opticom FCE enclosures",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://www.panduit.com/en/products/fiber-optic-systems/fiber-optic-panels-cassettes-enclosures/fiber-optic-enclosures/fce4u.html",
+  "notes": "4U enclosure, 447 mm wide, about 426 mm deep. Holds 12 FAP or FMP adapter panels or QuickNet cassettes: up to 288 fibres with 12-duplex LC panels. Front and rear doors. Panels stand side by side. ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Panduit FAP",
+   "slots": 12,
+   "orient": "v",
+   "controller": "None (passive). Slots take FAP/FMP adapter panels or QuickNet cassettes."
+  }
+ },
+ {
+  "id": "panduit-fap12wbudlcz",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP12WBUDLCZ",
+  "name": "FAP12WBUDLCZ FAP adapter panel, 12 duplex LC (OS1/OS2 single-mode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit FAP product listings",
+  "productUrl": "https://crescentelectric.com/product/59762/opticom-fap-os2-12-lc-duplex-blue",
+  "notes": "Fibre adapter panel with 12 duplex LC adapters, OS1/OS2 single-mode, blue. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC duplex"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP12WBUDLCZ",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC duplex"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap6wbudlcz",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP6WBUDLCZ",
+  "name": "FAP6WBUDLCZ FAP adapter panel, 6 duplex LC (OS1/OS2 single-mode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit FAP product listings",
+  "productUrl": "https://crescentelectric.com/product/59762/opticom-fap-os2-12-lc-duplex-blue",
+  "notes": "Fibre adapter panel with 6 duplex LC adapters, OS1/OS2 single-mode, blue. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC duplex"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP6WBUDLCZ",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC duplex"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap12waqdlc",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP12WAQDLC",
+  "name": "FAP12WAQDLC FAP adapter panel, 12 duplex LC (OM3/OM4 10Gig multimode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Fibre adapter panel with 12 duplex LC adapters, OM3/OM4 10Gig multimode, aqua. Check: current part number may end in Z (zirconia sleeves). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC duplex"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP12WAQDLC",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC duplex"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap6waqdlc",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP6WAQDLC",
+  "name": "FAP6WAQDLC FAP adapter panel, 6 duplex LC (OM3/OM4 10Gig multimode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Fibre adapter panel with 6 duplex LC adapters, OM3/OM4 10Gig multimode, aqua. Check: current part number may end in Z (zirconia sleeves). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC duplex"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP6WAQDLC",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC duplex"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap6waqdsc",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP6WAQDSC",
+  "name": "FAP6WAQDSC FAP adapter panel, 6 duplex SC (OM3/OM4 10Gig multimode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Fibre adapter panel with 6 duplex SC adapters, OM3/OM4 10Gig multimode, aqua. Check: current part number may end in Z. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 12,
+    "prefix": "SC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP6WAQDSC",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "SC",
+      "count": 12,
+      "prefix": "SC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap3waqdsc",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP3WAQDSC",
+  "name": "FAP3WAQDSC FAP adapter panel, 3 duplex SC (OM3/OM4 10Gig multimode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Fibre adapter panel with 3 duplex SC adapters, OM3/OM4 10Gig multimode, aqua. Check: current part number may end in Z. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 6,
+    "prefix": "SC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP3WAQDSC",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "SC",
+      "count": 6,
+      "prefix": "SC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fap6wst",
+  "manufacturer": "Panduit",
+  "partNumber": "FAP6WST",
+  "name": "FAP6WST FAP adapter panel, 6 simplex ST (multimode or single-mode)",
+  "family": "Opticom FAP adapter panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Fibre adapter panel with 6 simplex ST adapters, multimode or single-mode, grey. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 6,
+    "prefix": "ST"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#888888"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FAP6WST",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 6,
+      "prefix": "ST"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fcxo-24-10y",
+  "manufacturer": "Panduit",
+  "partNumber": "FCXO-24-10Y",
+  "name": "FCXO-24-10Y QuickNet MTP cassette, 12 x LC duplex to 2 x MTP (OM3/OM4 10Gig)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 12 duplex LC adapters on the front, 2 x 12-fibre MTP on the rear for a QuickNet trunk, OM3/OM4 10Gig. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCXO-24-10Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 2,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fcxo-12-10y",
+  "manufacturer": "Panduit",
+  "partNumber": "FCXO-12-10Y",
+  "name": "FCXO-12-10Y QuickNet MTP cassette, 6 x LC duplex to 1 x MTP (OM3/OM4 10Gig)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 6 duplex LC adapters on the front, 1 x 12-fibre MTP on the rear for a QuickNet trunk, OM3/OM4 10Gig. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCXO-12-10Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 1,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fcxo-12-3y",
+  "manufacturer": "Panduit",
+  "partNumber": "FCXO-12-3Y",
+  "name": "FCXO-12-3Y QuickNet MTP cassette, 6 x SC duplex to 1 x MTP (OM3/OM4 10Gig)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 6 duplex SC adapters on the front, 1 x 12-fibre MTP on the rear for a QuickNet trunk, OM3/OM4 10Gig. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 12,
+    "prefix": "SC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCXO-12-3Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 1,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fc5-24-10y",
+  "manufacturer": "Panduit",
+  "partNumber": "FC5-24-10Y",
+  "name": "FC5-24-10Y QuickNet MTP cassette, 12 x LC duplex to 2 x MTP (OM2 50/125)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 12 duplex LC adapters on the front, 2 x 12-fibre MTP on the rear for a QuickNet trunk, OM2 50/125. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FC5-24-10Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 2,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fc9-24-10y",
+  "manufacturer": "Panduit",
+  "partNumber": "FC9-24-10Y",
+  "name": "FC9-24-10Y QuickNet MTP cassette, 12 x LC duplex to 2 x MTP (OS1 single-mode)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 12 duplex LC adapters on the front, 2 x 12-fibre MTP on the rear for a QuickNet trunk, OS1 single-mode. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FC9-24-10Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 2,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fc9-12-10y",
+  "manufacturer": "Panduit",
+  "partNumber": "FC9-12-10Y",
+  "name": "FC9-12-10Y QuickNet MTP cassette, 6 x LC duplex to 1 x MTP (OS1 single-mode)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 6 duplex LC adapters on the front, 1 x 12-fibre MTP on the rear for a QuickNet trunk, OS1 single-mode. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FC9-12-10Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 1,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panduit-fc9-12-3y",
+  "manufacturer": "Panduit",
+  "partNumber": "FC9-12-3Y",
+  "name": "FC9-12-3Y QuickNet MTP cassette, 6 x SC duplex to 1 x MTP (OS1 single-mode)",
+  "family": "QuickNet MTP cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Panduit Opticom QuickNet enclosure and FAP spec sheet",
+  "productUrl": "https://media.onlinecomponents.com/productfiles/mf-pn/109881.pdf",
+  "notes": "Pre-terminated cassette: 6 duplex SC adapters on the front, 1 x 12-fibre MTP on the rear for a QuickNet trunk, OS1 single-mode. Fits FCE enclosures and FAP/FMP-style patch panels.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 12,
+    "prefix": "SC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Panduit FAP"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FC9-12-3Y",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 1,
+      "prefix": "MTP"
+     }
+    ]
+   }
+  ]
+ }
+]

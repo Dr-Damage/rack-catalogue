@@ -1,0 +1,625 @@
+[
+ {
+  "id": "roland-s-2416",
+  "manufacturer": "Roland",
+  "partNumber": "S-2416",
+  "name": "S-2416 REAC digital snake 24x16",
+  "family": "REAC",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland S-2416 specifications",
+  "productUrl": "https://proav.roland.com/global/products/s-2416/",
+  "notes": "4U, 482 x 348 x 177 mm, 9.7 kg, 62 W. 24 mic inputs (+48 V), 16 XLR outputs, 8 x 8 AES/EBU on DB-25 (32 in, 24 out in all), two REAC ports for redundancy or a cascaded second unit, word clock, RS-232 remote and USB for S-4000 RCS. Check: word clock in/out count and which face each group is on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 24,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES/EBU 8 in / 8 out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "REAC (main / backup)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Computer (RCS)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 62,
+  "weightKg": 9.7
+ },
+ {
+  "id": "roland-s-1608",
+  "manufacturer": "Roland",
+  "partNumber": "S-1608",
+  "name": "S-1608 REAC digital snake 16x8",
+  "family": "REAC",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland S-1608 specifications",
+  "productUrl": "https://proav.roland.com/global/products/s-1608/",
+  "notes": "401 x 135 x 177 mm (4U with the rack-mount angles), 5.5 kg, 45 W. 16 XLR inputs (+48 V, remote-controlled preamps on the stage unit), 8 XLR outputs, one REAC port (split with an S-4000D or a gigabit switch), optical digital out, RS-232 remote. Stage unit; pairs with the S-0816 or an M-series console. Check: power inlet type and which face the REAC port is on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "REAC"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Digital Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 45,
+  "weightKg": 5.5
+ },
+ {
+  "id": "roland-s-0816",
+  "manufacturer": "Roland",
+  "partNumber": "S-0816",
+  "name": "S-0816 REAC digital snake 8x16",
+  "family": "REAC",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland S-0816 specifications",
+  "productUrl": "https://proav.roland.com/global/products/s-0816/",
+  "notes": "401 x 135 x 177 mm (4U with the rack-mount angles), 5.5 kg, 45 W. 8 XLR inputs (+48 V, remote-controlled preamps on the stage unit), 16 XLR outputs, one REAC port (split with an S-4000D or a gigabit switch), optical digital out, RS-232 remote. FOH unit; pairs with the S-1608 or an M-series console. Check: power inlet type and which face the REAC port is on.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 8,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "REAC"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Digital Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 45,
+  "weightKg": 5.5
+ },
+ {
+  "id": "roland-s-madi",
+  "manufacturer": "Roland",
+  "partNumber": "S-MADI",
+  "name": "S-MADI REAC to MADI bridge",
+  "family": "REAC",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland S-MADI specifications",
+  "productUrl": "https://proav.roland.com/products/s-madi/",
+  "notes": "1U, 482 x 303 x 44 mm, 3.5 kg. Bridges 40 channels between REAC and MADI (coax and optical), with a powered REAC split output. Check: power inlet type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "REAC Main"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "REAC Split Out (powered)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In (coax)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out (coax)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI",
+    "connector": "SC",
+    "count": 1,
+    "prefix": "MADI optical (SC duplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 3.5
+ },
+ {
+  "id": "roland-s-4000d",
+  "manufacturer": "Roland",
+  "partNumber": "S-4000D",
+  "name": "S-4000D REAC splitter and power distributor",
+  "family": "REAC",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland S-4000D specifications",
+  "productUrl": "https://proav.roland.com/global/products/s-4000d",
+  "notes": "2U, 482 x 285 x 88 mm, 4.2 kg. Splits REAC to up to 10 ports; 8 carry REAC Embedded Power for M-48 personal mixers (needed with the M-48). Discontinued. Check: which face the ports are on and the power inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "REAC"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 8,
+    "prefix": "REAC (embedded power)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 4.2
+ },
+ {
+  "id": "roland-xs-42h",
+  "manufacturer": "Roland",
+  "partNumber": "XS-42H",
+  "name": "XS-42H 4 x 2 HDMI matrix switcher (half rack)",
+  "family": "XS",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland XS-42H specifications",
+  "productUrl": "https://resource.holdan.co.uk/Roland/specs/Roland_XS-42H.pdf",
+  "notes": "Half-rack 1U, 242 x 125 x 44 mm, 1.2 kg, 25 W, AC adaptor. 4 x 2 HDMI matrix with scaling and an audio mixer; rack-mount angle set optional. Same body as the VP-42H. Check: RCA audio counts and which face each group is on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Audio In L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Audio Out L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (expansion)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB memory"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In (AC adaptor)"
+   }
+  ],
+  "boxMm": {
+   "w": 242,
+   "h": 44
+  },
+  "powerW": 25,
+  "weightKg": 1.2
+ },
+ {
+  "id": "roland-v-1200hd",
+  "manufacturer": "Roland",
+  "partNumber": "V-1200HD",
+  "name": "V-1200HD multi-format video switcher (processor)",
+  "family": "V-1200HD",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Roland V-1200HD specifications",
+  "productUrl": "https://resource.holdan.co.uk/Roland/specs/Roland_V-1200HD.pdf",
+  "notes": "3U (EIA, rack angles included), 430 x 357 x 132.5 mm, 9 kg, 240 W. 16-input switcher processor: 10 3G-SDI and 4 HDMI in, 6 SDI out, 2 HDMI out and 2 multi-view HDMI out, AES/analogue audio, reference, VISCA camera control, 8/16 tally GPIO, 2 expansion slots. Pairs with the V-1200HDR control surface (desktop). Discontinued. Check: which face the USB ports are on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 10,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "Multi-view Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Audio In (analogue / AES)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Audio Out (analogue / AES)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Reference In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Reference Thru"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (to V-1200HDR)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422 (VISCA)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally/GPIO (8 in, 16 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 1,
+    "prefix": "DC 24 V (redundant)"
+   }
+  ],
+  "powerW": 240,
+  "weightKg": 9
+ }
+]

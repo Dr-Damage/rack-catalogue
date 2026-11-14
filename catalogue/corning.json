@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "corning-cch-01u",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-01U",
+  "name": "CCH-01U Closet Connector Housing, 2 CCH panels",
+  "family": "CCH housings",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch",
+  "notes": "1U 19-inch fibre housing for 2 CCH connector panels, cassettes or modules (up to 48 fibres with 24-fibre panels). 483 x 430 x 44 mm, 3.9 kg. Slide-out tray with removable translucent top cover. Panels lie flat, two side by side. Accepts 19 or 23-inch racks. Splice trays go in through the CCH-CS pigtailed splice cassettes (or a CCH-CS-PST pass-through splice cassette, which has no adapters). The panel drawing shows the patch side only. ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Corning CCH",
+   "slots": 2,
+   "orient": "h",
+   "cols": 2,
+   "controller": "None (passive). Slots take CCH connector panels, CCH pigtailed splice cassettes or CCH Plug & Play modules."
+  }
+ },
+ {
+  "id": "corning-cch-02u",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-02U",
+  "name": "CCH-02U Closet Connector Housing, 4 CCH panels",
+  "family": "CCH housings",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch",
+  "notes": "2U 19-inch fibre housing for 4 CCH connector panels, cassettes or modules (up to 96 fibres with 24-fibre panels). Slide-out tray with removable translucent top cover. Panels lie flat, two side by side. Accepts 19 or 23-inch racks. Splice trays go in through the CCH-CS pigtailed splice cassettes (or a CCH-CS-PST pass-through splice cassette, which has no adapters). The panel drawing shows the patch side only. Check: panel order (left to right, then up). ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Corning CCH",
+   "slots": 4,
+   "orient": "h",
+   "cols": 2,
+   "controller": "None (passive). Slots take CCH connector panels, CCH pigtailed splice cassettes or CCH Plug & Play modules."
+  }
+ },
+ {
+  "id": "corning-cch-03u",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-03U",
+  "name": "CCH-03U Closet Connector Housing, 6 CCH panels",
+  "family": "CCH housings",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch",
+  "notes": "3U 19-inch fibre housing for 6 CCH connector panels, cassettes or modules (up to 144 fibres with 24-fibre panels). Slide-out tray with removable translucent top cover. Panels lie flat, two side by side. Accepts 19 or 23-inch racks. Splice trays go in through the CCH-CS pigtailed splice cassettes (or a CCH-CS-PST pass-through splice cassette, which has no adapters). The panel drawing shows the patch side only. Check: panel order (left to right, then up). ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Corning CCH",
+   "slots": 6,
+   "orient": "h",
+   "cols": 2,
+   "controller": "None (passive). Slots take CCH connector panels, CCH pigtailed splice cassettes or CCH Plug & Play modules."
+  }
+ },
+ {
+  "id": "corning-cch-04u",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-04U",
+  "name": "CCH-04U Closet Connector Housing, 12 CCH panels",
+  "family": "CCH housings",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Hardware/Housings/Closet-Connector-Housing-(CCH)/p/CCH-04U",
+  "notes": "4U 19-inch fibre housing for 12 CCH connector panels, cassettes or modules (up to 288 fibres with 24-fibre panels). 483 x 433 x 178 mm, 7.5 kg shipping. Front and rear sliding lockable doors. Panels stand side by side. Accepts 19 or 23-inch racks. Splice trays go in through the CCH-CS pigtailed splice cassettes (or a CCH-CS-PST pass-through splice cassette, which has no adapters). The panel drawing shows the patch side only. ",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Corning CCH",
+   "slots": 12,
+   "orient": "v",
+   "controller": "None (passive). Slots take CCH connector panels, CCH pigtailed splice cassettes or CCH Plug & Play modules."
+  }
+ },
+ {
+  "id": "corning-cch-cp06-a9",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP06-A9",
+  "name": "CCH-CP06-A9 CCH panel, 3 x LC duplex (6F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 3 LC duplex adapters (6 fibres), OS2 single-mode, UPC, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 3,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP06-A9",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 3,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp08-a9",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP08-A9",
+  "name": "CCH-CP08-A9 CCH panel, 4 x LC duplex (8F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 4 LC duplex adapters (8 fibres), OS2 single-mode, UPC, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP08-A9",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-a9",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-A9",
+  "name": "CCH-CP12-A9 CCH panel, 6 x LC duplex (12F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OS2 single-mode, UPC, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-A9",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp16-a9",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP16-A9",
+  "name": "CCH-CP16-A9 CCH panel, 8 x LC duplex (16F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 8 LC duplex adapters (16 fibres), OS2 single-mode, UPC, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 8,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP16-A9",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 8,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-a9",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-A9",
+  "name": "CCH-CP24-A9 CCH panel, 12 x LC duplex (24F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OS2 single-mode, UPC, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-A9",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp06-b3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP06-B3",
+  "name": "CCH-CP06-B3 CCH panel, 3 x LC duplex (6F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 3 LC duplex adapters (6 fibres), OS2 single-mode, APC, green adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 3,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2e9b4f"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP06-B3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 3,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp08-b3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP08-B3",
+  "name": "CCH-CP08-B3 CCH panel, 4 x LC duplex (8F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 4 LC duplex adapters (8 fibres), OS2 single-mode, APC, green adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2e9b4f"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP08-B3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-b3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-B3",
+  "name": "CCH-CP12-B3 CCH panel, 6 x LC duplex (12F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OS2 single-mode, APC, green adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2e9b4f"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-B3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp16-b3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP16-B3",
+  "name": "CCH-CP16-B3 CCH panel, 8 x LC duplex (16F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 8 LC duplex adapters (16 fibres), OS2 single-mode, APC, green adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 8,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2e9b4f"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP16-B3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 8,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-b3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-B3",
+  "name": "CCH-CP24-B3 CCH panel, 12 x LC duplex (24F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OS2 single-mode, APC, green adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2e9b4f"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-B3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp06-e4",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP06-E4",
+  "name": "CCH-CP06-E4 CCH panel, 3 x LC duplex (6F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 3 LC duplex adapters (6 fibres), OM3/OM4 50 um multimode, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 3,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP06-E4",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 3,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp08-e4",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP08-E4",
+  "name": "CCH-CP08-E4 CCH panel, 4 x LC duplex (8F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 4 LC duplex adapters (8 fibres), OM3/OM4 50 um multimode, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP08-E4",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-e4",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-E4",
+  "name": "CCH-CP12-E4 CCH panel, 6 x LC duplex (12F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OM3/OM4 50 um multimode, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-E4",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp16-e4",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP16-E4",
+  "name": "CCH-CP16-E4 CCH panel, 8 x LC duplex (16F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 8 LC duplex adapters (16 fibres), OM3/OM4 50 um multimode, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 8,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP16-E4",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 8,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-e4",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-E4",
+  "name": "CCH-CP24-E4 CCH panel, 12 x LC duplex (24F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OM3/OM4 50 um multimode, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-E4",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp06-d3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP06-D3",
+  "name": "CCH-CP06-D3 CCH panel, 3 x LC duplex (6F, OM2 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 3 LC duplex adapters (6 fibres), OM2 50 um multimode, black adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 3,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP06-D3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 3,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp08-d3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP08-D3",
+  "name": "CCH-CP08-D3 CCH panel, 4 x LC duplex (8F, OM2 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 4 LC duplex adapters (8 fibres), OM2 50 um multimode, black adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP08-D3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-d3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-D3",
+  "name": "CCH-CP12-D3 CCH panel, 6 x LC duplex (12F, OM2 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OM2 50 um multimode, black adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-D3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp16-d3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP16-D3",
+  "name": "CCH-CP16-D3 CCH panel, 8 x LC duplex (16F, OM2 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 8 LC duplex adapters (16 fibres), OM2 50 um multimode, black adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 8,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP16-D3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 8,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-d3",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-D3",
+  "name": "CCH-CP24-D3 CCH panel, 12 x LC duplex (24F, OM2 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OM2 50 um multimode, black adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#333333"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-D3",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp06-a8",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP06-A8",
+  "name": "CCH-CP06-A8 CCH panel, 3 x LC duplex (6F, OM1 62.5 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 3 LC duplex adapters (6 fibres), OM1 62.5 um multimode, beige adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 3,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#c9b38a"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP06-A8",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 3,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp08-a8",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP08-A8",
+  "name": "CCH-CP08-A8 CCH panel, 4 x LC duplex (8F, OM1 62.5 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 4 LC duplex adapters (8 fibres), OM1 62.5 um multimode, beige adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#c9b38a"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP08-A8",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-a8",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-A8",
+  "name": "CCH-CP12-A8 CCH panel, 6 x LC duplex (12F, OM1 62.5 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OM1 62.5 um multimode, beige adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#c9b38a"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-A8",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp16-a8",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP16-A8",
+  "name": "CCH-CP16-A8 CCH panel, 8 x LC duplex (16F, OM1 62.5 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 8 LC duplex adapters (16 fibres), OM1 62.5 um multimode, beige adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 8,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#c9b38a"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP16-A8",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 8,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-a8",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-A8",
+  "name": "CCH-CP24-A8 CCH panel, 12 x LC duplex (24F, OM1 62.5 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OM1 62.5 um multimode, beige adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#c9b38a"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-A8",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-ae",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-AE",
+  "name": "CCH-CP12-AE CCH panel, 6 x LC duplex (12F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OS2 single-mode, UPC, shuttered, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-AE",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp24-ae",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP24-AE",
+  "name": "CCH-CP24-AE CCH panel, 12 x LC duplex (24F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 12 LC duplex adapters (24 fibres), OS2 single-mode, UPC, shuttered, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP24-AE",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp36-ae",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP36-AE",
+  "name": "CCH-CP36-AE CCH panel, 18 x LC duplex (36F, OS2 single-mode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 18 LC duplex adapters (36 fibres), OS2 single-mode, UPC, shuttered, blue adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 18,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP36-AE",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 18,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cp12-ad",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CP12-AD",
+  "name": "CCH-CP12-AD CCH panel, 6 x LC duplex (12F, OM3/OM4 50 um multimode)",
+  "family": "CCH connector panels",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH panel, LC adapters (e-catalogue)",
+  "productUrl": "https://ecatalog.corning.com/optical-communications/US/en/p/closet-connector-housing-cch-panel-lc-adapters",
+  "notes": "CCH connector panel with 6 LC duplex adapters (12 fibres), OM3/OM4 50 um multimode, shuttered, aqua adapters. Patch cords plug in the front; the rear takes pigtails, a trunk fan-out or field connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CP12-AD",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cs12-a9-p00re",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CS12-A9-P00RE",
+  "name": "CCH-CS12-A9-P00RE CCH pigtailed splice cassette, 6 x LC duplex (12F)",
+  "family": "CCH splice cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://www.corning.com/catalog/coc/documents/brochures/LAN-3414-AEN.pdf",
+  "notes": "Splice cassette preloaded with 12 pigtails and an LC duplex panel (OS2 single-mode, UPC), for single-fibre fusion splicing of the incoming cable inside the housing. Part number: CCH-CS<fibres>-<adapter>-P00<fibre type><splice type>.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CS12-A9-P00RE",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 12,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cs24-a9-p00re",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CS24-A9-P00RE",
+  "name": "CCH-CS24-A9-P00RE CCH pigtailed splice cassette, 12 x LC duplex (24F)",
+  "family": "CCH splice cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://www.corning.com/catalog/coc/documents/brochures/LAN-3414-AEN.pdf",
+  "notes": "Splice cassette preloaded with 24 pigtails and an LC duplex panel (OS2 single-mode, UPC), for single-fibre fusion splicing of the incoming cable inside the housing. Part number: CCH-CS<fibres>-<adapter>-P00<fibre type><splice type>.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CS24-A9-P00RE",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cs12-e4-p00qe",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CS12-E4-P00QE",
+  "name": "CCH-CS12-E4-P00QE CCH pigtailed splice cassette, 6 x LC duplex (12F)",
+  "family": "CCH splice cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://www.corning.com/catalog/coc/documents/brochures/LAN-3414-AEN.pdf",
+  "notes": "Splice cassette preloaded with 12 pigtails and an LC duplex panel (OM4 multimode), for single-fibre fusion splicing of the incoming cable inside the housing. Part number: CCH-CS<fibres>-<adapter>-P00<fibre type><splice type>.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CS12-E4-P00QE",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 12,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "corning-cch-cs24-ae-p00rj",
+  "manufacturer": "Corning",
+  "partNumber": "CCH-CS24-AE-P00RJ",
+  "name": "CCH-CS24-AE-P00RJ CCH pigtailed splice cassette, 12 x LC duplex (24F)",
+  "family": "CCH splice cassettes",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Corning CCH housing specifications and LAN-3414 brochure",
+  "productUrl": "https://www.corning.com/catalog/coc/documents/brochures/LAN-3414-AEN.pdf",
+  "notes": "Splice cassette preloaded with 24 pigtails and an LC duplex panel (OS2 single-mode, UPC, shuttered), for 12-fibre ribbon fusion splicing of the incoming cable inside the housing. Part number: CCH-CS<fibres>-<adapter>-P00<fibre type><splice type>.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Corning CCH"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CCH-CS24-AE-P00RJ",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ }
+]
