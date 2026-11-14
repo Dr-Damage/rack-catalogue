@@ -46,23 +46,24 @@ def fibre(n, prefix='Port', face='front'): return g(face, 'io', 'Fibre', 'LC (SF
 # ======================= draco tera compact (480 series) =======================
 # Manual: I/O ports on the front in groups of 16, plus a serial RJ45 and a network RJ45; on the back two power inlets
 # (standard and redundant) and a ground stud. 64 and 80 port models are 2RU; 16 to 48 port models 1RU.
+COMPACT_GONE = 'IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. '
 COMPACT_KIND = {'C': ('Cat X', cat_x), 'F': ('fibre', fibre), 'X': ('3G (2.5 Gbit/s) fibre', fibre)}
 for n in (16, 32, 48, 64, 80):
     for k, (kind, fn) in COMPACT_KIND.items():
-        IH(f'k480-{n}{k.lower()}', f'K480-{n}{k}', f'draco tera compact {n}-port KVM matrix ({kind})', 'draco tera compact', 'router',
+        IH(f'k480-{n}{k.lower()}', f'K480-{n}{k}', f'draco tera compact {n}-port KVM matrix ({kind}, discontinued)', 'draco tera compact', 'router',
            2 if n >= 64 else 1,
            [fn(n), F('io', 'RS-232', 'RJ45', 1, 'Serial'), F('io', 'Ethernet', 'RJ45', 1, 'Network'),
             R('in', 'Power', 'IEC', 2, 'AC In')],
            f'{n} {kind} I/O ports on the front in {(n + 15) // 16} group{"s" if n > 16 else ""} of 16, serial and network RJ45 '
-           'on the front; standard and redundant power inlets and a ground stud on the back. ' + LINK_NOTE +
+           'on the front; standard and redundant power inlets and a ground stud on the back. ' + COMPACT_GONE + LINK_NOTE +
            (' 2RU (per the distributor).' if n >= 64 else ' Check: 1RU height and the power inlet type (the manual does not say).'),
            'IHSE draco tera compact manual (480 series)', COMPACT_MAN, verified=n >= 64 or k == 'C')
 for pn, ncat, nfib, kind in [('K480-48C16F', 48, 16, 'fibre'), ('K480-48C32F', 48, 32, 'fibre'), ('K480-48C32U', 48, 32, 'universal fibre')]:
-    IH(pn.lower(), pn, f'draco tera compact {ncat + nfib}-port KVM matrix ({ncat} Cat X + {nfib} {kind})', 'draco tera compact', 'router', 2,
+    IH(pn.lower(), pn, f'draco tera compact {ncat + nfib}-port KVM matrix ({ncat} Cat X + {nfib} {kind}, discontinued)', 'draco tera compact', 'router', 2,
        [cat_x(ncat, 'Cat X port'), fibre(nfib, 'Fibre port'), F('io', 'RS-232', 'RJ45', 1, 'Serial'), F('io', 'Ethernet', 'RJ45', 1, 'Network'),
         R('in', 'Power', 'IEC', 2, 'AC In')],
        f'{ncat} Cat X ports and {nfib} {kind} ports (SFP) on the front, numbered 1-{ncat} and {ncat + 1}-{ncat + nfib} on the unit; '
-       'serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. ' + LINK_NOTE +
+       'serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. ' + COMPACT_GONE + LINK_NOTE +
        ' Check: 2RU height and the power inlet type.', 'IHSE draco tera compact manual (480 series)', COMPACT_MAN, verified=False)
 for k, kind, fn in [('C', 'Cat X', cat_x), ('F', 'fibre', fibre), ('XV', '3G fibre', fibre), ('U', 'universal fibre', fibre)]:
     IH(f'k480-8{k.lower()}', f'K480-8{k}', f'draco tera compact 8-port KVM matrix ({kind})', 'draco tera compact', 'router', 1,
@@ -77,14 +78,15 @@ for k, kind, fn in [('C', 'Cat X', cat_x), ('F', 'fibre', fibre), ('XV', '3G fib
 # 4RU 120-160 ports (177 mm, 19 kg, 5.8 A). Integrated dual PSU, 2 x RJ45 Gigabit Ethernet (redundant network).
 FLEX_RU = lambda n: 1 if n <= 40 else 2 if n <= 80 else 4
 FLEX_SIZE = {1: ('44 x 442 x 449 mm', 7.7, '3 A'), 2: ('90 x 442 x 449 mm', 11, '4 A'), 4: ('177 x 442 x 449 mm', 19, '5.8 A')}
-def flex(pn, name, ports, n, extra=''):
-    ru = FLEX_RU(n); size, kg, amps = FLEX_SIZE[ru]
+def flex(pn, name, ports, n, extra='', ru=None, verified=True):
+    ru = ru or FLEX_RU(n); size, kg, amps = FLEX_SIZE[ru]
     IH(pn.lower(), pn, name, 'draco tera flex', 'router', ru,
-       ports + [F('io', 'Ethernet', 'RJ45', 2, 'Network'), R('in', 'Power', 'IEC', 2, 'AC In')],
-       f'{ru}RU, {size} (H x W x D), about {kg} kg, dual integrated power supplies (100-240 V {amps}), 2 x RJ45 Gigabit Ethernet '
-       f'(redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so '
-       f'boards can be swapped later. {extra}' + LINK_NOTE + ' Check: which face the power inlets and network ports are on, and the inlet type.',
-       'IHSE draco tera flex datasheet', FLEX_DS, verified=False, full=True, weightKg=kg)
+       ports + [F('io', 'Ethernet', 'RJ45', 2, 'Network'), R('in', 'Power', 'IEC C14', 2, 'AC In')],
+       f'{ru}RU, {size} (H x W x D), about {kg} kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) '
+       f'and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V {amps}), and a ground stud. '
+       f'Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so '
+       f'boards can be swapped later. {extra}' + LINK_NOTE,
+       'IHSE draco tera flex datasheet and manual', FLEX_DS, verified=verified, full=True, weightKg=kg)
 FLEX_KIND = {'C': ('Cat X', cat_x), 'CX': ('Cat X 3G', cat_x), 'F': ('fibre', fibre), 'FX': ('fibre 3G', fibre)}
 for n in (16, 24, 32, 40, 48, 64, 80, 120, 128, 144, 160):
     for k, (kind, fn) in FLEX_KIND.items():
@@ -97,7 +99,24 @@ for c, f_ in [(24, 16), (24, 40), (40, 24), (40, 40), (80, 40), (120, 40), (80, 
              [cat_x(c, 'Cat X port'), fibre(f_, 'Fibre port')], c + f_, 'Cat X ports are numbered first on the unit. ')
 for k, kind, fn in [('C', 'Cat X', cat_x), ('F', 'fibre', fibre)]:
     flex(f'K480-{k}32G', f'draco tera flex 32-port KVM matrix with grid ({kind})', [fn(32), F('io', 'Fibre', 'SFP+', 1, 'Grid')], 32,
-         'Grid version: an F480-G 10G fibre grid board links several matrices into one system. Check: number of grid ports. ')
+         'Grid version: a 10G fibre grid port (F480-G board) links it into a larger draco tera system. ')
+    for ru in (2, 4):
+        flex(f'K480-{k}32G-{ru}RU', f'draco tera flex 32-port KVM matrix with grid ({kind}), {ru}RU expandable', [fn(32), F('io', 'Fibre', 'SFP+', 1, 'Grid')],
+             32, f'Custom-design starter kit with grid: a {ru}RU chassis with 32 ports and a 10G grid port, expandable to {80 if ru == 2 else 160} ports. ',
+             ru=ru, verified=False)
+for ru in (2, 4):
+    for pn, name, ports in [('C40', '40 Cat X', [cat_x(40)]), ('F40', '40 fibre', [fibre(40)]), ('CX40', '40 Cat X 3G', [cat_x(40)]),
+                            ('FX40', '40 fibre 3G', [fibre(40)]), ('C24F16', '24 Cat X + 16 fibre', [cat_x(24, 'Cat X port'), fibre(16, 'Fibre port')]),
+                            ('CX24FX16', '24 Cat X + 16 fibre, 3G', [cat_x(24, 'Cat X port'), fibre(16, 'Fibre port')])]:
+        flex(f'K480-{pn}-{ru}RU', f'draco tera flex {ru}RU expandable KVM matrix, {name} ports', ports, 40,
+             f'Custom-design starter kit: a {ru}RU chassis fitted with 40 ports, expandable in the field to {80 if ru == 2 else 160} ports with '
+             '8-port I/O boards. ', ru=ru, verified=False)
+for k, kind, fn in [('C', 'Cat X', cat_x), ('F', 'fibre', fibre)]:
+    IH(f'k480-{k.lower()}8', f'K480-{k}8', f'draco tera flex 8-port KVM matrix ({kind})', 'draco tera flex', 'router', 1,
+       [fn(8), F('io', 'RS-232', 'RJ45', 1, 'Serial'), F('io', 'Ethernet', 'RJ45', 1, 'Network'), F('in', 'Power', 'DC barrel', 1, '5V DC In')],
+       f'Entry-level 8-port matrix ({kind}), the small unit that carries on from the 8-port draco tera compact. ' + LINK_NOTE +
+       ' Check: housing width, faces, power input and rack kit (taken from the 8-port compact).', 'IHSE draco tera flex product page',
+       'https://www.ihse.com/apac/products/draco-tera-flex/', verified=False, w=6)
 
 # ======================= draco tera enterprise (480 series) =======================
 # EPS datasheet: height, controller cards and power supplies per model. Ports are Cat X or fibre in any mix on 8-port I/O boards.
@@ -136,7 +155,7 @@ def vario(id, pn, name, ru, slots, ports, notes, w=12, cols=3, orient='h', depth
 AC = lambda n=1, face='rear', label='AC In': g(face, 'in', 'Power', 'IEC C14', n, label)
 DC5 = lambda n=1, label='5V DC In', face='rear': g(face, 'in', 'Power', 'DC barrel', n, label)
 SLOT_ORDER = ' The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order.'
-vario('474-body6r', '474-BODY6R', 'draco vario 6-slot 1RU chassis', 1, 6, [AC(), DC5(1, '5V DC In (redundant PSU)')],
+vario('474-body6r', '474-BODY6R-R1', 'draco vario 6-slot 1RU chassis', 1, 6, [AC(), DC5(1, '5V DC In (redundant PSU)')],
       '1RU, 442 x 147 x 41 mm (W x D x H), 6 module slots in two rows of three, internal power supply (100-240 V, 8 A at 5 V) and a '
       'DC input for an optional external redundant supply, both on the interface side. Rack ears: 474-6RMK.' + SLOT_ORDER)
 vario('474-body6bp', '474-BODY6BP', 'draco vario 6-slot 1RU chassis with backplane, rear PSUs', 1, 6, [AC(2, 'front', 'AC In (PSU)')],
@@ -145,13 +164,21 @@ vario('474-body6bp', '474-BODY6BP', 'draco vario 6-slot 1RU chassis with backpla
 vario('474-body6bpf', '474-BODY6BPF', 'draco vario 6-slot 1RU chassis with backplane, front PSUs', 1, 6, [AC(2, 'rear', 'AC In (PSU)')],
       '1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies on the interface side '
       'next to the modules. Optional fan 474-6FAN.' + SLOT_ORDER)
-vario('474-body21-4u', '474-BODY21/4U', 'draco vario 21-slot 4RU chassis', 4, 21, [AC(1, 'front', 'AC In (PSU)')],
+vario('474-body21-4u', '474-BODY21/4U-R1', 'draco vario 21-slot 4RU chassis', 4, 21, [AC(1, 'front', 'AC In (PSU)')],
       '4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active '
       'backplane. One internal power supply (32 A at 5 V) on the side opposite the modules (drawn as the front here), with room for a '
-      'second (474-BODY21/4UR has both).', orient='v', depth=462)
-vario('474-body21-4ur', '474-BODY21/4UR', 'draco vario 21-slot 4RU chassis, redundant PSUs', 4, 21, [AC(2, 'front', 'AC In (PSU)')],
+      'second (474-BODY21/4UR-R1 has both).', orient='v', depth=462)
+vario('474-body21-4ur', '474-BODY21/4UR-R1', 'draco vario 21-slot 4RU chassis, redundant PSUs', 4, 21, [AC(2, 'front', 'AC In (PSU)')],
       '4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active '
       'backplane. Two internal power supplies on the side opposite the modules (drawn as the front here).', orient='v', depth=462)
+for v in (12, 24, 48):
+    vario(f'474-body6dc-{v}', f'474-BODY6DC-{v}', f'draco vario 6-slot 1RU chassis, {v} V DC supply', 1, 6,
+          [R('in', 'Power', 'Terminal block', 1, f'{v}V DC In'), DC5(1, '5V DC In (redundant PSU)')],
+          f'1RU, 442 x 250 x 41 mm, 6 module slots in two rows of three, integrated {v} V DC power supply, set up for a redundant supply. '
+          'For vehicles, ships and DC plant rooms.' + SLOT_ORDER + ' Check: DC input connector.', verified=False)
+vario('474-body2bpf', '474-BODY2BPF', 'draco vario 2-slot chassis with backplane', 1, 2, [AC(), DC5(1, '5V DC In (redundant PSU, locking)')],
+      'Two module slots one above the other on an active backplane, integrated power supply and a lockable input for an external '
+      'redundant supply. -S and -SNMP versions exist. Check: size (assumed as 474-BODY2N) and rack kit.', w=6, cols=1, verified=False)
 vario('474-body2n', '474-BODY2N', 'draco vario 2-slot chassis, internal PSU', 1, 2, [AC(), DC5(1, '5V DC In (redundant PSU)')],
       '221 x 147 x 41 mm, two module slots one above the other, internal power supply and a DC input for an optional external '
       'redundant supply. Rack kit 474-2NRMK; also stands on a desk or shelf.', w=6, cols=1)

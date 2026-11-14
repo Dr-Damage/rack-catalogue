@@ -3,7 +3,7 @@
   "id": "ihse-k480-16c",
   "manufacturer": "IHSE",
   "partNumber": "K480-16C",
-  "name": "draco tera compact 16-port KVM matrix (Cat X)",
+  "name": "draco tera compact 16-port KVM matrix (Cat X, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -12,7 +12,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "16 Cat X I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "16 Cat X I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -52,7 +52,7 @@
   "id": "ihse-k480-16f",
   "manufacturer": "IHSE",
   "partNumber": "K480-16F",
-  "name": "draco tera compact 16-port KVM matrix (fibre)",
+  "name": "draco tera compact 16-port KVM matrix (fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -61,7 +61,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "16 fibre I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "16 fibre I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -101,7 +101,7 @@
   "id": "ihse-k480-16x",
   "manufacturer": "IHSE",
   "partNumber": "K480-16X",
-  "name": "draco tera compact 16-port KVM matrix (3G (2.5 Gbit/s) fibre)",
+  "name": "draco tera compact 16-port KVM matrix (3G (2.5 Gbit/s) fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -110,7 +110,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "16 3G (2.5 Gbit/s) fibre I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "16 3G (2.5 Gbit/s) fibre I/O ports on the front in 1 group of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -150,7 +150,7 @@
   "id": "ihse-k480-32c",
   "manufacturer": "IHSE",
   "partNumber": "K480-32C",
-  "name": "draco tera compact 32-port KVM matrix (Cat X)",
+  "name": "draco tera compact 32-port KVM matrix (Cat X, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -159,7 +159,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "32 Cat X I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "32 Cat X I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -199,7 +199,7 @@
   "id": "ihse-k480-32f",
   "manufacturer": "IHSE",
   "partNumber": "K480-32F",
-  "name": "draco tera compact 32-port KVM matrix (fibre)",
+  "name": "draco tera compact 32-port KVM matrix (fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -208,7 +208,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "32 fibre I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "32 fibre I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -248,7 +248,7 @@
   "id": "ihse-k480-32x",
   "manufacturer": "IHSE",
   "partNumber": "K480-32X",
-  "name": "draco tera compact 32-port KVM matrix (3G (2.5 Gbit/s) fibre)",
+  "name": "draco tera compact 32-port KVM matrix (3G (2.5 Gbit/s) fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -257,7 +257,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "32 3G (2.5 Gbit/s) fibre I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "32 3G (2.5 Gbit/s) fibre I/O ports on the front in 2 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -297,7 +297,7 @@
   "id": "ihse-k480-48c",
   "manufacturer": "IHSE",
   "partNumber": "K480-48C",
-  "name": "draco tera compact 48-port KVM matrix (Cat X)",
+  "name": "draco tera compact 48-port KVM matrix (Cat X, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -306,7 +306,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 Cat X I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "48 Cat X I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -346,7 +346,7 @@
   "id": "ihse-k480-48f",
   "manufacturer": "IHSE",
   "partNumber": "K480-48F",
-  "name": "draco tera compact 48-port KVM matrix (fibre)",
+  "name": "draco tera compact 48-port KVM matrix (fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -355,7 +355,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 fibre I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "48 fibre I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -395,7 +395,7 @@
   "id": "ihse-k480-48x",
   "manufacturer": "IHSE",
   "partNumber": "K480-48X",
-  "name": "draco tera compact 48-port KVM matrix (3G (2.5 Gbit/s) fibre)",
+  "name": "draco tera compact 48-port KVM matrix (3G (2.5 Gbit/s) fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 1,
@@ -404,7 +404,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 3G (2.5 Gbit/s) fibre I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
+  "notes": "48 3G (2.5 Gbit/s) fibre I/O ports on the front in 3 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 1RU height and the power inlet type (the manual does not say).",
   "portGroups": [
    {
     "face": "front",
@@ -444,7 +444,7 @@
   "id": "ihse-k480-64c",
   "manufacturer": "IHSE",
   "partNumber": "K480-64C",
-  "name": "draco tera compact 64-port KVM matrix (Cat X)",
+  "name": "draco tera compact 64-port KVM matrix (Cat X, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -453,7 +453,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "64 Cat X I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "64 Cat X I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -493,7 +493,7 @@
   "id": "ihse-k480-64f",
   "manufacturer": "IHSE",
   "partNumber": "K480-64F",
-  "name": "draco tera compact 64-port KVM matrix (fibre)",
+  "name": "draco tera compact 64-port KVM matrix (fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -502,7 +502,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "64 fibre I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "64 fibre I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -542,7 +542,7 @@
   "id": "ihse-k480-64x",
   "manufacturer": "IHSE",
   "partNumber": "K480-64X",
-  "name": "draco tera compact 64-port KVM matrix (3G (2.5 Gbit/s) fibre)",
+  "name": "draco tera compact 64-port KVM matrix (3G (2.5 Gbit/s) fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -551,7 +551,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "64 3G (2.5 Gbit/s) fibre I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "64 3G (2.5 Gbit/s) fibre I/O ports on the front in 4 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -591,7 +591,7 @@
   "id": "ihse-k480-80c",
   "manufacturer": "IHSE",
   "partNumber": "K480-80C",
-  "name": "draco tera compact 80-port KVM matrix (Cat X)",
+  "name": "draco tera compact 80-port KVM matrix (Cat X, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -600,7 +600,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "80 Cat X I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "80 Cat X I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -640,7 +640,7 @@
   "id": "ihse-k480-80f",
   "manufacturer": "IHSE",
   "partNumber": "K480-80F",
-  "name": "draco tera compact 80-port KVM matrix (fibre)",
+  "name": "draco tera compact 80-port KVM matrix (fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -649,7 +649,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "80 fibre I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "80 fibre I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -689,7 +689,7 @@
   "id": "ihse-k480-80x",
   "manufacturer": "IHSE",
   "partNumber": "K480-80X",
-  "name": "draco tera compact 80-port KVM matrix (3G (2.5 Gbit/s) fibre)",
+  "name": "draco tera compact 80-port KVM matrix (3G (2.5 Gbit/s) fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -698,7 +698,7 @@
   "verified": true,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "80 3G (2.5 Gbit/s) fibre I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
+  "notes": "80 3G (2.5 Gbit/s) fibre I/O ports on the front in 5 groups of 16, serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). 2RU (per the distributor).",
   "portGroups": [
    {
     "face": "front",
@@ -738,7 +738,7 @@
   "id": "ihse-k480-48c16f",
   "manufacturer": "IHSE",
   "partNumber": "K480-48C16F",
-  "name": "draco tera compact 64-port KVM matrix (48 Cat X + 16 fibre)",
+  "name": "draco tera compact 64-port KVM matrix (48 Cat X + 16 fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -747,7 +747,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 Cat X ports and 16 fibre ports (SFP) on the front, numbered 1-48 and 49-64 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
+  "notes": "48 Cat X ports and 16 fibre ports (SFP) on the front, numbered 1-48 and 49-64 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
   "portGroups": [
    {
     "face": "front",
@@ -795,7 +795,7 @@
   "id": "ihse-k480-48c32f",
   "manufacturer": "IHSE",
   "partNumber": "K480-48C32F",
-  "name": "draco tera compact 80-port KVM matrix (48 Cat X + 32 fibre)",
+  "name": "draco tera compact 80-port KVM matrix (48 Cat X + 32 fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -804,7 +804,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 Cat X ports and 32 fibre ports (SFP) on the front, numbered 1-48 and 49-80 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
+  "notes": "48 Cat X ports and 32 fibre ports (SFP) on the front, numbered 1-48 and 49-80 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
   "portGroups": [
    {
     "face": "front",
@@ -852,7 +852,7 @@
   "id": "ihse-k480-48c32u",
   "manufacturer": "IHSE",
   "partNumber": "K480-48C32U",
-  "name": "draco tera compact 80-port KVM matrix (48 Cat X + 32 universal fibre)",
+  "name": "draco tera compact 80-port KVM matrix (48 Cat X + 32 universal fibre, discontinued)",
   "family": "draco tera compact",
   "category": "router",
   "ru": 2,
@@ -861,7 +861,7 @@
   "verified": false,
   "source": "IHSE draco tera compact manual (480 series)",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-compact-manual-29.pdf",
-  "notes": "48 Cat X ports and 32 universal fibre ports (SFP) on the front, numbered 1-48 and 49-80 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
+  "notes": "48 Cat X ports and 32 universal fibre ports (SFP) on the front, numbered 1-48 and 49-80 on the unit; serial and network RJ45 on the front; standard and redundant power inlets and a ground stud on the back. IHSE has replaced the 16 to 80 port compact models with draco tera flex; the 8-port compact stays as an entry-level model. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: 2RU height and the power inlet type.",
   "portGroups": [
    {
     "face": "front",
@@ -1111,10 +1111,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1136,7 +1136,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1153,10 +1153,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1178,7 +1178,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1195,10 +1195,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1220,7 +1220,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1237,10 +1237,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1262,7 +1262,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1279,10 +1279,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1304,7 +1304,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1321,10 +1321,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1346,7 +1346,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1363,10 +1363,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1388,7 +1388,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1405,10 +1405,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1430,7 +1430,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1447,10 +1447,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1472,7 +1472,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1489,10 +1489,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1514,7 +1514,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1531,10 +1531,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1556,7 +1556,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1573,10 +1573,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1598,7 +1598,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1615,10 +1615,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1640,7 +1640,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1657,10 +1657,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1682,7 +1682,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1699,10 +1699,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1724,7 +1724,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1741,10 +1741,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1766,7 +1766,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1783,10 +1783,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1808,7 +1808,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1825,10 +1825,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1850,7 +1850,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1867,10 +1867,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1892,7 +1892,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1909,10 +1909,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1934,7 +1934,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1951,10 +1951,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -1976,7 +1976,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -1993,10 +1993,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2018,7 +2018,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2035,10 +2035,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2060,7 +2060,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2077,10 +2077,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2102,7 +2102,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2119,10 +2119,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2144,7 +2144,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2161,10 +2161,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2186,7 +2186,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2203,10 +2203,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2228,7 +2228,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2245,10 +2245,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2270,7 +2270,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2287,10 +2287,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2312,7 +2312,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2329,10 +2329,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2354,7 +2354,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2371,10 +2371,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2396,7 +2396,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2413,10 +2413,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2438,7 +2438,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2455,10 +2455,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2480,7 +2480,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2497,10 +2497,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2522,7 +2522,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2539,10 +2539,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2564,7 +2564,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2581,10 +2581,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2606,7 +2606,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2623,10 +2623,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2648,7 +2648,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2665,10 +2665,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2690,7 +2690,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2707,10 +2707,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2732,7 +2732,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2749,10 +2749,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2774,7 +2774,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2791,10 +2791,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2816,7 +2816,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2833,10 +2833,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2858,7 +2858,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2875,10 +2875,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2900,7 +2900,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2917,10 +2917,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. 3G models carry 4K60 (Cat X XV up to 100 m). Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2942,7 +2942,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -2959,10 +2959,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -2992,7 +2992,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3009,10 +3009,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3042,7 +3042,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3059,10 +3059,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3092,7 +3092,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3109,10 +3109,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3142,7 +3142,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3159,10 +3159,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3192,7 +3192,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3209,10 +3209,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3242,7 +3242,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3259,10 +3259,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3292,7 +3292,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3309,10 +3309,10 @@
   "ru": 2,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg, dual integrated power supplies (100-240 V 4 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3342,7 +3342,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3359,10 +3359,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3392,7 +3392,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3409,10 +3409,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3442,7 +3442,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3459,10 +3459,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3492,7 +3492,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3509,10 +3509,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3542,7 +3542,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3559,10 +3559,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3592,7 +3592,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3609,10 +3609,10 @@
   "ru": 4,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg, dual integrated power supplies (100-240 V 5.8 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Cat X ports are numbered first on the unit. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3642,7 +3642,7 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
@@ -3659,10 +3659,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Grid version: an F480-G 10G fibre grid board links several matrices into one system. Check: number of grid ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Grid version: a 10G fibre grid port (F480-G board) links it into a larger draco tera system. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3692,12 +3692,112 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
   ],
   "weightKg": 7.7
+ },
+ {
+  "id": "ihse-k480-c32g-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C32G-2RU",
+  "name": "draco tera flex 32-port KVM matrix with grid (Cat X), 2RU expandable",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit with grid: a 2RU chassis with 32 ports and a 10G grid port, expandable to 80 ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Grid"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-c32g-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C32G-4RU",
+  "name": "draco tera flex 32-port KVM matrix with grid (Cat X), 4RU expandable",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit with grid: a 4RU chassis with 32 ports and a 10G grid port, expandable to 160 ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Grid"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
  },
  {
   "id": "ihse-k480-f32g",
@@ -3709,10 +3809,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": true,
-  "verified": false,
-  "source": "IHSE draco tera flex datasheet",
+  "verified": true,
+  "source": "IHSE draco tera flex datasheet and manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
-  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg, dual integrated power supplies (100-240 V 3 A), 2 x RJ45 Gigabit Ethernet (redundant network). Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Grid version: an F480-G 10G fibre grid board links several matrices into one system. Check: number of grid ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: which face the power inlets and network ports are on, and the inlet type.",
+  "notes": "1RU, 44 x 442 x 449 mm (H x W x D), about 7.7 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 3 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Grid version: a 10G fibre grid port (F480-G board) links it into a larger draco tera system. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
   "portGroups": [
    {
     "face": "front",
@@ -3742,12 +3842,746 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC",
+    "connector": "IEC C14",
     "count": 2,
     "prefix": "AC In"
    }
   ],
   "weightKg": 7.7
+ },
+ {
+  "id": "ihse-k480-f32g-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-F32G-2RU",
+  "name": "draco tera flex 32-port KVM matrix with grid (fibre), 2RU expandable",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit with grid: a 2RU chassis with 32 ports and a 10G grid port, expandable to 80 ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Grid"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-f32g-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-F32G-4RU",
+  "name": "draco tera flex 32-port KVM matrix with grid (fibre), 4RU expandable",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit with grid: a 4RU chassis with 32 ports and a 10G grid port, expandable to 160 ports. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 32,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Grid"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-c40-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C40-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 40 Cat X ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-f40-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-F40-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 40 fibre ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-cx40-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-CX40-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 40 Cat X 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-fx40-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-FX40-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 40 fibre 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-c24f16-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C24F16-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 24 Cat X + 16 fibre ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Cat X port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 16,
+    "prefix": "Fibre port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-cx24fx16-2ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-CX24FX16-2RU",
+  "name": "draco tera flex 2RU expandable KVM matrix, 24 Cat X + 16 fibre, 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "2RU, 90 x 442 x 449 mm (H x W x D), about 11 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 4 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 2RU chassis fitted with 40 ports, expandable in the field to 80 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Cat X port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 16,
+    "prefix": "Fibre port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 11
+ },
+ {
+  "id": "ihse-k480-c40-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C40-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 40 Cat X ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-f40-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-F40-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 40 fibre ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-cx40-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-CX40-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 40 Cat X 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-fx40-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-FX40-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 40 fibre 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 40,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-c24f16-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C24F16-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 24 Cat X + 16 fibre ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Cat X port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 16,
+    "prefix": "Fibre port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-cx24fx16-4ru",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-CX24FX16-4RU",
+  "name": "draco tera flex 4RU expandable KVM matrix, 24 Cat X + 16 fibre, 3G ports",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IHSE draco tera flex datasheet and manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-tera-flex-datasheet-175.pdf",
+  "notes": "4RU, 177 x 442 x 449 mm (H x W x D), about 19 kg. Front: I/O ports in groups of 8, 2 x RJ45 Gigabit Ethernet (redundant network) and a reset button. Back: two switched IEC C14 inlets, standard and redundant (dual integrated supplies, 100-240 V 5.8 A), and a ground stud. Mounting brackets included. Built from 8-port I/O boards (F480-C8 Cat X, F480-CX8 Cat X 3G, F480-F8 fibre, F480-FX8 fibre 3G), so boards can be swapped later. Custom-design starter kit: a 4RU chassis fitted with 40 ports, expandable in the field to 160 ports with 8-port I/O boards. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Cat X port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 16,
+    "prefix": "Fibre port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "ihse-k480-c8",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-C8",
+  "name": "draco tera flex 8-port KVM matrix (Cat X)",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco tera flex product page",
+  "productUrl": "https://www.ihse.com/apac/products/draco-tera-flex/",
+  "notes": "Entry-level 8-port matrix (Cat X), the small unit that carries on from the 8-port draco tera compact. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: housing width, faces, power input and rack kit (taken from the 8-port compact).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In"
+   }
+  ]
+ },
+ {
+  "id": "ihse-k480-f8",
+  "manufacturer": "IHSE",
+  "partNumber": "K480-F8",
+  "name": "draco tera flex 8-port KVM matrix (fibre)",
+  "family": "draco tera flex",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco tera flex product page",
+  "productUrl": "https://www.ihse.com/apac/products/draco-tera-flex/",
+  "notes": "Entry-level 8-port matrix (fibre), the small unit that carries on from the 8-port draco tera compact. Ports are IHSE KVM links: Cat X (RJ45, up to 140 m, 100 m for 3G) or fibre (LC, multi-mode up to 1 km, single-mode up to 10 km). They are not Ethernet: patch them straight to the extenders, never through a network switch. Any port can take a CPU unit (computer) or a CON unit (console). Check: housing width, faces, power input and rack kit (taken from the 8-port compact).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 8,
+    "prefix": "Port"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In"
+   }
+  ]
  },
  {
   "id": "ihse-k480-048-r1",
@@ -4047,7 +4881,7 @@
  {
   "id": "ihse-474-body6r",
   "manufacturer": "IHSE",
-  "partNumber": "474-BODY6R",
+  "partNumber": "474-BODY6R-R1",
   "name": "draco vario 6-slot 1RU chassis",
   "family": "draco vario chassis",
   "category": "frame",
@@ -4196,7 +5030,7 @@
  {
   "id": "ihse-474-body21-4u",
   "manufacturer": "IHSE",
-  "partNumber": "474-BODY21/4U",
+  "partNumber": "474-BODY21/4U-R1",
   "name": "draco vario 21-slot 4RU chassis",
   "family": "draco vario chassis",
   "category": "frame",
@@ -4206,7 +5040,7 @@
   "verified": true,
   "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
-  "notes": "4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active backplane. One internal power supply (32 A at 5 V) on the side opposite the modules (drawn as the front here), with room for a second (474-BODY21/4UR has both). Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "notes": "4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active backplane. One internal power supply (32 A at 5 V) on the side opposite the modules (drawn as the front here), with room for a second (474-BODY21/4UR-R1 has both). Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
   "portGroups": [
    {
     "face": "front",
@@ -4242,7 +5076,7 @@
  {
   "id": "ihse-474-body21-4ur",
   "manufacturer": "IHSE",
-  "partNumber": "474-BODY21/4UR",
+  "partNumber": "474-BODY21/4UR-R1",
   "name": "draco vario 21-slot 4RU chassis, redundant PSUs",
   "family": "draco vario chassis",
   "category": "frame",
@@ -4283,6 +5117,226 @@
     "y0": 0.08,
     "y1": 0.92
    }
+  }
+ },
+ {
+  "id": "ihse-474-body6dc-12",
+  "manufacturer": "IHSE",
+  "partNumber": "474-BODY6DC-12",
+  "name": "draco vario 6-slot 1RU chassis, 12 V DC supply",
+  "family": "draco vario chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
+  "notes": "1RU, 442 x 250 x 41 mm, 6 module slots in two rows of three, integrated 12 V DC power supply, set up for a redundant supply. For vehicles, ships and DC plant rooms. The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Check: DC input connector. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In (redundant PSU)"
+   }
+  ],
+  "frame": {
+   "system": "draco vario",
+   "slots": 6,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "None: each module works on its own. An SNMP board (474-SNMP) or 474-CONTROL reports status.",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "cols": 3
+  }
+ },
+ {
+  "id": "ihse-474-body6dc-24",
+  "manufacturer": "IHSE",
+  "partNumber": "474-BODY6DC-24",
+  "name": "draco vario 6-slot 1RU chassis, 24 V DC supply",
+  "family": "draco vario chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
+  "notes": "1RU, 442 x 250 x 41 mm, 6 module slots in two rows of three, integrated 24 V DC power supply, set up for a redundant supply. For vehicles, ships and DC plant rooms. The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Check: DC input connector. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "24V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In (redundant PSU)"
+   }
+  ],
+  "frame": {
+   "system": "draco vario",
+   "slots": 6,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "None: each module works on its own. An SNMP board (474-SNMP) or 474-CONTROL reports status.",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "cols": 3
+  }
+ },
+ {
+  "id": "ihse-474-body6dc-48",
+  "manufacturer": "IHSE",
+  "partNumber": "474-BODY6DC-48",
+  "name": "draco vario 6-slot 1RU chassis, 48 V DC supply",
+  "family": "draco vario chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
+  "notes": "1RU, 442 x 250 x 41 mm, 6 module slots in two rows of three, integrated 48 V DC power supply, set up for a redundant supply. For vehicles, ships and DC plant rooms. The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Check: DC input connector. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "48V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In (redundant PSU)"
+   }
+  ],
+  "frame": {
+   "system": "draco vario",
+   "slots": 6,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "None: each module works on its own. An SNMP board (474-SNMP) or 474-CONTROL reports status.",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "cols": 3
+  }
+ },
+ {
+  "id": "ihse-474-body2bpf",
+  "manufacturer": "IHSE",
+  "partNumber": "474-BODY2BPF",
+  "name": "draco vario 2-slot chassis with backplane",
+  "family": "draco vario chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
+  "notes": "Two module slots one above the other on an active backplane, integrated power supply and a lockable input for an external redundant supply. -S and -SNMP versions exist. Check: size (assumed as 474-BODY2N) and rack kit. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In (redundant PSU, locking)"
+   }
+  ],
+  "frame": {
+   "system": "draco vario",
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "None: each module works on its own. An SNMP board (474-SNMP) or 474-CONTROL reports status.",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "cols": 1
   }
  },
  {
