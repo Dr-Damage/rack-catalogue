@@ -1,0 +1,416 @@
+[
+ {
+  "id": "telestream-spg9000",
+  "manufacturer": "Telestream",
+  "partNumber": "SPG9000",
+  "name": "SPG9000 master reference and test signal generator (Ross SPG-9000)",
+  "family": "SPG9000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Telestream SPG9000 product sheet and rear photo",
+  "productUrl": "https://www.telestream.com/SPG9000/",
+  "notes": "Master sync and timing: 6 black outputs (black burst, tri-level, 10 MHz or 1 PPS), genlock in with passive loop, word clock and DARS (AES/EBU) BNCs, 4 LTC outs (or 3 out and 1 in) on a 15-pin D-sub (XLR breakout SPG9000-XLR), GPI, GNSS receiver (SMA antenna input, option GNSS), 2 PTP ports on SFP+ (1/10G, ST 2059 / AES67, option PTP), 2 IP test signal ports on SFP28 (10/25G, ST 2110 with 2022-7, option IP), 4 SD to 12G-SDI test signal outputs on HD-BNC (option SDI), RJ45 management and NTP. Front: display, keypad, USB. Hot-swap power supplies: one (SPG9000-SPW) or two (SPG9000-DPW), IEC C14, 100-240V AC, 130 VA typical and 180 VA max. 482.6 x 44 x 516 mm, 4.85 kg; rack kit SPG9000-RACK. Sold by Ross Video as the SPG-9000 (https://www.rossvideo.com/products/signal-processing/spg-9000/). Pairs with the ECO8000 changeover.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "IP (10/25G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "PTP (1/10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "DARS"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MGMT / NTP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "D-sub",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "LTC / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "Black"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   }
+  ],
+  "powerW": 180,
+  "weightKg": 4.85
+ },
+ {
+  "id": "telestream-eco8000",
+  "manufacturer": "Telestream",
+  "partNumber": "ECO8000",
+  "name": "ECO8000 automatic changeover unit (Ross ECO-8000)",
+  "family": "SPG9000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Telestream ECO8000 product sheet D00013331A (rear panel drawing)",
+  "productUrl": "https://www.telestream.com/wp-content/uploads/2025/12/eco8000-automatic-changeover-Unit-Datasheet-D00013331A.pdf",
+  "notes": "Automatic changeover between a primary and a backup SPG9000 (or SPG8000A). 9 BNC channels, each with primary in, backup in and output: channels 1-6 are 50 MHz electronic fast-switch channels for black burst, tri-level, AES/DARS and word clock; channels 7-9 are 3 GHz relay channels that also pass SD/HD/3G-SDI. 4 LTC channels on DE-15 connectors (primary and backup LTC/SPG in, LTC out; XLR breakout ECO8000 XLR), GPI, RJ45 management (web UI, SNMP). Front: LCD, auto/manual and source buttons, per-channel fault LEDs, and two hot-swap power supplies that pull out from the front; IEC C14 inlets at the back, 100-240V AC, 50 VA max. 483 x 43.7 x 557 mm, 4.5 kg; rack slides ECO8000 RACK, 12 inch cable set ECO8000 CBL. Sold by Ross Video as the ECO-8000 (https://www.rossvideo.com/products/signal-processing/eco-8000/), whose page lists a 3-channel base unit with REF, HREF and LTC options; Telestream's current sheet lists all 9 channels and 4 LTC as standard.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 1 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 1 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 1 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 2 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 2 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 3 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 3 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 4 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 4 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 4 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 5 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 5 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 5 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 6 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 6 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 6 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 7 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 7 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 7 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 8 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 8 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 8 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 9 Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 9 Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ch 9 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MGMT"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DE-15",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "DE-15",
+    "count": 1,
+    "prefix": "Primary LTC/SPG"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "DE-15",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "DE-15",
+    "count": 1,
+    "prefix": "Backup LTC/SPG"
+   }
+  ],
+  "powerW": 50,
+  "weightKg": 4.5
+ }
+]
