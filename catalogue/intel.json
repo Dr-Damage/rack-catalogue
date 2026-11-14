@@ -518,5 +518,311 @@
    "h": 37
   },
   "formFactor": "NUC 4x4 slim"
+ },
+ {
+  "id": "intel-nuc13rng",
+  "manufacturer": "Intel",
+  "partNumber": "NUC13RNGi5",
+  "name": "NUC 13 Extreme kit (NUC13RNGi5 / i7 / i9)",
+  "family": "NUC 13 Extreme",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ASUS NUC 13 Extreme Kit tech specs",
+  "productUrl": "https://asus.com/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/techspec",
+  "notes": "13th gen Intel Core desktop CPU (Raptor Canyon), 337 x 318 x 129 mm (H x D x W), about 13.8 litres, internal power supply. Front: 2 x USB 3.2 Gen 1 Type-A, USB 3.2 Gen 2x2 Type-C, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.1, 10GbE (Marvell AQC113) and 2.5GbE (Intel i226-V), 7.1 audio (3 x 3.5 mm plus optical), Wi-Fi 6E. PCIe 5.0 x16 slot for a graphics card up to 3 slots wide. Check: power supply rating and AC inlet type. Lying on its side on a rack shelf it needs 3RU and about three-quarters of the rack width (front ports stay at the front); standing upright it is 8RU tall. The graphics card's outputs are on the back: add them to the device to match your card.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 3,
+    "prefix": "Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 slot (graphics card)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 337,
+   "h": 129
+  },
+  "formFactor": "NUC Extreme (on its side)"
+ },
+ {
+  "id": "intel-nuc12dcm",
+  "manufacturer": "Intel",
+  "partNumber": "NUC12DCMi9",
+  "name": "NUC 12 Extreme kit (NUC12DCMi9 / i7)",
+  "family": "NUC 12 Extreme",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Intel NUC 12 Extreme feature summary (doc 721073)",
+  "productUrl": "https://edc.intel.com/content/www/us/en/publications/specification-nuc12dcm-nuc12edb/feature-summary/",
+  "notes": "12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm, about 8 litres, internal power supply. Front: USB 3.2 Gen 2 Type-C and Type-A, UHS-II SDXC reader, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.0b, 10GbE (Marvell AQC113C) and 2.5GbE (Intel I225-LM; i9 and vPro models). PCIe 5.0 x16 slot for a dual-slot graphics card up to about 300 mm long. Check: power supply rating and AC inlet type. Lying on its side on a rack shelf it needs 3RU and about three-quarters of the rack width (front ports stay at the front); standing upright it is 8RU tall. The graphics card's outputs are on the back: add them to the device to match your card.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "SDXC card"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0b"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 slot (graphics card)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 357,
+   "h": 120
+  },
+  "formFactor": "NUC Extreme (on its side)"
+ },
+ {
+  "id": "intel-nuc11btm",
+  "manufacturer": "Intel",
+  "partNumber": "NUC11BTMi9",
+  "name": "NUC 11 Extreme kit (NUC11BTMi9 / i7 / i5)",
+  "family": "NUC 11 Extreme",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tom's Hardware launch article",
+  "productUrl": "https://www.tomshardware.com/news/intel-unchains-beast-canyon-nuc-to-disrupt-the-sff-market",
+  "notes": "11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm, about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 Gen 2. Back: 6 x USB 3.1 Gen 2, 2 x Thunderbolt 4, HDMI 2.0b, 2.5GbE. PCIe 4.0 x16 slot for a graphics card up to about 308 mm long. Check: front audio and card reader, and the AC inlet type. Lying on its side on a rack shelf it needs 3RU and about three-quarters of the rack width (front ports stay at the front); standing upright it is 8RU tall. The graphics card's outputs are on the back: add them to the device to match your card.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.1 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "Thunderbolt 4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0b"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 slot (graphics card)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 357,
+   "h": 120
+  },
+  "formFactor": "NUC Extreme (on its side)"
  }
 ]

@@ -123,6 +123,41 @@ for tall in (True, False):
        'Simply NUC NUC11TN product brief', 'https://simplynuc.com/wp-content/uploads/briefs/SimplyNUCProductBrief-11TNHi5.pdf',
        verified=False)
 
+# NUC Extreme: small towers with a full-height PCIe x16 slot for a graphics card. On a shelf they lie on their side, so the
+# front panel is the tower's height wide and its width high: about 120-130 mm, 3RU.
+EXT_SHELF = (' Lying on its side on a rack shelf it needs 3RU and about three-quarters of the rack width (front ports stay at the front); '
+             'standing upright it is 8RU tall. The graphics card\'s outputs are on the back: add them to the device to match your card.')
+GPU = R('io', 'Other', 'Card slot', 1, 'PCIe x16 slot (graphics card)')
+EXT_AC = R('in', 'Power', 'IEC C14', 1, 'AC In')
+for id_, pn, name, fam, front, rear, notes, src, url, verified, mm in [
+        ('nuc13rng', 'NUC13RNGi5', 'NUC 13 Extreme kit (NUC13RNGi5 / i7 / i9)', 'NUC 13 Extreme',
+         [UA(2, 'USB 3.2 Gen 1', 'front'), UC(1, 'USB 3.2 Gen 2x2'), HP('front', 'Headset')],
+         [UA(6, 'USB 3.2 Gen 2'), TB(2, 4), HD(1, 'HDMI 2.1'), LAN(1, '10GbE'), LAN(1, '2.5GbE'),
+          g('rear', 'out', 'Analog audio', '3.5mm jack', 3, 'Audio'), R('out', 'Other', 'TOSLINK', 1, 'Optical audio'), GPU, EXT_AC],
+         '13th gen Intel Core desktop CPU (Raptor Canyon), 337 x 318 x 129 mm (H x D x W), about 13.8 litres, internal power supply. '
+         'Front: 2 x USB 3.2 Gen 1 Type-A, USB 3.2 Gen 2x2 Type-C, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, '
+         'HDMI 2.1, 10GbE (Marvell AQC113) and 2.5GbE (Intel i226-V), 7.1 audio (3 x 3.5 mm plus optical), Wi-Fi 6E. PCIe 5.0 x16 slot '
+         'for a graphics card up to 3 slots wide. Check: power supply rating and AC inlet type.',
+         'ASUS NUC 13 Extreme Kit tech specs', 'https://asus.com/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/techspec', True, (337, 129)),
+        ('nuc12dcm', 'NUC12DCMi9', 'NUC 12 Extreme kit (NUC12DCMi9 / i7)', 'NUC 12 Extreme',
+         [UC(1, 'USB 3.2 Gen 2'), UA(1, 'USB 3.2 Gen 2', 'front'), g('front', 'io', 'Other', 'Card slot', 1, 'SDXC card'), HP('front', 'Headset')],
+         [UA(6, 'USB 3.2 Gen 2'), TB(2, 4), HD(1, 'HDMI 2.0b'), LAN(1, '10GbE'), LAN(1, '2.5GbE'), GPU, EXT_AC],
+         '12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm, about 8 litres, internal power '
+         'supply. Front: USB 3.2 Gen 2 Type-C and Type-A, UHS-II SDXC reader, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, '
+         '2 x Thunderbolt 4, HDMI 2.0b, 10GbE (Marvell AQC113C) and 2.5GbE (Intel I225-LM; i9 and vPro models). PCIe 5.0 x16 slot for a '
+         'dual-slot graphics card up to about 300 mm long. Check: power supply rating and AC inlet type.',
+         'Intel NUC 12 Extreme feature summary (doc 721073)',
+         'https://edc.intel.com/content/www/us/en/publications/specification-nuc12dcm-nuc12edb/feature-summary/', True, (357, 120)),
+        ('nuc11btm', 'NUC11BTMi9', 'NUC 11 Extreme kit (NUC11BTMi9 / i7 / i5)', 'NUC 11 Extreme',
+         [UA(2, 'USB 3.1 Gen 2', 'front')],
+         [UA(6, 'USB 3.1 Gen 2'), TB(2, 4), HD(1, 'HDMI 2.0b'), LAN(1, '2.5GbE'), GPU, EXT_AC],
+         '11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm, about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 '
+         'Gen 2. Back: 6 x USB 3.1 Gen 2, 2 x Thunderbolt 4, HDMI 2.0b, 2.5GbE. PCIe 4.0 x16 slot for a graphics card up to about 308 mm long. '
+         'Check: front audio and card reader, and the AC inlet type.',
+         "Tom's Hardware launch article", 'https://www.tomshardware.com/news/intel-unchains-beast-canyon-nuc-to-disrupt-the-sff-market', False, (357, 120))]:
+    add('intel.json', 'intel-', 'Intel', id_, pn, name, fam, 'computer', 3, front + rear, notes + EXT_SHELF, src, url, verified=verified,
+        w=9, boxMm={'w': mm[0], 'h': mm[1]}, formFactor='NUC Extreme (on its side)')
+
 # ======================= ASUS NUC =======================
 AS = lambda *a, **k: nuc('asus.json', 'asus-', 'ASUS', *a, **k)
 FRONT14 = [UC(1, 'USB 3.2 Gen 2x2'), UA(2, 'USB 3.2 Gen 2', 'front')]
