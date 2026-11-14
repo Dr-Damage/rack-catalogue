@@ -57,10 +57,12 @@ TP = ('Telestream PRISM product sheet (2025)', 'https://www.telestream.com/prism
 add('telestream-video.json', 'telestream-prism-mpp-200', 'Telestream', 'MPP-200', 'PRISM MPP-200 IP/SDI waveform rasterizer, 1U', 'PRISM', 'other', 1,
     [R('in', '12G-SDI', 'BNC', 4, 'SDI In'), R('out', '12G-SDI', 'BNC', 4, 'SDI Loop'), R('io', 'SFP', 'SFP+', 2, '10/25GE IP'),
      R('out', 'DisplayPort', 'DisplayPort', 2, 'Display'), R('out', 'Analog audio', 'DB25', 1, 'Analog Audio Out (8 ch)'),
-     R('in', 'Reference', 'BNC', 1, 'Ref In'), R('io', 'Ethernet', 'RJ45', 1, 'Mgmt'), PSU()],
-    'Rasterizer for post and remote work: 4 SDI in with loop-through, 2 SFP+ (25GE by licence), two DisplayPort outputs for an external '
-    'display, 8-channel analogue audio out. 313 mm deep, about 3.5 kg, 160 W max. MPP-100 is SDI only; MPP-300 adds eye/jitter. '
-    'Check: reference, management and audio connectors.', TP[0], TP[1], verified=False, powerW=160, weightKg=3.5)
+     R('in', 'Reference', 'BNC', 1, 'Ref In'), R('out', 'Reference', 'BNC', 1, 'Ref Out'), R('out', '12G-SDI', 'BNC', 1, 'AUX Out'),
+     R('out', 'Analog audio', '3.5mm TRS', 1, 'Line Out'), R('io', 'GPIO', 'DB15', 1, 'GPIO'), R('io', 'USB', 'USB-A', 2, 'USB'),
+     R('io', 'Ethernet', 'RJ45', 1, 'Mgmt'), F('io', 'USB', 'USB-A', 2, 'USB'), F('io', 'USB', 'USB-C', 1, 'USB-C'), PSU()],
+    'Rasterizer for post and remote work: 4 SDI in with loop-through, AUX SDI out, ref in and out, 2 SFP+ (25GE by licence), two DisplayPort outputs for an external '
+    'display, 8-channel analogue audio out on D-sub, GPIO. 313 mm deep, about 3.5 kg, 160 W max. MPP-100 is SDI only; MPP-300 adds eye/jitter. '
+    'Panels checked against a Telestream photo.', TP[0] + '; panels from a Telestream photo', TP[1], powerW=160, weightKg=3.5)
 add('telestream-video.json', 'telestream-prism-mpd-200', 'Telestream', 'MPD-200', 'PRISM MPD-200 dual-screen waveform monitor, 3U', 'PRISM', 'other', 3,
     [R('in', '12G-SDI', 'BNC', 4, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'AUX SDI Out'), R('io', 'SFP', 'SFP+', 2, '10/25GE IP'),
      R('in', 'Reference', 'BNC', 1, 'Ref In'), R('io', 'Ethernet', 'RJ45', 1, 'Mgmt'), PSU()],
@@ -113,9 +115,10 @@ TV = ('TVLogic 2016 product line-up brochure', 'https://bpm-media.imgbolt.de/med
 TVDC = R('in', 'Power', 'XLR4M', 1, '12V DC')
 mon('tvlogic.json', 'tvlogic-rkm-270a', 'TVLogic', 'RKM-270A', 'RKM-270A dual 7-inch rack monitor, 3RU', 'RKM', 3, 2, 7,
     [R('in', '3G-SDI', 'BNC', 4, 'SDI In A/B'), R('in', 'HDMI', 'HDMI', 2, 'HDMI In'), R('in', 'Analog video', 'BNC', 2, 'CVBS In'),
-     R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('io', 'GPI', 'RJ45', 1, 'Tally/GPI'), R('io', 'Ethernet', 'RJ45', 1, 'LAN'), TVDC],
-    'Two 7-inch 1024 x 600 screens, each with 2 SDI in, HDMI, composite and a selected SDI out, UMD and tally. DC 12/24 V, 60 W. '
-    'Check: per-screen counts and tally/LAN connectors.', TV[0], TV[1], verified=False, aspect='16:10', powerW=60)
+     R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('io', 'GPI', 'RJ45', 2, 'Remote (tally/GPI)'), R('io', 'Ethernet', 'RJ45', 2, 'Ethernet In/Out'),
+     R('io', 'RS-422', 'RJ45', 2, 'RS-422 In/Out'), R('io', 'USB', 'USB-A', 1, 'Firmware'), TVDC],
+    'Two 7-inch 1024 x 600 screens, each with 2 SDI in, HDMI, composite, a selected SDI out and a remote (tally/GPI) port, UMD and tally. '
+    'Ethernet and RS-422 in/out for daisy-chaining, DC 12 V on XLR4. 60 W. Rear checked against the TVLogic drawing.', TV[0] + '; rear from tvlogic.tv', TV[1], aspect='16:10', powerW=60)
 mon('tvlogic.json', 'tvlogic-rkm-290a', 'TVLogic', 'RKM-290A', 'RKM-290A dual 9-inch Full HD rack monitor, 4RU', 'RKM', 4, 2, 9,
     [R('in', '3G-SDI', 'BNC', 4, 'SDI In A/B'), R('in', 'HDMI', 'HDMI', 2, 'HDMI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out'),
      R('io', 'GPI', 'RJ45', 1, 'Tally/GPI'), R('io', 'Ethernet', 'RJ45', 1, 'LAN'), TVDC],
@@ -159,11 +162,13 @@ add('riedel-bolero.json', 'riedel-nsa-002a', 'Riedel', 'NSA-002A', 'NSA-002A net
 
 # ======================= Timing =======================
 add('meinberg.json', 'meinberg-lantime-m1000', 'Meinberg', 'LANTIME M1000', 'LANTIME M1000 modular time server / PTP grandmaster, 1U', 'IMS LANTIME', 'other', 1,
-    [R('in', 'RF', 'BNC', 1, 'GNSS Antenna'), R('io', 'Ethernet', 'RJ45', 1, 'Mgmt / NTP'), R('io', 'SFP', 'SFP', 1, 'Network SFP'),
-     R('io', 'Ethernet', 'RJ45', 2, 'PTP (IMS-IO)'), R('out', 'Reference', 'BNC', 2, '10 MHz / PPS'), R('in', 'Power', 'Other', 2, 'PSU A/B')],
+    [R('in', 'RF', 'BNC', 1, 'GNSS Antenna'), R('io', 'RS-232', 'DB9', 1, 'GNSS COM'), R('io', 'Ethernet', 'RJ45', 1, 'CPU LAN / NTP'), R('io', 'RS-232', 'DB9', 1, 'CPU Terminal'),
+     R('io', 'USB', 'USB-A', 1, 'CPU USB'), R('io', 'SFP', 'SFP', 1, 'PTP SFP'), R('io', 'Ethernet', 'RJ45', 1, 'PTP'),
+     R('io', 'Ethernet', 'RJ45', 2, 'I/O LAN'), R('out', 'Reference', 'BNC', 2, '10 MHz / PPS'), R('in', 'Power', 'Terminal block', 2, 'PSU A/B'),
+     F('io', 'RS-232', 'DB9', 1, 'Terminal'), F('io', 'USB', 'USB-A', 1, 'USB')],
     'IMS modular chassis: up to 2 reference clocks (GPS/GNSS, PZF), 2 hot-swap PSUs (AC/DC mixable, 50 W each), CPU, and 4 I/O slots '
     '(PTP / NTP, pulse, frequency and time-code outputs, up to 4 PTP modules, up to 16 extra ports with LNE). 483 x 290 mm. '
-    'Shown with a typical PTP fit-out. Check: modules fitted.', 'Meinberg LANTIME M1000 short info',
+    'Ports follow the fit-out in Meinberg\'s rear photo (CPU, GNSS receiver, I/O module, PTP module, two AC PSUs). Check: modules fitted.', 'Meinberg LANTIME M1000 short info; panels from Meinberg product photos',
     'https://www.meinbergglobal.com/download/docs/shortinfo/english/info_ims-lantime-m1000.pdf', verified=False, powerW=100)
 add('meinberg.json', 'meinberg-lantime-m3000-broadcast', 'Meinberg', 'LANTIME M3000 (broadcast)', 'LANTIME M3000 broadcast sync platform, 3U', 'IMS LANTIME', 'other', 3,
     [R('in', 'RF', 'BNC', 1, 'GPS Antenna'), R('in', 'RF', 'SMA', 1, 'GNSS L1 Antenna'), R('out', 'Reference', 'BNC', 8, 'Video Sync (BB/Tri)'),

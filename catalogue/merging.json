@@ -10,24 +10,56 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Merging Technologies Horus / Hapi MkII product information",
+  "source": "Merging Technologies Horus / Hapi MkII product information; panels from a product photo",
   "productUrl": "https://merging.com/products/interfaces/horus",
-  "notes": "2U AES67 / RAVENNA / ST 2110-30 converter with modular analogue, mic and AES cards, MADI on SFP, redundant PSUs. Check: all connector counts (from memory of the data sheet).",
+  "notes": "2U AES67 / RAVENNA / ST 2110-30 converter with modular I/O, redundant PSUs. Ports follow the fit-out in a rear photo: 3 mic/line in and 3 line out cards, AES 1-24 and MADI (coax and SFP); the card slots take other analogue, mic, AES and MADI cards. Check: sync connector type.",
   "portGroups": [
    {
     "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 3,
+    "prefix": "Mic/Line In 1-24"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 3,
+    "prefix": "Line Out 1-24"
+   },
+   {
+    "face": "rear",
     "dir": "io",
-    "type": "Other",
-    "connector": "Card slot",
-    "count": 6,
-    "prefix": "I/O card slot"
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 3,
+    "prefix": "AES 1-24"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
-    "count": 3,
+    "count": 1,
     "prefix": "MADI SFP"
    },
    {
@@ -36,7 +68,23 @@
     "type": "Dante/AES67",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "AES67 / RAVENNA"
+    "prefix": "RAVENNA Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Sync"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO"
    },
    {
     "face": "rear",
@@ -53,14 +101,6 @@
     "connector": "BNC",
     "count": 1,
     "prefix": "Word Clock Out"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Timecode",
-    "connector": "XLR3F",
-    "count": 1,
-    "prefix": "LTC"
    },
    {
     "face": "front",

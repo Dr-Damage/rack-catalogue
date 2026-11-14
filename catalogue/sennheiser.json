@@ -10,9 +10,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Sennheiser EW-DX EM 4 Dante specifications",
+  "source": "Sennheiser EW-DX EM 4 Dante specifications; rear from a Sennheiser product photo",
   "productUrl": "https://docs.cloud.sennheiser.com/en-us/ew-d/ew-d/specifications-ew-dx-em4-dante.html",
-  "notes": "Four-channel EW-DX receiver with Dante (48 or 96 kHz), two antenna cascade outputs for up to four receivers, 37 W max, 373 mm deep, 4.56 kg. EW-DX EM 2 Dante is the two-channel version. Check: analogue output count and Dante port count.",
+  "notes": "Four-channel EW-DX receiver with Dante (48 or 96 kHz), two antenna cascade outputs for up to four receivers, 37 W max, 373 mm deep, 4.56 kg. Balanced XLR and unbalanced jack output per channel; the two RJ45 ports carry Dante and control. EW-DX EM 2 Dante is the two-channel version. Rear panel checked against a Sennheiser photo.",
   "portGroups": [
    {
     "face": "rear",
@@ -40,19 +40,19 @@
    },
    {
     "face": "rear",
-    "dir": "io",
-    "type": "Dante/AES67",
-    "connector": "RJ45",
-    "count": 2,
-    "prefix": "Dante"
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Audio Out (unbal jack)"
    },
    {
     "face": "rear",
     "dir": "io",
-    "type": "Ethernet",
+    "type": "Dante/AES67",
     "connector": "RJ45",
-    "count": 1,
-    "prefix": "Control"
+    "count": 2,
+    "prefix": "Ethernet / Dante"
    },
    {
     "face": "front",
@@ -85,9 +85,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Sennheiser EM 6000 product overview",
+  "source": "Sennheiser EM 6000 product overview; rear from a Sennheiser product photo",
   "productUrl": "https://docs.cloud.sennheiser.com/en-us/digital-6000/digital-6000/manual-em6000-overview.html",
-  "notes": "Two-channel Digital 6000 receiver with XLR and jack outputs per channel, AES3, word clock, Dante primary and secondary. EM 6000 is the version without Dante. Check: antenna and word clock connector counts.",
+  "notes": "Two-channel Digital 6000 receiver with XLR and jack outputs per channel, AES3 on XLR, word clock in and out, one Dante port (etherCON) and an RJ45 control port. EM 6000 is the version without Dante. Rear panel checked against a Sennheiser photo.",
   "portGroups": [
    {
     "face": "rear",
@@ -149,9 +149,9 @@
     "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
-    "count": 2,
-    "prefix": "Dante Pri/Sec"
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante"
    },
    {
     "face": "rear",

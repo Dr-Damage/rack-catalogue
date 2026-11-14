@@ -10,9 +10,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": true,
-  "source": "Canford Focusrite RedNet listings",
+  "source": "Canford Focusrite RedNet listings; rear panels from Focusrite product photos",
   "productUrl": "https://focusrite.com/products/rednet-a16r-mkii",
-  "notes": "16 x 16 line-level analogue on AES59 D-sub, plus an AES3 pair on channels 17-18, redundant Dante and dual PSUs. Check: where the AES pair connects.",
+  "notes": "16 x 16 line-level analogue on AES59 D-sub, plus an AES3 pair on XLR (the input doubles as DARS), redundant Dante on etherCON and dual PSUs.",
   "portGroups": [
    {
     "face": "rear",
@@ -52,13 +52,21 @@
     "type": "AES/EBU",
     "connector": "XLR3F",
     "count": 1,
-    "prefix": "DARS In"
+    "prefix": "AES In (DARS)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 2,
     "prefix": "Dante Pri/Sec"
    },
@@ -83,9 +91,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": true,
-  "source": "Canford Focusrite RedNet listings",
+  "source": "Canford Focusrite RedNet listings; rear panels from Focusrite product photos",
   "productUrl": "https://focusrite.com/products/rednet-d16r-mkii",
-  "notes": "16 x 16 AES3 (8 pairs) on two D-subs, plus XLR and S/PDIF, redundant Dante and dual PSUs.",
+  "notes": "16 x 16 AES3 (8 pairs in and out) on two D-subs, plus an AES3 pair on XLR (input doubles as DARS) and S/PDIF, redundant Dante and dual PSUs.",
   "portGroups": [
    {
     "face": "rear",
@@ -94,22 +102,6 @@
     "connector": "DB25",
     "count": 2,
     "prefix": "AES 1-16"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "AES/EBU",
-    "connector": "XLR3F",
-    "count": 1,
-    "prefix": "AES In 1-2"
-   },
-   {
-    "face": "rear",
-    "dir": "out",
-    "type": "AES/EBU",
-    "connector": "XLR3M",
-    "count": 1,
-    "prefix": "AES Out 1-2"
    },
    {
     "face": "rear",
@@ -149,13 +141,21 @@
     "type": "AES/EBU",
     "connector": "XLR3F",
     "count": 1,
-    "prefix": "DARS In"
+    "prefix": "AES In (DARS)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 2,
     "prefix": "Dante Pri/Sec"
    },
@@ -180,7 +180,7 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": true,
-  "source": "Canford Focusrite RedNet listings",
+  "source": "Canford Focusrite RedNet listings; rear panels from Focusrite product photos",
   "productUrl": "https://focusrite.com/",
   "notes": "64 x 64 MADI to Dante on coax and duplex SC optical, redundant Dante and dual PSUs.",
   "portGroups": [
@@ -205,8 +205,8 @@
     "dir": "io",
     "type": "Fibre",
     "connector": "SC",
-    "count": 2,
-    "prefix": "MADI optical"
+    "count": 1,
+    "prefix": "MADI optical (duplex SC)"
    },
    {
     "face": "rear",
@@ -228,7 +228,7 @@
     "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 2,
     "prefix": "Dante Pri/Sec"
    },
@@ -249,21 +249,21 @@
   "name": "RedNet HD32R 32 x 32 Pro Tools HD Dante bridge",
   "family": "RedNet",
   "category": "audio",
-  "ru": 2,
+  "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
   "verified": true,
-  "source": "Canford Focusrite RedNet listings",
+  "source": "Canford Focusrite RedNet listings; rear panels from Focusrite product photos",
   "productUrl": "https://vintageking.com/cdn/shop/files/focusrite_rednet_hd32r1_DATA_SHEET.pdf",
-  "notes": "32 x 32 Pro Tools | HD / HDX to Dante (16 x 16 in expansion mode), Mini-DigiLink ports, redundant Dante and dual PSUs.",
+  "notes": "32 x 32 Pro Tools | HD / HDX to Dante (16 x 16 in expansion mode), Mini-DigiLink ports, loop sync, redundant Dante and dual PSUs. 1RU.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "io",
     "type": "Other",
     "connector": "Other",
-    "count": 2,
-    "prefix": "DigiLink"
+    "count": 1,
+    "prefix": "DigiLink Primary"
    },
    {
     "face": "rear",
@@ -271,7 +271,23 @@
     "type": "Other",
     "connector": "Other",
     "count": 1,
-    "prefix": "Expansion"
+    "prefix": "DigiLink Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Loop Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Loop Sync Out"
    },
    {
     "face": "rear",
@@ -293,7 +309,7 @@
     "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 2,
     "prefix": "Dante Pri/Sec"
    },
@@ -317,10 +333,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Canford Focusrite RedNet listings",
+  "verified": true,
+  "source": "Canford Focusrite RedNet listings; rear panels from Focusrite product photos",
   "productUrl": "https://focusrite.com/",
-  "notes": "8 remote-controlled mic pres with an analogue split output per channel, redundant Dante and dual PSUs. Check: split output connector.",
+  "notes": "8 remote-controlled mic pres straight onto Dante (no analogue outputs), redundant Dante and dual PSUs.",
   "portGroups": [
    {
     "face": "rear",
@@ -332,33 +348,9 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "Analog audio",
-    "connector": "DB25",
-    "count": 1,
-    "prefix": "Split Out 1-8"
-   },
-   {
-    "face": "rear",
-    "dir": "in",
-    "type": "Reference",
-    "connector": "BNC",
-    "count": 1,
-    "prefix": "Word Clock In"
-   },
-   {
-    "face": "rear",
-    "dir": "out",
-    "type": "Reference",
-    "connector": "BNC",
-    "count": 1,
-    "prefix": "Word Clock Out"
-   },
-   {
-    "face": "rear",
     "dir": "io",
     "type": "Dante/AES67",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 2,
     "prefix": "Dante Pri/Sec"
    },

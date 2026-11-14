@@ -9,10 +9,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Telestream PRISM product sheet (2025)",
+  "verified": true,
+  "source": "Telestream PRISM product sheet (2025); panels from a Telestream photo",
   "productUrl": "https://www.telestream.com/prism/",
-  "notes": "Rasterizer for post and remote work: 4 SDI in with loop-through, 2 SFP+ (25GE by licence), two DisplayPort outputs for an external display, 8-channel analogue audio out. 313 mm deep, about 3.5 kg, 160 W max. MPP-100 is SDI only; MPP-300 adds eye/jitter. Check: reference, management and audio connectors.",
+  "notes": "Rasterizer for post and remote work: 4 SDI in with loop-through, AUX SDI out, ref in and out, 2 SFP+ (25GE by licence), two DisplayPort outputs for an external display, 8-channel analogue audio out on D-sub, GPIO. 313 mm deep, about 3.5 kg, 160 W max. MPP-100 is SDI only; MPP-300 adds eye/jitter. Panels checked against a Telestream photo.",
   "portGroups": [
    {
     "face": "rear",
@@ -64,11 +64,67 @@
    },
    {
     "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AUX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
    },
    {
     "face": "rear",

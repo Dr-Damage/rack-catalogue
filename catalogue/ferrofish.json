@@ -9,10 +9,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Trew Audio A32pro Dante listing",
+  "verified": true,
+  "source": "Trew Audio A32pro Dante listing; panels from the Ferrofish launch photo",
   "productUrl": "https://www.trewaudio.com/product/ferrofish-a32pro-dante/",
-  "notes": "32 x 32 AD/DA on Tascam D-subs with Dante, MADI (SFP, optical module included) and ADAT, redundant 12 V supplies. A32pro is the version without Dante. Check: which jacks are on the front.",
+  "notes": "32 x 32 AD/DA on Tascam D-subs with Dante, MADI (SFP, optical module included) and ADAT, redundant 12 V supplies. A32pro is the version without Dante. Panels checked against the Ferrofish launch photo.",
   "portGroups": [
    {
     "face": "rear",

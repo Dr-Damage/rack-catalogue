@@ -12,23 +12,39 @@
   "verified": false,
   "source": "Calrec Hydra2 and ImPulse pages",
   "productUrl": "https://calrec.com/hydra2/",
-  "notes": "Compact ST 2110-30 / AES67 core with two cores inside for redundancy and dual AC PSUs, up to 432 processing paths. Drives Argo surfaces. Check: SFP and control port counts.",
+  "notes": "Compact ST 2110-30 / AES67 core with two cores inside for redundancy and dual AC PSUs, up to 432 processing paths. Drives Argo surfaces. Network, USB and display ports are on the front (from a Calrec photo). Check: SFP roles and display connector type.",
   "portGroups": [
    {
-    "face": "rear",
+    "face": "front",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
     "count": 4,
-    "prefix": "ST 2110 / AES67 SFP"
+    "prefix": "AoIP / Control SFP"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
     "prefix": "Control"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB / Setup"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Display"
    },
    {
     "face": "rear",

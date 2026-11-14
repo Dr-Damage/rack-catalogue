@@ -9,10 +9,10 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "BSW ULXD4Q listing (Shure specifications)",
+  "verified": true,
+  "source": "BSW ULXD4Q listing (Shure specifications); rear from a Shure product photo",
   "productUrl": "https://bswusa.com/shure-ulxd4q/",
-  "notes": "Four-channel ULX-D receiver, 1RU: XLR and jack outputs per channel, Dante on a dual-port Ethernet switch (redundant or daisy-chain), antenna cascade to one more receiver. 274 mm deep, 3.45 kg. Check: antenna input count and power inlet.",
+  "notes": "Four-channel ULX-D receiver, 1RU: one XLR output per channel (mic/line switch), Dante on a dual-port Ethernet switch (redundant or daisy-chain), antenna A and B inputs each with a cascade output to one more receiver. 274 mm deep, 3.45 kg. Rear panel checked against the Shure photo.",
   "portGroups": [
    {
     "face": "rear",
@@ -27,7 +27,7 @@
     "dir": "out",
     "type": "RF",
     "connector": "BNC",
-    "count": 1,
+    "count": 2,
     "prefix": "Antenna Cascade"
    },
    {
@@ -37,14 +37,6 @@
     "connector": "XLR3M",
     "count": 4,
     "prefix": "Audio Out"
-   },
-   {
-    "face": "rear",
-    "dir": "out",
-    "type": "Analog audio",
-    "connector": "1/4\" TRS",
-    "count": 4,
-    "prefix": "Audio Out (jack)"
    },
    {
     "face": "rear",
@@ -141,9 +133,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Shure AD4Q spec sheet (Rentex)",
+  "source": "Shure AD4Q spec sheet (Rentex); panels from a Shure product photo",
   "productUrl": "https://www.rentex.com/wp-content/uploads/2019/08/Shure-AD4Q-Axient-Wireless-Receiver-Spec-Sheet-from-Rentex.pdf",
-  "notes": "Four-channel Axient Digital receiver, 1RU: XLR and jack outputs, 2 AES3 outputs (4 channels), Dante/AES67 on a configurable Ethernet switch, locking AC in and loop. 4.8 kg. AD4Q-DC takes DC power. AD4D is the two-channel version. Check: antenna, Ethernet and word clock counts.",
+  "notes": "Four-channel Axient Digital receiver, 1RU: XLR and -10 dB jack output per channel; with AES3 switched on, XLR outputs 1&2 and 3&4 carry AES3. Two Dante and two control ports (PoE), word clock in and thru, AC in and out. Antennas A and B with C and D for quadversity, 12 V DC on the antenna inputs. 4.8 kg. AD4Q-DC takes DC power. AD4D is the two-channel version. Check: which antenna BNCs are cascade outputs.",
   "portGroups": [
    {
     "face": "rear",
@@ -179,19 +171,19 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "AES/EBU",
-    "connector": "XLR3M",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
     "count": 2,
-    "prefix": "AES3 Out"
+    "prefix": "Dante"
    },
    {
     "face": "rear",
     "dir": "io",
-    "type": "Dante/AES67",
+    "type": "Ethernet",
     "connector": "RJ45",
-    "count": 4,
-    "prefix": "Dante/Network"
+    "count": 2,
+    "prefix": "Control"
    },
    {
     "face": "rear",
@@ -207,7 +199,7 @@
     "type": "Reference",
     "connector": "BNC",
     "count": 1,
-    "prefix": "Word Clock Out"
+    "prefix": "Word Clock Thru"
    },
    {
     "face": "rear",
@@ -223,7 +215,15 @@
     "type": "Power",
     "connector": "IEC C13",
     "count": 1,
-    "prefix": "AC Loop"
+    "prefix": "AC Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
    }
   ],
   "weightKg": 4.8

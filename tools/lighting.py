@@ -44,9 +44,9 @@ add('etc.json', 'etc-rsn-dmx4-o', 'ETC', 'RSN-DMX4-O', 'Response Mk2 4-port DMX/
 MA = 'MA Lighting'
 for size, par in (('M', '4,096'), ('L', '8,192'), ('XL', '16,384')):
     add('malighting.json', f'ma-grandma3-pu-{size.lower()}', MA, f'grandMA3 processing unit {size}', f'grandMA3 processing unit {size}', 'grandMA3', 2,
-        [DMX('rear', 8, 'DMX Out'), NET('rear', 2), R('io', 'USB', 'USB-A', 3, 'USB'), R('in', 'Power', 'powerCON TRUE1', 1, 'Mains In')],
+        [DMX('rear', 8, 'DMX Out'), NET('rear', 2), R('io', 'USB', 'USB-A', 1, 'USB'), F('io', 'USB', 'USB-A', 2, 'USB'), R('in', 'Power', 'powerCON TRUE1', 1, 'Mains In')],
         f'Network processing unit adding {par} parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. '
-        '482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.', 'grandMA3 user manual: processing unit technical data',
+        '482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels. Rear matches the MA drawing (8 DMX A-H, 2 etherCON, 1 USB, power switch). Check: front USB count.', 'grandMA3 user manual: processing unit technical data',
         'https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html', powerW=200, weightKg=5.0)
 add('malighting.json', 'ma-grandma3-8port-node', MA, 'grandMA3 8Port Node', 'grandMA3 8Port Node, 1U', 'grandMA3 nodes', 1,
     [DMX('front', 8, 'DMX', 'io'), NET('rear', 1, 'etherCON', 'Network (PoE)'), R('io', 'USB', 'USB-A', 1, 'USB'), R('in', 'Power', 'powerCON TRUE1', 1, 'Mains In')],

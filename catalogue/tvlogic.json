@@ -9,10 +9,10 @@
   "ru": 3,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "TVLogic 2016 product line-up brochure",
+  "verified": true,
+  "source": "TVLogic 2016 product line-up brochure; rear from tvlogic.tv",
   "productUrl": "https://bpm-media.imgbolt.de/media/pdf/f9/a5/16/EN_TVlogic_2016_Product_LineUp_Broschure.pdf",
-  "notes": "Two 7-inch 1024 x 600 screens, each with 2 SDI in, HDMI, composite and a selected SDI out, UMD and tally. DC 12/24 V, 60 W. Check: per-screen counts and tally/LAN connectors.",
+  "notes": "Two 7-inch 1024 x 600 screens, each with 2 SDI in, HDMI, composite, a selected SDI out and a remote (tally/GPI) port, UMD and tally. Ethernet and RS-422 in/out for daisy-chaining, DC 12 V on XLR4. 60 W. Rear checked against the TVLogic drawing.",
   "portGroups": [
    {
     "face": "rear",
@@ -51,16 +51,32 @@
     "dir": "io",
     "type": "GPI",
     "connector": "RJ45",
-    "count": 1,
-    "prefix": "Tally/GPI"
+    "count": 2,
+    "prefix": "Remote (tally/GPI)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RS-422 In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
     "count": 1,
-    "prefix": "LAN"
+    "prefix": "Firmware"
    },
    {
     "face": "rear",

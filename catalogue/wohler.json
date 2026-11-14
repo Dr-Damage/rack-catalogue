@@ -10,9 +10,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Wohler iAM-12G-SDI data sheet",
+  "source": "Wohler iAM-12G-SDI data sheet; rear from an HHB photo",
   "productUrl": "https://www.wohler.com/wp-content/uploads/2023/07/iAM-12G-SDI_d.pdf",
-  "notes": "2RU touchscreen audio monitor for 12G-SDI, AES, analogue, with 4 SFP cages for fibre, SDI, HDMI, ST 2110 or 2022-6 modules. Options add MADI (BNC), more analogue, TOSLINK, Dante or RAVENNA. 40 W, 242 mm deep, 5 kg. Check: power inlet.",
+  "notes": "2RU touchscreen audio monitor for 12G-SDI, AES, analogue, with 4 SFP cages for fibre, SDI, HDMI, ST 2110 or 2022-6 modules. Options add MADI (BNC), more analogue, TOSLINK, Dante or RAVENNA. 40 W, 242 mm deep, 5 kg. Rear as in a photo with slot 1 fitted (SFP, TSoIP, ASI/SDI, AES); slots 2 and 3 take options.",
   "portGroups": [
    {
     "face": "rear",
@@ -20,23 +20,39 @@
     "type": "12G-SDI",
     "connector": "BNC",
     "count": 2,
-    "prefix": "SDI In"
+    "prefix": "ASI/SDI In"
    },
    {
     "face": "rear",
-    "dir": "io",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
     "type": "AES/EBU",
     "connector": "HD15",
     "count": 1,
-    "prefix": "AES 4 pairs"
+    "prefix": "AES In"
    },
    {
     "face": "rear",
-    "dir": "io",
+    "dir": "out",
     "type": "Analog audio",
     "connector": "DB25",
     "count": 2,
-    "prefix": "Analogue 16 ch"
+    "prefix": "Analogue Out 1-16"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analogue Out L/R"
    },
    {
     "face": "rear",
@@ -44,7 +60,7 @@
     "type": "SFP",
     "connector": "SFP",
     "count": 4,
-    "prefix": "SFP (option)"
+    "prefix": "SFP 1-4"
    },
    {
     "face": "rear",
@@ -52,7 +68,23 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 1,
-    "prefix": "Ethernet"
+    "prefix": "TSoIP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "MGMT"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Log"
    },
    {
     "face": "front",
@@ -77,6 +109,14 @@
     "connector": "IEC C14",
     "count": 1,
     "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Aux DC In 24 V"
    }
   ],
   "powerW": 40,
@@ -93,9 +133,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Wohler iAM1-12G listing",
+  "source": "Wohler iAM1-12G listing; rear from an HHB photo",
   "productUrl": "https://www.wohler.com/wp-content/uploads/2023/06/iAM1-12G_d.pdf",
-  "notes": "1RU audio monitor with three touchscreens, 6-channel metering, 12G-SDI and analogue. Check: all connector counts (from the product title).",
+  "notes": "1RU audio monitor with three touchscreens, 12G-SDI, AES, MADI (coax and SFP) and analogue. Rear checked against a photo of the unit.",
   "portGroups": [
    {
     "face": "rear",
@@ -107,19 +147,75 @@
    },
    {
     "face": "rear",
-    "dir": "io",
-    "type": "Analog audio",
-    "connector": "DB25",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
     "count": 1,
-    "prefix": "Analogue"
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "AES In 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "AES Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
-    "count": 2,
-    "prefix": "SFP (option)"
+    "count": 1,
+    "prefix": "SFP-1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "MADI SFP"
    },
    {
     "face": "rear",
@@ -127,7 +223,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 1,
-    "prefix": "Ethernet"
+    "prefix": "MGMT"
    },
    {
     "face": "front",

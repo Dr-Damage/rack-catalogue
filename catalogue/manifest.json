@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "e7d1717e14f5",
- "updated": "2026-11-14T08:28:24Z",
+ "version": "27e166c3a567",
+ "updated": "2026-11-14T08:43:47Z",
  "entries": 2074,
  "files": {
   "ross.json": {
@@ -525,9 +525,9 @@
    "bytes": 4033
   },
   "tsl.json": {
-   "sha256": "edc701e3e4e5a6438a6d69e5a783664d0f9b0e8553fe2bf61143f53c8983c88d",
+   "sha256": "01b99d5a3d504f7093be7d5fb59f5ab244e96e5339e751255b1ba34790cb4a26",
    "entries": 4,
-   "bytes": 7922
+   "bytes": 8203
   },
   "bridgetech.json": {
    "sha256": "50e0005ce4f36e52e9e173dadbfa1d8bedafe2ba81b19440313c1406343dc166",
@@ -535,9 +535,9 @@
    "bytes": 2372
   },
   "calrec.json": {
-   "sha256": "9b9e455b3425a26bfae7fd96210f1851820ad0be873060970af357fcb8681864",
+   "sha256": "57c416c06d216e6741ad49bb76a1ff3a1833712385c576f5c18c0b60937a4590",
    "entries": 7,
-   "bytes": 6927
+   "bytes": 7295
   },
   "ssl.json": {
    "sha256": "d6f258434ab2e33fb36625c66cf5f52d2234f9fcf1b8bba0d49ac9a0a417c35d",
@@ -555,9 +555,9 @@
    "bytes": 1830
   },
   "wohler.json": {
-   "sha256": "6d2eba5db6c5b6780bf5ac74a1fc1ee27d1cd6bec3941e3328814e9e274ce67c",
+   "sha256": "474240bdb208ce5dea887d443e3b15179d9b26c4402b421037c6df1267431e75",
    "entries": 2,
-   "bytes": 3199
+   "bytes": 4974
   },
   "rtw.json": {
    "sha256": "f52e8fbdcdd8708565bc90e870a9449433b48cb27237c5802d7102d089d0bfb3",
@@ -570,29 +570,29 @@
    "bytes": 3479
   },
   "merging.json": {
-   "sha256": "d62515e0fd8aff0fc710c6fa2a52f1c609eb54615e88d5b1545ee2f6733ef815",
+   "sha256": "76f0c3e5d31443183f07d814259054cd37e563fc1b7b2bac0393eb987e85518b",
    "entries": 2,
-   "bytes": 3398
+   "bytes": 4230
   },
   "focusrite.json": {
-   "sha256": "bcd98f70f7de270bca1d8b9052360491c54837c2c6c0fc6268817498b00947c0",
+   "sha256": "a2169aaa86b4d0befce7eb1fb64894c4795dc75e4b3fe572a6ee4631d71ba4e5",
    "entries": 5,
-   "bytes": 7808
+   "bytes": 7956
   },
   "shure.json": {
-   "sha256": "79b83dae6cc6e289f18eadc9af56bc2b1c3013824d07ce7301bfe4527ddd02d4",
+   "sha256": "d50743b80a67aebf286ac5b86b8168697dee081fa598c2cd02e9b5a9703ae60b",
    "entries": 4,
-   "bytes": 6548
+   "bytes": 6778
   },
   "sennheiser.json": {
-   "sha256": "17d69e2cfe515aa7c0d8aa58b468fafed2424a1e98bd83591ce23d19be6ae07a",
+   "sha256": "53b3153ad48d2b7be7cde5eb1f8570dfbd8b4fcddebed696d43d4cfd38e9578b",
    "entries": 2,
-   "bytes": 4014
+   "bytes": 4255
   },
   "ferrofish.json": {
-   "sha256": "c072c273ac53486da1e8d7130c5b08c882e9a878fed78c25c9c15bd06330faa5",
+   "sha256": "d0b6b2571f1e129f7c7f53e5612ffb64cac3655273cdc04df2934ba08ab38050",
    "entries": 1,
-   "bytes": 2609
+   "bytes": 2662
   },
   "etc.json": {
    "sha256": "95215e8a95350b25e20a1f0e25bb34c174ac9ecf65a90c7eb187e749ff26a318",
@@ -600,9 +600,9 @@
    "bytes": 3845
   },
   "malighting.json": {
-   "sha256": "5a5dde24c30202d6f4406f02eeb3cc027db2a1aefc694ce12589cecd3e96f961",
+   "sha256": "91c8301dcc74b0fdb2ba6c201cda52c7b65b8062d949eb7f63c8dd90d410b562",
    "entries": 4,
-   "bytes": 4950
+   "bytes": 5634
   },
   "chamsys.json": {
    "sha256": "865accf9f131bf7339918f615391648fff5dea0ac49b13b7429f8d55ba3e06dc",
@@ -645,9 +645,9 @@
    "bytes": 6391
   },
   "telestream-video.json": {
-   "sha256": "26e159a5d4ab96bc92e833611f0fc91bdd68b865be67d9d7b9dc7918a83edd84",
+   "sha256": "3f2338bf83ac5dfa4e472f7c4226f0bbfc572e9663c322cc44920ec7a667b2b7",
    "entries": 3,
-   "bytes": 5087
+   "bytes": 6097
   },
   "harmonic.json": {
    "sha256": "abbde47aa5bd392f3475968bb1bff0903159ec22d3cf97d409fb834e0357c6f1",
@@ -670,9 +670,9 @@
    "bytes": 1759
   },
   "tvlogic.json": {
-   "sha256": "9f80d63a6d8e8cfe414a0ce81911f4602ad3ebe1afe1c788d30774325b678bd8",
+   "sha256": "46b90fbfee18a562886f8f933e33794d214e4ad22d9708f42ae2f62f66ff6548",
    "entries": 4,
-   "bytes": 6214
+   "bytes": 6601
   },
   "postium.json": {
    "sha256": "a115895ffc70705111e65c3aee8359bb46b3e3d62c631cb3584bda5b41efeaca",
@@ -690,9 +690,9 @@
    "bytes": 1405
   },
   "meinberg.json": {
-   "sha256": "93a6bb4073203ebd65b121f3d564ef2b2605bf94906ef6052c65d38a16d1c5e4",
+   "sha256": "39dc471e169c0a72d1703c1457e67914df58d598ffc6573c64a974a688cf099b",
    "entries": 2,
-   "bytes": 3905
+   "bytes": 4826
   },
   "brandywine.json": {
    "sha256": "74136b32734b17973707c1a988410b3a196726d6123706e9691b6bc4478f6340",

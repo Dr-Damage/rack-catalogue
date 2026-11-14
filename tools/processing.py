@@ -128,24 +128,32 @@ add('apantac.json', 'apantac-tahoma-le-4', AP, 'TAHOMA-LE-4', 'TAHOMA-LE-4 4-inp
 # ======================= TSL Products =======================
 TS = 'TSL Products'
 PAMNOTE = ('Check: AES and analogue connector types (shown as D-sub), GPI and USB connectors. ')
-def pam(id, pn, name, ru, ports, notes, src, url, d):
-    add('tsl.json', 'tsl-' + id, TS, pn, name, 'PAM', 'audio', ru, ports, notes + f' {d} mm deep. ' + PAMNOTE, src, url, verified=False)
-add_ip = lambda: [R('io', 'SFP', 'SFP+', 2, 'ST 2110 SFP'), R('io', 'Dante/AES67', 'RJ45', 2, 'Dante Pri/Sec'),
-                  R('io', 'Ethernet', 'RJ45', 1, 'Control'), R('in', 'Power', 'DC locking', 2, 'PSU A/B')]
+def pam(id, pn, name, ru, ports, notes, src, url, d, check=PAMNOTE):
+    add('tsl.json', 'tsl-' + id, TS, pn, name, 'PAM', 'audio', ru, ports, notes + f' {d} mm deep. ' + check, src, url, verified=False)
+def add_ip(power=None): return [R('io', 'SFP', 'SFP+', 2, 'ST 2110 SFP'), R('io', 'Dante/AES67', 'RJ45', 2, 'Dante Pri/Sec'),
+                  R('io', 'Ethernet', 'RJ45', 1, 'Control'), power or R('in', 'Power', 'DC locking', 2, 'PSU A/B')]
+# 2RU rear (from the PAM2-IP-3G rear photo): AES I/O and analogue out on D-sub, 2 stereo analogue ins on XLR, 2 analogue outs on XLR, GPIO D9, DC on 4-pin XLR
+PAM2_AUDIO = lambda aes: [R('io', 'AES/EBU', 'DB25', 1, f'AES I/O {aes}'), R('out', 'Analog audio', 'DB25', 1, 'Analogue Out 1-8'),
+                          R('in', 'Analog audio', 'XLR3F', 4, 'Analogue In (2 stereo)'), R('out', 'Analog audio', 'XLR3M', 2, 'Analogue Out A1/A2'),
+                          R('io', 'GPIO', 'DB9', 1, 'GPIO')]
+PAM2_PSU = R('in', 'Power', 'XLR4M', 2, 'PSU A/B (DC)')
 pam('pam2-12g', 'PAM2-12G', 'PAM2-12G precision audio monitor, 12G-SDI, 2RU', 2,
     [R('in', '12G-SDI', 'BNC', 1, '12G-SDI In'), R('in', '3G-SDI', 'BNC', 3, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, '12G Loop'),
-     R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('in', 'AES/EBU', 'DB25', 1, 'AES In 1-4'), R('out', 'AES/EBU', 'DB25', 1, 'AES Out 1-4'),
-     R('in', 'Analog audio', 'DB25', 1, 'Analogue In'), R('out', 'Analog audio', 'DB25', 1, 'Analogue Out 1-8')] + add_ip(),
+     R('out', '3G-SDI', 'BNC', 2, 'SDI Out')] + PAM2_AUDIO('1-4') + add_ip(PAM2_PSU),
     'Audio monitor with screen and speakers for 12G/3G SDI, AES, analogue, Dante and ST 2110 / 2022-6 (2 x 10G SFP, Embrionix). '
-    '4 AES in/out, 2 stereo analogue in, 8 analogue out. External PSU, optional redundant. 4.9 kg.',
-    'TSL PAM2-12G data sheet', 'https://tslproducts.com/product/pam2-12g/', 335)
-for ru in (1, 2):
-    pam(f'pam{ru}-ip-3g', f'PAM{ru}-IP-3G', f'PAM{ru}-IP-3G precision audio monitor, IP and 3G-SDI, {ru}RU', ru,
-        [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('in', 'AES/EBU', 'DB25', 1, 'AES In 1-8'),
-         R('out', 'AES/EBU', 'DB25', 1, 'AES Out 1-8'), R('in', 'Analog audio', 'DB25', 1, 'Analogue In'),
-         R('out', 'Analog audio', 'DB25', 1, 'Analogue Out 1-8')] + add_ip(),
-        'Audio monitor for ST 2110 / 2022-6 (2 x 10G SFP), Dante/AES67, 3G-SDI, AES and analogue. Options: Dolby decode, Dante. '
-        'External PSU, optional redundant (PSU-PAMIP-11A).', 'TSL PAM IP range data sheet', 'https://tslproducts.com/products/audio-monitoring/pam-range', 250)
+    '4 AES in/out, 2 stereo analogue in, 8 analogue out. External PSU, optional redundant. 4.9 kg. Audio connectors as on the PAM2-IP-3G rear.',
+    'TSL PAM2-12G data sheet', 'https://tslproducts.com/product/pam2-12g/', 335, 'Check: SDI BNC count. ')
+pam('pam2-ip-3g', 'PAM2-IP-3G', 'PAM2-IP-3G precision audio monitor, IP and 3G-SDI, 2RU', 2,
+    [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out')] + PAM2_AUDIO('1-8') + add_ip(PAM2_PSU),
+    'Audio monitor for ST 2110 / 2022-6 (2 x 10G SFP), Dante/AES67, 3G-SDI, AES and analogue. Options: Dolby decode, Dante. '
+    'External PSU, optional redundant (PSU-PAMIP-11A). Rear checked against a photo of the unit.', 'TSL PAM IP range data sheet; rear from a Canford photo',
+    'https://tslproducts.com/products/audio-monitoring/pam-range', 250, '')
+pam('pam1-ip-3g', 'PAM1-IP-3G', 'PAM1-IP-3G precision audio monitor, IP and 3G-SDI, 1RU', 1,
+    [R('in', '3G-SDI', 'BNC', 4, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Out'), R('in', 'AES/EBU', 'DB25', 1, 'AES In 1-8'),
+     R('out', 'AES/EBU', 'DB25', 1, 'AES Out 1-8'), R('in', 'Analog audio', 'DB25', 1, 'Analogue In'),
+     R('out', 'Analog audio', 'DB25', 1, 'Analogue Out 1-8')] + add_ip(),
+    'Audio monitor for ST 2110 / 2022-6 (2 x 10G SFP), Dante/AES67, 3G-SDI, AES and analogue. Options: Dolby decode, Dante. '
+    'External PSU, optional redundant (PSU-PAMIP-11A).', 'TSL PAM IP range data sheet', 'https://tslproducts.com/products/audio-monitoring/pam-range', 250)
 add('tsl.json', 'tsl-tm1-tally', TS, 'TM1-TALLY', 'TallyMan TM1-TALLY tally controller, 64 GPIO', 'TallyMan', 'control', 1,
     [R('io', 'GPIO', 'DB37', 2, 'GPIO 1-64'), R('io', 'RS-422', 'DB9', 4, 'RS-422'), R('io', 'Ethernet', 'RJ45', 2, 'Ethernet'),
      R('in', 'Power', 'IEC C14', 1, 'AC In')],

@@ -10,9 +10,9 @@
   "widthCols": 12,
   "fullDepth": false,
   "verified": false,
-  "source": "Meinberg LANTIME M1000 short info",
+  "source": "Meinberg LANTIME M1000 short info; panels from Meinberg product photos",
   "productUrl": "https://www.meinbergglobal.com/download/docs/shortinfo/english/info_ims-lantime-m1000.pdf",
-  "notes": "IMS modular chassis: up to 2 reference clocks (GPS/GNSS, PZF), 2 hot-swap PSUs (AC/DC mixable, 50 W each), CPU, and 4 I/O slots (PTP / NTP, pulse, frequency and time-code outputs, up to 4 PTP modules, up to 16 extra ports with LNE). 483 x 290 mm. Shown with a typical PTP fit-out. Check: modules fitted.",
+  "notes": "IMS modular chassis: up to 2 reference clocks (GPS/GNSS, PZF), 2 hot-swap PSUs (AC/DC mixable, 50 W each), CPU, and 4 I/O slots (PTP / NTP, pulse, frequency and time-code outputs, up to 4 PTP modules, up to 16 extra ports with LNE). 483 x 290 mm. Ports follow the fit-out in Meinberg's rear photo (CPU, GNSS receiver, I/O module, PTP module, two AC PSUs). Check: modules fitted.",
   "portGroups": [
    {
     "face": "rear",
@@ -25,10 +25,34 @@
    {
     "face": "rear",
     "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GNSS COM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 1,
-    "prefix": "Mgmt / NTP"
+    "prefix": "CPU LAN / NTP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "CPU Terminal"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "CPU USB"
    },
    {
     "face": "rear",
@@ -36,7 +60,15 @@
     "type": "SFP",
     "connector": "SFP",
     "count": 1,
-    "prefix": "Network SFP"
+    "prefix": "PTP SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PTP"
    },
    {
     "face": "rear",
@@ -44,7 +76,7 @@
     "type": "Ethernet",
     "connector": "RJ45",
     "count": 2,
-    "prefix": "PTP (IMS-IO)"
+    "prefix": "I/O LAN"
    },
    {
     "face": "rear",
@@ -58,9 +90,25 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "Other",
+    "connector": "Terminal block",
     "count": 2,
     "prefix": "PSU A/B"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Terminal"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
    }
   ],
   "powerW": 100

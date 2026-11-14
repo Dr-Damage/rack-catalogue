@@ -24,9 +24,10 @@ def calrec(id, pn, name, fam, ru, ports, notes, verified=False):
     add('calrec.json', 'calrec-' + id, 'Calrec', pn, name, fam, 'audio', ru, ports, notes, CA[0], CA[1], verified, full=True)
 H2 = lambda n: R('io', 'SFP', 'SFP', n, 'Hydra2 SFP')
 calrec('impulse1', 'ImPulse1', 'ImPulse1 IP audio processing core, 1U', 'ImPulse', 1,
-       [R('io', 'SFP', 'SFP', 4, 'ST 2110 / AES67 SFP'), R('io', 'Ethernet', 'RJ45', 2, 'Control'), PSU()],
+       [F('io', 'SFP', 'SFP', 4, 'AoIP / Control SFP'), F('io', 'Ethernet', 'RJ45', 2, 'Control'), F('io', 'USB', 'USB-A', 4, 'USB / Setup'),
+        F('out', 'DisplayPort', 'DisplayPort', 1, 'Display'), PSU()],
        'Compact ST 2110-30 / AES67 core with two cores inside for redundancy and dual AC PSUs, up to 432 processing paths. '
-       'Drives Argo surfaces. Check: SFP and control port counts.')
+       'Drives Argo surfaces. Network, USB and display ports are on the front (from a Calrec photo). Check: SFP roles and display connector type.')
 calrec('impulse-5u', 'ImPulse', 'ImPulse IP audio processing core, 5U', 'ImPulse', 5,
        [R('io', 'SFP', 'SFP', 8, 'ST 2110 / AES67 SFP'), R('io', 'Ethernet', 'RJ45', 2, 'Control'), PSU()],
        'Modular ST 2110 / AES67 processing core for Argo and Apollo/Artemis surfaces, redundant DSP, router and PSU modules. '
@@ -104,17 +105,21 @@ add('stagetec.json', 'stagetec-nexus-base-6u', 'Stage Tec', 'NEXUS Base Device 6
 
 # ======================= Wohler =======================
 add('wohler.json', 'wohler-iam-12g-sdi', 'Wohler', 'iAM-12G-SDI', 'iAM-12G-SDI audio monitor, 2RU', 'iAM', 'audio', 2,
-    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('io', 'AES/EBU', 'HD15', 1, 'AES 4 pairs'), R('io', 'Analog audio', 'DB25', 2, 'Analogue 16 ch'),
-     R('io', 'SFP', 'SFP', 4, 'SFP (option)'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), F('out', 'Analog audio', '1/4" TRS', 1, 'Headphones'),
-     F('io', 'USB', 'USB-A', 1, 'USB'), R('in', 'Power', 'IEC C14', 1, 'AC In')],
+    [R('in', '12G-SDI', 'BNC', 2, 'ASI/SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out'), R('in', 'AES/EBU', 'HD15', 1, 'AES In'),
+     R('out', 'Analog audio', 'DB25', 2, 'Analogue Out 1-16'), R('out', 'Analog audio', 'XLR3M', 2, 'Analogue Out L/R'),
+     R('io', 'SFP', 'SFP', 4, 'SFP 1-4'), R('io', 'Ethernet', 'RJ45', 1, 'TSoIP'), R('io', 'Ethernet', 'RJ45', 2, 'MGMT'), R('io', 'USB', 'USB-A', 1, 'Log'),
+     F('out', 'Analog audio', '1/4" TRS', 1, 'Headphones'), F('io', 'USB', 'USB-A', 1, 'USB'),
+     R('in', 'Power', 'IEC C14', 1, 'AC In'), R('in', 'Power', 'XLR4M', 1, 'Aux DC In 24 V')],
     '2RU touchscreen audio monitor for 12G-SDI, AES, analogue, with 4 SFP cages for fibre, SDI, HDMI, ST 2110 or 2022-6 modules. '
-    'Options add MADI (BNC), more analogue, TOSLINK, Dante or RAVENNA. 40 W, 242 mm deep, 5 kg. Check: power inlet.',
-    'Wohler iAM-12G-SDI data sheet', 'https://www.wohler.com/wp-content/uploads/2023/07/iAM-12G-SDI_d.pdf', verified=False, powerW=40, weightKg=5.0)
+    'Options add MADI (BNC), more analogue, TOSLINK, Dante or RAVENNA. 40 W, 242 mm deep, 5 kg. Rear as in a photo with slot 1 fitted (SFP, TSoIP, ASI/SDI, AES); slots 2 and 3 take options.',
+    'Wohler iAM-12G-SDI data sheet; rear from an HHB photo', 'https://www.wohler.com/wp-content/uploads/2023/07/iAM-12G-SDI_d.pdf', verified=False, powerW=40, weightKg=5.0)
 add('wohler.json', 'wohler-iam1-12g', 'Wohler', 'iAM1-12G', 'iAM1-12G triple-screen audio monitor, 1RU', 'iAM', 'audio', 1,
-    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('io', 'Analog audio', 'DB25', 1, 'Analogue'), R('io', 'SFP', 'SFP', 2, 'SFP (option)'),
-     R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), F('out', 'Analog audio', '1/4" TRS', 1, 'Headphones'), R('in', 'Power', 'IEC C14', 1, 'AC In')],
-    '1RU audio monitor with three touchscreens, 6-channel metering, 12G-SDI and analogue. Check: all connector counts (from the product title).',
-    'Wohler iAM1-12G listing', 'https://www.wohler.com/wp-content/uploads/2023/06/iAM1-12G_d.pdf', verified=False)
+    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', '12G-SDI', 'BNC', 1, 'SDI Out'), R('in', 'Analog audio', 'XLR3F', 2, 'Analog In L/R'),
+     R('out', 'Analog audio', 'XLR3M', 2, 'Analog Out L/R'), R('in', 'AES/EBU', 'HD15', 1, 'AES In 1-8'), R('out', 'AES/EBU', 'HD15', 1, 'AES Out 1-8'),
+     R('in', 'MADI audio', 'BNC', 1, 'MADI In'), R('out', 'MADI audio', 'BNC', 1, 'MADI Out'), R('io', 'SFP', 'SFP', 1, 'SFP-1'), R('io', 'SFP', 'SFP', 1, 'MADI SFP'),
+     R('io', 'Ethernet', 'RJ45', 1, 'MGMT'), F('out', 'Analog audio', '1/4" TRS', 1, 'Headphones'), R('in', 'Power', 'IEC C14', 1, 'AC In')],
+    '1RU audio monitor with three touchscreens, 12G-SDI, AES, MADI (coax and SFP) and analogue. Rear checked against a photo of the unit.',
+    'Wohler iAM1-12G listing; rear from an HHB photo', 'https://www.wohler.com/wp-content/uploads/2023/06/iAM1-12G_d.pdf', verified=False)
 
 # ======================= RTW =======================
 add('rtw.json', 'rtw-tm7-rack', 'RTW', 'TM7-Rack', 'TouchMonitor TM7-Rack 7-inch loudness meter, 3U half rack', 'TouchMonitor', 'audio', 3,
@@ -143,10 +148,12 @@ add('dhd.json', 'dhd-xd3', 'DHD.audio', '52-7550', 'XD3 high-capacity IP audio c
 # ======================= Merging =======================
 MG = ('Merging Technologies Horus / Hapi MkII product information', 'https://merging.com/products/interfaces/horus')
 add('merging.json', 'merging-horus', 'Merging Technologies', 'Horus', 'Horus RAVENNA/AES67 networked converter, 2U', 'Horus', 'audio', 2,
-    [R('io', 'Other', 'Card slot', 6, 'I/O card slot'), R('io', 'SFP', 'SFP', 3, 'MADI SFP'), R('io', 'Dante/AES67', 'RJ45', 2, 'AES67 / RAVENNA')]
-    + WC + [R('in', 'Timecode', 'XLR3F', 1, 'LTC'), F('out', 'Analog audio', '1/4" TRS', 2, 'Headphones'), PSU()],
-    '2U AES67 / RAVENNA / ST 2110-30 converter with modular analogue, mic and AES cards, MADI on SFP, redundant PSUs. '
-    'Check: all connector counts (from memory of the data sheet).', MG[0], MG[1], verified=False)
+    [R('in', 'Analog audio', 'DB25', 3, 'Mic/Line In 1-24'), R('out', 'Analog audio', 'DB25', 3, 'Line Out 1-24'), R('io', 'AES/EBU', 'DB25', 3, 'AES 1-24'),
+     R('in', 'MADI audio', 'BNC', 1, 'MADI In'), R('out', 'MADI audio', 'BNC', 1, 'MADI Out'), R('io', 'SFP', 'SFP', 1, 'MADI SFP'),
+     R('io', 'Dante/AES67', 'RJ45', 2, 'RAVENNA Pri/Sec'), R('in', 'Reference', 'HD15', 1, 'Sync'), R('io', 'GPIO', 'Other', 1, 'GPIO')]
+    + WC + [F('out', 'Analog audio', '1/4" TRS', 2, 'Headphones'), PSU()],
+    '2U AES67 / RAVENNA / ST 2110-30 converter with modular I/O, redundant PSUs. Ports follow the fit-out in a rear photo: 3 mic/line in and 3 line out cards, '
+    'AES 1-24 and MADI (coax and SFP); the card slots take other analogue, mic, AES and MADI cards. Check: sync connector type.', MG[0] + '; panels from a product photo', MG[1], verified=False)
 add('merging.json', 'merging-hapi-mkii', 'Merging Technologies', 'Hapi MkII', 'Hapi MkII RAVENNA/AES67 networked converter, 1U', 'Hapi', 'audio', 1,
     [R('io', 'Other', 'Card slot', 2, 'I/O card slot'), R('io', 'Other', 'Card slot', 1, 'Option slot (MADI/Dante)'),
      R('io', 'Dante/AES67', 'RJ45', 2, 'AES67 / RAVENNA')] + WC + [F('out', 'Analog audio', '1/4" TRS', 2, 'Headphones'), R('in', 'Power', 'IEC C14', 1, 'AC In')],
@@ -154,29 +161,29 @@ add('merging.json', 'merging-hapi-mkii', 'Merging Technologies', 'Hapi MkII', 'H
     'Check: all connector counts (from memory of the data sheet).', MG[0], MG[1], verified=False)
 
 # ======================= Focusrite RedNet =======================
-FR = ('Canford Focusrite RedNet listings', 'https://www.canford.co.uk/FOCUSRITE-AUDIO-INTERFACES-AoIP')
+FR = ('Canford Focusrite RedNet listings; rear panels from Focusrite product photos', 'https://www.canford.co.uk/FOCUSRITE-AUDIO-INTERFACES-AoIP')
 def rn(id, pn, name, ru, ports, notes, url, verified=True):
-    add('focusrite.json', 'focusrite-' + id, 'Focusrite', pn, name, 'RedNet', 'audio', ru, ports + [DANTE(), PSU()], notes, FR[0], url, verified)
-DARS = R('in', 'AES/EBU', 'XLR3F', 1, 'DARS In')
+    add('focusrite.json', 'focusrite-' + id, 'Focusrite', pn, name, 'RedNet', 'audio', ru, ports + [DANTE('etherCON'), PSU()], notes, FR[0], url, verified)
+AES_XLR = [R('in', 'AES/EBU', 'XLR3F', 1, 'AES In (DARS)'), R('out', 'AES/EBU', 'XLR3M', 1, 'AES Out')]
 rn('rednet-a16r-mkii', 'RedNet A16R MkII', 'RedNet A16R MkII 16 x 16 analogue Dante interface', 1,
-   [R('in', 'Analog audio', 'DB25', 2, 'Analogue In 1-16'), R('out', 'Analog audio', 'DB25', 2, 'Analogue Out 1-16')] + WC + [DARS],
-   '16 x 16 line-level analogue on AES59 D-sub, plus an AES3 pair on channels 17-18, redundant Dante and dual PSUs. '
-   'Check: where the AES pair connects.', 'https://focusrite.com/products/rednet-a16r-mkii')
+   [R('in', 'Analog audio', 'DB25', 2, 'Analogue In 1-16'), R('out', 'Analog audio', 'DB25', 2, 'Analogue Out 1-16')] + WC + AES_XLR,
+   '16 x 16 line-level analogue on AES59 D-sub, plus an AES3 pair on XLR (the input doubles as DARS), redundant Dante on etherCON and dual PSUs.',
+   'https://focusrite.com/products/rednet-a16r-mkii')
 rn('rednet-d16r-mkii', 'RedNet D16R MkII', 'RedNet D16R MkII 16 x 16 AES3 Dante interface', 1,
-   [R('io', 'AES/EBU', 'DB25', 2, 'AES 1-16'), R('in', 'AES/EBU', 'XLR3F', 1, 'AES In 1-2'), R('out', 'AES/EBU', 'XLR3M', 1, 'AES Out 1-2'),
-    R('in', 'Other', 'RCA', 1, 'S/PDIF In'), R('out', 'Other', 'RCA', 1, 'S/PDIF Out')] + WC + [DARS],
-   '16 x 16 AES3 (8 pairs) on two D-subs, plus XLR and S/PDIF, redundant Dante and dual PSUs.', 'https://focusrite.com/products/rednet-d16r-mkii')
+   [R('io', 'AES/EBU', 'DB25', 2, 'AES 1-16'), R('in', 'Other', 'RCA', 1, 'S/PDIF In'), R('out', 'Other', 'RCA', 1, 'S/PDIF Out')] + WC + AES_XLR,
+   '16 x 16 AES3 (8 pairs in and out) on two D-subs, plus an AES3 pair on XLR (input doubles as DARS) and S/PDIF, redundant Dante and dual PSUs.',
+   'https://focusrite.com/products/rednet-d16r-mkii')
 rn('rednet-d64r', 'RedNet D64R', 'RedNet D64R 64 x 64 MADI Dante bridge', 1,
-   [R('in', 'MADI audio', 'BNC', 1, 'MADI In'), R('out', 'MADI audio', 'BNC', 1, 'MADI Out'), R('io', 'Fibre', 'SC', 2, 'MADI optical')] + WC,
+   [R('in', 'MADI audio', 'BNC', 1, 'MADI In'), R('out', 'MADI audio', 'BNC', 1, 'MADI Out'), R('io', 'Fibre', 'SC', 1, 'MADI optical (duplex SC)')] + WC,
    '64 x 64 MADI to Dante on coax and duplex SC optical, redundant Dante and dual PSUs.', 'https://focusrite.com/')
-rn('rednet-hd32r', 'RedNet HD32R', 'RedNet HD32R 32 x 32 Pro Tools HD Dante bridge', 2,
-   [R('io', 'Other', 'Other', 2, 'DigiLink'), R('io', 'Other', 'Other', 1, 'Expansion')] + WC,
-   '32 x 32 Pro Tools | HD / HDX to Dante (16 x 16 in expansion mode), Mini-DigiLink ports, redundant Dante and dual PSUs.',
+rn('rednet-hd32r', 'RedNet HD32R', 'RedNet HD32R 32 x 32 Pro Tools HD Dante bridge', 1,
+   [R('io', 'Other', 'Other', 1, 'DigiLink Primary'), R('io', 'Other', 'Other', 1, 'DigiLink Expansion'),
+    R('in', 'Reference', 'BNC', 1, 'Loop Sync In'), R('out', 'Reference', 'BNC', 1, 'Loop Sync Out')] + WC,
+   '32 x 32 Pro Tools | HD / HDX to Dante (16 x 16 in expansion mode), Mini-DigiLink ports, loop sync, redundant Dante and dual PSUs. 1RU.',
    'https://vintageking.com/cdn/shop/files/focusrite_rednet_hd32r1_DATA_SHEET.pdf')
 rn('rednet-mp8r', 'RedNet MP8R', 'RedNet MP8R 8-channel remote mic pre with Dante', 1,
-   [R('in', 'Analog audio', 'XLR3F', 8, 'Mic/Line In'), R('out', 'Analog audio', 'DB25', 1, 'Split Out 1-8')] + WC,
-   '8 remote-controlled mic pres with an analogue split output per channel, redundant Dante and dual PSUs. '
-   'Check: split output connector.', 'https://focusrite.com/', verified=False)
+   [R('in', 'Analog audio', 'XLR3F', 8, 'Mic/Line In')],
+   '8 remote-controlled mic pres straight onto Dante (no analogue outputs), redundant Dante and dual PSUs.', 'https://focusrite.com/')
 
 ip = os.path.join(CAT, 'index.json'); idx = json.load(open(ip))
 for f, ms in FILES.items():

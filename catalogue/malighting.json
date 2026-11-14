@@ -12,7 +12,7 @@
   "verified": true,
   "source": "grandMA3 user manual: processing unit technical data",
   "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
-  "notes": "Network processing unit adding 4,096 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "notes": "Network processing unit adding 4,096 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels. Rear matches the MA drawing (8 DMX A-H, 2 etherCON, 1 USB, power switch). Check: front USB count.",
   "portGroups": [
    {
     "face": "rear",
@@ -35,7 +35,15 @@
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 3,
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
     "prefix": "USB"
    },
    {
@@ -63,7 +71,7 @@
   "verified": true,
   "source": "grandMA3 user manual: processing unit technical data",
   "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
-  "notes": "Network processing unit adding 8,192 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "notes": "Network processing unit adding 8,192 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels. Rear matches the MA drawing (8 DMX A-H, 2 etherCON, 1 USB, power switch). Check: front USB count.",
   "portGroups": [
    {
     "face": "rear",
@@ -86,7 +94,15 @@
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 3,
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
     "prefix": "USB"
    },
    {
@@ -114,7 +130,7 @@
   "verified": true,
   "source": "grandMA3 user manual: processing unit technical data",
   "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
-  "notes": "Network processing unit adding 16,384 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "notes": "Network processing unit adding 16,384 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels. Rear matches the MA drawing (8 DMX A-H, 2 etherCON, 1 USB, power switch). Check: front USB count.",
   "portGroups": [
    {
     "face": "rear",
@@ -137,7 +153,15 @@
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 3,
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
     "prefix": "USB"
    },
    {
