@@ -1,0 +1,150 @@
+[
+ {
+  "id": "wohler-iam-12g-sdi",
+  "manufacturer": "Wohler",
+  "partNumber": "iAM-12G-SDI",
+  "name": "iAM-12G-SDI audio monitor, 2RU",
+  "family": "iAM",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wohler iAM-12G-SDI data sheet",
+  "productUrl": "https://www.wohler.com/wp-content/uploads/2023/07/iAM-12G-SDI_d.pdf",
+  "notes": "2RU touchscreen audio monitor for 12G-SDI, AES, analogue, with 4 SFP cages for fibre, SDI, HDMI, ST 2110 or 2022-6 modules. Options add MADI (BNC), more analogue, TOSLINK, Dante or RAVENNA. 40 W, 242 mm deep, 5 kg. Check: power inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "AES 4 pairs"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Analogue 16 ch"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 5.0
+ },
+ {
+  "id": "wohler-iam1-12g",
+  "manufacturer": "Wohler",
+  "partNumber": "iAM1-12G",
+  "name": "iAM1-12G triple-screen audio monitor, 1RU",
+  "family": "iAM",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wohler iAM1-12G listing",
+  "productUrl": "https://www.wohler.com/wp-content/uploads/2023/06/iAM1-12G_d.pdf",
+  "notes": "1RU audio monitor with three touchscreens, 6-channel metering, 12G-SDI and analogue. Check: all connector counts (from the product title).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

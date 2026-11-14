@@ -1,0 +1,91 @@
+[
+ {
+  "id": "sony-hdcu-3100",
+  "manufacturer": "Sony",
+  "partNumber": "HDCU-3100",
+  "name": "HDCU-3100 camera control unit, half rack",
+  "family": "HDCU",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sony HDCU-3100 product information",
+  "productUrl": "https://pro.sony/",
+  "notes": "Compact CCU for HDC-3100 / HDC-3500 cameras (HD, with 4K upgrade on some versions). Check: rack size and all connector counts (from memory).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RCP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

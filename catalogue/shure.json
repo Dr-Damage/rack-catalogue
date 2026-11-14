@@ -1,0 +1,296 @@
+[
+ {
+  "id": "shure-ulxd4q",
+  "manufacturer": "Shure",
+  "partNumber": "ULXD4Q",
+  "name": "ULXD4Q quad-channel digital wireless receiver",
+  "family": "ULX-D",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BSW ULXD4Q listing (Shure specifications)",
+  "productUrl": "https://bswusa.com/shure-ulxd4q/",
+  "notes": "Four-channel ULX-D receiver, 1RU: XLR and jack outputs per channel, Dante on a dual-port Ethernet switch (redundant or daisy-chain), antenna cascade to one more receiver. 274 mm deep, 3.45 kg. Check: antenna input count and power inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Antenna Cascade"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante/Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 3.45
+ },
+ {
+  "id": "shure-ulxd4d",
+  "manufacturer": "Shure",
+  "partNumber": "ULXD4D",
+  "name": "ULXD4D dual-channel digital wireless receiver, half rack",
+  "family": "ULX-D",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure ULX-D product information",
+  "productUrl": "https://www.shure.com/",
+  "notes": "Two-channel ULX-D receiver, half-rack 1RU, Dante on a dual-port switch. Two side by side with the supplied link bar. Check: all counts (from memory of the Shure spec sheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante/Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "shure-ad4q",
+  "manufacturer": "Shure",
+  "partNumber": "AD4Q",
+  "name": "Axient Digital AD4Q quad-channel wireless receiver",
+  "family": "Axient Digital",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure AD4Q spec sheet (Rentex)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2019/08/Shure-AD4Q-Axient-Wireless-Receiver-Spec-Sheet-from-Rentex.pdf",
+  "notes": "Four-channel Axient Digital receiver, 1RU: XLR and jack outputs, 2 AES3 outputs (4 channels), Dante/AES67 on a configurable Ethernet switch, locking AC in and loop. 4.8 kg. AD4Q-DC takes DC power. AD4D is the two-channel version. Check: antenna, Ethernet and word clock counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Dante/Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 1,
+    "prefix": "AC Loop"
+   }
+  ],
+  "weightKg": 4.8
+ },
+ {
+  "id": "shure-p300",
+  "manufacturer": "Shure",
+  "partNumber": "P300",
+  "name": "P300 IntelliMix audio conferencing processor",
+  "family": "IntelliMix",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure P300 product information",
+  "productUrl": "https://www.shure.com/",
+  "notes": "Conferencing DSP with 8 Dante inputs, AEC, auto-mix, USB and mobile audio. PoE+ powered. Half rack 1RU with a mounting kit. Check: all counts (from memory of the Shure spec sheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante/Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Euroblock",
+    "count": 1,
+    "prefix": "Logic"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

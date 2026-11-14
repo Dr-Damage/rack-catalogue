@@ -1,0 +1,131 @@
+[
+ {
+  "id": "ferrofish-a32pro-dante",
+  "manufacturer": "Ferrofish",
+  "partNumber": "A32pro Dante",
+  "name": "A32pro Dante 32-channel AD/DA converter, Dante / MADI / ADAT",
+  "family": "A32",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Trew Audio A32pro Dante listing",
+  "productUrl": "https://www.trewaudio.com/product/ferrofish-a32pro-dante/",
+  "notes": "32 x 32 AD/DA on Tascam D-subs with Dante, MADI (SFP, optical module included) and ADAT, redundant 12 V supplies. A32pro is the version without Dante. Check: which jacks are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 4,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 4,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Main Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "MADI SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 4,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 4,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5mm TRS",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "12V DC A/B"
+   }
+  ]
+ }
+]

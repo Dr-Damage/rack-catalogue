@@ -1,0 +1,101 @@
+[
+ {
+  "id": "brandywine-ptp-800",
+  "manufacturer": "Brandywine Communications",
+  "partNumber": "PTP-800",
+  "name": "PTP-800 IEEE 1588 grandmaster clock, 1U",
+  "family": "PTP",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Brandywine PTP-800 data sheet",
+  "productUrl": "https://www.brandywinecomm.com/wp-content/uploads/2022/04/PTP800-BWC.pdf",
+  "notes": "Four independent PTP grandmaster ports (RJ45/SFP combo), NTP stratum 1, GNSS, 10 MHz, 1PPS and IRIG-B in and out, dual hot-swap PSUs (AC or DC). 200 mm deep, 4.5 kg, 20 W typical. No black burst or tri-level outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "PTP/NTP (RJ45/SFP combo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 20,
+  "weightKg": 4.5
+ }
+]

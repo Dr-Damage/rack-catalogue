@@ -1,0 +1,120 @@
+[
+ {
+  "id": "marshall-v-r173-imd-3gte",
+  "manufacturer": "Marshall Electronics",
+  "partNumber": "V-R173-IMD-3GTE",
+  "name": "V-R173-IMD-3GTE 17.3-inch rack monitor, 6RU",
+  "family": "V-R",
+  "category": "monitor",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Marshall V-R173-IMD-3GTE spec sheet",
+  "productUrl": "https://www.marshall-usa.com/specsheets/V-R173-IMD-3GTE.pdf",
+  "notes": "Single 17.3-inch 1920 x 1080 rack monitor with 3G-SDI and loop, IMD (UMD), tally and RS-422. 12 V DC 60 W on a 2-pin twist lock. 476 x 265 mm, 3.7 kg. Check: tally connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RS-485/422 In/Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 1,
+   "sizeIn": 17.3,
+   "aspect": "16:9"
+  },
+  "powerW": 60,
+  "weightKg": 3.7
+ },
+ {
+  "id": "marshall-v-r653-imd-3gte",
+  "manufacturer": "Marshall Electronics",
+  "partNumber": "V-R653-IMD-3GTE",
+  "name": "V-R653-IMD-3GTE triple 6.5-inch rack monitor, 3RU",
+  "family": "V-R",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Marshall LCD racks products guide",
+  "productUrl": "https://www.fullcompass.com/common/files/25931-MarshallLCDRacksProductsGuide.pdf",
+  "notes": "Three 6.5-inch screens, each with 3G-SDI in and loop, IMD and RS-422 control. Check: tally and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G-SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 3,
+   "sizeIn": 6.5,
+   "aspect": "4:3"
+  }
+ }
+]

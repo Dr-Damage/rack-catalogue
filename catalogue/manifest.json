@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "ad810ec7c671",
- "updated": "2026-11-14T07:46:36Z",
- "entries": 1975,
+ "version": "e7d1717e14f5",
+ "updated": "2026-11-14T08:28:24Z",
+ "entries": 2074,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -508,6 +508,196 @@
    "sha256": "8fdd18bd95870b9a6e2d8dac379b309a4950ea61d7b56ccd15a9a30cefcb3d25",
    "entries": 32,
    "bytes": 40887
+  },
+  "imagine.json": {
+   "sha256": "b89446990d4cc167e644d85a9967de0537832165c255fd87b4d733d653f6b94e",
+   "entries": 3,
+   "bytes": 4252
+  },
+  "cobalt.json": {
+   "sha256": "f04cb20e66034db60ffb134e7e7aa35f8a72e8e1c8c334a41da471dddfe68df8",
+   "entries": 12,
+   "bytes": 21589
+  },
+  "apantac.json": {
+   "sha256": "ec814cae32bddda48d7336a858d866f2fadbf9121b6667691c43b53f43f8860a",
+   "entries": 2,
+   "bytes": 4033
+  },
+  "tsl.json": {
+   "sha256": "edc701e3e4e5a6438a6d69e5a783664d0f9b0e8553fe2bf61143f53c8983c88d",
+   "entries": 4,
+   "bytes": 7922
+  },
+  "bridgetech.json": {
+   "sha256": "50e0005ce4f36e52e9e173dadbfa1d8bedafe2ba81b19440313c1406343dc166",
+   "entries": 2,
+   "bytes": 2372
+  },
+  "calrec.json": {
+   "sha256": "9b9e455b3425a26bfae7fd96210f1851820ad0be873060970af357fcb8681864",
+   "entries": 7,
+   "bytes": 6927
+  },
+  "ssl.json": {
+   "sha256": "d6f258434ab2e33fb36625c66cf5f52d2234f9fcf1b8bba0d49ac9a0a417c35d",
+   "entries": 4,
+   "bytes": 5409
+  },
+  "digico.json": {
+   "sha256": "64ea4fec4cd22bcce0dc770ed128e0e08fe17dcf2fa734d37595deaf9ef41899",
+   "entries": 5,
+   "bytes": 6385
+  },
+  "stagetec.json": {
+   "sha256": "0e0fa418340f2b5facfe0d811aaf54faaa5f9f902b20729bda4bd88781213007",
+   "entries": 2,
+   "bytes": 1830
+  },
+  "wohler.json": {
+   "sha256": "6d2eba5db6c5b6780bf5ac74a1fc1ee27d1cd6bec3941e3328814e9e274ce67c",
+   "entries": 2,
+   "bytes": 3199
+  },
+  "rtw.json": {
+   "sha256": "f52e8fbdcdd8708565bc90e870a9449433b48cb27237c5802d7102d089d0bfb3",
+   "entries": 1,
+   "bytes": 1670
+  },
+  "dhd.json": {
+   "sha256": "f89ae31af8a0ec097b0a532be2b71abc62e64773f65cea477dd81d08e11b461a",
+   "entries": 2,
+   "bytes": 3479
+  },
+  "merging.json": {
+   "sha256": "d62515e0fd8aff0fc710c6fa2a52f1c609eb54615e88d5b1545ee2f6733ef815",
+   "entries": 2,
+   "bytes": 3398
+  },
+  "focusrite.json": {
+   "sha256": "bcd98f70f7de270bca1d8b9052360491c54837c2c6c0fc6268817498b00947c0",
+   "entries": 5,
+   "bytes": 7808
+  },
+  "shure.json": {
+   "sha256": "79b83dae6cc6e289f18eadc9af56bc2b1c3013824d07ce7301bfe4527ddd02d4",
+   "entries": 4,
+   "bytes": 6548
+  },
+  "sennheiser.json": {
+   "sha256": "17d69e2cfe515aa7c0d8aa58b468fafed2424a1e98bd83591ce23d19be6ae07a",
+   "entries": 2,
+   "bytes": 4014
+  },
+  "ferrofish.json": {
+   "sha256": "c072c273ac53486da1e8d7130c5b08c882e9a878fed78c25c9c15bd06330faa5",
+   "entries": 1,
+   "bytes": 2609
+  },
+  "etc.json": {
+   "sha256": "95215e8a95350b25e20a1f0e25bb34c174ac9ecf65a90c7eb187e749ff26a318",
+   "entries": 3,
+   "bytes": 3845
+  },
+  "malighting.json": {
+   "sha256": "5a5dde24c30202d6f4406f02eeb3cc027db2a1aefc694ce12589cecd3e96f961",
+   "entries": 4,
+   "bytes": 4950
+  },
+  "chamsys.json": {
+   "sha256": "865accf9f131bf7339918f615391648fff5dea0ac49b13b7429f8d55ba3e06dc",
+   "entries": 1,
+   "bytes": 1806
+  },
+  "avolites.json": {
+   "sha256": "2f1b63899a56cfd323a71f9e2ee0beb0ba40d19b11e2c3212663148226806aa1",
+   "entries": 1,
+   "bytes": 1377
+  },
+  "pathway.json": {
+   "sha256": "2a32e77b23e77d89fd7f1942a477042cb3bd965f4c9bd8deddb7e27dbc401f3a",
+   "entries": 1,
+   "bytes": 1168
+  },
+  "luminex.json": {
+   "sha256": "23b4c35505b54775c0c19036f12a52fda9a2281f7581acc236209c4d5365bac7",
+   "entries": 2,
+   "bytes": 2791
+  },
+  "swisson.json": {
+   "sha256": "e641a9d0adca76b1266970029770ad6d33262b12dd2cc58d24254f97811ce59a",
+   "entries": 1,
+   "bytes": 1283
+  },
+  "obsidian.json": {
+   "sha256": "f7a1b129a04b0b6306c6617d2bb1932bbc595a1c8079cd01695049970d5d8136",
+   "entries": 2,
+   "bytes": 2557
+  },
+  "pharos.json": {
+   "sha256": "578ae664a7e71ef9252321846cb28c2a0a4bdb30b2bdb82230b51e9f971ee8c1",
+   "entries": 1,
+   "bytes": 1451
+  },
+  "leader.json": {
+   "sha256": "9759b88a281f285aafc3d73811eeffad8051091a4b00b10f60dc8749e47e9ca7",
+   "entries": 4,
+   "bytes": 6391
+  },
+  "telestream-video.json": {
+   "sha256": "26e159a5d4ab96bc92e833611f0fc91bdd68b865be67d9d7b9dc7918a83edd84",
+   "entries": 3,
+   "bytes": 5087
+  },
+  "harmonic.json": {
+   "sha256": "abbde47aa5bd392f3475968bb1bff0903159ec22d3cf97d409fb834e0357c6f1",
+   "entries": 2,
+   "bytes": 3683
+  },
+  "ikegami.json": {
+   "sha256": "87aad66ad1e8144093cc751d5683550251c27997ac519618315eff67a393666d",
+   "entries": 1,
+   "bytes": 1872
+  },
+  "hitachi.json": {
+   "sha256": "8c7e45b52e30928a60bcb493ef9219090d156eff482640026347f983a63e94b5",
+   "entries": 1,
+   "bytes": 1721
+  },
+  "sony-ccu.json": {
+   "sha256": "b7e62144087405393125d9ab89edaa0d3f14b4d5f5219aabb156179b8efaa2c5",
+   "entries": 1,
+   "bytes": 1759
+  },
+  "tvlogic.json": {
+   "sha256": "9f80d63a6d8e8cfe414a0ce81911f4602ad3ebe1afe1c788d30774325b678bd8",
+   "entries": 4,
+   "bytes": 6214
+  },
+  "postium.json": {
+   "sha256": "a115895ffc70705111e65c3aee8359bb46b3e3d62c631cb3584bda5b41efeaca",
+   "entries": 1,
+   "bytes": 1734
+  },
+  "marshall.json": {
+   "sha256": "0c4239fb7fc8a67288f86a70f2ad60d4a1975b8a32aeeffcfb05ac60e1c80405",
+   "entries": 2,
+   "bytes": 2657
+  },
+  "riedel-bolero.json": {
+   "sha256": "3aec7e5aaee63e990196708a96d50fbf0c545761047d1f99f74a256b990433aa",
+   "entries": 1,
+   "bytes": 1405
+  },
+  "meinberg.json": {
+   "sha256": "93a6bb4073203ebd65b121f3d564ef2b2605bf94906ef6052c65d38a16d1c5e4",
+   "entries": 2,
+   "bytes": 3905
+  },
+  "brandywine.json": {
+   "sha256": "74136b32734b17973707c1a988410b3a196726d6123706e9691b6bc4478f6340",
+   "entries": 1,
+   "bytes": 2096
   }
  }
 }

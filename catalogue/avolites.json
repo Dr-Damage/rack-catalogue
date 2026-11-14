@@ -1,0 +1,61 @@
+[
+ {
+  "id": "avolites-tnp",
+  "manufacturer": "Avolites",
+  "partNumber": "30-01-1600",
+  "name": "Titan Net Processor (TNP), 3U",
+  "family": "Titan",
+  "category": "lighting",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Avolites Titan Net Processor spec sheet",
+  "productUrl": "https://www.avolites.com/app/uploads/2021/06/Titan_Net_Processor_Spec_Sheet.pdf",
+  "notes": "Rack processor that adds universes to a Titan session (up to 64 universes) or runs a show on its own. 8 isolated DMX outputs, 2 Gigabit etherCON, 50 W. 481 x 426 x 132 mm, 14.5 kg. Check: which face carries the DMX and USB.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 50,
+  "weightKg": 14.5
+ }
+]

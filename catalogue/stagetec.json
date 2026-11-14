@@ -1,0 +1,68 @@
+[
+ {
+  "id": "stagetec-nexus-base-3u",
+  "manufacturer": "Stage Tec",
+  "partNumber": "NEXUS Base Device 3U",
+  "name": "NEXUS Base Device, 3U mainframe",
+  "family": "NEXUS",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Audinate NEXUS Base Devices listing",
+  "productUrl": "https://audinate.com/products/dante-enabled/stage-tec/stage-tec-nexus-base-devices",
+  "notes": "NEXUS audio network / router mainframe on a 4 HP grid with 3U slide-in boards (analogue, AES, MADI, Dante, SDI, DSP and fibre boards). Also made in 1U, 6U, 9U, 12U and 15U. Add the board I/O as you wire it. Check: link and PSU connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "NEXUS fibre link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "stagetec-nexus-base-6u",
+  "manufacturer": "Stage Tec",
+  "partNumber": "NEXUS Base Device 6U",
+  "name": "NEXUS Base Device, 6U mainframe",
+  "family": "NEXUS",
+  "category": "audio",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Audinate NEXUS Base Devices listing",
+  "productUrl": "https://audinate.com/products/dante-enabled/stage-tec/stage-tec-nexus-base-devices",
+  "notes": "Larger NEXUS mainframe, two rows of 3U boards. Add the board I/O as you wire it. Check: link and PSU connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "NEXUS fibre link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

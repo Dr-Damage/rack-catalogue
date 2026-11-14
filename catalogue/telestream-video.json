@@ -1,0 +1,239 @@
+[
+ {
+  "id": "telestream-prism-mpp-200",
+  "manufacturer": "Telestream",
+  "partNumber": "MPP-200",
+  "name": "PRISM MPP-200 IP/SDI waveform rasterizer, 1U",
+  "family": "PRISM",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telestream PRISM product sheet (2025)",
+  "productUrl": "https://www.telestream.com/prism/",
+  "notes": "Rasterizer for post and remote work: 4 SDI in with loop-through, 2 SFP+ (25GE by licence), two DisplayPort outputs for an external display, 8-channel analogue audio out. 313 mm deep, about 3.5 kg, 160 W max. MPP-100 is SDI only; MPP-300 adds eye/jitter. Check: reference, management and audio connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10/25GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Audio Out (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 160,
+  "weightKg": 3.5
+ },
+ {
+  "id": "telestream-prism-mpd-200",
+  "manufacturer": "Telestream",
+  "partNumber": "MPD-200",
+  "name": "PRISM MPD-200 dual-screen waveform monitor, 3U",
+  "family": "PRISM",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telestream PRISM product sheet (2025)",
+  "productUrl": "https://www.telestream.com/prism/",
+  "notes": "Full-width 3U with two 9-inch touchscreens: 4 SDI in, 2 x 10/25G IP. MPS-200 is the half-rack single-screen version. Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AUX SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10/25GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wvr8300",
+  "manufacturer": "Tektronix",
+  "partNumber": "WVR8300",
+  "name": "WVR8300 3G/HD/SD waveform rasterizer, 1U",
+  "family": "WVR8000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix WVR8300 listings",
+  "productUrl": "https://www.adorama.com/tkwvr8300.html",
+  "notes": "Legacy 1RU rasterizer (now Telestream) for 3G/HD/SD-SDI with 4K quad-link support. WFM8300 is the 3U half-rack version with its own screen. Check: all counts (from memory of the Tektronix data sheet).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "XGA/DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

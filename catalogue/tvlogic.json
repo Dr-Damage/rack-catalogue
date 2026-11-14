@@ -1,0 +1,295 @@
+[
+ {
+  "id": "tvlogic-rkm-270a",
+  "manufacturer": "TVLogic",
+  "partNumber": "RKM-270A",
+  "name": "RKM-270A dual 7-inch rack monitor, 3RU",
+  "family": "RKM",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVLogic 2016 product line-up brochure",
+  "productUrl": "https://bpm-media.imgbolt.de/media/pdf/f9/a5/16/EN_TVlogic_2016_Product_LineUp_Broschure.pdf",
+  "notes": "Two 7-inch 1024 x 600 screens, each with 2 SDI in, HDMI, composite and a selected SDI out, UMD and tally. DC 12/24 V, 60 W. Check: per-screen counts and tally/LAN connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tally/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 2,
+   "sizeIn": 7,
+   "aspect": "16:10"
+  },
+  "powerW": 60
+ },
+ {
+  "id": "tvlogic-rkm-290a",
+  "manufacturer": "TVLogic",
+  "partNumber": "RKM-290A",
+  "name": "RKM-290A dual 9-inch Full HD rack monitor, 4RU",
+  "family": "RKM",
+  "category": "monitor",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVLogic 2016 product line-up brochure",
+  "productUrl": "https://bpm-media.imgbolt.de/media/pdf/f9/a5/16/EN_TVlogic_2016_Product_LineUp_Broschure.pdf",
+  "notes": "Two 9-inch 1920 x 1080 screens, each with 2 SDI in, HDMI and a selected SDI out. DC 12/24 V, 60 W. Check: tally/LAN connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tally/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 2,
+   "sizeIn": 9,
+   "aspect": "16:9"
+  },
+  "powerW": 60
+ },
+ {
+  "id": "tvlogic-rkm-443a",
+  "manufacturer": "TVLogic",
+  "partNumber": "RKM-443A",
+  "name": "RKM-443A quad 4.3-inch rack monitor, 2RU",
+  "family": "RKM",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVLogic 2016 product line-up brochure",
+  "productUrl": "https://bpm-media.imgbolt.de/media/pdf/f9/a5/16/EN_TVlogic_2016_Product_LineUp_Broschure.pdf",
+  "notes": "Four 4.3-inch 800 x 480 screens, each with SDI and composite in and SDI out. DC 12 V, 60 W.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tally/GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 4,
+   "sizeIn": 4.3,
+   "aspect": "5:3"
+  },
+  "powerW": 60
+ },
+ {
+  "id": "tvlogic-r-5t",
+  "manufacturer": "TVLogic",
+  "partNumber": "R-5T",
+  "name": "R-5T triple 5.5-inch 12G rack monitor, 2RU",
+  "family": "R series",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama TVLogic R-5T listing",
+  "productUrl": "https://www.adorama.com/tv-logic-r-5t-3x-5-inch-lcd-rack-monitor-12g-sdi/p/tvr5t",
+  "notes": "Three 5.5-inch Full HD screens, each with 12G and 3G SDI in/out and HDMI, UMD, RS-422 and Observer network control. DC 12 V, 35 W, 480 x 87.5 x 119 mm, 2.86 kg. Replaces the RKM-535A. Check: whether the I/O counts are per screen.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 3,
+   "sizeIn": 5.5,
+   "aspect": "16:9"
+  },
+  "powerW": 35,
+  "weightKg": 2.86
+ }
+]

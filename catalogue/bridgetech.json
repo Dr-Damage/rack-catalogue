@@ -1,0 +1,103 @@
+[
+ {
+  "id": "bridgetech-vb330",
+  "manufacturer": "Bridge Technologies",
+  "partNumber": "VB330",
+  "name": "VB330 10G IP probe, 1RU",
+  "family": "VB300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Bridge Technologies VB330 data sheet",
+  "productUrl": "https://bridgetech.tv/",
+  "notes": "Core/edge network probe for OTT and IPTV monitoring: 2 x 10G SFP+ inputs, Gigabit management, USB for setup. 483 x 400 mm, 150 W max chassis. Also as an embedded blade (EC chassis) and appliance. Check: PSU count and which face has the ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G Probe A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 150,
+  "weightKg": 8.2
+ },
+ {
+  "id": "bridgetech-vb440",
+  "manufacturer": "Bridge Technologies",
+  "partNumber": "VB440",
+  "name": "VB440 ST 2110 / 2022 studio probe, 1RU appliance",
+  "family": "VB400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Bridge Technologies VB440 / VB330 appliance specs",
+  "productUrl": "https://bridgetech.tv/",
+  "notes": "Real-time ST 2110 / 2022-6 / JPEG XS analytics with waveform, vectorscope and multiviewer in a browser. Dual 10/25/40/50/100G NIC, dual PSU, about 500 mm deep, 15 kg. Check: NIC cage type and count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 15
+ }
+]

@@ -1,0 +1,151 @@
+[
+ {
+  "id": "imagine-snp",
+  "manufacturer": "Imagine Communications",
+  "partNumber": "SNP-PLATFORM-4A",
+  "name": "Selenio Network Processor (SNP), 4 processors",
+  "family": "Selenio SNP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Imagine SNP data sheet",
+  "productUrl": "https://imaginecommunications.com/product/selenio-network-processor-snp/",
+  "notes": "1RU software-defined processor: 4 personalities (ST 2110 / 2022-6 gateway, up/down/cross, frame sync, multiviewer, JPEG XS) on 4 application processors (SNP-PLATFORM-2AU has 2, upgradable). 32 bidirectional HD-BNC SDI ports (8 are 12G), 2 x QSFP28 (100GbE), quad SFP+ cage for MADI, 3G coax or optical. Under 350 W, 594 mm deep, 7.5 kg. Check: which panel carries the management ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "SDI 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 24,
+    "prefix": "SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Expansion SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 350,
+  "weightKg": 7.5
+ },
+ {
+  "id": "imagine-platinum-ip3-15ru",
+  "manufacturer": "Imagine Communications",
+  "partNumber": "Platinum IP3 15RU",
+  "name": "Platinum IP3 15RU router frame, up to 288 x 512",
+  "family": "Platinum IP3",
+  "category": "router",
+  "ru": 15,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Imagine Platinum IP3 data sheet",
+  "productUrl": "https://imaginecommunications.com/insights-and-resources/platinum-ip3-router",
+  "notes": "15RU hybrid SDI/IP router frame with 32 input and 32 output card slots, up to 288 x 512 in one frame. Takes Platinum SX Pro multiviewer cards (1 to 4 slots) and IP gateway cards. Magellan control via the PX-RES resource module. 2 x 1500 W PX-PS supplies standard. I/O sits on the cards, so add the signals as you wire it. Check: rear reference, control and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control (PX-RES)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "imagine-platinum-ip3-28ru",
+  "manufacturer": "Imagine Communications",
+  "partNumber": "Platinum IP3 28RU",
+  "name": "Platinum IP3 28RU router frame, up to 576 x 1024",
+  "family": "Platinum IP3",
+  "category": "router",
+  "ru": 28,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Imagine Platinum IP3 data sheet",
+  "productUrl": "https://imaginecommunications.com/insights-and-resources/platinum-ip3-router",
+  "notes": "28RU hybrid SDI/IP router frame with 64 input and 64 output card slots, up to 576 x 1024 in one frame. Takes Platinum SX Pro multiviewer cards (1 to 4 slots) and IP gateway cards. Magellan control via the PX-RES resource module. 4 x 1500 W PX-PS supplies standard. I/O sits on the cards, so add the signals as you wire it. Check: rear reference, control and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control (PX-RES)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

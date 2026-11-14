@@ -1,0 +1,297 @@
+[
+ {
+  "id": "digico-sd-rack",
+  "manufacturer": "DiGiCo",
+  "partNumber": "SD-Rack",
+  "name": "SD-Rack stage rack, 14 I/O card slots",
+  "family": "Racks",
+  "category": "audio",
+  "ru": 10,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "DiGiCo racks brochure (2013) and 4REA4 data sheet",
+  "productUrl": "https://digico.biz/",
+  "notes": "10U stage rack with 14 eight-channel card slots (mic, line out, AES), up to 56 in and 56 out, dual MADI, optional optics, two hot-swap PSUs. 466 mm deep. Add the card I/O as you wire it.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Optocore (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "digico-sd-mini-rack",
+  "manufacturer": "DiGiCo",
+  "partNumber": "SD-MiNi Rack",
+  "name": "SD-MiNi Rack compact stage rack",
+  "family": "Racks",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "DiGiCo racks brochure (2013) and 4REA4 data sheet",
+  "productUrl": "https://digico.biz/",
+  "notes": "4U rack, up to 32 in and 32 out in banks of 8 (analogue or digital cards: AES, Dante, AES42, ADAT, HD-SDI). Dual PSUs. 408 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Optocore (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "digico-sd-nano-rack",
+  "manufacturer": "DiGiCo",
+  "partNumber": "SD-NaNo Rack",
+  "name": "SD-NaNo Rack, optical",
+  "family": "Racks",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "DiGiCo racks brochure (2013) and 4REA4 data sheet",
+  "productUrl": "https://digico.biz/",
+  "notes": "2U optical rack with half the MiNi capacity (for example 8 mic in, 8 line out, 16 AES). Dual PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Optocore"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "digico-d2-rack",
+  "manufacturer": "DiGiCo",
+  "partNumber": "D2-Rack",
+  "name": "D2-Rack stage rack, 48 in / 8 out",
+  "family": "Racks",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "DiGiCo racks brochure (2013) and 4REA4 data sheet",
+  "productUrl": "https://digico.biz/",
+  "notes": "Expandable stage box, 48 mic in and 8 outs, more outputs with modules. Cat5, BNC MADI or optical versions. Check: RU and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 48,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Cat5 (MADI)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "digico-4rea4",
+  "manufacturer": "DiGiCo",
+  "partNumber": "4REA4",
+  "name": "4REA4 centralised DSP engine, 6U",
+  "family": "Racks",
+  "category": "audio",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "DiGiCo racks brochure (2013) and 4REA4 data sheet",
+  "productUrl": "https://digico.biz/",
+  "notes": "6U engine: 128 inputs into a 128 x 56 matrix, 4 DMI slots (MADI, Dante, Optocore, Waves, AES, mic, AVIOM), 3 SD-Rack card slots, 4 A3232 remote I/O ports, dual ASTAR. 380 mm deep, 20.2 kg, dual IEC PSUs (90 W each).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "A3232 I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "ASTAR Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "DMI slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "SD-Rack card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "GPI/GPO"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 180,
+  "weightKg": 20.2
+ }
+]

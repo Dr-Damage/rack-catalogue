@@ -1,0 +1,91 @@
+[
+ {
+  "id": "ikegami-bsx-100",
+  "manufacturer": "Ikegami",
+  "partNumber": "BSX-100",
+  "name": "BSX-100 3G fibre base station, 3U half rack",
+  "family": "BSX",
+  "category": "converter",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": false,
+  "source": "SVG: Ikegami develops BSX-100",
+  "productUrl": "https://www.sportsvideo.org/2020/06/15/ikegami-develops-bsx-100-3g-fiber-base-station/",
+  "notes": "Half-rack 3U base station for HDK-99 and HDK-73 cameras over SMPTE hybrid fibre. Talkback on the front. Check: power inlet and intercom / remote connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "HD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Comms multi-pin"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

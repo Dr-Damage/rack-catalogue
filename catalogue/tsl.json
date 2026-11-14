@@ -1,0 +1,360 @@
+[
+ {
+  "id": "tsl-pam2-12g",
+  "manufacturer": "TSL Products",
+  "partNumber": "PAM2-12G",
+  "name": "PAM2-12G precision audio monitor, 12G-SDI, 2RU",
+  "family": "PAM",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TSL PAM2-12G data sheet",
+  "productUrl": "https://tslproducts.com/product/pam2-12g/",
+  "notes": "Audio monitor with screen and speakers for 12G/3G SDI, AES, analogue, Dante and ST 2110 / 2022-6 (2 x 10G SFP, Embrionix). 4 AES in/out, 2 stereo analogue in, 8 analogue out. External PSU, optional redundant. 4.9 kg. 335 mm deep. Check: AES and analogue connector types (shown as D-sub), GPI and USB connectors. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "ST 2110 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "PSU A/B"
+   }
+  ]
+ },
+ {
+  "id": "tsl-pam1-ip-3g",
+  "manufacturer": "TSL Products",
+  "partNumber": "PAM1-IP-3G",
+  "name": "PAM1-IP-3G precision audio monitor, IP and 3G-SDI, 1RU",
+  "family": "PAM",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TSL PAM IP range data sheet",
+  "productUrl": "https://tslproducts.com/products/audio-monitoring/pam-range",
+  "notes": "Audio monitor for ST 2110 / 2022-6 (2 x 10G SFP), Dante/AES67, 3G-SDI, AES and analogue. Options: Dolby decode, Dante. External PSU, optional redundant (PSU-PAMIP-11A). 250 mm deep. Check: AES and analogue connector types (shown as D-sub), GPI and USB connectors. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "ST 2110 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "PSU A/B"
+   }
+  ]
+ },
+ {
+  "id": "tsl-pam2-ip-3g",
+  "manufacturer": "TSL Products",
+  "partNumber": "PAM2-IP-3G",
+  "name": "PAM2-IP-3G precision audio monitor, IP and 3G-SDI, 2RU",
+  "family": "PAM",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TSL PAM IP range data sheet",
+  "productUrl": "https://tslproducts.com/products/audio-monitoring/pam-range",
+  "notes": "Audio monitor for ST 2110 / 2022-6 (2 x 10G SFP), Dante/AES67, 3G-SDI, AES and analogue. Options: Dolby decode, Dante. External PSU, optional redundant (PSU-PAMIP-11A). 250 mm deep. Check: AES and analogue connector types (shown as D-sub), GPI and USB connectors. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analogue Out 1-8"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "ST 2110 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "PSU A/B"
+   }
+  ]
+ },
+ {
+  "id": "tsl-tm1-tally",
+  "manufacturer": "TSL Products",
+  "partNumber": "TM1-TALLY",
+  "name": "TallyMan TM1-TALLY tally controller, 64 GPIO",
+  "family": "TallyMan",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TSL TM1-Tally data sheet",
+  "productUrl": "https://www.tslproducts.com/products/tsl-control/tallyman-control-system/system-controllers/tm1-tally",
+  "notes": "TallyMan system controller for tally: 64 configurable GPIO, 4 RS-422, dual Gigabit Ethernet, single PSU, 60 W max. 483 x 233 mm, 2.15 kg. TM1-Mk3+ is the full controller (unlimited devices, dual hot-swap PSU). Check: GPIO connector type and count (shown as 2 x DB37).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB37",
+    "count": 2,
+    "prefix": "GPIO 1-64"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 4,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 60,
+  "weightKg": 2.15
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "harmonic-spectrum-x-1ru",
+  "manufacturer": "Harmonic",
+  "partNumber": "Spectrum X 1RU",
+  "name": "Spectrum X media server / playout, 1RU",
+  "family": "Spectrum X",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Harmonic Spectrum X data sheet",
+  "productUrl": "https://www.harmonicinc.com/video-streaming/media-servers-storage/spectrum-x/",
+  "notes": "Integrated playout server with storage (4 drives), up to 8 HD or 2 UHD channels with simulcast outputs, analogue black or PTP reference. 77.3 cm deep, 550 W typical / 800 W max, dual hot-swap PSUs. Spectrum X Plus (2026) doubles channel density. Check: SDI connector counts and the multi-pin connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "LTC / RS-422 / AES / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Control / file"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GE NDI / MediaGrid (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 800
+ },
+ {
+  "id": "harmonic-spectrum-x-2ru",
+  "manufacturer": "Harmonic",
+  "partNumber": "Spectrum X 2RU",
+  "name": "Spectrum X media server / playout, 2RU",
+  "family": "Spectrum X",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Harmonic Spectrum X data sheet",
+  "productUrl": "https://www.harmonicinc.com/video-streaming/media-servers-storage/spectrum-x/",
+  "notes": "Integrated playout server with storage (8 drives), up to 8 HD or 2 UHD channels with simulcast outputs, analogue black or PTP reference. 73.0 cm deep, 725 W typical / 950 W max, dual hot-swap PSUs. Spectrum X Plus (2026) doubles channel density. Check: SDI connector counts and the multi-pin connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "LTC / RS-422 / AES / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Control / file"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GE NDI / MediaGrid (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "25GE ST 2110 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 950
+ }
+]

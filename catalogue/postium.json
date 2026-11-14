@@ -1,0 +1,82 @@
+[
+ {
+  "id": "postium-prm-434",
+  "manufacturer": "Postium",
+  "partNumber": "PRM-434",
+  "name": "PRM-434 quad 4.3-inch rack monitor, 2RU",
+  "family": "PRM",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Postium PRM-434 listing",
+  "productUrl": "https://www.markertek.com/product/post-prm-434/postium-prm-434-4-3-in-multi-format-quad-lcd-rack-monitor-with-3g-sdi",
+  "notes": "Four 4.3-inch 800 x 480 screens, each with 3G-SDI and composite in and SDI out, three-colour tally, GPI per screen. DC 12 V, 32 W, 480 x 86.5 x 50 mm, 1.94 kg. Check: whether the I/O is per screen.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RS-422 In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 4,
+   "sizeIn": 4.3,
+   "aspect": "5:3"
+  },
+  "powerW": 32,
+  "weightKg": 1.94
+ }
+]

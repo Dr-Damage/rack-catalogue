@@ -1,0 +1,84 @@
+[
+ {
+  "id": "chamsys-genetix-gn10",
+  "manufacturer": "ChamSys",
+  "partNumber": "GeNetix GN10",
+  "name": "GeNetix GN10 10-port Ethernet-DMX node, 1U",
+  "family": "GeNetix",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ChamSys GeNetix Node 10 cutsheet",
+  "productUrl": "https://soundpro.com/content/product-documents/GeNetixNode10Cutsheet.pdf",
+  "notes": "Art-Net / sACN / ChamNet node with 10 RDM DMX ports (input or output), 2 network ports (PoE on port 1), LTC and MIDI, 10 stored scenes. 480 x 218 x 44 mm, 2.75 kg. Check: which face carries the DMX, LTC and MIDI connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 10,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "weightKg": 2.75
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "etc-ion-rpu",
+  "manufacturer": "ETC",
+  "partNumber": "4310L1007",
+  "name": "Ion Remote Processor Unit (RPU), 2U",
+  "family": "Eos family",
+  "category": "lighting",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "ETC Ion RPU data sheet (rev H)",
+  "productUrl": "https://media.musson.com/mti/docs/4/3/4310l1007_ion_rpu_datasheet_revh.pdf",
+  "notes": "Rack-mount Eos-family processor (primary, backup or tracking for Eos, Gio and Ion consoles). Two DMX/RDM universes on the unit, the rest over sACN/Net3 gateways. 403 mm deep, 10.27 kg. Ion Xe RPU and Eos RPU3 are the current versions in the same idea. Check: USB count and which face has them.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 10.27
+ },
+ {
+  "id": "etc-rsn-dmx8-xlr",
+  "manufacturer": "ETC",
+  "partNumber": "Response Mk2 8-Port",
+  "name": "Response Mk2 8-port DMX/RDM gateway, XLR, 1U",
+  "family": "Response Mk2",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ETC news: Response Mk2 8-port gateways",
+  "productUrl": "https://www.etcconnect.com/about/news/etc-adds-response-mk2-8-port-dmx-gateways.aspx",
+  "notes": "Full-width sACN / Art-Net to DMX gateway with 8 XLR ports, each input or output. A half-width version with 8 terminal ports fits two per 1U with the rack kit. Check: connector placement, PoE and mains inlet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Network (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "etc-rsn-dmx4-o",
+  "manufacturer": "ETC",
+  "partNumber": "RSN-DMX4-O",
+  "name": "Response Mk2 4-port DMX/RDM output gateway, half rack",
+  "family": "Response Mk2",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ETC Response Mk2 data sheet",
+  "productUrl": "https://www.etcconnect.com/products/networking/response-mk2/features.aspx",
+  "notes": "Half-width 1U sACN to DMX gateway with 4 output ports, PoE powered. RSN-DMX4-I is the input version; two fit in 1U with the rack kit. Check: connector placement.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 4,
+    "prefix": "DMX/RDM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Network (PoE)"
+   }
+  ]
+ }
+]

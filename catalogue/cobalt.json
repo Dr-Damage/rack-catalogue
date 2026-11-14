@@ -1,0 +1,989 @@
+[
+ {
+  "id": "cobalt-9905-mpx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9905-MPx",
+  "name": "9905-MPx 3G/HD/SD quad-path up/down/cross converter, frame sync",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "openGear.tv / Cobalt 9905-MPx page",
+  "productUrl": "https://opengear.tv/card/9905-mpx/",
+  "notes": "Four independent up/down/cross, frame sync and audio embed/de-embed paths with AES and MADI routing. INDIGO 2110-DC-01 daughtercard adds dual 25G ST 2110. Rear modules C, H and J also exist.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9905-D-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 5,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false,
+    "notes": "Occupies the adjacent odd slot; not in slots 19/20."
+   },
+   {
+    "partNumber": "RM20-9905-G-HDBNC",
+    "name": "Standard width with SFP",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 3,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9905-B-HDBNC",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 5,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   },
+   {
+    "partNumber": "RM20-9905-F-HDBNC",
+    "name": "Double width, full I/O",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 5,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "MADI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9970-qs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9970-QS",
+  "name": "9970-QS quint-split multiviewer (5 x 3G/HD/SD/CVBS in)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek 9970-QS listing",
+  "productUrl": "https://www.markertek.com/product/cb-9970-qs/cobalt-digital-9970-qs-3g-hd-sd-sdi-cvbs-quint-split-multi-image-display-processor-opengear-card",
+  "notes": "Five auto-detecting SDI or composite inputs, 2 SDI and 1 HDMI multiviewer outputs, 16-channel embedded audio meters, tally by GPI, Ethernet or serial. Under 18 W. 9970-QS-MC is the multicast version. Check: rear module connectors and width.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9970-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 5,
+      "prefix": "SDI/CVBS In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "MV Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPI/Tally"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ],
+  "powerW": 18
+ },
+ {
+  "id": "cobalt-9971-mv18-4k",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9971-MV18-4K",
+  "name": "9971-MV18-4K 18-input 4K multiviewer",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "18 SDI inputs, 4 SDI outputs (UHD or quad HD). Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9971-B",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 18,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "MV Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9971-mv6-4k",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9971-MV6-4K",
+  "name": "9971-MV6-4K 6-input 4K multiviewer",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "6 SDI inputs, 4 SDI outputs. -4H version adds HDMI 2.0 out. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9971-A",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "MV Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9915da-4x16-xpt-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9915DA-4X16-XPT-12G",
+  "name": "9915DA-4x16-XPT-12G quad 12G reclocking DA with crosspoint",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Four inputs to 16 outputs through a x4 output crosspoint. Optional fibre I/O. 2x16 and 1x16 versions also made. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9915DA-A",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 16,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9942-rtr-12x12-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9942-RTR-12X12-12G",
+  "name": "9942-RTR-12X12-12G WAVE 12 x 12 12G router card",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Passes 12G/3G/HD/SD-SDI, ASI and MADI. 24 x 24 version also made. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9942-B",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 12,
+      "prefix": "Router In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 12,
+      "prefix": "Router Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-og-2110-bidi4-gateway",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "OG-2110-BIDI4-GATEWAY",
+  "name": "INDIGO OG-2110-BIDI4-GATEWAY 4-channel ST 2110 / SDI gateway",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Bidirectional, four channels, dual 25G (ST 2022-7). Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-OG-A",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-og-aud4-dante",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "OG-AUD4-DANTE",
+  "name": "ARIA OG-AUD4-DANTE 4-channel audio embedder/de-embedder with Dante",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Four SDI paths with frame sync, Dante, AES and MADI. OG-AUD2-DANTE has two. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-OG-B",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "MADI audio",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "MADI"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9926-4htos",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9926-4HtoS",
+  "name": "SAPPHIRE 9926-4HtoS quad HDMI to 3G-SDI converter",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Four channels with frame sync. 9926-2HtoS is the dual 12G version. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9926-B",
+    "name": "Double width",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 1,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9992-enc",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9992-ENC",
+  "name": "PACIFIC 9992-ENC HEVC/AVC broadcast encoder",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "Up to 4Kp60 or four HD channels, HEVC/AVC/MPEG-2, IP and ASI outputs. 9992-DEC is the matching decoder. Check: rear module part number and connector counts (from the product brief).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9992-A",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "ASI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "TS over IP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": false
+   }
+  ]
+ },
+ {
+  "id": "cobalt-wave-rtr-32x32",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "WAVE RTR-32x32",
+  "name": "WAVE RTR-32x32 12G-SDI router",
+  "family": "WAVE",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "32 x 32 12G/3G/HD/SD-SDI router, 4U. WAVE CP-84L / CP-42L / CP-78 / CP-44 control panels over Ethernet (PoE++). Check: connector type (BNC or HD-BNC), reference and power supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-wave-rtr-64x64",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "WAVE RTR-64x64",
+  "name": "WAVE RTR-64x64 12G-SDI router",
+  "family": "WAVE",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital 2024 product brief",
+  "productUrl": "https://www.cobaltdigital.com/",
+  "notes": "64 x 64 12G/3G/HD/SD-SDI router, 4U. WAVE CP-84L / CP-42L / CP-78 / CP-44 control panels over Ethernet (PoE++). Check: connector type (BNC or HD-BNC), reference and power supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 64,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

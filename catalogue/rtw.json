@@ -1,0 +1,75 @@
+[
+ {
+  "id": "rtw-tm7-rack",
+  "manufacturer": "RTW",
+  "partNumber": "TM7-Rack",
+  "name": "TouchMonitor TM7-Rack 7-inch loudness meter, 3U half rack",
+  "family": "TouchMonitor",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTW TM7-Rack listing (Vintage King)",
+  "productUrl": "https://vintageking.com/products/rtw-7-rack-touchmonitor-for-tv-broadcast-and-post-production",
+  "notes": "Half-19-inch 3U (42 HP) panel with a 7-inch touchscreen loudness and level meter. 8-channel AES on D-sub 25, optional 3G-SDI, analogue options. External 12-24 V PSU (Binder 710). TM9 has a separate 4U rack kit (TM9-MA4U). Check: GPIO connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES 8 ch"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-24V DC"
+   }
+  ]
+ }
+]

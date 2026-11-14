@@ -1,0 +1,190 @@
+[
+ {
+  "id": "apantac-mi-16-uhd",
+  "manufacturer": "Apantac",
+  "partNumber": "Mi-16-UHD",
+  "name": "Mi-16-UHD 16-input UHD multiviewer",
+  "family": "Mi series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Apantac Mi-16-UHD data sheet",
+  "productUrl": "https://www.apantac.com/",
+  "notes": "1RU, 16 auto-detect 3G/HD/SD-SDI inputs, UHD HDMI 2.0 and 12G-SDI multiviewer outputs, 16 embedded audio channels per input, audio breakout, TSL / AXP tally, GPI through 4 RJ50-to-DB9 cables. 55 W, 452 mm deep. Optional redundant PSU. Check: HDMI output count (data sheet says 2 in the table and 1 + 1 in the features) and GPI count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "GPI (RJ50)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "powerW": 55
+ },
+ {
+  "id": "apantac-tahoma-le-4",
+  "manufacturer": "Apantac",
+  "partNumber": "TAHOMA-LE-4",
+  "name": "TAHOMA-LE-4 4-input multiviewer, half rack",
+  "family": "Tahoma LE",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Apantac TAHOMA-LE-4 data sheet (Thameside)",
+  "productUrl": "https://www.thameside.tv/documents/Tahoma-LE4-Datasheet.pdf",
+  "notes": "Half-width 1RU quad-split: 4 auto-detect HD/SD-SDI or composite inputs, 1 DVI/HDMI output, optional SDI output, 16 embedded and optional discrete audio per input, 16 GPI. 25 W, 215 x 370 mm. Check: GPI connector count and DC inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI/CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI/HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "powerW": 25
+ }
+]

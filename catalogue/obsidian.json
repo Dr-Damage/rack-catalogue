@@ -1,0 +1,102 @@
+[
+ {
+  "id": "obsidian-netron-en12",
+  "manufacturer": "Obsidian Control Systems",
+  "partNumber": "NETRON EN12",
+  "name": "NETRON EN12 12-port Ethernet-DMX gateway, 1U",
+  "family": "NETRON",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Obsidian NETRON EN12 data sheet",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0290/4132/8221/files/obsidian-netron-en12.pdf",
+  "notes": "Art-Net / sACN gateway with 12 isolated bidirectional DMX/RDM ports on the front, 2 locking RJ45 (PoE 802.3af on one), 10 contact closures. 482.5 x 146 x 44 mm, 1.82 kg. EN12i is the install version with terminals. Check: power connector type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 12,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network (PoE on 1)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Contact closures (10)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains Thru"
+   }
+  ],
+  "weightKg": 1.82
+ },
+ {
+  "id": "elation-dmx10-5",
+  "manufacturer": "Elation Professional",
+  "partNumber": "DMX10-5",
+  "name": "DMX10-5 10-port DMX splitter, 1U",
+  "family": "DMX splitters",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama Elation DMX10-5 listing",
+  "productUrl": "https://www.adorama.com/elation-dmx10-5-rackmount-10-port-5-pin-xlr-dmx-splitter/p/eldmx105",
+  "notes": "Opto-isolated splitter: 2 inputs, 10 outputs each switched to input A or B. Not RDM. 482 x 155 x 44 mm, 1.5 kg. Obsidian RDM10 is the RDM version. Check: power connector type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "DMX",
+    "connector": "XLR5M",
+    "count": 2,
+    "prefix": "DMX In A/B"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 10,
+    "prefix": "DMX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "weightKg": 1.5
+ }
+]

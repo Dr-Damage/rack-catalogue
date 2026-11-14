@@ -1,0 +1,59 @@
+[
+ {
+  "id": "riedel-nsa-002a",
+  "manufacturer": "Riedel",
+  "partNumber": "NSA-002A",
+  "name": "NSA-002A network stream adapter (Bolero / AES67), half rack 1U",
+  "family": "Bolero",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Riedel Bolero product page",
+  "productUrl": "https://www.riedel.net/en/products-solutions/intercom/bolero-wireless-intercom-1",
+  "notes": "Half-rack 1U AES67 throwdown box: 6 analogue 4-wire ports and 3 GPI / 3 GPO for Bolero Standalone Link and Standalone 2110. RMK-001 rack kit holds one or two. Antennas sit on the network and are not rack gear. Check: 4-wire, GPIO and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "4-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPI 1-3"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPO 1-3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES67 Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

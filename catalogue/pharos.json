@@ -1,0 +1,61 @@
+[
+ {
+  "id": "pharos-lpc-x",
+  "manufacturer": "Pharos Architectural Controls",
+  "partNumber": "LPC X",
+  "name": "LPC X lighting playback controller, 1U",
+  "family": "LPC",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Pharos LPC X data sheet (Acclaim)",
+  "productUrl": "https://www.acclaimlighting.com/cdn/shop/files/Pharos_20LPC_20X.pdf",
+  "notes": "Architectural / show playback controller outputting sACN, Art-Net, KiNET and Pathport to eDMX nodes (no DMX ports on the unit). Sold by channel count (LPC 10 to LPC 100). Contact closures, MIDI and RS-485 through RIO accessories. 40 W typical, 13.5 in deep, 3.1 kg. Optional DVI-D input.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network / eDMX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 50,
+  "weightKg": 3.1
+ }
+]

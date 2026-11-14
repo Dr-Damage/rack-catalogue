@@ -1,0 +1,53 @@
+[
+ {
+  "id": "swisson-xnd-8r5",
+  "manufacturer": "Swisson",
+  "partNumber": "XND-8R5",
+  "name": "XND-8R5 8-port Ethernet-DMX node, 19-inch, 5-pin",
+  "family": "XND",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Swisson XND-8R5 listing (Procom)",
+  "productUrl": "https://www.procom-me.com/products/swisson-xnd-8r5-8-port-ethernet-dmx-node-19-5pin-xlr",
+  "notes": "Art-Net / sACN node with up to 8 isolated DMX ports (each in or out), powerCON in and thru, 11 W. 483 x 136 x 44.5 mm, 1.8 kg. XND-8R3 (3-pin) and XND-8R8 (RJ45) versions. Check: connector placement and network connector.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains Thru"
+   }
+  ],
+  "powerW": 11,
+  "weightKg": 1.8
+ }
+]

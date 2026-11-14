@@ -1,0 +1,43 @@
+[
+ {
+  "id": "pathway-pathport-octo-xlr-rear",
+  "manufacturer": "Pathway Connectivity",
+  "partNumber": "6421",
+  "name": "Pathport OCTO 8-port DMX/RDM gateway, rear XLR, 1U",
+  "family": "Pathport",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Pathway Pathport OCTO data sheet",
+  "productUrl": "https://pathwayconnect.com/index.php/products/pathport-dmx-ethernet-nodes/59-octo-6421-6422-6423-6426-6427",
+  "notes": "Rack-mount sACN / Art-Net / Pathport gateway with 8 DMX ports (each in or out), front LCD and encoder, wide-range mains. Versions: front XLR, rear terminals, RJ45 (etherCON) DMX, and PoE. Check: network connector and part number of the rack version.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

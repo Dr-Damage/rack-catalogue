@@ -1,0 +1,173 @@
+[
+ {
+  "id": "meinberg-lantime-m1000",
+  "manufacturer": "Meinberg",
+  "partNumber": "LANTIME M1000",
+  "name": "LANTIME M1000 modular time server / PTP grandmaster, 1U",
+  "family": "IMS LANTIME",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Meinberg LANTIME M1000 short info",
+  "productUrl": "https://www.meinbergglobal.com/download/docs/shortinfo/english/info_ims-lantime-m1000.pdf",
+  "notes": "IMS modular chassis: up to 2 reference clocks (GPS/GNSS, PZF), 2 hot-swap PSUs (AC/DC mixable, 50 W each), CPU, and 4 I/O slots (PTP / NTP, pulse, frequency and time-code outputs, up to 4 PTP modules, up to 16 extra ports with LNE). 483 x 290 mm. Shown with a typical PTP fit-out. Check: modules fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt / NTP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Network SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "PTP (IMS-IO)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "10 MHz / PPS"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "PSU A/B"
+   }
+  ],
+  "powerW": 100
+ },
+ {
+  "id": "meinberg-lantime-m3000-broadcast",
+  "manufacturer": "Meinberg",
+  "partNumber": "LANTIME M3000 (broadcast)",
+  "name": "LANTIME M3000 broadcast sync platform, 3U",
+  "family": "IMS LANTIME",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Meinberg M3000 broadcast configuration sheet",
+  "productUrl": "https://www.meinbergglobal.com/download/docs/other/M3000-Broadcast.pdf",
+  "notes": "3U IMS chassis in the broadcast build: redundant GNSS receivers and PSUs, HPS-100 PTP/NTP (ST 2059-2), VSG video sync module (8 black burst / tri-level), SCG-U studio clock (word clock), LNO 10 MHz. 483 x 132 x 270 mm. Check: modules fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GPS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS L1 Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "Video Sync (BB/Tri)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "DARS"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Word Clock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "10 MHz"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "PTP / SyncE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "LNE GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Time string"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Power A/B (5-pin DFK)"
+   }
+  ]
+ }
+]

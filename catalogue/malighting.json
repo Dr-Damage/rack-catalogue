@@ -1,0 +1,205 @@
+[
+ {
+  "id": "ma-grandma3-pu-m",
+  "manufacturer": "MA Lighting",
+  "partNumber": "grandMA3 processing unit M",
+  "name": "grandMA3 processing unit M",
+  "family": "grandMA3",
+  "category": "lighting",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "grandMA3 user manual: processing unit technical data",
+  "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
+  "notes": "Network processing unit adding 4,096 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "powerW": 200,
+  "weightKg": 5.0
+ },
+ {
+  "id": "ma-grandma3-pu-l",
+  "manufacturer": "MA Lighting",
+  "partNumber": "grandMA3 processing unit L",
+  "name": "grandMA3 processing unit L",
+  "family": "grandMA3",
+  "category": "lighting",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "grandMA3 user manual: processing unit technical data",
+  "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
+  "notes": "Network processing unit adding 8,192 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "powerW": 200,
+  "weightKg": 5.0
+ },
+ {
+  "id": "ma-grandma3-pu-xl",
+  "manufacturer": "MA Lighting",
+  "partNumber": "grandMA3 processing unit XL",
+  "name": "grandMA3 processing unit XL",
+  "family": "grandMA3",
+  "category": "lighting",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "grandMA3 user manual: processing unit technical data",
+  "productUrl": "https://help.malighting.com/grandMA3/2.3/HTML/key_pu_technical_data.html",
+  "notes": "Network processing unit adding 16,384 parameters to a grandMA3 session. 8 DMX outputs, 2 etherCON, 200 VA max. 482 x 372 x 87 mm, 5 kg. M, L and XL share the same panels.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "powerW": 200,
+  "weightKg": 5.0
+ },
+ {
+  "id": "ma-grandma3-8port-node",
+  "manufacturer": "MA Lighting",
+  "partNumber": "grandMA3 8Port Node",
+  "name": "grandMA3 8Port Node, 1U",
+  "family": "grandMA3 nodes",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "grandMA3 user manual: xPort nodes technical data",
+  "productUrl": "https://help.malighting.com/grandMA3/2.2/HTML/key_xport_nodes_technical_data.html",
+  "notes": "19-inch node with 8 DMX ports, each output or input, 3.9-inch colour display, PoE or mains, 15 VA. 482 x 189 x 43 mm, 2 kg. The onPC 8Port Node adds 4,096 parameters for grandMA3 onPC. Check: DMX ports front or rear.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 8,
+    "prefix": "DMX"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Network (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "weightKg": 2.0
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "id": "hitachi-cu-hd1300",
+  "manufacturer": "Hitachi Kokusai",
+  "partNumber": "CU-HD1300",
+  "name": "CU-HD1300 4K/HD camera control unit",
+  "family": "CU-HD1300",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Hitachi Kokusai CU-HD1300 product information",
+  "productUrl": "https://www.hitachi-kokusai.co.jp/global/en/products/broadcast/",
+  "notes": "CCU for SK-UHD and SK-HD cameras with 12G-SDI UHD outputs. CU-HD1300F-S1 is a fibre-adapter version. Check: rack size and all connector counts (from memory).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RCP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

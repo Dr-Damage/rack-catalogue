@@ -1,0 +1,289 @@
+[
+ {
+  "id": "calrec-impulse1",
+  "manufacturer": "Calrec",
+  "partNumber": "ImPulse1",
+  "name": "ImPulse1 IP audio processing core, 1U",
+  "family": "ImPulse",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "Compact ST 2110-30 / AES67 core with two cores inside for redundancy and dual AC PSUs, up to 432 processing paths. Drives Argo surfaces. Check: SFP and control port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "ST 2110 / AES67 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-impulse-5u",
+  "manufacturer": "Calrec",
+  "partNumber": "ImPulse",
+  "name": "ImPulse IP audio processing core, 5U",
+  "family": "ImPulse",
+  "category": "audio",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "Modular ST 2110 / AES67 processing core for Argo and Apollo/Artemis surfaces, redundant DSP, router and PSU modules. Can bridge to Hydra2 I/O. Check: rear port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "ST 2110 / AES67 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-hydra2-core-4u",
+  "manufacturer": "Calrec",
+  "partNumber": "Hydra2 4U core",
+  "name": "Hydra2 4U processing and routing core",
+  "family": "Hydra2",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "Primary and secondary router cards (SFP ports, copper or fibre, for Hydra2 I/O boxes and other cores), primary and secondary control processors (2 SFP each for the surface), two PSUs. Check: SFP counts per router card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 16,
+    "prefix": "Hydra2 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Surface SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Router control (SW-P-08/Ember)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-hydra2-core-8u",
+  "manufacturer": "Calrec",
+  "partNumber": "Hydra2 8U core",
+  "name": "Hydra2 8U processing and routing core",
+  "family": "Hydra2",
+  "category": "audio",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "Primary and secondary router cards (SFP ports, copper or fibre, for Hydra2 I/O boxes and other cores), primary and secondary control processors (2 SFP each for the surface), two PSUs. Takes two router expander modules for more Hydra2 ports. Check: SFP counts per router card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 32,
+    "prefix": "Hydra2 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Surface SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Router control (SW-P-08/Ember)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-modular-io-apex-m6",
+  "manufacturer": "Calrec",
+  "partNumber": "Apex M6",
+  "name": "Hydra2 modular I/O frame, 1U, 6 card slots",
+  "family": "Hydra2 I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "1U modular I/O box with 6 I/O card slots (mic/line, AES, MADI, SDI, Dante, GPIO cards). Two Hydra2 SFP ports (primary and secondary). Add the I/O of the cards fitted as you wire it. Check: PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-modular-io-3u",
+  "manufacturer": "Calrec",
+  "partNumber": "Hydra2 modular I/O 3U",
+  "name": "Hydra2 modular I/O frame, 3U, 20 card slots",
+  "family": "Hydra2 I/O",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "3U modular I/O box with 20 I/O card slots. Two Hydra2 SFP ports, redundant PSUs. Add the I/O of the cards fitted as you wire it.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-h2-ip-gateway",
+  "manufacturer": "Calrec",
+  "partNumber": "H2-IP",
+  "name": "Hydra2 H2-IP gateway, ST 2110 / AES67",
+  "family": "Hydra2 I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec Hydra2 and ImPulse pages",
+  "productUrl": "https://calrec.com/hydra2/",
+  "notes": "Interface between a Hydra2 network and an ST 2110 / AES67 network. Check: RU and ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ST 2110 / AES67"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

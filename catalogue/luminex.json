@@ -1,0 +1,112 @@
+[
+ {
+  "id": "luminex-luminode-12",
+  "manufacturer": "Luminex",
+  "partNumber": "LU0100072",
+  "name": "LumiNode 12 Ethernet-DMX processor, 12 ports, 1U",
+  "family": "LumiNode",
+  "category": "lighting",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Luminex LumiNode 12 product page",
+  "productUrl": "https://www.luminex.be/products/luminode/luminode-12/",
+  "notes": "Art-Net / sACN / RTTrPL node and processor with 16 processing engines and 12 isolated 5-pin DMX ports (each in or out), 2 Gigabit etherCON, mains or PoE (802.3af) with power redundancy. 13 W, 482 x 150 x 44 mm, 1.96 kg. LumiNode 12 RJ45 is a half-rack version with RJ45 DMX. Check: which face has the DMX ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "DMX",
+    "connector": "XLR5F",
+    "count": 12,
+    "prefix": "DMX/RDM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains Thru"
+   }
+  ],
+  "powerW": 13,
+  "weightKg": 1.96
+ },
+ {
+  "id": "luminex-gigacore-16t",
+  "manufacturer": "Luminex",
+  "partNumber": "GigaCore 16t",
+  "name": "GigaCore 16t AV network switch, 1U",
+  "family": "GigaCore",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Luminex GigaCore 16t product page",
+  "productUrl": "https://www.luminex.be/products/gigacore/gigacore-16t/",
+  "notes": "Gigabit switch preconfigured for lighting, audio and video networks (Art-Net, sACN, Dante, AES67), 8 etherCON (4 front, 4 rear) and 8 rear RJ45, PoE++ on all ports in the PoE model, RPSU 5580 redundant supply option. 30 W (510 W PoE model), 482 x 204 mm, 4 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "etherCON"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 4,
+    "prefix": "etherCON"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RJ45"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 1,
+    "prefix": "Mains Thru"
+   }
+  ],
+  "powerW": 30,
+  "weightKg": 4.0
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "id": "dhd-xc3",
+  "manufacturer": "DHD.audio",
+  "partNumber": "52-7520",
+  "name": "XC3 IP audio core",
+  "family": "XC3",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DHD XC3 / XD3 flyer",
+  "productUrl": "https://dhd.audio/systems/xc3/",
+  "notes": "Mixing core for radio and TV desks up to 48 faders, 72 stereo busses. 12 APC slots for I/O and control modules, 4 GA/MADI SFP slots, one IPx slot (Dante 64/512 ch or AES67 64/128 ch), redundant 48 V inputs, word clock / AES11 / video sync. Check: rack height and connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES67 / Dante (IPx)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "GA / MADI SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 12,
+    "prefix": "APC slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video Sync"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "48V DC A/B"
+   }
+  ]
+ },
+ {
+  "id": "dhd-xd3",
+  "manufacturer": "DHD.audio",
+  "partNumber": "52-7550",
+  "name": "XD3 high-capacity IP audio core",
+  "family": "XD3",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DHD XC3 / XD3 flyer",
+  "productUrl": "https://dhd.audio/systems/xd3/",
+  "notes": "High-capacity core: up to 96 stereo faders, 126 busses, up to 24 Gigabit audio ports with the 52-7540 IP router, two IPx slots, up to 5 DSPs. 52-7554 is the quad-core version. Check: rack height and connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES67 / Dante (IPx)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "GA / MADI SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "APC slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video Sync"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "48V DC A/B"
+   }
+  ]
+ }
+]

@@ -1,0 +1,246 @@
+[
+ {
+  "id": "ssl-sb-32-24",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SB 32.24",
+  "name": "SB 32.24 Dante stagebox, 32 mic in / 16 line out + 8 AES",
+  "family": "Network I/O",
+  "category": "audio",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "SSL Network I/O stageboxes page",
+  "productUrl": "https://www.solidstatelogic.com/products/stageboxes-broadcast",
+  "notes": "5U Dante/AES67 stagebox with remote-controlled mic pres, 16 analogue outs and 4 AES3 pairs, redundant Dante, one user SFP (RJ45 or fibre), dual PSUs. Check: connector placement (front or rear) and AES/GPIO connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 32,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "AES I/O pair"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Network SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ssl-sb-16-12",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SB 16.12",
+  "name": "SB 16.12 Dante stagebox, 16 mic in / 8 line out + 4 AES",
+  "family": "Network I/O",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "SSL Network I/O stageboxes page",
+  "productUrl": "https://www.solidstatelogic.com/products/stageboxes-broadcast",
+  "notes": "3U Dante/AES67 stagebox, redundant Dante, one user SFP, dual PSUs. Check: connector placement and AES connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "AES I/O pair"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Network SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ssl-sb-8-8",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SB 8.8",
+  "name": "SB 8.8 Dante stagebox, 8 mic in / 8 line out",
+  "family": "Network I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "SSL Network I/O stageboxes page",
+  "productUrl": "https://www.solidstatelogic.com/products/stageboxes-broadcast",
+  "notes": "2U Dante/AES67 stagebox with redundant Dante and PSUs, GPIO. SB i16 is the 16-input version. Check: GPIO connector.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ssl-sb-i16",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SB i16",
+  "name": "SB i16 Dante stagebox, 16 mic in",
+  "family": "Network I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "SSL Network I/O stageboxes page",
+  "productUrl": "https://www.solidstatelogic.com/products/stageboxes-broadcast",
+  "notes": "2U Dante/AES67 16-input stagebox, redundant Dante and PSUs, GPIO. Check: GPIO connector.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 16,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

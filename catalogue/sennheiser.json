@@ -1,0 +1,182 @@
+[
+ {
+  "id": "sennheiser-ew-dx-em-4-dante",
+  "manufacturer": "Sennheiser",
+  "partNumber": "EW-DX EM 4 DANTE",
+  "name": "EW-DX EM 4 Dante four-channel digital rack receiver",
+  "family": "EW-DX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sennheiser EW-DX EM 4 Dante specifications",
+  "productUrl": "https://docs.cloud.sennheiser.com/en-us/ew-d/ew-d/specifications-ew-dx-em4-dante.html",
+  "notes": "Four-channel EW-DX receiver with Dante (48 or 96 kHz), two antenna cascade outputs for up to four receivers, 37 W max, 373 mm deep, 4.56 kg. EW-DX EM 2 Dante is the two-channel version. Check: analogue output count and Dante port count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 37,
+  "weightKg": 4.56
+ },
+ {
+  "id": "sennheiser-em-6000-dante",
+  "manufacturer": "Sennheiser",
+  "partNumber": "EM 6000 DANTE",
+  "name": "Digital 6000 EM 6000 Dante two-channel receiver",
+  "family": "Digital 6000",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sennheiser EM 6000 product overview",
+  "productUrl": "https://docs.cloud.sennheiser.com/en-us/digital-6000/digital-6000/manual-em6000-overview.html",
+  "notes": "Two-channel Digital 6000 receiver with XLR and jack outputs per channel, AES3, word clock, Dante primary and secondary. EM 6000 is the version without Dante. Check: antenna and word clock connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]
