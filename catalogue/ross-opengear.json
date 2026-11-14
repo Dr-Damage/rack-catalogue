@@ -1,0 +1,3754 @@
+[
+ {
+  "id": "ross-sra-8901a",
+  "manufacturer": "Ross Video",
+  "partNumber": "SRA-8901A",
+  "name": "SRA-8901A 12G-SDI reclocking DA (1x10 or 1x5)",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SRA-8901A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/sra-8901a/",
+  "notes": "Current version of the SRA-8901: 12G/6G/3G/HD/SD, DVB-ASI and MADI reclocking DA with long-reach equalisation, all outputs non-inverting. Ordered as SRA-8901A-R3 (1x10) or SRA-8901A-R3S (1x5, the split module takes a second card). The R3 module has a position B under the input that the single-channel card leaves unused. Under 5.6 W. OG3-FR and OGX-FR only.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5.6,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Full rear module (1 in, 10 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 10,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3
+   },
+   {
+    "partNumber": "R3S",
+    "name": "Split rear module (2 cards, 1 in, 5 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 5,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1
+    },
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-dra-8902a",
+  "manufacturer": "Ross Video",
+  "partNumber": "DRA-8902A",
+  "name": "DRA-8902A dual-input 12G-SDI DA (2 in, 10 out)",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DRA-8902A product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/dra-8902a/",
+  "notes": "Current dual-input 12G/6G/3G/HD/SD/ASI/MADI DA: inputs A and B feed an internal crosspoint to 10 outputs; each output pair follows either input or fails over automatically. Ordered as DRA-8902A-R3. Under 5.6 W. OG3-FR and OGX-FR only.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5.6,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 10,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-sra-8901-r",
+  "manufacturer": "Ross Video",
+  "partNumber": "SRA-8901-R",
+  "name": "SRA-8901-R 12G bypass protection switch with DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SRA-8901-R product page and rear module cabling drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/gator/sra-8901-r/",
+  "notes": "Relay bypass protection: on loss of the primary input the protected output switches to the bypass input (manual or automatic return). Outputs 2-4 are reclocked copies of the primary. Single slot, up to 20 per OG3-FR/OGX-FR, 5 W max. Ordered as SRA-8901-R-R3S; one R3S-8901-R module serves two cards. Pairs with MC1 for master control protection.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3S-8901-R",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Bypass In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Protected Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 3,
+      "prefix": "SDI Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1
+    },
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gator-mc1",
+  "manufacturer": "Ross Video",
+  "partNumber": "GATOR-MC1",
+  "name": "MC1-UHD master control (Gator openGear card)",
+  "family": "openGear master control",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross MC1 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/mc1/",
+  "notes": "Master control switcher on a Gator card: 6 SD/HD/3G/12G-SDI in and 6 out on HD-BNC, frame reference or its own Ref In, TTL GPI/tally on terminal blocks, TSL 3.1 and automation over IP or serial. Licences: MC1-12G-LICENSE (UHD), MC1-MASTERCTRL-LICENSE, MC1-DVE-1CH-LICENSE; optional MC1-PANEL-16 hardware panel. Often paired with an SRA-8901-R bypass card. Gator cards take two front slots. R4 modules fit oGx frames (OGX-FR-CN/CNS) only; R3A/R3B modules are 4 slots wide (5 cards per frame). Check: GPIO count on the R3A/R3B modules and whether the RS-422 port is RJ45.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 2,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "GATOR-MC1-2-R4",
+    "name": "R4 rear module (2 slots, no discrete audio)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "GPIO"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 3
+    },
+    "gen": 4
+   },
+   {
+    "partNumber": "GATOR-MC1-4A-R3A",
+    "name": "R3A rear module (4 slots, 8 unbalanced AES)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "Terminal block",
+      "count": 6,
+      "prefix": "GPIO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Serial"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   },
+   {
+    "partNumber": "GATOR-MC1-4B-R3B",
+    "name": "R3B rear module (4 slots, 8 balanced AES)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "AES"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "Terminal block",
+      "count": 6,
+      "prefix": "GPIO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Serial"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gator-toolbox",
+  "manufacturer": "Ross Video",
+  "partNumber": "GATOR-TOOLBOX",
+  "name": "GATOR-TOOLBOX UHD up/down/cross, HDR and frame sync",
+  "family": "openGear conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GATOR-TOOLBOX product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/gator/toolbox/",
+  "notes": "UHD/HD up/down/cross conversion, HDR conversion, frame sync and optional frame-rate standards conversion over 12G-SDI. SDI is set as 4 in / 1 out (quad-link to single) or 1 in / 4 out; the R4 module has 12 HD-BNC positions, 4 of them unused (N/C). Gator cards take two front slots. R4 modules fit oGx frames (OGX-FR-CN/CNS) only; R3A/R3B modules are 4 slots wide (5 cards per frame).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 2,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "GATOR-TOOLBOX-2-R4",
+    "name": "R4 rear module (2 slots)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 3
+    },
+    "gen": 4
+   },
+   {
+    "partNumber": "GATOR-TOOLBOX-2F-R4F",
+    "name": "R4F rear module (2 slots, fibre)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 3,
+      "prefix": "SDI Bi-dir"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 1,
+      "prefix": "SDI fibre (SFP)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 1,
+      "prefix": "MADI fibre (SFP)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Serial"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "GPIO"
+     }
+    ],
+    "included": true,
+    "gen": 4
+   },
+   {
+    "partNumber": "GATOR-TOOLBOX-4A-R3A",
+    "name": "R3A rear module (4 slots, 8 unbalanced AES)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "AES"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   },
+   {
+    "partNumber": "GATOR-TOOLBOX-4B-R3B",
+    "name": "R3B rear module (4 slots, 8 balanced AES)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "AES"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gator-sync",
+  "manufacturer": "Ross Video",
+  "partNumber": "GATOR-SYNC",
+  "name": "GATOR-SYNC quad 12G frame synchroniser",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross GATOR-SYNC product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/gator/sync/",
+  "notes": "Four independent frame synchronisers (HD/3G/12G, each at its own format) with multi-frame delay (79 frames HD, 14 UHD) and 16 embedded audio channels per stream with +/-500 ms offset. Discrete audio rear modules are planned. Gator cards take two front slots. R4 modules fit oGx frames (OGX-FR-CN/CNS) only; R3A/R3B modules are 4 slots wide (5 cards per frame). Check: SDI positions (assumed 4 in, 4 out like the Toolbox R4 drawing).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 2,
+   "gen": 4
+  },
+  "rearModules": [
+   {
+    "partNumber": "GATOR-SYNC-2-R4",
+    "name": "R4 rear module (2 slots)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 3
+    },
+    "gen": 4
+   }
+  ]
+ },
+ {
+  "id": "ross-tes-8943",
+  "manufacturer": "Ross Video",
+  "partNumber": "TES-8943",
+  "name": "TES-8943 VANC data processor (SCTE-104)",
+  "family": "openGear processing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross TES-8943 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/tes-8943/",
+  "notes": "Inserts, processes and extracts VANC data; SCTE-104 insertion and detection; data in or out over TCP/IP or serial. SD/HD/3G standard, 6G/12G with TES-8943-12G-LICENSE. R4 needs OGX-FR-CN/CNS; R3B also fits OG3-FR-CN/CNS. Gator cards take two front slots. R4 modules fit oGx frames (OGX-FR-CN/CNS) only; R3A/R3B modules are 4 slots wide (5 cards per frame). Check: SDI positions on the Gator modules for this card (assumed 4 in, 4 out).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 2,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "TES-8943-2-R4",
+    "name": "R4-GATOR rear module (2 slots)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "GPI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 3
+    },
+    "gen": 4
+   },
+   {
+    "partNumber": "TES-8943-4B-R3B",
+    "name": "R3B-GATOR rear module (4 slots)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "GPI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "RS-422"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-osg-8971",
+  "manufacturer": "Ross Video",
+  "partNumber": "OSG-8971",
+  "name": "OSG-8971 SRT encoder/decoder (6 SDI I/O)",
+  "family": "openGear transport",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross OSG-8971 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/osg-8971/",
+  "notes": "Hardware SRT encoder and decoder (H.264 and H.265): each of the six HD-BNC ports is set as input or output, so one card encodes and decodes at once; up to 6 HD/3G or 2 UHD streams (OSG-8971-UHD-LICENSE), key+fill pairs, 8 audio channels per stream (16 with OSG-8971-A16-LICENSE). Up to 10 per oGx frame with an advanced network controller.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 4
+  },
+  "rearModules": [
+   {
+    "partNumber": "OSG-8971-R4",
+    "name": "Two-slot rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 6,
+      "prefix": "SDI I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network (SRT)"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2
+    },
+    "gen": 4
+   }
+  ]
+ },
+ {
+  "id": "ross-sfc-6901",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFC-6901",
+  "name": "SFC-6901 12G-SDI fibre transport (4 SDI, 4 SFP)",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFC-6901 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/sfc-6901/",
+  "notes": "SD to 12G-SDI and ASI electrical/optical conversion with CWDM support and an on-board gearbox for quad-link UHD/8K. The 4 HD-BNCs are each set as input or output; the 4 SFP+ cages take dual Tx, dual Rx or transceiver SFPs (SFP-FIBER-12G-2T / -2R / -2R-H, SFP-FIBER-12G, CWDM -2T-xx/yy), ordered separately. 5 W. OG3 and OGX frames.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 5,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "SFC-6901-R3F",
+    "name": "Two-slot rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 4,
+      "prefix": "Fibre SFP"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2
+    },
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-wda-8409",
+  "manufacturer": "Ross Video",
+  "partNumber": "WDA-8409",
+  "name": "WDA-8409 word clock DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross WDA-8409 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/wda-8409/",
+  "notes": "Word clock DA up to 192 kHz: Hi-Z or 75 ohm input, 75 ohm outputs. Ordered as WDA-8409-R2L or WDA-8409-R2S. Under 2 W. DFR-8321, OG3-FR and OGX-FR.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2L-8409",
+    "name": "Full rear module with loop (1 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "WC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "WC Loop Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "WC Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S-8409",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "WC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "WC Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-vea-8707a",
+  "manufacturer": "Ross Video",
+  "partNumber": "VEA-8707A",
+  "name": "VEA-8707A analog video equalising DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross VEA-8707A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/vea-8707a/",
+  "notes": "Analog video DA with cable equalisation (3 cable types, up to 300 m), differential input, +/-3 dB gain; also tri-level sync. 1.6 W. The R2 module leaves position 2 unused.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 1.6
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Rear module (1 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2L",
+    "name": "Looping rear module (1 in + loop, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-uda-8705a",
+  "manufacturer": "Ross Video",
+  "partNumber": "UDA-8705A",
+  "name": "UDA-8705A analog utility DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross UDA-8705A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/uda-8705a/",
+  "notes": "General-purpose analog DA for composite video and tri-level sync, DC coupled, +/-3 dB gain. 1.5 W. The R2 module leaves position 2 unused.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 1.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Rear module (1 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2L",
+    "name": "Looping rear module (1 in + loop, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sra-8802",
+  "manufacturer": "Ross Video",
+  "partNumber": "SRA-8802",
+  "name": "SRA-8802 3G/HD/SD reclocking DA with A/B failover",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross SRA-8802 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/sra-8802/",
+  "notes": "Reclocking 3G/HD/SD DA (also DVB-ASI) with long-reach input EQ: 1x8 with R2 (A/B input failover), 1x4 with the split R2S, or R2R with a relay bypass from the input to the first output. Check: R2R layout (no drawing on the page) and which R2 position is the B input.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "10 BNC rear module (1 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2R",
+    "name": "Rear module with relay bypass (input to first output)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sea-8803",
+  "manufacturer": "Ross Video",
+  "partNumber": "SEA-8803",
+  "name": "SEA-8803 HD/SD equalising DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SEA-8803 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/sea-8803/",
+  "notes": "HD/SD-SDI equalising DA (also DVB-ASI), 200 m at HD, 500 m at SD: 1x8 with R2, 1x4 with the split R2S.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "10 BNC rear module (1 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-dea-8805",
+  "manufacturer": "Ross Video",
+  "partNumber": "DEA-8805",
+  "name": "DEA-8805 dual HD/SD equalising DA",
+  "family": "openGear distribution",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DEA-8805 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/dea-8805/",
+  "notes": "Two independent HD/SD-SDI equalising DAs, each channel at its own rate: dual 1x4 with R2 or dual 1x8 with R2H.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "10 BNC rear module (dual 1x4)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In Ch A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "In Ch B"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out B"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2H",
+    "name": "18 HD-BNC rear module (dual 1x8)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "In Ch A"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "In Ch B"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "Out A"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "Out B"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-ada-8405-c",
+  "manufacturer": "Ross Video",
+  "partNumber": "ADA-8405-C",
+  "name": "ADA-8405-C analog audio DA (1x8 or dual 1x4)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross ADA-8405-C product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/distribution/ada-8405-c/",
+  "notes": "Balanced analog audio DA with +/-15 dB software gain and summing: 8 copies of a mono input or 4 of each of a stereo pair (Out 1-1 to 1-4 follow In 1, Out 2-1 to 2-4 follow In 2). Also distributes LTC. 2.6 W. 3-pin pluggable terminal blocks.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 2.6
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "Rear module (2 in, 8 out)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2CS",
+    "name": "Split rear module (2 cards, 1 in, 4 out each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 1,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-hdc-8223a-s",
+  "manufacturer": "Ross Video",
+  "partNumber": "HDC-8223A-S",
+  "name": "HDC-8223A-S 3G/HD/SD DA with down converter and frame sync",
+  "family": "openGear conversion",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross HDC-8223A-S product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/conversion/hdc-8223a-s/",
+  "notes": "2 in (A/B) / 4 out reclocking DA whose SDI/CVBS outputs can each be SDI or analog composite with 10-bit HD down conversion; the -S version adds a frame synchroniser and audio sample-rate conversion. The same rear modules fit the HDC-8223A (no frame sync). 8 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Reclocked Copy Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI/CVBS Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2C",
+    "name": "Analog audio rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "Reclocked Copy Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Audio Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI/CVBS Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-mux-8258-4c",
+  "manufacturer": "Ross Video",
+  "partNumber": "MUX-8258-4C",
+  "name": "MUX-8258-4C 4 ch analog audio embedder",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross MUX-8258-4C/8C product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/audio-embedding/mux-8258-4c-8c/",
+  "notes": "Embeds 4 balanced analog audio channels into 3G/HD/SD-SDI with per-input gain, invert, delay and summing. 9.5 W. The shared R2C module has 8 analog positions; the -4C uses the first 4.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 9.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-dmx-8259-4c",
+  "manufacturer": "Ross Video",
+  "partNumber": "DMX-8259-4C",
+  "name": "DMX-8259-4C 4 ch analog audio de-embedder",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DMX-8259-4C/8C product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/audio-embedding/dmx-8259-4c-8c/",
+  "notes": "De-embeds 4 channels from 3G/HD/SD-SDI to balanced analog outputs; any embedded channel to any output, with gain, delay and invert. 9.5 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 9.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-mux-8258-8c",
+  "manufacturer": "Ross Video",
+  "partNumber": "MUX-8258-8C",
+  "name": "MUX-8258-8C 8 ch analog audio embedder",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross MUX-8258-4C/8C product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/audio-embedding/mux-8258-4c-8c/",
+  "notes": "Embeds 8 balanced analog audio channels into 3G/HD/SD-SDI with per-input gain, invert, delay and summing. 11 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 11
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog In"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-dmx-8259-8c",
+  "manufacturer": "Ross Video",
+  "partNumber": "DMX-8259-8C",
+  "name": "DMX-8259-8C 8 ch analog audio de-embedder",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DMX-8259-4C/8C product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/audio-embedding/dmx-8259-4c-8c/",
+  "notes": "De-embeds 8 channels from 3G/HD/SD-SDI to balanced analog outputs; any embedded channel to any output, with gain, delay and invert. 11 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 11
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-adc-8434-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "ADC-8434-A",
+  "name": "ADC-8434-A quad analog to dual AES converter",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross ADC-8434-A product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/conversion/adc-8434-a/",
+  "notes": "4 balanced analog channels to 2 unbalanced AES3 streams (24-bit, 32-96 kHz); each AES stream comes out on two BNCs (AES Out 1, 1, 2, 2). 4 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 4
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2A",
+    "name": "75 ohm rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-aap-8644",
+  "manufacturer": "Ross Video",
+  "partNumber": "AAP-8644",
+  "name": "AAP-8644 advanced audio processor (Dolby, loudness)",
+  "family": "openGear audio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross AAP-8644 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/aap-8644/",
+  "notes": "3G/HD/SD audio processor: Dolby encode/decode, real-time loudness levelling, upmix, embed/de-embed, optional A/V QC with hardware relay bypass. 24 W with DSP options. Double-width card on a 4-slot rear module. Check: exact BNC split on the R2C-8644 module (counts from the spec table: up to 4 SDI in, 4 x 2 SDI out, 8 AES in, 8 AES out).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 2,
+   "watts": 24
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C-8644",
+    "name": "Double-width rear module (4 slots) with SDI relay bypass",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "CVBS In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "CVBS Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO/COMM"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-spg-8260-w",
+  "manufacturer": "Ross Video",
+  "partNumber": "SPG-8260-W",
+  "name": "SPG-8260-W sync pulse generator with word clock",
+  "family": "openGear sync",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross SPG-8260-W product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/spg-8260-w/",
+  "notes": "4 output pairs (1A-4A, 1B-4B), each tri-level, black burst or colour bars at its own frame rate and timing; 48 kHz TTL word clock. Locks to frame REF 1/2, a local reference or its internal oscillator. 6 W. Check: whether one of the two R2 word clock BNCs is the local ref input.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Full rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "Word Clock"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Ref Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In / Word Clock"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-A",
+  "name": "SFS-8622-A 3G/HD/SD frame sync, 6 AES (75 ohm)",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-A-R2A. The rear module adds 6 AES (75 ohm).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2A",
+    "name": "R2A rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 6,
+      "prefix": "AES I/O"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-aic",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-AIC",
+  "name": "SFS-8622-AIC 3G/HD/SD frame sync, 4 analog in, 4 AES",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-AIC-R2AIC. The rear module adds 4 analog in, 4 AES.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2AC",
+    "name": "R2AC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-aoc",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-AOC",
+  "name": "SFS-8622-AOC 3G/HD/SD frame sync, 4 analog out, 4 AES",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-AOC-R2AOC. The rear module adds 4 analog out, 4 AES.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2AC",
+    "name": "R2AC rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-ic",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-IC",
+  "name": "SFS-8622-IC 3G/HD/SD frame sync, 8 analog in",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-IC-R2C. The rear module adds 8 analog in.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "R2C rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog In"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-oc",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-OC",
+  "name": "SFS-8622-OC 3G/HD/SD frame sync, 8 analog out",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-OC-R2C. The rear module adds 8 analog out.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2C",
+    "name": "R2C rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Analog Out"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-sfs-8622-b",
+  "manufacturer": "Ross Video",
+  "partNumber": "SFS-8622-B",
+  "name": "SFS-8622-B 3G/HD/SD frame sync, 8 balanced AES",
+  "family": "openGear timing",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross SFS-8622-A product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/timing-synchronization/sfs-8622-a/",
+  "notes": "A/V frame synchroniser with up to 28 frames of delay, 16-channel embed/de-embed, format auto-detect and a test pattern on input loss. Ordered as SFS-8622-B-R2B. The rear module adds 8 balanced AES.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2B",
+    "name": "R2B rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "AES I/O"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-dss-8224",
+  "manufacturer": "Ross Video",
+  "partNumber": "DSS-8224",
+  "name": "DSS-8224 dual HD/SD video switch (2x1 or 4x2)",
+  "family": "openGear switching",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross DSS-8224 product page and rear module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/dss-8224/",
+  "notes": "Vertical-interval video switch timed to frame reference: two independent 2x1 switches or one 4x2, reclocked outputs. Controlled from DashBoard, GPI or an RCM-8120 panel over BNC. 4.5 W.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 4.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Rear module (4x2)",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Out (1A, 1B, 2A, 2B)"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "Panel / GPI"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 2,
+     "rows": 5
+    }
+   },
+   {
+    "partNumber": "R2S",
+    "name": "Split rear module (2 cards, 2x1 each)",
+    "width": 2,
+    "cardsPerModule": 2,
+    "cardOffset": 0,
+    "default": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Panel / GPI"
+     }
+    ],
+    "included": true,
+    "layout": {
+     "cols": 1,
+     "rows": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "ross-nwe-3ga",
+  "manufacturer": "Ross Video",
+  "partNumber": "NWE-3GA",
+  "name": "NWE-3GA Nielsen watermark encoder",
+  "family": "openGear audience measurement",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross NWE-3GA product page and rear module drawing",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/nwe-3ga/",
+  "notes": "Inserts Nielsen watermarks into up to 16 PCM channels from the 16 embedded and 8 AES channels; relay bypass of video and AES on the rear module. Power-hungry: up to 5 per 2RU frame, or 1 alongside up to 16 other cards.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "R2",
+    "name": "Rear module with relay bypass",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "Terminal block",
+      "count": 1,
+      "prefix": "LTC (balanced)"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "LTC (unbalanced)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-232",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Serial"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-gpi-8941-i16",
+  "manufacturer": "Ross Video",
+  "partNumber": "GPI-8941-I16",
+  "name": "GPI-8941-I16 GPI card (16 in)",
+  "family": "openGear GPIO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GPI-8941 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/data-solutions/gpi-8941/",
+  "notes": "General purpose interface card: opto-isolated inputs (contact closure or voltage sense) and isolated relay outputs (contact closure or voltage source); each bank of 16 is on a 37-pin D-sub. Up to 10 per 2RU frame.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "GPI In (16 per D-sub)"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gpi-8941-i32",
+  "manufacturer": "Ross Video",
+  "partNumber": "GPI-8941-I32",
+  "name": "GPI-8941-I32 GPI card (32 in)",
+  "family": "openGear GPIO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GPI-8941 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/data-solutions/gpi-8941/",
+  "notes": "General purpose interface card: opto-isolated inputs (contact closure or voltage sense) and isolated relay outputs (contact closure or voltage source); each bank of 16 is on a 37-pin D-sub. Up to 10 per 2RU frame.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 2,
+      "prefix": "GPI In (16 per D-sub)"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gpi-8941-o16",
+  "manufacturer": "Ross Video",
+  "partNumber": "GPI-8941-O16",
+  "name": "GPI-8941-O16 GPI card (16 out)",
+  "family": "openGear GPIO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GPI-8941 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/data-solutions/gpi-8941/",
+  "notes": "General purpose interface card: opto-isolated inputs (contact closure or voltage sense) and isolated relay outputs (contact closure or voltage source); each bank of 16 is on a 37-pin D-sub. Up to 10 per 2RU frame.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "GPI Out (16 per D-sub)"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gpi-8941-o32",
+  "manufacturer": "Ross Video",
+  "partNumber": "GPI-8941-O32",
+  "name": "GPI-8941-O32 GPI card (32 out)",
+  "family": "openGear GPIO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GPI-8941 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/data-solutions/gpi-8941/",
+  "notes": "General purpose interface card: opto-isolated inputs (contact closure or voltage sense) and isolated relay outputs (contact closure or voltage source); each bank of 16 is on a 37-pin D-sub. Up to 10 per 2RU frame.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 2,
+      "prefix": "GPI Out (16 per D-sub)"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-gpi-8941-i16-o16",
+  "manufacturer": "Ross Video",
+  "partNumber": "GPI-8941-I16-O16",
+  "name": "GPI-8941-I16-O16 GPI card (16 in, 16 out)",
+  "family": "openGear GPIO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross GPI-8941 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/data-solutions/gpi-8941/",
+  "notes": "General purpose interface card: opto-isolated inputs (contact closure or voltage sense) and isolated relay outputs (contact closure or voltage source); each bank of 16 is on a 37-pin D-sub. Up to 10 per 2RU frame.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "gen": 3
+  },
+  "rearModules": [
+   {
+    "partNumber": "R3",
+    "name": "Rear module",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "GPI In (16 per D-sub)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "GPI",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "GPI Out (16 per D-sub)"
+     }
+    ],
+    "included": true,
+    "gen": 3
+   }
+  ]
+ },
+ {
+  "id": "ross-fcm-6844",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCM-6844",
+  "name": "FCM-6844 4-channel CWDM multiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 4-channel CWDM mux (1350, 1370, 1430, 1450 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). The expansion port cascades a second module for 12 or 16 channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCM-6844",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Expansion"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fcd-6845",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCD-6845",
+  "name": "FCD-6845 4-channel CWDM demultiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 4-channel CWDM demux (1350, 1370, 1430, 1450 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). The expansion port cascades a second module for 12 or 16 channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCD-6845",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Expansion"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fcm-6846",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCM-6846",
+  "name": "FCM-6846 8-channel CWDM multiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 8-channel CWDM mux (1270-1450 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). No expansion port.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCM-6846",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fcd-6847",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCD-6847",
+  "name": "FCD-6847 8-channel CWDM demultiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 8-channel CWDM demux (1270-1450 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). No expansion port.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCD-6847",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fcm-6848",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCM-6848",
+  "name": "FCM-6848 8-channel CWDM multiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 8-channel CWDM mux (1470-1610 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). The expansion port cascades a second module for 12 or 16 channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCM-6848",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Expansion"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fcd-6849",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCD-6849",
+  "name": "FCD-6849 8-channel CWDM demultiplexer",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page and module drawings",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 8-channel CWDM demux (1470-1610 nm), LC/UPC, no power. Card and rear are one piece (no separate rear module). The expansion port cascades a second module for 12 or 16 channels.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FCD-6849",
+    "name": "Integrated rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Common"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Expansion"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Channel"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fss-6802",
+  "manufacturer": "Ross Video",
+  "partNumber": "FSS-6802",
+  "name": "FSS-6802 1x2 optical splitter",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross optical splitters product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/optical-splitters/",
+  "notes": "Passive 1x2 optical splitter, 1270-1620 nm, LC/UPC, no power. Check: rear module width and LC layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FSS-6802",
+    "name": "Latching rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fds-6803",
+  "manufacturer": "Ross Video",
+  "partNumber": "FDS-6803",
+  "name": "FDS-6803 dual 1x2 optical splitter",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross optical splitters product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/optical-splitters/",
+  "notes": "Passive dual 1x2 optical splitter, 1270-1620 nm, LC/UPC, no power. Check: rear module width and LC layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FDS-6803",
+    "name": "Latching rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fss-6804",
+  "manufacturer": "Ross Video",
+  "partNumber": "FSS-6804",
+  "name": "FSS-6804 1x4 optical splitter",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross optical splitters product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/optical-splitters/",
+  "notes": "Passive 1x4 optical splitter, 1270-1620 nm, LC/UPC, no power. Check: rear module width and LC layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FSS-6804",
+    "name": "Latching rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 4,
+      "prefix": "Optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fds-6805",
+  "manufacturer": "Ross Video",
+  "partNumber": "FDS-6805",
+  "name": "FDS-6805 dual 1x4 optical splitter",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross optical splitters product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/optical-splitters/",
+  "notes": "Passive dual 1x4 optical splitter, 1270-1620 nm, LC/UPC, no power. Check: rear module width and LC layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FDS-6805",
+    "name": "Latching rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ross-fss-6808",
+  "manufacturer": "Ross Video",
+  "partNumber": "FSS-6808",
+  "name": "FSS-6808 1x8 optical splitter",
+  "family": "openGear fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross optical splitters product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/optical-splitters/",
+  "notes": "Passive 1x8 optical splitter, 1270-1620 nm, LC/UPC, no power. Check: rear module width and LC layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1,
+   "watts": 0
+  },
+  "rearModules": [
+   {
+    "partNumber": "FSS-6808",
+    "name": "Latching rear",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 8,
+      "prefix": "Optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,1945 @@
+[
+ {
+  "id": "ross-aircleaner-2-a",
+  "manufacturer": "Ross Video",
+  "partNumber": "AirCleaner-2 Model-A",
+  "name": "AirCleaner-2 Model-A live event delay",
+  "family": "AirCleaner",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross AirCleaner-2 specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/master-control/live-event-protection-delay/aircleaner-2/specifications/",
+  "notes": "Live profanity/event delay (80 s HD / 40 s 1080p / 10 s UHD at 59.94) with jumble/bleep and panic buttons; 16 embedded audio tracks per SDI; 2110 over two QSFP28 links. 2RU, 600 mm deep, about 12 kg, two hot-swap supplies, under 500 W; power-loss bypass battery. Optional AirCleaner hardware control panel (two panic buttons) on the GPI port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "IP Video (100G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "AUX In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "TAP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI I/O (panels, tally)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 ch, Tascam)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   }
+  ],
+  "powerW": 500,
+  "weightKg": 12.25
+ },
+ {
+  "id": "ross-aircleaner-2-b",
+  "manufacturer": "Ross Video",
+  "partNumber": "AirCleaner-2 Model-B",
+  "name": "AirCleaner-2 Model-B live event delay",
+  "family": "AirCleaner",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross AirCleaner-2 specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/master-control/live-event-protection-delay/aircleaner-2/specifications/",
+  "notes": "Live profanity/event delay (160 s HD / 80 s 1080p / 20 s UHD at 59.94) with jumble/bleep and panic buttons; 16 embedded audio tracks per SDI; 2110 over two QSFP28 links. 2RU, 600 mm deep, about 12 kg, two hot-swap supplies, under 500 W; power-loss bypass battery. Optional AirCleaner hardware control panel (two panic buttons) on the GPI port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "IP Video (100G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "AUX In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "TAP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI I/O (panels, tally)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 ch, Tascam)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   }
+  ],
+  "powerW": 500,
+  "weightKg": 12.25
+ },
+ {
+  "id": "ross-aircleaner-2-c",
+  "manufacturer": "Ross Video",
+  "partNumber": "AirCleaner-2 Model-C",
+  "name": "AirCleaner-2 Model-C live event delay",
+  "family": "AirCleaner",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross AirCleaner-2 specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/master-control/live-event-protection-delay/aircleaner-2/specifications/",
+  "notes": "Live profanity/event delay (360 s HD / 180 s 1080p / 45 s UHD at 59.94) with jumble/bleep and panic buttons; 16 embedded audio tracks per SDI; 2110 over two QSFP28 links. 2RU, 600 mm deep, about 12 kg, two hot-swap supplies, under 500 W; power-loss bypass battery. Optional AirCleaner hardware control panel (two panic buttons) on the GPI port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "IP Video (100G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "AUX In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "TAP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI I/O (panels, tally)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 ch, Tascam)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   }
+  ],
+  "powerW": 500,
+  "weightKg": 12.25
+ },
+ {
+  "id": "ross-xpn-1ru-m9",
+  "manufacturer": "Ross Video",
+  "partNumber": "XPN-1RU-M9",
+  "name": "XPression 1RU SDI graphics server (M9)",
+  "family": "XPression",
+  "category": "graphics",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "XPression 1RU SDI hardware specs (3509DR-549)",
+  "productUrl": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
+  "notes": "Up to 4 channels (video/key pairs) of 1080p, or 1 quad-link UHD out. Embedded audio only; GPI is RossTalk over TCP/IP. HP Z4 G5 rackmount, 438 x 656 x 43 mm, 12.4 kg, 2 x 675 W redundant supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI I/O (bi-dir)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU DP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   }
+  ],
+  "depth_mm": 656,
+  "weightKg": 12.42,
+  "powerW": 675
+ },
+ {
+  "id": "ross-xpn-1ru-12g-m9",
+  "manufacturer": "Ross Video",
+  "partNumber": "XPN-1RU-12G-M9",
+  "name": "XPression 1RU 12G graphics server (M9)",
+  "family": "XPression",
+  "category": "graphics",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "XPression 1RU 12G hardware specs (3509DR-562)",
+  "productUrl": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
+  "notes": "4 bi-directional 12G channels (video/key pairs up to UHD) plus 2 inputs up to UHD. Embedded audio only; GPI over TCP/IP. 438 x 656 x 43 mm, 12.4 kg, 2 x 675 W redundant supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI I/O (bi-dir)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU DP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   }
+  ],
+  "weightKg": 12.42,
+  "powerW": 675
+ },
+ {
+  "id": "ross-xpression-2ru-sdi",
+  "manufacturer": "Ross Video",
+  "partNumber": "XPression 2RU SDI (M9)",
+  "name": "XPression 2RU SDI graphics server (M9)",
+  "family": "XPression",
+  "category": "graphics",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "XPression 2RU SDI hardware specs (3509DR-515-01)",
+  "productUrl": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
+  "notes": "Up to 4 video/key pairs of 1080p or 1 quad-link UHD out; embedded audio only. 482 x 525 x 88 mm, 12.4 kg, 2 x 550 W supplies. Also 2RU 12G and 2RU IP D25L versions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI I/O (bi-dir)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU DP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   }
+  ],
+  "weightKg": 12.42,
+  "powerW": 550
+ },
+ {
+  "id": "ross-xpression-4ru-12g",
+  "manufacturer": "Ross Video",
+  "partNumber": "XPression 4RU 12G (M9)",
+  "name": "XPression 4RU 12G graphics server (M9)",
+  "family": "XPression",
+  "category": "graphics",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "XPression 4RU 12G hardware specs (3509DR-568-01)",
+  "productUrl": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
+  "notes": "One UHD video/key channel on 4 bi-directional 12G HD-BNCs plus 2 UHD inputs; physical GPI (12 in, 12 out on a 25-pin D-sub) and LTC in. 430 x 592 x 176 mm, 25.9 kg, 2 x 960 W hot-swap redundant supplies. Also 4RU SDI, 12G LL and IP versions. Check: LTC connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI I/O (bi-dir)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI (12 in, 12 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU DP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   }
+  ],
+  "weightKg": 25.9,
+  "powerW": 960
+ },
+ {
+  "id": "ross-tria-plus-uhd",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria+ UHD",
+  "name": "Tria+ UHD 2-channel 12G production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Ross Tria+ UHD specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-uhd/specifications/",
+  "notes": "Two bi-directional 12G channels (2160p or 1080p, record or play). 3RU, 651 mm deep, up to 34 kg, dual hot-swap supplies (12 A at 100 V). SSD storage 9.5 or 28.8 TB RAID-5. Check: LTC XLR (seen on the rear photo; not in the spec table).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet (10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "Mini DisplayPort",
+    "count": 4,
+    "prefix": "GUI Display"
+   }
+  ],
+  "weightKg": 34
+ },
+ {
+  "id": "ross-tria-express-duet-2ch",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria Express Duet 2 channel",
+  "name": "Tria Express Duet 2-channel production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross Tria Express Duet specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-express-duet/specifications/",
+  "notes": "Compact production server, 2 bi-directional HD/3G channels (AVC-Intra 100), each record or play; the 2-channel model upgrades to 4 in the field. 2RU, 406 mm deep, up to 13.6 kg, dual hot-swap supplies. SSD storage options.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 in, 8 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "GUI Display"
+   }
+  ],
+  "weightKg": 13.6
+ },
+ {
+  "id": "ross-tria-express-duet-4ch",
+  "manufacturer": "Ross Video",
+  "partNumber": "Tria Express Duet 4 channel",
+  "name": "Tria Express Duet 4-channel production server",
+  "family": "Tria",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross Tria Express Duet specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/production-servers/tria-express-duet/specifications/",
+  "notes": "Compact production server, 4 bi-directional HD/3G channels (AVC-Intra 100), each record or play; the 2-channel model upgrades to 4 in the field. 2RU, 406 mm deep, up to 13.6 kg, dual hot-swap supplies. SSD storage options.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 in, 8 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "GUI Display"
+   }
+  ],
+  "weightKg": 13.6
+ },
+ {
+  "id": "ross-kiva-plus-1",
+  "manufacturer": "Ross Video",
+  "partNumber": "Kiva+ 1 channel pair",
+  "name": "Kiva+ presentation server, 1 channel pair",
+  "family": "Kiva",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Kiva+ specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/presentation-server/kiva-plus/",
+  "notes": "Presentation server for screens and video walls: each channel pair is a record input plus PVW and PGM players with video and key outputs and a quad viewer. Same 3RU chassis as Tria+ (651 mm deep, up to 34 kg, dual hot-swap supplies); pairs are added as PCIe video cards. Check: SDI out count per pair (spec page tables disagree; drawn as 4: PVW and PGM video+key).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "SDI In (record)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "PVW/PGM Video+Key Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422 (octal breakout to D9)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet (10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "Mini DisplayPort",
+    "count": 4,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   }
+  ],
+  "weightKg": 34
+ },
+ {
+  "id": "ross-kiva-plus-2",
+  "manufacturer": "Ross Video",
+  "partNumber": "Kiva+ 2 channel pairs",
+  "name": "Kiva+ presentation server, 2 channel pairs",
+  "family": "Kiva",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Kiva+ specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/presentation-server/kiva-plus/",
+  "notes": "Presentation server for screens and video walls: each channel pair is a record input plus PVW and PGM players with video and key outputs and a quad viewer. Same 3RU chassis as Tria+ (651 mm deep, up to 34 kg, dual hot-swap supplies); pairs are added as PCIe video cards. Check: SDI out count per pair (spec page tables disagree; drawn as 4: PVW and PGM video+key).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "SDI In (record)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 8,
+    "prefix": "PVW/PGM Video+Key Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 2,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422 (octal breakout to D9)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet (10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "Mini DisplayPort",
+    "count": 4,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Monitor"
+   }
+  ],
+  "weightKg": 34
+ },
+ {
+  "id": "ross-kiva-plus-3",
+  "manufacturer": "Ross Video",
+  "partNumber": "Kiva+ 3 channel pairs",
+  "name": "Kiva+ presentation server, 3 channel pairs",
+  "family": "Kiva",
+  "category": "recorder",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Ross Kiva+ specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/presentation-server/kiva-plus/",
+  "notes": "Presentation server for screens and video walls: each channel pair is a record input plus PVW and PGM players with video and key outputs and a quad viewer. Same 3RU chassis as Tria+ (651 mm deep, up to 34 kg, dual hot-swap supplies); pairs are added as PCIe video cards. Check: SDI out count per pair (spec page tables disagree; drawn as 4: PVW and PGM video+key).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 3,
+    "prefix": "SDI In (record)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 12,
+    "prefix": "PVW/PGM Video+Key Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 3,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "RS-422 (octal breakout to D9)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet (10G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "Mini DisplayPort",
+    "count": 4,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 3,
+    "prefix": "Monitor"
+   }
+  ],
+  "weightKg": 34
+ },
+ {
+  "id": "ross-kiva-express-duet",
+  "manufacturer": "Ross Video",
+  "partNumber": "Kiva Express Duet",
+  "name": "Kiva Express Duet presentation server (1 channel pair)",
+  "family": "Kiva",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross Kiva Express Duet specifications page and rear photo",
+  "productUrl": "https://www.rossvideo.com/live-production/video-servers-replay/presentation-server/kiva-express-duet/specifications/",
+  "notes": "Compact presentation server: one record input, PVW and PGM players with video and key outputs, quad viewer. 2RU, 406 mm deep, up to 13.6 kg, dual hot-swap supplies, 1.9 or 3.84 TB SSD.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In (record)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "PVW/PGM Video+Key Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Quad Viewer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-422 (PGM, PVW)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES I/O (8 in, 8 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "GUI Display"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "GUI Display"
+   }
+  ],
+  "weightKg": 13.6
+ },
+ {
+  "id": "ross-rm-9940",
+  "manufacturer": "Ross Video",
+  "partNumber": "RM-9940",
+  "name": "RM-9940 1RU passive CWDM chassis (3 modules)",
+  "family": "openGear fibre",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross CWDM product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 1RU chassis for up to three 16-channel CWDM modules (FCM-9941-16 mux, FCD-9942-16 demux), 483 x 250 x 44 mm. No power.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Ross RM-9940 CWDM module"
+   ]
+  }
+ },
+ {
+  "id": "ross-fcm-9941-16",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCM-9941-16",
+  "name": "FCM-9941-16 16-channel CWDM multiplexer module",
+  "family": "openGear fibre",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross CWDM product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 16-channel CWDM multiplexer (1270-1610 nm), LC/UPC, for the RM-9940 chassis (three per 1RU). Check: connector layout.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Common"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 16,
+    "prefix": "Channel"
+   }
+  ],
+  "formFactor": "Ross RM-9940 CWDM module"
+ },
+ {
+  "id": "ross-fcd-9942-16",
+  "manufacturer": "Ross Video",
+  "partNumber": "FCD-9942-16",
+  "name": "FCD-9942-16 16-channel CWDM demultiplexer module",
+  "family": "openGear fibre",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross CWDM product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/fiber/cwdm/",
+  "notes": "Passive 16-channel CWDM demultiplexer (1270-1610 nm), LC/UPC, for the RM-9940 chassis (three per 1RU). Check: connector layout.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Common"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 16,
+    "prefix": "Channel"
+   }
+  ],
+  "formFactor": "Ross RM-9940 CWDM module"
+ },
+ {
+  "id": "ross-mrp-8120",
+  "manufacturer": "Ross Video",
+  "partNumber": "MRP-8120",
+  "name": "MRP-8120 1RU panel for five RCM-8120 modules",
+  "family": "openGear switching",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross RCM-8120 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/rcm-8120/",
+  "notes": "1RU 19 in mounting panel that holds up to five RCM-8120 / RCM-8120-1 remote control modules; BPM-8120 blanks the empty positions.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 5,
+   "fits": [
+    "Ross RCM-8120 module"
+   ]
+  }
+ },
+ {
+  "id": "ross-rcm-8120",
+  "manufacturer": "Ross Video",
+  "partNumber": "RCM-8120",
+  "name": "RCM-8120 4-button remote control module",
+  "family": "openGear switching",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross RCM-8120 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/rcm-8120/",
+  "notes": "4 lit selector buttons for a DSS-8224 or AVS-8764 switch card (4x1 or dual 2x1); the logic signal runs over ordinary BNC video cable to the card's Panel/GPI input. Fits the MRP-8120 1RU panel (five per RU). Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Logic control (to DSS-8224 / AVS-8764)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Panel Enable"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "GPI"
+   }
+  ],
+  "formFactor": "Ross RCM-8120 module"
+ },
+ {
+  "id": "ross-rcm-8120-1",
+  "manufacturer": "Ross Video",
+  "partNumber": "RCM-8120-1",
+  "name": "RCM-8120-1 2-button remote control module",
+  "family": "openGear switching",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross RCM-8120 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/processing-monitoring/rcm-8120/",
+  "notes": "2 lit selector buttons for a DSS-8224 or AVS-8764 switch card (2x1); the logic signal runs over ordinary BNC video cable to the card's Panel/GPI input. Fits the MRP-8120 1RU panel (five per RU). Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Logic control (to DSS-8224 / AVS-8764)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Panel Enable"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "GPI"
+   }
+  ],
+  "formFactor": "Ross RCM-8120 module"
+ },
+ {
+  "id": "ross-ultrigpi",
+  "manufacturer": "Ross Video",
+  "partNumber": "ULTRIGPI",
+  "name": "UltriGPI 16 in / 16 out GPI network bridge",
+  "family": "Ultrix",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Ross UltriGPI specifications PDF",
+  "productUrl": "https://www.rossvideo.com/infrastructure/routing-systems/ultrigpi/",
+  "notes": "16 GPI inputs and 16 outputs bridged to the network for Ultricore/Ultrix control. Powered by PoE or the included 15 V supply (ULTRIGPI-PS spare); 5 W max. 119 x 162 x 44 mm stackable box, no rack kit listed. Check: which end each connector is on.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "GPI In (16, spring clamp)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "GPI Out (16, spring clamp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (PoE 802.3af)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In (9-30 V)"
+   }
+  ],
+  "powerW": 5,
+  "boxMm": {
+   "w": 119,
+   "h": 44
+  }
+ },
+ {
+  "id": "ross-txi-48",
+  "manufacturer": "Ross Video",
+  "partNumber": "TXI-48",
+  "name": "TXI-48 tally expansion interface (48 GPI)",
+  "family": "Tally",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ross TXI-48 product page",
+  "productUrl": "https://www.rossvideo.com/products/signal-processing/txi-48/",
+  "notes": "Up to 48 tally/GPI points in 1RU, 16 per I/O connector, each connector set as inputs or outputs (dry or jumper-set wet inputs, isolated relay outputs). Ethernet to the TSI tally controller; cascade over TCP/IP or RS-422/485. Check: connector types, power input.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "D-sub",
+    "count": 3,
+    "prefix": "GPI I/O (16 per connector)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-422/485 cascade"
+   }
+  ]
+ }
+]
