@@ -1,0 +1,2794 @@
+[
+ {
+  "id": "kvmtec-6011l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6011L",
+  "name": "kvm-tec Smartflex single head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Smartflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Smartflex single head datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-single-head-catx-datasheet-193.pdf",
+  "notes": "Local unit (CPU) of the KT-6011 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. The local unit has a DVI loop-out for a local monitor. Copper only.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (local monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6011r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6011R",
+  "name": "kvm-tec Smartflex single head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Smartflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Smartflex single head datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-single-head-catx-datasheet-193.pdf",
+  "notes": "Remote unit (CON) of the KT-6011 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. The local unit has a DVI loop-out for a local monitor. Copper only.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6021l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6021L",
+  "name": "kvm-tec Smartflex dual head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Smartflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Smartflex dual head datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-dual-head-catx-datasheet-194.pdf",
+  "notes": "Local unit (CPU) of the KT-6021 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Two RJ45 links, one per head. Copper only.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6021r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6021R",
+  "name": "kvm-tec Smartflex dual head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Smartflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Smartflex dual head datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-dual-head-catx-datasheet-194.pdf",
+  "notes": "Remote unit (CON) of the KT-6021 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Two RJ45 links, one per head. Copper only.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6012l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6012L",
+  "name": "kvm-tec Masterflex single head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6012 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6012r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6012R",
+  "name": "kvm-tec Masterflex single head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6012 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6013l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6013L",
+  "name": "kvm-tec Masterflex single head DVI extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6013 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6013r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6013R",
+  "name": "kvm-tec Masterflex single head DVI extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6013 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6022l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6022L",
+  "name": "kvm-tec Masterflex dual head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/masterflex-dual-head-catx-datasheet-197.pdf",
+  "notes": "Local unit (CPU) of the KT-6022 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 2,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6022r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6022R",
+  "name": "kvm-tec Masterflex dual head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/masterflex-dual-head-catx-datasheet-197.pdf",
+  "notes": "Remote unit (CON) of the KT-6022 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6023l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6023L",
+  "name": "kvm-tec Masterflex dual head DVI extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6023 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 2,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6023r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6023R",
+  "name": "kvm-tec Masterflex dual head DVI extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Masterflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Masterflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6023 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power: two link ports and two DC inputs. Analog audio both ways; options KT-6041 sound, KT-6042 analog VGA, KT-6043 USB memory.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6014l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6014L",
+  "name": "kvm-tec Maxflex single head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6014 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6014r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6014R",
+  "name": "kvm-tec Maxflex single head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6014 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016L",
+  "name": "kvm-tec Maxflex single head DVI extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6016 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016R",
+  "name": "kvm-tec Maxflex single head DVI extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6016 set: single head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6024l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6024L",
+  "name": "kvm-tec Maxflex dual head DVI extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/maxflex-dual-head-catx-datasheet-205.pdf",
+  "notes": "Local unit (CPU) of the KT-6024 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 2,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6024r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6024R",
+  "name": "kvm-tec Maxflex dual head DVI extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/maxflex-dual-head-catx-datasheet-205.pdf",
+  "notes": "Remote unit (CON) of the KT-6024 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Link 1 / 2 (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6026l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6026L",
+  "name": "kvm-tec Maxflex dual head DVI extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6026 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 2,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6026r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6026R",
+  "name": "kvm-tec Maxflex dual head DVI extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Maxflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Maxflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6026 set: dual head DVI, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Redundant link and power, analog audio both ways, RS-232 on RJ12 (KT-7095/7096 adapters), matrices up to 1,000 endpoints.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016il",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016iL",
+  "name": "kvm-tec Industryflex single head DVI (industrial, 55 \u00b0C) extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Industryflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6016i set: single head DVI (industrial, 55 \u00b0C), up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Maxflex rated for 55 \u00b0C ambient.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016ir",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016iR",
+  "name": "kvm-tec Industryflex single head DVI (industrial, 55 \u00b0C) extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Industryflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6016i set: single head DVI (industrial, 55 \u00b0C), up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Maxflex rated for 55 \u00b0C ambient.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016ls",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016LS",
+  "name": "kvm-tec Maxflex Encrypted single head DVI, encrypted extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline Maxflex Encrypted",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6016s set: single head DVI, encrypted, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Maxflex with encrypted links.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6016rs",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6016RS",
+  "name": "kvm-tec Maxflex Encrypted single head DVI, encrypted extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline Maxflex Encrypted",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6016s set: single head DVI, encrypted, up to 1920 x 1200 at 60 Hz, USB 2.0. Links run over IP: point to point, or through a Layer 3 network switch as a matrix with the kvm-tec Switching Manager (up to 100 or 1,000 endpoints). Embedded stereo audio. Maxflex with encrypted links.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 2,
+    "prefix": "Link 1 / 2 (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6031l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6031L",
+  "name": "kvm-tec USBflex USB 2.0 extender, local unit (CPU)",
+  "family": "kvm-tec FLEXline USBflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6031 set: USB 2.0 up to 480 Mbit/s over IP, point to point or switched.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6031r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6031R",
+  "name": "kvm-tec USBflex USB 2.0 extender, remote unit (CON)",
+  "family": "kvm-tec FLEXline USBflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6031 set: USB 2.0 up to 480 Mbit/s over IP, point to point or switched.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6032l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6032L",
+  "name": "kvm-tec USBflex USB 2.0 extender, local unit (CPU), fibre",
+  "family": "kvm-tec FLEXline USBflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Local unit (CPU) of the KT-6032 set: USB 2.0 up to 480 Mbit/s over IP, point to point or switched.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Link (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6032r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6032R",
+  "name": "kvm-tec USBflex USB 2.0 extender, remote unit (CON), fibre",
+  "family": "kvm-tec FLEXline USBflex",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec FLEXline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/flexline-datasheet-240.pdf",
+  "notes": "Remote unit (CON) of the KT-6032 set: USB 2.0 up to 480 Mbit/s over IP, point to point or switched.  Box 108 x 107.5 x 43 mm (W x D x H), 295 g, 12 V DC wall supply. Four fit side by side in 1RU on a KT-6232/6233/6234 rack kit; also DIN rail (KT-6235), VESA (KT-6236) or under a desk (KT-6231). Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Link (fibre SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 6,
+  "weightKg": 0.295,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec FLEXline (108 mm)"
+ },
+ {
+  "id": "kvmtec-6937l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6937L",
+  "name": "kvm-tec media4Kconnect DisplayPort 1.2 4K60 extender, local unit (CPU)",
+  "family": "kvm-tec media4Kconnect",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "Local unit (CPU) of the KT-6937 set: DisplayPort 1.2 4K60, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. One 10G SFP+ link (a second is an option with KT-4023, which also adds uncompressed video and downscaling). SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6937r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6937R",
+  "name": "kvm-tec media4Kconnect DisplayPort 1.2 4K60 extender, remote unit (CON)",
+  "family": "kvm-tec media4Kconnect",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "Remote unit (CON) of the KT-6937 set: DisplayPort 1.2 4K60, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. One 10G SFP+ link (a second is an option with KT-4023, which also adds uncompressed video and downscaling). SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort 1.2 Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6938l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6938L",
+  "name": "kvm-tec media4Kconnect PRO DisplayPort 1.2 4K60, redundant, uncompressed extender, local unit (CPU)",
+  "family": "kvm-tec media4Kconnect",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "Local unit (CPU) of the KT-6938 set: DisplayPort 1.2 4K60, redundant, uncompressed, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ links (redundant), uncompressed video and downscaling included. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6938r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6938R",
+  "name": "kvm-tec media4Kconnect PRO DisplayPort 1.2 4K60, redundant, uncompressed extender, remote unit (CON)",
+  "family": "kvm-tec media4Kconnect",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "Remote unit (CON) of the KT-6938 set: DisplayPort 1.2 4K60, redundant, uncompressed, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ links (redundant), uncompressed video and downscaling included. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort 1.2 Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6990l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6990L",
+  "name": "kvm-tec Scalableline 4K DisplayPort 1.2 4K60, switched extender, local unit (CPU)",
+  "family": "kvm-tec Scalableline",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Scalableline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/scalableline-datasheet-212.pdf",
+  "notes": "Local unit (CPU) of the KT-6990 set: DisplayPort 1.2 4K60, switched, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ ports; switched through a 10G network as a 4K matrix with the Switching Manager. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit. Check: the datasheet swaps the local/remote labels on its connector table; drawn here with DP in and USB-B on the local unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6990r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6990R",
+  "name": "kvm-tec Scalableline 4K DisplayPort 1.2 4K60, switched extender, remote unit (CON)",
+  "family": "kvm-tec Scalableline",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Scalableline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/scalableline-datasheet-212.pdf",
+  "notes": "Remote unit (CON) of the KT-6990 set: DisplayPort 1.2 4K60, switched, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ ports; switched through a 10G network as a 4K matrix with the Switching Manager. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit. Check: the datasheet swaps the local/remote labels on its connector table; drawn here with DP in and USB-B on the local unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort 1.2 Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6991l",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6991L",
+  "name": "kvm-tec Scalableline 4K PRO DisplayPort 1.2 4K60, switched extender, local unit (CPU)",
+  "family": "kvm-tec Scalableline",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Scalableline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/scalableline-datasheet-212.pdf",
+  "notes": "Local unit (CPU) of the KT-6991 set: DisplayPort 1.2 4K60, switched, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ ports; switched through a 10G network as a 4K matrix with the Switching Manager. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit. Check: the datasheet swaps the local/remote labels on its connector table; drawn here with DP in and USB-B on the local unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort In (from computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB (to computer)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6991r",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6991R",
+  "name": "kvm-tec Scalableline 4K PRO DisplayPort 1.2 4K60, switched extender, remote unit (CON)",
+  "family": "kvm-tec Scalableline",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Scalableline datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/scalableline-datasheet-212.pdf",
+  "notes": "Remote unit (CON) of the KT-6991 set: DisplayPort 1.2 4K60, switched, up to 4096 x 2160 or 5120 x 1440 at 60 Hz, USB 2.0, analog audio both ways, RS-232 on RJ12. Two 10G SFP+ ports; switched through a 10G network as a 4K matrix with the Switching Manager. SFP+ modules: KT-7013 (multi-mode 300 m), KT-7017 (single-mode 10 km), KT-7016 (Cat X 80 m). Local box 108 x 107.5 x 43 mm, remote box 109 x 184 x 43 mm (W x D x H), about 0.6 kg, two 12 V / 3 A DC inputs. Four fit side by side in 1RU on a KT-6237/6238/6239 rack kit. Check: the datasheet swaps the local/remote labels on its connector table; drawn here with DP in and USB-B on the local unit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort 1.2 Out (to monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (keyboard, mouse, devices)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone / speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ12",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Link (10G SFP+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 2,
+    "prefix": "12V DC In (redundant)"
+   }
+  ],
+  "powerW": 15,
+  "boxMm": {
+   "w": 108,
+   "h": 43
+  },
+  "formFactor": "kvm-tec 4K (media4Kconnect / Scalableline)"
+ },
+ {
+  "id": "kvmtec-6232",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6232",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 FLEXline boxes, with front panel",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec Smartflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-single-head-catx-datasheet-193.pdf",
+  "notes": "RMK-FLEX-F: 1RU shelf that holds four kvm-tec FLEXline (Smartflex, Masterflex, Maxflex, USBflex) boxes side by side with front panel.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec FLEXline (108 mm)"
+   ]
+  }
+ },
+ {
+  "id": "kvmtec-6233",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6233",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 FLEXline boxes, with front panel and power supply",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Smartflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-single-head-catx-datasheet-193.pdf",
+  "notes": "RMK-FLEX-FN: 1RU shelf that holds four kvm-tec FLEXline (Smartflex, Masterflex, Maxflex, USBflex) boxes side by side with front panel and power supply. Check: power connectors and how the supply feeds the boxes.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 4,
+    "prefix": "12V DC Out (to boxes)"
+   }
+  ],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec FLEXline (108 mm)"
+   ]
+  }
+ },
+ {
+  "id": "kvmtec-6234",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6234",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 FLEXline boxes, with front panel and redundant power supply",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec Smartflex datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/smartflex-single-head-catx-datasheet-193.pdf",
+  "notes": "RMK-FLEX: 1RU shelf that holds four kvm-tec FLEXline (Smartflex, Masterflex, Maxflex, USBflex) boxes side by side with front panel and redundant power supply. Check: power connectors and how the supply feeds the boxes.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (redundant PSU)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 8,
+    "prefix": "12V DC Out (to boxes)"
+   }
+  ],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec FLEXline (108 mm)"
+   ]
+  }
+ },
+ {
+  "id": "kvmtec-6237",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6237",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 media4Kconnect / Scalableline boxes, with front panel",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "RMK-4K-F: 1RU shelf that holds four kvm-tec media4Kconnect or Scalableline 4K boxes side by side with front panel.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec 4K (media4Kconnect / Scalableline)"
+   ]
+  }
+ },
+ {
+  "id": "kvmtec-6238",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6238",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 media4Kconnect / Scalableline boxes, with front panel and power supply",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "RMK-4K-FN: 1RU shelf that holds four kvm-tec media4Kconnect or Scalableline 4K boxes side by side with front panel and power supply. Check: power connectors and how the supply feeds the boxes.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 4,
+    "prefix": "12V DC Out (to boxes)"
+   }
+  ],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec 4K (media4Kconnect / Scalableline)"
+   ]
+  }
+ },
+ {
+  "id": "kvmtec-6239",
+  "manufacturer": "kvm-tec",
+  "partNumber": "KT-6239",
+  "name": "kvm-tec 19 in 1RU rack kit for 4 media4Kconnect / Scalableline boxes, with front panel and redundant power supply",
+  "family": "kvm-tec rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "kvm-tec media4Kconnect datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/media4kconnect-datasheet-243.pdf",
+  "notes": "RMK-4K: 1RU shelf that holds four kvm-tec media4Kconnect or Scalableline 4K boxes side by side with front panel and redundant power supply. Check: power connectors and how the supply feeds the boxes.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (redundant PSU)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 8,
+    "prefix": "12V DC Out (to boxes)"
+   }
+  ],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "kvm-tec 4K (media4Kconnect / Scalableline)"
+   ]
+  }
+ }
+]
