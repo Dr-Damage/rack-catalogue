@@ -1,0 +1,112 @@
+[
+ {
+  "id": "raritan-dkx4-101",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-101",
+  "name": "Dominion KX IV-101 single-port 4K KVM-over-IP switch",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Raritan Dominion KX IV-101 datasheet",
+  "productUrl": "https://www.raritan.com/assets/ram/resources/data_sheets/dominion-kx-iv-101-datasheet.pdf",
+  "notes": "Remote KVM-over-IP access to one computer, up to 4K: HDMI and USB from the computer, a local HDMI + USB pass-through console, 1 GbE, admin serial, a 5-pin terminal block (relay out, dry-contact in, virtual power button). 140 x 144 x 30 mm (W x D x H), 0.65 kg, 100-240 V AC adapter with locking plug, 12.5 W typical, 20 W max. Ships with an L bracket for zero-U mounting; RACK-KIT-DKX4-101-3 holds three in 1RU. Check: which end each connector is on (drawn as target side = rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Target HDMI In (locking)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Target USB (to computer)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local HDMI Out (pass-through)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB (keyboard, mouse)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (1G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Admin serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "GPIO (relay out, dry in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "Power (AC adapter)"
+   }
+  ],
+  "powerW": 20,
+  "weightKg": 0.65,
+  "boxMm": {
+   "w": 140,
+   "h": 30
+  },
+  "formFactor": "Raritan DKX4-101"
+ },
+ {
+  "id": "raritan-rack-kit-dkx4-101-3",
+  "manufacturer": "Raritan",
+  "partNumber": "RACK-KIT-DKX4-101-3",
+  "name": "Rack kit for three Dominion KX IV-101 (1RU)",
+  "family": "Dominion KX IV",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Raritan Dominion KX IV-101 datasheet",
+  "productUrl": "https://www.raritan.com/assets/ram/resources/data_sheets/dominion-kx-iv-101-datasheet.pdf",
+  "notes": "19 in 1RU kit that holds three KX IV-101 units side by side.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Raritan DKX4-101"
+   ]
+  }
+ }
+]

@@ -4882,7 +4882,7 @@
   "id": "ihse-474-body6r",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6R-R1",
-  "name": "draco vario 6-slot 1RU chassis",
+  "name": "draco vario 6-slot 1RU chassis (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -4937,7 +4937,7 @@
   "id": "ihse-474-body6bp",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6BP",
-  "name": "draco vario 6-slot 1RU chassis with backplane, rear PSUs",
+  "name": "draco vario 6-slot 1RU chassis with backplane, rear PSUs (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -4946,7 +4946,7 @@
   "verified": true,
   "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
-  "notes": "1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies (8 A at 5 V) on the side opposite the modules (drawn as the front here). Optional fan 474-6FAN; -S and -SNMP versions exist. The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "notes": "1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies (8 A at 5 V) on the side opposite the modules (drawn as the front here). Optional fan 474-6FAN; -S and -SNMP versions exist. Rack ears: 474-6RMK (19 in, 1RU). The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
   "portGroups": [
    {
     "face": "front",
@@ -4984,7 +4984,7 @@
   "id": "ihse-474-body6bpf",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6BPF",
-  "name": "draco vario 6-slot 1RU chassis with backplane, front PSUs",
+  "name": "draco vario 6-slot 1RU chassis with backplane, front PSUs (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -4993,7 +4993,7 @@
   "verified": true,
   "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
   "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
-  "notes": "1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies on the interface side next to the modules. Optional fan 474-6FAN. The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "notes": "1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies on the interface side next to the modules. Optional fan 474-6FAN. Rack ears: 474-6RMK (19 in, 1RU). The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
   "portGroups": [
    {
     "face": "rear",
@@ -5123,7 +5123,7 @@
   "id": "ihse-474-body6dc-12",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6DC-12",
-  "name": "draco vario 6-slot 1RU chassis, 12 V DC supply",
+  "name": "draco vario 6-slot 1RU chassis, 12 V DC supply (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -5178,7 +5178,7 @@
   "id": "ihse-474-body6dc-24",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6DC-24",
-  "name": "draco vario 6-slot 1RU chassis, 24 V DC supply",
+  "name": "draco vario 6-slot 1RU chassis, 24 V DC supply (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -5233,7 +5233,7 @@
   "id": "ihse-474-body6dc-48",
   "manufacturer": "IHSE",
   "partNumber": "474-BODY6DC-48",
-  "name": "draco vario 6-slot 1RU chassis, 48 V DC supply",
+  "name": "draco vario 6-slot 1RU chassis, 48 V DC supply (rack ears 474-6RMK)",
   "family": "draco vario chassis",
   "category": "frame",
   "ru": 1,
@@ -5388,6 +5388,61 @@
    "rear": {
     "x0": 0.06,
     "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "cols": 1
+  }
+ },
+ {
+  "id": "ihse-474-body2n-2nrmk",
+  "manufacturer": "IHSE",
+  "partNumber": "474-BODY2N + 474-2NRMK",
+  "name": "draco vario 2-slot chassis, internal PSU, on 474-2NRMK 19 in 1RU rack ears",
+  "family": "draco vario chassis",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "IHSE draco vario modular chassis datasheet and 474 series manual",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-vario-modular-chassis-121.pdf",
+  "notes": "A 474-BODY2N (221 x 147 x 41 mm, two module slots one above the other, internal power supply, DC input for an optional external redundant supply) fitted with 474-2NRMK, IHSE's 19 in rack mount ears for the 2-slot chassis with built-in PSU. Fills a full 1RU width; the chassis sits in the middle. Use plain 474-BODY2N for a desk or shelf. Every draco vario / ultra module (CPU unit, CON unit, USB, audio, serial or SNMP board) takes one slot. IHSE calls the module side the interface side; the app draws it as the rear because that is where the cables go, so the front view shows the closed side and which module sits in each slot. Power cords are IEC C13, 2 m.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC In (redundant PSU)"
+   }
+  ],
+  "frame": {
+   "system": "draco vario",
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "None: each module works on its own. An SNMP board (474-SNMP) or 474-CONTROL reports status.",
+   "front": {
+    "x0": 0.298,
+    "x1": 0.702,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.298,
+    "x1": 0.702,
     "y0": 0.08,
     "y1": 0.92
    },
@@ -9162,6 +9217,246 @@
       "connector": "TOSLINK",
       "count": 1,
       "prefix": "S/PDIF optical Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ihse-l488-bipc-r1",
+  "manufacturer": "IHSE",
+  "partNumber": "L488-BIPC-R1",
+  "name": "draco SIRA CPU module (Cat X 1G)",
+  "family": "draco SIRA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "IHSE draco SIRA CPU datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-sira-cpu-datasheet-159.pdf",
+  "notes": "Thin client and KVM transmitter in one draco vario module: it opens remote sessions (RDP, RemoteFX, SSH, VNC, HTML5 kiosk) over its network port and sends them into the draco matrix or to a CON unit over its link port. USB 2.0 and 2-channel audio are embedded. Draws 3.0-3.5 A at 5 V from the chassis, so it needs a ventilated chassis (one with a backplane such as 474-BODY6BPF, or a 474-MODFAN fan). 129 x 40 x 145 mm, 300 g. Invoice part number L488-BIPC-R1 is revision 1 of L488-BIPC. Check: slot count (assumed one slot like the other vario modules).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "draco vario"
+   ],
+   "slotWidth": 1,
+   "watts": 17.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "L488-BIPC-R1",
+    "name": "Module connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network (TCP/IP, RDP/VNC/SSH/HTML5)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "KVM link",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Link"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "Mini-USB",
+      "count": 1,
+      "prefix": "Service"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ihse-l488-bipcr",
+  "manufacturer": "IHSE",
+  "partNumber": "L488-BIPCR",
+  "name": "draco SIRA CPU module (Cat X 1G, redundant link)",
+  "family": "draco SIRA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "IHSE draco SIRA CPU datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-sira-cpu-datasheet-159.pdf",
+  "notes": "Thin client and KVM transmitter in one draco vario module: it opens remote sessions (RDP, RemoteFX, SSH, VNC, HTML5 kiosk) over its network port and sends them into the draco matrix or to a CON unit over its link port. USB 2.0 and 2-channel audio are embedded. Draws 3.0-3.5 A at 5 V from the chassis, so it needs a ventilated chassis (one with a backplane such as 474-BODY6BPF, or a 474-MODFAN fan). 129 x 40 x 145 mm, 300 g. Check: slot count (assumed one slot like the other vario modules).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "draco vario"
+   ],
+   "slotWidth": 1,
+   "watts": 17.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "L488-BIPCR",
+    "name": "Module connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network (TCP/IP, RDP/VNC/SSH/HTML5)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "KVM link",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Link"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "Mini-USB",
+      "count": 1,
+      "prefix": "Service"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ihse-l488-bips",
+  "manufacturer": "IHSE",
+  "partNumber": "L488-BIPS",
+  "name": "draco SIRA CPU module (single-mode fibre 1G)",
+  "family": "draco SIRA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "IHSE draco SIRA CPU datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-sira-cpu-datasheet-159.pdf",
+  "notes": "Thin client and KVM transmitter in one draco vario module: it opens remote sessions (RDP, RemoteFX, SSH, VNC, HTML5 kiosk) over its network port and sends them into the draco matrix or to a CON unit over its link port. USB 2.0 and 2-channel audio are embedded. Draws 3.0-3.5 A at 5 V from the chassis, so it needs a ventilated chassis (one with a backplane such as 474-BODY6BPF, or a 474-MODFAN fan). 129 x 40 x 145 mm, 300 g. Check: slot count (assumed one slot like the other vario modules).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "draco vario"
+   ],
+   "slotWidth": 1,
+   "watts": 17.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "L488-BIPS",
+    "name": "Module connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network (TCP/IP, RDP/VNC/SSH/HTML5)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Link"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "Mini-USB",
+      "count": 1,
+      "prefix": "Service"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "ihse-l488-bipsr",
+  "manufacturer": "IHSE",
+  "partNumber": "L488-BIPSR",
+  "name": "draco SIRA CPU module (single-mode fibre 1G, redundant link)",
+  "family": "draco SIRA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "IHSE draco SIRA CPU datasheet",
+  "productUrl": "https://www.scene-double.co.uk/downloads/draco-sira-cpu-datasheet-159.pdf",
+  "notes": "Thin client and KVM transmitter in one draco vario module: it opens remote sessions (RDP, RemoteFX, SSH, VNC, HTML5 kiosk) over its network port and sends them into the draco matrix or to a CON unit over its link port. USB 2.0 and 2-channel audio are embedded. Draws 3.0-3.5 A at 5 V from the chassis, so it needs a ventilated chassis (one with a backplane such as 474-BODY6BPF, or a 474-MODFAN fan). 129 x 40 x 145 mm, 300 g. Check: slot count (assumed one slot like the other vario modules).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "draco vario"
+   ],
+   "slotWidth": 1,
+   "watts": 17.5
+  },
+  "rearModules": [
+   {
+    "partNumber": "L488-BIPSR",
+    "name": "Module connectors",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network (TCP/IP, RDP/VNC/SSH/HTML5)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Link"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "Mini-USB",
+      "count": 1,
+      "prefix": "Service"
      }
     ],
     "included": true

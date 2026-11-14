@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "1c2a11c27267",
- "updated": "2026-11-14T03:56:12Z",
- "entries": 960,
+ "version": "60b0d4af7e79",
+ "updated": "2026-11-14T04:31:41Z",
+ "entries": 967,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -285,9 +285,9 @@
    "bytes": 3023
   },
   "ihse.json": {
-   "sha256": "14fa2b96102ebee83ed1e8072a80f41b7da294d83056ba8bfb3ae9b3d72cb0eb",
-   "entries": 176,
-   "bytes": 302181
+   "sha256": "fdc58c819963e161b34c3da9ecc7a58fdd09c2e72221dee088cb8ecfb1dd0378",
+   "entries": 181,
+   "bytes": 311295
   },
   "bmd-desktop.json": {
    "sha256": "6776b3d7e4d38a54afed6bd677f8d8251761791096199e3b0f3d9871d4ea2b17",
@@ -303,6 +303,11 @@
    "sha256": "e3e1446df9dd0f333d6112263f3af46ea1a77bad375868fb94f59870c873ba39",
    "entries": 2,
    "bytes": 9409
+  },
+  "raritan.json": {
+   "sha256": "b7e4b5ce604c036e40c102f35ae5e10ab57cb85f6830085ead8bf8c22effafda",
+   "entries": 2,
+   "bytes": 2903
   }
  }
 }

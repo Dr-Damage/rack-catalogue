@@ -155,15 +155,15 @@ def vario(id, pn, name, ru, slots, ports, notes, w=12, cols=3, orient='h', depth
 AC = lambda n=1, face='rear', label='AC In': g(face, 'in', 'Power', 'IEC C14', n, label)
 DC5 = lambda n=1, label='5V DC In', face='rear': g(face, 'in', 'Power', 'DC barrel', n, label)
 SLOT_ORDER = ' The manual numbers slots from bottom left to top right; the app counts up each column from the bottom. Check: slot order.'
-vario('474-body6r', '474-BODY6R-R1', 'draco vario 6-slot 1RU chassis', 1, 6, [AC(), DC5(1, '5V DC In (redundant PSU)')],
+vario('474-body6r', '474-BODY6R-R1', 'draco vario 6-slot 1RU chassis (rack ears 474-6RMK)', 1, 6, [AC(), DC5(1, '5V DC In (redundant PSU)')],
       '1RU, 442 x 147 x 41 mm (W x D x H), 6 module slots in two rows of three, internal power supply (100-240 V, 8 A at 5 V) and a '
       'DC input for an optional external redundant supply, both on the interface side. Rack ears: 474-6RMK.' + SLOT_ORDER)
-vario('474-body6bp', '474-BODY6BP', 'draco vario 6-slot 1RU chassis with backplane, rear PSUs', 1, 6, [AC(2, 'front', 'AC In (PSU)')],
+vario('474-body6bp', '474-BODY6BP', 'draco vario 6-slot 1RU chassis with backplane, rear PSUs (rack ears 474-6RMK)', 1, 6, [AC(2, 'front', 'AC In (PSU)')],
       '1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies (8 A at 5 V) on the '
-      'side opposite the modules (drawn as the front here). Optional fan 474-6FAN; -S and -SNMP versions exist.' + SLOT_ORDER)
-vario('474-body6bpf', '474-BODY6BPF', 'draco vario 6-slot 1RU chassis with backplane, front PSUs', 1, 6, [AC(2, 'rear', 'AC In (PSU)')],
+      'side opposite the modules (drawn as the front here). Optional fan 474-6FAN; -S and -SNMP versions exist. Rack ears: 474-6RMK (19 in, 1RU).' + SLOT_ORDER)
+vario('474-body6bpf', '474-BODY6BPF', 'draco vario 6-slot 1RU chassis with backplane, front PSUs (rack ears 474-6RMK)', 1, 6, [AC(2, 'rear', 'AC In (PSU)')],
       '1RU, 442 x 250 x 41 mm, 6 hot-swappable module slots on an active backplane, two internal power supplies on the interface side '
-      'next to the modules. Optional fan 474-6FAN.' + SLOT_ORDER)
+      'next to the modules. Optional fan 474-6FAN. Rack ears: 474-6RMK (19 in, 1RU).' + SLOT_ORDER)
 vario('474-body21-4u', '474-BODY21/4U-R1', 'draco vario 21-slot 4RU chassis', 4, 21, [AC(1, 'front', 'AC In (PSU)')],
       '4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active '
       'backplane. One internal power supply (32 A at 5 V) on the side opposite the modules (drawn as the front here), with room for a '
@@ -172,7 +172,7 @@ vario('474-body21-4ur', '474-BODY21/4UR-R1', 'draco vario 21-slot 4RU chassis, r
       '4RU, 482 x 462 x 176 mm (W x D x H), 21 hot-swappable module slots standing upright, numbered 1-21 from the left, on an active '
       'backplane. Two internal power supplies on the side opposite the modules (drawn as the front here).', orient='v', depth=462)
 for v in (12, 24, 48):
-    vario(f'474-body6dc-{v}', f'474-BODY6DC-{v}', f'draco vario 6-slot 1RU chassis, {v} V DC supply', 1, 6,
+    vario(f'474-body6dc-{v}', f'474-BODY6DC-{v}', f'draco vario 6-slot 1RU chassis, {v} V DC supply (rack ears 474-6RMK)', 1, 6,
           [R('in', 'Power', 'Terminal block', 1, f'{v}V DC In'), DC5(1, '5V DC In (redundant PSU)')],
           f'1RU, 442 x 250 x 41 mm, 6 module slots in two rows of three, integrated {v} V DC power supply, set up for a redundant supply. '
           'For vehicles, ships and DC plant rooms.' + SLOT_ORDER + ' Check: DC input connector.', verified=False)
@@ -182,6 +182,13 @@ vario('474-body2bpf', '474-BODY2BPF', 'draco vario 2-slot chassis with backplane
 vario('474-body2n', '474-BODY2N', 'draco vario 2-slot chassis, internal PSU', 1, 2, [AC(), DC5(1, '5V DC In (redundant PSU)')],
       '221 x 147 x 41 mm, two module slots one above the other, internal power supply and a DC input for an optional external '
       'redundant supply. Rack kit 474-2NRMK; also stands on a desk or shelf.', w=6, cols=1)
+m2nr = vario('474-body2n-2nrmk', '474-BODY2N + 474-2NRMK', 'draco vario 2-slot chassis, internal PSU, on 474-2NRMK 19 in 1RU rack ears', 1, 2,
+      [AC(), DC5(1, '5V DC In (redundant PSU)')],
+      'A 474-BODY2N (221 x 147 x 41 mm, two module slots one above the other, internal power supply, DC input for an optional external '
+      'redundant supply) fitted with 474-2NRMK, IHSE\'s 19 in rack mount ears for the 2-slot chassis with built-in PSU. Fills a full 1RU '
+      'width; the chassis sits in the middle. Use plain 474-BODY2N for a desk or shelf.', cols=1)
+for fc in ('front', 'rear'):   # chassis 221 mm centred between 19 in ears
+    m2nr['frame'][fc] = {'x0': 0.298, 'x1': 0.702, 'y0': 0.08, 'y1': 0.92}
 vario('474-body2r', '474-BODY2R', 'draco vario 2-slot chassis, external PSU', 1, 2, [DC5(2)],
       '145 x 147 x 41 mm, two module slots one above the other, powered by an external 5 V supply (474-PSU2) with a second DC input for a '
       'redundant one. Rack kit 474-2RMK; also stands on a desk or shelf.', w=4, cols=1)
@@ -266,9 +273,39 @@ for code, desc, cpu_ports, con_ports, ma in [
                f'One-slot upgrade board for the {unit} side of any draco vario / ultra extender (474, 481, 483, 490-495): {desc}. It travels '
                f'over the extender\'s own link, so it sits in the slot next to its extender module. Draws up to {ma:,} mA at 5 V.',
                'IHSE draco vario DVI and DisplayPort manuals', DP_MAN, round(ma * 5 / 1000, 2))
+# draco SIRA CPU (L488): thin client + KVM transmitter in a vario module (IHSE draco SIRA CPU datasheet 159)
+SIRA_DS = SD + 'draco-sira-cpu-datasheet-159.pdf'
+for pn, lk, r in (('L488-BIPC-R1', 'C', False), ('L488-BIPCR', 'C', True), ('L488-BIPS', 'S', False), ('L488-BIPSR', 'S', True)):
+    module(pn, f'draco SIRA CPU module ({"Cat X" if lk == "C" else "single-mode fibre"} 1G{", redundant link" if r else ""})', 'draco SIRA',
+           [R('io', 'Ethernet', 'RJ45', 1, 'Network (TCP/IP, RDP/VNC/SSH/HTML5)'), link(lk, 2 if r else 1), SVC],
+           'Thin client and KVM transmitter in one draco vario module: it opens remote sessions (RDP, RemoteFX, SSH, VNC, HTML5 kiosk) '
+           'over its network port and sends them into the draco matrix or to a CON unit over its link port. USB 2.0 and 2-channel audio '
+           'are embedded. Draws 3.0-3.5 A at 5 V from the chassis, so it needs a ventilated chassis (one with a backplane such as '
+           '474-BODY6BPF, or a 474-MODFAN fan). 129 x 40 x 145 mm, 300 g. ' +
+           ('Invoice part number L488-BIPC-R1 is revision 1 of L488-BIPC. ' if pn == 'L488-BIPC-R1' else '') +
+           'Check: slot count (assumed one slot like the other vario modules).', 'IHSE draco SIRA CPU datasheet', SIRA_DS, 17.5)
+
 module('474-SNMP', 'draco vario SNMP monitoring board', 'draco vario upgrade boards', [R('io', 'Ethernet', 'RJ45', 1, 'Network (SNMP)')],
        'One-slot board that reports the chassis\' power supplies and modules over SNMP. Not used in -SNMP chassis, which have it built in.',
        'IHSE draco vario DVI manual (474 series)', DVI_MAN, 1.5, verified=False)
+
+# ======================= Raritan (KVM-over-IP, often next to a draco matrix) =======================
+RA = lambda *a, **k: add('raritan.json', 'raritan-', 'Raritan', *a, **k)
+RA_DS = 'https://www.raritan.com/assets/ram/resources/data_sheets/dominion-kx-iv-101-datasheet.pdf'
+RA('dkx4-101', 'DKX4-101', 'Dominion KX IV-101 single-port 4K KVM-over-IP switch', 'Dominion KX IV', 'control', 1,
+   [R('in', 'HDMI', 'HDMI', 1, 'Target HDMI In (locking)'), R('io', 'USB', 'USB-B', 1, 'Target USB (to computer)'),
+    F('out', 'HDMI', 'HDMI', 1, 'Local HDMI Out (pass-through)'), F('io', 'USB', 'USB-A', 2, 'Local USB (keyboard, mouse)'),
+    R('io', 'Ethernet', 'RJ45', 1, 'LAN (1G)'), R('io', 'RS-232', 'Other', 1, 'Admin serial'),
+    R('io', 'GPI', 'Terminal block', 1, 'GPIO (relay out, dry in)'), R('in', 'Power', 'DC locking', 1, 'Power (AC adapter)')],
+   'Remote KVM-over-IP access to one computer, up to 4K: HDMI and USB from the computer, a local HDMI + USB pass-through console, '
+   '1 GbE, admin serial, a 5-pin terminal block (relay out, dry-contact in, virtual power button). 140 x 144 x 30 mm (W x D x H), '
+   '0.65 kg, 100-240 V AC adapter with locking plug, 12.5 W typical, 20 W max. Ships with an L bracket for zero-U mounting; '
+   'RACK-KIT-DKX4-101-3 holds three in 1RU. Check: which end each connector is on (drawn as target side = rear).',
+   'Raritan Dominion KX IV-101 datasheet', RA_DS, w=4, powerW=20, weightKg=0.65, boxMm={'w': 140, 'h': 30},
+   formFactor='Raritan DKX4-101')
+RA('rack-kit-dkx4-101-3', 'RACK-KIT-DKX4-101-3', 'Rack kit for three Dominion KX IV-101 (1RU)', 'Dominion KX IV', 'shelf', 1, [],
+   '19 in 1RU kit that holds three KX IV-101 units side by side.', 'Raritan Dominion KX IV-101 datasheet', RA_DS,
+   carrier={'bays': 3, 'fits': ['Raritan DKX4-101']})
 
 for f, ms in FILES.items():
     ids = [m['id'] for m in ms]; assert len(ids) == len(set(ids)), f
