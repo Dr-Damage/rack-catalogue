@@ -1,0 +1,3570 @@
+[
+ {
+  "id": "bmds-ultrastudio-4k-mini",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio 4K Mini",
+  "name": "UltraStudio 4K Mini",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-11)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudio/techspecs/W-DLUS-11",
+  "notes": "Half rack width Thunderbolt 3 capture and playback, 4K up to 2160p60. Back: 12G-SDI in, loop and 2 program outs (A, B), HDMI 2.0b in and out, component YUV or composite in (3 BNC, Y doubles as composite), reference in, RS-422 deck control (DB9), 2 balanced 1/4 inch jack analog ins and outs, Thunderbolt 3 (charges the host at 45 W), USB-C 3.1 and an IEC C14 inlet. Front: XLR mic in with 48V phantom, headphone jack, SD card reader (UHS-II), LCD and buttons. 75.3 W max. 210 x 46 x 178 mm (W x H x D), 1.2 kg. Fits the Blackmagic Universal Rack Shelf, two per 1RU. Check: headphone jack size.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Mic In (48V)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (USB 3.1)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Analog Audio In"
+   }
+  ],
+  "specId": "W-DLUS-11",
+  "powerW": 75,
+  "weightKg": 1.2,
+  "formFactor": "Blackmagic 1/2 rack width"
+ },
+ {
+  "id": "bmds-ultrastudio-express-recorder-3g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio Express Recorder 3G",
+  "name": "UltraStudio Express Recorder 3G",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-17)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudio/techspecs/W-DLUS-17",
+  "notes": "Bus-powered USB capture box, SD and HD up to 1080p60. One end: 3G-SDI in and HDMI in; other end: USB-C, which needs a USB 40Gb/s (USB4 or Thunderbolt) port on the computer and powers the unit. 45 x 25 x 92 mm (W x H x D), 0.16 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (USB 40Gb/s, power)"
+   }
+  ],
+  "specId": "W-DLUS-17",
+  "weightKg": 0.16,
+  "boxMm": {
+   "w": 45,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-ultrastudio-express-monitor-3g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio Express Monitor 3G",
+  "name": "UltraStudio Express Monitor 3G",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-18)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudio/techspecs/W-DLUS-18",
+  "notes": "Bus-powered USB playback box, SD and HD up to 1080p60. One end: 3G-SDI out and HDMI out; other end: USB-C, which needs a USB 40Gb/s (USB4 or Thunderbolt) port on the computer and powers the unit. 45 x 25 x 92 mm (W x H x D), 0.16 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (USB 40Gb/s, power)"
+   }
+  ],
+  "specId": "W-DLUS-18",
+  "weightKg": 0.16,
+  "boxMm": {
+   "w": 45,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-ultrastudio-mini-recorder-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio Mini Recorder 12G",
+  "name": "UltraStudio Mini Recorder 12G",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-14)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudiomini/techspecs/W-DLUS-14",
+  "notes": "Thunderbolt 4 capture up to 2160p60. One end: 12G-SDI in, SDI loop out and HDMI 2.0 in; other end: Thunderbolt 4. Bus-powered from a Thunderbolt 4 USB-C port (Apple silicon Mac, Windows or Linux), 15 W. 66 x 25 x 148 mm (W x H x D), 0.23 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 4"
+   }
+  ],
+  "specId": "W-DLUS-14",
+  "powerW": 15,
+  "weightKg": 0.23,
+  "boxMm": {
+   "w": 66,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-ultrastudio-mini-monitor-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio Mini Monitor 12G",
+  "name": "UltraStudio Mini Monitor 12G",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-15)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudiomini/techspecs/W-DLUS-15",
+  "notes": "Thunderbolt 4 playback up to 2160p60. One end: HDMI 2.0 out and two 12G-SDI outs (fill and key); other end: Thunderbolt 4. Bus-powered from a Thunderbolt 4 USB-C port (Apple silicon Mac, Windows or Linux), 15 W. 66 x 25 x 148 mm (W x H x D), 0.23 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Fill"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Key"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 4"
+   }
+  ],
+  "specId": "W-DLUS-15",
+  "powerW": 15,
+  "weightKg": 0.23,
+  "boxMm": {
+   "w": 66,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-ultrastudio-mini-replay-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "UltraStudio Mini Replay 12G",
+  "name": "UltraStudio Mini Replay 12G",
+  "family": "UltraStudio",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-DLUS-16)",
+  "productUrl": "https://www.blackmagicdesign.com/products/ultrastudiomini/techspecs/W-DLUS-16",
+  "notes": "Thunderbolt 4 replay interface (DaVinci Resolve Replay). One end: 12G-SDI in, fill, key and monitor outs; other end: Thunderbolt 4. Bus-powered from a Thunderbolt 4 USB-C port (Apple silicon Mac, Windows or Linux), 15 W. 81 x 25 x 148 mm (W x H x D), 0.3 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Fill"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Key"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt 4"
+   }
+  ],
+  "specId": "W-DLUS-16",
+  "powerW": 15,
+  "weightKg": 0.3,
+  "boxMm": {
+   "w": 81,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-to-hdmi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI to HDMI 12G",
+  "name": "Teranex Mini SDI to HDMI 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-01)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-01",
+  "notes": "12G-SDI to HDMI 2.0 up to 2160p60 with 3D LUTs; 2 XLR outs for analog or 4 ch AES/EBU audio (right XLR can carry timecode). One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-01",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-hdmi-to-sdi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini HDMI to SDI 12G",
+  "name": "Teranex Mini HDMI to SDI 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-02)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-02",
+  "notes": "HDMI 2.0 to two 12G-SDI outs; 2 XLR ins for analog or AES/EBU audio to embed. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-02",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-to-analog-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI to Analog 12G",
+  "name": "Teranex Mini SDI to Analog 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-03)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-03",
+  "notes": "12G-SDI to component, S-Video or composite (3 BNC), with 2 XLR audio outs. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.66 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog Out (Y/B-Y/R-Y, S-Video, composite)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-03",
+  "powerW": 16,
+  "weightKg": 0.66,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-analog-to-sdi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini Analog to SDI 12G",
+  "name": "Teranex Mini Analog to SDI 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-04)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-04",
+  "notes": "Component, S-Video or composite (3 BNC) to two 12G-SDI outs, with 2 XLR audio ins. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.64 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog In (Y/B-Y/R-Y, S-Video, composite)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-04",
+  "powerW": 16,
+  "weightKg": 0.64,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-to-audio-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI to Audio 12G",
+  "name": "Teranex Mini SDI to Audio 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-05)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-05",
+  "notes": "De-embeds SDI audio to 2 XLR (analog or 4 ch AES/EBU), unbalanced RCA stereo and optical S/PDIF. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.6 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Stereo Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-05",
+  "powerW": 16,
+  "weightKg": 0.6,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-audio-to-sdi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini Audio to SDI 12G",
+  "name": "Teranex Mini Audio to SDI 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-06)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-06",
+  "notes": "Embeds audio from 2 XLR (analog or AES/EBU), RCA stereo or optical S/PDIF into 12G-SDI. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.6 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Stereo In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-06",
+  "powerW": 16,
+  "weightKg": 0.6,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-optical-to-hdmi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini Optical to HDMI 12G",
+  "name": "Teranex Mini Optical to HDMI 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-07)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-07",
+  "notes": "SMPTE optical fibre or 12G-SDI to HDMI 2.0; the optical SFP (single-mode 1310 nm, LC) is sold separately. 2 XLR audio outs. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Optical Out/In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-07",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-hdmi-to-optical-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini HDMI to Optical 12G",
+  "name": "Teranex Mini HDMI to Optical 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-08)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-08",
+  "notes": "HDMI 2.0 to 12G-SDI and SMPTE optical fibre (SFP sold separately). 2 XLR audio ins. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Optical Out/In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In L/R (analog or AES/EBU, R = T/C)"
+   }
+  ],
+  "specId": "W-TERAMIN-08",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-distribution-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI Distribution 12G",
+  "name": "Teranex Mini SDI Distribution 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-29)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-29",
+  "notes": "1 x 12G-SDI in to 8 reclocked 12G-SDI outs. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   }
+  ],
+  "specId": "W-TERAMIN-29",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-12g-sdi-to-quad-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini 12G-SDI to Quad SDI",
+  "name": "Teranex Mini 12G-SDI to Quad SDI",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-27)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-27",
+  "notes": "12G-SDI to quad link (A-D) or dual link SDI for older 4K gear. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Quad/Dual Link Out"
+   }
+  ],
+  "specId": "W-TERAMIN-27",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-quad-sdi-to-12g-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini Quad SDI to 12G-SDI",
+  "name": "Teranex Mini Quad SDI to 12G-SDI",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-28)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-28",
+  "notes": "Quad link (A-D) or dual link SDI in to two 12G-SDI outs. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Quad/Dual Link In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   }
+  ],
+  "specId": "W-TERAMIN-28",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-ip-video-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini IP Video 12G",
+  "name": "Teranex Mini IP Video 12G",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-30)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini/techspecs/W-TERAMIN-30",
+  "notes": "SMPTE 2022-6 / TICO IP video: 1080p60 on the built-in gigabit Ethernet (PoE+) or 2160p60 on the optional 10G SFP. One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G Ethernet (SFP)"
+   }
+  ],
+  "specId": "W-TERAMIN-30",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-to-hdmi-8k-hdr",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI to HDMI 8K HDR",
+  "name": "Teranex Mini SDI to HDMI 8K HDR",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-31)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini8k/techspecs/W-TERAMIN-31",
+  "notes": "8K monitoring converter: 4 x 12G-SDI in (single, dual or quad link up to 4320p60) with loops, 4 x HDMI 2.0 out (single link HD/4K or quad link 8K), HDR and 33-point 3D LUTs, RCA stereo out. 25 W. Half rack width, 1RU: two per rack unit on the Blackmagic Universal Rack Shelf. Front: LCD, buttons, knob and USB-C; back: IEC C14 (100-240V AC) and Ethernet for setup. 210 x 44 x 176 mm (W x H x D), 1.2 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Stereo Out"
+   }
+  ],
+  "specId": "W-TERAMIN-31",
+  "powerW": 25,
+  "weightKg": 1.2,
+  "formFactor": "Blackmagic 1/2 rack width"
+ },
+ {
+  "id": "bmds-teranex-mini-sdi-to-displayport-8k-hdr",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini SDI to DisplayPort 8K HDR",
+  "name": "Teranex Mini SDI to DisplayPort 8K HDR",
+  "family": "Teranex Mini",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-TERAMIN-32)",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini8k/techspecs/W-TERAMIN-32",
+  "notes": "8K monitoring converter: 4 x 12G-SDI in with loops to 2 x DisplayPort (one for 4K, both for 8K) and a USB-C DisplayPort out (passive cables only), HDR and 3D LUTs, RCA stereo out. 35 W. Half rack width, 1RU: two per rack unit on the Blackmagic Universal Rack Shelf. Front: LCD, buttons, knob and USB-C; back: IEC C14 (100-240V AC) and Ethernet for setup. 210 x 44 x 176 mm (W x H x D), 1.2 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C DisplayPort Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Stereo Out"
+   }
+  ],
+  "specId": "W-TERAMIN-32",
+  "powerW": 35,
+  "weightKg": 1.2,
+  "formFactor": "Blackmagic 1/2 rack width"
+ },
+ {
+  "id": "bmds-multiview-4",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Blackmagic MultiView 4",
+  "name": "Blackmagic MultiView 4",
+  "family": "MultiView",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-MVW-02)",
+  "productUrl": "https://www.blackmagicdesign.com/products/multiview/techspecs/W-MVW-02",
+  "notes": "4-view multiviewer: 4 x 6G-SDI in with loops, HD or Ultra HD multiview on 6G-SDI and HDMI, labels, tally and audio meters.  One-third rack width, 1RU: three per rack unit on the Blackmagic Universal Rack Shelf or Teranex Mini Rack Shelf. Power: IEC C14 (100-240V AC) or 48V PoE+ on the Ethernet port, 16 W. Front: USB and mini switches under a cover (an optional Teranex Mini Smart Panel adds an LCD and buttons). 140 x 44 x 170 mm (W x H x D), 0.58 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (under cover)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Multiview Out (HD/UHD)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   }
+  ],
+  "specId": "W-MVW-02",
+  "powerW": 16,
+  "weightKg": 0.58,
+  "formFactor": "Blackmagic 1/3 rack width"
+ },
+ {
+  "id": "bmds-multiview-4-hd",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Blackmagic MultiView 4 HD",
+  "name": "Blackmagic MultiView 4 HD",
+  "family": "MultiView",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-MVW-03)",
+  "productUrl": "https://www.blackmagicdesign.com/products/multiview/techspecs/W-MVW-03",
+  "notes": "Mini Converter sized 4-view HD multiviewer: 4 x SD/HD-SDI in on one end; HD-SDI multiview out, HDMI out and DC power on the other. 12V supply included, 5.5 W. 92 x 22 x 134 mm (W x H x D), 0.24 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "6-30V DC In"
+   }
+  ],
+  "specId": "W-MVW-03",
+  "powerW": 5.5,
+  "weightKg": 0.24,
+  "boxMm": {
+   "w": 92,
+   "h": 22
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-to-hdmi-6g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI to HDMI 6G",
+  "name": "Mini Converter SDI to HDMI 6G",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-26)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-26",
+  "notes": "SD/HD/6G-SDI (with failover ALT input) to HDMI with 3D LUT; 2 balanced 1/4 inch jacks for analog or AES/EBU audio out. 5.2 W, 12V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "L/R Analog or AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-CONM-26",
+  "powerW": 5.2,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-hdmi-to-sdi-6g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter HDMI to SDI 6G",
+  "name": "Mini Converter HDMI to SDI 6G",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-27)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-27",
+  "notes": "HDMI to two 6G-SDI outs; 2 balanced 1/4 inch jacks for analog or AES/EBU audio in. 4.44 W, 12V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "L/R Analog or AES/EBU In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-CONM-27",
+  "powerW": 4.44,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-to-audio-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI to Audio 4K",
+  "name": "Mini Converter SDI to Audio 4K",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-06)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-06",
+  "notes": "De-embeds 4 ch analog or 8 ch AES/EBU from SD/HD/6G-SDI to 4 balanced 1/4 inch jacks. 5.52 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "CH 1-4 Analog / AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-06",
+  "powerW": 5.52,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-audio-to-sdi-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter Audio to SDI 4K",
+  "name": "Mini Converter Audio to SDI 4K",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-05)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-05",
+  "notes": "Embeds 4 ch analog or 8 ch AES/EBU from 4 balanced 1/4 inch jacks into SD/HD/6G-SDI. 8.4 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "CH 1-4 Analog / AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-05",
+  "powerW": 8.4,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-to-analog-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI to Analog 4K",
+  "name": "Mini Converter SDI to Analog 4K",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-19)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-19",
+  "notes": "SD/HD/6G-SDI to component, S-Video or composite (3 BNC, down-converted from Ultra HD), with 2 audio jacks. 8.04 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog Out (Y/B-Y/R-Y, S-Video, composite)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "L/R Analog or AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-19",
+  "powerW": 8.04,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-distribution-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI Distribution 4K",
+  "name": "Mini Converter SDI Distribution 4K",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-21)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-21",
+  "notes": "1 x SD/HD/6G-SDI in to 8 reclocked outs (3 beside the input, 5 on the other end). Passes ASI. 4.8 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "6G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-21",
+  "powerW": 4.8,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-to-audio",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI to Audio",
+  "name": "Mini Converter SDI to Audio",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-22)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-22",
+  "notes": "De-embeds 4 ch analog or 8 ch AES/EBU from SD/HD/3G-SDI to 4 balanced 1/4 inch jacks. 5.52 W, 12-15V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "CH 1-4 Analog / AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-15V DC In"
+   }
+  ],
+  "specId": "W-CONM-22",
+  "powerW": 5.52,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-audio-to-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter Audio to SDI",
+  "name": "Mini Converter Audio to SDI",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-04)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-04",
+  "notes": "Embeds 4 ch analog or 8 ch AES/EBU from 4 balanced 1/4 inch jacks into SD/HD/3G-SDI. 8.4 W, 12V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "CH 1-4 Analog / AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-CONM-04",
+  "powerW": 8.4,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-to-analog",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI to Analog",
+  "name": "Mini Converter SDI to Analog",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-01)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-01",
+  "notes": "SD/HD-SDI to component, S-Video or composite (3 BNC), with 2 audio jacks. 8.04 W, 12-15V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ALT SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog Out (Y/B-Y/R-Y, S-Video, composite)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "L/R Analog or AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-15V DC In"
+   }
+  ],
+  "specId": "W-CONM-01",
+  "powerW": 8.04,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-analog-to-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter Analog to SDI",
+  "name": "Mini Converter Analog to SDI",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-00)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-00",
+  "notes": "Component, S-Video or composite (3 BNC) to two SD/HD-SDI outs, with 2 audio jacks. 6.5 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Analog In (Y/B-Y/R-Y, S-Video, composite)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "L/R Analog or AES/EBU In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-00",
+  "powerW": 6.5,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-optical-fiber-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter Optical Fiber 12G",
+  "name": "Mini Converter Optical Fiber 12G",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-29)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-29",
+  "notes": "Bi-directional 12G-SDI to SMPTE optical fibre and back; the SFP module is sold separately. No user controls; passes ASI. 2 W, 6-36V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Optical Out/In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "6-36V DC In"
+   }
+  ],
+  "specId": "W-CONM-29",
+  "powerW": 2,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sync-generator",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter Sync Generator",
+  "name": "Mini Converter Sync Generator",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-15)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-15",
+  "notes": "6 black burst or tri-level reference outputs (3 on each end), SD and HD formats set by switches. 3 W, 12V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-CONM-15",
+  "powerW": 3,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-sdi-distribution",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter SDI Distribution",
+  "name": "Mini Converter SDI Distribution",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-13)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-13",
+  "notes": "1 x SD/HD/3G-SDI in to 8 reclocked outs (3 beside the input, 5 on the other end). Passes ASI. 4.8 W, 12-31V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12-31V DC In"
+   }
+  ],
+  "specId": "W-CONM-13",
+  "powerW": 4.8,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-mini-converter-updowncross-hd",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Mini Converter UpDownCross HD",
+  "name": "Mini Converter UpDownCross HD",
+  "family": "Mini Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONM-28)",
+  "productUrl": "https://www.blackmagicdesign.com/products/miniconverters/techspecs/W-CONM-28",
+  "notes": "Up, down and cross conversion between SD and HD (SDI or HDMI in, SDI and HDMI out) with reference input and audio delay. 5 W, 6-36V DC. Mini Converter box: connectors on both ends (SDI and DC power on one, the rest on the other), USB for setup and mini switches. Universal 12V supply included. Sits on a rack shelf. 92 x 23 x 114 mm (W x H x D), 0.25 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "6-36V DC In"
+   }
+  ],
+  "specId": "W-CONM-28",
+  "powerW": 5,
+  "weightKg": 0.25,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-micro-converter-sdi-to-hdmi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter SDI to HDMI 12G",
+  "name": "Micro Converter SDI to HDMI 12G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-18)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-18",
+  "notes": "SD/HD/6G/12G-SDI to HDMI 2.0 with 33-point 3D LUT. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 4 W); the \"wPSU\" version (W-CONU-21) adds a 5V supply. Tiny metal box, sits on a rack shelf. 46 x 25 x 78 mm (W x H x D), 0.15 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-18",
+  "powerW": 4,
+  "weightKg": 0.15,
+  "boxMm": {
+   "w": 46,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-micro-converter-hdmi-to-sdi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter HDMI to SDI 12G",
+  "name": "Micro Converter HDMI to SDI 12G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-17)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-17",
+  "notes": "HDMI 2.0 to two 12G-SDI outs. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 4 W); the \"wPSU\" version (W-CONU-20) adds a 5V supply. Tiny metal box, sits on a rack shelf. 46 x 25 x 78 mm (W x H x D), 0.15 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-17",
+  "powerW": 4,
+  "weightKg": 0.15,
+  "boxMm": {
+   "w": 46,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-micro-converter-bidirectional-sdi-hdmi-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter BiDirectional SDI/HDMI 12G",
+  "name": "Micro Converter BiDirectional SDI/HDMI 12G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-16)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-16",
+  "notes": "SDI to HDMI and HDMI to SDI at the same time, up to 2160p60, with camera control and tally. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 5 W); the \"wPSU\" version (W-CONU-19) adds a 5V supply. Tiny metal box, sits on a rack shelf. 59 x 25 x 80 mm (W x H x D), 0.17 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-16",
+  "powerW": 5,
+  "weightKg": 0.17,
+  "boxMm": {
+   "w": 59,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-micro-converter-sdi-to-hdmi-3g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter SDI to HDMI 3G",
+  "name": "Micro Converter SDI to HDMI 3G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-12)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-12",
+  "notes": "SD/HD-SDI to HDMI with 17-point LUT. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 1.6 W); the \"wPSU\" version (W-CONU-14) adds a 5V supply. Tiny metal box, sits on a rack shelf. 46 x 25 x 80 mm (W x H x D), 0.15 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-12",
+  "powerW": 1.6,
+  "weightKg": 0.15,
+  "boxMm": {
+   "w": 46,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-micro-converter-hdmi-to-sdi-3g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter HDMI to SDI 3G",
+  "name": "Micro Converter HDMI to SDI 3G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-11)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-11",
+  "notes": "HDMI to two SD/HD-SDI outs. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 2 W); the \"wPSU\" version (W-CONU-13) adds a 5V supply. Tiny metal box, sits on a rack shelf. 46 x 25 x 80 mm (W x H x D), 0.15 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-11",
+  "powerW": 2,
+  "weightKg": 0.15,
+  "boxMm": {
+   "w": 46,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-micro-converter-bidirectional-sdi-hdmi-3g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Converter BiDirectional SDI/HDMI 3G",
+  "name": "Micro Converter BiDirectional SDI/HDMI 3G (with or without PSU)",
+  "family": "Micro Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-CONU-09)",
+  "productUrl": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-09",
+  "notes": "SD/HD SDI to HDMI and HDMI to SDI at the same time, with camera control and tally. SDI on one end, HDMI and USB-C on the other. Powered by USB-C (5V, 2.5 W); the \"wPSU\" version (W-CONU-10) adds a 5V supply. Tiny metal box, sits on a rack shelf. 59 x 25 x 80 mm (W x H x D), 0.17 kg. Check: 3G BiDirectional size taken from the 12G one.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5V power, setup)"
+   }
+  ],
+  "specId": "W-CONU-09",
+  "powerW": 2.5,
+  "weightKg": 0.17,
+  "boxMm": {
+   "w": 59,
+   "h": 25
+  }
+ },
+ {
+  "id": "bmds-atem-streaming-bridge",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Streaming Bridge",
+  "name": "ATEM Streaming Bridge",
+  "family": "ATEM",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-16)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atem/techspecs/W-APS-16",
+  "notes": "Receives an H.264 stream from an ATEM Mini or ATEM SDI over a network or the internet and outputs it as SDI and HDMI (up to 1080p60). Ethernet and reference in on one end; 2 x 3G-SDI out, HDMI out, USB-C and DC power on the other. 12V supply included, 6 W. 92 x 23 x 134 mm (W x H x D), 0.23 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (stream in)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (setup)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In (6-30V)"
+   }
+  ],
+  "specId": "W-APS-16",
+  "powerW": 6,
+  "weightKg": 0.23,
+  "boxMm": {
+   "w": 92,
+   "h": 23
+  }
+ },
+ {
+  "id": "bmds-atem-microphone-converter",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Microphone Converter",
+  "name": "ATEM Microphone Converter",
+  "family": "ATEM",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-ATC-05)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemtelevisionstudio/techspecs/W-ATC-05",
+  "notes": "4 mic/line combo XLR/TRS inputs with 48V phantom to 64-channel MADI, for ATEM switchers with MADI in. MADI in and out, HDMI monitor out (meters), USB-C and Ethernet. 12V supply with locking connector, 12 W. 125 x 41 x 200 mm (W x H x D), 0.85 kg. Sits on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (locking)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-ATC-05",
+  "powerW": 12,
+  "weightKg": 0.85,
+  "boxMm": {
+   "w": 125,
+   "h": 41
+  }
+ },
+ {
+  "id": "bmds-atem-mini-pro",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Mini Pro",
+  "name": "ATEM Mini Pro",
+  "family": "ATEM Mini",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-14)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemmini/techspecs/W-APS-14",
+  "notes": "4 x HDMI in, HDMI program out, live streaming over Ethernet, USB-C recording to disk and webcam out. 30 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 237 x 35 x 103 mm (W x H x D), 0.55 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C Out (webcam, disk)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-14",
+  "powerW": 30,
+  "weightKg": 0.55,
+  "boxMm": {
+   "w": 237,
+   "h": 35
+  }
+ },
+ {
+  "id": "bmds-atem-mini-pro-iso",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Mini Pro ISO",
+  "name": "ATEM Mini Pro ISO",
+  "family": "ATEM Mini",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-15)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemmini/techspecs/W-APS-15",
+  "notes": "4 x HDMI in, HDMI program out, streaming, and ISO recording of every input to a USB disk. 36 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 237 x 35 x 103 mm (W x H x D), 0.55 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C Out (webcam, disk)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-15",
+  "powerW": 36,
+  "weightKg": 0.55,
+  "boxMm": {
+   "w": 237,
+   "h": 35
+  }
+ },
+ {
+  "id": "bmds-atem-mini-extreme",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Mini Extreme",
+  "name": "ATEM Mini Extreme",
+  "family": "ATEM Mini",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 10,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-17)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemmini/techspecs/W-APS-17",
+  "notes": "8 x HDMI in, 2 x HDMI out (program, aux), streaming over Ethernet, 2 x USB-C for disks and webcam out. 36 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 370 x 40 x 136 mm (W x H x D), 1.23 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-17",
+  "powerW": 36,
+  "weightKg": 1.23,
+  "boxMm": {
+   "w": 370,
+   "h": 40
+  }
+ },
+ {
+  "id": "bmds-atem-mini-extreme-iso-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM Mini Extreme ISO G2",
+  "name": "ATEM Mini Extreme ISO G2",
+  "family": "ATEM Mini",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 11,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-44)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemmini/techspecs/W-APS-44",
+  "notes": "8 x HDMI in, 3 x HDMI out, ISO recording, 1G and 10G Ethernet, 2 x USB-C and Thunderbolt, MADI in (32 ch) and 2 combo XLR mic/line ins with phantom power. 120 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 2RU; the 12V supply has a locking DC plug. 414 x 50 x 187 mm (W x H x D), 1.86 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1G Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Thunderbolt (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Line/Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-44",
+  "powerW": 120,
+  "weightKg": 1.86,
+  "boxMm": {
+   "w": 414,
+   "h": 50
+  }
+ },
+ {
+  "id": "bmds-atem-sdi",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM SDI",
+  "name": "ATEM SDI",
+  "family": "ATEM SDI",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-30)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemsdi/techspecs/W-APS-30",
+  "notes": "4 x 3G-SDI in, 2 x 3G-SDI out (program, aux), Ethernet, USB-C webcam out. 18 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 237 x 35 x 119 mm (W x H x D), 0.68 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (USB 2)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-30",
+  "powerW": 18,
+  "weightKg": 0.68,
+  "boxMm": {
+   "w": 237,
+   "h": 35
+  }
+ },
+ {
+  "id": "bmds-atem-sdi-pro-iso",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM SDI Pro ISO",
+  "name": "ATEM SDI Pro ISO",
+  "family": "ATEM SDI",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-32)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemsdi/techspecs/W-APS-32",
+  "notes": "4 x 3G-SDI in, 2 x 3G-SDI out, streaming and ISO recording to a USB disk. 36 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 237 x 35 x 119 mm (W x H x D), 0.68 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C Out (webcam, disk)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-32",
+  "powerW": 36,
+  "weightKg": 0.68,
+  "boxMm": {
+   "w": 237,
+   "h": 35
+  }
+ },
+ {
+  "id": "bmds-atem-sdi-extreme-iso",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "ATEM SDI Extreme ISO",
+  "name": "ATEM SDI Extreme ISO",
+  "family": "ATEM SDI",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 10,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design tech specs (W-APS-36)",
+  "productUrl": "https://www.blackmagicdesign.com/products/atemsdi/techspecs/W-APS-36",
+  "notes": "8 x 3G-SDI in, 4 x 3G-SDI out (program, aux), streaming and ISO recording. 36 W. Desktop switcher: buttons on top, every connector on the back edge. Lying flat on a rack shelf it needs 1RU; the 12V supply has a locking DC plug. 370 x 40 x 151 mm (W x H x D), 1.42 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ATEM Control / Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "specId": "W-APS-36",
+  "powerW": 36,
+  "weightKg": 1.42,
+  "boxMm": {
+   "w": 370,
+   "h": 40
+  }
+ },
+ {
+  "id": "bmds-universal-rack-shelf-thirds",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Blackmagic Universal Rack Shelf",
+  "name": "Blackmagic Universal Rack Shelf (3 x 1/3 width)",
+  "family": "Rack Shelf",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini8k",
+  "notes": "1RU rack shelf for Blackmagic one-third and half rack width units (Teranex Mini, MultiView 4, HyperDeck Studio HD Mini and HD Plus, Streaming Encoder and Decoder, UltraStudio 4K Mini and Express HD, Web Presenter, Studio Converter, Teranex Mini 8K), with blanking panels for empty spaces. This entry is set up for three one-third width units. For two half width units use the other Universal Rack Shelf entry; for a mix, place the units straight into the rack at 1/3 and 1/2 width.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Blackmagic 1/3 rack width"
+   ]
+  }
+ },
+ {
+  "id": "bmds-universal-rack-shelf-halves",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Blackmagic Universal Rack Shelf",
+  "name": "Blackmagic Universal Rack Shelf (2 x 1/2 width)",
+  "family": "Rack Shelf",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/teranexmini8k",
+  "notes": "1RU rack shelf for Blackmagic one-third and half rack width units (Teranex Mini, MultiView 4, HyperDeck Studio HD Mini and HD Plus, Streaming Encoder and Decoder, UltraStudio 4K Mini and Express HD, Web Presenter, Studio Converter, Teranex Mini 8K), with blanking panels for empty spaces. This entry is set up for two half width units.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "Blackmagic 1/2 rack width"
+   ]
+  }
+ },
+ {
+  "id": "bmds-teranex-mini-rack-shelf",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Teranex Mini Rack Shelf",
+  "name": "Teranex Mini Rack Shelf (3 x 1/3 width)",
+  "family": "Rack Shelf",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/hyperdeckstudio",
+  "notes": "1RU shelf for three Teranex Mini sized (one-third width) units: Teranex Mini, MultiView 4, HyperDeck Studio HD Mini and similar. Earlier model, largely replaced by the Universal Rack Shelf.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Blackmagic 1/3 rack width"
+   ]
+  }
+ }
+]

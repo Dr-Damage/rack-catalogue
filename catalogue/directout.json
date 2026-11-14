@@ -1,0 +1,783 @@
+[
+ {
+  "id": "directout-exbox-md",
+  "manufacturer": "DirectOut",
+  "partNumber": "EXBOX.MD",
+  "name": "EXBOX.MD Dante / MADI converter",
+  "family": "EXBOX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/exbox-md/",
+  "notes": "Dante / MADI converter: 64 channels both ways between Dante (or AES67) and MADI. Network: 4 x RJ45 1 Gb/s on an internal switch, 01 (PoE) and 02 primary, 03 and 04 secondary (Dante redundancy). One-third 19 inch width: 140 x 42 x 140 mm (W x H x D), about 1 kg. Three fit side by side in 1RU on the BOXMOUNT.XL kit. Power: 2 x Hirose 4-pin DC inlets (9-24V, PSU 1 and 2; one external supply included, a second is optional) or PoE (802.3af) on network port 01. MADI: coaxial BNC out and in, optical SC duplex (multi-mode; single-mode version available) and an SFP cage (transceiver sold separately). Front: LEDs for clock source, sample rate, state and power only. FastSRC sample rate converters on the network side. 44.1-192 kHz, MADI 56/64 ch, 48k/96k frame, S/MUX.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Hirose 4-pin (9-24V DC)",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante 01 (PoE) Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante 02 Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante 03 Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante 04 Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SC duplex (multi-mode)",
+    "count": 1,
+    "prefix": "MADI SC Out/In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "MADI SFP I/O"
+   }
+  ],
+  "weightKg": 1.0,
+  "formFactor": "DirectOut EXBOX (1/3 width)"
+ },
+ {
+  "id": "directout-exbox-rav",
+  "manufacturer": "DirectOut",
+  "partNumber": "EXBOX.RAV",
+  "name": "EXBOX.RAV RAVENNA/AES67 / MADI converter",
+  "family": "EXBOX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/exbox-rav/",
+  "notes": "RAVENNA / MADI converter: 64 channels both ways between RAVENNA, AES67 or SMPTE ST 2110-30/-31 and MADI. Network: 4 x RJ45 1 Gb/s on an internal switch (one with PoE). One-third 19 inch width: 140 x 42 x 140 mm (W x H x D), about 1 kg. Three fit side by side in 1RU on the BOXMOUNT.XL kit. Power: 2 x Hirose 4-pin DC inlets (9-24V, PSU 1 and 2; one external supply included, a second is optional) or PoE (802.3af) on network port 01. MADI: coaxial BNC out and in, optical SC duplex (multi-mode; single-mode version available) and an SFP cage (transceiver sold separately). Front: LEDs for clock source, sample rate, state and power only. FastSRC sample rate converters on the network side. 44.1-192 kHz, MADI 56/64 ch, 48k/96k frame, S/MUX.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Hirose 4-pin (9-24V DC)",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RAVENNA/AES67 01 (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RAVENNA/AES67 02"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RAVENNA/AES67 03"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RAVENNA/AES67 04"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SC duplex (multi-mode)",
+    "count": 1,
+    "prefix": "MADI SC Out/In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "MADI SFP I/O"
+   }
+  ],
+  "weightKg": 1.0,
+  "formFactor": "DirectOut EXBOX (1/3 width)"
+ },
+ {
+  "id": "directout-exbox-sg",
+  "manufacturer": "DirectOut",
+  "partNumber": "EXBOX.SG",
+  "name": "EXBOX.SG SoundGrid / MADI converter",
+  "family": "EXBOX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/exbox-sg/",
+  "notes": "SoundGrid / MADI converter: links a Waves SoundGrid network with MADI. Network: 4 x RJ45 1 Gb/s on an internal switch (one with PoE). Word clock in on BNC. One-third 19 inch width: 140 x 42 x 140 mm (W x H x D), about 1 kg. Three fit side by side in 1RU on the BOXMOUNT.XL kit. Power: 2 x Hirose 4-pin DC inlets (9-24V, PSU 1 and 2; one external supply included, a second is optional) or PoE (802.3af) on network port 01. MADI: coaxial BNC out and in, optical SC duplex (multi-mode; single-mode version available) and an SFP cage (transceiver sold separately). Front: LEDs for clock source, sample rate, state and power only. FastSRC sample rate converters on the network side. 44.1-192 kHz, MADI 56/64 ch, 48k/96k frame, S/MUX.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Hirose 4-pin (9-24V DC)",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SoundGrid 01 (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SoundGrid 02"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SoundGrid 03"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SoundGrid 04"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI BNC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SC duplex (multi-mode)",
+    "count": 1,
+    "prefix": "MADI SC Out/In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "MADI SFP I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   }
+  ],
+  "weightKg": 1.0,
+  "formFactor": "DirectOut EXBOX (1/3 width)"
+ },
+ {
+  "id": "directout-boxmount-xl",
+  "manufacturer": "DirectOut",
+  "partNumber": "BOXMOUNT.XL",
+  "name": "BOXMOUNT.XL 1RU rack kit for 3 EXBOX",
+  "family": "EXBOX",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/exbox-md/",
+  "notes": "1RU 19 inch mounting kit that holds up to three one-third width EXBOX units (EXBOX.MD, EXBOX.RAV, EXBOX.SG) side by side. Add each EXBOX as its own device. Check: part number and whether it also takes other one-third width units.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "DirectOut EXBOX (1/3 width)"
+   ]
+  }
+ },
+ {
+  "id": "directout-montone-42",
+  "manufacturer": "DirectOut",
+  "partNumber": "MONTONE.42",
+  "name": "MONTONE.42 MADI / RAVENNA (AES67, ST 2110-30) bridge",
+  "family": "MONTONE",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/montone-42/",
+  "notes": "1RU bridge between 4 MADI ports and RAVENNA / AES67 / SMPTE ST 2110-30/-31 (with ST 2022-7 redundancy on the 2 network ports). Each MADI port is ordered as SC (single- or multi-mode), coaxial BNC or SFP cage. Word clock in (AES11/DARS) and out, black burst video reference in. Front: 3 small displays, controls, headphone jack and a USB service port. 2 phase-redundant supplies on separate IEC inlets with power switches, 15 W. 483 x 44.5 x 254 mm, about 4 kg. Check: USB service connector type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Service"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SC / BNC / SFP (as ordered)",
+    "count": 4,
+    "prefix": "MADI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "RAVENNA/AES67 Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 15,
+  "weightKg": 4.0
+ },
+ {
+  "id": "directout-andiamo",
+  "manufacturer": "DirectOut",
+  "partNumber": "ANDIAMO",
+  "name": "ANDIAMO 32-channel AD/DA converter (MADI, network)",
+  "family": "ANDIAMO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/andiamo/",
+  "notes": "Third generation ANDIAMO: 32 analog inputs and 32 outputs on 8 balanced DB25 (AES59) connectors, 2 MADI ports on SFP cages (transceivers sold separately), an optional audio network card (RAVENNA/AES67, Dante or SoundGrid) with 2 RJ45 ports on independent NICs, RJ45 management, word clock BNCs. 2 phase-redundant supplies on separate IEC inlets with power switches. 483 x 44.5 x 254 mm, about 4 kg. Check: whether the 8 DB25 split 4 in / 4 out, and which word clock BNC is in or out.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 4,
+    "prefix": "Analog In (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 4,
+    "prefix": "Analog Out (8 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI audio",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "MADI SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Audio Network (option card)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 4.0
+ },
+ {
+  "id": "directout-prodigy-mc",
+  "manufacturer": "DirectOut",
+  "partNumber": "PRODIGY.MC",
+  "name": "PRODIGY.MC modular audio converter",
+  "family": "PRODIGY",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/prodigy-mc/",
+  "notes": "Modular converter: 1 A slot (up to 128 ch), 2 B slots (64 ch each), 8 C slots (8 ch each). 2RU, 483 x 89 x 254 mm, about 10 kg. 2 phase-redundant supplies (84-264V AC), 20-110 W depending on modules. Front: 5 inch touch display, encoder, 2 buttons, headphone outputs on 6.3 mm and 3.5 mm jacks. Its I/O comes from plug-in modules: A slots take an audio network module (Dante, RAVENNA/AES67, SoundGrid, MILAN, dual-network), 2-port MADI (MADI2.SRC.IO on SFP, MADI2.BNC.SRC.IO) or USB.IO; B slots take 1-port MADI (BNC.IO, SC.IO, SFP.IO); C slots take 8-channel converters on DB25 (AN8.IO, MIC8.HD.IO, MIC8.LINE.IO, AES4.IO). Slots are shown as card-slot ports; add the module connectors to the device to match the build. Check: power inlet type (IEC assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones 1"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Remote Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (2 in, 2 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "A Slot (network / MADI / USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "B Slot (MADI)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "C Slot (analog / AES, DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 110,
+  "weightKg": 10.0
+ },
+ {
+  "id": "directout-prodigy-mp",
+  "manufacturer": "DirectOut",
+  "partNumber": "PRODIGY.MP",
+  "name": "PRODIGY.MP multifunction audio processor",
+  "family": "PRODIGY",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/prodigy-mp/",
+  "notes": "Audio processor (DSP, matrix, tools): 2 A slots, 2 B slots, 4 C slots, up to 416 inputs and 420 outputs. 2RU, 483 x 89 x 254 mm, about 10 kg. 2 phase-redundant supplies (84-264V AC), 20-110 W depending on modules. Front: 5 inch touch display, encoder, 2 buttons, headphone outputs on 6.3 mm and 3.5 mm jacks. Its I/O comes from plug-in modules: A slots take an audio network module (Dante, RAVENNA/AES67, SoundGrid, MILAN, dual-network), 2-port MADI (MADI2.SRC.IO on SFP, MADI2.BNC.SRC.IO) or USB.IO; B slots take 1-port MADI (BNC.IO, SC.IO, SFP.IO); C slots take 8-channel converters on DB25 (AN8.IO, MIC8.HD.IO, MIC8.LINE.IO, AES4.IO). Slots are shown as card-slot ports; add the module connectors to the device to match the build. Check: power inlet type (IEC assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones 1"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Word Clock (WCK 2 can be video sync)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Management SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO (2 in, 2 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "A Slot (network / MADI / USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "B Slot (MADI)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "C Slot (analog / AES, DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 110,
+  "weightKg": 10.0
+ },
+ {
+  "id": "directout-prodigy-mx",
+  "manufacturer": "DirectOut",
+  "partNumber": "PRODIGY.MX",
+  "name": "PRODIGY.MX multiformat audio matrix",
+  "family": "PRODIGY",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DirectOut product page",
+  "productUrl": "https://www.directout.eu/product/prodigy-mx/",
+  "notes": "Audio matrix: 6 A slots (up to 256 ch each, including MADI4.IO), 2 B slots, up to 1664 inputs and 1668 outputs. 2RU, 483 x 89 x 254 mm, about 10 kg. 2 phase-redundant supplies (84-264V AC), 20-110 W depending on modules. Front: 5 inch touch display, encoder, 2 buttons, headphone outputs on 6.3 mm and 3.5 mm jacks. Its I/O comes from plug-in modules: A slots take an audio network module (Dante, RAVENNA/AES67, SoundGrid, MILAN, dual-network), 2-port MADI (MADI2.SRC.IO on SFP, MADI2.BNC.SRC.IO) or USB.IO; B slots take 1-port MADI (BNC.IO, SC.IO, SFP.IO); C slots take 8-channel converters on DB25 (AN8.IO, MIC8.HD.IO, MIC8.LINE.IO, AES4.IO). Slots are shown as card-slot ports; add the module connectors to the device to match the build. Check: power inlet type (IEC assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "6.3mm TRS",
+    "count": 1,
+    "prefix": "Headphones 1"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Management"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Management SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "A Slot (network / MADI / USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "B Slot (MADI)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 110,
+  "weightKg": 10.0
+ }
+]
