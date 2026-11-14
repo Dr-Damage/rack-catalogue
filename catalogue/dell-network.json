@@ -1,0 +1,997 @@
+[
+ {
+  "id": "dell-s5248f-on",
+  "manufacturer": "Dell",
+  "partNumber": "S5248F-ON",
+  "name": "PowerSwitch S5248F-ON 48 x 25G + 100G switch",
+  "family": "S5200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell EMC PowerSwitch S5200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/povw/networking-s-series-25-100gbe",
+  "notes": "Check: console, management and USB positions (the spec sheet lists an RJ45 console and management port only). Two hot-swap AC PSUs. 310 W typical / 647 W max, 460 mm deep, 9.7 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 2,
+    "prefix": "2 x 100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 647,
+  "weightKg": 9.7
+ },
+ {
+  "id": "dell-s5224f-on",
+  "manufacturer": "Dell",
+  "partNumber": "S5224F-ON",
+  "name": "PowerSwitch S5224F-ON 24 x 25G + 4 x 100G switch",
+  "family": "S5200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell EMC PowerSwitch S5200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/povw/networking-s-series-25-100gbe",
+  "notes": "Check: console, management and USB positions (the spec sheet lists an RJ45 console and management port only). Two hot-swap AC PSUs. 200 W typical / 455 W max, 460 mm deep, 9.7 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 24,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 455,
+  "weightKg": 9.7
+ },
+ {
+  "id": "dell-s5232f-on",
+  "manufacturer": "Dell",
+  "partNumber": "S5232F-ON",
+  "name": "PowerSwitch S5232F-ON 32 x 100G switch",
+  "family": "S5200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell EMC PowerSwitch S5200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/povw/networking-s-series-25-100gbe",
+  "notes": "Check: console, management and USB positions (the spec sheet lists an RJ45 console and management port only). Two hot-swap AC PSUs. 360 W typical / 635 W max, 460 mm deep, 9.8 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 635,
+  "weightKg": 9.8
+ },
+ {
+  "id": "dell-s5212f-on",
+  "manufacturer": "Dell",
+  "partNumber": "S5212F-ON",
+  "name": "PowerSwitch S5212F-ON 12 x 25G + 3 x 100G half-width switch",
+  "family": "S5200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell EMC PowerSwitch S5200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/povw/networking-s-series-25-100gbe",
+  "notes": "Check: console, management and USB positions (the spec sheet lists an RJ45 console and management port only). Half-width (209 mm), two fit side by side in 1RU with a tandem tray. 140 W typical / 304 W max, 490 mm deep, 4.5 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 12,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 3,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 304,
+  "weightKg": 4.5,
+  "boxMm": {
+   "w": 209,
+   "h": 41
+  }
+ },
+ {
+  "id": "dell-s5296f-on",
+  "manufacturer": "Dell",
+  "partNumber": "S5296F-ON",
+  "name": "PowerSwitch S5296F-ON 96 x 25G + 8 x 100G switch (2RU)",
+  "family": "S5200-ON",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell EMC PowerSwitch S5200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/povw/networking-s-series-25-100gbe",
+  "notes": "Check: console, management and USB positions (the spec sheet lists an RJ45 console and management port only). Two hot-swap AC PSUs. 457 W typical / 893 W max, 511 mm deep, 15.1 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 96,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 893,
+  "weightKg": 15.1
+ },
+ {
+  "id": "dell-n3224t-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3224T-ON",
+  "name": "PowerSwitch N3224T-ON 24 x 1G switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 550 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3224p-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3224P-ON",
+  "name": "PowerSwitch N3224P-ON 24 x 1G PoE+ switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 1050 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3224f-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3224F-ON",
+  "name": "PowerSwitch N3224F-ON 24 x 1G SFP switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 550 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3224px-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3224PX-ON",
+  "name": "PowerSwitch N3224PX-ON 24 x 10G PoE-bt switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 1600 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "100M-10G PoE-bt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3248te-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3248TE-ON",
+  "name": "PowerSwitch N3248TE-ON 48 x 1G switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 550 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3248p-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3248P-ON",
+  "name": "PowerSwitch N3248P-ON 48 x 1G PoE+ switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 1050 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3248x-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3248X-ON",
+  "name": "PowerSwitch N3248X-ON 48 x 10GBASE-T switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 550 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "100M-10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-n3248pxe-on",
+  "manufacturer": "Dell",
+  "partNumber": "N3248PXE-ON",
+  "name": "PowerSwitch N3248PXE-ON 48 x 10G PoE-bt switch",
+  "family": "N3200-ON",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerSwitch N3200-ON spec sheet",
+  "productUrl": "https://www.dell.com/en-us/shop/ipovw/networking-n-series",
+  "notes": "2 x 100G QSFP28 stacking ports on the rear. Ships with one 1600 W hot-swap AC PSU, second slot for redundancy. 400 mm deep. Check: console and management positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "100M-10G PoE-bt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB micro-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G stacking"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

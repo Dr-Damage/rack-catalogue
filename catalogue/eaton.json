@@ -1,0 +1,472 @@
+[
+ {
+  "id": "eaton-5px1500irt2ug2",
+  "manufacturer": "Eaton",
+  "partNumber": "5PX1500IRT2UG2",
+  "name": "5PX G2 1500 VA rack/tower UPS 2U, 230 V",
+  "family": "5PX G2",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5PX G2 data sheet (ANZ)",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-ups.html",
+  "notes": "Line-interactive, 1500 VA / 1500 W, 2U rack/tower. Outlets in switchable groups. Extended runtime with EBM48RT2U battery modules. 448 mm deep, 22.4 kg. Check: comms port positions (from the 3000 VA listing).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (NETWORK-M2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 22.4
+ },
+ {
+  "id": "eaton-5px2000irt2ug2",
+  "manufacturer": "Eaton",
+  "partNumber": "5PX2000IRT2UG2",
+  "name": "5PX G2 2000 VA rack/tower UPS 2U, 230 V",
+  "family": "5PX G2",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5PX G2 data sheet (ANZ)",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-ups.html",
+  "notes": "Line-interactive, 2000 VA / 2000 W, 2U rack/tower. Outlets in switchable groups. Extended runtime with EBM72RT2U battery modules. 603 mm deep, 28.0 kg. Check: comms port positions (from the 3000 VA listing).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (NETWORK-M2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 28.0
+ },
+ {
+  "id": "eaton-5px2200irt2uaug2",
+  "manufacturer": "Eaton",
+  "partNumber": "5PX2200IRT2UAUG2",
+  "name": "5PX G2 2200 VA rack/tower UPS 2U, 230 V",
+  "family": "5PX G2",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5PX G2 data sheet (ANZ)",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-ups.html",
+  "notes": "Line-interactive, 2200 VA / 2200 W, 2U rack/tower. Outlets in switchable groups. Extended runtime with EBM72RT2U battery modules. 603 mm deep, 28.2 kg. 3U version: 5PX2200IRT3UAUG2 (483 mm deep). Check: comms port positions (from the 3000 VA listing).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (NETWORK-M2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 28.2
+ },
+ {
+  "id": "eaton-5px3000irt2uaug2",
+  "manufacturer": "Eaton",
+  "partNumber": "5PX3000IRT2UAUG2",
+  "name": "5PX G2 3000 VA rack/tower UPS 2U, 230 V",
+  "family": "5PX G2",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 5PX G2 data sheet (ANZ)",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-ups.html",
+  "notes": "Line-interactive, 3000 VA / 3000 W, 2U rack/tower. Outlets in switchable groups. Extended runtime with EBM72RT2U battery modules. 603 mm deep, 31.7 kg. 3U version: 5PX3000IRT3UAUG2 (483 mm deep). Check: outlet layout (the data sheet table is unclear; shown as on the 2200). Check: comms port positions (from the 3000 VA listing).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (NETWORK-M2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 31.7
+ },
+ {
+  "id": "eaton-9px3000irt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX3000IRT2U",
+  "name": "9PX 3000 VA online rack/tower UPS 2U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX3000IRT2U product data sheet",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 3000 VA / 3000 W. Up to 4 EBMs. 605 mm deep, 27.6 kg. 1.8 m C20 input cord.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 27.6
+ },
+ {
+  "id": "eaton-emib04",
+  "manufacturer": "Eaton",
+  "partNumber": "EMIB04",
+  "name": "ePDU G3 metered input 0U, 16 A, 20 x C13 + 4 x C19",
+  "family": "ePDU G3",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton EMIB04 listing (Redcorp)",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-epdu-g3-metered-input.html",
+  "notes": "0U metered-input strip, 3.7 kW, billing-grade input metering with a hot-swap meter and LCD. Up to four strips daisy-chain on one network connection. 1070 mm long, 52 x 53 mm section, 3 kg. IEC 60309 16 A plug on a 3 m cord. Check: breaker layout (not given).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1070,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "meter",
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 10,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 4,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 10,
+     "circuit": "A"
+    }
+   ]
+  }
+ }
+]

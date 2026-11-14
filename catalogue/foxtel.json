@@ -1,0 +1,217 @@
+[
+ {
+  "id": "foxtel-iq5",
+  "manufacturer": "Foxtel",
+  "partNumber": "iQ5",
+  "name": "Foxtel iQ5 set-top box (satellite or internet)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
+  "productUrl": "https://www.foxtel.com.au/",
+  "notes": "Streaming box that also takes a satellite feed; about half the size of earlier iQ boxes. 4K HDR over HDMI 2.1. Sits on a rack shelf for off-air monitoring (about 210 mm wide, 40 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "Satellite In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Aerial In (PAL)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "foxtel-iq4",
+  "manufacturer": "Foxtel",
+  "partNumber": "iQ4",
+  "name": "Foxtel iQ4 set-top box (satellite, 4K)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
+  "productUrl": "https://www.foxtel.com.au/",
+  "notes": "Satellite-only 4K PVR (8 satellite + 2 terrestrial tuners); 4K needs a dual-output satellite feed. Sits on a rack shelf for off-air monitoring (about 300 mm wide, 50 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Satellite In (dual LNB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Aerial In (PAL)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "boxMm": {
+   "w": 300,
+   "h": 50
+  }
+ },
+ {
+  "id": "foxtel-iq3",
+  "manufacturer": "Foxtel",
+  "partNumber": "iQ3",
+  "name": "Foxtel iQ3 set-top box (cable or satellite)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
+  "productUrl": "https://www.foxtel.com.au/",
+  "notes": "HD PVR in cable and satellite versions; looks like the iQ4 from outside. Sits on a rack shelf for off-air monitoring (about 300 mm wide, 50 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Satellite / cable In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Aerial In (PAL)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ],
+  "boxMm": {
+   "w": 300,
+   "h": 50
+  }
+ }
+]

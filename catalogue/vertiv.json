@@ -1,0 +1,446 @@
+[
+ {
+  "id": "vertiv-gxt5-750irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-750IRT2UXL",
+  "name": "Liebert GXT5 750 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 750-3000 VA 230 V brochure (EMEA rev 4)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-500-3000va/",
+  "notes": "Double-conversion online, 750 VA / 750 W, 2U (85 mm) rack/tower. Programmable outlet groups. External battery cabinet GXT5-EBC36VRT2U. 400 mm deep, 16.8 kg. The ...UXLN version ships with an RDU120 network card in the IntelliSlot. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 16.8
+ },
+ {
+  "id": "vertiv-gxt5-1000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-1000IRT2UXL",
+  "name": "Liebert GXT5 1000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 750-3000 VA 230 V brochure (EMEA rev 4)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-500-3000va/",
+  "notes": "Double-conversion online, 1000 VA / 1000 W, 2U (85 mm) rack/tower. Programmable outlet groups. External battery cabinet GXT5-EBC36VRT2U. 400 mm deep, 16.8 kg. The ...UXLN version ships with an RDU120 network card in the IntelliSlot. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 16.8
+ },
+ {
+  "id": "vertiv-gxt5-1500irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-1500IRT2UXL",
+  "name": "Liebert GXT5 1500 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 750-3000 VA 230 V brochure (EMEA rev 4)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-500-3000va/",
+  "notes": "Double-conversion online, 1500 VA / 1500 W, 2U (85 mm) rack/tower. Programmable outlet groups. External battery cabinet GXT5-EBC48VRT2U. 470 mm deep, 21.4 kg. The ...UXLN version ships with an RDU120 network card in the IntelliSlot. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 21.4
+ },
+ {
+  "id": "vertiv-gxt5-2000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-2000IRT2UXL",
+  "name": "Liebert GXT5 2000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 750-3000 VA 230 V brochure (EMEA rev 4)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-500-3000va/",
+  "notes": "Double-conversion online, 2000 VA / 2000 W, 2U (85 mm) rack/tower. Programmable outlet groups. External battery cabinet GXT5-EBC48VRT2U. 470 mm deep, 21.4 kg. The ...UXLN version ships with an RDU120 network card in the IntelliSlot. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 21.4
+ },
+ {
+  "id": "vertiv-gxt5-3000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-3000IRT2UXL",
+  "name": "Liebert GXT5 3000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 750-3000 VA 230 V brochure (EMEA rev 4)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-500-3000va/",
+  "notes": "Double-conversion online, 3000 VA / 3000 W, 2U (85 mm) rack/tower. Programmable outlet groups. External battery cabinet GXT5-EBC72VRT2U. 540 mm deep, 28.5 kg. The ...UXLN version ships with an RDU120 network card in the IntelliSlot. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 28.5
+ },
+ {
+  "id": "vertiv-vp7551",
+  "manufacturer": "Vertiv",
+  "partNumber": "VP7551",
+  "name": "Geist rPDU basic 0U, 16 A, 20 x C13 + 4 x C19",
+  "family": "Geist rPDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Geist rPDU VP7551 data sheet",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/power-distribution/",
+  "notes": "Basic (unmetered) 0U strip, 3.6 kW. C13s in banks of 4, 6, 6 and 4; C19s individual. No breakers. 978 mm long, 51 x 51 mm section. IEC 60309 16 A IP44 plug on a 3 m cord. Check: outlet order along the strip.",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 978,
+   "widthMm": 51,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "none",
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "A"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,101 @@
+[
+ {
+  "id": "kiloview-ru03",
+  "manufacturer": "Kiloview",
+  "partNumber": "RU03",
+  "name": "RU03 3RU chassis for NDI encoder / decoder modules (16 channels)",
+  "family": "Rack chassis",
+  "category": "shelf",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview product catalogue 2025",
+  "productUrl": "https://www.kiloview.com/en/",
+  "notes": "3RU rack chassis holding up to 16 Kiloview NDI encode / decode modules (N-series boxes), 6 fans, redundant power, 3.8 kg. Add the modules separately. Check: power inlets.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "kiloview-cube-r1",
+  "manufacturer": "Kiloview",
+  "partNumber": "CUBE R1",
+  "name": "CUBE R1 multi-channel NDI recorder (2RU)",
+  "family": "CUBE",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview product catalogue 2025",
+  "productUrl": "https://www.kiloview.com/en/",
+  "notes": "Records and plays back up to 4 x 4Kp60 or 9 x 1080p60 NDI channels. Check: network ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "kiloview-cube-x1",
+  "manufacturer": "Kiloview",
+  "partNumber": "CUBE X1",
+  "name": "CUBE X1 NDI distribution system (3RU)",
+  "family": "CUBE",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview product catalogue 2025",
+  "productUrl": "https://www.kiloview.com/en/",
+  "notes": "NDI core switcher / distributor: 16 NDI inputs to 32 outputs, 10G network port. 132 mm high. Check: other ports and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

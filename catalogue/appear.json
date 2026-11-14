@@ -1,0 +1,457 @@
+[
+ {
+  "id": "appear-x10",
+  "manufacturer": "Appear",
+  "partNumber": "X10",
+  "name": "X10 media platform chassis, 8 module slots",
+  "family": "X platform",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "1RU chassis, 8 rear module slots plus one or two front-loaded switch / control modules. 540 mm deep. 750 W. One fan tray with 6 fans. Front-to-back airflow. Check: slot layout (shown as rows of 4).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control (switch module)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Appear X",
+   "slots": 8,
+   "orient": "h",
+   "cols": 4,
+   "controller": "One or two front switch modules (active-active)."
+  },
+  "powerW": 750
+ },
+ {
+  "id": "appear-x20",
+  "manufacturer": "Appear",
+  "partNumber": "X20",
+  "name": "X20 media platform chassis, 12 module slots",
+  "family": "X platform",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "2RU chassis, 12 rear module slots plus one or two front-loaded switch / control modules. 540 mm deep. Two hot-swap redundant PSUs (800-1500 W AC, -48 V DC option). Hot-swap fan tray. Front-to-back airflow. Check: slot layout (shown as rows of 4).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control (switch module)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Appear X",
+   "slots": 12,
+   "orient": "h",
+   "cols": 4,
+   "controller": "One or two front switch modules (active-active)."
+  },
+  "powerW": 1500
+ },
+ {
+  "id": "appear-ipx100",
+  "manufacturer": "Appear",
+  "partNumber": "IPx100",
+  "name": "IPx100 dual 10G IP interface",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. IP gateway, TS / SRT / Zixi. Ordered as SFP/SFP+ or 10GBASE-T. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "IPx100",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "1/10G"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-ipx210",
+  "manufacturer": "Appear",
+  "partNumber": "IPx210",
+  "name": "IPx210 uncompressed IP interface (ST 2110)",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. 40G QSFP, 4 x 10G breakout, or 10G / 25G by adapter. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "IPx210",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "QSFP28",
+      "count": 2,
+      "prefix": "40/100G"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-six110",
+  "manufacturer": "Appear",
+  "partNumber": "SIx110",
+  "name": "SIx110 SDI / ASI I/O, 8 ports",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. 75 ohm HD-BNC, direction set per port. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "SIx110",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "HD-BNC",
+      "count": 8,
+      "prefix": "SDI/ASI"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-six120",
+  "manufacturer": "Appear",
+  "partNumber": "SIx120",
+  "name": "SIx120 ASI I/O, 16 ports (JPEG XS capable SDI version)",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "SIx120",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "HD-BNC",
+      "count": 16,
+      "prefix": "ASI"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-six200",
+  "manufacturer": "Appear",
+  "partNumber": "SIx200",
+  "name": "SIx200 SDI I/O on video SFPs",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. Non-MSA dual Rx / Tx video SFPs. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "SIx200",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "SFP",
+      "count": 3,
+      "prefix": "Video SFP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-ecx110",
+  "manufacturer": "Appear",
+  "partNumber": "ECx110",
+  "name": "ECx110 HEVC / AVC codec (encode, transcode, decode)",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. Processing module, no rear signal connectors. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "ECx110",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "appear-sr-100",
+  "manufacturer": "Appear",
+  "partNumber": "SR-100",
+  "name": "SR-100 DVB-S/S2X satellite receiver",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "SR-100",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "RF",
+      "connector": "F",
+      "count": 4,
+      "prefix": "L-band In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "appear-smx100",
+  "manufacturer": "Appear",
+  "partNumber": "SMx100",
+  "name": "SMx100 DVB-S/S2X modulator",
+  "family": "X platform modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Appear X10/X20 technical specifications (v2.9.2)",
+  "productUrl": "https://www.appear.net/products/x-platform/",
+  "notes": "X10 / X20 rear module. Two carriers. Check: part suffix and exact connectors for your order.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Appear X"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "SMx100",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RF",
+      "connector": "SMA",
+      "count": 2,
+      "prefix": "RF Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RF",
+      "connector": "SMA",
+      "count": 2,
+      "prefix": "Monitor"
+     }
+    ]
+   }
+  ]
+ }
+]

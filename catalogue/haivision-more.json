@@ -1,0 +1,147 @@
+[
+ {
+  "id": "haivision-makito-one-f4",
+  "manufacturer": "Haivision",
+  "partNumber": "Makito One F4",
+  "name": "Makito One F4 chassis, 4 blades",
+  "family": "Makito One",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito One product page (NAB 2026)",
+  "productUrl": "https://www.haivision.com/products/makito-one-video-transport-platform/",
+  "notes": "1RU Makito One video transport chassis for up to 4 encoder / decoder blades, redundant power. Check: slot layout and management ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Haivision Makito One",
+   "slots": 4,
+   "orient": "v",
+   "cols": 4,
+   "controller": "Built in."
+  }
+ },
+ {
+  "id": "haivision-makito-one-f18",
+  "manufacturer": "Haivision",
+  "partNumber": "Makito One F18",
+  "name": "Makito One F18 chassis, 18 blades",
+  "family": "Makito One",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito One product page (NAB 2026)",
+  "productUrl": "https://www.haivision.com/products/makito-one-video-transport-platform/",
+  "notes": "4RU Makito One video transport chassis for up to 18 encoder / decoder blades, redundant power. Check: slot layout and management ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Haivision Makito One",
+   "slots": 18,
+   "orient": "v",
+   "cols": 9,
+   "controller": "Built in."
+  }
+ },
+ {
+  "id": "haivision-makito-one-blade",
+  "manufacturer": "Haivision",
+  "partNumber": "Makito One blade",
+  "name": "Makito One encoder / decoder blade, dual 12G-SDI or ST 2110",
+  "family": "Makito One",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Haivision Makito One product page (NAB 2026)",
+  "productUrl": "https://www.haivision.com/products/makito-one-video-transport-platform/",
+  "notes": "Each blade has dual 12G-SDI or ST 2110 interfaces (HEVC / H.264, SRT). Check: blade part numbers and connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Haivision Makito One"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Makito One blade",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "12G-SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "SFP28",
+      "count": 1,
+      "prefix": "IP"
+     }
+    ]
+   }
+  ]
+ }
+]

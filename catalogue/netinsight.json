@@ -1,0 +1,118 @@
+[
+ {
+  "id": "netinsight-nimbra-414",
+  "manufacturer": "Net Insight",
+  "partNumber": "Nimbra 414",
+  "name": "Nimbra 414 video contribution encoder / decoder",
+  "family": "Nimbra 400",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Net Insight Nimbra 400 data sheet v2",
+  "productUrl": "https://netinsight.net/nimbra-400/",
+  "notes": "4 x HD and 1 x 4K MPEG-4 / HEVC 4:2:0 encode and decode. Single or dual hot-swap 750/800 W PSUs. 429 mm deep, 8.2 kg. Check: front / rear split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI/ASI (3 x 3G, 1 x 12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 8.2
+ },
+ {
+  "id": "netinsight-nimbra-424",
+  "manufacturer": "Net Insight",
+  "partNumber": "Nimbra 424",
+  "name": "Nimbra 424 video contribution encoder / decoder",
+  "family": "Nimbra 400",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Net Insight Nimbra 400 data sheet v2",
+  "productUrl": "https://netinsight.net/nimbra-400/",
+  "notes": "As the 414 with 4:2:2 profiles. Single or dual hot-swap 750/800 W PSUs. 429 mm deep, 8.2 kg. Check: front / rear split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "HD-BNC",
+    "count": 4,
+    "prefix": "SDI/ASI (3 x 3G, 1 x 12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 8.2
+ }
+]

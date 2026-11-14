@@ -1,0 +1,297 @@
+[
+ {
+  "id": "telecast-p2-tx16-sl-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-TX16-SL-ST",
+  "name": "Python II 16-channel SDI fibre transmitter",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or use the -13CW version for 1 or 2 fibres). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 16,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-rx16-l-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-RX16-L-ST",
+  "name": "Python II 16-channel SDI fibre receiver",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or use the -13CW version for 1 or 2 fibres). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 16,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-tx8-sl-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-TX8-SL-ST",
+  "name": "Python II 8-channel SDI fibre transmitter",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or use the -13CW version for 1 or 2 fibres). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 8,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-rx8-l-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-RX8-L-ST",
+  "name": "Python II 8-channel SDI fibre receiver",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or use the -13CW version for 1 or 2 fibres). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 8,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-tr-8x8-sl-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-TR-8X8-SL-ST",
+  "name": "Python II 8 x 8 SDI fibre transceiver",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or use the -13CW version for 1 or 2 fibres). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 16,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-tx16-13cw-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-TX16-13CW-ST",
+  "name": "Python II 16-channel SDI fibre transmitter, CWDM",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or 2 fibres with the CWDM option). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ },
+ {
+  "id": "telecast-p2-rx16-13cw-st",
+  "manufacturer": "Telecast Fiber Systems",
+  "partNumber": "P2-RX16-13CW-ST",
+  "name": "Python II 16-channel SDI fibre receiver, CWDM",
+  "family": "Python II",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telecast Python II manual (Grass Valley)",
+  "productUrl": "https://www.grassvalley.com/docs/Manuals/purple/Python_II/Python_II_Manual.pdf",
+  "notes": "Python II 1RU SDI over fibre (SD/HD/3G). BNCs on the front, ST fibres on the rear (one per channel, or 2 fibres with the CWDM option). Two 4-pin XLR DC inputs (12-24 V, 1.5 A, external adapters) for redundancy. 424 x 267 mm deep. Telecast is now part of Grass Valley; Python II is a legacy product.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 2,
+    "prefix": "DC In 12-24 V"
+   }
+  ]
+ }
+]

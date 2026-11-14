@@ -1,0 +1,361 @@
+[
+ {
+  "id": "lightware-mx2-8x8-hdmi20-l",
+  "manufacturer": "Lightware",
+  "partNumber": "MX2-8x8-HDMI20-L",
+  "name": "MX2-8x8-HDMI20-L 8x8 HDMI 2.0 matrix switcher",
+  "family": "MX2",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lightware MX2-8x8-HDMI20-L A&E specification",
+  "productUrl": "https://lightware.com/mx2-hdmi20-matrix-switchers",
+  "notes": "HDMI 2.0 (18 Gbps, 4K60 4:4:4) matrix with embedded audio. Front LCD and jog dial, USB mini-B control on the front; video, audio, power, RS-232 and LAN on the rear. 1RU, no power switch. 442 x 277 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB control"
+   }
+  ]
+ },
+ {
+  "id": "lightware-mx2-16x16-hdmi20-r",
+  "manufacturer": "Lightware",
+  "partNumber": "MX2-16x16-HDMI20-R",
+  "name": "MX2-16x16-HDMI20-R 16x16 HDMI 2.0 matrix switcher",
+  "family": "MX2",
+  "category": "router",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lightware MX2-16x16-HDMI20-R A&E specification",
+  "productUrl": "https://lightware.com/mx2-hdmi20-matrix-switchers",
+  "notes": "HDMI 2.0 (18 Gbps, 4K60 4:4:4) matrix with embedded audio. Front LCD and jog dial, USB mini-B control on the front; video, audio, power, RS-232 and LAN on the rear. Redundant PSUs on two powerCON inputs. 47 W idle / 83 W max, 3RU, 280 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 16,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 16,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB control"
+   }
+  ],
+  "powerW": 83
+ },
+ {
+  "id": "lightware-mx2-24x24-hdmi20",
+  "manufacturer": "Lightware",
+  "partNumber": "MX2-24x24-HDMI20",
+  "name": "MX2-24x24-HDMI20 24x24 HDMI 2.0 matrix switcher",
+  "family": "MX2",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lightware MX2-24x24-HDMI20 A&E specification",
+  "productUrl": "https://lightware.com/mx2-hdmi20-matrix-switchers",
+  "notes": "HDMI 2.0 (18 Gbps, 4K60 4:4:4) matrix with embedded audio. Front LCD and jog dial, USB mini-B control on the front; video, audio, power, RS-232 and LAN on the rear. 4RU, 280 mm deep. The -R version adds redundant PSUs (powerCON).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 24,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 24,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB control"
+   }
+  ]
+ },
+ {
+  "id": "lightware-mx2-32x32-hdmi20-a-r",
+  "manufacturer": "Lightware",
+  "partNumber": "MX2-32x32-HDMI20-A-R",
+  "name": "MX2-32x32-HDMI20-A-R 32x32 HDMI 2.0 matrix switcher",
+  "family": "MX2",
+  "category": "router",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lightware MX2-32x32-HDMI20-A-R A&E specification",
+  "productUrl": "https://lightware.com/mx2-hdmi20-matrix-switchers",
+  "notes": "HDMI 2.0 (18 Gbps, 4K60 4:4:4) matrix with embedded audio. Front LCD and jog dial, USB mini-B control on the front; video, audio, power, RS-232 and LAN on the rear. Analog audio in and out (5-pole Phoenix) beside each video port, redundant PSUs. 8RU, 280 mm deep. Check: analog audio port count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 32,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 32,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Audio",
+    "connector": "Phoenix",
+    "count": 32,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "Phoenix",
+    "count": 32,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB control"
+   }
+  ]
+ },
+ {
+  "id": "lightware-mx2-48x48-hdmi20-a-r",
+  "manufacturer": "Lightware",
+  "partNumber": "MX2-48x48-HDMI20-A-R",
+  "name": "MX2-48x48-HDMI20-A-R 48x48 HDMI 2.0 matrix switcher",
+  "family": "MX2",
+  "category": "router",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lightware MX2-48x48-HDMI20-A-R A&E specification",
+  "productUrl": "https://lightware.com/mx2-hdmi20-matrix-switchers",
+  "notes": "HDMI 2.0 (18 Gbps, 4K60 4:4:4) matrix with embedded audio. Front LCD and jog dial, USB mini-B control on the front; video, audio, power, RS-232 and LAN on the rear. 16 analog audio in and out (5-pole Phoenix), redundant PSUs. 108 W idle / 203 W max, 8RU, 280 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 48,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 48,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Audio",
+    "connector": "Phoenix",
+    "count": 16,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "Phoenix",
+    "count": 16,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON",
+    "count": 2,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB control"
+   }
+  ],
+  "powerW": 203
+ }
+]

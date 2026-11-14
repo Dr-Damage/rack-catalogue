@@ -1,0 +1,222 @@
+[
+ {
+  "id": "commscope-ppl-1u-hd-fx",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-1U-HD-FX",
+  "name": "PPL-1U-HD-FX Propel fixed fibre panel, 4 x 24-fibre positions",
+  "family": "Propel",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope Propel fixed panel user manual (TC-96342-IP) and PPL-4U product page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/propel-panels",
+  "notes": "1RU fixed Propel panel, 2 blades of 12 lanes each. Modules and adapter packs come in 8, 12, 16 and 24-fibre sizes (2, 3, 4 or 6 lanes); here each position is one 24-fibre (6-lane) module, 4 per panel (48 LC duplex). PPL-1U-HD-FX-OPEN is the reduced-depth version. Check: blade layout (shown as two columns per RU).",
+  "portGroups": [],
+  "frame": {
+   "system": "CommScope Propel",
+   "slots": 4,
+   "orient": "h",
+   "cols": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes Propel modules, adapter packs and splice cassettes."
+  }
+ },
+ {
+  "id": "commscope-ppl-2u-hd-fx",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-2U-HD-FX",
+  "name": "PPL-2U-HD-FX Propel fixed fibre panel, 8 x 24-fibre positions",
+  "family": "Propel",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope Propel fixed panel user manual (TC-96342-IP) and PPL-4U product page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/propel-panels",
+  "notes": "2RU fixed Propel panel, 4 blades of 12 lanes each. Modules and adapter packs come in 8, 12, 16 and 24-fibre sizes (2, 3, 4 or 6 lanes); here each position is one 24-fibre (6-lane) module, 8 per panel (96 LC duplex). PPL-2U-HD-FX-OPEN is the reduced-depth version. Check: blade layout (shown as two columns per RU).",
+  "portGroups": [],
+  "frame": {
+   "system": "CommScope Propel",
+   "slots": 8,
+   "orient": "h",
+   "cols": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes Propel modules, adapter packs and splice cassettes."
+  }
+ },
+ {
+  "id": "commscope-ppl-4u-hd-fx",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-4U-HD-FX",
+  "name": "PPL-4U-HD-FX Propel fixed fibre panel, 16 x 24-fibre positions",
+  "family": "Propel",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope Propel fixed panel user manual (TC-96342-IP) and PPL-4U product page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/propel-panels",
+  "notes": "4RU fixed Propel panel, 8 blades of 12 lanes each. Modules and adapter packs come in 8, 12, 16 and 24-fibre sizes (2, 3, 4 or 6 lanes); here each position is one 24-fibre (6-lane) module, 16 per panel (192 LC duplex). The PPL-4U sliding version (760252004) takes up to 288 duplex LC with high-density packs. Check: blade layout (shown as two columns per RU).",
+  "portGroups": [],
+  "frame": {
+   "system": "CommScope Propel",
+   "slots": 16,
+   "orient": "h",
+   "cols": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes Propel modules, adapter packs and splice cassettes."
+  }
+ },
+ {
+  "id": "commscope-propel-ap-12lc",
+  "manufacturer": "CommScope",
+  "partNumber": "Propel LC adapter pack 24F",
+  "name": "Propel LC adapter pack, 12 LC duplex (24 fibres)",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope Propel fixed panel user manual (TC-96342-IP) and PPL-4U product page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/propel-panels",
+  "notes": "Generic 24-fibre LC duplex adapter pack (feed-through). Pick the exact part (single-mode or multimode, colour, shutters) from CommScope. Check: part number.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "aqua"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Propel LC adapter pack 24F",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "commscope-propel-mod-24f-mpo",
+  "manufacturer": "CommScope",
+  "partNumber": "Propel module 24F MPO-LC",
+  "name": "Propel module, MPO24 to 12 LC duplex",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope Propel fixed panel user manual (TC-96342-IP) and PPL-4U product page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/propel-panels",
+  "notes": "Generic 24-fibre Propel module breaking an MPO24 trunk out to 12 LC duplex. Also made with 2 x MPO12. Check: part number and trunk type.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "aqua"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Propel module 24F MPO-LC",
+    "name": "Rear (trunk side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "MPO/MTP",
+      "count": 1,
+      "prefix": "MPO24"
+     }
+    ]
+   }
+  ]
+ }
+]

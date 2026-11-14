@@ -1,0 +1,326 @@
+[
+ {
+  "id": "tvu-vs3500",
+  "manufacturer": "TVU Networks",
+  "partNumber": "VS3500",
+  "name": "TVU Transceiver VS3500 1RU receiver (3G-SDI, single PSU)",
+  "family": "Transceiver",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVU Transceiver data sheet (June 2023)",
+  "productUrl": "https://www.tvunetworks.com/products/receivers/",
+  "notes": "1RU receiver for TVU transmitters: up to 4 HD receive channels (or receive plus Grid / RVF encode). 4 x 3G-SDI BNC, genlock (tri-level or black burst), HDMI monitor out, 1 GbE + 1 x 2.5 GbE, 8 x USB (external USB audio I/O). 395 mm deep. Check: SDI direction per channel and which ports are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "3G-SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tvu-vs3550",
+  "manufacturer": "TVU Networks",
+  "partNumber": "VS3550",
+  "name": "TVU Transceiver VS3550 1RU receiver (3G-SDI, dual PSU)",
+  "family": "Transceiver",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVU Transceiver data sheet (June 2023)",
+  "productUrl": "https://www.tvunetworks.com/products/receivers/",
+  "notes": "1RU receiver for TVU transmitters: up to 4 HD receive channels (or receive plus Grid / RVF encode). 4 x 3G-SDI BNC, genlock (tri-level or black burst), HDMI monitor out, 1 GbE + 1 x 2.5 GbE, 8 x USB (external USB audio I/O). 395 mm deep. Check: SDI direction per channel and which ports are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "3G-SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "tvu-vs3600",
+  "manufacturer": "TVU Networks",
+  "partNumber": "VS3600",
+  "name": "TVU Transceiver VS3600 1RU receiver (12G-SDI, single PSU)",
+  "family": "Transceiver",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVU Transceiver data sheet (June 2023)",
+  "productUrl": "https://www.tvunetworks.com/products/receivers/",
+  "notes": "1RU receiver for TVU transmitters: 1 x 4K60 receive channel (or receive plus Grid / RVF encode). 4 x 12G-SDI BNC, genlock (tri-level or black burst), HDMI monitor out, 1 GbE + 1 x 2.5 GbE, 8 x USB (external USB audio I/O). 395 mm deep. Check: SDI direction per channel and which ports are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "12G-SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tvu-vs3650",
+  "manufacturer": "TVU Networks",
+  "partNumber": "VS3650",
+  "name": "TVU Transceiver VS3650 1RU receiver (12G-SDI, dual PSU)",
+  "family": "Transceiver",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "TVU Transceiver data sheet (June 2023)",
+  "productUrl": "https://www.tvunetworks.com/products/receivers/",
+  "notes": "1RU receiver for TVU transmitters: 1 x 4K60 receive channel (or receive plus Grid / RVF encode). 4 x 12G-SDI BNC, genlock (tri-level or black burst), HDMI monitor out, 1 GbE + 1 x 2.5 GbE, 8 x USB (external USB audio I/O). 395 mm deep. Check: SDI direction per channel and which ports are on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "12G-SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 7,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

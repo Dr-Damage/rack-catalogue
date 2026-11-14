@@ -1,0 +1,126 @@
+[
+ {
+  "id": "ateme-kyrion-cm5000",
+  "manufacturer": "Ateme",
+  "partNumber": "Kyrion CM5000",
+  "name": "Kyrion CM5000 contribution encoder",
+  "family": "Kyrion",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ateme Kyrion CM5000 data sheet (DirectIndustry)",
+  "productUrl": "https://www.ateme.com/",
+  "notes": "H.264 / HEVC 4:2:2 10-bit contribution encoder. SD / HD / 3G-SDI in with up to 16 embedded audio channels; optional AES board (16 channels) and analog board (8 channels); optional L-band / IF modulator outputs. 6.4-7.3 kg. Check: SDI input count and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GbE stream"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ateme-kyrion-dr8400",
+  "manufacturer": "Ateme",
+  "partNumber": "Kyrion DR8400",
+  "name": "Kyrion DR8400 integrated receiver decoder",
+  "family": "Kyrion",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ateme Kyrion DR8400 data sheet (DirectIndustry)",
+  "productUrl": "https://www.ateme.com/",
+  "notes": "Multi-format IRD: built-in DVB-S/S2 demodulator, IP and dual ASI inputs (redundancy), TS up to 200 Mbps. SDI with embedded audio or up to 4 AES outputs. 130 W, 7.5 kg. Check: SDI output count, RF input count and management port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "DVB-S/S2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IP In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "XLR3 male",
+    "count": 4,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 130,
+  "weightKg": 7.5
+ }
+]

@@ -1,0 +1,212 @@
+[
+ {
+  "id": "vislink-quantum-receiver",
+  "manufacturer": "Vislink",
+  "partNumber": "Quantum Receiver",
+  "name": "Quantum receiver (wireless camera / COFDM, 1RU)",
+  "family": "Quantum",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vislink Quantum receiver data sheet",
+  "productUrl": "https://www.vislink.com/product/quantum-receiver",
+  "notes": "Up to 4 demodulator cards with 4 UHF inputs each (16 inputs). Video out on SFP+ (4 x 3G, 2 x 6G or 1 x 12G-SDI) with an ST 2110 option. Up to 230 W, 404 mm deep (427 with SFPs), 4.5 kg. Check: RF connector type and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "UHF In (per demod card)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Main video out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Monitor out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "Micro BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Audio (5-pin LEMO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "D-sub 15",
+    "count": 2,
+    "prefix": "Return data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 230,
+  "weightKg": 4.5
+ },
+ {
+  "id": "vislink-ultrareceiver-ld",
+  "manufacturer": "Vislink",
+  "partNumber": "UltraReceiver LD",
+  "name": "UltraReceiver LD diversity receiver (half rack, 1RU)",
+  "family": "UltraReceiver",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vislink UltraReceiver LD data sheet (11-24)",
+  "productUrl": "https://www.vislink.com/product/ulrx-ld/",
+  "notes": "Half-width 1RU receiver for Vislink camera links: 4 UHF inputs, 4 x 3G / HD-SDI out (UHD as quad), ASI in / out. About 100 W. 210 x 44 x 350 mm, 1.2 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "UHF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "Micro BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "Micro BNC",
+    "count": 1,
+    "prefix": "Monitor"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "Micro BNC",
+    "count": 1,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "Micro BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "XLR3 male",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Camera control / Alarm (6-pin LEMO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 210,
+   "h": 44
+  },
+  "powerW": 100,
+  "weightKg": 1.2
+ }
+]

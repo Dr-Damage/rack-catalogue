@@ -1,0 +1,35 @@
+[
+ {
+  "id": "dynamix-fpp3pd",
+  "manufacturer": "Dynamix",
+  "partNumber": "FPP3PD",
+  "name": "FPP3PD 1U fibre patch panel, 24 LC duplex, sliding drawer (unloaded)",
+  "family": "Fibre patch panels",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dynamix FPP3PD listing (CDL)",
+  "productUrl": "https://cdlnz.com/19-1u-fibre-patch-panel-unloaded-24-port-lc-duplex-ball-bearing-sliding-drawer",
+  "notes": "1U ball-bearing sliding drawer for up to 24 LC duplex (48 fibres) or 24 SC simplex adapters, sold unloaded. Front waterfall patch guide, four rear cable entries, front cover with labels. Splice trays or pigtails go inside (shown as rear splices).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 24,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 48,
+    "prefix": "Splice"
+   }
+  ]
+ }
+]

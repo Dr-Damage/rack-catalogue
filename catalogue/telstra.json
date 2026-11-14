@@ -1,0 +1,92 @@
+[
+ {
+  "id": "telstra-dvn-frame-2ru",
+  "manufacturer": "Telstra",
+  "partNumber": "DVN card frame",
+  "name": "Telstra DVN carrier card frame (2RU, model varies)",
+  "family": "DVN",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telstra DVN service description (no hardware details)",
+  "productUrl": "https://www.telstra.com.au/business-enterprise/industries/telstra-broadcast-services/australian-media-networks/distribution",
+  "notes": "Carrier-owned and managed equipment for the Telstra Digital Video Network (DVN). Telstra does not publish the edge models it installs, and they change with network upgrades; the customer provides rack space and power. Ports here are a typical hand-off (HD / SD / ASI over BNC, dual fibre paths); edit them to match the site. Matches the 2RU \"Telstra DVN cards\" frames in existing site drawings.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI/ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI/ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Carrier fibre A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "telstra-dvn-ntu-1ru",
+  "manufacturer": "Telstra",
+  "partNumber": "DVN NTU",
+  "name": "Telstra DVN network termination unit (1RU, model varies)",
+  "family": "DVN",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telstra DVN service description (no hardware details)",
+  "productUrl": "https://www.telstra.com.au/business-enterprise/industries/telstra-broadcast-services/australian-media-networks/distribution",
+  "notes": "Carrier-owned and managed equipment for the Telstra Digital Video Network (DVN). Telstra does not publish the edge models it installs, and they change with network upgrades; the customer provides rack space and power. Ports here are a typical hand-off (HD / SD / ASI over BNC, dual fibre paths); edit them to match the site. Use for the carrier router / NTU that hands off IP services (10G-LR / 40G-LR / 100G-LR on Telstra's distributed production network).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Carrier fibre A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Customer hand-off"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

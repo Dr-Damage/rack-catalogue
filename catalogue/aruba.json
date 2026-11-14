@@ -1,0 +1,1709 @@
+[
+ {
+  "id": "aruba-jl624a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL624A",
+  "name": "CX 8325-48Y8C 48 x 25G + 8 x 100G switch",
+  "family": "CX 8325",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8325 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8325-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (JL625A is power-to-port). Two 650 W hot-swap PSUs, 6 fans, 550 W max, 536 mm deep, 10 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 550,
+  "weightKg": 10
+ },
+ {
+  "id": "aruba-jl626a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL626A",
+  "name": "CX 8325-32C 32 x 100G switch",
+  "family": "CX 8325",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8325 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8325-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (JL627A is power-to-port). Two 650 W hot-swap PSUs, 550 W max, 473 mm deep, 10.9 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 550,
+  "weightKg": 10.9
+ },
+ {
+  "id": "aruba-jl700a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL700A",
+  "name": "CX 8360-32Y4C 32 x 25G + 4 x 100G switch",
+  "family": "CX 8360",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8360 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8360-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (the next SKU up is power-to-port). Two 550 W hot-swap PSUs, 425 W max, 406 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 32,
+    "prefix": "1/10/25G (4 MACsec)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 425
+ },
+ {
+  "id": "aruba-jl702a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL702A",
+  "name": "CX 8360-16Y2C 16 x 25G + 2 x 100G switch",
+  "family": "CX 8360",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8360 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8360-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (the next SKU up is power-to-port). Two 550 W hot-swap PSUs, 325 W max, 406 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 325
+ },
+ {
+  "id": "aruba-jl706a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL706A",
+  "name": "CX 8360-48XT4C 48 x 10GBASE-T + 4 x 100G switch",
+  "family": "CX 8360",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8360 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8360-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (the next SKU up is power-to-port). Two 550 W hot-swap PSUs, 500 W max, 406 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "100M/1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 500
+ },
+ {
+  "id": "aruba-jl708a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL708A",
+  "name": "CX 8360-12C 12 x 100G switch",
+  "family": "CX 8360",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8360 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8360-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (the next SKU up is power-to-port). Two 550 W hot-swap PSUs, 375 W max, 406 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 12,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 375
+ },
+ {
+  "id": "aruba-jl710a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL710A",
+  "name": "CX 8360-24XF2C 24 x 10G + 2 x 100G switch",
+  "family": "CX 8360",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 8360 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-8360-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Port-to-power airflow (the next SKU up is power-to-port). Two 550 W hot-swap PSUs, 375 W max, 406 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 375
+ },
+ {
+  "id": "aruba-jl658a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL658A",
+  "name": "CX 6300M 24 x 10G SFP+ + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl659a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL659A",
+  "name": "CX 6300M 48 x 1-5G Smart Rate class 6 PoE + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1-5G PoE class 6"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl660a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL660A",
+  "name": "CX 6300M 24 x 1-5G Smart Rate class 6 PoE + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1-5G PoE class 6"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl661a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL661A",
+  "name": "CX 6300M 48 x 1G class 4 PoE + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl662a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL662A",
+  "name": "CX 6300M 24 x 1G class 4 PoE + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl663a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL663A",
+  "name": "CX 6300M 48 x 1G + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl664a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL664A",
+  "name": "CX 6300M 24 x 1G + 4 x SFP56 switch",
+  "family": "CX 6300M",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Modular 6300M: two hot-swap PSU slots (PSUs ordered separately), stacks with VSF over the SFP56 ports. 386 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl665a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL665A",
+  "name": "CX 6300F 48 x 1G class 4 PoE + 4 x SFP56 switch",
+  "family": "CX 6300F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Fixed 6300F: built-in PSU. 328 mm deep. 24-port PoE models limit total power to 580 W.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl666a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL666A",
+  "name": "CX 6300F 24 x 1G class 4 PoE + 4 x SFP56 switch",
+  "family": "CX 6300F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Fixed 6300F: built-in PSU. 328 mm deep. 24-port PoE models limit total power to 580 W.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl667a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL667A",
+  "name": "CX 6300F 48 x 1G + 4 x SFP56 switch",
+  "family": "CX 6300F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Fixed 6300F: built-in PSU. 328 mm deep. 24-port PoE models limit total power to 580 W.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl668a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL668A",
+  "name": "CX 6300F 24 x 1G + 4 x SFP56 switch",
+  "family": "CX 6300F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba CX 6300 Start Here guide and data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6300-switch-series.html",
+  "notes": "Check: console and management positions (the data sheet does not say which panel; shown on the port side). Fixed 6300F: built-in PSU. 328 mm deep. 24-port PoE models limit total power to 580 W.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl253a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL253A",
+  "name": "2930F 24G 4SFP+ switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). 200 mm deep, 29 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 29
+ },
+ {
+  "id": "aruba-jl254a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL254A",
+  "name": "2930F 48G 4SFP+ switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). 246 mm deep, 47 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 47
+ },
+ {
+  "id": "aruba-jl255a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL255A",
+  "name": "2930F 24G PoE+ 4SFP+ switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). PoE+ budget 370 W. 304 mm deep, 445 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 445
+ },
+ {
+  "id": "aruba-jl256a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL256A",
+  "name": "2930F 48G PoE+ 4SFP+ switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). PoE+ budget 370 W. 304 mm deep, 459 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 459
+ },
+ {
+  "id": "aruba-jl259a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL259A",
+  "name": "2930F 24G 4SFP switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). 200 mm deep, 29 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 29
+ },
+ {
+  "id": "aruba-jl260a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL260A",
+  "name": "2930F 48G 4SFP switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). 246 mm deep, 47 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 47
+ },
+ {
+  "id": "aruba-jl261a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL261A",
+  "name": "2930F 24G PoE+ 4SFP switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). PoE+ budget 370 W. 304 mm deep, 445 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 445
+ },
+ {
+  "id": "aruba-jl262a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL262A",
+  "name": "2930F 48G PoE+ 4SFP switch",
+  "family": "2930F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2930F data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2930f-switch-series.html",
+  "notes": "One dual-personality console port (RJ45 or USB micro-B). PoE+ budget 370 W. 304 mm deep, 459 W max. Check: console position and fixed PSU.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console (RJ45 or micro-USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 459
+ }
+]

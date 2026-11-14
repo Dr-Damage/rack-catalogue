@@ -1,0 +1,80 @@
+[
+ {
+  "id": "raritan-px3-5190r",
+  "manufacturer": "Raritan",
+  "partNumber": "PX3-5190R",
+  "name": "PX3 1U intelligent PDU, 16 A, 8 x C13, outlet metered and switched",
+  "family": "PX3",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan PX3-5190R listing (kvm-switch.de)",
+  "productUrl": "https://www.raritan.com/products/power/power-distribution/rack-pdu",
+  "notes": "1U horizontal strip, 3.68 kVA, billing-grade metering per inlet and per outlet, remote switching of each outlet (latching relays), colour LCD. Up to 32 environmental sensors, Wi-Fi and webcam by USB. 440 x 183 x 44 mm, 1.25 kg. IEC 60309 16 A plug. Check: which face carries the outlets and which the controller.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB-B"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "metering": "switched-outlet",
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 8,
+     "circuit": "A"
+    }
+   ]
+  }
+ }
+]

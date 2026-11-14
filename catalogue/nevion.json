@@ -1,0 +1,511 @@
+[
+ {
+  "id": "nevion-virtuoso-mi",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "Virtuoso MI",
+  "name": "Virtuoso MI media node, 8 accelerator slots",
+  "family": "Virtuoso",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "1RU, Carrier-grade modular node, redundant controllers, PSUs hot-swap from the front. Dual load-sharing AC PSUs. 500 W max (accelerators up to 50 W each), 582 mm deep, 11.2 kg. Used for IP media transport and contribution networks (JPEG XS / JPEG 2000 / H.264 / 2110). Check: slot layout.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Controller"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Nevion Virtuoso",
+   "slots": 8,
+   "orient": "h",
+   "cols": 4,
+   "controller": "Built in."
+  },
+  "powerW": 500,
+  "weightKg": 11.2
+ },
+ {
+  "id": "nevion-virtuoso-re",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "Virtuoso RE",
+  "name": "Virtuoso RE media node, 6 accelerator slots",
+  "family": "Virtuoso",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "1RU, Compact short-depth node. Dual load-sharing AC PSUs. 370 W max (accelerators up to 50 W each), 425 mm deep, 7.6 kg. Used for IP media transport and contribution networks (JPEG XS / JPEG 2000 / H.264 / 2110). Check: slot layout.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Nevion Virtuoso",
+   "slots": 6,
+   "orient": "h",
+   "cols": 3,
+   "controller": "Built in."
+  },
+  "powerW": 370,
+  "weightKg": 7.6
+ },
+ {
+  "id": "nevion-virtuoso-fa",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "Virtuoso FA",
+  "name": "Virtuoso FA media node, 4 accelerator slots",
+  "family": "Virtuoso",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "1RU, Appliance with a built-in 10GE TS-over-IP uplink and 4 ASI. Dual load-sharing AC PSUs. 330 W max (accelerators up to 50 W each), 443 mm deep, 6.9 kg. Used for IP media transport and contribution networks (JPEG XS / JPEG 2000 / H.264 / 2110). Check: slot layout.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10GE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "ASI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Alarm relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Nevion Virtuoso",
+   "slots": 4,
+   "orient": "h",
+   "cols": 4,
+   "controller": "Built in."
+  },
+  "powerW": 330,
+  "weightKg": 6.9
+ },
+ {
+  "id": "nevion-hbr-sfp4",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "HBR-SFP4",
+  "name": "Virtuoso HBR media accelerator, 4 x SFP+",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HBR-SFP4",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 4,
+      "prefix": "SFP+ (10GE / SDI / ASI / MADI)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nevion-hbr25-sfp3",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "HBR25-SFP3",
+  "name": "Virtuoso HBR25 media accelerator, 2 x SFP28 + 1 x SFP+",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HBR25-SFP3",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GE"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "SFP+",
+      "count": 1,
+      "prefix": "Video SFP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nevion-h264-x1",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "H264-X1",
+  "name": "Virtuoso H.264 / AVC accelerator",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "H264-X1",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "SDI/ASI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Sync / ASI out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nevion-asi-x4",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "ASI-X4",
+  "name": "Virtuoso ASI adapter, 4 ports",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "ASI-X4",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "ASI"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nevion-aes3",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "AES3",
+  "name": "Virtuoso AES3 digital audio adapter, 16 ports",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. Breakout panels give 16 BNC or 8 in / 8 out XLR. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "AES3",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Audio",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "AES3 x16"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nevion-rpro",
+  "manufacturer": "Nevion (Sony)",
+  "partNumber": "RPRO",
+  "name": "Virtuoso RPRO audio adapter (analog, AES, GPIO)",
+  "family": "Virtuoso accelerators",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Nevion Virtuoso platform data sheet (R2336)",
+  "productUrl": "https://nevion.com/products/virtuoso/",
+  "notes": "Virtuoso accelerator card. Breakout panels give 16 BNC or 8 in / 8 out XLR. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Nevion Virtuoso"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RPRO",
+    "name": "Rear I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Audio",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "Audio / GPIO"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,382 @@
+[
+ {
+  "id": "multidyne-vf9k-nnnnggggk-2m-a",
+  "manufacturer": "MultiDyne",
+  "partNumber": "VF9K-NNNNGGGGK-2M-A",
+  "name": "VF-9000 VersaFrame 18 x 18 SDI transceiver, muxed (A end)",
+  "family": "VF-9000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MultiDyne VF-9000 data sheet (preliminary, 2026-03)",
+  "productUrl": "https://www.multidyne.com/product/vf-9000.html",
+  "notes": "1RU frame with 9 rear I/O card slots and dual internal hot-swap PSUs (C13 cords, 25 W max). Each video card has 2 BNCs (or 4 HD-BNCs) on the rear and one or two SFP cages on the front; BNC direction follows the SFP fitted (dual TX SFP makes inputs, dual RX makes outputs). Muxed (-2M) versions carry 36 signals on 2 single-mode fibres through the internal CWDM mux (LC on the front); -FP versions use one fibre per channel from the SFPs. Other cards: audio, MADI, serial/GPIO, Ethernet, HDMI, genlock. 483 x 191 mm deep. Ports shown with 2 BNCs per channel position (4 channels per card on muxed units, 2 BNCs each in and out). Check: exact BNC count of this configuration and where the management port is (on the front here).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 18,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 18,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 18,
+    "prefix": "SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "CWDM mux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Web UI / SNMP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "multidyne-vf9k-nnnnnnnnn-2m-a",
+  "manufacturer": "MultiDyne",
+  "partNumber": "VF9K-NNNNNNNNN-2M-A",
+  "name": "VF-9000 VersaFrame 36 x SDI transmitter, muxed",
+  "family": "VF-9000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MultiDyne VF-9000 data sheet (preliminary, 2026-03)",
+  "productUrl": "https://www.multidyne.com/product/vf-9000.html",
+  "notes": "1RU frame with 9 rear I/O card slots and dual internal hot-swap PSUs (C13 cords, 25 W max). Each video card has 2 BNCs (or 4 HD-BNCs) on the rear and one or two SFP cages on the front; BNC direction follows the SFP fitted (dual TX SFP makes inputs, dual RX makes outputs). Muxed (-2M) versions carry 36 signals on 2 single-mode fibres through the internal CWDM mux (LC on the front); -FP versions use one fibre per channel from the SFPs. Other cards: audio, MADI, serial/GPIO, Ethernet, HDMI, genlock. 483 x 191 mm deep. Ports shown with 2 BNCs per channel position (4 channels per card on muxed units, 2 BNCs each in and out). Check: exact BNC count of this configuration and where the management port is (on the front here).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 36,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 18,
+    "prefix": "SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "CWDM mux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Web UI / SNMP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "multidyne-vf9k-ggggggggg-2m-b",
+  "manufacturer": "MultiDyne",
+  "partNumber": "VF9K-GGGGGGGGG-2M-B",
+  "name": "VF-9000 VersaFrame 36 x SDI receiver, muxed",
+  "family": "VF-9000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MultiDyne VF-9000 data sheet (preliminary, 2026-03)",
+  "productUrl": "https://www.multidyne.com/product/vf-9000.html",
+  "notes": "1RU frame with 9 rear I/O card slots and dual internal hot-swap PSUs (C13 cords, 25 W max). Each video card has 2 BNCs (or 4 HD-BNCs) on the rear and one or two SFP cages on the front; BNC direction follows the SFP fitted (dual TX SFP makes inputs, dual RX makes outputs). Muxed (-2M) versions carry 36 signals on 2 single-mode fibres through the internal CWDM mux (LC on the front); -FP versions use one fibre per channel from the SFPs. Other cards: audio, MADI, serial/GPIO, Ethernet, HDMI, genlock. 483 x 191 mm deep. Ports shown with 2 BNCs per channel position (4 channels per card on muxed units, 2 BNCs each in and out). Check: exact BNC count of this configuration and where the management port is (on the front here).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 36,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP",
+    "count": 18,
+    "prefix": "SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "CWDM mux"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Web UI / SNMP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "multidyne-hb-dc-dbr-12g",
+  "manufacturer": "MultiDyne",
+  "partNumber": "HB-DC-DBR-12G",
+  "name": "HoneyBadger remote (field) unit, 8 x 8 12G-SDI",
+  "family": "HoneyBadger",
+  "category": "converter",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MultiDyne HoneyBadger data sheet (2024-11)",
+  "productUrl": "https://www.multidyne.com/product/honeybadger.html",
+  "notes": "Fibre-linked pair (one remote, one local) carrying 8 SDI each way, audio, intercom, data and 2 x GbE. Order -N2 for an opticalCON DUO fibre port or -ST2 for dual ST (LEMO 304M also offered); -AB / -V adds an Anton Bauer or V-mount battery plate. 200 W max, 318 mm deep without handles, 10 kg. 3G versions replace 12G in the part number. Check: which connectors are on the front and which on the rear (shown all on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Audio",
+    "connector": "XLR3 female",
+    "count": 8,
+    "prefix": "Audio In (mic/line)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "XLR3 male",
+    "count": 8,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR3 male",
+    "count": 4,
+    "prefix": "Intercom 2-wire"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Phoenix",
+    "count": 2,
+    "prefix": "RS-232/422/485"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Phoenix",
+    "count": 2,
+    "prefix": "GPI/Tally"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "Fibre (N2 option)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 200,
+  "weightKg": 10
+ },
+ {
+  "id": "multidyne-hb-dc-dbl-12g",
+  "manufacturer": "MultiDyne",
+  "partNumber": "HB-DC-DBL-12G",
+  "name": "HoneyBadger local (truck / studio) unit, 8 x 8 12G-SDI",
+  "family": "HoneyBadger",
+  "category": "converter",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MultiDyne HoneyBadger data sheet (2024-11)",
+  "productUrl": "https://www.multidyne.com/product/honeybadger.html",
+  "notes": "Fibre-linked pair (one remote, one local) carrying 8 SDI each way, audio, intercom, data and 2 x GbE. Order -N2 for an opticalCON DUO fibre port or -ST2 for dual ST (LEMO 304M also offered); -AB / -V adds an Anton Bauer or V-mount battery plate. 40 W max, 262 mm deep without handles, 7 kg. 3G versions replace 12G in the part number. Check: which connectors are on the front and which on the rear (shown all on the front).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Audio",
+    "connector": "XLR3 female",
+    "count": 8,
+    "prefix": "Audio In (line)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Audio",
+    "connector": "XLR3 male",
+    "count": 8,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Intercom 4-wire"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GbE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Phoenix",
+    "count": 2,
+    "prefix": "RS-232/422/485"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Phoenix",
+    "count": 2,
+    "prefix": "GPI/Tally"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "Fibre (N2 option)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 40,
+  "weightKg": 7
+ }
+]

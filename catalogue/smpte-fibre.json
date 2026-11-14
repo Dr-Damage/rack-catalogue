@@ -1,0 +1,806 @@
+[
+ {
+  "id": "camplex-hymod-fr1",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-FR1",
+  "name": "HYMOD-FR1 SMPTE modular 1RU frame, 6 modules",
+  "family": "HYMOD",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "1RU frame for 6 interchangeable HYMOD modules (SMPTE hybrid camera connectors, fibre or BNC feed-throughs). Mounts flush or recessed. The 2RU HYMOD-2Rxx modules do not fit.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "Camplex HYMOD 1RU",
+   "slots": 6,
+   "orient": "v",
+   "controller": "None (passive). Takes HYMOD 1RU modules."
+  }
+ },
+ {
+  "id": "camplex-hymod-1r01",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R01",
+  "name": "HYMOD-1R01 SMPTE FXW plug to 2 ST + 5-pin AMP",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. The SMPTE 311M hybrid connector (LEMO 3K.93C) is on the front; fibres and the camera power contacts break out on the rear. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE FXW plug"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R01",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "5-pin AMP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r02",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R02",
+  "name": "HYMOD-1R02 SMPTE EDW jack to 2 ST + 5-pin AMP",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. The SMPTE 311M hybrid connector (LEMO 3K.93C) is on the front; fibres and the camera power contacts break out on the rear. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE EDW jack"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R02",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "5-pin AMP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r05",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R05",
+  "name": "HYMOD-1R05 SMPTE FXW plug to 2 ST + 6-pin AMP",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. The SMPTE 311M hybrid connector (LEMO 3K.93C) is on the front; fibres and the camera power contacts break out on the rear. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE FXW plug"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R05",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-pin AMP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r06",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R06",
+  "name": "HYMOD-1R06 SMPTE EDW jack to 2 ST + 6-pin AMP",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. The SMPTE 311M hybrid connector (LEMO 3K.93C) is on the front; fibres and the camera power contacts break out on the rear. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE EDW jack"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R06",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-pin AMP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r25",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R25",
+  "name": "HYMOD-1R25 45-degree SMPTE EDW jack to 2 LC + 6-pin AMP",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. The SMPTE 311M hybrid connector (LEMO 3K.93C) is on the front; fibres and the camera power contacts break out on the rear. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE EDW jack"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R25",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC simplex",
+      "count": 2,
+      "prefix": "Fibre"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-pin AMP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r07",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R07",
+  "name": "HYMOD-1R07 4 x ST fibre feed-through",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. Passive feed-through. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 4,
+    "prefix": "ST"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R07",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 4,
+      "prefix": "ST"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r08",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R08",
+  "name": "HYMOD-1R08 opticalCON DUO LC feed-through",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. Passive feed-through. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "opticalCON DUO",
+    "count": 1,
+    "prefix": "opticalCON DUO"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R08",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 1,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r09",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R09",
+  "name": "HYMOD-1R09 3 x BNC feed-through",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. Passive feed-through. Check: which side is front (the listing gives the pairing only). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "BNC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R09",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SDI",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "BNC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "camplex-hymod-1r10",
+  "manufacturer": "Camplex",
+  "partNumber": "HYMOD-1R10",
+  "name": "HYMOD-1R10 blank module",
+  "family": "HYMOD",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Camplex HYMOD-FR1 listing (Markertek)",
+  "productUrl": "https://www.markertek.com/product/hymod-fr1/camplex-hymod-fr1-hymod-smpte-modular-1ru-frame-kit-for-6-hymod-modules",
+  "notes": "HYMOD 1RU module. Blanks an unused position. ",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Camplex HYMOD 1RU"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "HYMOD-1R10",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "camplex-hf-1ru-10x",
+  "manufacturer": "Camplex",
+  "partNumber": "HF-1RU-10X",
+  "name": "HF-1RU-10X universal SMPTE feed-through panel, 10 positions",
+  "family": "SMPTE panels",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Camplex HF-1RU-10X listing (Markertek)",
+  "productUrl": "https://markertek.com/product/hf-1ru-10x/camplex-1ru-10-position-universal-smpte-feedthru-panel",
+  "notes": "1RU flanged aluminium panel with 10 universal cut-outs for any LEMO SMPTE panel connector (plug or socket); 8 blanks included. Add the connectors as cards, for example the Canford breakout assemblies.",
+  "portGroups": [],
+  "frame": {
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "system": "SMPTE LEMO panel hole",
+   "slots": 10,
+   "orient": "v",
+   "controller": "None (passive). Takes LEMO 3K.93C panel connectors (FMW, FXW, EDW, PBW)."
+  }
+ },
+ {
+  "id": "canford-50-1117",
+  "manufacturer": "Canford",
+  "partNumber": "50-1117",
+  "name": "50-1117 LEMO 3K.93C EDW panel socket (camera cable plugs in), LC + 6-way tails",
+  "family": "SMPTE panel connectors",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford SMPTE311M Lemo panel breakout assemblies page",
+  "productUrl": "https://www.canford.co.uk/CANFORD-SMPTE311M-HYBRID-FIBRE-CAMERA-CABLE-BREAKOUT-ASSEMBLIES-With-Lemo-panel-type-connectors",
+  "notes": "SMPTE 311M hybrid EDW panel socket (camera cable plugs in) with 250 mm breakout tails: two LC fibres and a 6-way MATE-N-LOK plug for the camera power and control contacts. Other tail lengths and SC or unterminated versions are listed on the same page.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE EDW"
+   }
+  ],
+  "card": {
+   "fits": [
+    "SMPTE LEMO panel hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "50-1117",
+    "name": "Breakout tails",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC simplex",
+      "count": 2,
+      "prefix": "Fibre tail"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-way MATE-N-LOK tail"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "canford-50-1118",
+  "manufacturer": "Canford",
+  "partNumber": "50-1118",
+  "name": "50-1118 LEMO 3K.93C EDW panel socket (camera cable plugs in), ST + 6-way tails",
+  "family": "SMPTE panel connectors",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford SMPTE311M Lemo panel breakout assemblies page",
+  "productUrl": "https://www.canford.co.uk/CANFORD-SMPTE311M-HYBRID-FIBRE-CAMERA-CABLE-BREAKOUT-ASSEMBLIES-With-Lemo-panel-type-connectors",
+  "notes": "SMPTE 311M hybrid EDW panel socket (camera cable plugs in) with 250 mm breakout tails: two ST fibres and a 6-way MATE-N-LOK plug for the camera power and control contacts. Other tail lengths and SC or unterminated versions are listed on the same page.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE EDW"
+   }
+  ],
+  "card": {
+   "fits": [
+    "SMPTE LEMO panel hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "50-1118",
+    "name": "Breakout tails",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre tail"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-way MATE-N-LOK tail"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "canford-50-1127",
+  "manufacturer": "Canford",
+  "partNumber": "50-1127",
+  "name": "50-1127 LEMO 3K.93C FXW panel plug, LC + 6-way tails",
+  "family": "SMPTE panel connectors",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford SMPTE311M Lemo panel breakout assemblies page",
+  "productUrl": "https://www.canford.co.uk/CANFORD-SMPTE311M-HYBRID-FIBRE-CAMERA-CABLE-BREAKOUT-ASSEMBLIES-With-Lemo-panel-type-connectors",
+  "notes": "SMPTE 311M hybrid FXW panel plug with 250 mm breakout tails: two LC fibres and a 6-way MATE-N-LOK plug for the camera power and control contacts. Other tail lengths and SC or unterminated versions are listed on the same page.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE FXW"
+   }
+  ],
+  "card": {
+   "fits": [
+    "SMPTE LEMO panel hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "50-1127",
+    "name": "Breakout tails",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC simplex",
+      "count": 2,
+      "prefix": "Fibre tail"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-way MATE-N-LOK tail"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "canford-50-1128",
+  "manufacturer": "Canford",
+  "partNumber": "50-1128",
+  "name": "50-1128 LEMO 3K.93C FXW panel plug, ST + 6-way tails",
+  "family": "SMPTE panel connectors",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford SMPTE311M Lemo panel breakout assemblies page",
+  "productUrl": "https://www.canford.co.uk/CANFORD-SMPTE311M-HYBRID-FIBRE-CAMERA-CABLE-BREAKOUT-ASSEMBLIES-With-Lemo-panel-type-connectors",
+  "notes": "SMPTE 311M hybrid FXW panel plug with 250 mm breakout tails: two ST fibres and a 6-way MATE-N-LOK plug for the camera power and control contacts. Other tail lengths and SC or unterminated versions are listed on the same page.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "SMPTE FXW"
+   }
+  ],
+  "card": {
+   "fits": [
+    "SMPTE LEMO panel hole"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "50-1128",
+    "name": "Breakout tails",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 2,
+      "prefix": "Fibre tail"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Power",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "6-way MATE-N-LOK tail"
+     }
+    ]
+   }
+  ]
+ }
+]

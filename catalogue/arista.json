@@ -1,0 +1,1524 @@
+[
+ {
+  "id": "arista-7280sr3-48yc8",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280SR3-48YC8",
+  "name": "7280SR3-48YC8 48 x 25G + 8 x 100G deep-buffer switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, RS-232 console (RJ45) and USB are on the rear next to the power supplies (not on the front legend). 154 W typical / 324 W max, 1+1 hot-swap PSUs, 467 mm deep, 9.2 kg. Also sold as 7280SR3K-48YC8 (larger tables).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 324,
+  "weightKg": 9.2
+ },
+ {
+  "id": "arista-7280sr3-40yc6",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280SR3-40YC6",
+  "name": "7280SR3-40YC6 40 x 25G + 6 x 100G deep-buffer switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, RS-232 console (RJ45) and USB are on the rear next to the power supplies (not on the front legend). 130 W typical / 214 W max, 1+1 hot-swap PSUs, 469 mm deep, 9.6 kg. 7280SR3E-40YC6 adds SyncE / PTP grandmaster features.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 40,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 214,
+  "weightKg": 9.6
+ },
+ {
+  "id": "arista-7280tr3-40c6",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280TR3-40C6",
+  "name": "7280TR3-40C6 40 x 10GBASE-T + 6 x 100G switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Check: management and console panel (assumed rear, as on the 40YC6). 186 W typical / 242 W max, 1+1 hot-swap PSUs, 469 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 242,
+  "weightKg": 9.6
+ },
+ {
+  "id": "arista-7280cr3-32p4",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280CR3-32P4",
+  "name": "7280CR3-32P4 32 x 100G + 4 x 400G OSFP switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, RS-232 console (RJ45) and USB are on the rear next to the power supplies (not on the front legend). 535 W typical / 851 W max, 1+1 hot-swap PSUs, 559 mm deep, 12.3 kg. -32D4 is the same with 4 x QSFP-DD.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "OSFP",
+    "count": 4,
+    "prefix": "400G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 851,
+  "weightKg": 12.3
+ },
+ {
+  "id": "arista-7280cr3-32d4",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280CR3-32D4",
+  "name": "7280CR3-32D4 32 x 100G + 4 x 400G QSFP-DD switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, RS-232 console (RJ45) and USB are on the rear next to the power supplies (not on the front legend). 535 W typical / 851 W max, 1+1 hot-swap PSUs, 559 mm deep, 12.3 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 4,
+    "prefix": "400G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 851,
+  "weightKg": 12.3
+ },
+ {
+  "id": "arista-7280cr3-36s",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280CR3-36S",
+  "name": "7280CR3-36S 28 x 100G + 6 x 200G + 2 x 400G switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, console and USB on the front. 254 W typical / 423 W max, 1+1 hot-swap PSUs, 472 mm deep, 10.5 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 28,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP56",
+    "count": 6,
+    "prefix": "200G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 2,
+    "prefix": "400G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 423,
+  "weightKg": 10.5
+ },
+ {
+  "id": "arista-7280cr3-96",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280CR3-96",
+  "name": "7280CR3-96 96 x 100G switch (2RU)",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Management Ethernet, console and USB on the front. 1003 W typical / 1803 W max, 1+1 hot-swap PSUs, 761 mm deep, 23.6 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 96,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1803,
+  "weightKg": 23.6
+ },
+ {
+  "id": "arista-7280dr3-24",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7280DR3-24",
+  "name": "7280DR3-24 24 x 400G QSFP-DD switch",
+  "family": "7280R3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Arista 7280R3 datasheet and quick start guide (front panel figures)",
+  "productUrl": "https://www.arista.com/en/products/7280r3-series",
+  "notes": "Check: management and console panel. 650 W typical / 1100 W max, 1+1 hot-swap PSUs, 574 mm deep, 12.7 kg. 7280PR3-24 is the OSFP version.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 24,
+    "prefix": "400G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1100,
+  "weightKg": 12.7
+ },
+ {
+  "id": "arista-7050sx3-48yc8",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050SX3-48YC8",
+  "name": "7050SX3-48YC8 48 x 25G + 8 x 100G switch",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Management Ethernet, console and USB are on the rear (not on the front legend). 124 W typical / 301 W max, 1+1 hot-swap PSUs (reversible airflow), 467 mm deep, 9.5 kg. A common ST 2110 leaf.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 301,
+  "weightKg": 9.5
+ },
+ {
+  "id": "arista-7050sx3-48yc12",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050SX3-48YC12",
+  "name": "7050SX3-48YC12 48 x 25G + 12 x 100G switch",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Management Ethernet, console and USB are on the rear (not on the front legend). 170 W typical / 325 W max, 1+1 hot-swap PSUs, front-to-rear airflow only, 445 mm deep, 9.2 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 12,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 325,
+  "weightKg": 9.2
+ },
+ {
+  "id": "arista-7050sx3-48c8",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050SX3-48C8",
+  "name": "7050SX3-48C8 48 x 10G + 8 x 100G switch",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Management Ethernet, console and USB are on the rear (not on the front legend). 106 W typical / 285 W max, 1+1 hot-swap PSUs, 9.5 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 48,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 285,
+  "weightKg": 9.5
+ },
+ {
+  "id": "arista-7050tx3-48c8",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050TX3-48C8",
+  "name": "7050TX3-48C8 48 x 10GBASE-T + 8 x 100G switch",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Management Ethernet, console and USB are on the rear (not on the front legend). 212 W typical / 346 W max, 1+1 hot-swap PSUs, 9.4 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1/2.5/5/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 346,
+  "weightKg": 9.4
+ },
+ {
+  "id": "arista-7050cx3-32s",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050CX3-32S",
+  "name": "7050CX3-32S 32 x 100G switch",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Management Ethernet, console and USB on the front. 168 W typical / 343 W max, 1+1 hot-swap PSUs, 406 mm deep, 9.1 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 343,
+  "weightKg": 9.1
+ },
+ {
+  "id": "arista-7050sx3-96yc8",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7050SX3-96YC8",
+  "name": "7050SX3-96YC8 96 x 25G + 8 x 100G switch (2RU)",
+  "family": "7050X3",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 7050X3 datasheet and 7050 1RU Gen3 quick start guide",
+  "productUrl": "https://www.arista.com/en/products/7050x3-series",
+  "notes": "Check: management and console panel (assumed rear as on the other SX3 models). 218 W typical / 453 W max, 1+1 hot-swap PSUs, 503 mm deep, 19.5 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 96,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 453,
+  "weightKg": 19.5
+ },
+ {
+  "id": "arista-7020sr-24c2",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7020SR-24C2",
+  "name": "7020SR-24C2 24 x 10G + 2 x 100G deep-buffer switch",
+  "family": "7020R",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 7020R datasheet",
+  "productUrl": "https://www.arista.com/en/products/7020r-series",
+  "notes": "Check: management and console panel (the 7020 guide says some models have them on the rear; assumed rear). 95 W typical / 105 W max, 1+1 hot-swap PSUs, 401 mm deep, 7.5 kg. 7020SRG-24C2 adds IPsec.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 105,
+  "weightKg": 7.5
+ },
+ {
+  "id": "arista-7020sr-32c2",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7020SR-32C2",
+  "name": "7020SR-32C2 32 x 10G + 2 x 100G deep-buffer switch",
+  "family": "7020R",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 7020R datasheet",
+  "productUrl": "https://www.arista.com/en/products/7020r-series",
+  "notes": "Check: management and console panel (the 7020 guide says some models have them on the rear; assumed rear). 160 W typical / 189 W max, 1+1 hot-swap PSUs, 347 mm deep, 6.4 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 32,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 189,
+  "weightKg": 6.4
+ },
+ {
+  "id": "arista-7020tr-48",
+  "manufacturer": "Arista Networks",
+  "partNumber": "DCS-7020TR-48",
+  "name": "7020TR-48 48 x 1G + 6 x 10G deep-buffer switch",
+  "family": "7020R",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 7020R datasheet",
+  "productUrl": "https://www.arista.com/en/products/7020r-series",
+  "notes": "Check: management and console panel (the 7020 guide says some models have them on the rear; assumed rear). 2 USB ports. 105 W typical / 115 W max, 1+1 hot-swap PSUs, 401 mm deep, 7.7 kg. 7020TRA-48 adds features.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "100M/1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 6,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 115,
+  "weightKg": 7.7
+ },
+ {
+  "id": "arista-720xp-24y6",
+  "manufacturer": "Arista Networks",
+  "partNumber": "CCS-720XP-24Y6",
+  "name": "720XP-24Y6 24 x 1G PoE + 6 x 25G campus switch",
+  "family": "720XP",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 720XP datasheet and 1RU Gen3 quick start guide (rear panel)",
+  "productUrl": "https://www.arista.com/en/products/720xp-series",
+  "notes": "Management Ethernet, console and USB on the rear with the power supplies and fans (maker rear panel figure). 30 W 802.3at PoE per port, 583 W PoE budget. One 650 W PSU fitted, second slot for redundancy. 318 mm deep, 6 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 6,
+    "prefix": "25G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 90,
+  "weightKg": 6.0
+ },
+ {
+  "id": "arista-720xp-48y6",
+  "manufacturer": "Arista Networks",
+  "partNumber": "CCS-720XP-48Y6",
+  "name": "720XP-48Y6 48 x 1G PoE + 6 x 25G campus switch",
+  "family": "720XP",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 720XP datasheet and 1RU Gen3 quick start guide (rear panel)",
+  "productUrl": "https://www.arista.com/en/products/720xp-series",
+  "notes": "Management Ethernet, console and USB on the rear with the power supplies and fans (maker rear panel figure). 30 W 802.3at PoE per port, 982 W PoE budget. One 1050 W PSU fitted, second slot for redundancy. 318 mm deep, 6.9 kg. Often used for Dante and NDI edge ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 6,
+    "prefix": "25G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 93,
+  "weightKg": 6.9
+ },
+ {
+  "id": "arista-720xp-24zy4",
+  "manufacturer": "Arista Networks",
+  "partNumber": "CCS-720XP-24ZY4",
+  "name": "720XP-24ZY4 24 x 2.5/5G PoE + 4 x 25G campus switch",
+  "family": "720XP",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 720XP datasheet and 1RU Gen3 quick start guide (rear panel)",
+  "productUrl": "https://www.arista.com/en/products/720xp-series",
+  "notes": "Management Ethernet, console and USB on the rear with the power supplies and fans (maker rear panel figure). 509 W PoE budget. One 650 W PSU fitted, second slot for redundancy. 375 mm deep, 6.2 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "2.5G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "5G 60 W PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 156,
+  "weightKg": 6.2
+ },
+ {
+  "id": "arista-720xp-48zc2",
+  "manufacturer": "Arista Networks",
+  "partNumber": "CCS-720XP-48ZC2",
+  "name": "720XP-48ZC2 48 x 2.5/5G PoE + 4 x 25G + 2 x 100G campus switch",
+  "family": "720XP",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista 720XP datasheet and 1RU Gen3 quick start guide (rear panel)",
+  "productUrl": "https://www.arista.com/en/products/720xp-series",
+  "notes": "Management Ethernet, console and USB on the rear with the power supplies and fans (maker rear panel figure). 909 W PoE budget. One 1050 W PSU fitted, second slot for redundancy. 318 mm deep, 7 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "2.5G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "5G 60 W PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 156,
+  "weightKg": 7.0
+ },
+ {
+  "id": "arista-720xp-96zc2",
+  "manufacturer": "Arista Networks",
+  "partNumber": "CCS-720XP-96ZC2",
+  "name": "720XP-96ZC2 96 x 2.5/5G PoE + 4 x 25G + 2 x 100G campus switch (2RU)",
+  "family": "720XP",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Arista 720XP datasheet and 1RU Gen3 quick start guide (rear panel)",
+  "productUrl": "https://www.arista.com/en/products/720xp-series",
+  "notes": "Check: rear layout (the rear figure shown is the 1RU model). Two 1050 W PSUs fitted, up to four; 1727 W PoE budget. 404 mm deep, 14.1 kg.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 80,
+    "prefix": "2.5G 60 W PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "5G 60 W PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 236,
+  "weightKg": 14.1
+ }
+]

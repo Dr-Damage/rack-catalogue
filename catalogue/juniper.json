@@ -1,0 +1,1352 @@
+[
+ {
+  "id": "juniper-ex2300-24t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX2300-24T",
+  "name": "EX2300-24T 24-port 1G access switch",
+  "family": "EX2300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX2300 specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex2300-ethernet-switch.html",
+  "notes": "Integrated PSU and fans. 259 mm deep. Uplinks: 4 x SFP+ (also Virtual Chassis). Check: management, console and USB positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex2300-48t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX2300-48T",
+  "name": "EX2300-48T 48-port 1G access switch",
+  "family": "EX2300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX2300 specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex2300-ethernet-switch.html",
+  "notes": "Integrated PSU and fans. 259 mm deep. Uplinks: 4 x SFP+ (also Virtual Chassis). Check: management, console and USB positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex2300-24p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX2300-24P",
+  "name": "EX2300-24P 24-port 1G PoE+ access switch",
+  "family": "EX2300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX2300 specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex2300-ethernet-switch.html",
+  "notes": "Integrated PSU and fans. 259 mm deep. Uplinks: 4 x SFP+ (also Virtual Chassis). Check: management, console and USB positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex2300-48p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX2300-48P",
+  "name": "EX2300-48P 48-port 1G PoE+ access switch",
+  "family": "EX2300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX2300 specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex2300-ethernet-switch.html",
+  "notes": "Integrated PSU and fans. 310 mm deep. Uplinks: 4 x SFP+ (also Virtual Chassis). Check: management, console and USB positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex3400-24t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX3400-24T",
+  "name": "EX3400-24T 24-port 1G access switch",
+  "family": "EX3400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX3400 hardware guide (system overview)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex3400-ethernet-switch.html",
+  "notes": "Two hot-removable PSU slots (150 W AC fitted). 4 SFP+ uplinks on the front; 2 x 40G QSFP+ (Virtual Chassis ports by default) and the RJ45 console on the rear; mini-USB console on the front. 382 mm deep with a PSU. Check: management port position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "40G VC port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex3400-48t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX3400-48T",
+  "name": "EX3400-48T 48-port 1G access switch",
+  "family": "EX3400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX3400 hardware guide (system overview)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex3400-ethernet-switch.html",
+  "notes": "Two hot-removable PSU slots (150 W AC fitted). 4 SFP+ uplinks on the front; 2 x 40G QSFP+ (Virtual Chassis ports by default) and the RJ45 console on the rear; mini-USB console on the front. 382 mm deep with a PSU. Check: management port position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "40G VC port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex3400-24p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX3400-24P",
+  "name": "EX3400-24P 24-port 1G PoE+ access switch",
+  "family": "EX3400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX3400 hardware guide (system overview)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex3400-ethernet-switch.html",
+  "notes": "Two hot-removable PSU slots (600 W AC fitted). 4 SFP+ uplinks on the front; 2 x 40G QSFP+ (Virtual Chassis ports by default) and the RJ45 console on the rear; mini-USB console on the front. 382 mm deep with a PSU. Check: management port position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "40G VC port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex3400-48p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX3400-48P",
+  "name": "EX3400-48P 48-port 1G PoE+ access switch",
+  "family": "EX3400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper EX3400 hardware guide (system overview)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex3400-ethernet-switch.html",
+  "notes": "Two hot-removable PSU slots (920 W AC fitted). 4 SFP+ uplinks on the front; 2 x 40G QSFP+ (Virtual Chassis ports by default) and the RJ45 console on the rear; mini-USB console on the front. 382 mm deep with a PSU. Check: management port position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "40G VC port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-24t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-24T",
+  "name": "EX4400-24T access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 550 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-24p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-24P",
+  "name": "EX4400-24P access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 1050 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE-bt 90 W"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-24mp",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-24MP",
+  "name": "EX4400-24MP access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 1050 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "100M-10G PoE-bt 90 W"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-48t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-48T",
+  "name": "EX4400-48T access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 550 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-48p",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-48P",
+  "name": "EX4400-48P access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 1600 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE-bt 90 W"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-48mp",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-48MP",
+  "name": "EX4400-48MP access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 1600 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "100M-10G PoE-bt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 36,
+    "prefix": "100M-2.5G PoE-bt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-48f",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-48F",
+  "name": "EX4400-48F access / aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "Front extension slot takes the optional 4 x 10/25G uplink module (shown as 4 SFP28). 2 x 100G QSFP28 on the rear. USB-C console on the front, RJ45 console (CON) and management (MGMT) on the rear. Two PSU slots, one 550 W AC supply fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 36,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 12,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G (VC / uplink)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-ex4400-24x",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "EX4400-24X",
+  "name": "EX4400-24X 24 x 10G SFP+ aggregation switch",
+  "family": "EX4400",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper EX4400 hardware guide (models and panels) and specs page",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html",
+  "notes": "On this model the QSFP28 ports, console, management and USB-C are all on the front. Two PSU slots, one 550 W fitted. 399 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "Uplink module slot (EX4400-EM-4Y)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "juniper-qfx5120-48y",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "QFX5120-48Y",
+  "name": "QFX5120-48Y 48 x 25G + 8 x 100G data centre switch",
+  "family": "QFX5120",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper QFX5120 specs page and hardware guide (chassis)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/qfx-series/qfx5120-data-center-switches.html",
+  "notes": "Two management ports on the rear (hardware guide). Check: console and USB panel (the guide figures disagree). 247 W typical / 272 W max, two PSUs, 520 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt C0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Mgmt C1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 272
+ },
+ {
+  "id": "juniper-qfx5120-48t",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "QFX5120-48T",
+  "name": "QFX5120-48T 48 x 10GBASE-T + 6 x 100G data centre switch",
+  "family": "QFX5120",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Juniper QFX5120 specs page and hardware guide (chassis)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/qfx-series/qfx5120-data-center-switches.html",
+  "notes": "Management port on the rear (hardware guide). Check: console and USB panel. 213 W typical / 218 W max, two PSUs, 520 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 218
+ },
+ {
+  "id": "juniper-qfx5120-32c",
+  "manufacturer": "Juniper Networks",
+  "partNumber": "QFX5120-32C",
+  "name": "QFX5120-32C 32 x 100G data centre switch",
+  "family": "QFX5120",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Juniper QFX5120 specs page and hardware guide (chassis)",
+  "productUrl": "https://www.juniper.net/us/en/products/switches/qfx-series/qfx5120-data-center-switches.html",
+  "notes": "Management port on the front (hardware guide). 291 W typical / 310 W max, two PSUs, 515 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 310
+ }
+]
