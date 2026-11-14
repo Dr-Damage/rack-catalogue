@@ -1,0 +1,1337 @@
+[
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-1ru-mod-s",
+  "partNumber": "FRE-1RU-MOD-S",
+  "name": "FRE-1RU-MOD-S FRE 1RU sliding fibre enclosure, 2 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 1,
+  "source": "AFL FRE Sliding Enclosures data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Sliding-Enclosure1RU-2RU-3RU",
+  "weightKg": 4.2,
+  "notes": "1RU sliding enclosure, 2 horizontal adapter panel positions, 2 side by side. Presents up to 24 SC/ST/FC or 48 LC fibres; splices up to 36 (72 double-stacked). 433 mm wide, 300 mm deep, 4.2 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Full-extension sliding tray. Cable entry brackets: S (standard), SB/SFL (1RU only), SRP (rodent-proof). Fixed fascia options: 36SCV (36-port angled), 48SCV (48-port flat). ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-2ru-mod-s",
+  "partNumber": "FRE-2RU-MOD-S",
+  "name": "FRE-2RU-MOD-S FRE 2RU sliding fibre enclosure, 4 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 2,
+  "source": "AFL FRE Sliding Enclosures data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Sliding-Enclosure1RU-2RU-3RU",
+  "weightKg": 5.6,
+  "notes": "2RU sliding enclosure, 4 horizontal adapter panel positions, 2 side by side per row. Presents up to 48 SC/ST/FC or 96 LC fibres; splices up to 72 (144 double-stacked). 433 mm wide, 330 mm deep, 5.6 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Full-extension sliding tray. Cable entry brackets: S (standard), SB/SFL (1RU only), SRP (rodent-proof). Fixed fascia options: 72SCV (72-port angled), 96SCV (96-port flat). ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-s",
+  "partNumber": "FRE-3RU-MOD-S",
+  "name": "FRE-3RU-MOD-S FRE 3RU sliding fibre enclosure, 8 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL FRE Sliding Enclosures data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Sliding-Enclosure1RU-2RU-3RU",
+  "weightKg": 6.6,
+  "notes": "3RU sliding enclosure, 8 horizontal adapter panel positions, 2 side by side in 4 rows. Presents up to 96 SC/ST/FC or 192 LC fibres; splices up to 144 (288 double-stacked). 433 mm wide, 365 mm deep, 6.6 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Full-extension sliding tray. Cable entry brackets: S (standard), SB/SFL (1RU only), SRP (rodent-proof). Check: panel layout (shown as 2 columns of 4).",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-s-v",
+  "partNumber": "FRE-3RU-MOD-S-V",
+  "name": "FRE-3RU-MOD-S-V FRE 3RU sliding fibre enclosure, 12 panels (vertical)",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL FRE Sliding Enclosures data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Sliding-Enclosure1RU-2RU-3RU",
+  "weightKg": 6.6,
+  "notes": "3RU sliding enclosure, 12 vertical adapter panel positions. Presents up to 144 SC or 288 LC fibres; splices up to 144 (288 double-stacked). 433 mm wide, 365 mm deep, 6.6 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Full-extension sliding tray, MOD12 vertical faceplate. ",
+  "frame": {
+   "system": "AFL FRE V",
+   "orient": "v",
+   "slots": 12,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-1ru-mod-ss2",
+  "partNumber": "FRE-1RU-MOD-SS2",
+  "name": "FRE-1RU-MOD-SS2 FRE 1RU static sliding fibre enclosure, 2 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 1,
+  "source": "AFL FRE Static Sliding Enclosure data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Static-Sliding-Enclosure1RU-2RU-3RU",
+  "notes": "1RU static sliding enclosure, 2 horizontal adapter panel positions, 2 side by side. Presents up to 24 SC/ST/FC or 48 LC fibres; splices up to 36 (72 double-stacked). 433 mm wide, 330 mm deep, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Sliding tray with fixed cable entry, so incoming cables do not move when the tray slides. SS2 entry takes up to 6 cables (SS2RP rodent-proof up to 4). ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-2ru-mod-ss2",
+  "partNumber": "FRE-2RU-MOD-SS2",
+  "name": "FRE-2RU-MOD-SS2 FRE 2RU static sliding fibre enclosure, 4 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 2,
+  "source": "AFL FRE Static Sliding Enclosure data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Static-Sliding-Enclosure1RU-2RU-3RU",
+  "notes": "2RU static sliding enclosure, 4 horizontal adapter panel positions, 2 side by side per row. Presents up to 48 SC/ST/FC or 96 LC fibres; splices up to 72 (144 double-stacked). 433 mm wide, 330 mm deep, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Sliding tray with fixed cable entry, so incoming cables do not move when the tray slides. SS2 entry takes up to 6 cables (SS2RP rodent-proof up to 4; SS3 up to 12). ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-ss2",
+  "partNumber": "FRE-3RU-MOD-SS2",
+  "name": "FRE-3RU-MOD-SS2 FRE 3RU static sliding fibre enclosure, 8 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL FRE Static Sliding Enclosure data sheet (AFL Oceania)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Static-Sliding-Enclosure1RU-2RU-3RU",
+  "notes": "3RU static sliding enclosure, 8 horizontal adapter panel positions, 2 side by side in 4 rows. Presents up to 96 SC/ST/FC or 192 LC fibres; splices up to 144 (288 double-stacked). 433 mm wide, 365 mm deep, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Sliding tray with fixed cable entry, so incoming cables do not move when the tray slides. SS2 entry takes up to 6 cables (SS2RP rodent-proof up to 4; SS3 up to 12). Check: panel layout (shown as 2 columns of 4).",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-1ru-mod-s2",
+  "partNumber": "FRE-1RU-MOD-S2",
+  "name": "FRE-1RU-MOD-S2 FRE 1RU limited-depth sliding fibre enclosure, 2 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 1,
+  "source": "AFL 1RU FRE Limited Depth Sliding Enclosure page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/sliding-enclosures/1ru-fre-limited-depth-sliding-enclosure",
+  "weightKg": 3.1,
+  "notes": "1RU limited-depth sliding enclosure, 2 horizontal adapter panel positions, 2 side by side. Presents up to 24 SC/ST/FC or 48 LC fibres; splices up to 36 (72 double-stacked). 433 mm wide, 200 mm deep, 3.1 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). For shallow racks and wall cabinets. Full-extension sliding tray; angled inward rear bracket takes glands. ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-2ru-mod-s2",
+  "partNumber": "FRE-2RU-MOD-S2",
+  "name": "FRE-2RU-MOD-S2 FRE 2RU limited-depth sliding fibre enclosure, 4 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 2,
+  "source": "AFL 1RU FRE Limited Depth Sliding Enclosure page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/sliding-enclosures/1ru-fre-limited-depth-sliding-enclosure",
+  "weightKg": 5.2,
+  "notes": "2RU limited-depth sliding enclosure, 4 horizontal adapter panel positions, 2 side by side per row. Presents up to 48 SC/ST/FC or 96 LC fibres; splices up to 72 (144 double-stacked). 433 mm wide, 200 mm deep, 5.2 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). For shallow racks and wall cabinets. Full-extension sliding tray; angled inward rear bracket takes glands. ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-s2",
+  "partNumber": "FRE-3RU-MOD-S2",
+  "name": "FRE-3RU-MOD-S2 FRE 3RU limited-depth sliding fibre enclosure, 8 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL 1RU FRE Limited Depth Sliding Enclosure page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/sliding-enclosures/1ru-fre-limited-depth-sliding-enclosure",
+  "weightKg": 6.2,
+  "notes": "3RU limited-depth sliding enclosure, 8 horizontal adapter panel positions, 2 side by side in 4 rows. Presents up to 96 SC/ST/FC or 192 LC fibres; splices up to 144 (288 double-stacked). 433 mm wide, 200 mm deep, 6.2 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). For shallow racks and wall cabinets. Full-extension sliding tray; angled inward rear bracket takes glands. Special order only. Check: panel layout (shown as 2 columns of 4).",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-1ru-mod-wb",
+  "partNumber": "FRE-1RU-MOD-WB",
+  "name": "FRE-1RU-MOD-WB FRE 1RU wingback fixed fibre enclosure, 2 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 1,
+  "source": "AFL FRE Wingback Enclosures data sheet (AFL Oceania, 2020)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Wingback-Fixed-Enclosure1RU-2RU-3RU",
+  "weightKg": 2.6,
+  "notes": "1RU wingback fixed enclosure, 2 horizontal adapter panel positions, 2 side by side. Presents up to 24 SC/ST/FC or 48 LC fibres; splice capacity not stated (splice trays optional). 434 mm wide, 250 mm deep, 2.6 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Fixed, removable lid. Angled left and right rear entries, no glands needed (4 cables each side). Made for MTP and pre-terminated trunk cables. ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-2ru-mod-wb",
+  "partNumber": "FRE-2RU-MOD-WB",
+  "name": "FRE-2RU-MOD-WB FRE 2RU wingback fixed fibre enclosure, 4 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 2,
+  "source": "AFL FRE Wingback Enclosures data sheet (AFL Oceania, 2020)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Wingback-Fixed-Enclosure1RU-2RU-3RU",
+  "weightKg": 3.4,
+  "notes": "2RU wingback fixed enclosure, 4 horizontal adapter panel positions, 2 side by side per row. Presents up to 48 SC/ST/FC or 96 LC fibres; splice capacity not stated (splice trays optional). 434 mm wide, 250 mm deep, 3.4 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Fixed, removable lid. Angled left and right rear entries, no glands needed (8 cables each side). Made for MTP and pre-terminated trunk cables. ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-wb",
+  "partNumber": "FRE-3RU-MOD-WB",
+  "name": "FRE-3RU-MOD-WB FRE 3RU wingback fixed fibre enclosure, 8 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL FRE Wingback Enclosures data sheet (AFL Oceania, 2020)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Wingback-Fixed-Enclosure1RU-2RU-3RU",
+  "weightKg": 4.2,
+  "notes": "3RU wingback fixed enclosure, 8 horizontal adapter panel positions, 2 side by side in 4 rows. Presents up to 96 SC/ST/FC or 192 LC fibres; splice capacity not stated (splice trays optional). 434 mm wide, 250 mm deep, 4.2 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Fixed, removable lid. Angled left and right rear entries, no glands needed (12 cables each side). Made for MTP and pre-terminated trunk cables. Up to 4 half-size blanks (FRE-BLANK-SML) space 6 panels evenly. Check: panel layout (shown as 2 columns of 4).",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-3ru-mod-wb-v",
+  "partNumber": "FRE-3RU-MOD-WB-V",
+  "name": "FRE-3RU-MOD-WB-V FRE 3RU wingback fixed fibre enclosure, 12 panels (vertical)",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 3,
+  "source": "AFL FRE Wingback Enclosures data sheet (AFL Oceania, 2020)",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fibre-Enclosure-Racks/Rackmount-Enclosures/FRE-Wingback-Fixed-Enclosure1RU-2RU-3RU",
+  "weightKg": 4.2,
+  "notes": "3RU wingback fixed enclosure, 12 vertical adapter panel positions. Presents up to 144 SC or 288 LC fibres; splice capacity not stated (splice trays optional). 434 mm wide, 250 mm deep, 4.2 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Fixed, removable lid. Angled left and right rear entries, no glands needed (12 cables each side). ",
+  "frame": {
+   "system": "AFL FRE V",
+   "orient": "v",
+   "slots": 12,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-1ru-mod-f",
+  "partNumber": "FRE-1RU-MOD-F",
+  "name": "FRE-1RU-MOD-F FRE 1RU basic fixed fibre enclosure, 2 panels",
+  "family": "FRE",
+  "category": "frame",
+  "ru": 1,
+  "source": "AFL Fibre Enclosures and Racks 1RU Fixed data sheet",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fiber-Optic-Connectivity/Rackmount-Splice--Patch-Solutions/Fixed-Enclosures/FRE-Basic-Fixed-Enclosure1RU",
+  "weightKg": 4.0,
+  "notes": "1RU basic fixed enclosure, 2 horizontal adapter panel positions, 2 side by side. Presents up to 24 SC/ST/FC or 48 LC fibres; splices up to 36 (72 double-stacked). 435 mm wide, 250 mm deep, 4.0 kg, charcoal powder-coated steel. Panels are sold separately (FRE adapter panels or blanks). Fixed tray, twin-aperture modular front. Up to 2 incoming cables each side. ",
+  "frame": {
+   "system": "AFL FRE",
+   "orient": "h",
+   "cols": 2,
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes FRE clip-in adapter panels; splice cassettes inside."
+  }
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 36,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 72,
+    "prefix": "Splice"
+   }
+  ],
+  "id": "afl-fre-1ru-36scv-f",
+  "partNumber": "FRE-1RU-36SCV-F",
+  "name": "FRE-1RU-36SCV-F FRE 1RU fixed fibre enclosure, 36 x LC duplex (angled fascia)",
+  "family": "FRE",
+  "category": "patch",
+  "ru": 1,
+  "source": "AFL Fibre Enclosures and Racks 1RU Fixed data sheet",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fiber-Optic-Connectivity/Rackmount-Splice--Patch-Solutions/Fixed-Enclosures/FRE-Basic-Fixed-Enclosure1RU",
+  "weightKg": 4.0,
+  "notes": "1RU fixed enclosure with a 36-port angled fixed fascia for SC simplex or LC duplex adapters (36 SC or 72 LC fibres). 435 x 250 mm, 4 kg. Up to 2 incoming cables each side. Shown loaded with LC duplex; the inside is shown as splices. The sliding enclosures take the same fascia (part numbers ending -S)."
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 48,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "Splice",
+    "count": 96,
+    "prefix": "Splice"
+   }
+  ],
+  "id": "afl-fre-1ru-48scv-f",
+  "partNumber": "FRE-1RU-48SCV-F",
+  "name": "FRE-1RU-48SCV-F FRE 1RU fixed fibre enclosure, 48 x LC duplex (flat fascia)",
+  "family": "FRE",
+  "category": "patch",
+  "ru": 1,
+  "source": "AFL Fibre Enclosures and Racks 1RU Fixed data sheet",
+  "productUrl": "https://www.aflglobal.com/en/au/Products/Fiber-Optic-Connectivity/Rackmount-Splice--Patch-Solutions/Fixed-Enclosures/FRE-Basic-Fixed-Enclosure1RU",
+  "weightKg": 4.0,
+  "notes": "1RU fixed enclosure with a 48-port flat fixed fascia for SC simplex or LC duplex adapters (48 SC or 96 LC fibres). 435 x 250 mm, 4 kg. Up to 2 incoming cables each side. Shown loaded with LC duplex; the inside is shown as splices. The sliding enclosures take the same fascia (part numbers ending -S)."
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "id": "afl-fre-sc12d-fl1-12",
+  "partNumber": "FRE-SC12D-FL1/12",
+  "name": "FRE 12-port SC/LC duplex panel, flat (ports 1-12)",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "The holes take SC simplex or LC duplex adapters; shown with LC duplex. FRE-SC12D-FL13/24 is the same panel labelled 13-24. Angled: FRE-SC12H-AL1/12, FRE-SC12H-AR1/12.",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SC12D-FL1/12",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "id": "afl-fre-sc12h-al1-12",
+  "partNumber": "FRE-SC12H-AL1/12",
+  "name": "FRE 12-port SC/LC duplex panel, angled left",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "The holes take SC simplex or LC duplex adapters; shown with LC duplex. Angled versions -AL (angle left) and -AR (angle right) have the same ports. ",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SC12H-AL1/12",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "id": "afl-fre-sc06h-fl1-6",
+  "partNumber": "FRE-SC06H-FL1/6",
+  "name": "FRE 6-port SC/LC duplex panel, flat",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "The holes take SC simplex or LC duplex adapters; shown with LC duplex. Angled versions -AL (angle left) and -AR (angle right) have the same ports. ",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SC06H-FL1/6",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 12,
+    "prefix": "SC"
+   }
+  ],
+  "id": "afl-fre-scd06d-fl1-12-c",
+  "partNumber": "FRE-SCD06D-FL1/12-C",
+  "name": "FRE 6-port SC duplex panel, flat",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "Six SC duplex adapters (12 SC fibres). Angled: FRE-SCD06H-AL1/12, -AR1/12.",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SCD06D-FL1/12-C",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "SC",
+      "count": 12,
+      "prefix": "SC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 6,
+    "prefix": "SC"
+   }
+  ],
+  "id": "afl-fre-scd03h-fl1-6-c",
+  "partNumber": "FRE-SCD03H-FL1/6-C",
+  "name": "FRE 3-port SC duplex panel, flat",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "Three SC duplex adapters (6 SC fibres). Angled versions -AL (angle left) and -AR (angle right) have the same ports. ",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SCD03H-FL1/6-C",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "SC",
+      "count": 6,
+      "prefix": "SC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 12,
+    "prefix": "ST"
+   }
+  ],
+  "id": "afl-fre-st12d-fl1-12-c",
+  "partNumber": "FRE-ST12D-FL1/12-C",
+  "name": "FRE 12-port ST/FC panel, flat",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "ST or FC adapters; shown as ST. FRE-ST12D-FL13/24 is labelled 13-24.",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-ST12D-FL1/12-C",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 12,
+      "prefix": "ST"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 6,
+    "prefix": "ST"
+   }
+  ],
+  "id": "afl-fre-st06h-fl1-6-c",
+  "partNumber": "FRE-ST06H-FL1/6-C",
+  "name": "FRE 6-port ST/FC panel, flat",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "ST or FC adapters; shown as ST. Angled versions -AL (angle left) and -AR (angle right) have the same ports. ",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-ST06H-FL1/6-C",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "ST",
+      "count": 6,
+      "prefix": "ST"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-blank",
+  "partNumber": "FRE-BLANK",
+  "name": "FRE blank panel",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "Blank for an unused panel position. FRE-BLANK-SML is the half-size blank for the 3RU 8-panel enclosures.",
+  "card": {
+   "fits": [
+    "AFL FRE"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-BLANK",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "id": "afl-fre-sc12v-au",
+  "partNumber": "FRE-SC12V-AU",
+  "name": "FRE 12-port SC/LC duplex vertical panel, angled",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "The holes take SC simplex or LC duplex adapters; shown with LC duplex. For the 12-position vertical (-V) enclosures. FRE-SC12V-AL1/12 and -AR13/24 are labelled versions.",
+  "card": {
+   "fits": [
+    "AFL FRE V"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SC12V-AU",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "id": "afl-fre-sc06v-au",
+  "partNumber": "FRE-SC06V-AU",
+  "name": "FRE 6-port SC/LC duplex vertical panel, angled",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "The holes take SC simplex or LC duplex adapters; shown with LC duplex. For the 12-position vertical (-V) enclosures.",
+  "card": {
+   "fits": [
+    "AFL FRE V"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SC06V-AU",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 6,
+      "prefix": "LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SC",
+    "count": 12,
+    "prefix": "SC"
+   }
+  ],
+  "id": "afl-fre-scd06v-au",
+  "partNumber": "FRE-SCD06V-AU",
+  "name": "FRE 6-port SC duplex vertical panel, angled",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "Six SC duplex adapters (12 SC fibres). For the vertical (-V) enclosures.",
+  "card": {
+   "fits": [
+    "AFL FRE V"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-SCD06V-AU",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "SC",
+      "count": 12,
+      "prefix": "SC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "afl-fre-blank-v",
+  "partNumber": "FRE-BLANK-V",
+  "name": "FRE vertical blank panel",
+  "family": "FRE panels",
+  "category": "card",
+  "ru": 0,
+  "source": "AFL FRE adapter panel listings (AFL Oceania) and FRE data sheets",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fibre-enclosure-racks/panels-for-rackmount-and-wall-enclosures/sclc-duplex-6-port-panel-1-6hp-flat",
+  "notes": "Blank for an unused vertical panel position.",
+  "card": {
+   "fits": [
+    "AFL FRE V"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "FRE-BLANK-V",
+    "name": "Rear (pigtail side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 72,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "MPO/MTP",
+    "count": 12,
+    "prefix": "MPO"
+   }
+  ],
+  "id": "afl-denali-1ru-s",
+  "partNumber": "DENALI-1RU-S",
+  "name": "DENALI 1RU high-density fibre housing, 72 x LC duplex",
+  "family": "DENALI",
+  "category": "patch",
+  "ru": 1,
+  "source": "AFL DENALI Fiber Housings page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/denali-high-density-platform",
+  "notes": "1RU housing with 3 sliding trays that lock open; cassettes load from front or rear. Up to 144 LC fibres (or 864 fibres as MPO pass-through). Shown loaded with 12 BASE-12 MPO-LC cassettes: 72 LC duplex in front, 12 MPO12 trunks at the rear. 501.6 mm deep. Check: cassette mix (BASE-8 and BASE-24 cassettes also fit)."
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 144,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "MPO/MTP",
+    "count": 24,
+    "prefix": "MPO"
+   }
+  ],
+  "id": "afl-denali-2ru-s",
+  "partNumber": "DENALI-2RU-S",
+  "name": "DENALI 2RU high-density fibre housing, 144 x LC duplex",
+  "family": "DENALI",
+  "category": "patch",
+  "ru": 2,
+  "source": "AFL DENALI Fiber Housings page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/denali-high-density-platform",
+  "notes": "2RU housing with 6 sliding trays that lock open; cassettes load from front or rear. Up to 288 LC fibres (or 1728 fibres as MPO pass-through). Shown loaded with 24 BASE-12 MPO-LC cassettes: 144 LC duplex in front, 24 MPO12 trunks at the rear. 501.6 mm deep. Check: cassette mix (BASE-8 and BASE-24 cassettes also fit)."
+ },
+ {
+  "manufacturer": "AFL",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 288,
+    "prefix": "LC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "MPO/MTP",
+    "count": 48,
+    "prefix": "MPO"
+   }
+  ],
+  "id": "afl-denali-4ru-s",
+  "partNumber": "DENALI-4RU-S",
+  "name": "DENALI 4RU high-density fibre housing, 288 x LC duplex",
+  "family": "DENALI",
+  "category": "patch",
+  "ru": 4,
+  "source": "AFL DENALI Fiber Housings page",
+  "productUrl": "https://www.aflglobal.com/en/au/products/fiber-optic-connectivity/rackmount-splice--patch-solutions/denali-high-density-platform",
+  "notes": "4RU housing with 12 sliding trays that lock open; cassettes load from front or rear. Up to 576 LC fibres (or 3456 fibres as MPO pass-through). Shown loaded with 48 BASE-12 MPO-LC cassettes: 288 LC duplex in front, 48 MPO12 trunks at the rear. 501.6 mm deep. Check: cassette mix (BASE-8 and BASE-24 cassettes also fit)."
+ }
+]
