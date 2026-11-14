@@ -12,7 +12,7 @@
   "verified": true,
   "source": "AHM-64 technical datasheet",
   "productUrl": "https://goknight.com/content/documentation/AH-AHM-64%2064x64%20Audio%20Matrix%20Processor%20Spec%20Sheet.pdf",
-  "notes": "2U, 482.6 x 364 x 91 mm, 7 kg, 70 W max. 64x64 matrix processor for installed audio: 12 mic/line inputs (+48 V) and 12 outputs on pluggable Phoenix blocks, SLink port (128x128, to DX/GX expanders, AudioRacks or an SQ), one I/O Port slot (128x128, e.g. Dante 64x64), control network for System Manager and IP remotes, 2 GPI and 2 relay outputs, mains IEC plus 12 V DC backup input. Check: SLink connector type (the datasheet only says Cat5e).",
+  "notes": "2U, 482.6 x 364 x 91 mm, 7 kg, 70 W max. 64x64 matrix processor for installed audio: 12 mic/line inputs (+48 V) and 12 outputs on pluggable Phoenix blocks, SLink port (128x128, to DX/GX expanders, AudioRacks or an SQ), one I/O Port slot (128x128, e.g. Dante 64x64), control network for System Manager and IP remotes, 2 GPI and 2 relay outputs, mains IEC plus 12 V DC backup input. SLink is an RJ45 socket (rear photo); a Dante card in the I/O Port adds two etherCONs.",
   "portGroups": [
    {
     "face": "rear",
@@ -42,7 +42,7 @@
     "face": "rear",
     "dir": "io",
     "type": "Other",
-    "connector": "etherCON",
+    "connector": "RJ45",
     "count": 1,
     "prefix": "SLink"
    },

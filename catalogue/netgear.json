@@ -12,7 +12,7 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 110 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 110 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
     "face": "front",
@@ -81,7 +81,7 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 220 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 220 W. Desktop half-width unit, fanless; sits on a shelf or a rack tray. Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
     "face": "front",
@@ -142,10 +142,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 125 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 125 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -153,7 +153,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -161,7 +161,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
@@ -169,12 +169,20 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -183,6 +191,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -207,10 +223,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 240 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 240 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -218,7 +234,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -226,7 +242,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -234,12 +250,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -248,6 +272,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -272,10 +304,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 720 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 720 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -283,7 +315,7 @@
     "prefix": "1G PoE++"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -291,7 +323,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -299,12 +331,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -313,6 +353,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -337,10 +385,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 300 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 300 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -348,7 +396,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -356,7 +404,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
@@ -364,12 +412,20 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -378,6 +434,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -402,10 +466,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -413,7 +477,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -421,7 +485,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -429,12 +493,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -443,6 +515,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -467,10 +547,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 1,440 W with all 2 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 1,440 W with all 2 internal supplies. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -478,7 +558,7 @@
     "prefix": "1G PoE++"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -486,7 +566,7 @@
     "prefix": "1G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
@@ -494,12 +574,20 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -508,6 +596,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -532,10 +628,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 480 W. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -543,7 +639,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP",
@@ -551,12 +647,20 @@
     "prefix": "1G SFP"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -565,6 +669,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -589,10 +701,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 960 W with all 2 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 960 W with all 2 internal supplies. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -600,7 +712,7 @@
     "prefix": "1G PoE+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -608,12 +720,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -622,6 +742,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -646,10 +774,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 2,880 W with all 3 internal supplies. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). PoE budget 2,880 W with all 3 internal supplies. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -657,7 +785,7 @@
     "prefix": "1G PoE++"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -665,12 +793,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -679,6 +815,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -703,10 +847,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
@@ -714,7 +858,7 @@
     "prefix": "2.5G"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -722,12 +866,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -736,6 +888,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",
@@ -760,10 +920,10 @@
   "verified": true,
   "source": "NETGEAR NETGEAR M4250 port and PoE table",
   "productUrl": "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series",
-  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. Check: console/USB ports and power inlets (typical for the series).",
+  "notes": "NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). No PoE. 1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.",
   "portGroups": [
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "SFP",
     "connector": "SFP+",
@@ -771,12 +931,20 @@
     "prefix": "10G SFP+"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "RS-232",
     "connector": "RJ45",
     "count": 1,
     "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Out-of-band mgmt"
    },
    {
     "face": "front",
@@ -785,6 +953,14 @@
     "connector": "USB-C",
     "count": 1,
     "prefix": "USB console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB storage"
    },
    {
     "face": "rear",

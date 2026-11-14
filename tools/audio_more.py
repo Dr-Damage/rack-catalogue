@@ -27,12 +27,12 @@ A = lambda *a, **k: add('allenheath-more.json', 'ah-', 'Allen & Heath', *a, **k)
 AHM = 'https://www.allen-heath.com/hardware/ahm/'
 A('ahm-64', 'AHM-64', 'AHM-64 64x64 audio matrix processor', 'AHM', 'audio', 2,
   [R('in', AA, 'Phoenix', 12, 'Mic/Line In'), R('out', AA, 'Phoenix', 12, 'Line Out'), R('io', 'Other', 'Card slot', 1, 'I/O Port'),
-   R('io', 'Other', 'etherCON', 1, 'SLink'), R('io', 'Ethernet', 'RJ45', 1, 'Control Network'), R('io', 'GPIO', 'Phoenix', 1, 'GPIO (2 in, 2 relay out)'),
+   R('io', 'Other', 'RJ45', 1, 'SLink'), R('io', 'Ethernet', 'RJ45', 1, 'Control Network'), R('io', 'GPIO', 'Phoenix', 1, 'GPIO (2 in, 2 relay out)'),
    IEC(), R('in', 'Power', 'Phoenix', 1, '12 V DC backup')],
   '2U, 482.6 x 364 x 91 mm, 7 kg, 70 W max. 64x64 matrix processor for installed audio: 12 mic/line inputs (+48 V) and 12 outputs on '
   'pluggable Phoenix blocks, SLink port (128x128, to DX/GX expanders, AudioRacks or an SQ), one I/O Port slot (128x128, e.g. Dante 64x64), '
   'control network for System Manager and IP remotes, 2 GPI and 2 relay outputs, mains IEC plus 12 V DC backup input. '
-  'Check: SLink connector type (the datasheet only says Cat5e).', 'AHM-64 technical datasheet',
+  'SLink is an RJ45 socket (rear photo); a Dante card in the I/O Port adds two etherCONs.', 'AHM-64 technical datasheet',
   'https://goknight.com/content/documentation/AH-AHM-64%2064x64%20Audio%20Matrix%20Processor%20Spec%20Sheet.pdf', powerW=70, weightKg=7)
 A('ahm-32', 'AHM-32', 'AHM-32 32x32 audio matrix processor', 'AHM', 'audio', 1,
   [R('in', AA, 'Phoenix', 12, 'Mic/Line In'), R('out', AA, 'Phoenix', 12, 'Line Out'), R('io', 'Other', 'Card slot', 1, 'I/O Port'),
@@ -100,11 +100,11 @@ RO = lambda *a, **k: add('roland-more.json', 'roland-', 'Roland', *a, **k)
 RP = 'https://proav.roland.com/global/products/'
 RO('s-2416', 'S-2416', 'S-2416 REAC digital snake 24x16', 'REAC', 'audio', 4,
   [F('in', AA, 'XLR', 24, 'Mic In'), F('out', AA, 'XLR', 16, 'Out'), R('io', AO, 'DB25', 1, 'AES/EBU 8 in / 8 out'),
-   R('io', 'Other', 'etherCON', 2, 'REAC (main / backup)'), R('in', 'Other', 'BNC', 1, 'Word Clock In'), R('out', 'Other', 'BNC', 1, 'Word Clock Out'),
-   R('in', 'RS-232', 'DB9', 1, 'Remote'), R('io', 'USB', 'USB-B', 1, 'Computer (RCS)'), IEC()],
+   F('io', 'Other', 'etherCON', 2, 'REAC (main / backup)'), F('in', 'Other', 'BNC', 1, 'Word Clock In'), F('out', 'Other', 'BNC', 1, 'Word Clock Out'),
+   F('in', 'RS-232', 'DB9', 1, 'Remote'), F('io', 'USB', 'USB-B', 1, 'Computer (RCS)'), IEC()],
   '4U, 482 x 348 x 177 mm, 9.7 kg, 62 W. 24 mic inputs (+48 V), 16 XLR outputs, 8 x 8 AES/EBU on DB-25 (32 in, 24 out in all), '
   'two REAC ports for redundancy or a cascaded second unit, word clock, RS-232 remote and USB for S-4000 RCS. '
-  'Check: word clock in/out count and which face each group is on.', 'Roland S-2416 specifications', RP + 's-2416/', powerW=62, weightKg=9.7)
+  'Everything is on the front except the AES/EBU DB-25 and the AC inlet, which are on the rear (product photos).', 'Roland S-2416 specifications', RP + 's-2416/', powerW=62, weightKg=9.7)
 for pn, i, o, url in [('S-1608', 16, 8, RP + 's-1608/'), ('S-0816', 8, 16, RP + 's-0816/')]:
     RO(pn.lower(), pn, f'{pn} REAC digital snake {i}x{o}', 'REAC', 'audio', 4,
        [F('in', AA, 'XLR', i, 'Mic In'), F('out', AA, 'XLR', o, 'Out'), R('io', 'Other', 'etherCON', 1, 'REAC'),
@@ -147,12 +147,12 @@ RO('v-1200hd', 'V-1200HD', 'V-1200HD multi-format video switcher (processor)', '
 M = lambda *a, **k: add('mackie.json', 'mackie-', 'Mackie', *a, **k)
 M('dl32r', 'DL32R', 'DL32R 32-channel rack digital mixer', 'DL', 'audio', 3,
   [F('in', AA, 'XLR', 24, 'Mic In'), F('in', AA, 'XLR/TRS combo', 8, 'Mic/Line In'), F('out', AA, 'XLR', 12, 'Out'),
-   F('out', AO, 'XLR', 1, 'AES Out'), F('out', AA, '1/4" TRS', 2, 'Monitor Out L/R'), F('out', AA, '1/4" TRS', 1, 'Phones'),
-   F('io', 'USB', 'USB-B', 1, 'USB audio (32x32)'), F('io', 'USB', 'USB-A', 1, 'USB drive (record/play)'),
+   F('out', AA, 'XLR', 2, 'Main Out L/R (13/14)'), F('out', AO, 'XLR', 1, 'AES Out'), F('out', AA, '1/4" TRS', 2, 'Monitor Out L/R'),
+   F('out', AA, '1/4" TRS', 1, 'Phones'), R('io', 'USB', 'USB-B', 1, 'Computer (USB audio 32x32)'), R('io', 'USB', 'USB-A', 1, 'Drive (record/play)'),
    R('io', 'Other', 'Card slot', 1, 'Network/Dante option card'), IEC()],
-  '3U, 483 x 443 x 138 mm, 8.2 kg, 100 W. 32 Onyx+ preamps (24 XLR + 8 combo), 12 XLR outputs, AES out, monitor and phones, '
-  'USB-B audio interface and USB-A multitrack recording; option slot for the network card (wired control) or Dante card. iPad control. '
-  'Check: which face the option slot is on.', 'Mackie DL32R specifications (Full Compass)',
+  '3U, 483 x 443 x 138 mm, 8.2 kg, 100 W. 32 Onyx+ preamps (24 XLR + 8 combo), 14 XLR outputs (12 plus main L/R as 13/14), AES out, '
+  'monitor and phones on the front; USB-B audio interface, USB-A drive, option slot (network card for wired control, or Dante with '
+  'two etherCONs and a Wi-Fi control RJ45), power switch and IEC on the rear (Mackie photos). iPad control.', 'Mackie DL32R specifications (Full Compass)',
   'https://www.fullcompass.com/prod/269613-mackie-dl32r-32-channel-rackmount-digital-mixer-with-ios-connectivity', powerW=100, weightKg=8.2)
 for pn, ru, xl, combo, outs, wmm, kg, watts, url in [
         ('DL32S', 4, 16, 16, 10, 414, 4.0, 60, 'https://fullcompass.com/prod/550991-mackie-dl32s-32-channel-wireless-digital-live-sound-mixer'),

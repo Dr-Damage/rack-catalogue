@@ -42,11 +42,16 @@ M4250 = [
     ('XSM4216F', 'M4250-16XF', [sfp(16, '10G SFP+')], 0, 1, '1U', 12)]
 for sku, nm, ports, poe, psus, form, w in M4250:
     power = [R('in', 'Power', 'DC barrel', 1, 'DC In (external adapter)')] if form == 'desktop' else [R('in', 'Power', 'IEC C14', psus, 'AC In' if psus == 1 else 'AC In (PSU)')]
-    add(sku, f'{nm} AV Line managed switch ({sku})', 'NETGEAR M4250', ports + CONSOLE[:2] + power,
+    if form != 'desktop':  # 1U M4250: network ports, console and power on the rear (port side); LEDs and USB on the front
+        ports = [dict(p, face='rear') for p in ports] + [R('io', 'RS-232', 'RJ45', 1, 'Console'), R('io', 'Ethernet', 'RJ45', 1, 'Out-of-band mgmt'),
+                 F('io', 'USB', 'USB-C', 1, 'USB console'), F('io', 'USB', 'USB-A', 1, 'USB storage')]
+    else:
+        ports = ports + CONSOLE[:2]
+    add(sku, f'{nm} AV Line managed switch ({sku})', 'NETGEAR M4250', ports + power,
         f'NETGEAR AV Line switch with the AV user interface and profiles for Dante, AES67, NDI, Q-SYS and AVB/Milan (AVB on selected models). '
         f'{"PoE budget " + format(poe, ",") + " W" + (" with all " + str(psus) + " internal supplies" if psus > 1 else "") + ". " if poe else "No PoE. "}'
-        f'{"Desktop half-width unit, fanless; sits on a shelf or a rack tray. " if form == "desktop" else "1U rack mount. "}'
-        'Check: console/USB ports and power inlets (typical for the series).', KB4250, verified=True, w=w,
+        f'{"Desktop half-width unit, fanless; sits on a shelf or a rack tray. " if form == "desktop" else "1U rack mount. The network ports, two RJ45 management ports and the power inlet are on the rear (port side); the front has a port LED panel and USB, so the switch faces forward in an AV rack while cables come in at the back (NETGEAR product photos). "}'
+        'Check: which of the two RJ45 management ports is console and which out-of-band, and the front USB types.', KB4250, verified=True, w=w,
         **({'boxMm': {'w': 216, 'h': 43}} if form == 'desktop' else {}))
 
 # ---------------- M4350 (AV and IT) ----------------

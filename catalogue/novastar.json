@@ -751,7 +751,7 @@
   "verified": true,
   "source": "NovaStar MX40 Pro specifications V1.5.1",
   "productUrl": "https://ret.de/wp-content/uploads/2026/07/MX40-Pro-LED-Display-Controller-Specifications-V1.5.1.pdf",
-  "notes": "Broadcast-grade LED controller for VMP software: up to 9 million pixels over 20 gigabit outputs plus four 10G fibre outputs, 12G-SDI, genlock. 482.6 x 467.0 x 94.2 mm (2U with feet), 7.5 kg, 95 W. Check: whether the outputs are RJ45 or etherCON.",
+  "notes": "Broadcast-grade LED controller for VMP software: up to 9 million pixels over 20 gigabit outputs plus four 10G fibre outputs, 12G-SDI, genlock. 482.6 x 467.0 x 94.2 mm (2U with feet), 7.5 kg, 95 W. The 20 LED outputs are etherCON, AUX is RJ45 and S/PDIF out is optical (rear photo).",
   "portGroups": [
    {
     "face": "rear",
@@ -805,7 +805,7 @@
     "face": "rear",
     "dir": "out",
     "type": "Ethernet",
-    "connector": "RJ45",
+    "connector": "etherCON",
     "count": 20,
     "prefix": "LED output (to receiving cards)"
    },
@@ -837,7 +837,7 @@
     "face": "rear",
     "dir": "out",
     "type": "Other",
-    "connector": "RCA",
+    "connector": "TOSLINK",
     "count": 1,
     "prefix": "S/PDIF Out"
    },
@@ -845,9 +845,9 @@
     "face": "rear",
     "dir": "io",
     "type": "RS-232",
-    "connector": "Other",
+    "connector": "RJ45",
     "count": 1,
-    "prefix": "AUX (RS-232)"
+    "prefix": "AUX"
    },
    {
     "face": "front",

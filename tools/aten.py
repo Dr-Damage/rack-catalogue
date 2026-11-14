@@ -93,21 +93,27 @@ for pn, cons in (('KM0932', 9), ('KM0532', 5), ('KM0432', 4), ('KM0032', 0)):
 
 # ---------------- LCD KVM switches (1U drawer with a built-in KVM switch) ----------------
 LCD = AU + 'lcd-kvm-switches--consoles/'
-def lcd(pn, desc, n, kind, ip=False, dual=False, screens='', extra='', alt=''):
+def lcd(pn, desc, n, kind, ip=False, dual=False, screens='', extra='', alt='', cl57=False):
     port = {'sphd': sphd(n), 'cat5': cat5(n), 'hdmi': R('io', KVM, 'Other', n, 'KVM port (ATEN USB HDMI KVM cable)'),
             'dvi': R('io', KVM, 'Other', n, 'KVM port (ATEN USB DVI KVM cable)')}[kind]
-    ports = [port, R('out', 'VGA', 'HD15', 1, 'External console VGA Out'), R('io', 'USB', 'USB-A', 2, 'External console USB')]
+    if cl57:  # CL5708N/CL5716N datasheet: SPHD-18 external console, USB mouse, DB-25 daisy chain, RJ-11 firmware port
+        ports = [port, R('io', KVM, 'SPHD-18', 1, 'External console (Console 2)'), R('io', 'USB', 'USB-A', 1, 'External mouse'),
+                 R('out', KVM, 'DB25', 1, 'Daisy-chain (Chain Out)'), R('io', 'Other', 'RJ11', 1, 'Firmware upgrade'),
+                 F('io', 'USB', 'USB-A', 1, 'USB (LCD module)')]
+    else:
+        ports = [port, R('out', 'VGA', 'HD15', 1, 'External console VGA Out'), R('io', 'USB', 'USB-A', 2, 'External console USB')]
     if ip: ports += [R('io', 'Ethernet', 'RJ45', 1, 'LAN (remote access)'), R('io', 'Other', 'RJ45', 1, 'PON (power switch)')]
     ports.append(AC(1))
     add(pn.lower(), pn, f'{pn} {desc} LCD KVM {"over IP " if ip else ""}switch, {n} ports{", dual rail" if dual else ""}{alt}', 'ATEN LCD KVM switches', 'control', 1, ports,
         f'1U slide-out drawer with LCD screen{" (" + screens + ")" if screens else ""}, keyboard and touchpad, and a built-in {n}-port KVM switch'
         f'{" with remote IP access" if ip else ""}. {"Dual rail: the screen and the keyboard slide out separately. " if dual else ""}{extra}'
         f'{"Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). " if kind == "sphd" else "Computer ports take KA7xxx Cat 5 adapters. " if kind == "cat5" else ""}'
-        'Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).', LCD + pn.lower() + '/', powerW=40)
-lcd('CL5708N', 'PS/2-USB VGA single rail', 8, 'sphd', screens='CL5708N 19 in, CL5708M 17 in', alt=' (CL5708M 17 in)')
-lcd('CL5716N', 'PS/2-USB VGA single rail', 16, 'sphd', screens='CL5716N 19 in, CL5716M 17 in', alt=' (CL5716M 17 in)')
-lcd('CL5708iN', 'PS/2-USB VGA single rail', 8, 'sphd', ip=True, screens='CL5708iN 19 in, CL5708iM 17 in', alt=' (CL5708iM 17 in)')
-lcd('CL5716iN', 'PS/2-USB VGA single rail', 16, 'sphd', ip=True, screens='CL5716iN 19 in, CL5716iM 17 in', alt=' (CL5716iM 17 in)')
+        + ('Rear connectors from the CL5708N/CL5716N datasheet (SPHD-18 external console, DB-25 daisy chain, RJ-11 firmware port). '
+           if cl57 else 'Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).'), LCD + pn.lower() + '/', powerW=40)
+lcd('CL5708N', 'PS/2-USB VGA single rail', 8, 'sphd', cl57=True, screens='CL5708N 19 in, CL5708M 17 in', alt=' (CL5708M 17 in)')
+lcd('CL5716N', 'PS/2-USB VGA single rail', 16, 'sphd', cl57=True, screens='CL5716N 19 in, CL5716M 17 in', alt=' (CL5716M 17 in)')
+lcd('CL5708iN', 'PS/2-USB VGA single rail', 8, 'sphd', cl57=True, ip=True, screens='CL5708iN 19 in, CL5708iM 17 in', alt=' (CL5708iM 17 in)')
+lcd('CL5716iN', 'PS/2-USB VGA single rail', 16, 'sphd', cl57=True, ip=True, screens='CL5716iN 19 in, CL5716iM 17 in', alt=' (CL5716iM 17 in)')
 lcd('CL5808N', 'PS/2-USB VGA', 8, 'sphd', dual=True, screens='19 in')
 lcd('CL5816N', 'PS/2-USB VGA', 16, 'sphd', dual=True, screens='19 in')
 lcd('CL1308N', 'PS/2-USB VGA single rail', 8, 'sphd', screens='19 in')

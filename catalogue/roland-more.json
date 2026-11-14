@@ -12,7 +12,7 @@
   "verified": true,
   "source": "Roland S-2416 specifications",
   "productUrl": "https://proav.roland.com/global/products/s-2416/",
-  "notes": "4U, 482 x 348 x 177 mm, 9.7 kg, 62 W. 24 mic inputs (+48 V), 16 XLR outputs, 8 x 8 AES/EBU on DB-25 (32 in, 24 out in all), two REAC ports for redundancy or a cascaded second unit, word clock, RS-232 remote and USB for S-4000 RCS. Check: word clock in/out count and which face each group is on.",
+  "notes": "4U, 482 x 348 x 177 mm, 9.7 kg, 62 W. 24 mic inputs (+48 V), 16 XLR outputs, 8 x 8 AES/EBU on DB-25 (32 in, 24 out in all), two REAC ports for redundancy or a cascaded second unit, word clock, RS-232 remote and USB for S-4000 RCS. Everything is on the front except the AES/EBU DB-25 and the AC inlet, which are on the rear (product photos).",
   "portGroups": [
    {
     "face": "front",
@@ -39,7 +39,7 @@
     "prefix": "AES/EBU 8 in / 8 out"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "io",
     "type": "Other",
     "connector": "etherCON",
@@ -47,7 +47,7 @@
     "prefix": "REAC (main / backup)"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "in",
     "type": "Other",
     "connector": "BNC",
@@ -55,7 +55,7 @@
     "prefix": "Word Clock In"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "out",
     "type": "Other",
     "connector": "BNC",
@@ -63,7 +63,7 @@
     "prefix": "Word Clock Out"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "in",
     "type": "RS-232",
     "connector": "DB9",
@@ -71,7 +71,7 @@
     "prefix": "Remote"
    },
    {
-    "face": "rear",
+    "face": "front",
     "dir": "io",
     "type": "USB",
     "connector": "USB-B",

@@ -2267,7 +2267,7 @@
   "verified": false,
   "source": "ATEN product page",
   "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5708n/",
-  "notes": "1U slide-out drawer with LCD screen (CL5708N 19 in, CL5708M 17 in), keyboard and touchpad, and a built-in 8-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "notes": "1U slide-out drawer with LCD screen (CL5708N 19 in, CL5708M 17 in), keyboard and touchpad, and a built-in 8-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Rear connectors from the CL5708N/CL5716N datasheet (SPHD-18 external console, DB-25 daisy chain, RJ-11 firmware port). ",
   "portGroups": [
    {
     "face": "rear",
@@ -2279,19 +2279,43 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "VGA",
-    "connector": "HD15",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-18",
     "count": 1,
-    "prefix": "External console VGA Out"
+    "prefix": "External console (Console 2)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 2,
-    "prefix": "External console USB"
+    "count": 1,
+    "prefix": "External mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "KVM link",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Daisy-chain (Chain Out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (LCD module)"
    },
    {
     "face": "rear",
@@ -2317,7 +2341,7 @@
   "verified": false,
   "source": "ATEN product page",
   "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5716n/",
-  "notes": "1U slide-out drawer with LCD screen (CL5716N 19 in, CL5716M 17 in), keyboard and touchpad, and a built-in 16-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "notes": "1U slide-out drawer with LCD screen (CL5716N 19 in, CL5716M 17 in), keyboard and touchpad, and a built-in 16-port KVM switch. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Rear connectors from the CL5708N/CL5716N datasheet (SPHD-18 external console, DB-25 daisy chain, RJ-11 firmware port). ",
   "portGroups": [
    {
     "face": "rear",
@@ -2329,19 +2353,43 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "VGA",
-    "connector": "HD15",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-18",
     "count": 1,
-    "prefix": "External console VGA Out"
+    "prefix": "External console (Console 2)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 2,
-    "prefix": "External console USB"
+    "count": 1,
+    "prefix": "External mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "KVM link",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Daisy-chain (Chain Out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (LCD module)"
    },
    {
     "face": "rear",
@@ -2367,7 +2415,7 @@
   "verified": false,
   "source": "ATEN product page",
   "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5708in/",
-  "notes": "1U slide-out drawer with LCD screen (CL5708iN 19 in, CL5708iM 17 in), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "notes": "1U slide-out drawer with LCD screen (CL5708iN 19 in, CL5708iM 17 in), keyboard and touchpad, and a built-in 8-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Rear connectors from the CL5708N/CL5716N datasheet (SPHD-18 external console, DB-25 daisy chain, RJ-11 firmware port). ",
   "portGroups": [
    {
     "face": "rear",
@@ -2379,19 +2427,43 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "VGA",
-    "connector": "HD15",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-18",
     "count": 1,
-    "prefix": "External console VGA Out"
+    "prefix": "External console (Console 2)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 2,
-    "prefix": "External console USB"
+    "count": 1,
+    "prefix": "External mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "KVM link",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Daisy-chain (Chain Out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (LCD module)"
    },
    {
     "face": "rear",
@@ -2433,7 +2505,7 @@
   "verified": false,
   "source": "ATEN product page",
   "productUrl": "https://www.aten.com/au/en/products/kvm/lcd-kvm-switches--consoles/cl5716in/",
-  "notes": "1U slide-out drawer with LCD screen (CL5716iN 19 in, CL5716iM 17 in), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Check: rear connectors (external console and power taken as a typical ATEN LCD KVM switch).",
+  "notes": "1U slide-out drawer with LCD screen (CL5716iN 19 in, CL5716iM 17 in), keyboard and touchpad, and a built-in 16-port KVM switch with remote IP access. Computer ports take ATEN KVM cables (SPHD-15 to VGA + USB/PS2). Rear connectors from the CL5708N/CL5716N datasheet (SPHD-18 external console, DB-25 daisy chain, RJ-11 firmware port). ",
   "portGroups": [
    {
     "face": "rear",
@@ -2445,19 +2517,43 @@
    },
    {
     "face": "rear",
-    "dir": "out",
-    "type": "VGA",
-    "connector": "HD15",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "SPHD-18",
     "count": 1,
-    "prefix": "External console VGA Out"
+    "prefix": "External console (Console 2)"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
-    "count": 2,
-    "prefix": "External console USB"
+    "count": 1,
+    "prefix": "External mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "KVM link",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Daisy-chain (Chain Out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Firmware upgrade"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (LCD module)"
    },
    {
     "face": "rear",

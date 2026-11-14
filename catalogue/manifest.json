@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "b21504c6d6ea",
- "updated": "2026-11-14T06:25:32Z",
+ "version": "778ccbfbddfd",
+ "updated": "2026-11-14T06:40:14Z",
  "entries": 1757,
  "files": {
   "ross.json": {
@@ -325,34 +325,34 @@
    "bytes": 79890
   },
   "aten.json": {
-   "sha256": "5ac99398c57b42c1a3467b11030d6f9cecc61fdee3d3cc1c164a9aca210945f7",
+   "sha256": "85a77ccb94e179b8bc550ee773e9a3d56862ddcc4c04448d0f277a10f9f7d449",
    "entries": 53,
-   "bytes": 92694
+   "bytes": 94586
   },
   "novastar.json": {
-   "sha256": "b55af926e7701136c50ba2d5d7c20f15b38f4bac659d682ca912e02b16020e48",
+   "sha256": "c7a7ec2f4e1fc118a17ff001d447845a3d39f56e9cf0e9cb81812957616be46d",
    "entries": 12,
-   "bytes": 27985
+   "bytes": 28019
   },
   "netgear.json": {
-   "sha256": "91374e2576c17baea001ff1fdc8810eba12d7f4e048203560ed5c03243fc3db0",
+   "sha256": "493773e6266f69d7da4026801881ace7e3802353b87f98ab9735ecca3b3b3723",
    "entries": 38,
-   "bytes": 61481
+   "bytes": 67633
   },
   "allenheath-more.json": {
-   "sha256": "58f741e31ab80a093afd89d1bde0614abd39a1f5bf24b02f954e464cc815e8e2",
+   "sha256": "4c5fb18eff24f65a7003826913a884331f5f52e5aa948c3f3f4f860ae25ecff8",
    "entries": 10,
-   "bytes": 15819
+   "bytes": 15841
   },
   "roland-more.json": {
-   "sha256": "eb34231be07edc7645a6de3cb31b2e6020a65ba4e92fa354468ca2fbcb0786bd",
+   "sha256": "6e96fb9024268ac082fbd815de103868c9ccb4c999c15dee189dbcdfb0cb7883",
    "entries": 7,
-   "bytes": 13591
+   "bytes": 13642
   },
   "mackie.json": {
-   "sha256": "cec76de1d0c24119c290cb553f72d2ce3361188753a8744ec8407ed9e2c63a48",
+   "sha256": "b7a71b8556625ccac59afe69b9f60d1b129f00177adf3fd35c93db23ceacaab2",
    "entries": 5,
-   "bytes": 9939
+   "bytes": 10165
   },
   "corning.json": {
    "sha256": "954390efcc527123d75b2228d1b202cb28fcaf78bcc03d23a0f6a07fd0db8362",

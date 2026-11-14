@@ -12,7 +12,7 @@
   "verified": true,
   "source": "Mackie DL32R specifications (Full Compass)",
   "productUrl": "https://www.fullcompass.com/prod/269613-mackie-dl32r-32-channel-rackmount-digital-mixer-with-ios-connectivity",
-  "notes": "3U, 483 x 443 x 138 mm, 8.2 kg, 100 W. 32 Onyx+ preamps (24 XLR + 8 combo), 12 XLR outputs, AES out, monitor and phones, USB-B audio interface and USB-A multitrack recording; option slot for the network card (wired control) or Dante card. iPad control. Check: which face the option slot is on.",
+  "notes": "3U, 483 x 443 x 138 mm, 8.2 kg, 100 W. 32 Onyx+ preamps (24 XLR + 8 combo), 14 XLR outputs (12 plus main L/R as 13/14), AES out, monitor and phones on the front; USB-B audio interface, USB-A drive, option slot (network card for wired control, or Dante with two etherCONs and a Wi-Fi control RJ45), power switch and IEC on the rear (Mackie photos). iPad control.",
   "portGroups": [
    {
     "face": "front",
@@ -41,6 +41,14 @@
    {
     "face": "front",
     "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR",
+    "count": 2,
+    "prefix": "Main Out L/R (13/14)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
     "type": "AES/EBU",
     "connector": "XLR",
     "count": 1,
@@ -63,20 +71,20 @@
     "prefix": "Phones"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-B",
     "count": 1,
-    "prefix": "USB audio (32x32)"
+    "prefix": "Computer (USB audio 32x32)"
    },
    {
-    "face": "front",
+    "face": "rear",
     "dir": "io",
     "type": "USB",
     "connector": "USB-A",
     "count": 1,
-    "prefix": "USB drive (record/play)"
+    "prefix": "Drive (record/play)"
    },
    {
     "face": "rear",

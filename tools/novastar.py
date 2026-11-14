@@ -56,10 +56,10 @@ add('vx2000-pro', 'VX2000 Pro', 'VX2000 Pro all-in-one LED controller (13 Mpx, 2
 add('mx40-pro', 'MX40 Pro', 'COEX MX40 Pro LED display controller (9 Mpx, 20 outputs)', 'NovaStar COEX MX', 2,
     [R('in', 'HDMI', 'HDMI', 3, 'HDMI 2.0 In'), R('out', 'HDMI', 'HDMI', 3, 'HDMI 2.0 Loop'), R('in', 'DisplayPort', 'DisplayPort', 1, 'DP 1.2 In'),
      R('in', '12G-SDI', 'BNC', 1, '12G-SDI In'), R('out', '12G-SDI', 'BNC', 1, '12G-SDI Loop'), opt(4, 'OPT 1-4 (10G fibre out)', 'out'),
-     led(20), *GEN, CTRL(2), R('out', 'Other', 'RCA', 1, 'S/PDIF Out'), R('io', 'RS-232', 'Other', 1, 'AUX (RS-232)'),
+     led(20, 'etherCON'), *GEN, CTRL(2), R('out', 'Other', 'TOSLINK', 1, 'S/PDIF Out'), R('io', 'RS-232', 'RJ45', 1, 'AUX'),
      F('io', 'USB', 'USB-A', 1, 'USB 2.0'), AC],
     'Broadcast-grade LED controller for VMP software: up to 9 million pixels over 20 gigabit outputs plus four 10G fibre outputs, 12G-SDI, '
-    'genlock. 482.6 x 467.0 x 94.2 mm (2U with feet), 7.5 kg, 95 W. Check: whether the outputs are RJ45 or etherCON.',
+    'genlock. 482.6 x 467.0 x 94.2 mm (2U with feet), 7.5 kg, 95 W. The 20 LED outputs are etherCON, AUX is RJ45 and S/PDIF out is optical (rear photo).',
     'NovaStar MX40 Pro specifications V1.5.1', 'https://ret.de/wp-content/uploads/2026/07/MX40-Pro-LED-Display-Controller-Specifications-V1.5.1.pdf',
     powerW=95, weightKg=7.5)
 add('mctrl4k', 'MCTRL4K', 'MCTRL4K LED sending box (8.8 Mpx, 16 outputs)', 'NovaStar MCTRL', 2,
