@@ -1,0 +1,153 @@
+[
+ {
+  "id": "promax-dttv-chassis",
+  "manufacturer": "Promax",
+  "partNumber": "DTTV chassis",
+  "name": "Digital To TV (DTTV) headend 19-inch chassis",
+  "family": "DTTV",
+  "category": "frame",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos; Promax DTTV news page",
+  "productUrl": "https://www.promaxelectronics.com/ing/products/digital-tv-headends-dttv",
+  "notes": "Plug-in transmodulator headend (DVB-S/S2 or DVB-T in, DVB-T out) with a DT-800 front control module (LCD, keypad, LAN). Modules cable on the rear. Check: height (about 6RU from photos) and slot count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "Promax DTTV",
+   "slots": 10,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "DT-800 control module, normally slot 1",
+   "controllerSlot": 1
+  }
+ },
+ {
+  "id": "promax-dt-800",
+  "manufacturer": "Promax",
+  "partNumber": "DT-800",
+  "name": "DT-800 DTTV control module",
+  "family": "DTTV modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Promax DT-802 manual (manualmachine)",
+  "productUrl": "https://manualmachine.com/promax/dt802/20616168-user-manual",
+  "notes": "Front LCD and keypad; sets IP address for PC control software.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Promax DTTV"
+   ],
+   "slotWidth": 1,
+   "onlySlots": [
+    1
+   ]
+  },
+  "rearModules": [
+   {
+    "partNumber": "DT-800",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "promax-dt-802",
+  "manufacturer": "Promax",
+  "partNumber": "DT-802",
+  "name": "DT-802 DVB-S2 to DVB-T transmodulator module",
+  "family": "DTTV modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Promax DT-802 manual (manualmachine)",
+  "productUrl": "https://manualmachine.com/promax/dt802/20616168-user-manual",
+  "notes": "With CAM slot for scrambled services. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Promax DTTV"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DT-802",
+    "name": "Rear",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "RF",
+      "connector": "F",
+      "count": 1,
+      "prefix": "Sat IF In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RF",
+      "connector": "F",
+      "count": 1,
+      "prefix": "IF Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RF",
+      "connector": "F",
+      "count": 1,
+      "prefix": "RF Out"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,118 @@
+[
+ {
+  "id": "dynacord-c1800fdi",
+  "manufacturer": "Dynacord",
+  "partNumber": "C1800FDi",
+  "name": "C1800FDi DSP install power amplifier, 2 x 950 W",
+  "family": "C Series",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dynacord C1800FDi product page",
+  "productUrl": "https://products.dynacord.com/ap/de/c1800fdi",
+  "notes": "Two-channel FIR DSP amplifier for fixed install (low-Z or 70/100 V), 2U, 483 x 88 mm. Check: network port and speaker connector types; power figure 700 W from the maker page.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 1,
+    "prefix": "GPIO / remote power"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (SONICUE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 700
+ },
+ {
+  "id": "dynacord-c3600fdi",
+  "manufacturer": "Dynacord",
+  "partNumber": "C3600FDi",
+  "name": "C3600FDi DSP install power amplifier, 2 x 1800 W",
+  "family": "C Series",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dynacord C1800FDi product page",
+  "productUrl": "https://products.dynacord.com/ap/de/c1800fdi",
+  "notes": "Two-channel FIR DSP amplifier for fixed install (low-Z or 70/100 V), 2U, 483 x 88 mm. Check: network port and speaker connector types; power figure.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Euroblock",
+    "count": 1,
+    "prefix": "GPIO / remote power"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (SONICUE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 1100
+ }
+]

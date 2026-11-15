@@ -1,0 +1,1702 @@
+[
+ {
+  "id": "extron-sw2-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "60-1603-01",
+  "name": "SW2 HD 4K PLUS two-input 4K/60 HDMI switcher (half-rack)",
+  "family": "SW HD 4K PLUS",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Extron SW HD 4K PLUS Series brochure A2",
+  "productUrl": "https://media.extron.com/public/download/files/brochure/sw_hd_4k_plus_series_A2.pdf",
+  "notes": "HDCP 2.3, auto-switching. 1U half-rack (44 x 222 x 152 mm), 0.5 kg, external 12 V 1.5 A supply, 5.5 W. Rack shelf sold separately.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw 5-pole",
+    "count": 1,
+    "prefix": "Contact / Tally"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 5.5,
+  "weightKg": 0.5
+ },
+ {
+  "id": "extron-dxp-44-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DXP 44 HD 4K PLUS",
+  "name": "DXP 44 HD 4K PLUS 4x4 4K/60 HDMI matrix switcher",
+  "family": "DXP HD 4K PLUS",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Extron DXP HD 4K PLUS Series brochure D3",
+  "productUrl": "https://muzmart.com/files/store/127660/dxp_hd_4k_plus_series_d3_032818.pdf",
+  "notes": "1U, internal 100-240 V supply, de-embedded audio on two outputs. 20.4 W full load.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA (S/PDIF)",
+    "count": 2,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 20.4
+ },
+ {
+  "id": "extron-dxp-84-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DXP 84 HD 4K PLUS",
+  "name": "DXP 84 HD 4K PLUS 8x4 4K/60 HDMI matrix switcher",
+  "family": "DXP HD 4K PLUS",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Extron DXP HD 4K PLUS Series brochure D3",
+  "productUrl": "https://muzmart.com/files/store/127660/dxp_hd_4k_plus_series_d3_032818.pdf",
+  "notes": "1U, internal 100-240 V supply, de-embedded audio on two outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA (S/PDIF)",
+    "count": 2,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-dxp-88-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DXP 88 HD 4K PLUS",
+  "name": "DXP 88 HD 4K PLUS 8x8 4K/60 HDMI matrix switcher",
+  "family": "DXP HD 4K PLUS",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Extron DXP HD 4K PLUS Series brochure D3",
+  "productUrl": "https://muzmart.com/files/store/127660/dxp_hd_4k_plus_series_d3_032818.pdf",
+  "notes": "1U, internal 100-240 V supply, de-embedded audio on two outputs. 30.8 W full load.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA (S/PDIF)",
+    "count": 2,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30.8
+ },
+ {
+  "id": "extron-sw4-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "SW4 HD 4K PLUS",
+  "name": "SW4 HD 4K PLUS 4-input 4K/60 HDMI switcher",
+  "family": "SW HD 4K PLUS",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron SW HD 4K PLUS Series brochure A2",
+  "productUrl": "https://media.extron.com/public/download/files/brochure/sw_hd_4k_plus_series_A2.pdf",
+  "notes": "Same family as the SW2. Check: width (half-rack) and power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Contact / Tally"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-sw8-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "SW8 HD 4K PLUS",
+  "name": "SW8 HD 4K PLUS 8-input 4K/60 HDMI switcher",
+  "family": "SW HD 4K PLUS",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron SW HD 4K PLUS Series brochure A2",
+  "productUrl": "https://media.extron.com/public/download/files/brochure/sw_hd_4k_plus_series_A2.pdf",
+  "notes": "Same family as the SW2. Check: width (full-rack) and power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Contact / Tally"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-dsc-hd-hd-4k-plus-a",
+  "manufacturer": "Extron",
+  "partNumber": "DSC HD-HD 4K PLUS A",
+  "name": "DSC HD-HD 4K PLUS A HDMI to HDMI 4K scaler with audio",
+  "family": "DSC",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron DSC range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Quarter-rack 1U scaler (rack shelf). Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-in1804",
+  "manufacturer": "Extron",
+  "partNumber": "IN1804",
+  "name": "IN1804 4-input HDCP 2.2 scaling presentation switcher",
+  "family": "IN1800",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IN1800 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U presentation switcher with scaler, DTP2 extension and audio de-embedding. Check: input split by model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DTP2)",
+    "count": 1,
+    "prefix": "DTP2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-in1806",
+  "manufacturer": "Extron",
+  "partNumber": "IN1806",
+  "name": "IN1806 6-input HDCP 2.2 scaling presentation switcher",
+  "family": "IN1800",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IN1800 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U presentation switcher with scaler, DTP2 extension and audio de-embedding. Check: input split by model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DTP2)",
+    "count": 2,
+    "prefix": "DTP2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DTP2)",
+    "count": 1,
+    "prefix": "DTP2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-in1808",
+  "manufacturer": "Extron",
+  "partNumber": "IN1808",
+  "name": "IN1808 8-input HDCP 2.2 scaling presentation switcher",
+  "family": "IN1800",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IN1800 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U presentation switcher with scaler, DTP2 extension and audio de-embedding. Check: input split by model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 6,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DTP2)",
+    "count": 2,
+    "prefix": "DTP2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DTP2)",
+    "count": 1,
+    "prefix": "DTP2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw 5-pole",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-ipcp-pro-250",
+  "manufacturer": "Extron",
+  "partNumber": "IPCP Pro 250",
+  "name": "IPCP Pro 250 IP Link Pro control processor",
+  "family": "IP Link Pro",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IPCP Pro range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Room / system control processor. Check: port counts per model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "eBUS"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-ipcp-pro-350",
+  "manufacturer": "Extron",
+  "partNumber": "IPCP Pro 350",
+  "name": "IPCP Pro 350 IP Link Pro control processor",
+  "family": "IP Link Pro",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IPCP Pro range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Room / system control processor. Check: port counts per model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 3,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 4,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 4,
+    "prefix": "Digital I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "eBUS"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-ipcp-pro-550",
+  "manufacturer": "Extron",
+  "partNumber": "IPCP Pro 550",
+  "name": "IPCP Pro 550 IP Link Pro control processor",
+  "family": "IP Link Pro",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IPCP Pro range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Room / system control processor. Check: port counts per model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "Digital I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "eBUS"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-ipcp-pro-555",
+  "manufacturer": "Extron",
+  "partNumber": "IPCP Pro 555",
+  "name": "IPCP Pro 555 IP Link Pro control processor",
+  "family": "IP Link Pro",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron IPCP Pro range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Room / system control processor. Check: port counts per model.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "Digital I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "eBUS"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-xtp-ii-crosspoint-1600",
+  "manufacturer": "Extron",
+  "partNumber": "XTP II CrossPoint 1600",
+  "name": "XTP II CrossPoint 1600 modular 4K matrix switcher frame (16x16)",
+  "family": "XTP II CrossPoint",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Extron XTP II CrossPoint range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Input and output boards (XTP, HDMI, DTP, fibre, 3G-SDI) go in 4-port slots; add the board ports per job. Redundant PSU. Check: height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 4,
+    "prefix": "Input board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 4,
+    "prefix": "Output board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "extron-xtp-ii-crosspoint-3200",
+  "manufacturer": "Extron",
+  "partNumber": "XTP II CrossPoint 3200",
+  "name": "XTP II CrossPoint 3200 modular 4K matrix switcher frame (32x32)",
+  "family": "XTP II CrossPoint",
+  "category": "router",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Extron XTP II CrossPoint range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Input and output boards (XTP, HDMI, DTP, fibre, 3G-SDI) go in 4-port slots; add the board ports per job. Redundant PSU. Check: height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 8,
+    "prefix": "Input board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 8,
+    "prefix": "Output board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "extron-xtp-ii-crosspoint-6400",
+  "manufacturer": "Extron",
+  "partNumber": "XTP II CrossPoint 6400",
+  "name": "XTP II CrossPoint 6400 modular 4K matrix switcher frame (64x64)",
+  "family": "XTP II CrossPoint",
+  "category": "router",
+  "ru": 14,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Extron XTP II CrossPoint range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Input and output boards (XTP, HDMI, DTP, fibre, 3G-SDI) go in 4-port slots; add the board ports per job. Redundant PSU. Check: height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 16,
+    "prefix": "Input board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Board slot (4 ports)",
+    "count": 16,
+    "prefix": "Output board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "extron-dtp-crosspoint-84-4k-ipcp-sa",
+  "manufacturer": "Extron",
+  "partNumber": "DTP CrossPoint 84 4K IPCP SA",
+  "name": "DTP CrossPoint 84 4K IPCP SA scaling matrix with control and amp",
+  "family": "DTP CrossPoint",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Extron DTP CrossPoint range",
+  "productUrl": "https://www.extron.com",
+  "notes": "8x4 scaling presentation matrix with built-in IPCP Pro control processor and stereo amplifier. Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DTP)",
+    "count": 2,
+    "prefix": "DTP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 2,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DTP)",
+    "count": 2,
+    "prefix": "DTP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Captive screw",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "Speaker Out (amp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw",
+    "count": 8,
+    "prefix": "COM / IR / Relay / IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-xpa-2001-70v",
+  "manufacturer": "Extron",
+  "partNumber": "XPA 2001-70V",
+  "name": "XPA 2001-70V power amplifier, 1 channel",
+  "family": "XPA 2000",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron XPA 2000 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U convection-cooled amplifier. Check: model power and outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Remote / standby"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-xpa-2002",
+  "manufacturer": "Extron",
+  "partNumber": "XPA 2002",
+  "name": "XPA 2002 power amplifier, 2 channels",
+  "family": "XPA 2000",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron XPA 2000 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U convection-cooled amplifier. Check: model power and outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Remote / standby"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-xpa-2004",
+  "manufacturer": "Extron",
+  "partNumber": "XPA 2004",
+  "name": "XPA 2004 power amplifier, 4 channels",
+  "family": "XPA 2000",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron XPA 2000 range",
+  "productUrl": "https://www.extron.com",
+  "notes": "1U convection-cooled amplifier. Check: model power and outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Captive screw",
+    "count": 4,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 4,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Captive screw",
+    "count": 1,
+    "prefix": "Remote / standby"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-da2-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DA2 HD 4K PLUS",
+  "name": "DA2 HD 4K PLUS 1:2 4K/60 HDMI distribution amplifier",
+  "family": "DA HD 4K PLUS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron DA HD 4K PLUS range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Check: width (half-rack assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-da4-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DA4 HD 4K PLUS",
+  "name": "DA4 HD 4K PLUS 1:4 4K/60 HDMI distribution amplifier",
+  "family": "DA HD 4K PLUS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron DA HD 4K PLUS range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Check: width (half-rack assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "extron-da6-hd-4k-plus",
+  "manufacturer": "Extron",
+  "partNumber": "DA6 HD 4K PLUS",
+  "name": "DA6 HD 4K PLUS 1:6 4K/60 HDMI distribution amplifier",
+  "family": "DA HD 4K PLUS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Extron DA HD 4K PLUS range",
+  "productUrl": "https://www.extron.com",
+  "notes": "Check: width (half-rack assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 6,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Captive screw 3-pole",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Config"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC captive screw",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ }
+]

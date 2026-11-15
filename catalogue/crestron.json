@@ -1,0 +1,1064 @@
+[
+ {
+  "id": "crestron-cp4n",
+  "manufacturer": "Crestron",
+  "partNumber": "CP4N",
+  "name": "CP4N 4-Series control system (with control subnet)",
+  "family": "4-Series control",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron CP4N range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "1U 4-Series processor; CP4 is the same without the control-subnet switch. Check: subnet port count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Versiport I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block 4-pin",
+    "count": 1,
+    "prefix": "Cresnet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Control Subnet (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Computer"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-cp4",
+  "manufacturer": "Crestron",
+  "partNumber": "CP4",
+  "name": "CP4 4-Series control system",
+  "family": "4-Series control",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron CP4 range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "1U 4-Series processor. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Versiport I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block 4-pin",
+    "count": 1,
+    "prefix": "Cresnet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-pro4",
+  "manufacturer": "Crestron",
+  "partNumber": "PRO4",
+  "name": "PRO4 4-Series control system",
+  "family": "4-Series control",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron PRO4 range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "High-port-count 4-Series processor. Check: height and COM connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 6,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Versiport I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block 4-pin",
+    "count": 2,
+    "prefix": "Cresnet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Subnet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-dm-md8x8-cpu3",
+  "manufacturer": "Crestron",
+  "partNumber": "DM-MD8X8-CPU3",
+  "name": "DM-MD8X8-CPU3 DigitalMedia modular switcher frame",
+  "family": "DigitalMedia switchers",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Crestron DM-MD8X8-CPU3 spec sheet",
+  "productUrl": "https://de.crestron.com/getmedia/c145abc1-c7cc-4457-85bb-c96cd6c819bd/ss_dm-md8x8_cpu3",
+  "notes": "8 single-input card slots and 4 two-output card slots (one output card = 2 outputs). Verified for 8x8: 4RU, 177 x 485 x 399 mm, 9.1 kg, 220 W typical.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "CONTENT (streaming)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (EDID / firmware)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 220,
+  "frame": {
+   "system": "Crestron DM-MD",
+   "slots": 12,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-8 are input cards, slots 9-12 are output cards (2 outputs each)."
+  }
+ },
+ {
+  "id": "crestron-dm-md16x16-cpu3",
+  "manufacturer": "Crestron",
+  "partNumber": "DM-MD16X16-CPU3",
+  "name": "DM-MD16X16-CPU3 DigitalMedia modular switcher frame",
+  "family": "DigitalMedia switchers",
+  "category": "frame",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Crestron DM-MD8X8-CPU3 spec sheet",
+  "productUrl": "https://de.crestron.com/getmedia/c145abc1-c7cc-4457-85bb-c96cd6c819bd/ss_dm-md8x8_cpu3",
+  "notes": "16 single-input card slots and 8 two-output card slots (one output card = 2 outputs). Check: height (scaled from the 8x8).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "CONTENT (streaming)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (EDID / firmware)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "Crestron DM-MD",
+   "slots": 24,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-16 are input cards, slots 17-24 are output cards (2 outputs each)."
+  }
+ },
+ {
+  "id": "crestron-dm-md32x32-cpu3",
+  "manufacturer": "Crestron",
+  "partNumber": "DM-MD32X32-CPU3",
+  "name": "DM-MD32X32-CPU3 DigitalMedia modular switcher frame",
+  "family": "DigitalMedia switchers",
+  "category": "frame",
+  "ru": 15,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Crestron DM-MD8X8-CPU3 spec sheet",
+  "productUrl": "https://de.crestron.com/getmedia/c145abc1-c7cc-4457-85bb-c96cd6c819bd/ss_dm-md8x8_cpu3",
+  "notes": "32 single-input card slots and 16 two-output card slots (one output card = 2 outputs). Check: height (scaled from the 8x8).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "CONTENT (streaming)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB (EDID / firmware)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "Crestron DM-MD",
+   "slots": 48,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-32 are input cards, slots 33-48 are output cards (2 outputs each)."
+  }
+ },
+ {
+  "id": "crestron-dmc-4kz-hd",
+  "manufacturer": "Crestron",
+  "partNumber": "DMC-4KZ-HD",
+  "name": "DMC-4KZ-HD HDMI input card",
+  "family": "DigitalMedia cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DMC card range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Input card slot. Check: audio breakout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Crestron DM-MD"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DMC-4KZ-HD",
+    "name": "Card I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmc-4kz-c",
+  "manufacturer": "Crestron",
+  "partNumber": "DMC-4KZ-C",
+  "name": "DMC-4KZ-C DM 8G+ input card",
+  "family": "DigitalMedia cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DMC card range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Input card slot (HDBaseT twisted pair).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Crestron DM-MD"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DMC-4KZ-C",
+    "name": "Card I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "RJ45 (DM 8G+)",
+      "count": 1,
+      "prefix": "DM 8G+ In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmc-12g-sdi",
+  "manufacturer": "Crestron",
+  "partNumber": "DMC-12G-SDI",
+  "name": "DMC-12G-SDI input card",
+  "family": "DigitalMedia cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DMC card range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Input card slot. Check: model name.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Crestron DM-MD"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DMC-12G-SDI",
+    "name": "Card I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmc-4kz-co-hd",
+  "manufacturer": "Crestron",
+  "partNumber": "DMC-4KZ-CO-HD",
+  "name": "DMC-4KZ-CO-HD output card (2 x DM 8G+ and 2 x HDMI)",
+  "family": "DigitalMedia cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DMC card range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Output card slot, 2 outputs (each mirrored on DM and HDMI).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Crestron DM-MD"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DMC-4KZ-CO-HD",
+    "name": "Card I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "RJ45 (DM 8G+)",
+      "count": 2,
+      "prefix": "DM 8G+ Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmc-4kz-hdo",
+  "manufacturer": "Crestron",
+  "partNumber": "DMC-4KZ-HDO",
+  "name": "DMC-4KZ-HDO output card (2 x HDMI)",
+  "family": "DigitalMedia cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DMC card range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Output card slot, 2 HDMI outputs.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Crestron DM-MD"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DMC-4KZ-HDO",
+    "name": "Card I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crestron-dm-nvx-dir-80",
+  "manufacturer": "Crestron",
+  "partNumber": "DM-NVX-DIR-80",
+  "name": "DM-NVX-DIR-80 DM NVX Director virtual switching appliance (80 endpoints)",
+  "family": "DM NVX",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DM NVX Director range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Manages DM NVX AV-over-IP encoders and decoders. DIR-160 / DIR-ENT are larger. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-dm-nvx-360",
+  "manufacturer": "Crestron",
+  "partNumber": "DM-NVX-360",
+  "name": "DM-NVX-360 4K60 AV-over-IP encoder / decoder (half-width with rack kit)",
+  "family": "DM NVX",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Crestron DM NVX range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Desktop box; two fit side by side on a 1U rack kit. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "IR"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "24V DC",
+    "count": 1,
+    "prefix": "24V DC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmps3-4k-250-c",
+  "manufacturer": "Crestron",
+  "partNumber": "DMPS3-4K-250-C",
+  "name": "DMPS3-4K-250-C 4K DigitalMedia presentation system",
+  "family": "DMPS3-4K",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Crestron DMPS3-4K range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Presentation switcher with built-in 3-Series control, DSP and amplifier. Check: input counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DM 8G+)",
+    "count": 2,
+    "prefix": "DM In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DM 8G+)",
+    "count": 1,
+    "prefix": "DM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out (amp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "IR / Relay / IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Subnet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "crestron-dmps3-4k-350-c",
+  "manufacturer": "Crestron",
+  "partNumber": "DMPS3-4K-350-C",
+  "name": "DMPS3-4K-350-C 4K DigitalMedia presentation system",
+  "family": "DMPS3-4K",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Crestron DMPS3-4K range",
+  "productUrl": "https://www.crestron.com",
+  "notes": "Presentation switcher with built-in 3-Series control, DSP and amplifier. Check: input counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DM 8G+)",
+    "count": 3,
+    "prefix": "DM In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DM 8G+)",
+    "count": 1,
+    "prefix": "DM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out (amp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "IR / Relay / IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control Subnet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

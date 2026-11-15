@@ -1,0 +1,149 @@
+[
+ {
+  "id": "tripleplay-encod3r-lh2",
+  "manufacturer": "Tripleplay (Uniguest)",
+  "partNumber": "ENCOD3R-LH2",
+  "name": "ENCOD3R-LH2 low latency HD encoder, 2 channels",
+  "family": "ENCOD3R",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Uniguest Low Latency 4K / HD Encoders sheet",
+  "productUrl": "https://uniguest.com/wp-content/uploads/2023/09/Low-Latency-4K-HD-Encoders.pdf",
+  "notes": "H.264 UDP multicast for IPTV. 1U, front LCD and keypad, channel / status LEDs. Check: LAN count, audio and power connectors (not published).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Stream / control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tripleplay-encod3r-lk41",
+  "manufacturer": "Tripleplay (Uniguest)",
+  "partNumber": "ENCOD3R-LK41",
+  "name": "ENCOD3R-LK41 low latency 4K encoder, 1 channel",
+  "family": "ENCOD3R",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Uniguest Low Latency 4K / HD Encoders sheet",
+  "productUrl": "https://uniguest.com/wp-content/uploads/2023/09/Low-Latency-4K-HD-Encoders.pdf",
+  "notes": "HEVC UDP multicast for IPTV. 1U, front LCD and keypad, channel / status LEDs. Check: LAN count, audio and power connectors (not published).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Stream / control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tripleplay-encod3r-lk42",
+  "manufacturer": "Tripleplay (Uniguest)",
+  "partNumber": "ENCOD3R-LK42",
+  "name": "ENCOD3R-LK42 low latency 4K encoder, 2 channels",
+  "family": "ENCOD3R",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Uniguest Low Latency 4K / HD Encoders sheet",
+  "productUrl": "https://uniguest.com/wp-content/uploads/2023/09/Low-Latency-4K-HD-Encoders.pdf",
+  "notes": "HEVC UDP multicast for IPTV. 1U, front LCD and keypad, channel / status LEDs. Check: LAN count, audio and power connectors (not published).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Stream / control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

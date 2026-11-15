@@ -1,0 +1,434 @@
+[
+ {
+  "id": "daktronics-vp-6000",
+  "manufacturer": "Daktronics",
+  "partNumber": "VP-6000",
+  "name": "VP-6000 video processor (6000 series)",
+  "family": "6000 Series processors",
+  "category": "converter",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/components/vp-6000",
+  "notes": "Daktronics LED display video processor (scaler / router for video boards and ribbons), front LCD window, handles. Paired main and backup units are common (Venus Control Suite switches primary to backup). Check: height (3RU from photos) and every connector; the I/O is configured per job (KB DD3663054 shows the panels as images only).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Display Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Confidence SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-di-6000",
+  "manufacturer": "Daktronics",
+  "partNumber": "DI-6000",
+  "name": "DI-6000 display interface (6000 series)",
+  "family": "6000 Series processors",
+  "category": "converter",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/kb/DD3663054",
+  "notes": "Display interface that drives the LED display data lines from the processor. Same chassis as the VP-6000. Check: height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Display In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 4,
+    "prefix": "Display Fibre Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-dmp-8000",
+  "manufacturer": "Daktronics",
+  "partNumber": "DMP-8000",
+  "name": "DMP-8000 display media player (half-width)",
+  "family": "Display Media Players",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Show Control / Venus content player PC for scoreboards and ribbons, half-rack 2RU, often two side by side (main and backup). Check: height, width and outputs (video card fit varies).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Display Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Live Video In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-control-pc-half-2ru",
+  "manufacturer": "Daktronics",
+  "partNumber": "Control PC (half-width 2RU)",
+  "name": "Half-width 2RU control PC (Show Control, DSTI, data servers)",
+  "family": "Control-room PCs",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Daktronics-badged half-rack PC used for Show Control, DSTI (statistics / data interface) and similar roles; the front badge names the role. Check: connectors (generic PC build).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "Display Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "COM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-control-pc-2ru",
+  "manufacturer": "Daktronics",
+  "partNumber": "Control PC (2RU)",
+  "name": "Full-width 2RU display control PC (ribbon / board control)",
+  "family": "Control-room PCs",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Daktronics-badged 2RU PC with handles and front logo window, used for ribbon or board control (main and backup pairs). Check: height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Display Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "COM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-signal-converter",
+  "manufacturer": "Daktronics",
+  "partNumber": "Signal Converter",
+  "name": "Signal Converter, 3 channels (RS-232 / RS-422 / fibre data)",
+  "family": "Interface units",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Front: power switch and RX/TX LEDs for converters 1-3. Carries scoreboard / statistics serial data (e.g. results feeds) to the displays. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 3,
+    "prefix": "Converter In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "ST",
+    "count": 3,
+    "prefix": "Converter Out (fibre)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RS-422",
+    "connector": "Terminal block",
+    "count": 3,
+    "prefix": "Converter Out (RS-422)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-switch-interface",
+  "manufacturer": "Daktronics",
+  "partNumber": "Switch Interface",
+  "name": "Switch Interface, 1RU",
+  "family": "Interface units",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Front: logo and power switch only. Interfaces switch / GPI closures with the display control system. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Switch inputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "daktronics-db9-panel-8",
+  "manufacturer": "Daktronics",
+  "partNumber": "Serial panel 8 x DB9",
+  "name": "Serial interface panel, 8 x DB9, 1RU",
+  "family": "Interface units",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos of installed units; Daktronics publishes no rack data",
+  "productUrl": "https://www.daktronics.com/en-us/support/manuals",
+  "notes": "Silver 1RU panel with 8 numbered DB9 sockets on the front, wired at the rear to the console / data lines. Check: rear termination.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 8,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Port"
+   }
+  ]
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "id": "ev-n8000",
+  "manufacturer": "Electro-Voice",
+  "partNumber": "N8000",
+  "name": "NetMax N8000 digital matrix controller (300 MIPS)",
+  "family": "NetMax",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Electro-Voice N8000 data sheet",
+  "productUrl": "https://products.electrovoice.com/binary/N8000_NetMax_300_MIPS_Digital_Matrix_Controller_Datasheet_51_en_12595645195.pdf",
+  "notes": "DSP matrix for PA / voice-alarm systems, 2U, 483 x 88 x 381 mm, 90 W max. I/O comes from the plug-in cards: add their ports per job. Often paired with Dynacord amplifiers.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Audio card slot (AI-1 / AO-1 / MI-1 / DI-1 / DO-1)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Network slot (CM-1 CobraNet / DM-1 Dante)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "CAN bus"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Euroblock 6-pole",
+    "count": 2,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 90
+ }
+]

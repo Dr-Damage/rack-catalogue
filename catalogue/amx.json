@@ -1,0 +1,1209 @@
+[
+ {
+  "id": "amx-nx-1200",
+  "manufacturer": "AMX",
+  "partNumber": "NX-1200",
+  "name": "NX-1200 NetLinx NX integrated controller",
+  "family": "NetLinx NX",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX NetLinx NX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "NetLinx control processor. Check: port counts per model; the NX-1200 is half-width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9 / terminal block",
+    "count": 2,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AxLink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC terminal",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-nx-2200",
+  "manufacturer": "AMX",
+  "partNumber": "NX-2200",
+  "name": "NX-2200 NetLinx NX integrated controller",
+  "family": "NetLinx NX",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX NetLinx NX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "NetLinx control processor. Check: port counts per model; the NX-1200 is half-width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9 / terminal block",
+    "count": 4,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AxLink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC terminal",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-nx-3200",
+  "manufacturer": "AMX",
+  "partNumber": "NX-3200",
+  "name": "NX-3200 NetLinx NX integrated controller",
+  "family": "NetLinx NX",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX NetLinx NX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "NetLinx control processor. Check: port counts per model; the NX-1200 is half-width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9 / terminal block",
+    "count": 8,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AxLink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC terminal",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-nx-4200",
+  "manufacturer": "AMX",
+  "partNumber": "NX-4200",
+  "name": "NX-4200 NetLinx NX integrated controller",
+  "family": "NetLinx NX",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX NetLinx NX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "NetLinx control processor. Check: port counts per model; the NX-1200 is half-width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9 / terminal block",
+    "count": 16,
+    "prefix": "COM (RS-232/422/485)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "IR / Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AxLink"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC terminal",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-enova-dgx-800",
+  "manufacturer": "AMX",
+  "partNumber": "DGX800-ENC",
+  "name": "Enova DGX 800 enclosure (8x8 modular matrix)",
+  "family": "Enova DGX",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "2 input boards and 2 output boards of 4 ports each (HDMI, DXLink twisted pair, DXLink fibre, DVI, audio). All four sizes share the boards. Check: height and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "AMX Enova DGX",
+   "slots": 4,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-2 are input boards, 3-4 output boards."
+  }
+ },
+ {
+  "id": "amx-enova-dgx-1600",
+  "manufacturer": "AMX",
+  "partNumber": "DGX1600-ENC",
+  "name": "Enova DGX 1600 enclosure (16x16 modular matrix)",
+  "family": "Enova DGX",
+  "category": "frame",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "4 input boards and 4 output boards of 4 ports each (HDMI, DXLink twisted pair, DXLink fibre, DVI, audio). All four sizes share the boards. Check: height and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "AMX Enova DGX",
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-4 are input boards, 5-8 output boards."
+  }
+ },
+ {
+  "id": "amx-enova-dgx-3200",
+  "manufacturer": "AMX",
+  "partNumber": "DGX3200-ENC",
+  "name": "Enova DGX 3200 enclosure (32x32 modular matrix)",
+  "family": "Enova DGX",
+  "category": "frame",
+  "ru": 11,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "8 input boards and 8 output boards of 4 ports each (HDMI, DXLink twisted pair, DXLink fibre, DVI, audio). All four sizes share the boards. Check: height and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "AMX Enova DGX",
+   "slots": 16,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-8 are input boards, 9-16 output boards."
+  }
+ },
+ {
+  "id": "amx-enova-dgx-6400",
+  "manufacturer": "AMX",
+  "partNumber": "DGX6400-ENC",
+  "name": "Enova DGX 6400 enclosure (64x64 modular matrix)",
+  "family": "Enova DGX",
+  "category": "frame",
+  "ru": 24,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "16 input boards and 16 output boards of 4 ports each (HDMI, DXLink twisted pair, DXLink fibre, DVI, audio). All four sizes share the boards. Check: height and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Program"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "AMX Enova DGX",
+   "slots": 32,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "controller": "Slots 1-16 are input boards, 17-32 output boards."
+  }
+ },
+ {
+  "id": "amx-dgx-i-hdmi-4k60",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-I-HDMI-4K60",
+  "name": "DGX-I-HDMI-4K60 input board, 4 x HDMI",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Input board slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-I-HDMI-4K60",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dgx-o-hdmi-4k60",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-O-HDMI-4K60",
+  "name": "DGX-O-HDMI-4K60 output board, 4 x HDMI",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Output board slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-O-HDMI-4K60",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dgx-i-dxl-4k60",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-I-DXL-4K60",
+  "name": "DGX-I-DXL-4K60 input board, 4 x DXLink",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Input board slot (HDBaseT).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-I-DXL-4K60",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "RJ45 (DXLink)",
+      "count": 4,
+      "prefix": "DXLink In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dgx-o-dxl-4k60",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-O-DXL-4K60",
+  "name": "DGX-O-DXL-4K60 output board, 4 x DXLink",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Output board slot (HDBaseT).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-O-DXL-4K60",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "RJ45 (DXLink)",
+      "count": 4,
+      "prefix": "DXLink Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dgx-i-dxf-mms",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-I-DXF-MMS",
+  "name": "DGX-I-DXF-MMS input board, 4 x DXLink fibre (multimode)",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Input board slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-I-DXF-MMS",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "DXF In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dgx-o-dxf-mms",
+  "manufacturer": "AMX",
+  "partNumber": "DGX-O-DXF-MMS",
+  "name": "DGX-O-DXF-MMS output board, 4 x DXLink fibre (multimode)",
+  "family": "Enova DGX boards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX Enova DGX family guide",
+  "productUrl": "https://pdf.archiexpo.com/pdf/amx/enova-dgx-family/51274-177325.html",
+  "notes": "Output board slot.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "AMX Enova DGX"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DGX-O-DXF-MMS",
+    "name": "Board I/O",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 4,
+      "prefix": "DXF Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amx-dvx-3266-4k",
+  "manufacturer": "AMX",
+  "partNumber": "DVX-3266-4K",
+  "name": "DVX-3266-4K Enova DVX all-in-one presentation switcher",
+  "family": "Enova DVX",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DVX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "Matrix switcher with NetLinx controller, DSP and amplifier in one. Check: input counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 6,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DXLink)",
+    "count": 4,
+    "prefix": "DXLink In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DXLink)",
+    "count": 2,
+    "prefix": "DXLink Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out (amp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "IR / Relay / IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-dvx-2265-4k",
+  "manufacturer": "AMX",
+  "partNumber": "DVX-2265-4K",
+  "name": "DVX-2265-4K Enova DVX all-in-one presentation switcher",
+  "family": "Enova DVX",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "AMX Enova DVX range",
+  "productUrl": "https://www.amx.com",
+  "notes": "Matrix switcher with NetLinx controller, DSP and amplifier in one. Check: input counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45 (DXLink)",
+    "count": 2,
+    "prefix": "DXLink In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45 (DXLink)",
+    "count": 2,
+    "prefix": "DXLink Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out (amp)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "IR / Relay / IO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ICSLan"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "amx-nxa-pdu-1508-8",
+  "manufacturer": "AMX",
+  "partNumber": "NXA-PDU-1508-8",
+  "name": "NXA-PDU-1508-8 power distribution unit, 8 outlets, network controlled",
+  "family": "Power",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMX power range",
+  "productUrl": "https://www.amx.com",
+  "notes": "Per-outlet switching and current sensing from NetLinx. Check: outlet type for AU (IEC C13 assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AxLink"
+   }
+  ],
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 15,
+   "plug": "c14",
+   "metering": "switched-outlet",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "resettable",
+     "amps": 15
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 8,
+     "circuit": "A",
+     "switched": true
+    }
+   ]
+  }
+ }
+]

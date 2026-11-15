@@ -1,0 +1,157 @@
+[
+ {
+  "id": "cisco-rv345",
+  "manufacturer": "Cisco",
+  "partNumber": "RV345-K9",
+  "name": "RV345 dual-WAN gigabit VPN router",
+  "family": "RV340 Series",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cisco RV345 product specifications",
+  "productUrl": "https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5465-product-specifications-of-the-rv345-dual-wan-vpn-router.html",
+  "notes": "280 x 44 x 170 mm, 1.2 kg, rack brackets included, external 12 V 2.5 A adapter.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "LAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "12V DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-sg250-26",
+  "manufacturer": "Cisco",
+  "partNumber": "SG250-26",
+  "name": "SG250-26 26-port gigabit smart switch",
+  "family": "250 Series",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco 250 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/250-series-smart-switches/index.html",
+  "notes": "24 x GbE plus 2 combo GbE / SFP. Check: data sheet (end of sale; successor CBS250-24T-4G).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "GE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "RJ45 / SFP combo",
+    "count": 2,
+    "prefix": "Combo GE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "cisco-sg350-28",
+  "manufacturer": "Cisco",
+  "partNumber": "SG350-28",
+  "name": "SG350-28 28-port gigabit managed switch",
+  "family": "350 Series",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cisco 350 Series data sheet",
+  "productUrl": "https://www.cisco.com/c/en/us/products/switches/350-series-managed-switches/index.html",
+  "notes": "24 x GbE, 2 combo GbE / SFP, 2 SFP. Check: data sheet (end of sale; successor CBS350-24T-4G).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "GE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "RJ45 / SFP combo",
+    "count": 2,
+    "prefix": "Combo GE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

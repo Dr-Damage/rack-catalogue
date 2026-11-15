@@ -1,0 +1,398 @@
+[
+ {
+  "id": "ikusi-classa-rack-frame",
+  "manufacturer": "Ikusi",
+  "partNumber": "Class A rack frame",
+  "name": "Class A 19-inch rack frame for headend modules (9 positions)",
+  "family": "Class A",
+  "category": "frame",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos; Sciteq Ikusi listings",
+  "productUrl": "https://www.sciteq.com.au/product/ikusi-tpc-010d-digital-channel-processor/",
+  "notes": "Grey 19-inch frame with handles holding Class A modules side by side (processors, PSU, combiner, optical transmitters, splitters). All cabling (RF F-type, control DB9, red 12-24 V power bus) is on the module fronts. Frames join side by side and cascade the power bus. Check: height (about 6RU from photos) and number of positions (UNIBASE base plate is 9 bays).",
+  "portGroups": [],
+  "frame": {
+   "system": "Ikusi Class A",
+   "slots": 9,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.08,
+    "x1": 0.92,
+    "y0": 0.06,
+    "y1": 0.94
+   },
+   "rear": {
+    "x0": 0.08,
+    "x1": 0.92,
+    "y0": 0.06,
+    "y1": 0.94
+   },
+   "controller": "None: each module is set up from its own DB9 control port (PCH programmer)."
+  }
+ },
+ {
+  "id": "ikusi-cfp-700",
+  "manufacturer": "Ikusi",
+  "partNumber": "CFP-700",
+  "name": "CFP-700 power supply module for Class A",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref —)",
+  "productUrl": "https://www.ikusi.tv/en/products/tpc-010",
+  "notes": "Feeds the module power bus; one or more per headend. Older model, CFP-900 is current. Check: outputs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Banana",
+    "count": 5,
+    "prefix": "DC Out (+24/+18/+12/+15/+5 V)"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#9aa3ab"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CFP-700",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "ikusi-cfp-900",
+  "manufacturer": "Ikusi",
+  "partNumber": "CFP-900",
+  "name": "CFP-900 power supply module for Class A",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref —)",
+  "productUrl": "https://www.ikusi.tv/en/products/tpc-010",
+  "notes": "Current PSU for the Class A family. Check: outputs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Banana",
+    "count": 5,
+    "prefix": "DC Out"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#9aa3ab"
+  },
+  "rearModules": [
+   {
+    "partNumber": "CFP-900",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "ikusi-tpc-010",
+  "manufacturer": "Ikusi",
+  "partNumber": "TPC-010",
+  "name": "TPC-010 agile DVB-T / DVB-C channel processor / converter",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref 3842)",
+  "productUrl": "https://www.ikusi.tv/en/products/tpc-010",
+  "notes": "Double conversion, 45-862 MHz, 7/8 MHz channels, output 65-80 dBuV. One per channel. Check: loop connector.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF Loop"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Banana",
+    "count": 1,
+    "prefix": "DC bus"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#c8ccd0"
+  },
+  "rearModules": [
+   {
+    "partNumber": "TPC-010",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "ikusi-amx-400",
+  "manufacturer": "Ikusi",
+  "partNumber": "AMX-400",
+  "name": "AMX-400 4-input combiner (multiplexer)",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref —)",
+  "productUrl": "https://www.orbitadigital.com/en/discontinued/8402-ikusi-amx-400-multiplexer-4-inputs-and-up-to-24-outputs.html",
+  "notes": "Combines module outputs to the launch amplifier (HPA) in large Class A headends. 12 V 470 mA. Discontinued.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "RF In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "Test"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Banana",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#c8ccd0"
+  },
+  "rearModules": [
+   {
+    "partNumber": "AMX-400",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "ikusi-ftd-420",
+  "manufacturer": "Ikusi",
+  "partNumber": "FTD-420",
+  "name": "FTD-420 optical transmitter, 47-2150 MHz, 4 mW DFB",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref —)",
+  "productUrl": "https://www.orbitadigital.com/en/satellite-terrestrial/distribution/optical/2231-ikusi-ftd-420-optical-transmitter-module.html",
+  "notes": "Sends terrestrial TV plus satellite IF over single-mode fibre (1310 nm). Check: optical connector (green SC/APC in photos).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "SC/APC",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Banana",
+    "count": 1,
+    "prefix": "DC bus"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#4caf50"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FTD-420",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "ikusi-fsp-306",
+  "manufacturer": "Ikusi",
+  "partNumber": "FSP-306",
+  "name": "FSP-306 optical splitter, 6 ways",
+  "family": "Class A modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikusi / dealer pages (ref 4918)",
+  "productUrl": "https://www.manualslib.com/manual/1555802/Ikusi-Fsp-Series.html",
+  "notes": "Passive 1:6 single-mode splitter, about 9 dB loss, return loss over 55 dB. Check: input connector position.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "SC/APC",
+    "count": 1,
+    "prefix": "Optical In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "SC/APC",
+    "count": 6,
+    "prefix": "Optical Out"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Ikusi Class A"
+   ],
+   "slotWidth": 1,
+   "color": "#4caf50"
+  },
+  "rearModules": [
+   {
+    "partNumber": "FSP-306",
+    "name": "No rear connectors (front-wired module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ }
+]

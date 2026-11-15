@@ -1,0 +1,284 @@
+[
+ {
+  "id": "dataflow-1ru-2plate",
+  "manufacturer": "DataFlow",
+  "partNumber": "1RU fibre panel (2 plates)",
+  "name": "1RU fibre patch panel, 2 adapter plate positions (up to 24 LC duplex)",
+  "family": "Fibre panels",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Black 1RU fibre termination panel with two removable adapter plates (left and right, each 6 or 12 LC duplex) and a centre logo badge. Laser warning on each plate. Check: maker part numbers (Australian brand, no online catalogue found).",
+  "portGroups": [],
+  "frame": {
+   "system": "DataFlow plate",
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.08,
+    "x1": 0.92,
+    "y0": 0.1,
+    "y1": 0.9
+   },
+   "rear": {
+    "x0": 0.08,
+    "x1": 0.92,
+    "y0": 0.1,
+    "y1": 0.9
+   }
+  }
+ },
+ {
+  "id": "dataflow-plate-6lc-os2",
+  "manufacturer": "DataFlow",
+  "partNumber": "Plate 6 x LC duplex OS2",
+  "name": "Adapter plate, 6 x LC duplex (12 fibres, OS2 single-mode, blue)",
+  "family": "Fibre plates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Front is the patch side; the rear takes the spliced pigtails. One row of 6.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "DataFlow plate"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Rear (splice side)",
+    "name": "Rear (splice side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 12,
+      "prefix": "F"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dataflow-plate-12lc-os2",
+  "manufacturer": "DataFlow",
+  "partNumber": "Plate 12 x LC duplex OS2",
+  "name": "Adapter plate, 12 x LC duplex (24 fibres, OS2 single-mode, blue)",
+  "family": "Fibre plates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Front is the patch side; the rear takes the spliced pigtails. Two rows of 6.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "DataFlow plate"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Rear (splice side)",
+    "name": "Rear (splice side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "F"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dataflow-plate-6lc-om",
+  "manufacturer": "DataFlow",
+  "partNumber": "Plate 6 x LC duplex OM",
+  "name": "Adapter plate, 6 x LC duplex (12 fibres, OM3/OM4 multimode, aqua)",
+  "family": "Fibre plates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Front is the patch side; the rear takes the spliced pigtails. One row of 6.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 6,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "DataFlow plate"
+   ],
+   "slotWidth": 1,
+   "color": "#2bb3b1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Rear (splice side)",
+    "name": "Rear (splice side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 12,
+      "prefix": "F"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dataflow-plate-12lc-om",
+  "manufacturer": "DataFlow",
+  "partNumber": "Plate 12 x LC duplex OM",
+  "name": "Adapter plate, 12 x LC duplex (24 fibres, OM3/OM4 multimode, aqua)",
+  "family": "Fibre plates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Front is the patch side; the rear takes the spliced pigtails. Two rows of 6.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "DataFlow plate"
+   ],
+   "slotWidth": 1,
+   "color": "#2bb3b1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Rear (splice side)",
+    "name": "Rear (splice side)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "F"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dataflow-plate-blank",
+  "manufacturer": "DataFlow",
+  "partNumber": "Blank plate",
+  "name": "Blank adapter plate",
+  "family": "Fibre plates",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Photos",
+  "productUrl": "https://www.dataflow.com.au",
+  "notes": "Fills an unused plate position.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "DataFlow plate"
+   ],
+   "slotWidth": 1,
+   "color": "#333a40"
+  },
+  "rearModules": [
+   {
+    "partNumber": "Blank",
+    "name": "Blank",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ }
+]

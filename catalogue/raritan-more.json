@@ -1,0 +1,1579 @@
+[
+ {
+  "id": "raritan-dkx3-216",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX3-216",
+  "name": "Dominion KX III-216 KVM-over-IP switch, 16 ports, 2 remote users",
+  "family": "Dominion KX III",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Raritan DKX3-216 dealer specs",
+  "productUrl": "https://www.markertek.com/product/rar-dkx3-216/raritan-dominion-kx-iii-high-performance-kvm-over-ip-switch-16-server-ports-2-remote-users-1-local-port",
+  "notes": "Servers connect through Raritan CIMs on Cat5 to the RJ45 server ports. Dual power. 1U. Discontinued; KX IV is the successor.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Local Port DVI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering / KVM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial (modem)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-mccat216",
+  "manufacturer": "Raritan",
+  "partNumber": "MCCAT216",
+  "name": "MasterConsole CAT 2x16 KVM switch (2 users, 16 ports)",
+  "family": "MasterConsole CAT",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan MasterConsole CAT range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial",
+  "notes": "Analogue Cat5 KVM switch, 2 local users, 16 server ports with front port LEDs. Check: model (front reads \"2x16 KVM\") and console connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA + PS/2 + USB",
+    "count": 2,
+    "prefix": "User console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-t1700g2-led",
+  "manufacturer": "Raritan",
+  "partNumber": "T1700G2-LED",
+  "name": "T1700G2-LED 17.3-inch LCD console drawer, 1U",
+  "family": "LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Raritan rackmount LCD consoles data sheet",
+  "productUrl": "https://www.raritan.com/assets/ram/resources/data_sheets/ds-rackmount-lcd-consoles.pdf",
+  "notes": "17.3-inch 1080p screen, keyboard and touchpad on a slide-out tray. 17.6 W. Category control (not monitor) so the app does not draw a screen on the front.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (keyboard / touchpad)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0 pass-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 17.6
+ },
+ {
+  "id": "raritan-t1900-led",
+  "manufacturer": "Raritan",
+  "partNumber": "T1900-LED",
+  "name": "T1900-LED 19-inch LCD console drawer, 1U",
+  "family": "LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Raritan rackmount LCD consoles data sheet",
+  "productUrl": "https://www.raritan.com/assets/ram/resources/data_sheets/ds-rackmount-lcd-consoles.pdf",
+  "notes": "19-inch 4:3 screen, keyboard and touchpad on a slide-out tray. 17.4 W.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB / PS/2 (keyboard)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0 pass-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 17.4
+ },
+ {
+  "id": "raritan-dkx4-108",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-108",
+  "name": "Dominion KX IV-108 KVM-over-IP switch, 8 servers, 1 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 8,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-116",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-116",
+  "name": "Dominion KX IV-116 KVM-over-IP switch, 16 servers, 1 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-216",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-216",
+  "name": "Dominion KX IV-216 KVM-over-IP switch, 16 servers, 2 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-232",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-232",
+  "name": "Dominion KX IV-232 KVM-over-IP switch, 32 servers, 2 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 32,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-416",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-416",
+  "name": "Dominion KX IV-416 KVM-over-IP switch, 16 servers, 4 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-432",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-432",
+  "name": "Dominion KX IV-432 KVM-over-IP switch, 32 servers, 4 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 32,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-464",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-464",
+  "name": "Dominion KX IV-464 KVM-over-IP switch, 64 servers, 4 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 64,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-832",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-832",
+  "name": "Dominion KX IV-832 KVM-over-IP switch, 32 servers, 8 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 32,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dkx4-864",
+  "manufacturer": "Raritan",
+  "partNumber": "DKX4-864",
+  "name": "Dominion KX IV-864 KVM-over-IP switch, 64 servers, 8 remote users",
+  "family": "Dominion KX IV",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion KX IV range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/kvm-over-ip-switches",
+  "notes": "Servers connect through Raritan D4CIM / DCIM computer interface modules on Cat5/6. Dual power. Check: local port connectors and RU for this size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 64,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Local Port DP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Local Port HDMI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / modem"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tiering"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dsx2-4",
+  "manufacturer": "Raritan",
+  "partNumber": "DSX2-4",
+  "name": "Dominion SX II 4-port serial console server",
+  "family": "Dominion SX II",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion SX II range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/serial-console-server",
+  "notes": "Secure out-of-band serial access to switches, routers and PDUs (Cisco-style RJ45 pinout). Check: power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dsx2-8",
+  "manufacturer": "Raritan",
+  "partNumber": "DSX2-8",
+  "name": "Dominion SX II 8-port serial console server",
+  "family": "Dominion SX II",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion SX II range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/serial-console-server",
+  "notes": "Secure out-of-band serial access to switches, routers and PDUs (Cisco-style RJ45 pinout). Check: power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dsx2-16",
+  "manufacturer": "Raritan",
+  "partNumber": "DSX2-16",
+  "name": "Dominion SX II 16-port serial console server",
+  "family": "Dominion SX II",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion SX II range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/serial-console-server",
+  "notes": "Secure out-of-band serial access to switches, routers and PDUs (Cisco-style RJ45 pinout). Check: power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dsx2-32",
+  "manufacturer": "Raritan",
+  "partNumber": "DSX2-32",
+  "name": "Dominion SX II 32-port serial console server",
+  "family": "Dominion SX II",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion SX II range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/serial-console-server",
+  "notes": "Secure out-of-band serial access to switches, routers and PDUs (Cisco-style RJ45 pinout). Check: power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dsx2-48",
+  "manufacturer": "Raritan",
+  "partNumber": "DSX2-48",
+  "name": "Dominion SX II 48-port serial console server",
+  "family": "Dominion SX II",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion SX II range",
+  "productUrl": "https://www.raritan.com/products/kvm-serial/serial-console-server",
+  "notes": "Secure out-of-band serial access to switches, routers and PDUs (Cisco-style RJ45 pinout). Check: power inlet count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dlx2-108",
+  "manufacturer": "Raritan",
+  "partNumber": "DLX2-108",
+  "name": "Dominion LX II-108 KVM-over-IP switch, 8 servers",
+  "family": "Dominion LX II",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion LX II data sheet",
+  "productUrl": "https://www.legrand.com/datacenter/sites/g/files/ocwmcr716/files/2023-03/DOMINION%20LXII.pdf",
+  "notes": "Entry KVM-over-IP for small server rooms. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 8,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local Port VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dlx2-116",
+  "manufacturer": "Raritan",
+  "partNumber": "DLX2-116",
+  "name": "Dominion LX II-116 KVM-over-IP switch, 16 servers",
+  "family": "Dominion LX II",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion LX II data sheet",
+  "productUrl": "https://www.legrand.com/datacenter/sites/g/files/ocwmcr716/files/2023-03/DOMINION%20LXII.pdf",
+  "notes": "Entry KVM-over-IP for small server rooms. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local Port VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dlx2-216",
+  "manufacturer": "Raritan",
+  "partNumber": "DLX2-216",
+  "name": "Dominion LX II-216 KVM-over-IP switch, 16 servers",
+  "family": "Dominion LX II",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion LX II data sheet",
+  "productUrl": "https://www.legrand.com/datacenter/sites/g/files/ocwmcr716/files/2023-03/DOMINION%20LXII.pdf",
+  "notes": "Entry KVM-over-IP for small server rooms. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local Port VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-dlx2-416",
+  "manufacturer": "Raritan",
+  "partNumber": "DLX2-416",
+  "name": "Dominion LX II-416 KVM-over-IP switch, 16 servers",
+  "family": "Dominion LX II",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Raritan Dominion LX II data sheet",
+  "productUrl": "https://www.legrand.com/datacenter/sites/g/files/ocwmcr716/files/2023-03/DOMINION%20LXII.pdf",
+  "notes": "Entry KVM-over-IP for small server rooms. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45 (CIM)",
+    "count": 16,
+    "prefix": "Server"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local Port VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "raritan-t1700-led",
+  "manufacturer": "Raritan",
+  "partNumber": "T1700-LED",
+  "name": "T1700-LED 17-inch LCD console drawer, 1U (first generation)",
+  "family": "LCD consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Raritan LCD consoles",
+  "productUrl": "https://www.raritan.com/products/kvm-serial",
+  "notes": "Earlier 17-inch drawer (replaced by T1700G2-LED). Check: inputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB (keyboard / touchpad)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

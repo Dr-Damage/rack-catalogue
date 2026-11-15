@@ -1,0 +1,100 @@
+[
+ {
+  "id": "buffalo-ts3420rn",
+  "manufacturer": "Buffalo",
+  "partNumber": "TS3420RN",
+  "name": "TeraStation 3420RN 4-bay 1U rackmount NAS",
+  "family": "TeraStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Buffalo TeraStation dealer listings",
+  "productUrl": "https://www.adorama.com/buts342rn42.html",
+  "notes": "4 front hot-swap drive bays, 1U. Check: rear connectors (front LEDs show LAN1 / LAN2).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1 GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "buffalo-ts5420rn",
+  "manufacturer": "Buffalo",
+  "partNumber": "TS5420RN",
+  "name": "TeraStation 5420RN 4-bay 1U rackmount NAS (10 GbE)",
+  "family": "TeraStation",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Buffalo TeraStation 5420RN dealer listing",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1760843-REG/buffalo_ts5420rn1604_terastation_5420rn_1u_rm_16tb.html",
+  "notes": "4 front hot-swap bays, Alpine AL524 quad core, 8 GB. Check: port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (10 GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (1 GbE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

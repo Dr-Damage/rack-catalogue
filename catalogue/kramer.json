@@ -1,0 +1,76 @@
+[
+ {
+  "id": "kramer-vs-88h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-88H2",
+  "name": "VS-88H2 8x8 4K HDR HDCP 2.2 HDMI matrix switcher",
+  "family": "VS matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Kramer VS-88H2 specifications",
+  "productUrl": "https://cdn.shopify.com/s/files/1/2507/3278/files/VS-88H2_Specifications.pdf",
+  "notes": "18 Gbps 4K60 4:4:4 HDR matrix, 1U, 436 x 183 x 44 mm, 2.4 kg, 100-240 V AC. Check: which connectors are on the front (mini USB assumed front).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB power"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "Firmware / control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 2.4
+ }
+]
