@@ -1,0 +1,1106 @@
+[
+ {
+  "id": "jf-generic-sdi-2x32-full",
+  "manufacturer": "Generic",
+  "partNumber": "SDI jackfield 2x32 (full normal)",
+  "name": "SDI video jackfield, 2x32, 1RU, full normal",
+  "family": "Video jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Use until the maker is chosen. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "12G-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "jf-generic-sdi-2x32-none",
+  "manufacturer": "Generic",
+  "partNumber": "SDI jackfield 2x32 (not normalled)",
+  "name": "SDI video jackfield, 2x32, 1RU, not normalled",
+  "family": "Video jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Use until the maker is chosen. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "none",
+   "type": "12G-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "jf-generic-tt-2x48-full",
+  "manufacturer": "Generic",
+  "partNumber": "TT audio jackfield 2x48 (full normal)",
+  "name": "Bantam/TT audio jackfield, 2x48, 1RU, full normal, DB25 rear",
+  "family": "Audio jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Use until the maker is chosen. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "full",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "DB25 (8 ch)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "jf-generic-tt-2x48-half",
+  "manufacturer": "Generic",
+  "partNumber": "TT audio jackfield 2x48 (half normal)",
+  "name": "Bantam/TT audio jackfield, 2x48, 1RU, half normal, DB25 rear",
+  "family": "Audio jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Use until the maker is chosen. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "DB25 (8 ch)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "jf-generic-tt-2x48-none",
+  "manufacturer": "Generic",
+  "partNumber": "TT audio jackfield 2x48 (not normalled)",
+  "name": "Bantam/TT audio jackfield, 2x48, 1RU, not normalled, DB25 rear",
+  "family": "Audio jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Use until the maker is chosen. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "none",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "DB25 (8 ch)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppe1232-mvj-bk",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPE1232-MVJ-BK",
+  "name": "ProPatch 2x32 midsize HD video jackfield, normalled, non-terminating, 1RU",
+  "family": "ProPatch video jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://m.markertek.com/product/ppe1232-mvj-bk/adc-commscope-ppe1232-mvj-bk-1-ru-2x32-mid-size-hd-normalled-video-jackfield-non-terminating-black",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "HD-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppe2232-mvjt-bk",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPE2232-MVJT-BK",
+  "name": "ProPatch 2x32 midsize HD video jackfield, normalled, terminating, 2RU",
+  "family": "ProPatch video jackfield",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://markertek.com/product/ppe2232-mvjt-bk/adc-commscope-ppe2232-mvjt-bk-2ru2x32-mid-size-hd-normalled-video-jackfield-terminating-black",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "HD-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppe1232-cjm-bk",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPE1232-CJM-BK",
+  "name": "ProPatch 2x32 midsize HD video jackfield, straight-through (not normalled), 1RU",
+  "family": "ProPatch video jackfield",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/ppe1232-cjm-bk/adc-commscope-ppe1232-cjm-bk-1ru-2x32-mid-size-hd-straight-thru-video-jackfield-non-terminating-black",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "none",
+   "type": "HD-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppi2232-cjm-bk",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPI2232-CJM-BK",
+  "name": "ProPatch Integrated 2x32 midsize video jackfield, straight-through (not normalled), 2RU",
+  "family": "ProPatch video jackfield",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/ppi2232-cjm-bk/adc-commscope-ppi2232-cjm-2ru-2x32-straight-thru-non-terminating-video-patchbay",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "none",
+   "type": "HD-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppp1248-e3-hn-s",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPP1248-E3-HN-S",
+  "name": "ProPatch 2x48 bantam audio patchbay, half normal, EDAC 90-pin rear, 1RU",
+  "family": "ProPatch audio",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/ppp1248-e3-hn-s/adc-commscope-ppp1248-e3-hn-s-1ru-2x48-bantam-patchbay-half-normal-with-edac-3-pin",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "EDAC 90-pin"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "adc-ppb3-14mkivhn",
+  "manufacturer": "ADC (CommScope)",
+  "partNumber": "PPB3-14MKIVHN",
+  "name": "ProPatch QCP IV 2x48 bantam audio patchbay, half normal, punch-down rear, 2RU",
+  "family": "ProPatch audio",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/ppb3-14mkivhn/adc-commscope-ppb3-14mkivhn-propatch-qcp-iv-2ru-2x48-bantam-tt-audio-patchbay-half-normals",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "QCP punch-down"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "QCP punch-down",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "QCP punch-down",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-s64s-1mwnbk",
+  "manufacturer": "Bittree",
+  "partNumber": "S64S-1MWNBK",
+  "name": "2x32 12G Mini-WECO midsize video patchbay, 1RU",
+  "family": "12G midsize video",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/bit-s64s-1mwnbk/bittree-s64s-1mwnbk-64-point-12ghz-4k-8k-mini-weco-mid-size-video-patchbay-2x32-1ru",
+  "notes": "Check: normalling assumed from the N in the part number. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "12G-SDI",
+   "front": "Mini-WECO jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-s64t-1mwnbk",
+  "manufacturer": "Bittree",
+  "partNumber": "S64T-1MWNBK",
+  "name": "2x32 12G Mini-WECO midsize video patchbay, 2RU",
+  "family": "12G midsize video",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/bit-s64t-1mwnbk/bittree-s64t-1mwnbk-2x32-2ru-64-point-12ghz-4k-8k-mini-weco-mid-size-video-patchbay",
+  "notes": "Check: normalling assumed from the N in the part number. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "12G-SDI",
+   "front": "Mini-WECO jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Mini-WECO jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-s64s-2mvtbk",
+  "manufacturer": "Bittree",
+  "partNumber": "S64S-2MVTBK",
+  "name": "2x32 12G+ micro-video patchbay, full normal and terminated, BNC rear, 1RU",
+  "family": "12G+ micro video",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/bit-s64s-2mvtbk/bittree-s64s-2mvtbk-1-ru-stylized-2x32-12gplus-micro-video-patchbay-full-normal-terminated-full-size-bnc-on-rear",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "12G-SDI",
+   "front": "Micro video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Micro video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-b96dc-hnibs-d25",
+  "manufacturer": "Bittree",
+  "partNumber": "B96DC-HNIBS/D25 M2OU7B",
+  "name": "2x48 TT patchbay, half normal, bussed ground, DB25 rear, 1RU",
+  "family": "TT audio 969",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://markertek.com/product/bit-b96dchnibsd/bittree-b96dc-hnibs-d25-m2ou7b-2x48-1ru-db25-half-norm-buss-ground-tt-patchbay-7-inch",
+  "notes": "Front programmable normals. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "DB25 (8 ch)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-b96dc-fnibs-e90",
+  "manufacturer": "Bittree",
+  "partNumber": "B96DC-FNIBS/E90 M2OU7B",
+  "name": "2x48 TT patchbay, full normal, bussed ground, EDAC 90-pin rear, 1RU",
+  "family": "TT audio 969",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/b96dc-fnibs-e90/bittree-b96dc-fnibs-e90-m2ou7b-2x48-1ru-e90-full-norm-bussed-ground-tt-patchbay-7-inch",
+  "notes": "Front programmable normals. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "full",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "EDAC 90-pin"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-b96dc-fnait-e3",
+  "manufacturer": "Bittree",
+  "partNumber": "B96DC-FNAIT/E3 M2OU12B",
+  "name": "2x48 TT patchbay, full normal, isolated grounds, E3 rear, 2RU",
+  "family": "TT audio 969",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/bit-969a018/bittree-969a018-audio-tt-bantam-full-normal-isolated-front-programmable-969-a-series-2x48-2-ru-e3-rear-interface",
+  "notes": "Front programmable normals. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "full",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "EDAC 90-pin (E3)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin (E3)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin (E3)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "bittree-b96dc-nnait-e3",
+  "manufacturer": "Bittree",
+  "partNumber": "B96DC-NNAIT/E3 M2OU12B",
+  "name": "2x48 TT patchbay, not normalled, E3 rear, 2RU",
+  "family": "TT audio 969",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://www.markertek.com/product/bit-b96dcnnaite3/bittree-b96dc-nnait-e3-m2ou12b-2-ru-black-2x48-mono-spaced-front-programable-bantam-patchbay",
+  "notes": "Front programmable normals. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "none",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "EDAC 90-pin (E3)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin (E3)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 90-pin (E3)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "switchcraft-mmvpb32k175t",
+  "manufacturer": "Switchcraft",
+  "partNumber": "MMVPB32K175T",
+  "name": "2x32 12G micro video patchbay, full normal, terminated, BNC rear, 1RU",
+  "family": "Ultra VideoPatch",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Switchcraft product page",
+  "productUrl": "https://www.switchcraft.com/1ru-2x32-midsize-12g-4k-8k-video-patchbay-full-normal-no-looping-plug-micro-video-plug-to-uhd-bnc/mmvpb32k175t/",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "12G-SDI",
+   "front": "Micro video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Micro video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "switchcraft-mvp32k1uhd",
+  "manufacturer": "Switchcraft",
+  "partNumber": "MVP32K1UHD",
+  "name": "Ultra VideoPatch 2x32 12G midsize video patchbay, not normalled, 1RU",
+  "family": "Ultra VideoPatch",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://markertek.com/product/sw-mvp32k1uhd/switchcraft-mvp32k1uhd-ultra-videopatch-midsize-12g-video-patchbay-2x32-x-1ru",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "none",
+   "type": "12G-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "switchcraft-mvp32k3nt",
+  "manufacturer": "Switchcraft",
+  "partNumber": "MVP32K3NT",
+  "name": "2x32 midsize video patchbay, normalled, non-terminated, 2RU",
+  "family": "VideoPatch",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek part listing",
+  "productUrl": "https://markertek.com/product/sw-mvp32k3nt/switchcraft-mvp32k3nt-2ru-2x32-midsize-video-patchbay-normalled-non-terminated",
+  "notes": "Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 32,
+   "normal": "full",
+   "type": "HD-SDI",
+   "front": "Midsize video jack",
+   "rear": "BNC"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "Midsize video jack",
+    "count": 64,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "switchcraft-9625",
+  "manufacturer": "Switchcraft",
+  "partNumber": "9625",
+  "name": "StudioPatch 9625 2x48 TT patchbay, DB25 rear, front-programmable normals, 1RU",
+  "family": "StudioPatch",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Switchcraft StudioPatch manual",
+  "productUrl": "https://www.switchcraft.com/Product.aspx?ID=3151",
+  "notes": "Normals set per channel from the front (full, half or none); half shown as set. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 48,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "Bantam (TT)",
+   "rear": "DB25 (8 ch)"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Bantam (TT)",
+    "count": 96,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 48,
+    "prefix": "B"
+   }
+  ]
+ },
+ {
+  "id": "neutrik-nys-spp-l1",
+  "manufacturer": "Neutrik",
+  "partNumber": "NYS-SPP-L1",
+  "name": "2x24 1/4-inch TRS patchbay, switchable normals, 1RU",
+  "family": "Patchbay",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Neutrik product listing",
+  "productUrl": "",
+  "notes": "Normals set per channel by turning the jack card round (full, half or through). Neutrik makes no SDI jackfield. Check: configuration from the part number listing; confirm normals, termination and rear connector on the maker spec sheet.",
+  "jack": {
+   "points": 24,
+   "normal": "half",
+   "type": "Analog audio",
+   "front": "1/4\" TRS jack",
+   "rear": "1/4\" TRS jack"
+  },
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS jack",
+    "count": 48,
+    "prefix": "Jack"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS jack",
+    "count": 24,
+    "prefix": "A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS jack",
+    "count": 24,
+    "prefix": "B"
+   }
+  ]
+ }
+]

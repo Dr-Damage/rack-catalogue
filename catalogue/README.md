@@ -73,3 +73,22 @@ A power strip is an entry (category `pdu`) with a `pdu` block. The app makes its
 | `main` | whole-strip protection before the circuits: `type`, `amps`, `mA` |
 | `circuits` | the protected circuits inside the strip. `type`: none, switch, fuse, resettable (thermal / resettable fuse), mcb, rcd, rcbo. `amps` is the rating, `mA` the RCD trip current. `phase` L1/L2/L3 on 3 phase strips |
 | `outlets` | groups in order: `type` au10, au15, c13, c19, c15, c13l, c19l, schuko, uk, n515, n520, other; `count`; `circuit` id; `switched` true when each outlet has its own switch |
+
+## Jackfields (video and audio patchbays with normals)
+
+A jackfield is an entry (category `patch`) with a `jack` block. The app makes its ports from it, in matching A and B rows:
+rear `A1`..`An` (in: cable the source equipment's output here), rear `B1`..`Bn` (out: cable on to the destination's input),
+and front jacks `A1 jack` (top row) and `B1 jack` (bottom row). Keep `portGroups` in step for other readers; the app ignores them.
+
+```json
+"jack": {"points": 32, "normal": "full", "type": "12G-SDI", "front": "Midsize video jack", "rear": "BNC", "perRow": 32}
+```
+
+| key | meaning |
+|---|---|
+| `points` | number of A/B pairs (2x32 = 32) |
+| `normal` | `full` (A feeds B until a plug goes in either jack), `half` (broken only by a plug in B; a plug in A listens), `none` (not normalled) |
+| `type`, `front`, `rear` | signal type, front jack and rear connector names. Audio multipins name the connector per channel, e.g. `DB25 (8 ch)` |
+| `perRow` | points per row of jacks when a panel has several banks (default: all in one row up to 48) |
+
+Older patchbays without a `jack` block are read as jackfields when they have matching rear in/out groups (video) or "full/half normal" in the name (audio). Placed jackfields keep per-point normals, patch cords and designation text on the device (`d.jf`). Generator: `tools/jackfields.py`.
