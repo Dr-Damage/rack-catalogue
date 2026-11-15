@@ -1,0 +1,169 @@
+[
+ {
+  "id": "marshall-ml-702-v2",
+  "manufacturer": "Marshall Electronics",
+  "partNumber": "ML-702-V2",
+  "name": "ML-702-V2 dual 7-inch 3RU rack monitor (3G-SDI / HDMI / composite)",
+  "family": "ML",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek ML-702-V2 listing",
+  "productUrl": "https://www.markertek.com/product/mar-ml-702-v2/marshall-ml-702-v2-dual-7-inch-rackmountable-1920-x-1200-lcd-video-monitor-with-hdmi-3g-sdi-and-composite-inputs",
+  "notes": "Two 7-inch 1920 x 1200 screens, one input set per screen. 481.9 x 133.5 x 53.4 mm, 2.3 kg, 12 V 1.6 A (also a 5.5 x 2.1 mm jack). Check: tally connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "CVBS Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 4,
+    "prefix": "Audio In (L/R)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI Tally"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "powerW": 19,
+  "weightKg": 2.3,
+  "screens": {
+   "count": 2,
+   "sizeIn": 7,
+   "aspect": "16:10"
+  }
+ },
+ {
+  "id": "marshall-v-702w-12g",
+  "manufacturer": "Marshall Electronics",
+  "partNumber": "V-702W-12G",
+  "name": "V-702W-12G dual 7-inch 3RU 12G rack monitor with waveform",
+  "family": "V-702W",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Full Compass V-702W-12G listing",
+  "productUrl": "https://fullcompass.com/prod/623680-marshall-electronics-v-702w-12g-dual-7-inch-3ru-rackmount-12g-monitor-with-waveform-hdmi-and-12g-sdi-inputs",
+  "notes": "Two 7-inch screens with waveform / vectorscope tools. 482.6 x 134.6 x 30.5 mm, 2.3 kg. Check: tally and power figure.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "weightKg": 2.3,
+  "screens": {
+   "count": 2,
+   "sizeIn": 7,
+   "aspect": "16:10"
+  }
+ }
+]

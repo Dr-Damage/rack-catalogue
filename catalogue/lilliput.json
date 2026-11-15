@@ -1,0 +1,98 @@
+[
+ {
+  "id": "lilliput-rm-7028s",
+  "manufacturer": "Lilliput",
+  "partNumber": "RM-7028S",
+  "name": "RM-7028S dual 7-inch 3RU rack monitor (3G-SDI / HDMI)",
+  "family": "Rack monitors",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lilliput RM-7028S product page",
+  "productUrl": "https://lilliput.com/rm-7028s-product",
+  "notes": "Two 7-inch 1280 x 800 IPS screens, one input set per screen. 482.5 x 133.5 x 25.3 mm, 2.9 kg, 18 W. Check: YPbPr / composite loop counts and DC connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "YPbPr In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (remote)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Tally",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC 7-24V",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "powerW": 18,
+  "weightKg": 2.9,
+  "screens": {
+   "count": 2,
+   "sizeIn": 7,
+   "aspect": "16:10"
+  }
+ }
+]

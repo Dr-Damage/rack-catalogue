@@ -1,0 +1,564 @@
+[
+ {
+  "id": "audinate-adp-usb-au-2x2",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-USB-AU-2X2",
+  "name": "Dante AVIO USB-A adapter, 2 x 2",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Class-compliant USB audio: the computer sees a 2-in / 2-out sound card, no driver. Powered by USB or PoE.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A (plug)",
+    "count": 1,
+    "prefix": "USB to computer"
+   }
+  ],
+  "dongle": {
+   "plugs": "USB-A",
+   "hostType": "USB",
+   "power": "USB or PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-usbc-au-2x2",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-USBC-AU-2X2",
+  "name": "Dante AVIO USB-C adapter, 2 x 2",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Audinate ADP-USBC-AU-2X2 data sheet",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0558/9630/9837/files/ADP-USBC-AU-2X2_datasheet_95ce78fb-8bab-41ff-a05c-653d7e984981.pdf",
+  "notes": "Class-compliant USB-C audio, no driver. Powered by USB or PoE.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (plug)",
+    "count": 1,
+    "prefix": "USB-C to computer"
+   }
+  ],
+  "dongle": {
+   "plugs": "USB-C",
+   "hostType": "USB",
+   "power": "USB or PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-dai-au-1x0",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-DAI-AU-1X0",
+  "name": "Dante AVIO analogue input adapter, 1 channel",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Line In"
+   }
+  ],
+  "dongle": {
+   "plugs": "XLR3F",
+   "hostType": "Analog audio",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-dai-au-2x0",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-DAI-AU-2X0",
+  "name": "Dante AVIO analogue input adapter, 2 channels",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Line In"
+   }
+  ],
+  "dongle": {
+   "plugs": "XLR3F",
+   "hostType": "Analog audio",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-dao-au-0x1",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-DAO-AU-0X1",
+  "name": "Dante AVIO analogue output adapter, 1 channel",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Line Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "XLR3M",
+   "hostType": "Analog audio",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-dao-au-0x2",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-DAO-AU-0X2",
+  "name": "Dante AVIO analogue output adapter, 2 channels",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "XLR3M",
+   "hostType": "Analog audio",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-aes3-au-2x2",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-AES3-AU-2X2",
+  "name": "Dante AVIO AES3 adapter, 2 x 2",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES3 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "XLR3",
+   "hostType": "AES/EBU",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-adp-bt-au-2x1",
+  "manufacturer": "Audinate",
+  "partNumber": "ADP-BT-AU-2X1",
+  "name": "Dante AVIO Bluetooth adapter, 2 in / 1 out",
+  "family": "AVIO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Pairs a phone or laptop over Bluetooth into Dante. PoE powered; sits loose on the network.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Bluetooth",
+    "count": 1,
+    "prefix": "Bluetooth (wireless)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 60,
+   "h": 25
+  }
+ },
+ {
+  "id": "audinate-avio-a-2in-eb",
+  "manufacturer": "Audinate",
+  "partNumber": "AVIO-A-2IN-EB",
+  "name": "Dante AVIO Install analogue 2 in / 0 out",
+  "family": "AVIO Install",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 1,
+    "prefix": "Line In (2 ch per block)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 100,
+   "h": 30
+  }
+ },
+ {
+  "id": "audinate-avio-a-2out-eb",
+  "manufacturer": "Audinate",
+  "partNumber": "AVIO-A-2OUT-EB",
+  "name": "Dante AVIO Install analogue 0 in / 2 out",
+  "family": "AVIO Install",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 1,
+    "prefix": "Line Out (2 ch per block)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 100,
+   "h": 30
+  }
+ },
+ {
+  "id": "audinate-avio-a-2in2out-eb",
+  "manufacturer": "Audinate",
+  "partNumber": "AVIO-A-2IN2OUT-EB",
+  "name": "Dante AVIO Install analogue 2 in / 2 out",
+  "family": "AVIO Install",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 1,
+    "prefix": "Line In (2 ch per block)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 1,
+    "prefix": "Line Out (2 ch per block)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 100,
+   "h": 30
+  }
+ },
+ {
+  "id": "audinate-avio-a-4in-eb",
+  "manufacturer": "Audinate",
+  "partNumber": "AVIO-A-4IN-EB",
+  "name": "Dante AVIO Install analogue 4 in / 0 out",
+  "family": "AVIO Install",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 2,
+    "prefix": "Line In (2 ch per block)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 100,
+   "h": 30
+  }
+ },
+ {
+  "id": "audinate-avio-a-4out-eb",
+  "manufacturer": "Audinate",
+  "partNumber": "AVIO-A-4OUT-EB",
+  "name": "Dante AVIO Install analogue 0 in / 4 out",
+  "family": "AVIO Install",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Audinate listing",
+  "productUrl": "https://www.markertek.com/brand/audinate",
+  "notes": "Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock 6-pin",
+    "count": 2,
+    "prefix": "Line Out (2 ch per block)"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 100,
+   "h": 30
+  }
+ }
+]

@@ -6,7 +6,7 @@
   promax-headend (DTTV headend; promax.json stays with timing_rf.py), dataflow (1RU fibre panels), bmd-atem-tvs (ATEM
   Television Studio HD8 / HD8 ISO; prefix bmdt-, since bmd- belongs to the app's built-in list).
   Wider ranges asked for the same day: Raritan (KX IV, SX II, LX II, drawers), Extron (DXP, SW, DSC, IN1800, IPCP Pro, XTP II,
-  DTP CrossPoint, XPA, DA), crestron (CP4/CP4N/PRO4, DM-MD frames and DMC cards, DM NVX, DMPS3) and amx (NX controllers,
+  DTP CrossPoint, XPA, DA), lilliput and marshall-more (dual 7-inch rack monitors), audinate and dante-adapters (Dante adapters with a 'dongle' block), crestron (CP4/CP4N/PRO4, DM-MD frames and DMC cards, DM NVX, DMPS3) and amx (NX controllers,
   Enova DGX frames and boards, DVX, NXA-PDU).
 
 Daktronics publishes no rack sizes or connector lists for its control-room gear (VP-6000 / DI-6000 processors, DMP-8000
@@ -425,6 +425,83 @@ add('amx.json', 'amx-nxa-pdu-1508-8', 'AMX', 'NXA-PDU-1508-8', 'NXA-PDU-1508-8 p
     'Per-outlet switching and current sensing from NetLinx. Check: outlet type for AU (IEC C13 assumed).', 'AMX power range', AMXU, verified=False,
     pdu=dict(mount='h', phase=1, volts=230, amps=15, plug='c14', metering='switched-outlet', main=dict(type='none'),
              circuits=[dict(id='A', type='resettable', amps=15)], outlets=[dict(type='c13', count=8, circuit='A', switched=True)]))
+# ---- Dual 7-inch rack monitors (Lilliput, Marshall) ----
+add('lilliput.json', 'lilliput-rm-7028s', 'Lilliput', 'RM-7028S', 'RM-7028S dual 7-inch 3RU rack monitor (3G-SDI / HDMI)', 'Rack monitors', 'monitor', 3,
+    [R('in', '3G-SDI', 'BNC', 2, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Loop'), R('in', 'HDMI', 'HDMI', 2, 'HDMI In'), R('out', 'HDMI', 'HDMI', 2, 'HDMI Loop'),
+     R('in', 'Other', 'BNC', 6, 'YPbPr In'), R('in', 'Other', 'BNC', 2, 'Composite In'), LAN(1, 'LAN (remote)'), R('in', 'Other', 'Tally', 1, 'Tally'),
+     R('in', 'Power', 'DC 7-24V', 1, 'DC In')],
+    'Two 7-inch 1280 x 800 IPS screens, one input set per screen. 482.5 x 133.5 x 25.3 mm, 2.9 kg, 18 W. Check: YPbPr / composite loop counts and DC connector.',
+    'Lilliput RM-7028S product page', 'https://lilliput.com/rm-7028s-product', powerW=18, weightKg=2.9, screens=dict(count=2, sizeIn=7, aspect='16:10'))
+add('marshall-more.json', 'marshall-ml-702-v2', 'Marshall Electronics', 'ML-702-V2', 'ML-702-V2 dual 7-inch 3RU rack monitor (3G-SDI / HDMI / composite)', 'ML', 'monitor', 3,
+    [R('in', '3G-SDI', 'BNC', 2, 'SDI In'), R('out', '3G-SDI', 'BNC', 2, 'SDI Loop'), R('in', 'HDMI', 'HDMI', 2, 'HDMI In'), R('out', 'HDMI', 'HDMI', 2, 'HDMI Loop'),
+     R('in', 'Other', 'RCA', 2, 'CVBS In'), R('out', 'Other', 'RCA', 2, 'CVBS Loop'), R('in', 'Analog audio', 'RCA', 4, 'Audio In (L/R)'),
+     R('in', 'Other', 'DB9', 1, 'GPI Tally'), F('out', 'Analog audio', '3.5mm jack', 2, 'Headphones'), R('in', 'Power', 'XLR4', 1, '12V DC In')],
+    'Two 7-inch 1920 x 1200 screens, one input set per screen. 481.9 x 133.5 x 53.4 mm, 2.3 kg, 12 V 1.6 A (also a 5.5 x 2.1 mm jack). Check: tally connector.',
+    'Markertek ML-702-V2 listing', 'https://www.markertek.com/product/mar-ml-702-v2/marshall-ml-702-v2-dual-7-inch-rackmountable-1920-x-1200-lcd-video-monitor-with-hdmi-3g-sdi-and-composite-inputs',
+    powerW=19, weightKg=2.3, screens=dict(count=2, sizeIn=7, aspect='16:10'))
+add('marshall-more.json', 'marshall-v-702w-12g', 'Marshall Electronics', 'V-702W-12G', 'V-702W-12G dual 7-inch 3RU 12G rack monitor with waveform', 'V-702W', 'monitor', 3,
+    [R('in', '12G-SDI', 'BNC', 2, 'SDI In'), R('out', '12G-SDI', 'BNC', 2, 'SDI Out'), R('in', 'HDMI', 'HDMI', 2, 'HDMI In'), R('out', 'HDMI', 'HDMI', 2, 'HDMI Out'),
+     R('in', 'Power', 'XLR4', 1, '12V DC In')],
+    'Two 7-inch screens with waveform / vectorscope tools. 482.6 x 134.6 x 30.5 mm, 2.3 kg. Check: tally and power figure.',
+    'Full Compass V-702W-12G listing', 'https://fullcompass.com/prod/623680-marshall-electronics-v-702w-12g-dual-7-inch-3ru-rackmount-12g-monitor-with-waveform-hdmi-and-12g-sdi-inputs',
+    verified=False, weightKg=2.3, screens=dict(count=2, sizeIn=7, aspect='16:10'))
+
+# ---- Dante adapters (requested 2026-11-15): not rack gear. The 'dongle' block says what they plug into, so the app can
+# attach them to a host device's port (a USB adapter to a PC's USB port, an XLR adapter to a desk or amp XLR) and list them
+# with that device. dongle = {plugs: connector on the adapter that mates with the host, hostType: port type it fits, power}.
+AUD = 'https://www.markertek.com/brand/audinate'
+DAN = lambda d='io': R(d, 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)')
+def dongle(file, id, mfr, pn, nm, fam, ports, plugs, hostType, notes, src, url, verified=True, mm=(60, 25), **kw):
+    add(file, id, mfr, pn, nm, fam, 'audio', 1, ports, notes, src, url, verified=verified, w=1,
+        dongle=dict(plugs=plugs, hostType=hostType, power=kw.pop('power', 'PoE')), boxMm=dict(w=mm[0], h=mm[1]), **kw)
+dongle('audinate.json', 'audinate-adp-usb-au-2x2', 'Audinate', 'ADP-USB-AU-2X2', 'Dante AVIO USB-A adapter, 2 x 2', 'AVIO',
+       [DAN(), R('io', 'USB', 'USB-A (plug)', 1, 'USB to computer')], 'USB-A', 'USB',
+       'Class-compliant USB audio: the computer sees a 2-in / 2-out sound card, no driver. Powered by USB or PoE.', 'Markertek Audinate listing', AUD, power='USB or PoE')
+dongle('audinate.json', 'audinate-adp-usbc-au-2x2', 'Audinate', 'ADP-USBC-AU-2X2', 'Dante AVIO USB-C adapter, 2 x 2', 'AVIO',
+       [DAN(), R('io', 'USB', 'USB-C (plug)', 1, 'USB-C to computer')], 'USB-C', 'USB',
+       'Class-compliant USB-C audio, no driver. Powered by USB or PoE.', 'Audinate ADP-USBC-AU-2X2 data sheet',
+       'https://cdn.shopify.com/s/files/1/0558/9630/9837/files/ADP-USBC-AU-2X2_datasheet_95ce78fb-8bab-41ff-a05c-653d7e984981.pdf', power='USB or PoE')
+for pn, nm, ports, plugs, ht in [
+        ('ADP-DAI-AU-1X0', 'Dante AVIO analogue input adapter, 1 channel', [DAN('out'), R('in', 'Analog audio', 'XLR3F', 1, 'Line In')], 'XLR3F', 'Analog audio'),
+        ('ADP-DAI-AU-2X0', 'Dante AVIO analogue input adapter, 2 channels', [DAN('out'), R('in', 'Analog audio', 'XLR3F', 2, 'Line In')], 'XLR3F', 'Analog audio'),
+        ('ADP-DAO-AU-0X1', 'Dante AVIO analogue output adapter, 1 channel', [DAN('in'), R('out', 'Analog audio', 'XLR3M', 1, 'Line Out')], 'XLR3M', 'Analog audio'),
+        ('ADP-DAO-AU-0X2', 'Dante AVIO analogue output adapter, 2 channels', [DAN('in'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out')], 'XLR3M', 'Analog audio'),
+        ('ADP-AES3-AU-2X2', 'Dante AVIO AES3 adapter, 2 x 2', [DAN(), R('in', 'AES/EBU', 'XLR3F', 1, 'AES3 In'), R('out', 'AES/EBU', 'XLR3M', 1, 'AES3 Out')], 'XLR3', 'AES/EBU')]:
+    dongle('audinate.json', 'audinate-' + pn.lower(), 'Audinate', pn, nm, 'AVIO', ports, plugs, ht,
+           'In-line adapter on a short cable: the XLR end plugs straight into the other device, so attach it to that port. Line level, PoE powered.',
+           'Markertek Audinate listing', AUD)
+dongle('audinate.json', 'audinate-adp-bt-au-2x1', 'Audinate', 'ADP-BT-AU-2X1', 'Dante AVIO Bluetooth adapter, 2 in / 1 out', 'AVIO',
+       [DAN(), R('in', 'Other', 'Bluetooth', 1, 'Bluetooth (wireless)')], 'none', '',
+       'Pairs a phone or laptop over Bluetooth into Dante. PoE powered; sits loose on the network.', 'Markertek Audinate listing', AUD)
+for pn, ins, outs in [('AVIO-A-2IN-EB', 2, 0), ('AVIO-A-2OUT-EB', 0, 2), ('AVIO-A-2IN2OUT-EB', 2, 2), ('AVIO-A-4IN-EB', 4, 0), ('AVIO-A-4OUT-EB', 0, 4)]:
+    ports = [DAN()] + ([R('in', 'Analog audio', 'Euroblock 6-pin', ins // 2 if ins > 2 else 1, 'Line In (2 ch per block)')] if ins else []) + \
+            ([R('out', 'Analog audio', 'Euroblock 6-pin', outs // 2 if outs > 2 else 1, 'Line Out (2 ch per block)')] if outs else [])
+    dongle('audinate.json', 'audinate-' + pn.lower(), 'Audinate', pn, 'Dante AVIO Install analogue %s' % ('%d in / %d out' % (ins, outs)), 'AVIO Install', ports, 'none', '',
+           'Small box with Euroblock terminals for fixed installs (behind displays, in lecterns, on a rack shelf). PoE powered. Check: Euroblock count.',
+           'Markertek Audinate listing', AUD, verified=False, mm=(100, 30))
+dongle('dante-adapters.json', 'neutrik-na2-io-dline', 'Neutrik', 'NA2-IO-DLINE', 'NA2-IO-DLINE Dante 2 x 2 line breakout box', 'Dante adapters',
+       [R('io', 'Dante/AES67', 'etherCON', 1, 'Dante (PoE)'), R('in', 'Analog audio', 'XLR3F', 2, 'Line In'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out')], 'none', '',
+       'Rugged end-of-network box, PoE powered. Check: connectors.', 'Canford Dante interfaces list', 'https://www.canford.co.uk/Index/Dante-interfaces', verified=False, mm=(120, 45))
+dongle('dante-adapters.json', 'shure-ani22-xlr', 'Shure', 'ANI22-XLR', 'ANI22-XLR Dante 2 x 2 audio network interface', 'ANI',
+       [R('io', 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)'), R('in', 'Analog audio', 'XLR3F', 2, 'Mic / Line In'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out')], 'none', '',
+       'Small box for table or wall (block-connector version ANI22-BLOCK). PoE powered. Check: connectors.', 'Shure ANI range', 'https://www.shure.com', verified=False, mm=(130, 45))
+for pn, d in [('ANI4IN-XLR', 'in'), ('ANI4OUT-XLR', 'out')]:
+    add('dante-adapters.json', 'shure-' + pn.lower(), 'Shure', pn, pn + ' 4-channel Dante audio network interface (%s)' % ('inputs' if d == 'in' else 'outputs'), 'ANI', 'audio', 1,
+        [R('io', 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)'), R(d, 'Analog audio', 'XLR3F' if d == 'in' else 'XLR3M', 4, 'Mic / Line In' if d == 'in' else 'Line Out')],
+        'Half-rack box (rack tray holds two), PoE powered. Check: width.', 'Shure ANI range', 'https://www.shure.com', verified=False, w=6)
+dongle('dante-adapters.json', 'focusrite-rednet-am2', 'Focusrite', 'RedNet AM2', 'RedNet AM2 Dante stereo headphone / line output', 'RedNet',
+       [R('in', 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)'), F('out', 'Analog audio', '1/4in and 3.5mm jack', 1, 'Headphones'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out')], 'none', '',
+       'Desktop monitoring box, PoE powered. Check: connectors.', 'Focusrite RedNet range', 'https://focusrite.com/rednet', verified=False, mm=(130, 45))
+dongle('dante-adapters.json', 'focusrite-rednet-x2p', 'Focusrite', 'RedNet X2P', 'RedNet X2P Dante 2 x 2 with mic preamps', 'RedNet',
+       [R('io', 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)'), F('in', 'Analog audio', 'XLR / jack combo', 2, 'Mic / Line In'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out'),
+        F('out', 'Analog audio', '1/4in jack', 1, 'Headphones')], 'none', '',
+       'Desktop 2 x 2 interface, PoE powered. Check: connectors.', 'Focusrite RedNet range', 'https://focusrite.com/rednet', verified=False, mm=(170, 50))
+for pn, nm, ports in [('unDX2IO+', 'unDX2IO+ Dante 2 x 2 XLR wall plate', [R('in', 'Analog audio', 'XLR3F', 2, 'Mic / Line In'), R('out', 'Analog audio', 'XLR3M', 2, 'Line Out')]),
+                      ('unD6IO', 'unD6IO Dante 4 x 2 wall plate (XLR, RCA, 3.5 mm)', [R('in', 'Analog audio', 'XLR3F', 2, 'Mic / Line In'), R('in', 'Analog audio', 'RCA', 2, 'RCA In'),
+                                                                                        R('out', 'Analog audio', 'Euroblock', 2, 'Line Out')])]:
+    add('dante-adapters.json', 'attero-' + pn.lower().replace('+', 'plus'), 'Attero Tech (QSC)', pn, nm, 'unD', 'wallbox', 1, [R('io', 'Dante/AES67', 'RJ45', 1, 'Dante (PoE)')] + ports,
+        'Decora wall plate, PoE powered. Check: connectors.', 'Attero Tech unD range', 'https://www.atterotech.com', verified=False, w=1)
+
 for models in FILES.values():
     for m in models:
         m['portGroups'] = [p for p in m['portGroups'] if p['count'] > 0]

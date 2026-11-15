@@ -1,0 +1,366 @@
+[
+ {
+  "id": "neutrik-na2-io-dline",
+  "manufacturer": "Neutrik",
+  "partNumber": "NA2-IO-DLINE",
+  "name": "NA2-IO-DLINE Dante 2 x 2 line breakout box",
+  "family": "Dante adapters",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canford Dante interfaces list",
+  "productUrl": "https://www.canford.co.uk/Index/Dante-interfaces",
+  "notes": "Rugged end-of-network box, PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 120,
+   "h": 45
+  }
+ },
+ {
+  "id": "shure-ani22-xlr",
+  "manufacturer": "Shure",
+  "partNumber": "ANI22-XLR",
+  "name": "ANI22-XLR Dante 2 x 2 audio network interface",
+  "family": "ANI",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure ANI range",
+  "productUrl": "https://www.shure.com",
+  "notes": "Small box for table or wall (block-connector version ANI22-BLOCK). PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 130,
+   "h": 45
+  }
+ },
+ {
+  "id": "shure-ani4in-xlr",
+  "manufacturer": "Shure",
+  "partNumber": "ANI4IN-XLR",
+  "name": "ANI4IN-XLR 4-channel Dante audio network interface (inputs)",
+  "family": "ANI",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure ANI range",
+  "productUrl": "https://www.shure.com",
+  "notes": "Half-rack box (rack tray holds two), PoE powered. Check: width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "Mic / Line In"
+   }
+  ]
+ },
+ {
+  "id": "shure-ani4out-xlr",
+  "manufacturer": "Shure",
+  "partNumber": "ANI4OUT-XLR",
+  "name": "ANI4OUT-XLR 4-channel Dante audio network interface (outputs)",
+  "family": "ANI",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Shure ANI range",
+  "productUrl": "https://www.shure.com",
+  "notes": "Half-rack box (rack tray holds two), PoE powered. Check: width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Line Out"
+   }
+  ]
+ },
+ {
+  "id": "focusrite-rednet-am2",
+  "manufacturer": "Focusrite",
+  "partNumber": "RedNet AM2",
+  "name": "RedNet AM2 Dante stereo headphone / line output",
+  "family": "RedNet",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite RedNet range",
+  "productUrl": "https://focusrite.com/rednet",
+  "notes": "Desktop monitoring box, PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4in and 3.5mm jack",
+    "count": 1,
+    "prefix": "Headphones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 130,
+   "h": 45
+  }
+ },
+ {
+  "id": "focusrite-rednet-x2p",
+  "manufacturer": "Focusrite",
+  "partNumber": "RedNet X2P",
+  "name": "RedNet X2P Dante 2 x 2 with mic preamps",
+  "family": "RedNet",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite RedNet range",
+  "productUrl": "https://focusrite.com/rednet",
+  "notes": "Desktop 2 x 2 interface, PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR / jack combo",
+    "count": 2,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4in jack",
+    "count": 1,
+    "prefix": "Headphones"
+   }
+  ],
+  "dongle": {
+   "plugs": "none",
+   "hostType": "",
+   "power": "PoE"
+  },
+  "boxMm": {
+   "w": 170,
+   "h": 50
+  }
+ },
+ {
+  "id": "attero-undx2ioplus",
+  "manufacturer": "Attero Tech (QSC)",
+  "partNumber": "unDX2IO+",
+  "name": "unDX2IO+ Dante 2 x 2 XLR wall plate",
+  "family": "unD",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Attero Tech unD range",
+  "productUrl": "https://www.atterotech.com",
+  "notes": "Decora wall plate, PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ]
+ },
+ {
+  "id": "attero-und6io",
+  "manufacturer": "Attero Tech (QSC)",
+  "partNumber": "unD6IO",
+  "name": "unD6IO Dante 4 x 2 wall plate (XLR, RCA, 3.5 mm)",
+  "family": "unD",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Attero Tech unD range",
+  "productUrl": "https://www.atterotech.com",
+  "notes": "Decora wall plate, PoE powered. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "RCA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Euroblock",
+    "count": 2,
+    "prefix": "Line Out"
+   }
+  ]
+ }
+]

@@ -183,5 +183,9 @@
  "promax-headend.json",
  "dataflow.json",
  "crestron.json",
- "amx.json"
+ "amx.json",
+ "lilliput.json",
+ "marshall-more.json",
+ "audinate.json",
+ "dante-adapters.json"
 ]
