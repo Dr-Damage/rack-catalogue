@@ -1,0 +1,692 @@
+[
+ {
+  "id": "apantac-mi-8-12g-uhd",
+  "manufacturer": "Apantac",
+  "partNumber": "Mi-8-12G-UHD",
+  "name": "Crescent Mi-8-12G-UHD 8-input 12G multiviewer, 1RU",
+  "family": "Crescent Mi",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Markertek Mi-8-12G-UHD listing",
+  "productUrl": "https://www.markertek.com/product/apa-mi-8-12g-uhd/apantac-crescent-mi-8-12g-uhd-1ru-8x1-12g-3g-hd-sdi-input-multiviewer-with-hdmi-2-0-uhd-output",
+  "notes": "446 x 452 x 44 mm, 55 W typical (100 W rated), optional redundant PSU. Check: audio monitor outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0 Out (UHD)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 1.4 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "GPI (32, RJ50)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232 (TSL / AXP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (2nd optional)"
+   }
+  ]
+ },
+ {
+  "id": "apantac-mi-16-12g-uhd",
+  "manufacturer": "Apantac",
+  "partNumber": "Mi-16-12G-UHD",
+  "name": "Crescent Mi-16-12G-UHD 16-input 12G multiviewer, 2RU",
+  "family": "Crescent Mi",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Markertek Mi-16-12G-UHD listing",
+  "productUrl": "https://www.markertek.com/product/apa-mi-16-12guhd/apantac-crescent-mi-16-12g-uhd-2ru-16x1-12g-3g-hd-sdi-input-multiviewer-with-hdmi-2-0-uhd-output",
+  "notes": "Check: outputs and GPI count (by analogy with the Mi-8-12G-UHD).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0 Out (UHD)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 1.4 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "GPI (64, RJ50)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "apantac-mx-32x2-uhd",
+  "manufacturer": "Apantac",
+  "partNumber": "MX-32x2-UHD",
+  "name": "Crescent MX-32x2-UHD 32-input dual-head multiviewer, 2RU",
+  "family": "Crescent MX",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Markertek MX-32X2-UHD listing",
+  "productUrl": "https://www.markertek.com/product/apa-mx-32x2-uhd/apantac-mx-32x2-uhd-crescent-mx-2ru-32x2-3g-hd-sd-sdi-multiviewer-with-2-uhd-outputs",
+  "notes": "100 W, redundant PSU. Check: power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.0 Out (UHD)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out (12G / 3G)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "GPI (64, RJ50)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "apantac-mi-9",
+  "manufacturer": "Apantac",
+  "partNumber": "Mi-9",
+  "name": "Crescent Mi-9 9-input multiviewer, 1RU",
+  "family": "Crescent Mi",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Apantac catalogue excerpts",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/apantac-multiviewer-catalog/239833-971198.html",
+  "notes": "Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 9,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 9,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "apantac-le-16cv-ii",
+  "manufacturer": "Apantac",
+  "partNumber": "LE-16CV-II",
+  "name": "Crescent LE-16CV-II 16-input composite multiviewer, 1RU",
+  "family": "Crescent LE",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Apantac catalogue excerpts",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/apantac-multiviewer-catalog/239833-971198.html",
+  "notes": "500 mm deep. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "apantac-ue-4-k-ii",
+  "manufacturer": "Apantac",
+  "partNumber": "UE-4-K-II",
+  "name": "UE-4-K-II 4-input 4K HDMI multiviewer, 2RU",
+  "family": "UE",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Apantac catalogue excerpts",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/ue-multiviewers/239833-968569.html",
+  "notes": "450 mm deep. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "apantac-ue-8-k-ii",
+  "manufacturer": "Apantac",
+  "partNumber": "UE-8-K-II",
+  "name": "UE-8-K-II 8-input 4K HDMI multiviewer, 2RU",
+  "family": "UE",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Apantac catalogue excerpts",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/ue-multiviewers/239833-968569.html",
+  "notes": "450 mm deep. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "3G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "apantac-tahoma-t-4ru",
+  "manufacturer": "Apantac",
+  "partNumber": "TAHOMA T# 4RU",
+  "name": "TAHOMA T# modular multiviewer frame, 4RU (up to 64x16)",
+  "family": "TAHOMA T#",
+  "category": "monitor",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Apantac TAHOMA T# brochure",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/tahoma-t/239833-968568.html",
+  "notes": "Modular frame: 8 input slots, 4 output slots; card I/O varies, so add card ports per device. Check: fixed connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "Input card slots (SDI, SFP ST 2110 / 2022-6, HDMI)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Output card slots"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "apantac-tahoma-t-2ru",
+  "manufacturer": "Apantac",
+  "partNumber": "TAHOMA T# 2RU",
+  "name": "TAHOMA T# modular multiviewer frame, 2RU (up to 32x4)",
+  "family": "TAHOMA T#",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Apantac TAHOMA T# brochure",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/tahoma-t/239833-968568.html",
+  "notes": "Modular frame: 4 input slots, 1 output slot. Check: fixed connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "Input card slots"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Output card slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "apantac-sdi-da-16x1x2",
+  "manufacturer": "Apantac",
+  "partNumber": "SDI-DA-1x2x16",
+  "name": "16 x 1:2 SDI / ASI distribution amplifier, 1RU",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Apantac product portfolio",
+  "productUrl": "https://pdf.directindustry.com/pdf/apantac-llc/product-portfolio/239833-971199.html",
+  "notes": "Sixteen 1:2 DAs in 1RU. Check: part number and power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

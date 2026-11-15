@@ -1,0 +1,547 @@
+[
+ {
+  "id": "gravue-mrs-1608mvs",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MRS-1608MVS",
+  "name": "MRS-1608MVS 16-input 8-output multiview display system, 1RU",
+  "family": "MRS",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "B&H MRS-1608MVS listing",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1033959-REG/gra_vue_mrs_1608mvs_1ru_8_output_multi_viewer.html",
+  "notes": "Check: LTC connector; power is two 48 V supplies.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Upgrade"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "DB26",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "48V DC"
+   }
+  ]
+ },
+ {
+  "id": "gravue-mrs-1204mvs",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MRS-1204MVS",
+  "name": "MRS-1204MVS 12-input 4-output multiview display system, 1RU",
+  "family": "MRS",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "B&H MRS-1204MVS listing",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1110712-REG/gra_vue_mrs_1204mvs_4_output_multi_viewer_display.html",
+  "notes": "Check: counts (by analogy with MRS-1608MVS).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "DB26",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "48V DC"
+   }
+  ]
+ },
+ {
+  "id": "gravue-vio-mvs-8hd",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "VIO MVS-8HD",
+  "name": "VIO MVS-8HD 8-input multiviewer, 1RU",
+  "family": "VIO",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "B&H VIO MVS-8HD listing",
+  "productUrl": "https://www.bhphotovideo.com/c/product/936619-REG/gra_vue_vio_mvs_8hd_1u_multiviewer.html",
+  "notes": "Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI / DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "gravue-xio-3u",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "XIO 3U",
+  "name": "XIO 3U modular platform",
+  "family": "XIO",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tanotis XIO listing",
+  "productUrl": "https://www.tanotis.com/products/gra-vue-xio-3u-modular-platform",
+  "notes": "Modular frame for Gra-Vue converter / DA / multiviewer modules; card I/O added per device. Check: slot count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Module rears"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gravue-vio-mfc-x",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "VIO MFC-X",
+  "name": "VIO MFC-X universal video cross converter",
+  "family": "VIO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Proflix Gra-Vue VIO listing",
+  "productUrl": "https://proflixsales.com/products/gravue-products/vio-series/gravue-vio-mfc-x-universal-video-cross-convertor",
+  "notes": "Half-rack box. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "gravue-mio-sdi-aviewer",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MIO SDI-AVIEWER",
+  "name": "MIO SDI-AVIEWER 3G-SDI to HDMI / DVI scaling converter",
+  "family": "MIO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gra-Vue MIO dealer listings",
+  "productUrl": "https://proflixsales.com/products/gravue-products/mio-series/gravue-mio-sdi-aviewer-hd-sd-sdi-to-hdmi-dvi-video-scaling",
+  "notes": "Mini box; sits on a shelf. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI / DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 100,
+   "h": 25
+  }
+ },
+ {
+  "id": "gravue-mio-mvs-4hd",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MIO MVS-4HD",
+  "name": "MIO MVS-4HD quad HD/SD-SDI multiviewer",
+  "family": "MIO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gra-Vue MIO dealer listings",
+  "productUrl": "https://proflixsales.com/products/gravue-products/mio-series/gravue-mio-sdi-aviewer-hd-sd-sdi-to-hdmi-dvi-video-scaling",
+  "notes": "Mini box; sits on a shelf. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI / DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 100,
+   "h": 25
+  }
+ },
+ {
+  "id": "gravue-mio-mvs-4hdmi",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MIO MVS-4HDMI",
+  "name": "MIO MVS-4HDMI quad HDMI multiviewer",
+  "family": "MIO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gra-Vue MIO dealer listings",
+  "productUrl": "https://proflixsales.com/products/gravue-products/mio-series/gravue-mio-sdi-aviewer-hd-sd-sdi-to-hdmi-dvi-video-scaling",
+  "notes": "Mini box; sits on a shelf. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 100,
+   "h": 25
+  }
+ },
+ {
+  "id": "gravue-mio-av-aviewer",
+  "manufacturer": "Gra-Vue",
+  "partNumber": "MIO AV-AVIEWER",
+  "name": "MIO AV-AVIEWER composite to HDMI / DVI converter",
+  "family": "MIO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gra-Vue MIO dealer listings",
+  "productUrl": "https://proflixsales.com/products/gravue-products/mio-series/gravue-mio-sdi-aviewer-hd-sd-sdi-to-hdmi-dvi-video-scaling",
+  "notes": "Mini box; sits on a shelf. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "CV In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI / DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 100,
+   "h": 25
+  }
+ }
+]

@@ -1,0 +1,409 @@
+[
+ {
+  "id": "bzbgear-bg-4k-44ma",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-4K-44MA",
+  "name": "BG-4K-44MA 4x4 HDMI 2.0 matrix with audio de-embed",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": " Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "bzbgear-bz-mvs4x4-4k",
+  "manufacturer": "BZBGear",
+  "partNumber": "BZ-MVS4X4-4K",
+  "name": "BZ-MVS4X4-4K 4x4 18 Gbps seamless matrix / video wall processor",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": " Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "bzbgear-bg-mvs4x4-cv",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-MVS4X4-CV",
+  "name": "BG-MVS4X4-CV 4x4 4K seamless matrix / video wall processor",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": " Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "bzbgear-bg-mv41a-g2",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-MV41A-G2",
+  "name": "BG-MV41A-G2 4x1 4K seamless multiviewer",
+  "family": "Multiviewer",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": "Half-rack desktop box. Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "bzbgear-bg-8k-da18",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-8K-DA18",
+  "name": "BG-8K-DA18 1x8 HDMI 2.1 8K splitter with downscaling",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": " Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "bzbgear-bg-ipgear-ultra-acc-rm2",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-ULTRA-ACC-RM2",
+  "name": "BG-IPGEAR-ULTRA-ACC-RM2 1RU rack bracket for two IPGEAR units",
+  "family": "IPGEAR",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": "Holds two IPGEAR Ultra encoders / decoders. Check: count.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "BZBGear IPGEAR"
+   ]
+  }
+ },
+ {
+  "id": "bzbgear-bg-ipgear-ultra-acc-rm10",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-ULTRA-ACC-RM10",
+  "name": "BG-IPGEAR-ULTRA-ACC-RM10 6RU rack bracket for ten IPGEAR units",
+  "family": "IPGEAR",
+  "category": "shelf",
+  "ru": 6,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": "Holds ten IPGEAR units standing up.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 10,
+   "fits": [
+    "BZBGear IPGEAR"
+   ]
+  }
+ },
+ {
+  "id": "bzbgear-ipgear-pro-rack-4ru",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-PRO rack (4RU)",
+  "name": "4RU rack for ten BG-IPGEAR-PRO transmitters / receivers",
+  "family": "IPGEAR",
+  "category": "shelf",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVLGear BZBGear listings",
+  "productUrl": "https://avlgear.com/collections/bzbgear",
+  "notes": "Check: part number.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 10,
+   "fits": [
+    "BZBGear IPGEAR"
+   ]
+  }
+ }
+]

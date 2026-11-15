@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "dv-se-2850",
+  "manufacturer": "Datavideo",
+  "partNumber": "SE-2850",
+  "name": "SE-2850 8/12-input HD/SD switcher mainframe, 2RU",
+  "family": "SE switchers",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Mainframe with separate control panel. Check: input split and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In (12 max)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "CV In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control panel LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dv-se-2200",
+  "manufacturer": "Datavideo",
+  "partNumber": "SE-2200",
+  "name": "SE-2200 6-input HD switcher mainframe, 2RU",
+  "family": "SE switchers",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: input split and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control panel LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dv-se-2800",
+  "manufacturer": "Datavideo",
+  "partNumber": "SE-2800",
+  "name": "SE-2800 8/12-input HD switcher processor",
+  "family": "SE switchers",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Processor and separate control panel. Check: rack height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In (12 max)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dv-mtx-100",
+  "manufacturer": "Datavideo",
+  "partNumber": "MTX-100",
+  "name": "MTX-100 12x8 video commander matrix, 2RU",
+  "family": "MTX",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dv-mtx-200",
+  "manufacturer": "Datavideo",
+  "partNumber": "MTX-200",
+  "name": "MTX-200 20x16 video commander matrix, 3RU",
+  "family": "MTX",
+  "category": "router",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 20,
+    "prefix": "In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "dv-tlm-170pr",
+  "manufacturer": "Datavideo",
+  "partNumber": "TLM-170PR",
+  "name": "TLM-170PR 17.3-inch rack monitor, 7RU",
+  "family": "TLM rack monitors",
+  "category": "monitor",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: power connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "YUV In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CV In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "CV Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 1,
+   "sizeIn": 17.3,
+   "aspect": "16:9"
+  }
+ },
+ {
+  "id": "dv-tlm-702hd",
+  "manufacturer": "Datavideo",
+  "partNumber": "TLM-702HD",
+  "name": "TLM-702HD dual 7-inch rack monitor, 3RU",
+  "family": "TLM rack monitors",
+  "category": "monitor",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "No loop-throughs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "YUV In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CV In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 2,
+   "sizeIn": 7,
+   "aspect": "16:9"
+  }
+ },
+ {
+  "id": "dv-tlm-434h",
+  "manufacturer": "Datavideo",
+  "partNumber": "TLM-434H",
+  "name": "TLM-434H quad 4.3-inch rack monitor, 2RU",
+  "family": "TLM rack monitors",
+  "category": "monitor",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: power connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CV In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "screens": {
+   "count": 4,
+   "sizeIn": 4.3,
+   "aspect": "16:9"
+  }
+ },
+ {
+  "id": "dv-hdr-70",
+  "manufacturer": "Datavideo",
+  "partNumber": "HDR-70",
+  "name": "HDR-70 HD/SD recorder, 1RU",
+  "family": "HDR recorders",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "8-channel embedded audio recording.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "dv-rmk-2",
+  "manufacturer": "Datavideo",
+  "partNumber": "RMK-2",
+  "name": "RMK-2 2RU rack kit for eight DAC converters",
+  "family": "Rack kits",
+  "category": "shelf",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Holds up to eight DAC-series converters (or an HDR-10).",
+  "portGroups": [],
+  "carrier": {
+   "bays": 8,
+   "fits": [
+    "Datavideo DAC"
+   ]
+  }
+ },
+ {
+  "id": "dv-rmk-1",
+  "manufacturer": "Datavideo",
+  "partNumber": "RMK-1",
+  "name": "RMK-1 1RU rack kit",
+  "family": "Rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo racks and rack panels page",
+  "productUrl": "https://www.datavideo.com/category/racks-and-rack-panels",
+  "notes": "Check: which units it holds.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "Datavideo DAC"
+   ]
+  }
+ },
+ {
+  "id": "dv-dac-70",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-70",
+  "name": "DAC-70 up/down/cross converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-dac-60",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-60",
+  "name": "DAC-60 3G-SDI to VGA converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-dac-50s",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-50S",
+  "name": "DAC-50S 3G-SDI to analogue down-converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Check: analogue output count. Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CV / Y-C Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-dac-9p",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-9P",
+  "name": "DAC-9P HDMI to SDI converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-dac-8p",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-8P",
+  "name": "DAC-8P SDI to HDMI converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-dac-7",
+  "manufacturer": "Datavideo",
+  "partNumber": "DAC-7",
+  "name": "DAC-7 analogue to SD-SDI converter",
+  "family": "DAC converters",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Datavideo product guide (2017)",
+  "productUrl": "https://www.rentex.com/wp-content/uploads/2017/03/Datavideo_Product_Guide_2017.pdf",
+  "notes": "Fits the RMK-2 rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "CV / YUV / Y-C In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SD-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Datavideo DAC",
+  "boxMm": {
+   "w": 50,
+   "h": 80
+  }
+ },
+ {
+  "id": "dv-itc-100",
+  "manufacturer": "Datavideo",
+  "partNumber": "ITC-100",
+  "name": "ITC-100 8-user wired intercom base station, 1RU",
+  "family": "Intercom",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Datavideo ITC-100 page",
+  "productUrl": "https://datavideo.com/product/ITC-100",
+  "notes": "Rack-mount base for up to 8 beltpacks over CAT-5, with tally. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Beltpack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Tally In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ }
+]
