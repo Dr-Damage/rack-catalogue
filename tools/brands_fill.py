@@ -365,7 +365,8 @@ add(BF, 'cobalt-wave-rtr-36x36', CB, 'WAVE RTR-36x36', 'WAVE RTR-36x36 12G-SDI /
     'Check: reference, control and power connectors.', 'Cobalt routers page', 'https://cobaltdigital.com/product-category/routers/', verified=False)
 def bbg(pn, name, ports, notes='Check: rear connectors.'):
     add(BF, 'cobalt-' + pn.lower(), CB, pn, name, 'BBG standalone', 'converter', 1, ports + [R('in', 'Power', 'DC', 2, 'DC In (BBG-1000-PS)')],
-        'BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). ' + notes, 'Cobalt standalone products page', CBU(pn.lower()), verified=False, w=4)
+        'BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). ' + notes, 'Cobalt standalone products page', CBU(pn.lower()), verified=False, w=4,
+        formFactor='BBG-1000', boxMm={'w': 145, 'h': 42})
 bbg('BBG-1002-UDX', 'BBG-1002-UDX standalone 3G converter / frame sync', [SDI('in', 2, 'SDI In'), SDI('out', 4, 'SDI Out'), R('io', 'AES/EBU', 'BNC', 2, 'AES'), LAN(1)])
 bbg('BBG-1002-2UDX', 'BBG-1002-2UDX standalone dual 3G converter', [SDI('in', 2, 'SDI In'), SDI('out', 4, 'SDI Out'), LAN(1)])
 bbg('BBG-1022-FS', 'BBG-1022-FS standalone 3G frame sync', [SDI('in', 2, 'SDI In'), SDI('out', 4, 'SDI Out'), R('io', 'AES/EBU', 'BNC', 2, 'AES'), LAN(1)])

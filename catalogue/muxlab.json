@@ -1,0 +1,370 @@
+[
+ {
+  "id": "muxlab-500444",
+  "manufacturer": "MuxLab",
+  "partNumber": "500444",
+  "name": "500444 4x4 HDMI matrix, 1U",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://www.canford.co.uk/MUXLAB-VIDEO-SWITCHERS-HDMI",
+  "notes": "Rack brackets included.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 4,
+    "prefix": "Coax Digital Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR Sensor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "muxlab-500443",
+  "manufacturer": "MuxLab",
+  "partNumber": "500443",
+  "name": "500443 8x8 HDMI matrix, 1U",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://www.canford.co.uk/MUXLAB-VIDEO-SWITCHERS-HDMI",
+  "notes": "8x8 version of the 500444. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 8,
+    "prefix": "Coax Digital Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR Sensor"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "muxlab-500413",
+  "manufacturer": "MuxLab",
+  "partNumber": "500413",
+  "name": "500413 8x8 HDMI / HDBaseT matrix",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://www.canford.co.uk/MUXLAB-VIDEO-SWITCHERS-HDMI",
+  "notes": "444.5 x 94 x 229 mm; powers receivers over HDBaseT.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "HDBaseT Out (PoH)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out (mirror 1-2)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 8,
+    "prefix": "Coax Digital Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 8,
+    "prefix": "IR Sensor"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 8,
+    "prefix": "IR Emitter"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "48V DC"
+   }
+  ]
+ },
+ {
+  "id": "muxlab-500412-v2",
+  "manufacturer": "MuxLab",
+  "partNumber": "500412-V2",
+  "name": "500412-V2 4x4 HDMI / HDBaseT matrix kit, 1U",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://www.canford.co.uk/MUXLAB-VIDEO-SWITCHERS-HDMI",
+  "notes": "440 x 44.5 x 200 mm, with four HDBaseT receivers.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 4,
+    "prefix": "Coax Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block 5-pin",
+    "count": 4,
+    "prefix": "Balanced Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 5,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 5,
+    "prefix": "IR Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "muxlab-500905",
+  "manufacturer": "MuxLab",
+  "partNumber": "500905",
+  "name": "500905 3-slot rack-mount extender chassis, 1U",
+  "family": "Rack chassis",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://www.canford.co.uk/Products/2027414/28-7097",
+  "notes": "Holds three MuxLab extenders lying flat (500112, 500114, 500451, 500453, 500454, 500456, 500753-500756).",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "MuxLab extender"
+   ]
+  }
+ },
+ {
+  "id": "muxlab-500920",
+  "manufacturer": "MuxLab",
+  "partNumber": "500920",
+  "name": "500920 16-slot rack-mount extender chassis, 3U",
+  "family": "Rack chassis",
+  "category": "shelf",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Canford MuxLab listings",
+  "productUrl": "https://canford.co.uk/MUXLAB-HARDWARE-AND-ACCESSORIES",
+  "notes": "Holds sixteen MuxLab extenders standing up, facing front or rear (also 500757-500759). 500921 filler plates.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 16,
+   "fits": [
+    "MuxLab extender"
+   ]
+  }
+ }
+]

@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "9ef94765df6b",
- "updated": "2026-11-15T13:32:39Z",
- "entries": 2647,
+ "version": "54c7c263ebc2",
+ "updated": "2026-11-15T13:39:46Z",
+ "entries": 2833,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -535,9 +535,9 @@
    "bytes": 2372
   },
   "calrec.json": {
-   "sha256": "57c416c06d216e6741ad49bb76a1ff3a1833712385c576f5c18c0b60937a4590",
+   "sha256": "5b88cf579239ce8ecf4dbaa1c00c65b4d9f44739de065c166cf353a3b5dc8efe",
    "entries": 7,
-   "bytes": 7295
+   "bytes": 7728
   },
   "ssl.json": {
    "sha256": "d6f258434ab2e33fb36625c66cf5f52d2234f9fcf1b8bba0d49ac9a0a417c35d",
@@ -1030,9 +1030,9 @@
    "bytes": 19547
   },
   "cobalt-more.json": {
-   "sha256": "b4f75a7b80acc75332ed31544c0994d8393b1af6707b6f5306d62fed84dae6fe",
+   "sha256": "2af23c92fd6596a98ebc099c3d0679ac8be56527cde46a86260a5e73711d711a",
    "entries": 66,
-   "bytes": 83127
+   "bytes": 83547
   },
   "chyron.json": {
    "sha256": "2333c94fb6214b4eff293e39a7d5953df97afffd7a574edabe9eaf5d3763dd23",
@@ -1053,6 +1053,71 @@
    "sha256": "4609e8d582a46180348b606cda852d1dedc1f1e95f09f6b55f05714a936f287c",
    "entries": 44,
    "bytes": 50296
+  },
+  "calrec-more.json": {
+   "sha256": "eee8e8166f7bbc78a845835455f96333d32ab1d758612f35e7484395f643a4f4",
+   "entries": 36,
+   "bytes": 40023
+  },
+  "osprey-talon.json": {
+   "sha256": "3a97ebbb7d0a2b0d590643f8a1d2eb156c7f628026409cbd03d71081a2435038",
+   "entries": 6,
+   "bytes": 6859
+  },
+  "lumantek.json": {
+   "sha256": "793a229d65ddccdcf79809287fb4dbcd12ec3e2279fcf19e4c7bff264f30815a",
+   "entries": 9,
+   "bytes": 9753
+  },
+  "avpro-edge.json": {
+   "sha256": "af5b600dcf6f7d77ee07329eccf5cd0d14c9e17726624a3a959adb0234a9f2da",
+   "entries": 14,
+   "bytes": 18812
+  },
+  "kanexpro.json": {
+   "sha256": "6f77881811ecd24a1d22b6d7c358d49b483bed5733847408afbde4ffbeea5b40",
+   "entries": 5,
+   "bytes": 8844
+  },
+  "avmatrix.json": {
+   "sha256": "cccdd51d1174ad38bd73c68739449eeb302ab1ddcf2cbcbeed396da5f77a4803",
+   "entries": 6,
+   "bytes": 7062
+  },
+  "decimator-more.json": {
+   "sha256": "c04a5534b72d58431fe3bb17a5e6d6ea8a9b8c3f49c3b2bb32e45807f08f6825",
+   "entries": 9,
+   "bytes": 11608
+  },
+  "theatrixx.json": {
+   "sha256": "90c6ee421833ba91246f64ab2d08631059d027951c5bddd479cddf4ad6eca8dd",
+   "entries": 33,
+   "bytes": 43189
+  },
+  "muxlab.json": {
+   "sha256": "fa7d1263624828408f9b6705c691228d2891dd41228a7ae01b3f7dc03344ed4d",
+   "entries": 6,
+   "bytes": 7419
+  },
+  "orei.json": {
+   "sha256": "5dc88b78c980b9fe3a69acc54708ec51b1fd8df3e56ac25ceb4f6cf50b6372bb",
+   "entries": 7,
+   "bytes": 9320
+  },
+  "gefen.json": {
+   "sha256": "e91fe36ab8444f379463f05d1672cc636d84f18aae1a4b8f212875264bc9f03c",
+   "entries": 19,
+   "bytes": 24445
+  },
+  "kramer-more.json": {
+   "sha256": "89b2fd5d27fdc0df0fb44207e3a2c6312cc6e0d0f632bd257cebeff990987e15",
+   "entries": 20,
+   "bytes": 25173
+  },
+  "wheatstone.json": {
+   "sha256": "fa8fd5196d9464dc0abf2b6be4508d756b42f7d7dc15b1ab27f88dd087cef56b",
+   "entries": 16,
+   "bytes": 24074
   }
  }
 }

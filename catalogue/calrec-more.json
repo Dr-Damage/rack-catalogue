@@ -1,0 +1,1696 @@
+[
+ {
+  "id": "calrec-ad5782",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5782",
+  "name": "AD5782 Hydra2 analog I/O, 12 mic/line in, 4 line out, XLR, 1U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 12 mic/line inputs on female XLR, 4 line outputs on male XLR, 100-240 V AC. Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 12,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5781",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5781",
+  "name": "AD5781 Hydra2 analog I/O, 24 mic/line in, 8 line out, XLR, 2U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 24 mic/line inputs on female XLR, 8 line outputs on male XLR, 100-240 V AC. Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 24,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5780",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5780",
+  "name": "AD5780 Hydra2 analog I/O, 48 mic/line in, 16 line out, XLR, 4U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 48 mic/line inputs on female XLR, 16 line outputs on male XLR, 100-240 V AC. Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 48,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 16,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5608",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5608",
+  "name": "AD5608 Hydra2 analog I/O, 12 mic/line in, 4 line out, XLR, 2U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Calrec fixed-format I/O launch (TV Technology)",
+  "productUrl": "https://tvtechnology.com/equipment/calrec-launches-new-fixedformat-io-boxes",
+  "notes": "Fixed-format Hydra2 I/O box: 12 mic/line inputs on female XLR, 4 line outputs on male XLR, 100-240 V AC. From the newer fixed-format range (2U to 4U).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 12,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5603",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5603",
+  "name": "AD5603 Hydra2 analog I/O, 24 mic/line in, 8 line out, XLR, 2U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Calrec fixed-format I/O launch (TV Technology)",
+  "productUrl": "https://tvtechnology.com/equipment/calrec-launches-new-fixedformat-io-boxes",
+  "notes": "Fixed-format Hydra2 I/O box: 24 mic/line inputs on female XLR, 8 line outputs on male XLR, 100-240 V AC. From the newer fixed-format range (2U to 4U).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 24,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ae5743",
+  "manufacturer": "Calrec",
+  "partNumber": "AE5743",
+  "name": "AE5743 Hydra2 analog I/O, 32 mic/line in, 32 out, EDAC 38-pin",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 32 mic/line inputs and 32 line outputs on 38-pin EDAC multipins, standard pin-out. Check: EDAC count per direction for the standard pin-out. Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (12 ch)",
+    "count": 3,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (12 ch)",
+    "count": 3,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ae5991",
+  "manufacturer": "Calrec",
+  "partNumber": "AE5991",
+  "name": "AE5991 Hydra2 analog I/O, 32 mic/line in, 32 out, EDAC 38-pin",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 32 mic/line inputs and 32 line outputs on 38-pin EDAC multipins, Style 1 pin-out (8 in or 16 out per connector). Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (8 ch)",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (16 ch)",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ae5992",
+  "manufacturer": "Calrec",
+  "partNumber": "AE5992",
+  "name": "AE5992 Hydra2 analog I/O, 32 mic/line in, 32 out, EDAC 38-pin",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 32 mic/line inputs and 32 line outputs on 38-pin EDAC multipins, Style 2 pin-out (12 in / 12 out per connector). Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (12 ch)",
+    "count": 3,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "EDAC 38-pin (12 ch)",
+    "count": 3,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5606",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5606",
+  "name": "JB5606 Hydra2 AES3 I/O, 16 in, 16 out, BNC, 1U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 16 AES3 inputs and 16 outputs on 75 ohm BNC (stereo pairs). Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5783",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5783",
+  "name": "JB5783 Hydra2 AES3 I/O, 32 in, 32 out, BNC, 2U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 32 AES3 inputs and 32 outputs on 75 ohm BNC (stereo pairs). Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5962",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5962",
+  "name": "JB5962 Hydra2 AES3 I/O, 32 in, 32 out, BNC, 2U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 I/O box: 32 AES3 inputs and 32 outputs on 75 ohm BNC (stereo pairs). Later version of the JB5783. Check: rack height (estimated from the connector count).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5607",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5607",
+  "name": "JB5607 Hydra2 AES3 I/O, 32 in, 32 out, BNC, 3U",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Calrec fixed-format I/O launch (TV Technology)",
+  "productUrl": "https://tvtechnology.com/equipment/calrec-launches-new-fixedformat-io-boxes",
+  "notes": "Fixed-format Hydra2 I/O box: 32 AES3 inputs and 32 outputs on 75 ohm BNC (stereo pairs). A 4U version with 110 ohm XLRs is also made.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 32,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jm5736",
+  "manufacturer": "Calrec",
+  "partNumber": "JM5736",
+  "name": "JM5736 Hydra2 MADI I/O, 2 streams, multimode, SC",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 MADI box: two MADI streams, up to 128 channels in and 128 out. Multimode, SC. Check: rack height and connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI",
+    "connector": "SC duplex",
+    "count": 2,
+    "prefix": "MADI (MM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jm5890",
+  "manufacturer": "Calrec",
+  "partNumber": "JM5890",
+  "name": "JM5890 Hydra2 MADI I/O, 2 streams, multimode ST plus BNC",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 MADI box: two MADI streams, up to 128 channels in and 128 out. Multimode ST plus BNC. Check: rack height and connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI",
+    "connector": "ST",
+    "count": 2,
+    "prefix": "MADI fibre (MM)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-jm5831",
+  "manufacturer": "Calrec",
+  "partNumber": "JM5831",
+  "name": "JM5831 Hydra2 MADI I/O, 2 streams, single-mode, SC (no fans)",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 MADI box: two MADI streams, up to 128 channels in and 128 out. Single-mode, SC (no fans). Check: rack height and connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI",
+    "connector": "SC duplex",
+    "count": 2,
+    "prefix": "MADI (SM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-sw5739",
+  "manufacturer": "Calrec",
+  "partNumber": "SW5739",
+  "name": "SW5739 Hydra2 GPIO box",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Fixed-format Hydra2 GPIO unit: relay outputs and opto-isolated inputs on Calrec GPIO connectors. Check: counts, connector type and rack height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GP outputs (relays)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPIO",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GP inputs (opto)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad6217-2",
+  "manufacturer": "Calrec",
+  "partNumber": "AD6217-2",
+  "name": "Fieldbox AD6217-2 compact Hydra2 I/O, 8 mic/line in, 8 out",
+  "family": "Hydra2 fixed I/O",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Calrec Hydra2 I/O product guide (Fieldbox)",
+  "productUrl": "https://manualedistruzioni.it/calrec/i-o-system/hydra2/user-manual/1sowt",
+  "notes": "Less than 1U high (40 mm), 220 mm wide, 384 mm deep: sits on a shelf or in a half-rack tray. 8 mic/line inputs on XLR, 8 line outputs on a Tascam-pinout D-type, two Hydra2 SFPs, IEC mains plus 10-30 V DC for battery or external PSU. One internal slot for a future AoIP card.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Line Out (Tascam)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 1,
+    "prefix": "DC In 10-30 V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Hydra2 SFP (Pri/Sec)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "boxMm": {
+   "w": 220,
+   "h": 40
+  }
+ },
+ {
+  "id": "calrec-rp1",
+  "manufacturer": "Calrec",
+  "partNumber": "RP1",
+  "name": "RP1 remote production core, 2U",
+  "family": "Hydra2",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Calrec RP1 launch coverage (Fast and Wide)",
+  "productUrl": "https://www.fast-and-wide.com/equipment-releases/location-recording/8132-calrec-audio-rp1",
+  "notes": "2U core with on-board DSP for remote production: the console surface stays at base and the RP1 at the venue mixes IFBs and monitors locally with low latency, over Hydra2 or AoIP. Check: I/O and network ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "Hydra2 / AoIP SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "calrec-hy-if",
+  "manufacturer": "Calrec",
+  "partNumber": "HY-IF",
+  "name": "Hydra2 interface card (modular I/O)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Links the modular I/O rack to the Hydra2 network; goes in the central slot. Part code not published. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1,
+   "color": "#3a6ea5"
+  },
+  "rearModules": [
+   {
+    "partNumber": "HY-IF",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP",
+      "count": 2,
+      "prefix": "Hydra2 SFP (Pri/Sec)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5838",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5838",
+  "name": "AD5838 8 line inputs, 37-pin D-type",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "8 balanced line-level analog inputs. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "AD5838",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "DB37 (8 ch)",
+      "count": 1,
+      "prefix": "Line In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad6057",
+  "manufacturer": "Calrec",
+  "partNumber": "AD6057",
+  "name": "AD6057 mic/line inputs, 37-pin D-type",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Balanced mic/line analog inputs on one 37-pin D-type. Check: input count (8 shown). Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "AD6057",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "DB37 (8 ch)",
+      "count": 1,
+      "prefix": "Mic/Line In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-ad5840",
+  "manufacturer": "Calrec",
+  "partNumber": "AD5840",
+  "name": "AD5840 4 mic/line inputs, XLR (2 slots)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 balanced mic/line inputs on female XLR. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "AD5840",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR3F",
+      "count": 4,
+      "prefix": "Mic/Line In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-al5870",
+  "manufacturer": "Calrec",
+  "partNumber": "AL5870",
+  "name": "AL5870 mic/line inputs with split outputs, XLR (2 slots)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Mic/line inputs, each with a pre-gain split output. Check: channel count (2 shown). Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "AL5870",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR3F",
+      "count": 2,
+      "prefix": "Mic/Line In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR3M",
+      "count": 2,
+      "prefix": "Split Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-al5875",
+  "manufacturer": "Calrec",
+  "partNumber": "AL5875",
+  "name": "AL5875 mic/line input with 3 split outputs, XLR (2 slots)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Mic/line input with three pre-gain split outputs. Check: channel count. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "AL5875",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR3F",
+      "count": 1,
+      "prefix": "Mic/Line In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR3M",
+      "count": 3,
+      "prefix": "Split Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-da5839",
+  "manufacturer": "Calrec",
+  "partNumber": "DA5839",
+  "name": "DA5839 8 line outputs, 37-pin D-type",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "8 balanced line-level analog outputs. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "DA5839",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "DB37 (8 ch)",
+      "count": 1,
+      "prefix": "Line Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-da5867",
+  "manufacturer": "Calrec",
+  "partNumber": "DA5867",
+  "name": "DA5867 4 line outputs, XLR (2 slots)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 balanced line-level analog outputs on male XLR. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "DA5867",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR3M",
+      "count": 4,
+      "prefix": "Line Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5860",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5860",
+  "name": "JB5860 4 AES3 inputs, BNC",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 unbalanced (75 ohm) AES3 inputs. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "JB5860",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5837",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5837",
+  "name": "JB5837 4 AES3 outputs, BNC",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 unbalanced (75 ohm) AES3 outputs. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "JB5837",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-jx5869",
+  "manufacturer": "Calrec",
+  "partNumber": "JX5869",
+  "name": "JX5869 4 AES3 inputs, XLR (2 slots)",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 balanced (110 ohm) AES3 inputs on female XLR. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "JX5869",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "XLR3F",
+      "count": 4,
+      "prefix": "AES In"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-jb5868",
+  "manufacturer": "Calrec",
+  "partNumber": "JB5868",
+  "name": "JB5868 4 AES3 outputs, XLR",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "4 balanced (110 ohm) AES3 outputs on male XLR. Check: slot width (manual says 1). Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "JB5868",
+    "name": "Connector panel",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "XLR3M",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-jd5842",
+  "manufacturer": "Calrec",
+  "partNumber": "JD5842",
+  "name": "JD5842 8 AES3 in and 8 out, 25-pin D-type",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "8 AES3 inputs (male 25-pin D-type) and 8 outputs (female 25-pin D-type). Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "JD5842",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DB25 (8 ch)",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DB25 (8 ch)",
+      "count": 1,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-bi6192",
+  "manufacturer": "Calrec",
+  "partNumber": "BI6192",
+  "name": "BI6192 Dante card, redundant",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Dante integration with network redundancy. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1,
+   "color": "#c8102e"
+  },
+  "rearModules": [
+   {
+    "partNumber": "BI6192",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-vi5872",
+  "manufacturer": "Calrec",
+  "partNumber": "VI5872",
+  "name": "VI5872 SDI embedder",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "Embeds Hydra2 audio into SDI. Check: BNC count. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "VI5872",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-vo5841",
+  "manufacturer": "Calrec",
+  "partNumber": "VO5841",
+  "name": "VO5841 SDI de-embedder",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "De-embeds SDI audio onto the Hydra2 network. Check: BNC count. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "VO5841",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-wy5858",
+  "manufacturer": "Calrec",
+  "partNumber": "WY5858",
+  "name": "WY5858 GPIO card, 8 in / 8 changeover out",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "8 opto inputs and 8 full-changeover relay outputs on a 50-pin D-type. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "WY5858",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB50",
+      "count": 1,
+      "prefix": "GPIO"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calrec-wy5859",
+  "manufacturer": "Calrec",
+  "partNumber": "WY5859",
+  "name": "WY5859 GPIO card, 8 in / 16 out",
+  "family": "Hydra2 modular I/O cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Calrec Hydra2 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/904743/Calrec-Hydra2.html",
+  "notes": "8 opto inputs and 16 outputs on a 50-pin D-type. Check: rear panel layout.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Calrec modular I/O"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "WY5859",
+    "name": "Connector panel",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB50",
+      "count": 1,
+      "prefix": "GPIO"
+     }
+    ]
+   }
+  ]
+ }
+]

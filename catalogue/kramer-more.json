@@ -1,0 +1,1270 @@
+[
+ {
+  "id": "kramer-vs-1616dn-em",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-1616DN-EM",
+  "name": "VS-1616DN-EM 2x2 to 16x16 modular 4K60 multi-format matrix, 4U",
+  "family": "Modular matrix",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Kramer VS-1616DN-EM data sheet",
+  "productUrl": "https://www.fullcompass.com/common/files/36175-VS1616DNEMDatasheet.pdf",
+  "notes": "Populated in steps of two inputs / outputs with I/O cards; add card ports per device. 19 x 14.17 in deep. Front mini USB and audio test jacks.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears (HDMI, HDBaseT, DGKat, DVI, fibre, VGA)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vs-3232dn-em",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-3232DN-EM",
+  "name": "VS-3232DN-EM 4x4 to 32x32 modular multi-format matrix",
+  "family": "Modular matrix",
+  "category": "router",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VS-3232DN-EM",
+  "notes": "Larger sibling of the VS-1616DN-EM. Check: rack height and PSUs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vs-44h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-44H2",
+  "name": "VS-44H2 4x4 4K HDR HDMI matrix",
+  "family": "VS matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VS-44H2",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vs-84h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-84H2",
+  "name": "VS-84H2 8x4 4K HDR HDMI matrix",
+  "family": "VS matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VS-84H2",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vs-1616d",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-1616D",
+  "name": "VS-1616D 16x16 DVI matrix (legacy)",
+  "family": "VS matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VS-1616D",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 16,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 16,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vs-88ut",
+  "manufacturer": "Kramer",
+  "partNumber": "VS-88UT",
+  "name": "VS-88UT 8x8 4K HDMI / HDBaseT matrix with PoE",
+  "family": "VS matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VS-88UT",
+  "notes": "Mixed HDMI / HDBaseT ports. Check: split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "HDBaseT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "HDBaseT Out (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Terminal block 5-pin",
+    "count": 8,
+    "prefix": "Audio I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vp-440x",
+  "manufacturer": "Kramer",
+  "partNumber": "VP-440X",
+  "name": "VP-440X 18G 4K presentation scaler / switcher, 1U",
+  "family": "Scaler",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VP-440X",
+  "notes": "Check: inputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Terminal block 5-pin",
+    "count": 2,
+    "prefix": "Audio In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-vp-558",
+  "manufacturer": "Kramer",
+  "partNumber": "VP-558",
+  "name": "VP-558 7-input dual-zone ProScale presentation switcher / scaler, 1U",
+  "family": "Scaler",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VP-558",
+  "notes": "Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 2,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CV / YC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Terminal block 5-pin",
+    "count": 4,
+    "prefix": "Audio I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vp-734",
+  "manufacturer": "Kramer",
+  "partNumber": "VP-734",
+  "name": "VP-734 9-input ProScale presentation switcher / scaler, 1U",
+  "family": "Scaler",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VP-734",
+  "notes": "Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 2,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "CV / YC / YPbPr In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Terminal block 5-pin",
+    "count": 6,
+    "prefix": "Audio I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-mv-6",
+  "manufacturer": "Kramer",
+  "partNumber": "MV-6",
+  "name": "MV-6 6-window 3G-SDI / HDMI multiviewer, 1U",
+  "family": "Multiviewer",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/MV-6",
+  "notes": "Check: input split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "MV HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-mv-4x",
+  "manufacturer": "Kramer",
+  "partNumber": "MV-4X",
+  "name": "MV-4X 4K60 4x1 quad-view multiviewer / seamless switcher",
+  "family": "Multiviewer",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/MV-4X",
+  "notes": "Half-rack. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Mini USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-vm-4h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VM-4H2",
+  "name": "VM-4H2 1:4 4K HDR HDMI distribution amplifier",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VM-4H2",
+  "notes": "Small box; RK-T2B or shelf to rack. Check: size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vm-8h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VM-8H2",
+  "name": "VM-8H2 1:8 4K HDR HDMI distribution amplifier, 1U",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VM-8H2",
+  "notes": "Check: model name and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-vm-3ut",
+  "manufacturer": "Kramer",
+  "partNumber": "VM-3UT",
+  "name": "VM-3UT 1:3 4K HDMI / HDBaseT distribution amplifier",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/VM-3UT",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-pa-120z",
+  "manufacturer": "Kramer",
+  "partNumber": "PA-120Z",
+  "name": "PA-120Z 2 x 60 W power amplifier, half rack",
+  "family": "Audio amplifier",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/PA-120Z",
+  "notes": "70 V / 100 V or low-impedance outputs. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 2,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-pa-240z",
+  "manufacturer": "Kramer",
+  "partNumber": "PA-240Z",
+  "name": "PA-240Z 2 x 120 W power amplifier, half rack",
+  "family": "Audio amplifier",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/PA-240Z",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 2,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-afm-20dsp",
+  "manufacturer": "Kramer",
+  "partNumber": "AFM-20DSP",
+  "name": "AFM-20DSP audio matrix with DSP, 1U",
+  "family": "Audio DSP",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/AFM-20DSP",
+  "notes": "Check: model variants (AFM-20DSP-AEC) and channel counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 12,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kramer-dsp-62-aec",
+  "manufacturer": "Kramer",
+  "partNumber": "DSP-62-AEC",
+  "name": "DSP-62-AEC 6x2 audio DSP with echo cancelling, half rack",
+  "family": "Audio DSP",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/DSP-62-AEC",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 6,
+    "prefix": "Mic / Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block 3-pin",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 216,
+   "h": 43
+  }
+ },
+ {
+  "id": "kramer-rk-t2b",
+  "manufacturer": "Kramer",
+  "partNumber": "RK-T2B",
+  "name": "RK-T2B 19-inch rack adapter for two half-rack Kramer units",
+  "family": "Rack adapters",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/RK-T2B",
+  "notes": "Check: which units it takes.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "Kramer half-rack"
+   ]
+  }
+ },
+ {
+  "id": "kramer-rk-3t",
+  "manufacturer": "Kramer",
+  "partNumber": "RK-3T",
+  "name": "RK-3T 19-inch rack adapter for three TOOLS units",
+  "family": "Rack adapters",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kramer product listings",
+  "productUrl": "https://www.kramerav.com/product/RK-3T",
+  "notes": "Takes three Kramer TOOLS mini units. Check: fit.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Kramer TOOLS"
+   ]
+  }
+ }
+]

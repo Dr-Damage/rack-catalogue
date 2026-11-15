@@ -1,0 +1,1770 @@
+[
+ {
+  "id": "theatrixx-xvvrf8",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRF8",
+  "name": "xVision RF8 8-bay reversible converter frame, dual PSU, 3RU",
+  "family": "xVision",
+  "category": "frame",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Theatrixx XVVRF8 (Markertek listing)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "8 bays for xVision reversible modules (each can face front or rear), two hot-backup PSUs with front status LEDs. 483 x 132 x 178 mm, 5 kg empty, 200 W max per input.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 2,
+    "prefix": "Mains In A/B"
+   }
+  ],
+  "frame": {
+   "system": "xVision",
+   "slots": 8,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "controller": "none (passive frame)",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "theatrixx-xvvrf2",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRF2",
+  "name": "xVision RF2 2-bay reversible converter frame, 1RU",
+  "family": "xVision",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.leisuretec.co.uk/product/xvision-reversible-2bay-video-converter-frame-with-dual-psus-1u-webthe00098",
+  "notes": "Two modules side by side, lying flat. Sold with one or two PSUs. Check: power connectors on the single-PSU version.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "powerCON TRUE1",
+    "count": 2,
+    "prefix": "Mains In A/B"
+   }
+  ],
+  "frame": {
+   "system": "xVision",
+   "slots": 2,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "cols": 2,
+   "controller": "none (passive frame)",
+   "front": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.06,
+    "x1": 0.94,
+    "y0": 0.08,
+    "y1": 0.92
+   }
+  }
+ },
+ {
+  "id": "theatrixx-xvvrmsdi2hdmi12g",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDI2HDMI12G",
+  "name": "xVision 12G-SDI to HDMI 2.0 module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDI2HDMI12G",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmhdmi2sdi12g",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMHDMI2SDI12G",
+  "name": "xVision HDMI 2.0 to 12G-SDI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMHDMI2SDI12G",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsdxhdmi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDXHDMI",
+  "name": "xVision bidirectional HDMI / 3G-SDI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDXHDMI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsdihdmi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDIHDMI",
+  "name": "xVision 3G-SDI to HDMI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDIHDMI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmhdmisdi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMHDMISDI",
+  "name": "xVision HDMI to 3G-SDI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMHDMISDI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsdi2sdi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDI2SDI",
+  "name": "xVision 3G-SDI scaler / converter module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDI2SDI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsdi2aud",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDI2AUD",
+  "name": "xVision audio de-embedder, 3G-SDI to HDMI + audio",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDI2AUD",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Audio Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmaudio2s",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMAUDIO2S",
+  "name": "xVision audio embedder, HDMI / 3G-SDI + audio to 3G-SDI",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMAUDIO2S",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsda812g",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDA812G",
+  "name": "xVision 1:8 12G-SDI distribution amplifier module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDA812G",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmhdmida",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMHDMIDA",
+  "name": "xVision 1:4 HDMI 2.0 distribution amplifier module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMHDMIDA",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmdp2qsdi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMDP2QSDI",
+  "name": "xVision DisplayPort to quad 3G-SDI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMDP2QSDI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 1,
+      "prefix": "DP In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmad2sdi",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMAD2SDI",
+  "name": "xVision analogue to 3G-SDI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMAD2SDI",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "Analog Video In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrms2f12g-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMS2F12G-MM",
+  "name": "xVision 12G-SDI to fibre module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMS2F12G-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre Out (multimode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmf2s12g-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMF2S12G-MM",
+  "name": "xVision fibre to 12G-SDI module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMF2S12G-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (multimode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmh2f-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMH2F-MM",
+  "name": "xVision HDMI 2.0 to fibre module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMH2F-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre Out (multimode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmf2h-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMF2H-MM",
+  "name": "xVision fibre to HDMI 2.0 module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMF2H-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (multimode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmobo44-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOBO44-MM",
+  "name": "xVision 4K 1:4 optical breakout module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOBO44-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (multimode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 4,
+      "prefix": "Fibre Out (multimode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmobo1212-mm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOBO1212-MM",
+  "name": "xVision 4K 1:12 optical breakout module (multimode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOBO1212-MM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (multimode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 12,
+      "prefix": "Fibre Out (multimode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrms2f12g-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMS2F12G-SM",
+  "name": "xVision 12G-SDI to fibre module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMS2F12G-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre Out (singlemode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmf2s12g-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMF2S12G-SM",
+  "name": "xVision fibre to 12G-SDI module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMF2S12G-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (singlemode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmh2f-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMH2F-SM",
+  "name": "xVision HDMI 2.0 to fibre module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMH2F-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre Out (singlemode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmf2h-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMF2H-SM",
+  "name": "xVision fibre to HDMI 2.0 module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMF2H-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (singlemode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmobo44-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOBO44-SM",
+  "name": "xVision 4K 1:4 optical breakout module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOBO44-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (singlemode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 4,
+      "prefix": "Fibre Out (singlemode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmobo1212-sm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOBO1212-SM",
+  "name": "xVision 4K 1:12 optical breakout module (singlemode)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOBO1212-SM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre In (singlemode)"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 12,
+      "prefix": "Fibre Out (singlemode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmhdbthdm",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMHDBTHDM",
+  "name": "xVision HDBaseT to HDMI module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMHDBTHDM",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Ethernet",
+      "connector": "etherCON",
+      "count": 1,
+      "prefix": "HDBaseT In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmhdmihdb",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMHDMIHDB",
+  "name": "xVision HDMI to HDBaseT module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMHDMIHDB",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Ethernet",
+      "connector": "etherCON",
+      "count": 1,
+      "prefix": "HDBaseT Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmnetsw1g",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMNETSW1G",
+  "name": "xVision 4-port gigabit switch module with fibre uplink",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMNETSW1G",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "etherCON",
+      "count": 4,
+      "prefix": "GbE"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "opticalCON DUO",
+      "count": 1,
+      "prefix": "Fibre uplink (multimode)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmopto3",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOPTO3",
+  "name": "xVision 1:3 DMX splitter / isolator with thru + RDM (XLR3)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOPTO3",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "DMX",
+      "connector": "XLR3M",
+      "count": 1,
+      "prefix": "DMX In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DMX",
+      "connector": "XLR3F",
+      "count": 1,
+      "prefix": "DMX Thru"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DMX",
+      "connector": "XLR3F",
+      "count": 3,
+      "prefix": "DMX Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmopto5",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMOPTO5",
+  "name": "xVision 1:3 DMX splitter / isolator with thru + RDM (XLR5)",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMOPTO5",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "DMX",
+      "connector": "XLR5M",
+      "count": 1,
+      "prefix": "DMX In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DMX",
+      "connector": "XLR5F",
+      "count": 1,
+      "prefix": "DMX Thru"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DMX",
+      "connector": "XLR5F",
+      "count": 3,
+      "prefix": "DMX Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrmsdidly",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRMSDIDLY",
+  "name": "xVision 3G-SDI delay module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Reversible module: mounts facing the front or rear of the frame; ports shown at the rear. Check: connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRMSDIDLY",
+    "name": "Module panel (rear facing)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "theatrixx-xvvrm-blank",
+  "manufacturer": "Theatrixx",
+  "partNumber": "XVVRM-BLANK",
+  "name": "xVision blank module",
+  "family": "xVision module",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Theatrixx xVision dealer listings (Markertek, Leisuretec)",
+  "productUrl": "https://www.markertek.com/product/ttx-xvvrf8/theatrixx-xvvrf8-8-bay-reversible-converter-empty-frame-with-dual-psus-3ru",
+  "notes": "Blank filler for an empty bay.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "xVision"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "XVVRM-BLANK",
+    "name": "Blank",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ }
+]

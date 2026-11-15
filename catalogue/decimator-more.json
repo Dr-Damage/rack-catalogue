@@ -1,0 +1,592 @@
+[
+ {
+  "id": "dec-md-hx",
+  "manufacturer": "Decimator Design",
+  "partNumber": "MD-HX",
+  "name": "MD-HX HDMI / SDI cross converter with scaler",
+  "family": "MD",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "Miniature cross converter with up/down/cross scaling and frame-rate conversion. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator MD"
+ },
+ {
+  "id": "dec-md-lx",
+  "manufacturer": "Decimator Design",
+  "partNumber": "MD-LX",
+  "name": "MD-LX HDMI / SDI bi-directional converter",
+  "family": "MD",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "Non-scaling cross converter. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator MD"
+ },
+ {
+  "id": "dec-md-cross-v2",
+  "manufacturer": "Decimator Design",
+  "partNumber": "MD-CROSS V2",
+  "name": "MD-CROSS V2 HDMI / SDI cross converter with scaler",
+  "family": "MD",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "Cross converter with scaling. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator MD"
+ },
+ {
+  "id": "dec-md-ducc",
+  "manufacturer": "Decimator Design",
+  "partNumber": "MD-DUCC",
+  "name": "MD-DUCC 3G/HD/SD-SDI up/down/cross converter",
+  "family": "MD",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "SDI-only up/down/cross converter. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator MD"
+ },
+ {
+  "id": "dec-12g-cross",
+  "manufacturer": "Decimator Design",
+  "partNumber": "12G-CROSS",
+  "name": "12G-CROSS 12G-SDI / HDMI 2.0 cross converter with scaler",
+  "family": "MD",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "12G cross converter with scaling. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 136,
+   "h": 29
+  },
+  "formFactor": "Decimator MD"
+ },
+ {
+  "id": "dec-dmon-quad",
+  "manufacturer": "Decimator Design",
+  "partNumber": "DMON-QUAD",
+  "name": "DMON-QUAD 4-channel multiviewer",
+  "family": "DMON",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "Quad split multiviewer with SDI loop-throughs. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "MV HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator DMON"
+ },
+ {
+  "id": "dec-dmon-4s",
+  "manufacturer": "Decimator Design",
+  "partNumber": "DMON-4S",
+  "name": "DMON-4S 4-channel multiviewer",
+  "family": "DMON",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "4-input multiviewer. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "MV HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 25
+  },
+  "formFactor": "Decimator DMON"
+ },
+ {
+  "id": "dec-dmon-6s",
+  "manufacturer": "Decimator Design",
+  "partNumber": "DMON-6S",
+  "name": "DMON-6S 6-channel multiviewer",
+  "family": "DMON",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "6-input multiviewer; same case as the DMON-16S (two per rack shelf). Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "MV HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 220,
+   "h": 29.5
+  },
+  "formFactor": "Decimator DMON"
+ },
+ {
+  "id": "dec-dmon-12s",
+  "manufacturer": "Decimator Design",
+  "partNumber": "DMON-12S",
+  "name": "DMON-12S 12-channel multiviewer",
+  "family": "DMON",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Decimator Design dealer listings",
+  "productUrl": "https://www.adorama.com/brands/Decimator",
+  "notes": "12-input multiviewer; same case as the DMON-16S (two per rack shelf). Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 12,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MV SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "MV HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB mini-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5-32V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 220,
+   "h": 29.5
+  },
+  "formFactor": "Decimator DMON"
+ }
+]

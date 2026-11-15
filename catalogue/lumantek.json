@@ -1,0 +1,470 @@
+[
+ {
+  "id": "lumantek-ez-sh",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-Converter SH",
+  "name": "ez-Converter SH 3G-SDI to HDMI converter",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Mini converter. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-hs",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-Converter HS",
+  "name": "ez-Converter HS HDMI to dual 3G-SDI converter",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Mini converter with two SDI outputs. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-hs-plus",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-Converter HS+",
+  "name": "ez-Converter HS+ HDMI / VGA to 3G-SDI scaler",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Scaling converter. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-shv-plus",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-SHV+",
+  "name": "ez-SHV+ SDI to HDMI converter with display and scaler",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Converter with small screen. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-hsv-plus",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-HSV+",
+  "name": "ez-HSV+ HDMI to SDI converter with display and scaler",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Converter with small screen. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-md-plus",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-MD+",
+  "name": "ez-MD+ HDMI / SDI cross converter with audio mux / demux",
+  "family": "ez-Converter",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Cross converter with analogue audio embed / de-embed. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Audio In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Lumantek ez-Converter",
+  "boxMm": {
+   "w": 75,
+   "h": 25
+  }
+ },
+ {
+  "id": "lumantek-ez-rack",
+  "manufacturer": "Lumantek",
+  "partNumber": "LUM-RACK",
+  "name": "ez-Rack 1RU rack mount for up to ten ez-Converters",
+  "family": "ez-Converter",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/products/lumantek-lum-rack-converter-rack-mount",
+  "notes": "Rack frame for up to ten Mini / ez-Converter units. Check: rack height.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 10,
+   "fits": [
+    "Lumantek ez-Converter"
+   ]
+  }
+ },
+ {
+  "id": "lumantek-ez-distributor",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-Distributor",
+  "name": "ez-Distributor 3G-SDI distribution amplifier with LCD",
+  "family": "ez-Pro",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "B&H listing",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1430634-REG/lumantek_lum_ez_distributor_distribution_amplifier_with_lcd.html",
+  "notes": "Half-rack DA with status LCD. Check: output count and width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "lumantek-ez-pro-vs10",
+  "manufacturer": "Lumantek",
+  "partNumber": "ez-Pro VS10",
+  "name": "ez-Pro VS10 10x1 3G-SDI / HDMI switcher (desktop console)",
+  "family": "ez-Pro",
+  "category": "switcher",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumantek dealer listings",
+  "productUrl": "https://muzeekworld.com/collections/lumantek",
+  "notes": "Console-style switcher; sits on a shelf. Check: input split and outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "PGM / MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ }
+]

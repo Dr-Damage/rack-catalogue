@@ -1,0 +1,1175 @@
+[
+ {
+  "id": "gefen-ext-uhd-88",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD-88",
+  "name": "EXT-UHD-88 4K Ultra HD 8x8 HDMI matrix, 2U",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Gefen EXT-UHD-88 data sheet",
+  "productUrl": "https://www.ivojo.co.uk/pdf/gefen/gefen-ext-uhd-88.pdf",
+  "notes": "440 x 89 x 400 mm without ears.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In (locking)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out (locking)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IP control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In/Ext"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-uhd600a-88",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD600A-88",
+  "name": "EXT-UHD600A-88 4K 600 MHz 8x8 matrix with HDR and audio de-embed",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Check: audio connectors and height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Toslink",
+    "count": 8,
+    "prefix": "Optical Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 8,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-gef-uhd-89-hbt2",
+  "manufacturer": "Gefen",
+  "partNumber": "GEF-UHD-89-HBT2",
+  "name": "GEF-UHD-89-HBT2 4K 8x9 HDMI / HDBaseT 2.0 matrix",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Check: height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (local)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-cu-lan",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-CU-LAN",
+  "name": "EXT-CU-LAN AV-over-IP matrix controller, 2U",
+  "family": "Control",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Controller for Gefen LANS AV-over-IP systems; rack ears included. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-hd-vwc-144",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-HD-VWC-144",
+  "name": "EXT-HD-VWC-144 HD video wall controller, 1x4 (2x2 wall), 1U",
+  "family": "Video wall / seamless",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "1U with rack ears. Check: audio and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-uhd600a-vwc-14",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD600A-VWC-14",
+  "name": "EXT-UHD600A-VWC-14 4K 600 MHz video wall controller, 1x4, 1U",
+  "family": "Video wall / seamless",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "1U with rack ears. Check: audio and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-uhd600a-mvsl-41",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD600A-MVSL-41",
+  "name": "EXT-UHD600A-MVSL-41 4K 600 MHz 4x1 multiview seamless switcher, 1U",
+  "family": "Video wall / seamless",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "1U with rack ears. Check: audio and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-hd-mvsl-441",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-HD-MVSL-441",
+  "name": "EXT-HD-MVSL-441 HD 4x1 multiview seamless switcher, 1U",
+  "family": "Video wall / seamless",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "1U with rack ears. Check: audio and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-hd-sl-444",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-HD-SL-444",
+  "name": "EXT-HD-SL-444 HD 4x4 seamless HDMI matrix, 1U",
+  "family": "Video wall / seamless",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "1U with rack ears. Check: audio and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DIN 4-pin locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "gefen-ext-rack-1u-gry",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-RACK-1U-GRY",
+  "name": "EXT-RACK-1U-GRY 1U rack tray for two half-rack Gefen units",
+  "family": "Rack kits",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Holds two half-rack-width Gefen boxes (ELR, HBT2 and LANS extenders, EXT-MFP).",
+  "portGroups": [],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "Gefen half-rack"
+   ]
+  }
+ },
+ {
+  "id": "gefen-ext-dvika-hbt2-tx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-DVIKA-HBT2-TX",
+  "name": "EXT-DVIKA-HBT2 DVI KVM over HDBaseT 2.0 sender",
+  "family": "Extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Host"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT Link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-dvika-hbt2-rx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-DVIKA-HBT2-RX",
+  "name": "EXT-DVIKA-HBT2 DVI KVM over HDBaseT 2.0 receiver",
+  "family": "Extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT Link"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB Device"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-hdkvm-elr-tx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-HDKVM-ELR-TX",
+  "name": "EXT-HDKVM-ELR HDMI KVM ELR sender (one CAT-5)",
+  "family": "Extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Host"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-hdkvm-elr-rx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-HDKVM-ELR-RX",
+  "name": "EXT-HDKVM-ELR HDMI KVM ELR receiver",
+  "family": "Extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB Device"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-uhd-lans-tx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD-LANS-TX",
+  "name": "EXT-UHD-LANS 4K HDMI over IP sender",
+  "family": "AV over IP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-uhd-lans-rx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHD-LANS-RX",
+  "name": "EXT-UHD-LANS 4K HDMI over IP receiver",
+  "family": "AV over IP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-uhdka-lans-tx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHDKA-LANS-TX",
+  "name": "EXT-UHDKA-LANS 4K HDMI KVM over IP sender",
+  "family": "AV over IP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB Host"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-uhdka-lans-rx",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-UHDKA-LANS-RX",
+  "name": "EXT-UHDKA-LANS 4K HDMI KVM over IP receiver",
+  "family": "AV over IP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AV LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB Device"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ },
+ {
+  "id": "gefen-ext-mfp",
+  "manufacturer": "Gefen",
+  "partNumber": "EXT-MFP",
+  "name": "EXT-MFP multi-format presentation switcher",
+  "family": "Presentation",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Gefen product catalogue (June 2019)",
+  "productUrl": "https://www.ambertech.com.au/documents/brochures/Gefen%20June%202019.pdf",
+  "notes": "Half-rack-width box; two fit the EXT-RACK-1U-GRY. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Composite In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Gefen half-rack",
+  "boxMm": {
+   "w": 210,
+   "h": 40
+  }
+ }
+]

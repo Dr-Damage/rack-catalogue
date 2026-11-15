@@ -20,8 +20,8 @@ WC = [R('in', 'Reference', 'BNC', 1, 'Word Clock In'), R('out', 'Reference', 'BN
 
 # ======================= Calrec =======================
 CA = ('Calrec Hydra2 and ImPulse pages', 'https://calrec.com/hydra2/')
-def calrec(id, pn, name, fam, ru, ports, notes, verified=False):
-    add('calrec.json', 'calrec-' + id, 'Calrec', pn, name, fam, 'audio', ru, ports, notes, CA[0], CA[1], verified, full=True)
+def calrec(id, pn, name, fam, ru, ports, notes, verified=False, **kw):
+    add('calrec.json', 'calrec-' + id, 'Calrec', pn, name, fam, 'audio', ru, ports, notes, CA[0], CA[1], verified, full=True, **kw)
 H2 = lambda n: R('io', 'SFP', 'SFP', n, 'Hydra2 SFP')
 calrec('impulse1', 'ImPulse1', 'ImPulse1 IP audio processing core, 1U', 'ImPulse', 1,
        [F('io', 'SFP', 'SFP', 4, 'AoIP / Control SFP'), F('io', 'Ethernet', 'RJ45', 2, 'Control'), F('io', 'USB', 'USB-A', 4, 'USB / Setup'),
@@ -41,7 +41,11 @@ calrec('modular-io-apex-m6', 'Apex M6', 'Hydra2 modular I/O frame, 1U, 6 card sl
        [H2(2), PSU()], '1U modular I/O box with 6 I/O card slots (mic/line, AES, MADI, SDI, Dante, GPIO cards). Two Hydra2 SFP ports '
        '(primary and secondary). Add the I/O of the cards fitted as you wire it. Check: PSU count.')
 calrec('modular-io-3u', 'Hydra2 modular I/O 3U', 'Hydra2 modular I/O frame, 3U, 20 card slots', 'Hydra2 I/O', 3,
-       [H2(2), PSU()], '3U modular I/O box with 20 I/O card slots. Two Hydra2 SFP ports, redundant PSUs. Add the I/O of the cards fitted as you wire it.')
+       [PSU()], '3U modular I/O rack, 293 mm deep (about 350 mm with mating connectors), 100-240 V AC on two inlets. 20 card slots; the central '
+       'slot takes the Hydra2 interface card (two SFP links). I/O cards (mic/line, line, AES, Dante, SDI, GPIO) are in calrec-more.json '
+       '(tools/calrec_more.py). Check: slot count and which slot is central.', frame=dict(system='Calrec modular I/O', slots=20, slotOrder='ltr',
+       orient='v', rearAlign=1, door=False, front={'x0': 0.05, 'x1': 0.95, 'y0': 0.1, 'y1': 0.9}, rear={'x0': 0.04, 'x1': 0.96, 'y0': 0.08, 'y1': 0.92},
+       controller='Hydra2 interface card in the central slot.'))
 calrec('h2-ip-gateway', 'H2-IP', 'Hydra2 H2-IP gateway, ST 2110 / AES67', 'Hydra2 I/O', 1,
        [H2(2), R('io', 'SFP', 'SFP', 2, 'ST 2110 / AES67'), PSU()], 'Interface between a Hydra2 network and an ST 2110 / AES67 network. Check: RU and ports.')
 

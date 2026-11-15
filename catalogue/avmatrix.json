@@ -1,0 +1,350 @@
+[
+ {
+  "id": "avmatrix-mmv1630",
+  "manufacturer": "AVMatrix",
+  "partNumber": "MMV1630",
+  "name": "MMV1630 16-channel 3G-SDI multiviewer and switcher, 1RU",
+  "family": "Multiviewer",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Omega Broadcast MMV1630 listing",
+  "productUrl": "https://omegabroadcast.com/av-matrix-mmv1630-16-channel-3g-sdi-multiviewer-and-routing-switcher-1-ru",
+  "notes": "16 inputs as multiviewer or 16x2 switcher; 2.2-inch front LCD; 483 x 44 x 149 mm, 2 kg, 36 W. Check: RS-422 connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV / PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-422 (reserved)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "PS-1 / PS-2 12-20V DC"
+   }
+  ],
+  "powerW": 36,
+  "weightKg": 2
+ },
+ {
+  "id": "avmatrix-mss1611",
+  "manufacturer": "AVMatrix",
+  "partNumber": "MSS1611",
+  "name": "MSS1611 16x16 seamless 3G-SDI matrix, 1RU",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVMatrix dealer listings",
+  "productUrl": "https://www.rubbermonkey.co.nz/AV-Matrix-1RU-16x16-Seamless-3G-SDI-Matrix-Switcher",
+  "notes": "Seamless frame-synced 16x16. Check: reference and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 2,
+    "prefix": "DC In A/B"
+   }
+  ]
+ },
+ {
+  "id": "avmatrix-mss0811",
+  "manufacturer": "AVMatrix",
+  "partNumber": "MSS0811",
+  "name": "MSS0811 8x8 3G-SDI matrix",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVMatrix dealer listings",
+  "productUrl": "https://focuscamera.com/products/lilliput-mss0811-video-accessories-signal-video-management",
+  "notes": "Check: rack height (may be half rack) and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "avmatrix-sd1191",
+  "manufacturer": "AVMatrix",
+  "partNumber": "SD1191",
+  "name": "SD1191 1x9 3G-SDI distribution amplifier",
+  "family": "DA",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama AVMatrix listing",
+  "productUrl": "https://www.adorama.com/brands/AVMatrix",
+  "notes": "Small metal DA; sits on a shelf. Check: size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 9,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 160,
+   "h": 30
+  }
+ },
+ {
+  "id": "avmatrix-mv0430",
+  "manufacturer": "AVMatrix",
+  "partNumber": "MV0430",
+  "name": "MV0430 3G-SDI quad-split multiviewer",
+  "family": "Multiviewer",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama AVMatrix listing",
+  "productUrl": "https://www.adorama.com/brands/AVMatrix",
+  "notes": "Desktop quad split; sits on a shelf. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 160,
+   "h": 30
+  }
+ },
+ {
+  "id": "avmatrix-se1117",
+  "manufacturer": "AVMatrix",
+  "partNumber": "SE1117",
+  "name": "SE1117 SDI H.265 / H.264 streaming encoder",
+  "family": "Streaming",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama AVMatrix listing",
+  "productUrl": "https://www.adorama.com/brands/AVMatrix",
+  "notes": "Small encoder box; sits on a shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 100,
+   "h": 25
+  }
+ }
+]

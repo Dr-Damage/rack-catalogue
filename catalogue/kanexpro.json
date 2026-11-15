@@ -1,0 +1,439 @@
+[
+ {
+  "id": "kanexpro-mx-hdbt8x818g",
+  "manufacturer": "KanexPro",
+  "partNumber": "MX-HDBT8X818G",
+  "name": "MX-HDBT8X818G 4K60 8x8 HDBaseT matrix with audio matrix",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "KanexPro MX-HDBT8X818G data sheet",
+  "productUrl": "https://files.hdtvsupply.com/brand/kanexpro/kanexpro-mx-hdbt8x818g-ds.pdf",
+  "notes": "1U steel 19-inch enclosure; external 100-240 V supply.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out (local)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Analog Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Toslink",
+    "count": 2,
+    "prefix": "S/PDIF Optical In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "S/PDIF Coax In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 6,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Toslink",
+    "count": 6,
+    "prefix": "S/PDIF Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 8,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 7,
+    "prefix": "IR Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 4,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "TCP/IP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Firmware"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In (60 W)"
+   }
+  ]
+ },
+ {
+  "id": "kanexpro-hdmx88-18g",
+  "manufacturer": "KanexPro",
+  "partNumber": "HDMX88-18G",
+  "name": "HDMX88-18G 4K 8x8 HDMI matrix",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "KanexPro HDMX88-4K specifications",
+  "productUrl": "https://www.markertek.com/Attachments/Specifications/Kanexpro/HDMX88-18G-Specifications.pdf",
+  "notes": "1U 19-inch, 44 mm high.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 8,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Firmware"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "24V DC"
+   }
+  ]
+ },
+ {
+  "id": "kanexpro-mmx-4x4cat-150m",
+  "manufacturer": "KanexPro",
+  "partNumber": "MMX-4X4CAT-150M",
+  "name": "MMX-4X4CAT-150M 4x4 4K60 HDBaseT matrix (150 m CAT extension)",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "KanexPro dealer listings",
+  "productUrl": "https://www.markertek.com/product/kan-mmx4x4cat150/kanexpro-mmx-4x4cat-150m-4x4-4k60-hdbaset-matrix-switcher-with-cat-extension-up-to-492-feet",
+  "notes": "Matrix sold with HDBaseT receivers. Check: rack height, mirrored HDMI outputs and power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI Out (mirror)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kanexpro-mmx-8x8cat-70m",
+  "manufacturer": "KanexPro",
+  "partNumber": "MMX-8X8CAT-70M",
+  "name": "MMX-8X8CAT-70M 8x8 4K60 HDBaseT matrix (70 m CAT extension)",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "KanexPro dealer listings",
+  "productUrl": "https://www.markertek.com/product/kan-mmx4x4cat150/kanexpro-mmx-4x4cat-150m-4x4-4k60-hdbaset-matrix-switcher-with-cat-extension-up-to-492-feet",
+  "notes": "Matrix sold with HDBaseT receivers. Check: rack height, mirrored HDMI outputs and power.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "HDBaseT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out (mirror)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 8,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "kanexpro-hdbase8x8",
+  "manufacturer": "KanexPro",
+  "partNumber": "HDBASE8X8",
+  "name": "HDBASE8X8 4K HDBaseT 8x8 matrix with PoE",
+  "family": "Matrix",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "KanexPro dealer listings",
+  "productUrl": "https://www.adorama.com/kanexpro-4k-hdbaset-8-x-8-matrix-switcher-poe/p/kphdbase8x8",
+  "notes": "Check: rack height and outputs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "HDBaseT Out (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

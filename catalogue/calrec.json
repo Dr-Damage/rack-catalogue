@@ -241,16 +241,8 @@
   "verified": false,
   "source": "Calrec Hydra2 and ImPulse pages",
   "productUrl": "https://calrec.com/hydra2/",
-  "notes": "3U modular I/O box with 20 I/O card slots. Two Hydra2 SFP ports, redundant PSUs. Add the I/O of the cards fitted as you wire it.",
+  "notes": "3U modular I/O rack, 293 mm deep (about 350 mm with mating connectors), 100-240 V AC on two inlets. 20 card slots; the central slot takes the Hydra2 interface card (two SFP links). I/O cards (mic/line, line, AES, Dante, SDI, GPIO) are in calrec-more.json (tools/calrec_more.py). Check: slot count and which slot is central.",
   "portGroups": [
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "SFP",
-    "connector": "SFP",
-    "count": 2,
-    "prefix": "Hydra2 SFP"
-   },
    {
     "face": "rear",
     "dir": "in",
@@ -259,7 +251,28 @@
     "count": 2,
     "prefix": "PSU"
    }
-  ]
+  ],
+  "frame": {
+   "system": "Calrec modular I/O",
+   "slots": 20,
+   "slotOrder": "ltr",
+   "orient": "v",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.1,
+    "y1": 0.9
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "Hydra2 interface card in the central slot."
+  }
  },
  {
   "id": "calrec-h2-ip-gateway",

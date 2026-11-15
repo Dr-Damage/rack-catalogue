@@ -3569,7 +3569,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1002-2udx",
@@ -3618,7 +3623,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1022-fs",
@@ -3675,7 +3685,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1040-aco",
@@ -3724,7 +3739,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1060-tg2-ref1",
@@ -3773,7 +3793,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1070-qs",
@@ -3830,7 +3855,12 @@
     "count": 2,
     "prefix": "DC In (BBG-1000-PS)"
    }
-  ]
+  ],
+  "formFactor": "BBG-1000",
+  "boxMm": {
+   "w": 145,
+   "h": 42
+  }
  },
  {
   "id": "cobalt-bbg-1000-tray",

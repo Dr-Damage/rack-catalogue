@@ -1,0 +1,1051 @@
+[
+ {
+  "id": "wheatstone-ip-88a",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP-88A",
+  "name": "IP-88A analog I/O blade, 8 stereo in / 8 stereo out",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU WheatNet-IP blade: 8 stereo (16 mono) inputs and outputs on RJ45, the same I/O also on four D-subs (2 in, 2 out), 12 logic ports, 30 W. Blade 3 part numbers add -3 (IP-88-3A etc.). Blade 4 version: dual network ports, front/rear USB-A with clip players, rear HDMI, optional dual PSU. Check: D-sub type and whether RJ45 and D-sub are parallel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Analog In (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Analog Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Analog Out (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "wheatstone-ip-88d",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP-88D",
+  "name": "IP-88D AES I/O blade, 8 AES in / 8 AES out",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU WheatNet-IP blade: 8 stereo (16 mono) inputs and outputs on RJ45, the same I/O also on four D-subs (2 in, 2 out), 12 logic ports, 12 W. Blade 3 part numbers add -3 (IP-88-3A etc.). Blade 4 version: dual network ports, front/rear USB-A with clip players, rear HDMI, optional dual PSU. Check: D-sub type and whether RJ45 and D-sub are parallel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES In (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "AES Out (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "wheatstone-ip-88ad",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP-88AD",
+  "name": "IP-88AD analog and AES I/O blade, 4 + 4 in / 4 + 4 out",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU WheatNet-IP blade: 8 stereo (16 mono) inputs and outputs on RJ45, the same I/O also on four D-subs (2 in, 2 out), 12 logic ports, 19 W. Blade 3 part numbers add -3 (IP-88-3A etc.). Blade 4 version: dual network ports, front/rear USB-A with clip players, rear HDMI, optional dual PSU. Check: D-sub type and whether RJ45 and D-sub are parallel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "In (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Out (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 19
+ },
+ {
+  "id": "wheatstone-ip-88-3m",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP88-3M",
+  "name": "IP88-3M mic blade, 8 mic preamps",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU, 8 mic preamps on female XLR (-50 dBu nominal), 8 mono line outputs on four RJ45s and one DB25, 12 logic ports on two RJ45s, Gigabit Ethernet, 19 W.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Line Out (2 mono each)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Line Out (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 19
+ },
+ {
+  "id": "wheatstone-ip-88cb",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP88CB",
+  "name": "IP88CB console audio blade with mix engine",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU console blade with the mix engine for IP-12, IP-16, L-8 and L-12 surfaces: 2 mic XLR, 4 stereo analog in and out, 4 AES in and out (all RJ45), 12 logic, Gigabit Ethernet, 19 W. CBL and CBE variants exist.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 19
+ },
+ {
+  "id": "wheatstone-cb32",
+  "manufacturer": "Wheatstone",
+  "partNumber": "CB32",
+  "name": "CB32 double console audio blade, 2RU",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "2RU console blade with twice the IP88CB I/O: 4 mic XLR, 8 stereo analog in and out, 8 AES in and out on RJ45. Check: logic port count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Analog Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-ip-88e",
+  "manufacturer": "Wheatstone",
+  "partNumber": "IP88E",
+  "name": "IP88E mix engine blade (no audio I/O)",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "DSP mix engine for one radio control surface, no audio I/O; 12 logic ports, Gigabit Ethernet, 10 W. Check: rack height (1RU shown).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "wheatstone-blade4-tve",
+  "manufacturer": "Wheatstone",
+  "partNumber": "Blade 4 TVE",
+  "name": "Blade 4 TVE mix engine for Arcus, Strata and Tekton TV consoles",
+  "family": "TV mix engines",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone TV console mix engine page",
+  "productUrl": "https://wheatstone.com/product/tv-console-mix-engine-blades/",
+  "notes": "1RU mix engine for the Arcus, Strata and Tekton 32 TV audio consoles, AES67 compatible; 12 logic ports; optional synchronised backup engine for automatic failover. Audio I/O comes from blades on the network.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-madi-blade",
+  "manufacturer": "Wheatstone",
+  "partNumber": "MADI Blade",
+  "name": "MADI blade, 64 channels each way",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU, 64-channel bidirectional MADI on BNC in/out plus an SFP for fibre, two 8x2 mixers, 12 logic, Gigabit Ethernet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "MADI",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "MADI fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-lio-48",
+  "manufacturer": "Wheatstone",
+  "partNumber": "LIO-48",
+  "name": "LIO-48 logic blade, 48 GPIO ports",
+  "family": "WheatNet-IP Blades",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "48 individually configurable universal logic ports with front LEDs, Gigabit Ethernet. Check: logic connector count and rack height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Logic (6 ports each)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-hd-sdi-blade",
+  "manufacturer": "Wheatstone",
+  "partNumber": "HD-SDI Blade",
+  "name": "HD-SDI de-embedder blade, 4 SDI inputs",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU, de-embeds up to 8 audio channels from each of 4 HD-SDI streams onto WheatNet-IP; 4 looping BNC outputs, 12 logic, Gigabit Ethernet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-network-edge",
+  "manufacturer": "Wheatstone",
+  "partNumber": "Network EDGE",
+  "name": "Network EDGE WheatNet-IP to IP STL translator",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "1RU fanless unit that translates between WheatNet-IP and IP wireless STL radios; 2 AES and 2 stereo analog inputs. Check: audio connector types and logic count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-aura8-ip",
+  "manufacturer": "Wheatstone",
+  "partNumber": "Aura8-IP",
+  "name": "Aura8-IP processing blade, 8 stereo processors",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone WheatNet-IP blades page",
+  "productUrl": "https://www.wheatstone.com/blades",
+  "notes": "Eight stereo audio processors on the network: 8 AES in and out on both D-sub and RJ45, 12 logic ports. Check: rack height and D-sub count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES Out (D-sub)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-m4ip-usb",
+  "manufacturer": "Wheatstone",
+  "partNumber": "M4IP-USB",
+  "name": "M4IP-USB 4-channel mic processor blade",
+  "family": "WheatNet-IP Blades",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wheatstone M4IP-4USB listing (SCMS)",
+  "productUrl": "https://www.scmsinc.com/wheatstone-m4ip-4usb-4-channel-mic-processing-blade-4-inputs-with-analog-and-digital-outputs.html",
+  "notes": "Four-channel mic and voice processor on the WheatNet-IP network with analog and digital outputs and USB. Check: output connectors and counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Logic (12 ports)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "WheatNet-IP (Gb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wheatstone-gibraltar-cage",
+  "manufacturer": "Wheatstone",
+  "partNumber": "Gibraltar Network Cage",
+  "name": "Gibraltar network cage, 4U, 20 card slots",
+  "family": "Gibraltar",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Wheatstone Gibraltar Network Cage page",
+  "productUrl": "https://mail.wheatstone.com/television-products1/gibraltar-network/2016-11-28-10-23-75",
+  "notes": "4U, 406 mm deep (457 mm with connectors), 13.6 kg. 20 universal hot-swap slots: 2 redundant CPUs, 3 DSP, 15 I/O (analog, AES with SRC, MADI, SDI de-embed, mix engine, audio-over-Ethernet, 16-channel AoIP). Cards load from the front; rear interface modules give RJ, D-sub, BNC or screw terminals. 512 channels on the backplane, 44.1/48 kHz. Engine for Wheatstone TV consoles (D-8EX, Dimension Three). Add the rear module connectors as extra ports. Check: slot count (16 or 20) and PSU arrangement.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync In (CPU card)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (CPU card)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "PSU (external)"
+   }
+  ],
+  "depthMm": 457,
+  "weightKg": 13.6
+ },
+ {
+  "id": "wheatstone-fm-55",
+  "manufacturer": "Wheatstone",
+  "partNumber": "FM-55",
+  "name": "FM-55 FM audio processor, 1RU",
+  "family": "Processors",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Wheatstone FM-55 technical manual",
+  "productUrl": "https://manualmachine.com/wheatstone/fm55/19899416-technical-manual",
+  "notes": "1RU FM broadcast processor, 229 mm deep behind the rails. Analog and AES in and out on XLR (AES out switchable to baseband192), 2 SCA inputs and 2 composite outputs on BNC, GPI and Ethernet on RJ45, IEC mains 90-240 V, no power switch.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Analog In L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Analog Out L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SCA In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Composite (MPX) Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet / WheatNet-IP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 229
+ }
+]

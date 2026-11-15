@@ -1,0 +1,335 @@
+[
+ {
+  "id": "osprey-talon-4k-sc",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon 4K-SC",
+  "name": "Talon 4K-SC 4K60 12G-SDI / HDMI H.265 / H.264 encoder",
+  "family": "Talon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Osprey Talon 4K-SC data sheet (2022)",
+  "productUrl": "https://cdw.jbanda.com/wp-content/uploads/Talon_4K_SC_070222.pdf",
+  "notes": "Desktop streaming encoder, 140 x 140 x 38 mm, 12 V 24 W, 16 ch audio from SDI. Up to three in the 1U Talon rack kit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0 (record)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC (24 W)"
+   }
+  ],
+  "formFactor": "Osprey Talon",
+  "boxMm": {
+   "w": 140,
+   "h": 38
+  }
+ },
+ {
+  "id": "osprey-talon-uhd-sc",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon UHD-SC",
+  "name": "Talon UHD-SC 4K 12G-SDI 10-bit 4:2:2 encoder",
+  "family": "Talon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Osprey Talon dealer listings",
+  "productUrl": "https://www.markertek.com/brand/osprey-video",
+  "notes": "10-bit 4:2:2 HEVC contribution encoder, 16 audio channels. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Osprey Talon",
+  "boxMm": {
+   "w": 140,
+   "h": 38
+  }
+ },
+ {
+  "id": "osprey-talon-g1",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon G1",
+  "name": "Talon G1 HD H.264 encoder",
+  "family": "Talon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Osprey Talon dealer listings",
+  "productUrl": "https://www.markertek.com/brand/osprey-video",
+  "notes": "HD encoder. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Osprey Talon",
+  "boxMm": {
+   "w": 140,
+   "h": 38
+  }
+ },
+ {
+  "id": "osprey-talon-4k-scd",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon 4K-SCD",
+  "name": "Talon 4K-SCD 4K decoder with genlock",
+  "family": "Talon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Osprey Talon dealer listings",
+  "productUrl": "https://www.markertek.com/brand/osprey-video",
+  "notes": "Decoder partner for Talon encoders (NG version has HD-BNC). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Osprey Talon",
+  "boxMm": {
+   "w": 140,
+   "h": 38
+  }
+ },
+ {
+  "id": "osprey-talon-uhd-scd",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon UHD-SCD",
+  "name": "Talon UHD-SCD 12G-SDI decoder",
+  "family": "Talon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Osprey Talon dealer listings",
+  "productUrl": "https://www.markertek.com/brand/osprey-video",
+  "notes": "Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GigE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "formFactor": "Osprey Talon",
+  "boxMm": {
+   "w": 140,
+   "h": 38
+  }
+ },
+ {
+  "id": "osprey-talon-rack-kit",
+  "manufacturer": "Osprey Video",
+  "partNumber": "Talon Rackmount Kit",
+  "name": "Talon 1U rackmount kit for three Talon units",
+  "family": "Talon",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Osprey Talon 4K-SC data sheet (2022)",
+  "productUrl": "https://www.markertek.com/brand/osprey-video",
+  "notes": "1U kit with active cooling and redundant power for up to three Talon encoders / decoders (some listings say two).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In A/B"
+   }
+  ],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "Osprey Talon"
+   ]
+  }
+ }
+]
