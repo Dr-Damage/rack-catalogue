@@ -218,5 +218,270 @@
     ]
    }
   ]
+ },
+ {
+  "id": "commscope-ppl-sp-24lc-sm-rpt-as",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-SP-24LC-SM-RPT-AS",
+  "name": "PPL-SP-24LC-SM-RPT-AS Propel single-mode splice cassette, 12 LC duplex (24F), ribbon-fibre pigtails",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "CommScope 760255084 product page",
+  "productUrl": "https://www.commscope.com/network-type/data-centers/fiber-panels-and-modules/propel/item760255084",
+  "notes": "CommScope 760255084. Propel single-mode (G.657.A2, OS2) splice cassette: 24 LC/UPC with internal shutters, a ribbon pigtail for mass fusion splicing, pairs straight polarity, splice protectors included. Takes 6 of the 12 lanes on a blade (one position here).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "PPL-SP-24LC-SM-RPT-AS",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "commscope-ppl-sp-24lc-sm-pt-beu",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-SP-24LC-SM-PT-BEU",
+  "name": "PPL-SP-24LC-SM-PT-BEU Propel single-mode splice cassette, 12 LC duplex (24F), single-fibre pigtails",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope 760255053 product page",
+  "productUrl": "https://www.commscope.com/network-type/data-centers/fiber-panels-and-modules/propel/item760255053",
+  "notes": "CommScope 760255053. Propel single-mode (G.657.A2, OS2) splice cassette: 24 LC/UPC with internal shutters, 250 um single-fibre pigtails, pairs straight polarity, splice protectors included. Takes 6 of the 12 lanes on a blade (one position here). Check: details (taken from the matching -AS cassette).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "PPL-SP-24LC-SM-PT-BEU",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "commscope-ppl-sp-24lc-om4-pt-beu",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-SP-24LC-OM4-PT-BEU",
+  "name": "PPL-SP-24LC-OM4-PT-BEU Propel OM4 splice cassette, 12 LC duplex (24F), single-fibre pigtails",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope 760255054 product page",
+  "productUrl": "https://www.commscope.com/network-type/data-centers/fiber-panels-and-modules/propel/item760255054",
+  "notes": "CommScope 760255054. Propel OM4 splice cassette: 24 LC/UPC with internal shutters, 250 um single-fibre pigtails, pairs straight polarity, splice protectors included. Takes 6 of the 12 lanes on a blade (one position here). Check: details (taken from the matching -AS cassette).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "PPL-SP-24LC-OM4-PT-BEU",
+    "name": "Splice tray (inside)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "Splice",
+      "count": 24,
+      "prefix": "Splice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "commscope-ppl-ft-24lc-sm-00-000",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-FT-24LC-SM-00-000",
+  "name": "PPL-FT-24LC-SM-00-000 Propel single-mode field-term cassette, 12 LC duplex (24F)",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "CommScope 760255064 product page",
+  "productUrl": "https://www.commscope.com/network-type/data-centers/fiber-panels-and-modules/propel/item760255064",
+  "notes": "CommScope 760255064. Propel single-mode field-termination cassette: 24 LC with internal shutters and no fibre; field-fitted connectors plug into the back of the adapters. Takes 6 lanes (one position here).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "#2f6fd1"
+  },
+  "rearModules": [
+   {
+    "partNumber": "PPL-FT-24LC-SM-00-000",
+    "name": "Rear (field connectors)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "Field LC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "commscope-ppl-ft-24lc-om4-00-000",
+  "manufacturer": "CommScope",
+  "partNumber": "PPL-FT-24LC-OM4-00-000",
+  "name": "PPL-FT-24LC-OM4-00-000 Propel OM4 field-term cassette, 12 LC duplex (24F)",
+  "family": "Propel",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CommScope 760255065 product page",
+  "productUrl": "https://www.commscope.com/network-type/data-centers/fiber-panels-and-modules/propel/item760255065",
+  "notes": "CommScope 760255065. Propel OM4 field-termination cassette: 24 LC with internal shutters and no fibre; field-fitted connectors plug into the back of the adapters. Takes 6 lanes (one position here). Check: details (taken from the single-mode version).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 12,
+    "prefix": "LC"
+   }
+  ],
+  "card": {
+   "fits": [
+    "CommScope Propel"
+   ],
+   "slotWidth": 1,
+   "color": "#21b5c4"
+  },
+  "rearModules": [
+   {
+    "partNumber": "PPL-FT-24LC-OM4-00-000",
+    "name": "Rear (field connectors)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 12,
+      "prefix": "Field LC"
+     }
+    ]
+   }
+  ]
  }
 ]

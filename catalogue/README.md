@@ -109,3 +109,9 @@ An entry with a `thru` block is a feed-through: each hole n gives two ports, `<p
 | `fixed` | true when every hole has the same insert (XLR, etherCON, SMPTE panels); false for punched D-series panels, where the insert is chosen per hole on the placed device (`d.th.ins`) |
 
 Holes with no insert have no ports. Wall and floor boxes use category `wallbox`; when unracked, the placed box can say where it is (`d.where`). Older Canare 1U-AS "XLR-D cutout" panels are read as unloaded D panels. Generator: `tools/tiepanels.py`.
+
+## Rack hardware and signal distribution
+
+`rack-hardware.json` holds blank, vented and brush panels, horizontal cable managers, lacing bars, shelves, keyboard shelves and drawers (Middle Atlantic, Penn Elcom and generic templates). They use category `blank` or `shelf`. Drawing flags: `vent: true` (vent slots) and `brush: true` (brush strip). `cableMgr` says what a cable manager looks like (`dring`, `clip`, `cover`, `finger`, `lacing`); `mountDefault: "rear"` marks parts that normally go on the rear rails (lacing bars). `depthMm` is set so side views and depth checks are right.
+
+`signal-distribution.json` holds L-band splitters (ETL Systems), time code DAs (ESE, Brainstorm, Alice), an analogue video / black burst DA (ESE), GPIO breakout panels (TSL BP-32, Evertz TR-4800E-BHP) and generic RF splitter, SDI DA, GPIO and RS-422 breakout templates. Generator: `tools/accessories.py`. CommScope Propel splice and field-term cassettes are in `commscope.json` (`tools/fibre2.py`).
