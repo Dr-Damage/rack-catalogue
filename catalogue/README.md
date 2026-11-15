@@ -92,3 +92,20 @@ and front jacks `A1 jack` (top row) and `B1 jack` (bottom row). Keep `portGroups
 | `perRow` | points per row of jacks when a panel has several banks (default: all in one row up to 48) |
 
 Older patchbays without a `jack` block are read as jackfields when they have matching rear in/out groups (video) or "full/half normal" in the name (audio). Placed jackfields keep per-point normals, patch cords and designation text on the device (`d.jf`). Generator: `tools/jackfields.py`.
+
+## Tie-line panels, D-series panels and wall/floor boxes (feed-through)
+
+An entry with a `thru` block is a feed-through: each hole n gives two ports, `<prefix>n front` and `<prefix>n rear` (both io), joined straight through inside the panel. Signal paths, designations and wiring notes follow a tie line through every panel and box to the equipment at the far end.
+
+```json
+"thru": {"holes": 16, "rows": 1, "prefix": "D", "insert": "", "fixed": false}
+```
+
+| key | meaning |
+|---|---|
+| `holes`, `rows` | number of holes and rows of holes |
+| `prefix` | port name prefix (`D` for D-series holes, `CAM` for SMPTE camera fibre) |
+| `insert` | default insert per hole: `bnc`, `xlr3f`, `xlr3m`, `xlr5f`, `ethercon`, `rj45`, `hdmi`, `usb`, `ocduo`, `lc`, `smpte`, `db25`, `db9`, `speakon`, `trs`, `blank`, or empty (unloaded) |
+| `fixed` | true when every hole has the same insert (XLR, etherCON, SMPTE panels); false for punched D-series panels, where the insert is chosen per hole on the placed device (`d.th.ins`) |
+
+Holes with no insert have no ports. Wall and floor boxes use category `wallbox`; when unracked, the placed box can say where it is (`d.where`). Older Canare 1U-AS "XLR-D cutout" panels are read as unloaded D panels. Generator: `tools/tiepanels.py`.
