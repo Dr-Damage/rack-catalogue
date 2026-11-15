@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "27e166c3a567",
- "updated": "2026-11-14T08:43:47Z",
- "entries": 2074,
+ "version": "ec8b1e64ac2b",
+ "updated": "2026-11-15T10:19:26Z",
+ "entries": 2091,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -698,6 +698,11 @@
    "sha256": "74136b32734b17973707c1a988410b3a196726d6123706e9691b6bc4478f6340",
    "entries": 1,
    "bytes": 2096
+  },
+  "krone.json": {
+   "sha256": "761b740a1da9c3c34bfa6d735670afea0a88bfbcbc3f45817143a55f1fa130a8",
+   "entries": 17,
+   "bytes": 19324
   }
  }
 }

@@ -1,0 +1,687 @@
+[
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-64501202-00",
+  "partNumber": "6450 1 202-00",
+  "name": "6450 1 202-00 LSA-PLUS 19-inch subrack, 1U, 3 modules, flush",
+  "family": "LSA-PLUS subracks",
+  "category": "frame",
+  "ru": 1,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks)",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/728608-racks-and-panels-family-pa-115201-en.pdf",
+  "frame": {
+   "system": "Krone LSA-PLUS",
+   "slots": 3,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes 10-pair modules, one per way.",
+   "orient": "h",
+   "cols": 3
+  },
+  "notes": "1U 19-inch back mount frame for 3 LSA-PLUS 10-pair modules (30 pairs), flush. Modules are sold separately. Modules lie flat, end to end."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-64502009-00",
+  "partNumber": "6450 2 009-00",
+  "name": "6450 2 009-00 LSA-PLUS 19-inch subrack, 2U, 9 modules, recessed",
+  "family": "LSA-PLUS subracks",
+  "category": "frame",
+  "ru": 2,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks); CommScope 64502009-00 page",
+  "productUrl": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-back-mount-frames/item64502009-00/",
+  "frame": {
+   "system": "Krone LSA-PLUS",
+   "slots": 9,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes 10-pair modules, one per way.",
+   "orient": "v"
+  },
+  "notes": "2U 19-inch back mount frame for 9 LSA-PLUS 10-pair modules (90 pairs), recessed. Modules are sold separately. Silver, thermoplastic and steel. CommScope also lists it as the HighBand backmount frame, 9-way (Australia/New Zealand)."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-64501008-00",
+  "partNumber": "6450 1 008-00",
+  "name": "6450 1 008-00 LSA-PLUS 19-inch subrack, 3U, 15 modules, flush",
+  "family": "LSA-PLUS subracks",
+  "category": "frame",
+  "ru": 3,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks); MMEM listing (Krone TruNet backmount frame 15 way 3RU)",
+  "productUrl": "https://mm.mmem.com.au/kro6450-1-008-00",
+  "frame": {
+   "system": "Krone LSA-PLUS",
+   "slots": 15,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes 10-pair modules, one per way.",
+   "orient": "v"
+  },
+  "notes": "3U 19-inch back mount frame for 15 LSA-PLUS 10-pair modules (150 pairs), flush. Modules are sold separately. "
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-64502006-00",
+  "partNumber": "6450 2 006-00",
+  "name": "6450 2 006-00 LSA-PLUS 19-inch subrack, 3U, 15 modules, recessed",
+  "family": "LSA-PLUS subracks",
+  "category": "frame",
+  "ru": 3,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks); MMEM listing",
+  "productUrl": "https://mm.mmem.com.au/kro6450-2-006-00",
+  "frame": {
+   "system": "Krone LSA-PLUS",
+   "slots": 15,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes 10-pair modules, one per way.",
+   "orient": "v"
+  },
+  "notes": "3U 19-inch back mount frame for 15 LSA-PLUS 10-pair modules (150 pairs), recessed. Modules are sold separately. "
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-64271017-01",
+  "partNumber": "6427 1 017-01",
+  "name": "6427 1 017-01 LSA-PLUS 19-inch subrack, 3U, 15 modules, recessed with jumper rings (mounting frame 8A)",
+  "family": "LSA-PLUS frames",
+  "category": "frame",
+  "ru": 3,
+  "source": "Canford 46-123 KRONE mounting frame 8A",
+  "productUrl": "https://canford.co.uk/Products/46-123_KRONE-MOUNTING-FRAME-8A-15-module-recessed-3U",
+  "frame": {
+   "system": "Krone LSA-PLUS",
+   "slots": 15,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). Takes 10-pair modules, one per way.",
+   "orient": "v"
+  },
+  "notes": "3U 19-inch back mount frame for 15 LSA-PLUS 10-pair modules (150 pairs), recessed with jumper rings (mounting frame 8A). Modules are sold separately. The older Krone mounting frame 8A, common in broadcast audio bays: up to 150 pairs or 90 ABS circuits, horizontal blocks. Discontinued."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Krone LSA",
+    "count": 10,
+    "prefix": "Pr"
+   }
+  ],
+  "id": "krone-60891102-02",
+  "partNumber": "6089 1 102-02",
+  "name": "LSA-PLUS 2/10 disconnection module (237A), 10 pairs",
+  "family": "LSA-PLUS modules",
+  "category": "card",
+  "ru": 0,
+  "source": "CommScope data sheet: LSA-PLUS Series 2 family",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/2859-lsa-plus-series2-family-pa-113026-en.pdf",
+  "notes": "The standard Krone block for audio, control and comms: 10 pairs, each with a disconnect point between cable and jumper side (test or break with a plug). Printed 0-9; -01 and -06 are other printings. BT type 237A. Front ports are the jumper side.",
+  "card": {
+   "fits": [
+    "Krone LSA-PLUS"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "6089 1 102-02",
+    "name": "Cable side",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Krone LSA",
+      "count": 10,
+      "prefix": "Cable Pr"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Krone LSA",
+    "count": 10,
+    "prefix": "Pr"
+   }
+  ],
+  "id": "krone-60891002-02",
+  "partNumber": "6089 1 002-02",
+  "name": "LSA-PLUS 2/10 connection module (237B), 10 pairs",
+  "family": "LSA-PLUS modules",
+  "category": "card",
+  "ru": 0,
+  "source": "CommScope data sheet: LSA-PLUS Series 2 family",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/2859-lsa-plus-series2-family-pa-113026-en.pdf",
+  "notes": "As the disconnection module but cable and jumper side are permanently joined. BT type 237B.",
+  "card": {
+   "fits": [
+    "Krone LSA-PLUS"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "6089 1 002-02",
+    "name": "Cable side",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Krone LSA",
+      "count": 10,
+      "prefix": "Cable Pr"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Krone LSA",
+    "count": 6,
+    "prefix": "Ch"
+   }
+  ],
+  "id": "krone-lsa-plus-abs",
+  "partNumber": "LSA-PLUS ABS",
+  "name": "LSA-PLUS ABS screened disconnection module, 6 pairs + screen",
+  "family": "LSA-PLUS modules",
+  "category": "card",
+  "ru": 0,
+  "source": "Canford COMMSCOPE (KRONE) LSA-PLUS modules page",
+  "productUrl": "https://www.canford.co.uk/Products/46-101_COMMSCOPE-KRONE-LSA-PLUS-ABS-Module",
+  "notes": "Audio broadcast module: 6 screened pairs, each screen carried through separately to the jumper side so screens are not commoned (avoids earth loops on low-level audio). 15 per 3U frame = 90 circuits. Discontinued.",
+  "card": {
+   "fits": [
+    "Krone LSA-PLUS"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "LSA-PLUS ABS",
+    "name": "Cable side",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Krone LSA",
+      "count": 6,
+      "prefix": "Cable Ch"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-66901300-00",
+  "partNumber": "6690 1 300-00",
+  "name": "6690 1 300-00 LSA PROFIL 19-inch subrack, 3U, 18 modules",
+  "family": "LSA PROFIL subracks",
+  "category": "frame",
+  "ru": 3,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks)",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/728608-racks-and-panels-family-pa-115201-en.pdf",
+  "frame": {
+   "system": "Krone LSA PROFIL",
+   "slots": 18,
+   "slotOrder": "ltr",
+   "orient": "v",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). PROFIL modules clip onto 2 profile rods."
+  },
+  "notes": "3U 19-inch subrack with profile rods for 18 LSA-PLUS Series 2 PROFIL modules (180 pairs; 23 HD180 PROFIL modules also fit). DATA rack version. 6690 1 125-00 is the same size with rods only."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [],
+  "id": "krone-66901371-00",
+  "partNumber": "6690 1 371-00",
+  "name": "6690 1 371-00 LSA PROFIL 19-inch subrack, 4U, 18 modules",
+  "family": "LSA PROFIL subracks",
+  "category": "frame",
+  "ru": 4,
+  "source": "CommScope data sheet: Copper racks and panels for subscriber access and transmission networks (LSA-PLUS subracks)",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/728608-racks-and-panels-family-pa-115201-en.pdf",
+  "frame": {
+   "system": "Krone LSA PROFIL",
+   "slots": 18,
+   "slotOrder": "ltr",
+   "orient": "v",
+   "rearAlign": 1,
+   "door": false,
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.08,
+    "y1": 0.92
+   },
+   "controller": "None (passive). PROFIL modules clip onto 2 profile rods."
+  },
+  "notes": "4U 19-inch subrack with profile rods for 18 LSA-PLUS Series 2 PROFIL modules (180 pairs; 23 HD180 PROFIL modules also fit). With jumper elements and a cable-fixation bracket (4U / 7SU)."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Krone LSA",
+    "count": 10,
+    "prefix": "Pr"
+   }
+  ],
+  "id": "krone-60891121-02",
+  "partNumber": "6089 1 121-02",
+  "name": "LSA-PLUS Series 2 PROFIL disconnection module, 10 pairs",
+  "family": "LSA-PLUS modules",
+  "category": "card",
+  "ru": 0,
+  "source": "CommScope data sheet: LSA-PLUS Series 2 family",
+  "productUrl": "https://www.commscope.com/network-type/copper-broadband-access/copper-connectivity/telecom-copper-modules/item60891121-02",
+  "notes": "PROFIL (rod-mounted) version of the 10-pair disconnection module.",
+  "card": {
+   "fits": [
+    "Krone LSA PROFIL"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "6089 1 121-02",
+    "name": "Cable side",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Krone LSA",
+      "count": 10,
+      "prefix": "Cable Pr"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Krone LSA",
+    "count": 10,
+    "prefix": "Pr"
+   }
+  ],
+  "id": "krone-60891120-02",
+  "partNumber": "6089 1 120-02",
+  "name": "LSA-PLUS Series 2 PROFIL connection module, 10 pairs",
+  "family": "LSA-PLUS modules",
+  "category": "card",
+  "ru": 0,
+  "source": "CommScope data sheet: LSA-PLUS Series 2 family",
+  "productUrl": "https://www.commscope.com/globalassets/digizuite/2859-lsa-plus-series2-family-pa-113026-en.pdf",
+  "notes": "PROFIL (rod-mounted) version of the 10-pair connection module.",
+  "card": {
+   "fits": [
+    "Krone LSA PROFIL"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "6089 1 120-02",
+    "name": "Cable side",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Krone LSA",
+      "count": 10,
+      "prefix": "Cable Pr"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 24,
+    "prefix": "Ch"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 24,
+    "prefix": "Cable ch"
+   }
+  ],
+  "id": "krone-64502176-00",
+  "partNumber": "6450 2 176-00",
+  "name": "6450 2 176-00 HighBand 25 recessed frame kit, 2U, 4-way, 100 pairs",
+  "family": "HighBand",
+  "category": "patch",
+  "ru": 2,
+  "source": "CommScope HighBand panels page (Australia/New Zealand)",
+  "productUrl": "https://www.commscope.com/network-type/enterprise-networks-structured-cabling/netconnect/copper-structured-cabling/highband-panels",
+  "notes": "2U 19-inch recessed frame sold loaded with 4 colour-coded HighBand 25 modules (100 pairs) for patch-by-exception Cat 6 data or voice. Drawn as 4-pair data channels (6 per 25-pair module, 24 in all); for voice or audio each module is 25 pairs. Silver, thermoplastic and steel."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 48,
+    "prefix": "Ch"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 48,
+    "prefix": "Cable ch"
+   }
+  ],
+  "id": "krone-64502177-00",
+  "partNumber": "6450 2 177-00",
+  "name": "6450 2 177-00 HighBand 25 recessed frame kit, 3U, 8-way, 200 pairs",
+  "family": "HighBand",
+  "category": "patch",
+  "ru": 3,
+  "source": "CommScope HighBand panels page (Australia/New Zealand)",
+  "productUrl": "https://www.commscope.com/network-type/enterprise-networks-structured-cabling/netconnect/copper-structured-cabling/highband-panels",
+  "notes": "3U 19-inch recessed frame sold loaded with 8 colour-coded HighBand 25 modules (200 pairs) for patch-by-exception Cat 6 data or voice. Drawn as 4-pair data channels (6 per 25-pair module, 48 in all); for voice or audio each module is 25 pairs. Silver, thermoplastic and steel."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 72,
+    "prefix": "Ch"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 72,
+    "prefix": "Cable ch"
+   }
+  ],
+  "id": "krone-64502178-00",
+  "partNumber": "6450 2 178-00",
+  "name": "6450 2 178-00 HighBand 25 recessed frame kit, 4U, 12-way, 300 pairs",
+  "family": "HighBand",
+  "category": "patch",
+  "ru": 4,
+  "source": "CommScope HighBand panels page (Australia/New Zealand)",
+  "productUrl": "https://www.commscope.com/network-type/enterprise-networks-structured-cabling/netconnect/copper-structured-cabling/highband-panels",
+  "notes": "4U 19-inch recessed frame sold loaded with 12 colour-coded HighBand 25 modules (300 pairs) for patch-by-exception Cat 6 data or voice. Drawn as 4-pair data channels (6 per 25-pair module, 72 in all); for voice or audio each module is 25 pairs. Silver, thermoplastic and steel."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 24,
+    "prefix": "IDC"
+   }
+  ],
+  "id": "krone-70221056-24",
+  "partNumber": "7022 1 056-24",
+  "name": "7022 1 056-24 Cat6 UTP 24-port RJ45 patch panel, 1U",
+  "family": "Krone patch panels",
+  "category": "patch",
+  "ru": 1,
+  "source": "RS 512-3057 listing",
+  "productUrl": "https://uk.rs-online.com/web/p/rj-patch-panels/5123057",
+  "notes": "1U 24-port Cat6 UTP panel, 483 x 44 mm, 150 mm deep. Discontinued; CommScope now sells NETCONNECT panels (e.g. CPP-6-UDDM-SL-1U-24 in Australia). Check: rear termination (shown as LSA-PLUS IDC)."
+ },
+ {
+  "manufacturer": "Krone",
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "Port"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "Krone LSA",
+    "count": 24,
+    "prefix": "IDC"
+   }
+  ],
+  "id": "krone-70221015-24",
+  "partNumber": "7022 1 015-24",
+  "name": "7022 1 015-24 Cat5e STP 24-port RJ45 patch panel, 1U",
+  "family": "Krone patch panels",
+  "category": "patch",
+  "ru": 1,
+  "source": "RS 342-8029 listing",
+  "productUrl": "https://uk.rs-online.com/p/rj-patch-panels/3428029",
+  "notes": "1U 24-port Cat5e STP panel on a PCB, 483 x 44 mm, 175 mm deep. Discontinued; CommScope now sells NETCONNECT panels (e.g. CPP-6-UDDM-SL-1U-24 in Australia). Check: rear termination (shown as LSA-PLUS IDC)."
+ }
+]
