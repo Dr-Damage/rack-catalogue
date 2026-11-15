@@ -1,0 +1,148 @@
+[
+ {
+  "id": "wisycom-mrk980",
+  "manufacturer": "Wisycom",
+  "partNumber": "MRK980",
+  "name": "MRK980 dual true-diversity receiver with Dante, 1U",
+  "family": "MRK",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Prolyd / Full Compass MRK980 listings",
+  "productUrl": "https://www.gothamsound.com/node/21792",
+  "notes": "Ultra-wideband (VHF and UHF) two-channel receiver: analogue, AES and redundant Dante outputs, optional PTT outputs and EXP1 expansion board. Check: connector counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES3 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante / Network"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPIO / PTT (EXP1 option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "wisycom-mtk982",
+  "manufacturer": "Wisycom",
+  "partNumber": "MTK982",
+  "name": "MTK982 dual IEM / IFB transmitter, 1U",
+  "family": "MTK",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Wisycom MTK982 page",
+  "productUrl": "https://www.wisycom.com/",
+  "notes": "Wideband two-channel IEM and IFB transmitter. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Audio In L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Loop Out L/R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm TRS",
+    "count": 1,
+    "prefix": "Headphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "id": "audiotechnica-atw-r5220",
+  "manufacturer": "Audio-Technica",
+  "partNumber": "ATW-R5220",
+  "name": "ATW-R5220 5000 series dual receiver, 1U",
+  "family": "5000 Series",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audio-Technica ATW-R5220 page",
+  "productUrl": "https://www.audio-technica.com/",
+  "notes": "Two-channel 5000 series (4th gen) receiver with Dante. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna Cascade A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Dante / Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "audiotechnica-atw-r3210",
+  "manufacturer": "Audio-Technica",
+  "partNumber": "ATW-R3210",
+  "name": "ATW-R3210 3000 series receiver, half rack",
+  "family": "3000 Series",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audio-Technica ATW-R3210 page",
+  "productUrl": "https://www.audio-technica.com/",
+  "notes": "Half-rack single receiver. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Locking DC jack",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "audiotechnica-atw-da49",
+  "manufacturer": "Audio-Technica",
+  "partNumber": "ATW-DA49",
+  "name": "ATW-DA49 antenna distribution (4 receivers), 1U",
+  "family": "Antenna distribution",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audio-Technica ATW-DA49 page",
+  "productUrl": "https://www.audio-technica.com/",
+  "notes": "Active splitter for four receivers, with cascade and DC power outputs. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "RF Out to receivers (A/B)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Cascade Out A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 4,
+    "prefix": "DC Out to receivers"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

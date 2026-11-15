@@ -1,0 +1,43 @@
+[
+ {
+  "id": "pws-gx8",
+  "manufacturer": "Professional Wireless Systems",
+  "partNumber": "GX8",
+  "name": "GX8 8-channel IEM transmitter combiner, 1U",
+  "family": "Combiner",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "PWS GX8 page",
+  "productUrl": "https://www.professionalwireless.com/",
+  "notes": "Touring-grade active combiner for eight IEM transmitters. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "Tx In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Antenna Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

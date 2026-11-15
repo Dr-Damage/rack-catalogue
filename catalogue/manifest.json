@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "99bbeacc5cd6",
- "updated": "2026-11-15T12:39:30Z",
- "entries": 2395,
+ "version": "07b0a423c2b2",
+ "updated": "2026-11-15T12:41:50Z",
+ "entries": 2432,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -948,6 +948,71 @@
    "sha256": "5c4c6ec88237af6d5aff26ae5dad4b7fb9cbd00f50e05324b91d2c1efce4974f",
    "entries": 8,
    "bytes": 7635
+  },
+  "shure-more.json": {
+   "sha256": "148473a3488903145b00d815674f3463ccfcec544f53e1a5a42e2443a5917a98",
+   "entries": 9,
+   "bytes": 11611
+  },
+  "sennheiser-more.json": {
+   "sha256": "4f0fa61ec7f24f2268fb2432ae2262dfe2565c48fe6ab55f6cd6f522c5268ed8",
+   "entries": 10,
+   "bytes": 12261
+  },
+  "lectrosonics.json": {
+   "sha256": "309e10ae411c3236d737b9c94246c7db2291950b1554fae52e4c5c1e411bba01",
+   "entries": 3,
+   "bytes": 3955
+  },
+  "wisycom.json": {
+   "sha256": "1ae5a5a8f3ecac65caae11b111cf7d7bb47094988c2f4887e47b75858a47c8e3",
+   "entries": 2,
+   "bytes": 2999
+  },
+  "sony-wireless.json": {
+   "sha256": "3e0f8311e55efb9c824fb467b1fbe17692429b5d70615cfde0b82dab09b43784",
+   "entries": 1,
+   "bytes": 1430
+  },
+  "audiotechnica.json": {
+   "sha256": "1ba666a12d43cc875ee82108885d7e42cf573a17d61b95649baf52abd473c7a9",
+   "entries": 3,
+   "bytes": 3454
+  },
+  "rfvenue.json": {
+   "sha256": "b9140c0e2d737090e5de2046b4e0f3faf8a60ef327d09f2a485f4099f908e53a",
+   "entries": 2,
+   "bytes": 2170
+  },
+  "beyerdynamic.json": {
+   "sha256": "b2f21b478f90aa72b8498013d8620226973b1a9217efc16b5663d7451b79c1e1",
+   "entries": 1,
+   "bytes": 1340
+  },
+  "akg.json": {
+   "sha256": "67fe17ce31eaea5e5013b579c52991557dc5e5e1ef89f7f03d04a0b93ac424cb",
+   "entries": 2,
+   "bytes": 2297
+  },
+  "mipro.json": {
+   "sha256": "b573490a51ac82f92c4664e49c4a21db3528345b004437b13b4d53fd0971359a",
+   "entries": 1,
+   "bytes": 1249
+  },
+  "line6.json": {
+   "sha256": "eed6abaf3d32e29d7d124b231dc4fa5bd9a30e29e655978e89a2cc254969b39b",
+   "entries": 1,
+   "bytes": 995
+  },
+  "pws.json": {
+   "sha256": "5602dc151cbe4594ba8e0beaec899cd8a4e7991c04533191268a147a63344229",
+   "entries": 1,
+   "bytes": 868
+  },
+  "listen.json": {
+   "sha256": "a60c77ea8b739d4608ed8e3aa9e66c659e50e6e16d3c948621ffbe95684e6384",
+   "entries": 1,
+   "bytes": 1224
   }
  }
 }

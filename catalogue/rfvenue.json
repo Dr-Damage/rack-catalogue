@@ -1,0 +1,92 @@
+[
+ {
+  "id": "rfvenue-distro9-hdr",
+  "manufacturer": "RF Venue",
+  "partNumber": "DISTRO9 HDR",
+  "name": "DISTRO9 HDR multi-zone antenna distribution (9 receivers)",
+  "family": "DISTRO",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RF Venue DISTRO9 spec sheet",
+  "productUrl": "https://www.rfvenue.com/hubfs/Spec%20Sheets/DISTRO9_spec_REV1.pdf",
+  "notes": "Wideband 50-1000 MHz splitter for nine diversity receivers with two antenna zones; any unity-gain output can cascade to another DISTRO9. 480 x 250 x 45 mm. Check: height (the sheet says both 2RU and 45 mm) and output counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Antenna In (2 zones x A/B)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 18,
+    "prefix": "RF Out to receivers (A/B)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Anderson Powerpole",
+    "count": 9,
+    "prefix": "12V DC Out to receivers"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rfvenue-combine8",
+  "manufacturer": "RF Venue",
+  "partNumber": "COMBINE8",
+  "name": "COMBINE8 8-channel IEM transmitter combiner, 1U",
+  "family": "COMBINE",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RF Venue COMBINE8 page",
+  "productUrl": "https://www.rfvenue.com/",
+  "notes": "Combines eight IEM / IFB transmitters onto one antenna. COMBINE4 is the 4-channel version. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "Tx In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Antenna Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

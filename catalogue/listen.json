@@ -1,0 +1,59 @@
+[
+ {
+  "id": "listen-lt-800",
+  "manufacturer": "Listen Technologies",
+  "partNumber": "LT-800",
+  "name": "LT-800 stationary RF assistive-listening transmitter, 1U",
+  "family": "ListenRF",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Listen LT-800 page",
+  "productUrl": "https://www.listentech.com/",
+  "notes": "72 MHz (or 216 MHz) FM assistive-listening transmitter for venue hearing access. Check: rack width and ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Antenna Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ }
+]

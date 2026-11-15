@@ -1,0 +1,51 @@
+[
+ {
+  "id": "line6-xd-v75-rx",
+  "manufacturer": "Line 6",
+  "partNumber": "XD-V75 RX",
+  "name": "XD-V75 digital wireless receiver, half rack",
+  "family": "XD-V",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Line 6 XD-V75 manual",
+  "productUrl": "https://line6.com/",
+  "notes": "2.4 GHz digital receiver. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Antenna In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Audio Out (jack)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Locking DC jack",
+    "count": 1,
+    "prefix": "9V DC"
+   }
+  ]
+ }
+]
