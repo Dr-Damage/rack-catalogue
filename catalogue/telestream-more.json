@@ -1,0 +1,1153 @@
+[
+ {
+  "id": "tektronix-spg8000a",
+  "manufacturer": "Tektronix",
+  "partNumber": "SPG8000A",
+  "name": "SPG8000A master sync and clock reference generator, 1RU",
+  "family": "SPG",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Tektronix SPG8000A specifications",
+  "productUrl": "https://www.markertek.com/Attachments/Specifications/Tektronix/SPG8000A-Specifications.pdf",
+  "notes": "Master sync, PTP grandmaster (ST 2059), GPS lock, test signals by option. 559 mm deep, 4.85 kg, 130 VA. Now sold by Telestream.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Black / Tri-level 1-3"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Black 4-5 / CMPST 1-2 (opt BG)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Test Out (opt SDI)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES Test Out (opt AG)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "DARS (opt AG)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock 48 kHz"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "LTC 1-4 / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GPS Antenna (opt GPS)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PTP (opt PTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "PTP SFP (opt PTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (2nd: opt DPW)"
+   }
+  ],
+  "weightKg": 4.85
+ },
+ {
+  "id": "tektronix-spg700",
+  "manufacturer": "Tektronix",
+  "partNumber": "SPG700",
+  "name": "SPG700 multiformat reference sync generator, 1RU",
+  "family": "SPG",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Tektronix SPG700 listings",
+  "productUrl": "https://shop.cnrood.com/spg700",
+  "notes": "Smaller sibling of the SPG8000A. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Black / Tri-level"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Black 4-5 (opt BG)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out (opt SDI)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "DARS / AES (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "LTC / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GPS (opt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (2nd optional)"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-tg8000",
+  "manufacturer": "Tektronix",
+  "partNumber": "TG8000",
+  "name": "TG8000 multiformat test signal generator platform, 2RU",
+  "family": "TG",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Tektronix TG8000 listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Modular generator with up to 8 module slots (BG7, HDVG7, SDI7, AG7, GPS7...). I/O depends on modules. Check: chassis height.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Generator module rears (SDI, analogue, AES)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "Black"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "LTC / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Genlock In/Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-eco422d",
+  "manufacturer": "Tektronix",
+  "partNumber": "ECO422D",
+  "name": "ECO422D automatic changeover for sync generators, 1RU",
+  "family": "ECO",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix ECO422D listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Changeover for 10 signals (black, SDI, AES, LTC) between two SPGs. ECO8000 / ECO8020 (in telestream.json) replace it. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 10,
+    "prefix": "Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 10,
+    "prefix": "Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 10,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote / alarm"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wfm8300",
+  "manufacturer": "Tektronix",
+  "partNumber": "WFM8300",
+  "name": "WFM8300 3G/HD/SD waveform monitor, 3RU half rack",
+  "family": "WFM8000",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Half-rack waveform monitor with 6.5-inch screen; WFM8200 is the 3G-less version. Two fit a WFM7FC dual rack adapter. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wfm8200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WFM8200",
+  "name": "WFM8200 HD/SD waveform monitor, 3RU half rack",
+  "family": "WFM8000",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Half-rack waveform monitor. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wvr8200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WVR8200",
+  "name": "WVR8200 HD/SD waveform rasterizer, 1RU",
+  "family": "WVR8000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Rasterizer version of the WFM8200. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "XGA/DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wfm7200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WFM7200",
+  "name": "WFM7200 multi-format waveform monitor, 3RU half rack",
+  "family": "WFM7000",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Legacy half-rack monitor. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wvr7200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WVR7200",
+  "name": "WVR7200 multi-format waveform rasterizer, 1RU",
+  "family": "WVR7000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Legacy rasterizer. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "XGA/DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wfm5200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WFM5200",
+  "name": "WFM5200 compact waveform monitor, half rack",
+  "family": "WFM5000",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Compact half-rack monitor with a 6.5-inch screen; WFM5000 is the earlier one. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wvr5200",
+  "manufacturer": "Tektronix",
+  "partNumber": "WVR5200",
+  "name": "WVR5200 compact waveform rasterizer, 1RU half rack",
+  "family": "WVR5000",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Compact rasterizer. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ]
+ },
+ {
+  "id": "tektronix-wfm2300",
+  "manufacturer": "Tektronix",
+  "partNumber": "WFM2300",
+  "name": "WFM2300 portable waveform monitor (rack adapter)",
+  "family": "WFM2000",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tektronix waveform monitor listings",
+  "productUrl": "https://www.tek.com/",
+  "notes": "Portable; rack-mounts with a half-rack adapter. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In A/B"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Pix Mon Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "telestream-prism-mpx2",
+  "manufacturer": "Telestream",
+  "partNumber": "MPX2",
+  "name": "PRISM MPX2 IP/SDI waveform monitor platform, 1RU",
+  "family": "PRISM",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telestream PRISM product sheet",
+  "productUrl": "https://www.telestream.com/prism/",
+  "notes": "PRISM rasterizer for ST 2110 / 2022-6 and 12G-SDI; MPI2 is the IP-only version. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "25GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "telestream-prism-mpi2",
+  "manufacturer": "Telestream",
+  "partNumber": "MPI2",
+  "name": "PRISM MPI2 IP waveform monitor platform, 1RU",
+  "family": "PRISM",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Telestream PRISM product sheet",
+  "productUrl": "https://www.telestream.com/prism/",
+  "notes": "IP-only PRISM. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "25GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

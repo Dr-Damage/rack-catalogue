@@ -1,0 +1,1610 @@
+[
+ {
+  "id": "cc-vi-pnl-12l",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-12L-X4",
+  "name": "V-Series Iris 12-key lever panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 12 lever keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-pnl-12r",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-12R-X4",
+  "name": "V-Series Iris 12-key rotary panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 12 rotary keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-pnl-12p",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-12P-X4",
+  "name": "V-Series Iris 12-key pushbutton panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 12 pushbutton keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-pnl-32l",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-32L-X4",
+  "name": "V-Series Iris 32-key lever panel, 2RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 32 lever keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-pnl-24r",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-24R-X4",
+  "name": "V-Series Iris 24-key rotary panel, 2RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 24 rotary keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-pnl-24p",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-PNL-24P-X4",
+  "name": "V-Series Iris 24-key pushbutton panel, 2RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files; Clear-Com knowledge base panel list",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Eclipse HX user panel, 24 pushbutton keys, IP (two LAN) or analogue 4-wire to the matrix, 12 V DC from the external PSU. Suffix X4 = XLR4 headset; -X5 and -X7 have 5- and 7-pin headset connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix (analog)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-exp-16l",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-EXP-16L",
+  "name": "V-Series Iris 16-key expansion panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Key expansion for an Iris panel of the same key type, daisy-chained on the expansion ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion Out"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-exp-12r",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-EXP-12R",
+  "name": "V-Series Iris 12-key expansion panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Key expansion for an Iris panel of the same key type, daisy-chained on the expansion ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion Out"
+   }
+  ]
+ },
+ {
+  "id": "cc-vi-exp-12p",
+  "manufacturer": "Clear-Com",
+  "partNumber": "VI-EXP-12P",
+  "name": "V-Series Iris 12-key expansion panel, 1RU",
+  "family": "V-Series Iris",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Key expansion for an Iris panel of the same key type, daisy-chained on the expansion ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Expansion Out"
+   }
+  ]
+ },
+ {
+  "id": "cc-hx-pico",
+  "manufacturer": "Clear-Com",
+  "partNumber": "Eclipse HX-PiCo",
+  "name": "Eclipse HX-PiCo matrix intercom, 1RU",
+  "family": "Eclipse HX",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Clear-Com HX-PiCo listings",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "1RU Eclipse matrix: 8 analogue 4-wire ports, 32 IP ports (IVC-32 built in), redundant PSUs. Check: all rear connectors (no drawing in the pack).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Analog port (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (IVC-32 / panels)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix link / alarm"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In A/B"
+   }
+  ]
+ },
+ {
+  "id": "cc-fsii-base-ii",
+  "manufacturer": "Clear-Com",
+  "partNumber": "FSII-BASE-II",
+  "name": "FreeSpeak II Base II wireless intercom base station, 1RU",
+  "family": "FreeSpeak II",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Base station for FreeSpeak II 1.9 GHz / 2.4 GHz / 5 GHz transceivers (two antenna ports, more through FSII-SPL splitters). Front has headset and display.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ANT 1/2 (fibre)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "ANT 1/2 (copper)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire A-D"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "4-wire 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "SA Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPIO"
+   }
+  ]
+ },
+ {
+  "id": "cc-fse-base",
+  "manufacturer": "Clear-Com",
+  "partNumber": "FSE-BASE",
+  "name": "FreeSpeak Edge base station, 1RU",
+  "family": "FreeSpeak Edge",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "5 GHz FreeSpeak Edge base: transceivers on the SPL/TCVR ports or over IP (FSE-TCVR-50-IP). Same chassis as Arcadia. Check: 2-wire ports are 2 channels with loop-throughs.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC PWR 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "GPIO 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "4-wire / SA / PGM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "SPL / TCVR 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "LAN 1-4"
+   }
+  ]
+ },
+ {
+  "id": "cc-fsii-spl",
+  "manufacturer": "Clear-Com",
+  "partNumber": "FSII-SPL",
+  "name": "FreeSpeak II transceiver splitter (desktop / shelf)",
+  "family": "FreeSpeak II",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "222 mm wide splitter for five FreeSpeak II transceivers; sits on a shelf (shown as 5/12 of the rack width). Check: fibre option.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Base (copper)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Base (fibre)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "etherCON",
+    "count": 5,
+    "prefix": "Transceiver 1-5"
+   }
+  ]
+ },
+ {
+  "id": "cc-lq-r2w4",
+  "manufacturer": "Clear-Com",
+  "partNumber": "LQ-R2W4",
+  "name": "LQ-R2W4 LQ IP interface, 4 x 2-wire partyline, 1RU",
+  "family": "LQ",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "LQ rack-mount interface linking 4 x 2-wire partyline over IP (to other LQ units, Eclipse, Arcadia, Agent-IC). Two 12 V DC inputs for redundancy.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire A-D"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 4,
+    "prefix": "2-wire A-D loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 2,
+    "prefix": "12V PSU 1/2"
+   }
+  ]
+ },
+ {
+  "id": "cc-lq-r2w4-4w4",
+  "manufacturer": "Clear-Com",
+  "partNumber": "LQ-R2W4-4W4",
+  "name": "LQ-R2W4-4W4 LQ IP interface, 4 x 2-wire + 4 x 4-wire, 1RU",
+  "family": "LQ",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "LQ rack-mount interface linking 4 x 2-wire + 4 x 4-wire over IP (to other LQ units, Eclipse, Arcadia, Agent-IC). Two 12 V DC inputs for redundancy.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire A-D"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "4-wire E-H"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 2,
+    "prefix": "12V PSU 1/2"
+   }
+  ]
+ },
+ {
+  "id": "cc-lq-r2w4-4wg4",
+  "manufacturer": "Clear-Com",
+  "partNumber": "LQ-R2W4-4WG4",
+  "name": "LQ-R2W4-4WG4 LQ IP interface, 4 x 2-wire + 4 x 4-wire with GPIO, 1RU",
+  "family": "LQ",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "LQ rack-mount interface linking 4 x 2-wire + 4 x 4-wire with GPIO over IP (to other LQ units, Eclipse, Arcadia, Agent-IC). Two 12 V DC inputs for redundancy.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "2-wire A-D"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 4,
+    "prefix": "4-wire + GPIO E-H"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 2,
+    "prefix": "12V PSU 1/2"
+   }
+  ]
+ },
+ {
+  "id": "cc-lq-r4w8",
+  "manufacturer": "Clear-Com",
+  "partNumber": "LQ-R4W8",
+  "name": "LQ-R4W8 LQ IP interface, 8 x 4-wire, 1RU",
+  "family": "LQ",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "LQ rack-mount interface linking 8 x 4-wire over IP (to other LQ units, Eclipse, Arcadia, Agent-IC). Two 12 V DC inputs for redundancy.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "4-wire A-H"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 2,
+    "prefix": "12V PSU 1/2"
+   }
+  ]
+ },
+ {
+  "id": "cc-lq-r4wg8",
+  "manufacturer": "Clear-Com",
+  "partNumber": "LQ-R4WG8",
+  "name": "LQ-R4WG8 LQ IP interface, 8 x 4-wire with GPIO, 1RU",
+  "family": "LQ",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "LQ rack-mount interface linking 8 x 4-wire with GPIO over IP (to other LQ units, Eclipse, Arcadia, Agent-IC). Two 12 V DC inputs for redundancy.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 8,
+    "prefix": "4-wire + GPIO A-H"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 2,
+    "prefix": "LAN 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 2,
+    "prefix": "12V PSU 1/2"
+   }
+  ]
+ },
+ {
+  "id": "cc-hrm-4x",
+  "manufacturer": "Clear-Com",
+  "partNumber": "HRM-4X",
+  "name": "HelixNet HRM-4X remote station, 1RU",
+  "family": "HelixNet",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Four-channel HelixNet rack station, powered over the HelixNet cable (or DC). HXII-RM is the earlier version with the same rear layout.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "48V DC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Digital Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Digital Intercom loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "etherCON",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Audio + Control"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "SA / 4W Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "PGM / 4W In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hot Mic Out"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-if4w4",
+  "manufacturer": "Clear-Com",
+  "partNumber": "IF4W4",
+  "name": "Encore IF4W4 four-channel 2-wire to 4-wire interface, 1RU",
+  "family": "Encore",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Converts four Encore partyline channels to 4-wire, with transmit level switch per channel. Powered from the partyline.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 4,
+    "prefix": "Channel A-D (partyline)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "4-wire Tx/Rx A-D"
+   }
+  ]
+ },
+ {
+  "id": "cc-ms-702",
+  "manufacturer": "Clear-Com",
+  "partNumber": "MS-702",
+  "name": "Encore MS-702 two-channel main station, 1RU",
+  "family": "Encore",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Two-channel partyline main station with built-in 30 V supply (1.2 A) for the line.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 3,
+    "prefix": "Intercom Channel A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 3,
+    "prefix": "Intercom Channel B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Announce Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Relay Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hot Mic / IFB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-ms-704",
+  "manufacturer": "Clear-Com",
+  "partNumber": "MS-704",
+  "name": "Encore MS-704 four-channel main station, 2RU",
+  "family": "Encore",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Four-channel partyline main station with built-in 30 V supply.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Channel A-D (2 each)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Announce Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Auxiliary"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hot Mic / IFB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-rm-704",
+  "manufacturer": "Clear-Com",
+  "partNumber": "RM-704",
+  "name": "Encore RM-704 four-channel remote station, 2RU",
+  "family": "Encore",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Four-channel remote station, powered from the partyline (no mains).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Channel A-D (2 each)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Announce Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Auxiliary"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hot Mic / IFB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Gooseneck mic"
+   }
+  ]
+ },
+ {
+  "id": "cc-ps-704",
+  "manufacturer": "Clear-Com",
+  "partNumber": "PS-704",
+  "name": "Encore PS-704 four-channel partyline power supply, 1RU",
+  "family": "Encore",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Clear-Com architectural drawings (back view) in the project files",
+  "productUrl": "https://www.clearcom.com/",
+  "notes": "Powers and terminates four partyline channels (30 V, 1.2 A), with program feed.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 8,
+    "prefix": "Channel A-D (2 each)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Program In"
+   }
+  ]
+ }
+]

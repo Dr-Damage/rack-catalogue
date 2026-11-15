@@ -1,0 +1,172 @@
+[
+ {
+  "id": "chyron-prime-engine",
+  "manufacturer": "Chyron",
+  "partNumber": "PRIME rendering engine",
+  "name": "PRIME graphics rendering engine, 3RU",
+  "family": "PRIME",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Chyron PRIME product information sheet (10.2024)",
+  "productUrl": "https://chyron.com/products/all-in-one-production-systems/live-production-engine/",
+  "notes": "Chyron-supplied PRIME engine (Intel W-2265, RTX 5000): up to 8 SDI each set as fill or key and in or out, up to 4+4 ST 2110, 8 NDI, AES3id x4, optional 16 GPI/O, 800-1000 W redundant PSU. PRIME also runs on customer COTS servers or VMs. Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI V/K (in or out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "ST 2110 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES In (4)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB37",
+    "count": 1,
+    "prefix": "GPI/O 8+8 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 4,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "chyron-hyperx3",
+  "manufacturer": "Chyron",
+  "partNumber": "HyperX3",
+  "name": "HyperX3 HD/SD character generator (legacy), 4RU",
+  "family": "HyperX",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Chyron HyperX device notes (Ross Vision setup)",
+  "productUrl": "https://help.rossvideo.com/acuity-device/Topics/Devices/CG/Chyron-HyperX.html",
+  "notes": "Legacy Lyric-based CG (HyperX2/X3, Duet and LEX are similar). Check: chassis height and all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Fill / Key Out (2 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref In/Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

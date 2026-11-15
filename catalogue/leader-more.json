@@ -1,0 +1,570 @@
+[
+ {
+  "id": "leader-lv7600w",
+  "manufacturer": "Leader",
+  "partNumber": "LV7600W",
+  "name": "LV7600W 12G-SDI / IP rasterizer, 1RU",
+  "family": "ZEN",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lv7600w-rasterizer/",
+  "notes": "Rasterizer version of the LV5600W. Check: monitor output and power connectors (page lists SDI and IP only).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In (SER01)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "IP1 / IP2 (SER06)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "leader-lv7300",
+  "manufacturer": "Leader",
+  "partNumber": "LV7300",
+  "name": "LV7300 multi-SDI rasterizer, 1RU",
+  "family": "LV7300",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lv7300-rasterizer/",
+  "notes": "Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Display Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "leader-lv5300a",
+  "manufacturer": "Leader",
+  "partNumber": "LV5300A",
+  "name": "LV5300A multi-SDI waveform monitor, 3U half rack",
+  "family": "LV5300",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lv5300a-waveform-monitor/",
+  "notes": "Half-rack monitor with screen (eye pattern on ch 1); LV5350 in leader.json is the newer version. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "10-18V DC"
+   }
+  ]
+ },
+ {
+  "id": "leader-lv5900a",
+  "manufacturer": "Leader",
+  "partNumber": "LV5900A",
+  "name": "LV5900A 12G-SDI / IP waveform monitor (LR2490 rack adapter)",
+  "family": "LV5900",
+  "category": "other",
+  "ru": 4,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lv5900a-waveform-monitor/",
+  "notes": "Benchtop unit (223 x 172 x 360 mm); rack-mounts with the LR2490 adapter. Check: rack height and counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "SDI In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Monitor SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "TMDS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "leader-lt4448",
+  "manufacturer": "Leader",
+  "partNumber": "LT4448",
+  "name": "LT4448 sync changeover, 1RU",
+  "family": "SPG",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lt4448-changeover/",
+  "notes": "11 channels (primary, backup, output) plus 3 LTC systems; redundant PSU option. Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 11,
+    "prefix": "Primary In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 11,
+    "prefix": "Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 11,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 6,
+    "prefix": "LTC In (3 x 2)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 9,
+    "prefix": "LTC Out (3 x 3)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Remote / alarm"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "leader-lvb440",
+  "manufacturer": "Leader",
+  "partNumber": "LVB440",
+  "name": "LVB440 ST 2110 / 2022 IP analyser, 1RU",
+  "family": "IP",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/lvb440-ip-analyser/",
+  "notes": "Server-based IP analyser and rasterizer. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "100GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "25GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref / PPS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "phabrix-qx",
+  "manufacturer": "PHABRIX",
+  "partNumber": "PHQX",
+  "name": "Qx 12G-SDI / IP rasterizer, 1U half rack",
+  "family": "Qx",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/products/qx/",
+  "notes": "10G version of the QxL (leader.json). Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Gen/Thru Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Eye In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GE IP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Instrument Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "10-18V DC"
+   }
+  ]
+ },
+ {
+  "id": "phabrix-rx2000",
+  "manufacturer": "PHABRIX",
+  "partNumber": "Rx2000",
+  "name": "Rx2000 rasterizer, 1RU",
+  "family": "Rx",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "LeaderPhabrix product page (2025)",
+  "productUrl": "https://leaderphabrix.com/rx-series/",
+  "notes": "Rx series rasterizer (Rx500 / Rx1000 / Rx2000). Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Gen Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "Display"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

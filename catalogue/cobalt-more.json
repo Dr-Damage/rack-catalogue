@@ -1,0 +1,3904 @@
+[
+ {
+  "id": "cobalt-9904-udx-4k-dsp",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9904-UDX-4K-DSP",
+  "name": "9904-UDX-4K-DSP 12G UHD converter, frame sync, DSP audio",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9904-udx-4k-dsp/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9904-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-udx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-UDX",
+  "name": "9902-UDX 3G up/down/cross converter, frame sync, auto-changeover",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9902-udx/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-udx-dsp",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-UDX-DSP",
+  "name": "9902-UDX-DSP 3G converter, frame sync, DSP audio",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9902-udx-dsp/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-2udx-di",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-2UDX-DI",
+  "name": "9902-2UDX-DI dual-channel 3G converter with de-interlacer",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9902-2udx-di/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-udx-fs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-UDX-FS",
+  "name": "9902-UDX-FS 3G converter + frame sync (two paths)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9902-udx-fs/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9902-dc-4k",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9902-DC-4K",
+  "name": "9902-DC-4K quad-input UHD downconverter",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9902-dc-4k/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9902-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9903-udx-adda",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9903-UDX-ADDA",
+  "name": "9903-UDX-ADDA universal format converter, CVBS/YPbPr, AES and analogue audio",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9903-udx-adda/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9903-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 3,
+      "prefix": "CVBS / YPbPr I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 1,
+      "prefix": "Analog audio I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9922-fs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9922-FS",
+  "name": "9922-FS 3G frame sync, CVBS I/O",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9922-fs/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9922-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9922-2fs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9922-2FS",
+  "name": "9922-2FS dual-channel 3G frame sync",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9922-2fs/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9922-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9922-fs-dsp",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9922-FS-DSP",
+  "name": "9922-FS-DSP 3G frame sync, DSP audio",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9922-fs-dsp/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9922-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9924-4fs-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9924-4FS-12G",
+  "name": "9924-4FS-12G quad 12G frame sync, AES and MADI",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9924-4fs-12g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9924-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "MADI / AES"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9934-aud-pro-dsp",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9934-AUD-PRO-DSP",
+  "name": "9934-AUD-PRO-DSP 3G advanced audio processor",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9934-aud-pro-dsp/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9934-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9933-emde-75",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9933-EMDE-75",
+  "name": "9933-EMDE-75 3G embedder / de-embedder, 16 ch AES",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9933-emde-75/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9933-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9933-emde-110",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9933-EMDE-110",
+  "name": "9933-EMDE-110 3G embedder / de-embedder, 16 ch AES",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9933-emde-110/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9933-D",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "DB25",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "DB25",
+      "count": 1,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9933-emde-adda",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9933-EMDE-ADDA",
+  "name": "9933-EMDE-ADDA 3G embedder / de-embedder, 16 AES + 8 analogue",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9933-emde-adda/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9933-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "AES/EBU",
+      "connector": "DB25",
+      "count": 1,
+      "prefix": "AES I/O"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "DB25",
+      "count": 1,
+      "prefix": "Analog I/O"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9935-aud2-dante",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9935-AUD2-DANTE",
+  "name": "9935-AUD2-DANTE 2-path 12G audio embedder / de-embedder with Dante",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9935-aud2-dante/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9935-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9935-aud4-dante",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9935-AUD4-DANTE",
+  "name": "9935-AUD4-DANTE 4-path 12G audio embedder / de-embedder with Dante",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9935-aud4-dante/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9935-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9940-aco",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9940-ACO",
+  "name": "9940-ACO multi-input auto-changeover with trouble slate",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9940-aco/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9940-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9940-4x1-cs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9940-4x1-CS",
+  "name": "9940-4x1-CS 4x1 clean bypass router, relay protected",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9940-4x1-cs/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9940-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPI",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "GPIO"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9121",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9121",
+  "name": "9121 3G / ASI redundancy switch",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9121/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9121-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI/ASI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI/ASI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9980-csc-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9980-CSC-3G",
+  "name": "9980-CSC-3G RGB colour corrector with test generator",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9980-csc-3g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9980-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9980-2csc-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9980-2CSC-3G",
+  "name": "9980-2CSC-3G dual RGB colour corrector with test generator",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9980-2csc-3g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9980-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9927-2stoh",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9927-2StoH",
+  "name": "9927-2StoH dual SDI to HDMI converter",
+  "family": "Sapphire",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9927-2stoh/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9927-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Loop"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9926-2htos",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9926-2HtoS",
+  "name": "9926-2HtoS dual HDMI to SDI converter",
+  "family": "Sapphire",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9926-2htos/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9926-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9928-bidi-2h2s",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9928-BIDI-2H2S",
+  "name": "9928-BIDI-2H2S dual bidirectional SDI / HDMI converter",
+  "family": "Sapphire",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9928-bidi-2h2s/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9928-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 2,
+      "prefix": "HDMI"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9910da-1q-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9910DA-1Q-3G",
+  "name": "9910DA-1Q-3G 1-channel 3G / ASI distribution amplifier",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9910da-1q-3g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9910DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9910da-2q-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9910DA-2Q-3G",
+  "name": "9910DA-2Q-3G 2-channel 3G / ASI distribution amplifier",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9910da-2q-3g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9910DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9910da-4q-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9910DA-4Q-3G",
+  "name": "9910DA-4Q-3G 4-channel 3G / ASI distribution amplifier",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9910da-4q-3g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9910DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9915da-1x16-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9915DA-1x16-12G",
+  "name": "9915DA-1x16-12G 12G reclocking DA, 1 in / 16 out",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9915da-1x16-12g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9915-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 16,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9915da-2x16-xpt-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9915DA-2x16-XPT-12G",
+  "name": "9915DA-2x16-XPT-12G dual 12G reclocking DA with crosspoint",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9915da-2x16-xpt-12g/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9915-HDBNC",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 16,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9910da-av",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9910DA-AV",
+  "name": "9910DA-AV analogue video DA",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9910da-av/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9910DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Video In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Video Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9913da-aes75-rg",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9913DA-AES75-RG",
+  "name": "9913DA-AES75-RG 75 ohm AES DA with remote gain",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9913da-aes75-rg/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9913DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9257",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9257",
+  "name": "9257 1x9 MADI DA",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9257/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9257-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 9,
+      "prefix": "MADI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9910da-wc",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9910DA-WC",
+  "name": "9910DA-WC word clock DA",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9910da-wc/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9910DA-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "WC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "WC Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9930adc-aes75-rg",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9930ADC-AES75-RG",
+  "name": "9930ADC-AES75-RG 4-channel analogue to AES",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9930adc-aes75-rg/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9930ADC-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9930dac-aes75-rg",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9930DAC-AES75-RG",
+  "name": "9930DAC-AES75-RG AES to 4-channel analogue",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9930dac-aes75-rg/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9930DAC-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "Terminal block",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-2eo-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-2EO-12G",
+  "name": "9440-2EO-12G 12G-SDI fibre transmitter (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-2eo-12g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-2oe-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-2OE-12G",
+  "name": "9440-2OE-12G 12G-SDI fibre receiver (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-2oe-12g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-eooe-12g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-EOOE-12G",
+  "name": "9440-EOOE-12G 12G-SDI fibre transceiver (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-eooe-12g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-2eo-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-2EO-3G",
+  "name": "9440-2EO-3G 3G-SDI fibre transmitter (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-2eo-3g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-2oe-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-2OE-3G",
+  "name": "9440-2OE-3G 3G-SDI fibre receiver (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-2oe-3g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 2,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9440-eooe-3g",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9440-EOOE-3G",
+  "name": "9440-EOOE-3G 3G-SDI fibre transceiver (SDI / ASI / MADI)",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9440-eooe-3g/",
+  "notes": "Fibre via SFP. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9440-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "LC",
+      "count": 1,
+      "prefix": "Fibre In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9923-dsk-lg",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9923-DSK-LG",
+  "name": "9923-DSK-LG 3G downstream keyer with logo insertion",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9923-dsk-lg/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9923-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "PGM / Key / Fill In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "PGM Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9978-anc-mon",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9978-ANC-MON",
+  "name": "9978-ANC-MON ancillary data monitoring probe",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9978-anc-mon/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9978-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "Display"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9970-qs-mc",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9970-QS-MC",
+  "name": "9970-QS-MC master control multiviewer",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9970-qs-mc/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9970-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 5,
+      "prefix": "SDI/CVBS In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "MV Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Ethernet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9960-tg2-ref1",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9960-TG2-REF1",
+  "name": "9960-TG2-REF1 dual 3G test signal generator with sync outputs",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9960-tg2-ref1/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9960-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Test Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "Sync Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9363",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9363",
+  "name": "9363 multi-format reference generator",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9363/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9363-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Genlock In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 8,
+      "prefix": "Ref Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9992-dec",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9992-DEC",
+  "name": "9992-DEC PACIFIC AVC / MPEG-2 decoder",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9992-dec/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9992-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "ASI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "IP streams"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9992-2dec",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9992-2DEC",
+  "name": "9992-2DEC PACIFIC dual decoder",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9992-2dec/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9992-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "ASI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "IP streams"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9992-4enc-4k-hevc",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9992-4ENC-4K-HEVC",
+  "name": "9992-4ENC-4K-HEVC PACIFIC 4K HEVC encoder",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9992-4enc-4k-hevc/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9992-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "ASI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "IP streams"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9992-2dec-4k-hevc",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9992-2DEC-4K-HEVC",
+  "name": "9992-2DEC-4K-HEVC PACIFIC 4K HEVC decoder",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9992-2dec-4k-hevc/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9992-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "ASI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "IP streams"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-9990-rtr-16x16-mpeg-ip",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "9990-RTR-16x16-MPEG-IP",
+  "name": "9990-RTR-16x16-MPEG-IP transport stream router / DA",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/9990-rtr-16x16-mpeg-ip/",
+  "notes": "Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-9990-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "GigE"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "ASI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "ASI Out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-og-pc-x86-a",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "OG-PC-x86-A",
+  "name": "OG-PC-x86-A x86 PC card for openGear",
+  "family": "Cobalt openGear",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/og-pc-x86-a/",
+  "notes": "Windows/Linux PC in a frame slot. Check: rear module connector counts (standard RM20 module assumed).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "openGear"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RM20-OG-B",
+    "name": "Standard width",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "layout": {
+     "cols": 2
+    },
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "Display"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB-A",
+      "count": 2,
+      "prefix": "USB"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Ethernet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobalt-hpf-max",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "HPF-MAX",
+  "name": "HPF-MAX 20-slot high-power openGear frame, 2RU",
+  "family": "Cobalt frames",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Cobalt HPF-MAX product page",
+  "productUrl": "https://cobaltdigital.com/products/hpf-max/",
+  "notes": "20 slots, 600 W for cards, two front-loading hot-swap PS-MAX supplies (one standard), HPF-GE-FC network controller. Takes standard 20-slot openGear rear modules plus Cobalt high-density ones. 19 x 3.5 x 17 in.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Frame Ref (looping)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (HPF-GE-FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PS-MAX 1/2"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "rearGen": 4,
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "HPF-GE-FC network controller (built in)",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "cobalt-hpf-9500",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "HPF-9500",
+  "name": "HPF-9500 20-slot high-power openGear-compatible frame (PS-9000 supplies), 2RU",
+  "family": "Cobalt frames",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/hpf-9500/",
+  "notes": "Check: rear connectors and power budget.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Frame Ref (looping)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU 1/2"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "rearGen": 3,
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "Network controller card",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "cobalt-ogx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "oGx",
+  "name": "oGx 20-slot openGear frame (PS-oGx supplies), 2RU",
+  "family": "Cobalt frames",
+  "category": "frame",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cobalt Digital openGear product list (2025)",
+  "productUrl": "https://cobaltdigital.com/products/ogx/",
+  "notes": "Check: rear connectors and power budget.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Frame Ref (looping)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU 1/2"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "rearGen": 4,
+   "slots": 20,
+   "slotOrder": "ltr",
+   "rearAlign": 2,
+   "door": true,
+   "controller": "Network controller card",
+   "front": {
+    "x0": 0.1,
+    "x1": 0.98,
+    "y0": 0.05,
+    "y1": 0.95
+   },
+   "rear": {
+    "x0": 0.02,
+    "x1": 0.82,
+    "y0": 0.05,
+    "y1": 0.95
+   }
+  }
+ },
+ {
+  "id": "cobalt-aria-2",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "ARIA-2",
+  "name": "ARIA-2 12G-SDI / MADI / ST 2110 audio monitor, 1RU",
+  "family": "ARIA",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Cobalt ARIA-2 product page",
+  "productUrl": "https://cobaltdigital.com/products/aria-2/",
+  "notes": "7-inch touchscreen, 16 SDI or 64 MADI channel metering, 30 W speakers. Powered by external 24 V supply (one included) or PoE++. ST 2110-20/-30 by licence. 19 x 1.75 x 4 in, 1.4 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI / MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI / MADI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "SFP (fibre SDI / ST 2110)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Analog In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Analog Monitor Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "GPI (speaker mute)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet / PoE++"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In A/B"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Headphones"
+   }
+  ],
+  "weightKg": 1.4
+ },
+ {
+  "id": "cobalt-wave-rtr-36x36",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "WAVE RTR-36x36",
+  "name": "WAVE RTR-36x36 12G-SDI / ASI / MADI router, 2RU",
+  "family": "WAVE",
+  "category": "router",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt routers page",
+  "productUrl": "https://cobaltdigital.com/product-category/routers/",
+  "notes": "Check: reference, control and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 36,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 36,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1002-udx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1002-UDX",
+  "name": "BBG-1002-UDX standalone 3G converter / frame sync",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1002-udx/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1002-2udx",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1002-2UDX",
+  "name": "BBG-1002-2UDX standalone dual 3G converter",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1002-2udx/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1022-fs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1022-FS",
+  "name": "BBG-1022-FS standalone 3G frame sync",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1022-fs/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1040-aco",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1040-ACO",
+  "name": "BBG-1040-ACO standalone auto-changeover",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1040-aco/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1060-tg2-ref1",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1060-TG2-REF1",
+  "name": "BBG-1060-TG2-REF1 standalone test generator and sync",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1060-tg2-ref1/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Test Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Sync Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1070-qs",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1070-QS",
+  "name": "BBG-1070-QS standalone multiviewer",
+  "family": "BBG standalone",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1070-qs/",
+  "notes": "BBG-1000 standalone (third-rack width, mounts in the BBG-1000-TRAY). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "MV Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 2,
+    "prefix": "DC In (BBG-1000-PS)"
+   }
+  ]
+ },
+ {
+  "id": "cobalt-bbg-1000-tray",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1000-TRAY",
+  "name": "BBG-1000-TRAY 1RU tray for three BBG-1000 units",
+  "family": "BBG standalone",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt standalone products page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1000-tray/",
+  "notes": "Holds three third-width BBG-1000 standalone units.",
+  "portGroups": [],
+  "carrier": {
+   "bays": 3,
+   "fits": [
+    "BBG-1000"
+   ]
+  }
+ },
+ {
+  "id": "cobalt-bbg-1300-fr",
+  "manufacturer": "Cobalt Digital",
+  "partNumber": "BBG-1300-FR",
+  "name": "BBG-1300-FR one-card openGear desktop enclosure (1/3 rack, 1RU)",
+  "family": "BBG standalone",
+  "category": "frame",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Cobalt frames page",
+  "productUrl": "https://cobaltdigital.com/products/bbg-1300-fr/",
+  "notes": "Turns one Cobalt card into a standalone unit; three fit the BBG-1300-TRAY. Check: card fit.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "frame": {
+   "system": "openGear",
+   "rearGen": 4,
+   "slots": 1,
+   "slotOrder": "ltr",
+   "rearAlign": 1,
+   "door": false,
+   "orient": "h",
+   "controller": "none",
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.1,
+    "y1": 0.9
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.1,
+    "y1": 0.9
+   }
+  }
+ }
+]

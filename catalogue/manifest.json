@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "07b0a423c2b2",
- "updated": "2026-11-15T12:41:50Z",
- "entries": 2432,
+ "version": "7a8edc772dc8",
+ "updated": "2026-11-15T12:53:36Z",
+ "entries": 2603,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -1013,6 +1013,41 @@
    "sha256": "a60c77ea8b739d4608ed8e3aa9e66c659e50e6e16d3c948621ffbe95684e6384",
    "entries": 1,
    "bytes": 1224
+  },
+  "wohler-more.json": {
+   "sha256": "c67b1134033f83c2deb02108d3dceb768f574db1dfacc269e38bc40192777ec9",
+   "entries": 45,
+   "bytes": 75056
+  },
+  "clearcom-more.json": {
+   "sha256": "7c8459f4020652f8ab338feb2e57b49248872df691e8f37134b09eb9878a0c20",
+   "entries": 24,
+   "bytes": 35133
+  },
+  "gv-miranda.json": {
+   "sha256": "a67edc3e4990b0bad5132f930de06fad7d0e5c0f3bd446f10d0f4eb5e5084389",
+   "entries": 12,
+   "bytes": 19547
+  },
+  "cobalt-more.json": {
+   "sha256": "b4f75a7b80acc75332ed31544c0994d8393b1af6707b6f5306d62fed84dae6fe",
+   "entries": 66,
+   "bytes": 83127
+  },
+  "chyron.json": {
+   "sha256": "2333c94fb6214b4eff293e39a7d5953df97afffd7a574edabe9eaf5d3763dd23",
+   "entries": 2,
+   "bytes": 3624
+  },
+  "telestream-more.json": {
+   "sha256": "6678317b5e7a1956d26b9dfb87d6647a6fb8f7f999aa28f7c0a9fec462ff2460",
+   "entries": 14,
+   "bytes": 22618
+  },
+  "leader-more.json": {
+   "sha256": "a0b919f5f8caef7df6d489a9972c7c8b0af191f4c61f4521fc07c85a6fb0e63e",
+   "entries": 8,
+   "bytes": 11321
   }
  }
 }

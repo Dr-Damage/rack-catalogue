@@ -1,0 +1,926 @@
+[
+ {
+  "id": "gv-kaleido-x-7ru",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KXA-FR7-B",
+  "name": "Miranda Kaleido-X 7RU multiviewer frame (96 in / 8 out)",
+  "family": "Kaleido-X",
+  "category": "monitor",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Kaleido-X data sheet DS-PUB-2-0230A",
+  "productUrl": "https://wwwapps.grassvalley.com/docs/DataSheets/multiviewers/Kaleido-X_DS-PUB-2-0230A-EN.pdf",
+  "notes": "Six 16-input modules (3G/HD/SD/composite) and four dual-output modules; two frames link for 192 in / 12 out. 1500 W hot-swap PSUs. Check: GPI and audio connector types; inputs depend on modules fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 96,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 8,
+    "prefix": "Head Out (DVI)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "Head Out SDI (KXO-HDM-B)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "Background In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 2,
+    "prefix": "Analog Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB37",
+    "count": 3,
+    "prefix": "GPI A/B/C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-x-4ru",
+  "manufacturer": "Grass Valley",
+  "partNumber": "KXA-FR4",
+  "name": "Miranda Kaleido-X 4RU multiviewer frame (48 in / 4 out)",
+  "family": "Kaleido-X",
+  "category": "monitor",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://wwwapps.grassvalley.com/docs/Manuals/purple/kaleido-x/M809-9905-110-Kaleido-X_4RU_QuickStartGuide.pdf",
+  "notes": "Half-size Kaleido-X frame. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 48,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 4,
+    "prefix": "Head Out (DVI)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Head Out SDI (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB37",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-x16",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Kaleido-X16",
+  "name": "Miranda Kaleido-X16 multiviewer with routing, 1RU",
+  "family": "Kaleido-X",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://wwwapps.grassvalley.com/docs/Manuals/purple/kaleido-x16/M869-9902-113-Kaleido-X16_InstallationManual.pdf",
+  "notes": "16-input 1RU multiviewer with 2 heads and a built-in 16x4 router (16x2 on some models). Quiet fan for trucks. Check: router outputs and GPI.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 2,
+    "prefix": "Head Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Head Out SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Router Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI/LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-alto-hd",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Kaleido-Alto-HD",
+  "name": "Miranda Kaleido-Alto-HD multiviewer, 1RU (10 or 16 inputs)",
+  "family": "Kaleido-Alto",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.gearwise.se/shop/video/image-processing/miranda-kaleido-alto-sd-hd-multiviewer/",
+  "notes": "Single-head 1RU multiviewer, 10 or 16 auto-sensing inputs. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 16,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "Head Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Head Out SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI / LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "gv-kaleido-quad",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Kaleido-Quad",
+  "name": "Miranda Kaleido-Quad 4-input multiviewer, 1RU half width",
+  "family": "Kaleido-Alto",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.avbroadcast.fr/",
+  "notes": "Quad split multiviewer; Kaleido-Quad-Dual has two heads. Check: all counts and width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 1,
+    "prefix": "Head Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Head Out SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv8288",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV8288",
+  "name": "NVISION NV8288 router frame (288x576)",
+  "family": "NVISION",
+  "category": "router",
+  "ru": 10,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "NVISION NV8288 user manual v1.5",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Up to 288 inputs and 576 outputs (3G/HD/SD, coax or fibre cards); I/O is on the cards fitted, so add it per device. Expands in 12-port steps from 12x12. 305 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Video Ref 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Serial / diag"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Alarms"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv8144",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV8144",
+  "name": "NVISION NV8144 router frame (144x288)",
+  "family": "NVISION",
+  "category": "router",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Up to 144 inputs and 288 outputs (3G/HD/SD, coax or fibre cards); I/O is on the cards fitted, so add it per device. Check: frame height and counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Video Ref 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Serial / diag"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Alarms"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv8576",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV8576",
+  "name": "NVISION NV8576 router frame (576x1152)",
+  "family": "NVISION",
+  "category": "router",
+  "ru": 32,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Up to 576 inputs and 1152 outputs (3G/HD/SD, coax or fibre cards); I/O is on the cards fitted, so add it per device. Check: frame height (two 16RU halves) and counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Video Ref 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Serial / diag"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Alarms"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv8140",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV8140",
+  "name": "NVISION NV8140 router frame (64x64)",
+  "family": "NVISION",
+  "category": "router",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Up to 64 inputs and 64 outputs (3G/HD/SD, coax or fibre cards); I/O is on the cards fitted, so add it per device. Compact NVISION router. Check: frame height and counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Input / output card rears"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Video Ref 1/2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Serial / diag"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Alarms"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv5128",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV5128",
+  "name": "NVISION NV5128 multi-format audio router",
+  "family": "NVISION",
+  "category": "router",
+  "ru": 8,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Mono-level audio router for AES, MADI and analogue, 128-port blocks. Check: frame height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Audio I/O card rears (AES, MADI, analogue)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Control LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-nv5100mc",
+  "manufacturer": "Grass Valley",
+  "partNumber": "NV5100MC",
+  "name": "NVISION NV5100MC master control processor frame",
+  "family": "NVISION",
+  "category": "switcher",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.manualsdir.com/manuals/796513/grass-valley-nv8288-v15.html?page=13",
+  "notes": "Master control processor fed from an NVISION router. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "PGM / PST In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB37",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "gv-imagestore-750",
+  "manufacturer": "Grass Valley",
+  "partNumber": "Imagestore 750",
+  "name": "Miranda Imagestore 750 HD/SD master control and branding processor, 1RU",
+  "family": "Imagestore",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Miranda / Grass Valley legacy documentation",
+  "productUrl": "https://www.grassvalley.com/",
+  "notes": "Channel branding and master control (logos, DVE squeeze, voice-over); Imagestore 300 and Intuition XG are related models. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "PGM / PST In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "PGM Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Preview Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Key / Fill In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPI",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]
