@@ -158,29 +158,36 @@ for code, ru, keys, h in [('KP-5032', 2, 32, 87.96), ('KP-4016', 1, 16, 43.8)]:
        f'https://products.rtsintercoms.com/na/en/{code.lower()}', verified=False)
 
 # ---- RTS / RTS Telex matrix frames, legacy keypanels, TW (added 2026-11-11) ----
+# ADAM, ADAM-M and Cronus are card frames (2026-11-15); their cards, back cards and XCP breakout panels are in rts-more.json (tools/rts_more.py).
 RT('adam', 'ADAM', 'ADAM digital matrix intercom frame', 'ADAM', 'audio', 7,
-   [F('io', 'Other', 'Card slot', 17, 'AIO slot'), F('io', 'Other', 'Card slot', 2, 'Master controller'),
-    R('io', 'Other', 'Back card', 17, 'Back card'), R('io', 'Ethernet', 'RJ45', 1, 'AZedit (MCII-e)'), R('in', 'Power', 'IEC', 2, 'PSU')],
-   '7RU, 19 x 20 in deep. 17 front AIO slots, 2 master controller slots, 1 blank; redundant universal PSUs 100-240 V AC, 700 VA. '
-   'Up to 512 ports per frame with MADI/OMNEO cards (8 to 880 per system). Rear interface cards: AIO-16A, MADI-16, OMI, RVON; '
-   'cabling via RJ11, RJ45, DB9 or XCP breakout panels. Add each back card\'s connectors as extra ports. '
-   'Check: rear connector counts and controller Ethernet position.', 'RTS ADAM product page', 'https://products.rtsintercoms.com/r/adam-2',
-   verified=False, full=True)
+   [R('io', 'Other', 'Other', 1, 'Alarm / bus expansion'), R('in', 'Power', 'IEC', 2, 'PSU')],
+   '7RU, 19 x 21 in deep, about 34 kg loaded. Two redundant PSUs across the top (100-240 V AC, 700 VA) and a door over the card cage. '
+   '17 interface card slots (AIO-16A, MADI-16 Plus, OMI, RVON-16) plus 2 MCII-e master controllers: 272 analog ports, more with MADI/OMNEO '
+   '(8 to 880 per system). Each card has a back card at the rear (SCSI or MDR for AIO, cabled to XCP breakout panels). Cards with the '
+   'primary and backup clock (slots 9 and 8) must not both be removed. Check: which slots the controllers take (shown as any slot).',
+   'RTS matrix brochure and MC-ADAM installation manual', 'https://products.rtsintercoms.com/r/adam-2', verified=False, full=True,
+   frame=dict(system='RTS ADAM', slots=19, slotOrder='ltr', orient='v', rearAlign=1, door=True,
+              front={'x0': 0.06, 'x1': 0.94, 'y0': 0.24, 'y1': 0.71}, rear={'x0': 0.04, 'x1': 0.96, 'y0': 0.06, 'y1': 0.78},
+              controller='Two MCII-e master controller cards (main and backup), each with a back card for Ethernet (AZedit) and the XCP-ADAM-MC panel.'))
 RT('adam-m', 'ADAM-M', 'ADAM-M mid-size modular matrix intercom', 'ADAM', 'audio', 3,
-   [F('io', 'Other', 'Card slot', 8, 'Interface card'), F('io', 'Other', 'Card slot', 2, 'Master controller'),
-    R('io', 'Other', 'Back card', 8, 'Back card'), R('io', 'Ethernet', 'RJ45', 1, 'AZedit'), R('in', 'Power', 'IEC', 2, 'PSU')],
-   '3RU, 8 interface cards (AIO-16A etc.) plus redundant master controllers and power supplies, 90-264 V AC. 128 ports per frame, '
-   '512 expanded (OMNEO). Fibre trunking single or multi-mode; external GPIO-16 for GPI. Add each back card\'s connectors as extra ports. '
-   'Check: rear connector counts.', 'RTS ADAM-M product page and RTS matrix brochure', 'https://products.rtsintercoms.com/na/en/adam-m',
-   verified=False, full=True)
+   [R('in', 'Power', 'IEC', 2, 'PSU')],
+   '3RU, 21 in deep, 10 kg. 8 interface card slots (AIO-16A, MADI-16 Plus, OMI, RVON-16, TBX) plus 2 MCII-e master controllers, redundant '
+   'hot-swap PSUs and fan module, 90-264 V AC. 128 analog ports, 512 with MADI/OMNEO. AIO cards can use the RJ-45 back card (ADAM-M only). '
+   'MADI goes in slot 8, TBX cards in slots 4-6. Check: which slots the controllers take (shown as any slot).',
+   'RTS matrix brochure and ADAM-M installation manual', 'https://products.rtsintercoms.com/na/en/adam-m', verified=False, full=True,
+   frame=dict(system='RTS ADAM-M', slots=10, slotOrder='ltr', orient='v', rearAlign=1, door=False,
+              front={'x0': 0.05, 'x1': 0.95, 'y0': 0.08, 'y1': 0.92}, rear={'x0': 0.04, 'x1': 0.96, 'y0': 0.08, 'y1': 0.92},
+              controller='Two MCII-e master controller cards (main and backup).'))
 RT('cronus', 'Cronus', 'Cronus 32-port digital matrix intercom', 'Cronus', 'audio', 2,
-   [F('io', 'Other', 'Card slot', 4, 'AIO / RVON-C slot'), R('io', 'Other', 'Back card', 4, 'Backcard (RJ-12 or MDR)'),
-    R('io', 'Other', 'BNC', 2, 'Frame link A/B (coax)'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('io', 'USB', 'USB', 1, 'USB'),
+   [F('io', 'USB', 'USB-B', 1, 'USB (AZedit)'), R('io', 'Other', 'BNC', 2, 'Frame link A/B (coax)'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'),
     R('in', 'Power', 'IEC', 2, 'PSU')],
-   '2RU, 32 ports on up to 4 AIO or RVON-C cards (8 ports each), backcards RJ-12 or MDR (break out to XCP-48-RJ45, XCP-32-DB9 or '
-   'XCP-48-Telco panels). Up to 4 frames linked (128 ports) over coax links A/B or optional SC fibre. Redundant power. 4 relays. '
-   'Check: connector counts (from the user manual, which does not tabulate them).', 'RTS Cronus user manual and RTS matrix brochure',
-   'https://www.manualslib.com/manual/808509/Rts-Cronus.html', verified=False)
+   '2RU, 13.25 in deep, 6.4 kg. 32 ports on up to 4 Cronus AIO or RVON-C cards (8 ports each) with RJ-12 or MDR backcards (MDR breaks out to '
+   'XCP-48-RJ45, XCP-32-DB9 or XCP-48-Telco). Up to 4 frames linked (128 ports) over coax links A/B (90 m) or optional fibre (15 km). '
+   'Redundant power, no redundant controller. 4 relays. Check: rear connector positions.', 'RTS Cronus user manual and RTS matrix brochure',
+   'https://www.manualslib.com/manual/808509/Rts-Cronus.html', verified=False,
+   frame=dict(system='RTS Cronus', slots=4, slotOrder='ltr', orient='h', cols=2, rearAlign=1, door=True,
+              front={'x0': 0.05, 'x1': 0.95, 'y0': 0.1, 'y1': 0.9}, rear={'x0': 0.04, 'x1': 0.7, 'y0': 0.1, 'y1': 0.9},
+              controller='Built in (front display, two encoders, USB).'))
 for code, n, ru_note in [('Zeus III', 32, ''), ('Zeus III LE+', 16, ' LE+ is the 16-port version.')]:
     RT(code.lower().replace(' ', '-').replace('+', 'plus'), code, f'{code} digital matrix intercom, {n} ports', 'Zeus', 'audio', 1,
        [R('io', AA, 'RJ45', n, 'Port'), R('io', AA, 'XLR3', 2, 'Party line'), R('io', 'RS-422', 'DB9', 1, 'Trunk (RS485)'),

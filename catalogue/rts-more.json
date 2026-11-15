@@ -1,0 +1,2039 @@
+[
+ {
+  "id": "rts-aio-16a",
+  "manufacturer": "RTS",
+  "partNumber": "AIO-16A",
+  "name": "AIO-16A 16-port analog I/O card (ADAM, ADAM-M)",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS AIO-16A listing (Markertek)",
+  "productUrl": "https://markertek.com/product/rts-aio-16a/rts-aio-16a-16-channel-standard-omi-input-output-frontcard-for-adam-or-adam-m-matrix-intercom-frames-no-led",
+  "notes": "16 analog 4-wire intercom ports per card, up to 17 per ADAM. Hot-swap, detects the back card, drop-in replacement for the AIO-16. Ports 1-16 on each frame are fixed by slot. Back card (ordered separately): 50-pin SCSI (to XCP-40-DB9, XCP-40-RJ12, XCP-24, XCP-24-USOC, XCP-955), 50-pin MDR (separate data driver per keypanel; to XCP-32-DB9, XCP-16-DB9-T, XCP-48-RJ45) or RJ-45 (ADAM-M only). Each 50-pin connector carries 8 ports.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "AIO-16 SCSI back card",
+    "name": "SCSI back card (2 x 50-pin SCSI)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "SCSI 50-pin (8 ports)",
+      "count": 2,
+      "prefix": "Ports"
+     }
+    ]
+   },
+   {
+    "partNumber": "AIO-16 MDR back card",
+    "name": "MDR back card (2 x 50-pin MDR)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "MDR 50-pin (8 ports)",
+      "count": 2,
+      "prefix": "Ports"
+     }
+    ]
+   },
+   {
+    "partNumber": "AIO-16 RJ-45 back card",
+    "name": "RJ-45 back card (ADAM-M only)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "RJ45",
+      "count": 16,
+      "prefix": "Port"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-aio-16",
+  "manufacturer": "RTS",
+  "partNumber": "AIO-16",
+  "name": "AIO-16 16-port analog I/O card (legacy)",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Earlier 16-port AIO card (9000-7726-001 with LED front). Same back cards as the AIO-16A. Ports 1-16 on each frame are fixed by slot. Back card (ordered separately): 50-pin SCSI (to XCP-40-DB9, XCP-40-RJ12, XCP-24, XCP-24-USOC, XCP-955), 50-pin MDR (separate data driver per keypanel; to XCP-32-DB9, XCP-16-DB9-T, XCP-48-RJ45) or RJ-45 (ADAM-M only). Each 50-pin connector carries 8 ports.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "AIO-16 SCSI back card",
+    "name": "SCSI back card (2 x 50-pin SCSI)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "SCSI 50-pin (8 ports)",
+      "count": 2,
+      "prefix": "Ports"
+     }
+    ]
+   },
+   {
+    "partNumber": "AIO-16 MDR back card",
+    "name": "MDR back card (2 x 50-pin MDR)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "MDR 50-pin (8 ports)",
+      "count": 2,
+      "prefix": "Ports"
+     }
+    ]
+   },
+   {
+    "partNumber": "AIO-16 RJ-45 back card",
+    "name": "RJ-45 back card (ADAM-M only)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "RJ45",
+      "count": 16,
+      "prefix": "Port"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-madi-16-plus",
+  "manufacturer": "RTS",
+  "partNumber": "MADI-16 Plus",
+  "name": "MADI-16 Plus MADI interface card, 16-64 ports",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "AES10 MADI card, 16 to 64 ports at 44.1/48 kHz, coax or fibre back card. In an ADAM-M it goes in slot 8. Check: back card connectors.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "MADI-16 coax back card",
+    "name": "Coax back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI Out"
+     }
+    ]
+   },
+   {
+    "partNumber": "MADI-16 fibre back card",
+    "name": "Fibre back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "MADI",
+      "connector": "SC duplex",
+      "count": 1,
+      "prefix": "MADI fibre"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-omi",
+  "manufacturer": "RTS",
+  "partNumber": "OMI",
+  "name": "OMI OMNEO matrix interface card, 16-64 ports",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "OMNEO (Dante / AES67) IP audio card for ADAM and ADAM-M, 16 to 64 ports. Back card: 2 RJ45 plus 1 LC SFP. 14.9 W front and back.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1,
+   "watts": 14.9
+  },
+  "rearModules": [
+   {
+    "partNumber": "OMI back card",
+    "name": "OMI back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "OMNEO"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "SFP",
+      "count": 1,
+      "prefix": "OMNEO fibre"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-rvon-16",
+  "manufacturer": "RTS",
+  "partNumber": "RVON-16",
+  "name": "RVON-16 16-port VoIP card (ADAM)",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "RTS Voice Over Network card: 16 VoIP ports to RVON keypanels and RVON-I/O. Check: back card connectors (one RJ45 shown).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RVON-16 back card",
+    "name": "RVON back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-mcii-e",
+  "manufacturer": "RTS",
+  "partNumber": "MCII-e",
+  "name": "MCII-e master controller card (ADAM, ADAM-M)",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS MCII-e user manual and ADAM-M installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/327257/Rts-Mcii-E.html",
+  "notes": "Ethernet master controller. Fit two (main and backup) with matching DIP switches. Back card J1 Ethernet to AZedit, J2 to J12 on the XCP-ADAM-MC breakout panel (RS-232, trunking and peripheral RS-485, GPI). Check: J2 connector type.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "MCII-e back card",
+    "name": "Controller back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "J1 Ethernet (AZedit)"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "Multipin",
+      "count": 1,
+      "prefix": "J2 to XCP-ADAM-MC"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-tbx-tribus",
+  "manufacturer": "RTS",
+  "partNumber": "TBX-Tribus",
+  "name": "TBX Tribus bus expander card",
+  "family": "ADAM cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "Triple-bus expander linking up to 4 ADAM frames over dual fibre ring or mesh. In an ADAM-M the TBX cards go in slots 4-6 (then only one MADI card fits). Check: fibre connector type.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS ADAM",
+    "RTS ADAM-M"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "TBX back card",
+    "name": "TBX fibre back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "Other",
+      "count": 2,
+      "prefix": "Bus link"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-cronus-aio",
+  "manufacturer": "RTS",
+  "partNumber": "Cronus AIO",
+  "name": "Cronus AIO 8-port analog I/O card",
+  "family": "Cronus cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "8 analog 4-wire intercom ports. RJ-12 back card (8 jacks) or MDR back card (one 50-pin MDR, to XCP-48-RJ45, XCP-32-DB9, XCP-48-Telco).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS Cronus"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "Cronus RJ-12 back card",
+    "name": "RJ-12 back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "RJ12",
+      "count": 8,
+      "prefix": "Port"
+     }
+    ]
+   },
+   {
+    "partNumber": "Cronus MDR back card",
+    "name": "MDR back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": false,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Analog audio",
+      "connector": "MDR 50-pin (8 ports)",
+      "count": 1,
+      "prefix": "Ports"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-rvon-c",
+  "manufacturer": "RTS",
+  "partNumber": "RVON-C",
+  "name": "RVON-C 8-port VoIP card (Cronus)",
+  "family": "Cronus cards",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "RTS Voice Over Network card for Cronus: 8 VoIP ports. Check: back card connectors (one RJ45 shown).",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "RTS Cronus"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "RVON-C back card",
+    "name": "RVON back card",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "included": false,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "Network"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-40-db9",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-40-DB9",
+  "name": "XCP-40-DB9 breakout panel, 40 x DB9 from 5 x SCSI 50-pin",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual and matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Breaks the matrix back card multipins out to one DB9 per intercom port (keypanel or 4-wire). For AIO SCSI back cards. Check: rack height and which face the connectors are on (all shown on the rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "SCSI 50-pin (8 ports)",
+    "count": 5,
+    "prefix": "Card link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 40,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-40-rj12",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-40-RJ12",
+  "name": "XCP-40-RJ12 breakout panel, 40 x RJ12 from 5 x SCSI 50-pin",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual and matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Breaks the matrix back card multipins out to one RJ12 per intercom port (keypanel or 4-wire). For AIO SCSI back cards (also written XCP-40-RJ11). Check: rack height and which face the connectors are on (all shown on the rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "SCSI 50-pin (8 ports)",
+    "count": 5,
+    "prefix": "Card link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ12",
+    "count": 40,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-32-db9",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-32-DB9",
+  "name": "XCP-32-DB9 breakout panel, 32 x DB9 from 4 x MDR 50-pin",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual and matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Breaks the matrix back card multipins out to one DB9 per intercom port (keypanel or 4-wire). For AIO and Cronus MDR back cards; also works with AIO-8. Check: rack height and which face the connectors are on (all shown on the rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "MDR 50-pin (8 ports)",
+    "count": 4,
+    "prefix": "Card link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 32,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-16-db9-t",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-16-DB9-T",
+  "name": "XCP-16-DB9-T breakout panel, 16 x DB9 from 2 x MDR 50-pin",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual and matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Breaks the matrix back card multipins out to one DB9 per intercom port (keypanel or 4-wire). For MDR back cards, with audio isolation transformers. Check: rack height and which face the connectors are on (all shown on the rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "MDR 50-pin (8 ports)",
+    "count": 2,
+    "prefix": "Card link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 16,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-48-rj45",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-48-RJ45",
+  "name": "XCP-48-RJ45 breakout panel, 48 x RJ45 from 6 x MDR 50-pin",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS AIO-16 user manual and matrix brochure",
+  "productUrl": "https://www.manualslib.com/manual/327125/Rts-Aio-16.html",
+  "notes": "Breaks the matrix back card multipins out to one RJ45 per intercom port (keypanel or 4-wire). For AIO and Cronus MDR back cards (MDR back card required). Check: rack height and which face the connectors are on (all shown on the rear).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "MDR 50-pin (8 ports)",
+    "count": 6,
+    "prefix": "Card link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "Port"
+   }
+  ]
+ },
+ {
+  "id": "rts-xcp-adam-mc",
+  "manufacturer": "RTS",
+  "partNumber": "XCP-ADAM-MC",
+  "name": "XCP-ADAM-MC master controller breakout panel",
+  "family": "XCP breakout panels",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS MC-ADAM and ADAM-M installation manuals",
+  "productUrl": "https://www.manualslib.com/manual/327249/Rts-Mc-Adam.html",
+  "notes": "Breaks the MCII-e controller back card out to the AZedit PC (RS-232), trunk master (RS-485), PAP/UIO-256/GPIO-16 peripherals and GPI. The brochure lists 10 DB9 and 1 DB25. Check: rack height and the use of J4-J10.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Multipin",
+    "count": 1,
+    "prefix": "J12 to MCII-e"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "J1 PC (RS-232)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "J2 Trunk (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "J3 PAP / UIO-256 / GPIO-16 (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 7,
+    "prefix": "Aux"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPIO"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-3016",
+  "manufacturer": "RTS",
+  "partNumber": "KP-3016",
+  "name": "KP-3016 16-key keypanel, 1RU",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-3016 data sheet (LA-BS copy)",
+  "productUrl": "https://www.la-bs.com/ObjetsMultimedia/57360/FR/KP-3016_RTS-INTERCOM_dt.pdf",
+  "notes": "Entry-level 1RU keypanel, 16 lever keys with full-colour HD displays, 98 mm deep (110 mm with keys), 1.5 kg. OMNEO (IP) and 4-wire analog matrix connection. External 100-240 V supply, 11 W. User-replaceable headset XLR, 4 or 5-pin (KP-3016-A4F = 4-pin). Takes EKP-3016 expansion. Check: rear connector counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "OMNEO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Analog matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "depthMm": 98,
+  "powerW": 11
+ },
+ {
+  "id": "rts-kp-3016a",
+  "manufacturer": "RTS",
+  "partNumber": "KP-3016A",
+  "name": "KP-3016A 16-key keypanel, 1RU (analog only)",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-3016 data sheet (LA-BS copy)",
+  "productUrl": "https://www.la-bs.com/ObjetsMultimedia/57360/FR/KP-3016_RTS-INTERCOM_dt.pdf",
+  "notes": "Entry-level 1RU keypanel, 16 lever keys with full-colour HD displays, 98 mm deep (110 mm with keys), 1.5 kg. Analog 4-wire matrix connection only. External 100-240 V supply, 8 W. User-replaceable headset XLR, 4 or 5-pin (KP-3016-A4F = 4-pin). Takes EKP-3016 expansion. Check: rear connector counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Analog matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "depthMm": 98,
+  "powerW": 8
+ },
+ {
+  "id": "rts-ekp-3016",
+  "manufacturer": "RTS",
+  "partNumber": "EKP-3016",
+  "name": "EKP-3016 16-key expansion panel, 1RU",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-Series brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-serie-kp-brochure.pdf",
+  "notes": "1RU expansion panel, 16 lever keys with HD colour displays, for the KP-3016 / KP-3016A. -PB versions have pushbuttons. Check: link and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-ekp-4016",
+  "manufacturer": "RTS",
+  "partNumber": "EKP-4016",
+  "name": "EKP-4016 16-key expansion panel, 1RU",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-Series brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-serie-kp-brochure.pdf",
+  "notes": "1RU expansion panel, 16 lever keys with HD colour displays, for the KP-4016 / KP-5032 (up to 7 / 6 per panel). -PB versions have pushbuttons. Check: link and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-pap-5032",
+  "manufacturer": "RTS",
+  "partNumber": "PAP-5032",
+  "name": "PAP-5032 16-position IFB router panel, 2RU",
+  "family": "KP-Series",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS KP-Series brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-serie-kp-brochure.pdf",
+  "notes": "2RU program assign panel: routes program sources to 16 IFB destinations, KP-5032 style keys and displays. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "OMNEO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-rp-1000",
+  "manufacturer": "RTS",
+  "partNumber": "RP-1000",
+  "name": "RP-1000 32-key colour keypanel, 2RU",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "2RU, 32 keys with colour TFT displays, 83 mm deep, 2.9 kg. Rear connector kit: 6 aux, 3 relays, 4 opto inputs, 2 OC outputs. Optional OKI card (2 RJ45 + LC SFP, OMNEO) or RVON-2. RP-1932 is its 2RU colour expansion panel. Check: matrix and power connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RC connector kit"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "OKI / RVON-2 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 83
+ },
+ {
+  "id": "rts-rp-1932",
+  "manufacturer": "RTS",
+  "partNumber": "RP-1932",
+  "name": "RP-1932 colour expansion panel for RP-1000, 2RU",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "2RU colour expansion panel for the RP-1000, 2.9 kg. Check: link connector and key count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   }
+  ]
+ },
+ {
+  "id": "rts-kp-12-cld",
+  "manufacturer": "RTS",
+  "partNumber": "KP 12 CLD",
+  "name": "KP 12 CLD 12-key colour keypanel, 1RU",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 12 keys with colour displays, 109 mm deep, 1.7 kg. Rear connector kit (KP 12 CLD RC): 3 aux, 3 relays, 4 opto inputs, 2 OC outputs. Optional OKI (OMNEO) or RVON-2 card. Check: matrix and power connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Panel mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RC connector kit"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "OKI / RVON-2 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 109
+ },
+ {
+  "id": "rts-kp-12",
+  "manufacturer": "RTS",
+  "partNumber": "KP-12",
+  "name": "KP-12 12-key keypanel, 1RU (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU, 12 lever keys with displays, 140 mm deep, 2.3 kg (KP-12LK lever keys, KP-12PB pushbuttons). Option modules: KPM-CK (mic in/out, line in, headset, speaker) and KPM-I/O (4 opto, 2 OC, 2 relays). EKP-20 adds 20 keys. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "KPM option modules"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 140
+ },
+ {
+  "id": "rts-ekp-20",
+  "manufacturer": "RTS",
+  "partNumber": "EKP-20",
+  "name": "EKP-20 20-key expansion panel, 1RU (legacy)",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU, 20 keys with displays (EKP-20LK lever, EKP-20PB pushbutton), 181 mm deep, 2.1 kg. Check: link connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Expansion link"
+   }
+  ],
+  "depthMm": 181
+ },
+ {
+  "id": "rts-mkp-12",
+  "manufacturer": "RTS",
+  "partNumber": "MKP-12",
+  "name": "MKP-12 12-key value keypanel, 1RU",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU value-series keypanel, 12 keys, 203 mm deep, 2.3 kg. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 203
+ },
+ {
+  "id": "rts-pam-16",
+  "manufacturer": "RTS",
+  "partNumber": "PAM-16",
+  "name": "PAM-16 16-key program audio monitor, 1RU",
+  "family": "KP-Series (legacy)",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU program audio monitor panel with 16 monitor keys, 2 kg. PAM-32 is the 2RU version. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rts-lcp-12",
+  "manufacturer": "RTS",
+  "partNumber": "LCP-12",
+  "name": "LCP-12 level control panel, 1RU",
+  "family": "Level control",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU level control panel: 12 level controls for matrix crosspoints or ports, set in AZedit. Check: data and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Matrix data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "rts-lcp-20",
+  "manufacturer": "RTS",
+  "partNumber": "LCP-20",
+  "name": "LCP-20 level control panel, 1RU",
+  "family": "Level control",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU level control panel: 20 level controls for matrix crosspoints or ports, set in AZedit. Check: data and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Matrix data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "rts-lcp-32-16",
+  "manufacturer": "RTS",
+  "partNumber": "LCP-32/16",
+  "name": "LCP-32/16 level control panel, 1RU",
+  "family": "Level control",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU level control panel: 16 level controls, 44 mm deep for matrix crosspoints or ports, set in AZedit. Check: data and power connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Matrix data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ],
+  "depthMm": 44
+ },
+ {
+  "id": "rts-lcp-102",
+  "manufacturer": "RTS",
+  "partNumber": "LCP-102",
+  "name": "LCP-102 analog trim panel, 2RU",
+  "family": "Level control",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "2RU, 16 channels each with a name display, output level knob and second level knob, address key, 181 mm deep, 3.8 kg. Connects to the matrix peripheral port (Zeus III, XCP-ADAM-MC). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Peripheral (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 181
+ },
+ {
+  "id": "rts-rvon-i-o",
+  "manufacturer": "RTS",
+  "partNumber": "RVON-I/O",
+  "name": "RVON-I/O 8-port VoIP interface, 1RU",
+  "family": "RVON",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "RTS RVON-I/O user manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/327307/Rts-Rvon-I-O.html",
+  "notes": "1RU, 203 mm deep, 1.7 kg, 90-240 V AC. Carries 8 analog intercom ports (audio and keypanel data) over IP to an RVON-16 / RVON-C card or another RVON-I/O.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB9M",
+    "count": 1,
+    "prefix": "I/O (8 ports audio + data)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB25F",
+    "count": 1,
+    "prefix": "GPI/O"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "DB9F",
+    "count": 1,
+    "prefix": "Relays"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 203
+ },
+ {
+  "id": "rts-gpio-16",
+  "manufacturer": "RTS",
+  "partNumber": "GPIO-16",
+  "name": "GPIO-16 general purpose I/O frame, 16 in / 16 relays",
+  "family": "Peripherals",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 16 opto-isolated inputs and 16 relay outputs, 178 mm deep, 2.5 kg. Front input status LEDs. Connects to the matrix peripheral bus (XCP-ADAM-MC J3, ODIN, Zeus). Check: GPIO connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Opto inputs 1-16"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Relays 1-16"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix data (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 178
+ },
+ {
+  "id": "rts-uio-256",
+  "manufacturer": "RTS",
+  "partNumber": "UIO-256",
+  "name": "UIO-256 universal I/O frame, 16 GPI in / 16 out",
+  "family": "Peripherals",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS UIO-256 specifications (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/142792/Rts-Uio-256.html",
+  "notes": "GPI interface: 16 inputs (remote keys for ports, party lines or outputs) and 16 outputs for lights, transmitters and paging. Legacy, replaced by the GPIO-16. Check: rack height and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI inputs 1-16"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "GPI outputs 1-16"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Matrix data (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "rts-ifb-828",
+  "manufacturer": "RTS",
+  "partNumber": "IFB-828",
+  "name": "IFB-828 IFB interface, 8 outputs, 1RU",
+  "family": "IFB",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 178 mm deep, 4 kg. Feeds up to 8 IFB beltpacks (4030 / IFB-325) with program and interrupt; 8 front level controls. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Matrix (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 8,
+    "prefix": "IFB Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 178
+ },
+ {
+  "id": "rts-4010",
+  "manufacturer": "RTS",
+  "partNumber": "4010",
+  "name": "4010 central IFB electronics, 1RU",
+  "family": "IFB",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 381 mm deep, 4.9 kg. Central IFB electronics for the 4001 (4-channel) and 4003 (12-channel) control stations. Check: channel count and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "Program In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "IFB Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Control station"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 381
+ },
+ {
+  "id": "rts-tm-10k",
+  "manufacturer": "RTS",
+  "partNumber": "TM-10K",
+  "name": "TM-10K trunk master, 2RU",
+  "family": "Trunking",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "2RU, 305 mm deep, 12 kg. Links up to 256 matrix systems and 10,000+ users; dual PSUs, dual network interfaces, optional redundant trunk master. Check: trunk port count and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 8,
+    "prefix": "Trunk port (RS-485)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "depthMm": 305
+ },
+ {
+  "id": "rts-icp-2000",
+  "manufacturer": "RTS",
+  "partNumber": "ICP-2000",
+  "name": "ICP-2000 trunk interface, 1RU",
+  "family": "Trunking",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU companion to the TM-10K / TM-2000 trunk master. Check: function and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ]
+ },
+ {
+  "id": "rts-swp-2000",
+  "manufacturer": "RTS",
+  "partNumber": "SWP-2000",
+  "name": "SWP-2000 trunk switch panel, 1RU",
+  "family": "Trunking",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "1RU, 146 mm deep. Companion to the TM-10K trunk master (switches to the redundant trunk master). Check: function and connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Trunk"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ],
+  "depthMm": 146
+ },
+ {
+  "id": "rts-tif-4000",
+  "manufacturer": "RTS",
+  "partNumber": "TIF-4000",
+  "name": "TIF-4000 12-line telephone interface, 4RU",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "4RU, 330 mm deep, 12.9 kg. Up to 12 analog telephone lines into the matrix (hybrids with auto-answer). Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "RJ11",
+    "count": 12,
+    "prefix": "Telephone line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 12,
+    "prefix": "Matrix (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 330
+ },
+ {
+  "id": "rts-sip-isdn",
+  "manufacturer": "RTS",
+  "partNumber": "SIP-ISDN",
+  "name": "SIP-ISDN telephone interface, 1RU",
+  "family": "Interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 216 mm deep, 1.4 kg. One ISDN S0 (2 lines) plus LAN for SIP calls into the matrix. Check: matrix connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "ISDN S0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (SIP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Matrix (4-wire)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 216
+ },
+ {
+  "id": "rts-sap-1626",
+  "manufacturer": "RTS",
+  "partNumber": "SAP-1626",
+  "name": "SAP-1626 source assignment panel, 2RU",
+  "family": "Interfaces",
+  "category": "control",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "2RU, 249 mm deep, 4.5 kg. Assigns 12 intercom and 3 program channels to 26 user stations; two 50-pin I/O connectors. Check: connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Telco 50-pin",
+    "count": 1,
+    "prefix": "Channel I/O A"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Telco 50-pin",
+    "count": 1,
+    "prefix": "Channel I/O B"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "depthMm": 249
+ },
+ {
+  "id": "rts-rm-325",
+  "manufacturer": "RTS",
+  "partNumber": "RM-325",
+  "name": "RM-325 two-channel binaural user station, 1RU",
+  "family": "TW",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS digital matrix brochure",
+  "productUrl": "https://www.avbroadcast.fr/media/productfile/r/t/rts-matrices-intercom-digitales.pdf",
+  "notes": "1RU, 203 mm deep, 1.2 kg. Two-channel binaural TW user station. Check: rear connectors and rack width.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 2,
+    "prefix": "TW line"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ],
+  "depthMm": 203
+ },
+ {
+  "id": "rts-bop-220",
+  "manufacturer": "RTS",
+  "partNumber": "BOP-220",
+  "name": "BOP-220 breakout panel, 20 XLR",
+  "family": "TW",
+  "category": "patch",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RTS CAD drawing (DWF front view) and RTS matrix brochure",
+  "productUrl": "https://products.rtsintercoms.com/na/en/downloads",
+  "notes": "Breakout panel with 20 XLRs (J101-J120, two rows of 10) and two multipin connectors, from the RTS drawing. Check: rack height, function and connector genders.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "XLR3",
+    "count": 20,
+    "prefix": "Line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Multipin",
+    "count": 2,
+    "prefix": "Multipin"
+   }
+  ]
+ }
+]
