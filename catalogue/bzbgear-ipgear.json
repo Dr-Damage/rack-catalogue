@@ -1,0 +1,265 @@
+[
+ {
+  "id": "bzbgear-bg-ipgear-ultra",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-ULTRA",
+  "name": "BG-IPGEAR-ULTRA 4K AV-over-IP transceiver (encoder / decoder)",
+  "family": "IPGEAR",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "BZBGear BG-IPGEAR-ULTRA product brief",
+  "productUrl": "https://bzbgear.com/wp-content/uploads/BG-IPGEAR-ULTRA-pb.pdf",
+  "notes": "One box works as encoder or decoder. 204 x 30 x 132 mm, 5.4 W. Fits the RM2 (2 per 1RU) and RM10 (10 in 6RU) brackets. Check: USB split.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Balanced audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Balanced audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Fibre SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C host"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB KVM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or PoE)"
+   }
+  ],
+  "formFactor": "BZBGear IPGEAR",
+  "boxMm": {
+   "w": 204,
+   "h": 30
+  },
+  "powerW": 5.4
+ },
+ {
+  "id": "bzbgear-bg-ipgear-pro-t",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-PRO-T",
+  "name": "BG-IPGEAR-PRO-T IPGEAR PRO 4K60 AV-over-IP transmitter",
+  "family": "IPGEAR PRO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BZBGear BG-IPGEAR-PRO product brief",
+  "productUrl": "https://bzbgear.com/wp-content/uploads/catalogs/AVOIP_MiniCatalog.pdf",
+  "notes": "194 x 133 x 28 mm, 6 W max, 5 V DC or 48 V PoE. Fits the IPGEAR PRO 4RU rack. Check: S/PDIF connector, RS-232 port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Audio / IR In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Audio / IR Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC (or PoE)"
+   }
+  ],
+  "formFactor": "BZBGear IPGEAR",
+  "boxMm": {
+   "w": 194,
+   "h": 28
+  },
+  "powerW": 6,
+  "weightKg": 0.66
+ },
+ {
+  "id": "bzbgear-bg-ipgear-pro-r",
+  "manufacturer": "BZBGear",
+  "partNumber": "BG-IPGEAR-PRO-R",
+  "name": "BG-IPGEAR-PRO-R IPGEAR PRO 4K60 AV-over-IP receiver",
+  "family": "IPGEAR PRO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BZBGear BG-IPGEAR-PRO product brief",
+  "productUrl": "https://bzbgear.com/wp-content/uploads/catalogs/AVOIP_MiniCatalog.pdf",
+  "notes": "194 x 133 x 28 mm, 7 W max, 5 V DC or 48 V PoE. Fits the IPGEAR PRO 4RU rack. Check: S/PDIF connector, RS-232 port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "S/PDIF"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "Audio / IR Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 5,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC (or PoE)"
+   }
+  ],
+  "formFactor": "BZBGear IPGEAR",
+  "boxMm": {
+   "w": 194,
+   "h": 28
+  },
+  "powerW": 7,
+  "weightKg": 0.64
+ }
+]

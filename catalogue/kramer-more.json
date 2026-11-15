@@ -1258,13 +1258,7 @@
   "verified": false,
   "source": "Kramer product listings",
   "productUrl": "https://www.kramerav.com/product/RK-3T",
-  "notes": "Takes three Kramer TOOLS mini units. Check: fit.",
-  "portGroups": [],
-  "carrier": {
-   "bays": 3,
-   "fits": [
-    "Kramer TOOLS"
-   ]
-  }
+  "notes": "Takes three Kramer TOOLS mini units (none in the catalogue yet). Check: fit.",
+  "portGroups": []
  }
 ]

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "kramer-vm-2h2",
+  "manufacturer": "Kramer",
+  "partNumber": "VM-2H2",
+  "name": "VM-2H2 1:2 4K60 HDMI distribution amplifier",
+  "family": "MegaTOOLS",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Kramer VM-2H2 product page",
+  "productUrl": "https://www1.kramerav.com/product/VM-2H2",
+  "notes": "190 x 116 x 27 mm, 5 V 730 mA. Two fit side by side in the RK-T2B adapter.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block 3-pin",
+    "count": 1,
+    "prefix": "RS-232 (firmware)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "Kramer half-rack",
+  "boxMm": {
+   "w": 190,
+   "h": 27
+  }
+ }
+]

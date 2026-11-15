@@ -87,6 +87,12 @@
     "count": 2,
     "prefix": "PSU"
    }
-  ]
+  ],
+  "carrier": {
+   "bays": 4,
+   "fits": [
+    "Kiloview encoder"
+   ]
+  }
  }
 ]

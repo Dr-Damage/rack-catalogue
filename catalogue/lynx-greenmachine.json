@@ -1,0 +1,266 @@
+[
+ {
+  "id": "lynx-gm-6840-titan",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "GM 6840",
+  "name": "greenMachine titan 4-channel 12G / 3G-SDI processing platform",
+  "family": "greenMachine",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik GM 6840 titan data sheet Rev3.0",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2023/10/GM6840_Titan_Rev3.0.pdf",
+  "notes": "Half-rack 1RU, 218 x 44 x 225 mm, 1.4 kg, 45 W, 7-24 V DC. Function set by greenMachine APPs. Fits the RFR 6000 frame (2 per 1RU). Check: DC connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In (12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out (12G)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog / AES audio (4 in, 4 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 3,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GPI 4 in / 4 out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC A"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC B (redundant)"
+   }
+  ],
+  "formFactor": "greenMachine",
+  "boxMm": {
+   "w": 218,
+   "h": 44
+  },
+  "powerW": 45,
+  "weightKg": 1.4
+ },
+ {
+  "id": "lynx-gm-6820-callisto",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "GM 6820",
+  "name": "greenMachine callisto 2-channel 3G-SDI processing platform",
+  "family": "greenMachine",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik GM 6820 callisto data sheet",
+  "productUrl": "https://www.lynx-technik.com/products/greenmachine/greenmachine-hardware/greenmachine-callisto-3ghdsd-dual-channel-sdi-video-and-audio-processing-platform/",
+  "notes": "Half-rack 1RU, 218 x 44 x 225 mm, 1.1 kg, 25 W, 7-24 V DC. Fits the RFR 6000 frame (2 per 1RU). Check: SFP count and DC connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref / CVBS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog / AES audio (4 in, 4 out)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GPI 2 in / 2 out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC A"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC B (redundant)"
+   }
+  ],
+  "formFactor": "greenMachine",
+  "boxMm": {
+   "w": 218,
+   "h": 44
+  },
+  "powerW": 25,
+  "weightKg": 1.1
+ }
+]

@@ -112,7 +112,7 @@ add(AF, 'avpro-ac-mxnet-1g-r15', AV, 'AC-MXNET-1G-R15', 'MXnet 1G 15-slot rack m
     'Rack chassis for up to 15 MXnet 1G encoders / decoders, powered centrally. Check: rack height and power.', AS, AU('ac-mxnet-1g-r15'),
     carrier={'bays': 15, 'fits': ['AVPro MXnet card']})
 add(AF, 'avpro-ac-ezrack-15', AV, 'AC-EZRACK-15-TAA', 'EZ Rack 15-slot extender rack mount', 'Extenders', 'shelf', 2, [AC(1)],
-    'Rack chassis for up to 15 AVPro extenders. Check: rack height.', AS, AU('ac-ezrack-15-taa'), carrier={'bays': 15, 'fits': ['AVPro extender']})
+    'Rack chassis for up to 15 AVPro extenders. Check: rack height, and which extenders fit (none in the catalogue yet).', AS, AU('ac-ezrack-15-taa'))
 
 # ======================= KanexPro =======================
 KF, KP = 'kanexpro.json', 'KanexPro'
@@ -381,7 +381,7 @@ kr('AFM-20DSP', 'AFM-20DSP audio matrix with DSP, 1U', 'Audio DSP', 'audio', 1,
 kr('DSP-62-AEC', 'DSP-62-AEC 6x2 audio DSP with echo cancelling, half rack', 'Audio DSP', 'audio', 1,
    [R('in', 'Analog audio', 'Terminal block 3-pin', 6, 'Mic / Line In'), R('out', 'Analog audio', 'Terminal block 3-pin', 2, 'Line Out'), R('io', 'USB', 'USB-B', 1, 'USB audio'), LAN(1), DC()], 'Check: connectors.', w=6)
 kr('RK-T2B', 'RK-T2B 19-inch rack adapter for two half-rack Kramer units', 'Rack adapters', 'shelf', 1, [], 'Check: which units it takes.', carrier={'bays': 2, 'fits': ['Kramer half-rack']})
-kr('RK-3T', 'RK-3T 19-inch rack adapter for three TOOLS units', 'Rack adapters', 'shelf', 1, [], 'Takes three Kramer TOOLS mini units. Check: fit.', carrier={'bays': 3, 'fits': ['Kramer TOOLS']})
+kr('RK-3T', 'RK-3T 19-inch rack adapter for three TOOLS units', 'Rack adapters', 'shelf', 1, [], 'Takes three Kramer TOOLS mini units (none in the catalogue yet). Check: fit.')
 
 # ======================= write =======================
 ip = os.path.join(CAT, 'index.json'); idx = json.load(open(ip))

@@ -1,0 +1,3065 @@
+[
+ {
+  "id": "lynx-rfr-1200",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "RFR 1200",
+  "name": "yellobrik RFR 1200 1RU rack frame (14 modules, powered slot bus)",
+  "family": "yellobrik",
+  "category": "shelf",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Up to 14 yellobriks; modules take power from the slot bus (200 W per frame), primary and secondary 12 V DC inputs. The RCT 1012 controller adds USB control of up to 12 modules. Add each yellobrik as its own device. Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 14,
+    "prefix": "yellobrik slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC primary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power-fail alarm GPO"
+   }
+  ],
+  "carrier": {
+   "bays": 14,
+   "fits": [
+    "yellobrik"
+   ]
+  }
+ },
+ {
+  "id": "lynx-cde-1922",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CDE 1922",
+  "name": "yellobrik CDE 1922 3G-SDI / ST 2110 bridge",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10GbE ST 2110"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pec-1464",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PEC 1464",
+  "name": "yellobrik PEC 1464 H.264 / H.265 streamer and recorder",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: audio connector. Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Analog audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0 record"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-idc-1411",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "IDC 1411",
+  "name": "yellobrik IDC 1411 AI voice cleaner (SDI audio)",
+  "family": "yellobrik",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-chd-1402",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CHD 1402",
+  "name": "yellobrik CHD 1402 HDMI to 12G-SDI converter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-chd-1412",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CHD 1412",
+  "name": "yellobrik CHD 1412 HDMI to 12G-SDI converter with frame sync",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: analog audio connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Analog stereo In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-chd-1802-1",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CHD 1802-1",
+  "name": "yellobrik CHD 1802-1 HDMI to 3G-SDI converter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-chd-1812-1",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CHD 1812-1",
+  "name": "yellobrik CHD 1812-1 HDMI to 3G-SDI converter with frame sync",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: analog audio connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Analog In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-cdh-1411",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CDH 1411",
+  "name": "yellobrik CDH 1411 12G-SDI to HDMI monitoring converter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: analog audio connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Analog audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-cdh-1813",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CDH 1813",
+  "name": "yellobrik CDH 1813 3G-SDI to HDMI monitoring converter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: SDI input count and audio connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Analog audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-spg-1708",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "SPG 1708",
+  "name": "yellobrik SPG 1708 sync pulse generator",
+  "family": "yellobrik",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: output counts. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Bi / Tri-level Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "WCLK / DARS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otx-1712-2",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTX 1712-2",
+  "name": "yellobrik OTX 1712-2 analog sync / video to fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre LC, ST, SC or MM versions. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync / video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orx-1702-1",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORX 1702-1",
+  "name": "yellobrik ORX 1702-1 fibre to analog sync / video receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre LC, ST, SC or MM versions. Check: output count. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Sync / video Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pmv-1841",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PMV 1841",
+  "name": "yellobrik PMV 1841 quad-split multiviewer",
+  "family": "yellobrik",
+  "category": "monitor",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-cqs-1462",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "CQS 1462",
+  "name": "yellobrik CQS 1462 12G quad-link / single-link converter (2SI / SQD)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre In (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre Out (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pvd-1400",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PVD 1400",
+  "name": "yellobrik PVD 1400 12G-SDI frame synchroniser",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pvd-1800",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PVD 1800",
+  "name": "yellobrik PVD 1800 3G-SDI frame synchroniser with up / down / cross conversion",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: connector counts. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPI (input switch)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pdm-1484-d",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PDM 1484 D",
+  "name": "yellobrik PDM 1484 D 12G-SDI analog / AES audio embedder",
+  "family": "yellobrik",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: audio connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "Other",
+    "count": 4,
+    "prefix": "Analog / AES audio"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pdm-1484-b",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PDM 1484 B",
+  "name": "yellobrik PDM 1484 B 12G-SDI AES audio embedder",
+  "family": "yellobrik",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: AES connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "AES"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-pdm-1383",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "PDM 1383",
+  "name": "yellobrik PDM 1383 3G-SDI analog audio embedder",
+  "family": "yellobrik",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog audio (4 ch)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC (SFP)",
+    "count": 1,
+    "prefix": "Fibre SFP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-dvd-1417",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "DVD 1417",
+  "name": "yellobrik DVD 1417 12G-SDI 1x7 distribution amplifier",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 7,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-dvd-1423",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "DVD 1423",
+  "name": "yellobrik DVD 1423 dual 12G-SDI 1x3 distribution amplifier",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-dvd-1817",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "DVD 1817",
+  "name": "yellobrik DVD 1817 3G-SDI 1x7 distribution amplifier",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 7,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-dvd-1823",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "DVD 1823",
+  "name": "yellobrik DVD 1823 dual 3G-SDI 1x3 distribution amplifier",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-dva-1714",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "DVA 1714",
+  "name": "yellobrik DVA 1714 wideband analog video 1x4 distribution amplifier",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: connector type. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Video Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otr-1410",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTR 1410",
+  "name": "yellobrik OTR 1410 12G-SDI fibre transceiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otr-1414",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTR 1414",
+  "name": "yellobrik OTR 1414 4-channel 12G-SDI fibre transceiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1410",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1410",
+  "name": "yellobrik OBD 1410 12G-SDI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1414",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1414",
+  "name": "yellobrik OBD 1414 4-channel 12G-SDI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-ott-1414",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTT 1414",
+  "name": "yellobrik OTT 1414 4-channel 12G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orr-1404",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORR 1404",
+  "name": "yellobrik ORR 1404 4-channel fibre to 12G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-ott-1412",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTT 1412",
+  "name": "yellobrik OTT 1412 2-channel 12G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orr-1402",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORR 1402",
+  "name": "yellobrik ORR 1402 2-channel fibre to 12G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otx-1410",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTX 1410",
+  "name": "yellobrik OTX 1410 12G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orx-1400",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORX 1400",
+  "name": "yellobrik ORX 1400 fibre to 12G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 6,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otr-1810-1",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTR 1810-1",
+  "name": "yellobrik OTR 1810-1 3G-SDI fibre transceiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otr-1814",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTR 1814",
+  "name": "yellobrik OTR 1814 4-channel 3G-SDI fibre transceiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1810-2",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1810-2",
+  "name": "yellobrik OBD 1810-2 3G-SDI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1814",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1814",
+  "name": "yellobrik OBD 1814 4-channel 3G-SDI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Double-width module (takes two frame slots). Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 60,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-ott-1814",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTT 1814",
+  "name": "yellobrik OTT 1814 4-channel 3G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orr-1804",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORR 1804",
+  "name": "yellobrik ORR 1804 4-channel fibre to 3G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-ott-1812-1",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTT 1812-1",
+  "name": "yellobrik OTT 1812-1 2-channel 3G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orr-1802-2",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORR 1802-2",
+  "name": "yellobrik ORR 1802-2 2-channel fibre to 3G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otx-1812",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTX 1812",
+  "name": "yellobrik OTX 1812 3G-SDI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-orx-1802-2",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ORX 1802-2",
+  "name": "yellobrik ORX 1802-2 fibre to 3G-SDI receiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-otr-1210",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OTR 1210",
+  "name": "yellobrik OTR 1210 MADI coax to fibre transceiver",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1210",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1210",
+  "name": "yellobrik OBD 1210 MADI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-oet-1514",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OET 1514",
+  "name": "yellobrik OET 1514 1GbE fibre extender with 3-port switch",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1514-e",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1514 E",
+  "name": "yellobrik OBD 1514 E 1GbE bidirectional fibre extender with 3-port switch (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-oet-1910",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OET 1910",
+  "name": "yellobrik OET 1910 1 / 10GbE copper to fibre converter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fibre versions for single-mode, multimode or CWDM. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1910",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1910",
+  "name": "yellobrik OBD 1910 1 / 10GbE bidirectional fibre converter (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-odt-1510",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "ODT 1510",
+  "name": "yellobrik ODT 1510 serial and GPI fibre transmitter",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "GPI (2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 1,
+    "prefix": "Fibre"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-obd-1510-d",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OBD 1510 D",
+  "name": "yellobrik OBD 1510 D serial and GPI bidirectional fibre (simplex)",
+  "family": "yellobrik",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Serial / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre (simplex)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-osp-1812",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OSP 1812",
+  "name": "yellobrik OSP 1812 50/50 optical splitter (passive)",
+  "family": "yellobrik",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Single-mode LC, no power needed. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre Out"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-osp-1812m",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OSP 1812M",
+  "name": "yellobrik OSP 1812M 90/10 monitoring optical splitter (passive)",
+  "family": "yellobrik",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Single-mode LC, no power needed. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 2,
+    "prefix": "Fibre Out"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-osp-1814",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OSP 1814",
+  "name": "yellobrik OSP 1814 four-way optical splitter (passive)",
+  "family": "yellobrik",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Single-mode LC, no power needed. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 1,
+    "prefix": "Fibre In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Fibre",
+    "connector": "LC",
+    "count": 4,
+    "prefix": "Fibre Out"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ },
+ {
+  "id": "lynx-osw-1022",
+  "manufacturer": "Lynx Technik",
+  "partNumber": "OSW 1022",
+  "name": "yellobrik OSW 1022 2x2 optical switch (CWDM / DWDM)",
+  "family": "yellobrik",
+  "category": "patch",
+  "ru": 1,
+  "widthCols": 1,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Lynx Technik yellobrik catalog Rev55 (2026)",
+  "productUrl": "https://lynx-usa.com/wp-content/uploads/2026/05/Yellobrik_Catalog_Rev55.pdf",
+  "notes": "Check: GPI connector. Fits the RFR 1000 / RFR 1200 frames or stands alone. Check: module size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LC duplex",
+    "count": 2,
+    "prefix": "Fibre pair"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "GPO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or frame)"
+   }
+  ],
+  "formFactor": "yellobrik",
+  "boxMm": {
+   "w": 30,
+   "h": 41
+  }
+ }
+]

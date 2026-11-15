@@ -1,0 +1,538 @@
+[
+ {
+  "id": "tascam-cd-400u",
+  "manufacturer": "TASCAM",
+  "partNumber": "CD-400U",
+  "name": "CD-400U CD / SD / USB player with Bluetooth and AM/FM tuner, 1RU",
+  "family": "Media players",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "TASCAM CD-400U product page",
+  "productUrl": "https://tascam.com/us/product/cd-400u",
+  "notes": "482.6 x 45 x 300.5 mm, 3.3 kg, 20 W. Check: AC inlet type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Balanced Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Tuner Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "FM antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "AM antenna"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Aux In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 20,
+  "weightKg": 3.3
+ },
+ {
+  "id": "tascam-ss-cdr250n",
+  "manufacturer": "TASCAM",
+  "partNumber": "SS-CDR250N",
+  "name": "SS-CDR250N CD / memory recorder with network, 1RU",
+  "family": "Recorders",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "TASCAM SS-CDR250N product page",
+  "productUrl": "https://tascam.com/us/product/ss-cdr250n",
+  "notes": "CD plus SD / USB / CF recording, FTP and Telnet control over the LAN port. Check: connectors (taken from the SS-R250N).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Balanced In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Balanced Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF coax In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF coax Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Parallel"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-bd-mp4k",
+  "manufacturer": "TASCAM",
+  "partNumber": "BD-MP4K",
+  "name": "BD-MP4K 4K UHD Blu-ray player, 1RU",
+  "family": "Media players",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "TASCAM BD-MP4K product page",
+  "productUrl": "https://tascam.com/us/product/bd-mp4k",
+  "notes": "Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (main)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (sub / audio)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Balanced Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF coax Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-da-3000",
+  "manufacturer": "TASCAM",
+  "partNumber": "DA-3000",
+  "name": "DA-3000 stereo master recorder / ADDA converter, 1RU",
+  "family": "Recorders",
+  "category": "recorder",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "TASCAM DA-3000 product page",
+  "productUrl": "https://tascam.com/us/product/da-3000",
+  "notes": "DSD and PCM to 192 kHz on SD / CF. Check: connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Balanced In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Balanced Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Unbal Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-ml-32d",
+  "manufacturer": "TASCAM",
+  "partNumber": "ML-32D",
+  "name": "ML-32D 32-channel analog / Dante interface, 1RU",
+  "family": "Dante interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "TASCAM ML-32D product page",
+  "productUrl": "https://tascam.com/us/product/ml-32d",
+  "notes": "32 in / 32 out on TASCAM-pinout DB25s. Check: word clock and AC inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 4,
+    "prefix": "Analog In (DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 4,
+    "prefix": "Analog Out (DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "tascam-ml-16d",
+  "manufacturer": "TASCAM",
+  "partNumber": "ML-16D",
+  "name": "ML-16D 16-channel analog / Dante interface, 1RU",
+  "family": "Dante interfaces",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "TASCAM ML-16D product page",
+  "productUrl": "https://tascam.com/us/product/ml-16d",
+  "notes": "16 in / 16 out on TASCAM-pinout DB25s. Check: word clock and AC inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 2,
+    "prefix": "Analog In (DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 2,
+    "prefix": "Analog Out (DB25)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante Primary"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante Secondary"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

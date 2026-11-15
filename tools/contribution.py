@@ -146,7 +146,7 @@ add('vislink.json', 'vislink-ultrareceiver-ld', 'Vislink', 'UltraReceiver LD', '
 KV_SRC, KV_URL = 'Kiloview product catalogue 2025', 'https://www.kiloview.com/en/'
 add('kiloview-more.json', 'kiloview-ru03', 'Kiloview', 'RU03', 'RU03 3RU chassis for NDI encoder / decoder modules (16 channels)', 'Rack chassis', 'shelf', 3,
     [AC2], '3RU rack chassis holding up to 16 Kiloview NDI encode / decode modules (N-series boxes), 6 fans, redundant power, 3.8 kg. '
-    'Add the modules separately. Check: power inlets.', KV_SRC, KV_URL, verified=False)
+    'Add the modules separately. Check: power inlets.', KV_SRC, KV_URL, verified=False, carrier={'bays': 16, 'fits': ['Kiloview encoder']})
 add('kiloview-more.json', 'kiloview-cube-r1', 'Kiloview', 'CUBE R1', 'CUBE R1 multi-channel NDI recorder (2RU)', 'CUBE', 'computer', 2,
     [R('io', 'Ethernet', 'RJ45', 2, 'Network'), AC2],
     'Records and plays back up to 4 x 4Kp60 or 9 x 1080p60 NDI channels. Check: network ports and PSUs.', KV_SRC, KV_URL, verified=False)

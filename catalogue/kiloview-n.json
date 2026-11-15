@@ -1,0 +1,262 @@
+[
+ {
+  "id": "kiloview-n60",
+  "manufacturer": "Kiloview",
+  "partNumber": "N60",
+  "name": "N60 4K HDMI / USB to NDI bi-directional converter",
+  "family": "N series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Videoguys N60 listing",
+  "productUrl": "https://videoguys.com/collections/kiloview/products/kiloview-n60-4k-hdmi-usb-to-ndi-bi-directional-converter",
+  "notes": "135 x 105 x 35 mm, 480 g, 16 W max. Fits the RU01 (4 per 1RU) and RU03 frames.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out / Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 1 (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or PoE)"
+   }
+  ],
+  "formFactor": "Kiloview encoder",
+  "boxMm": {
+   "w": 105,
+   "h": 35
+  },
+  "powerW": 16,
+  "weightKg": 0.48
+ },
+ {
+  "id": "kiloview-n50",
+  "manufacturer": "Kiloview",
+  "partNumber": "N50",
+  "name": "N50 12G-SDI / USB to NDI bi-directional converter",
+  "family": "N series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview N50 dealer listing",
+  "productUrl": "https://avlgear.com/collections/video-production/products/kiloview-n50-12g-sdi-usb-to-ndi-bi-directional-converter",
+  "notes": "SDI sister of the N60. Fits the RU01 and RU03 frames. Check: ports and size (taken from the N60).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out / Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 1 (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or PoE)"
+   }
+  ],
+  "formFactor": "Kiloview encoder",
+  "boxMm": {
+   "w": 105,
+   "h": 35
+  }
+ },
+ {
+  "id": "kiloview-n40",
+  "manufacturer": "Kiloview",
+  "partNumber": "N40",
+  "name": "N40 4K HDMI to NDI bi-directional converter",
+  "family": "N series",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kiloview N40 dealer listing",
+  "productUrl": "https://kiloview.com/en/ndi/4k-hdmi",
+  "notes": "Fits the RU01 (4 per 1RU), RN01 and RU03 frames. Check: ports and size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out / Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (or PoE)"
+   }
+  ],
+  "formFactor": "Kiloview encoder",
+  "boxMm": {
+   "w": 105,
+   "h": 35
+  }
+ }
+]

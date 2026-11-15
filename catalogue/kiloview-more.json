@@ -22,7 +22,13 @@
     "count": 2,
     "prefix": "PSU"
    }
-  ]
+  ],
+  "carrier": {
+   "bays": 16,
+   "fits": [
+    "Kiloview encoder"
+   ]
+  }
  },
  {
   "id": "kiloview-cube-r1",

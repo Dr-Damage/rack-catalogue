@@ -38,7 +38,13 @@
     "count": 2,
     "prefix": "PSU fail GPO"
    }
-  ]
+  ],
+  "carrier": {
+   "bays": 14,
+   "fits": [
+    "yellobrik"
+   ]
+  }
  },
  {
   "id": "lynx-rfr-6000",
@@ -79,6 +85,12 @@
     "count": 1,
     "prefix": "PSU fail GPI"
    }
-  ]
+  ],
+  "carrier": {
+   "bays": 2,
+   "fits": [
+    "greenMachine"
+   ]
+  }
  }
 ]

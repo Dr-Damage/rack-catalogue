@@ -911,7 +911,7 @@
   "verified": false,
   "source": "AVPro Edge matrix switcher list (2025)",
   "productUrl": "https://www.avproedge.com/ac-ezrack-15-taa",
-  "notes": "Rack chassis for up to 15 AVPro extenders. Check: rack height.",
+  "notes": "Rack chassis for up to 15 AVPro extenders. Check: rack height, and which extenders fit (none in the catalogue yet).",
   "portGroups": [
    {
     "face": "rear",
@@ -921,12 +921,6 @@
     "count": 1,
     "prefix": "AC In"
    }
-  ],
-  "carrier": {
-   "bays": 15,
-   "fits": [
-    "AVPro extender"
-   ]
-  }
+  ]
  }
 ]

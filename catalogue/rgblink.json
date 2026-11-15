@@ -1,0 +1,61 @@
+[
+ {
+  "id": "rgblink-flex-8",
+  "manufacturer": "RGBlink",
+  "partNumber": "FLEX 8",
+  "name": "FLEX 8 modular 8x8 switcher / scaler, 1RU",
+  "family": "FLEX",
+  "category": "switcher",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "RGBlink FLEX 8 specification V1.1",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0150/7190/3844/files/FLEX_8_Specification_EN_V1.1_20190416.pdf",
+  "notes": "Up to 8 inputs and 8 outputs on plug-in modules (SDI, HDMI, DVI, DisplayPort, HDBaseT, USB). 484 x 463 x 45 mm, 2.5 kg, 200 W max. Add the fitted modules to the notes. Check: modules per slot.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Input module slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Output module slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 200,
+  "weightKg": 2.5
+ }
+]

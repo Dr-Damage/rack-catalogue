@@ -1,0 +1,279 @@
+[
+ {
+  "id": "panasonic-at-kc200l1",
+  "manufacturer": "Panasonic",
+  "partNumber": "AT-KC200L1",
+  "name": "KAIROS Core 200L1 live production mainframe, 4RU",
+  "family": "KAIROS",
+  "category": "switcher",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Panasonic KAIROS specifications page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/it_ip_platform/spec.html",
+  "notes": "430 x 176 x 505 mm, about 17.8 kg. Three SDI boards fitted (24 in / 12 out 3G, or 12 in / 6 out 4K), up to 32 / 16 with the fourth board; optional ST 2110 board with 2 x 100G QSFP28. Controlled from the KAIROS panels or software.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 24,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "HD-BNC",
+    "count": 12,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "HD-BNC",
+    "count": 6,
+    "prefix": "Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "Multiview"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Option board slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB (system)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA (system)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "AC In (redundant)"
+   }
+  ],
+  "weightKg": 17.8
+ },
+ {
+  "id": "panasonic-ak-ucu600",
+  "manufacturer": "Panasonic",
+  "partNumber": "AK-UCU600",
+  "name": "AK-UCU600 4K camera control unit, 2RU",
+  "family": "Studio cameras",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Panasonic AK-UCU600 product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ak-ucu600/",
+  "notes": "424 x 88 x 401 mm, 8.9 kg, 500 W with camera (90 W without); powers the camera head over the fibre. Check: intercom, tally and control connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "Camera"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "12G-SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 5,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "CVBS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Trunk Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TICO Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Return CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "Prompter CVBS In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Mic Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "PGM In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "Trunk data"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "ROP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "MSU"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 500,
+  "weightKg": 8.9
+ }
+]

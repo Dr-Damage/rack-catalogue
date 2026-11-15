@@ -1,0 +1,51 @@
+[
+ {
+  "id": "matrox-monarch-edge-d4",
+  "manufacturer": "Matrox",
+  "partNumber": "Monarch EDGE D4",
+  "name": "Monarch EDGE D4 4-channel decoder, half-rack 1RU",
+  "family": "Monarch EDGE",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Matrox Monarch EDGE tech specs",
+  "productUrl": "https://video.matrox.com/en/products/encoders-decoders/monarch-edge-series/monarch-edge-tech-specs",
+  "notes": "Decode partner of the Monarch EDGE E4 (4 x HD or 1 x 4K). Check: ports (taken from the E4).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

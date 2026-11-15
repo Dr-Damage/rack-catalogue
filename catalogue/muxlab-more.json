@@ -1,0 +1,112 @@
+[
+ {
+  "id": "muxlab-500451-tx",
+  "manufacturer": "MuxLab",
+  "partNumber": "500451-TX",
+  "name": "500451-TX HDMI over HDBaseT extender transmitter, UHD-4K",
+  "family": "HDBaseT extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MuxLab 500451 data sheet v1.4",
+  "productUrl": "https://muxlab.com/wp-content/uploads/2019/05/DS-500451_v1.4.pdf",
+  "notes": "Sold as the 500451 kit (TX + RX). 4K up to 40 m, 1080p up to 70 m, 1.6 W. Fits the 500905 (3 per 1U) and 500920 (16 in 3U) chassis. Check: case size (chassis take 111 x 75 x 25 mm units).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "IR"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "MuxLab extender",
+  "boxMm": {
+   "w": 111,
+   "h": 25
+  },
+  "powerW": 1.6
+ },
+ {
+  "id": "muxlab-500451-rx",
+  "manufacturer": "MuxLab",
+  "partNumber": "500451-RX",
+  "name": "500451-RX HDMI over HDBaseT extender receiver, UHD-4K",
+  "family": "HDBaseT extenders",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "MuxLab 500451 data sheet v1.4",
+  "productUrl": "https://muxlab.com/wp-content/uploads/2019/05/DS-500451_v1.4.pdf",
+  "notes": "Sold as the 500451 kit (TX + RX). 4K up to 40 m, 1080p up to 70 m, 3.2 W. Fits the 500905 (3 per 1U) and 500920 (16 in 3U) chassis. Check: case size (chassis take 111 x 75 x 25 mm units).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT link"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5mm",
+    "count": 2,
+    "prefix": "IR"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "formFactor": "MuxLab extender",
+  "boxMm": {
+   "w": 111,
+   "h": 25
+  },
+  "powerW": 3.2
+ }
+]

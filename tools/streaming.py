@@ -125,7 +125,8 @@ KV('ru01', 'RU01', 'RU01 1RU rack frame for 4 encoders (redundant power)', 'Rack
    [F('io', 'Other', 'Card slot', 4, 'Encoder bay'), R('in', 'Power', 'DC', 2, 'PSU')],
    '1RU, 483 x 150 x 44 mm. Holds 4 Kiloview FULL NDI encoders/decoders (all except U40) with 2 x 35 W supplies for redundancy. '
    'Add each unit as its own device with its ports. Check: power inlet type.', 'Kiloview RU01 dealer listing',
-   'https://videoguys.com/products/kiloview-ru01-1ru-4ch-redundant-power-rackmount-frame', verified=False)
+   'https://videoguys.com/products/kiloview-ru01-1ru-4ch-redundant-power-rackmount-frame', verified=False,
+   carrier={'bays': 4, 'fits': ['Kiloview encoder']})
 
 # ---------------- TASCAM ----------------
 TA = lambda *a, **k: add('tascam.json', 'tascam-', 'TASCAM', *a, **k)
@@ -177,11 +178,13 @@ add('lynx.json', 'lynx-', 'Lynx Technik', 'rfr-1000', 'RFR 1000', 'yellobrik RFR
     [F('io', 'Other', 'Card slot', 14, 'yellobrik bay'), R('in', 'Power', 'Molex Mini-Fit', 2, '12V DC (primary/redundant)'),
      R('out', 'Other', 'Other', 2, 'PSU fail GPO')],
     '1RU, 145 mm deep. Holds up to 14 yellobriks; two 12 V DC inputs (RPS 1000 12 V 8 A supplies, one or two). Add each yellobrik as its own '
-    'device with its ports.', 'Lynx Technik RFR 1000 specification sheet', 'https://lynx-technik.com/p/rfr-1000/')
+    'device with its ports.', 'Lynx Technik RFR 1000 specification sheet', 'https://lynx-technik.com/p/rfr-1000/',
+    carrier={'bays': 14, 'fits': ['yellobrik']})
 add('lynx.json', 'lynx-', 'Lynx Technik', 'rfr-6000', 'RFR 6000', 'greenMachine RFR 6000 1RU rack frame (2 units)', 'greenMachine', 'shelf', 1,
     [F('io', 'Other', 'Card slot', 2, 'greenMachine bay'), R('in', 'Power', '12V DC', 2, 'RPS A100 PSU'), R('out', 'Other', 'Other', 1, 'PSU fail GPI')],
     '1RU frame for 1 or 2 greenMachine units, two RPS A100 supplies (sold separately) for redundancy. Add each greenMachine as its own device.',
-    'Lynx Technik RFR 6000 page', 'https://lynx-technik.com/p/rfr-6000/')
+    'Lynx Technik RFR 6000 page', 'https://lynx-technik.com/p/rfr-6000/',
+    carrier={'bays': 2, 'fits': ['greenMachine']})
 
 # ---------------- Lumens ----------------
 add('lumens.json', 'lumens-', 'Lumens', 'lc200', 'LC200', 'LC200 CaptureVision media processor (switch/record/stream)', 'CaptureVision', 'switcher', 1,

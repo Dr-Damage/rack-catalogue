@@ -1,0 +1,133 @@
+[
+ {
+  "id": "vizrt-3play-3p2",
+  "manufacturer": "Vizrt (NewTek)",
+  "partNumber": "3Play 3P2",
+  "name": "3Play 3P2 replay system, 2RU",
+  "family": "3Play",
+  "category": "recorder",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Markertek 3Play 3P2 listing",
+  "productUrl": "https://www.markertek.com/product/tri-3p22ru/vizrt-3play-3p2-10-channel-instant-sports-replay-production-system-with-ndi-3g-sdi",
+  "notes": "483 x 89 x 497 mm, 12 kg, one 400 W PSU. 8 inputs (4 SDI + NDI), 2 outputs. Pairs with the 3P1 control surface. Discontinued. Check: headphone location.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI Out (A / B or quad-link)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "XLR In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "XLR Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-D",
+    "count": 1,
+    "prefix": "UI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Multiview"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "Multiview"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 400,
+  "weightKg": 12
+ }
+]

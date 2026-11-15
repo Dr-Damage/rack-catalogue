@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "aba1b242c2a4",
- "updated": "2026-11-15T13:41:40Z",
- "entries": 2878,
+ "version": "715f10c1c333",
+ "updated": "2026-11-15T13:57:37Z",
+ "entries": 2966,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -135,9 +135,9 @@
    "bytes": 2289
   },
   "kiloview.json": {
-   "sha256": "19f1ab9516c39fc8553bec24eeb74328ae5f23ceefacd3cf74fb38758b75e763",
+   "sha256": "573d02801d55ab9079332691f2a3aa037c8086e963cdf0f52942990c818564fa",
    "entries": 2,
-   "bytes": 2415
+   "bytes": 2490
   },
   "tascam.json": {
    "sha256": "39e51a5dee58d64c34422480722559d13dc2249c1990f78653dda12ad5928d53",
@@ -155,9 +155,9 @@
    "bytes": 5870
   },
   "lynx.json": {
-   "sha256": "a711dad04d8b545c99616997652e5aef11eba8b42aab0419b8a52eff4a033f72",
+   "sha256": "b5687de6f824a1b3b406bc5feed43c7b03741007de891433cb516a8dce9399c8",
    "entries": 2,
-   "bytes": 2013
+   "bytes": 2153
   },
   "lumens.json": {
    "sha256": "e2e6f38767fc7902318810cec2a22407f9f33f36f8dd485fa535fc2d27712026",
@@ -480,9 +480,9 @@
    "bytes": 4303
   },
   "kiloview-more.json": {
-   "sha256": "6b2e5266dab9a50b73ff614ff444b69f3d630ea8e84ad17f5ddabf0aa70b0e3c",
+   "sha256": "28c3000df01d067fbe1ee754f82346bb9a473255c9d690968e9ad3d99ed0e3ca",
    "entries": 3,
-   "bytes": 2405
+   "bytes": 2481
   },
   "haivision-more.json": {
    "sha256": "cf690f5c0af84ee73168996503d2215cb608193a64d4ba8c915845db6f12134e",
@@ -1070,9 +1070,9 @@
    "bytes": 9753
   },
   "avpro-edge.json": {
-   "sha256": "af5b600dcf6f7d77ee07329eccf5cd0d14c9e17726624a3a959adb0234a9f2da",
+   "sha256": "69acbbb26d413d4d875d3dd3f4da5d0f78717be4d4292b1011aafde8b55c3395",
    "entries": 14,
-   "bytes": 18812
+   "bytes": 18791
   },
   "kanexpro.json": {
    "sha256": "6f77881811ecd24a1d22b6d7c358d49b483bed5733847408afbde4ffbeea5b40",
@@ -1110,9 +1110,9 @@
    "bytes": 24445
   },
   "kramer-more.json": {
-   "sha256": "89b2fd5d27fdc0df0fb44207e3a2c6312cc6e0d0f632bd257cebeff990987e15",
+   "sha256": "f0f12633a7e56df5f51b1624e050faf43403afcdb6b231a74e65a9bdbba87cfd",
    "entries": 20,
-   "bytes": 25173
+   "bytes": 25130
   },
   "wheatstone.json": {
    "sha256": "fa8fd5196d9464dc0abf2b6be4508d756b42f7d7dc15b1ab27f88dd087cef56b",
@@ -1138,6 +1138,91 @@
    "sha256": "c03f2b6b024ef4e5e86d6bd9cc1f817b5c15c90aef05aecc220602b2e77e45d6",
    "entries": 9,
    "bytes": 11235
+  },
+  "lynx-yellobrik.json": {
+   "sha256": "d6d385fc85bb5540c636e70f3d5ec671717f11803063f8e322f03d354944e4a8",
+   "entries": 57,
+   "bytes": 68390
+  },
+  "lynx-greenmachine.json": {
+   "sha256": "6a34a45976aa3d53fa6dd0646fbb87d6050336adb020292ab8b7429bb12e9792",
+   "entries": 2,
+   "bytes": 5360
+  },
+  "kiloview-n.json": {
+   "sha256": "b44ea4bc711ed5994ca7a738682224f1e2aa29f2a74f4284a786983a14e1f647",
+   "entries": 3,
+   "bytes": 5212
+  },
+  "bzbgear-ipgear.json": {
+   "sha256": "c4b52ef2b1d6a9eeab081ccd8a802eed6ad1bc948abbfd341e819dd83f0bf07f",
+   "entries": 3,
+   "bytes": 5480
+  },
+  "avpro-mxnet.json": {
+   "sha256": "761a484e52e6838128e040dca4ced7c5d40790cfec0652f9fa911ed2d2a44f5b",
+   "entries": 2,
+   "bytes": 3863
+  },
+  "muxlab-more.json": {
+   "sha256": "a9560eeb89f2c13e9c5e490bb45f4a87bbdc714cc8d56f38c492022098d102c7",
+   "entries": 2,
+   "bytes": 2563
+  },
+  "kramer-megatools.json": {
+   "sha256": "b8387eafade0bc8f642e56402571778de33c0a7daeb67c39cbaacfb6bc9ed1bf",
+   "entries": 1,
+   "bytes": 1124
+  },
+  "tascam-more.json": {
+   "sha256": "23bc4b2313f505ecd11c8de45b4755a73e5f6f99cb295938d38b004609ae6b54",
+   "entries": 6,
+   "bytes": 10522
+  },
+  "vitec-more.json": {
+   "sha256": "4564328ea34b1c7ac46f142772a582c8d56fee8e00636552355ac4cc294a7568",
+   "entries": 3,
+   "bytes": 5555
+  },
+  "magewell.json": {
+   "sha256": "5d41a09024f025d755f28155032d3a202f942393251bfb772ee8faf5beecd31b",
+   "entries": 1,
+   "bytes": 1998
+  },
+  "matrox-more.json": {
+   "sha256": "4d433cec5b17e956d96a12dad774e2971e3d12d158cafd647bad347bc335bdb5",
+   "entries": 1,
+   "bytes": 1127
+  },
+  "panasonic-more.json": {
+   "sha256": "6cc560e94bfe730375a5bd4ebd75fc7b7c16c7a388e39cb85c3bd9dbfb89883e",
+   "entries": 2,
+   "bytes": 5505
+  },
+  "sony-bpu.json": {
+   "sha256": "00577a6f63585d2cc5c5c9d72fec62ade54eb4e2fd4b49f4e70f33ef8caae5ac",
+   "entries": 1,
+   "bytes": 3638
+  },
+  "vizrt-more.json": {
+   "sha256": "6739ada7c8dc73c2049d8fa50c12b08c1522f6a34efa09c5998102e70f29f0d5",
+   "entries": 1,
+   "bytes": 2644
+  },
+  "epiphan-more.json": {
+   "sha256": "2c0e111c3928cc538f20bf46d50c8a0e054eb8c201cf4210f330b7a9526a02bb",
+   "entries": 1,
+   "bytes": 2194
+  },
+  "rgblink.json": {
+   "sha256": "159736d02e75b68e01e53de116590214a5dec194ff9f770d13cd5d51511275ae",
+   "entries": 1,
+   "bytes": 1392
+  },
+  "vaddio.json": {
+   "sha256": "1a204c55999b0bf2d7186cf9a17ce247d1dca59d00f61b2a57e21619d202b7ef",
+   "entries": 1,
+   "bytes": 1466
   }
  }
 }

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "vaddio-av-bridge-mini",
+  "manufacturer": "Vaddio",
+  "partNumber": "999-8240-000",
+  "name": "AV Bridge Mini HDMI / audio to USB and IP encoder, half-rack",
+  "family": "AV Bridge",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vaddio AV Bridge Mini specifications",
+  "productUrl": "https://www.markertek.com/Attachments/Specifications/Vaddio/999-8240-000-Specifications.pdf",
+  "notes": "213 x 44 x 152 mm, powered by PoE (802.3af, injector included). Ships with a 1RU rack kit. Check: audio connector type.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Mic / line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   }
+  ]
+ }
+]
