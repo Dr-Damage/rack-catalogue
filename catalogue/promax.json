@@ -1,0 +1,75 @@
+[
+ {
+  "id": "promax-mo-480",
+  "manufacturer": "Promax",
+  "partNumber": "MO-480",
+  "name": "MO-480 broadcast DVB-T / T2 modulator (SFN/MFN), 1U",
+  "family": "MO",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Promax MO-480 page",
+  "productUrl": "https://www.promaxelectronics.com/ing/products/modulators/MO-480-481/broadcast-grade-dvb-t2-modulator/",
+  "notes": "Broadcast-grade DVB-T / T2 modulator for SFN and MFN, 30-900 MHz output. Check: connector types and PSU.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI / T2-MI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "TS over IP In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,132 @@
+[
+ {
+  "id": "mediakind-rx8200",
+  "manufacturer": "MediaKind",
+  "partNumber": "RX8200",
+  "name": "RX8200 advanced modular receiver (IRD), 1U",
+  "family": "RX8000",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "MediaKind RX8200 data sheet",
+  "productUrl": "https://www.mediakind.com/wp-content/uploads/2020/10/RX8200-Datasheet.pdf",
+  "notes": "Ericsson / MediaKind satellite IRD: 4 L-band inputs (DVB-S / S2 / S2X), ASI and IP TS input, MPEG-2 / H.264 / HEVC decode, BISS and Common Interface CA. 442.5 x 545 x 44 mm, 100 W max. Audio comes on two D9 connectors with XLR or screw-terminal breakout cables. Check: management port and CAM slot count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "L-band In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Frame Sync In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 3,
+    "prefix": "SDI / ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "YPbPr / RGB Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Balanced Audio (2 analog + 2 AES pairs each)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "TS over IP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote Control"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Data"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Alarm Relays"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "CI slot",
+    "count": 2,
+    "prefix": "CAM"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 100
+ }
+]

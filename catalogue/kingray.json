@@ -1,0 +1,51 @@
+[
+ {
+  "id": "kingray-kr110",
+  "manufacturer": "Kingray",
+  "partNumber": "KR110",
+  "name": "KR110 headend frame (10 x KCC110 combiners + KLA110 launch amp)",
+  "family": "Headend",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Bitek listing (Kingray KR110)",
+  "productUrl": "https://bitek.com.au/kingray-19-rack-or-wall-mountable-frame",
+  "notes": "Australian 19-inch rack or wall frame (reversible brackets) for up to ten KCC110 channel combiner modules and one KLA110 launch amplifier / power supply, for combining modulators and off-air channels onto one UHF/VHF feed. Check: rack height (estimated 3U) and connector faces.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 10,
+    "prefix": "KCC110 Ch In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "KLA110 RF Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "Test Point"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Mains In"
+   }
+  ]
+ }
+]

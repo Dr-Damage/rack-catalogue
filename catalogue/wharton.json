@@ -1,0 +1,67 @@
+[
+ {
+  "id": "wharton-5400",
+  "manufacturer": "Wharton",
+  "partNumber": "5400",
+  "name": "5400 NTP time server / master clock (dual PSU)",
+  "family": "5000 Series",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canford Wharton 5000 Series page",
+  "productUrl": "https://canford.co.uk/WHARTON-CLOCKS-NTP-Time-Servers-Ethernet-5000-Series",
+  "notes": "Rack-mount NTP / SNTP time server that also drives Wharton slave clocks (w482 mode up to fifty 4000E/NE clocks, impulse, DCF77/MSF) and outputs IRIG-B / EBU time code. GPS time comes from the 488HS4-GPS receiver. 5400 and 5600 have factory-fit dual redundant AC; others take a single AC or 24/48 V DC. Check: rack height and connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP Server"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Time Ref In (488HS4-GPS option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "zCode / Slave Clock Drive"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 2,
+    "prefix": "AFOUT IRIG-B / EBU LTC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "SER23 RS-232/485 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

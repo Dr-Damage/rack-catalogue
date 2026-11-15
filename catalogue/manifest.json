@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "53a17846bd11",
- "updated": "2026-11-15T10:53:07Z",
- "entries": 2145,
+ "version": "4c89e7ff6b44",
+ "updated": "2026-11-15T10:55:52Z",
+ "entries": 2180,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -713,6 +713,136 @@
    "sha256": "d695f81dc8037529e7e958d6b445cb04479a99a02995bfbe88c961df84adbcdf",
    "entries": 31,
    "bytes": 20603
+  },
+  "masterclock.json": {
+   "sha256": "77477d93f8f1e070185763f66bdfb42e1e0b1a79fb520ec04c3c4b2c355648b2",
+   "entries": 2,
+   "bytes": 3921
+  },
+  "ese.json": {
+   "sha256": "86aa680e36a4abebf4388f7be8c89244e3bddf3951b157eac7b144be7c66363c",
+   "entries": 2,
+   "bytes": 3181
+  },
+  "wharton.json": {
+   "sha256": "c0700ece04bec0c17e5cae17eef73e96112e92d6339d2b79a915b679ab606ed2",
+   "entries": 1,
+   "bytes": 1686
+  },
+  "timemachines.json": {
+   "sha256": "c9f042ccb0383c8636acdb22f8aabe014b4af958c838ff6dab3dd9a7ea1646a4",
+   "entries": 2,
+   "bytes": 1897
+  },
+  "safran.json": {
+   "sha256": "2768b82815d08eaca59a2585d0357f2bcfca69eb8bbc22580e44f3db710494d5",
+   "entries": 1,
+   "bytes": 1822
+  },
+  "microchip-timing.json": {
+   "sha256": "46c9b79472d531dd4e3926ddb92c7f64ccc82a61ce8751119fed2f0c2c6f0ebf",
+   "entries": 1,
+   "bytes": 1724
+  },
+  "rosendahl.json": {
+   "sha256": "e50ac3955a8430dda38c3cec7b7d5207101a16bb08947754cf582d345821cc48",
+   "entries": 1,
+   "bytes": 1846
+  },
+  "meinberg-more.json": {
+   "sha256": "dca2e6b3cfea8097c13ed93beb7a6dd17fb01c2ad33994d391008ef54f401680",
+   "entries": 1,
+   "bytes": 1728
+  },
+  "mediakind.json": {
+   "sha256": "2cf2f834a88240cce8567cc2ddbfcc29b1ab89664e2c9e026b537dac8d965cec",
+   "entries": 1,
+   "bytes": 2731
+  },
+  "synamedia.json": {
+   "sha256": "a7bb7c84d6f6a93f7cb149f1142493435debb768b8a298a31ff98196a4b6b8eb",
+   "entries": 2,
+   "bytes": 4835
+  },
+  "sencore-more.json": {
+   "sha256": "cd7356c46efdcea21ef6f9b0cfc127120d6af1994ddf8136d92df99088174159",
+   "entries": 1,
+   "bytes": 2013
+  },
+  "ateme-more.json": {
+   "sha256": "4e4b9bf915624f8511400103bf8e85d77f0f6bb92cf3dc3219c24e487eca6e63",
+   "entries": 1,
+   "bytes": 1592
+  },
+  "harmonic-more.json": {
+   "sha256": "c432974617e7357d8e411c10dac37095b25739c5b40cd6fa2c21bf7fcf1f4d03",
+   "entries": 1,
+   "bytes": 1994
+  },
+  "comtech.json": {
+   "sha256": "4302fbabe567f6941a75dea27ef197dca0a4a0c7bb39fcff8124d40a973aeeec",
+   "entries": 1,
+   "bytes": 2020
+  },
+  "dev.json": {
+   "sha256": "fd8ce82947e972a64bf204015ce1d573855c56895025daf0c2ae430b2ee6d978",
+   "entries": 1,
+   "bytes": 1597
+  },
+  "tait.json": {
+   "sha256": "8c95e0dd6c2edeb6c98493d731a867bd131f4e45eced6f30fb9f02a3bda1a89b",
+   "entries": 4,
+   "bytes": 6773
+  },
+  "motorola-radio.json": {
+   "sha256": "0a8eca2359e2573cbf9fa9777785dd580047a58aab61a48aa6358a43e2a58b65",
+   "entries": 3,
+   "bytes": 4894
+  },
+  "hytera.json": {
+   "sha256": "3352304f0eead0bfbb4d162b5cee74b63c65bcecb37922ccaef5f0e27608e00b",
+   "entries": 1,
+   "bytes": 1463
+  },
+  "kenwood-radio.json": {
+   "sha256": "ce53d87f1580a33675a1bcd41473ad480b7f3f6902d333e71f07ef51ea12fe85",
+   "entries": 1,
+   "bytes": 1364
+  },
+  "icom.json": {
+   "sha256": "e7e2ab10d8f186919a271f900e08e7e1bb0001f6470315669f2c78e0131495d5",
+   "entries": 1,
+   "bytes": 1299
+  },
+  "simoco.json": {
+   "sha256": "89f61b7a1f510955cdf18cd8e68434bb2c98f45b9d2f582572e9102d9aae5ae4",
+   "entries": 1,
+   "bytes": 1275
+  },
+  "wisi.json": {
+   "sha256": "f692736e74efbb8c7ad860b9fb2170355e22c9ed5587057d3a42c68a6afe78fb",
+   "entries": 1,
+   "bytes": 1651
+  },
+  "promax.json": {
+   "sha256": "51035a3e30d0ccf687bb755e3031912199755d31a031bdcb5b63709679f0db69",
+   "entries": 1,
+   "bytes": 1521
+  },
+  "thor.json": {
+   "sha256": "4c3770efe6f8ad8e6d1e455d6174a49f5695925671846cbfcccb1dbaf2209459",
+   "entries": 1,
+   "bytes": 1315
+  },
+  "blondertongue.json": {
+   "sha256": "53fc95cee1bbd54b4123413f725bd68d915f5d5f03834382c8ae63b1342a8b5a",
+   "entries": 1,
+   "bytes": 1118
+  },
+  "kingray.json": {
+   "sha256": "5285576ca1f613e6649a904171945a24dfb9ff4b29035903851a696af7ac752f",
+   "entries": 1,
+   "bytes": 1262
   }
  }
 }

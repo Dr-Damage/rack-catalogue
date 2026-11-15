@@ -1,0 +1,237 @@
+[
+ {
+  "id": "cisco-d9800",
+  "manufacturer": "Cisco (Synamedia)",
+  "partNumber": "D9800",
+  "name": "D9800 network transport receiver, 1U",
+  "family": "D98xx",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Synamedia D9800 data sheet",
+  "productUrl": "https://www.synamedia.com/wp-content/uploads/2019/04/Synamedia-D9800-Network-Transport-Receiver-Data-Sheet.pdf",
+  "notes": "PowerVu / DVB satellite receiver-decoder (successor to the D9854/D9858). Four tuners (one active by default), +13/18 V LNB power on input 1, HDMI monitoring, 2 SDI out. 441 x 514 x 44 mm, 6.8-10 kg, 70-82 W. Check: ASI and Ethernet port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "L-band In (LNB power on 1)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "TS over IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES-3id Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Balanced Audio Pair"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Cue Tone"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Cue Triggers (8)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "CI slot",
+    "count": 2,
+    "prefix": "CAM (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 82
+ },
+ {
+  "id": "cisco-d9854",
+  "manufacturer": "Cisco",
+  "partNumber": "D9854",
+  "name": "D9854 advanced program receiver (legacy IRD), 1U",
+  "family": "D98xx",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Cisco D9854 installation manual (manualslib)",
+  "productUrl": "https://www.manualslib.com/manual/1261104/Cisco-D9854.html",
+  "notes": "Older PowerVu IRD still common in MCRs taking network feeds; replaced by the D9800. Check: all counts (from the D9854 manual summary).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "L-band In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Composite Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Audio Pair"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Data / Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

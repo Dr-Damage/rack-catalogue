@@ -1,0 +1,83 @@
+[
+ {
+  "id": "meinberg-lantime-m300",
+  "manufacturer": "Meinberg",
+  "partNumber": "LANTIME M300",
+  "name": "LANTIME M300 GPS NTP time server, 1U",
+  "family": "LANTIME",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Meinberg LANTIME M300 data sheet",
+  "productUrl": "https://NOC.ac.uk/files/documents/facilities/james_cook/Meinberg_LANtime_M300_Datasheet.pdf",
+  "notes": "Classic 1U NTP server with a built-in GPS receiver and front display. Extra Ethernet ports with the LAN option. Check: rear connectors (from the M300 data sheet summary).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GPS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "COM"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Error Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

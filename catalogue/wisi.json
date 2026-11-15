@@ -1,0 +1,68 @@
+[
+ {
+  "id": "wisi-chameleon-gn20r",
+  "manufacturer": "WISI",
+  "partNumber": "GN20R",
+  "name": "Chameleon GN20R chassis (2 modules, dual PSU), 1U",
+  "family": "Chameleon",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "WISI Chameleon data sheet rev G",
+  "productUrl": "https://amt.com/wp-content/uploads/2023/07/WISI_Chameleon_DS_RevG-1.pdf",
+  "notes": "Headend chassis, 482.6 x 44.45 x 235 mm, for two Chameleon software-defined modules (each: 2 RF in, 2 ASI BNC, RF out, management and GbE streaming). Modules receive DVB-S2/T2/C, transcode and modulate to DVB-T/C or IP. Encoder modules take 4 HDMI (GNHWENC2H) or 4 HD-SDI (GNHWENC2S). GN20B is the single-PSU version; GN50 is the 3U 10-module chassis. Under 60 W. Check: connector types.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "RF In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "ASI In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Streaming"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 60
+ }
+]

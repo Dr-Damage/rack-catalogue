@@ -1,0 +1,51 @@
+[
+ {
+  "id": "blondertongue-rmda-1000-42p",
+  "manufacturer": "Blonder Tongue",
+  "partNumber": "RMDA-1000-42P",
+  "name": "RMDA-1000-42P rack mount distribution amplifier, 1U",
+  "family": "RMDA",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blonder Tongue RMDA-1000-42P page",
+  "productUrl": "https://www.blondertongue.com/product/rmda-1000-42p",
+  "notes": "42 dB, 54-1000 MHz forward-path broadband RF amplifier with gain and slope controls and in/out test points. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Test Point -30 dB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "kenwood-nxr-5800",
+  "manufacturer": "Kenwood",
+  "partNumber": "NXR-5800",
+  "name": "NXR-5800 UHF NXDN / DMR repeater, 2U",
+  "family": "NXR-5000",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Kenwood NXR-5700/5800 brochure",
+  "productUrl": "https://www.kenwood.com/ca/com/systems/nxr-5700_5800/spec.html",
+  "notes": "UHF 380-470 MHz digital / analogue repeater, up to 50 W. NXR-5700 is the VHF 136-174 MHz version. Check: height and ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Accessory"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

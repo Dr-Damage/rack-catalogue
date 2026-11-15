@@ -1,0 +1,76 @@
+[
+ {
+  "id": "timemachines-tm160",
+  "manufacturer": "Time Machines",
+  "partNumber": "TM160",
+  "name": "TM160 PoE NTP clock display, 0.5-inch digits (rack plate)",
+  "family": "Rack clocks",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Time Machines product page",
+  "productUrl": "https://timemachinescorp.com/product/rack-mount-0-5-inch-poe-ntp-clock/",
+  "notes": "Small red-LED NTP clock powered from PoE (127 x 107 x 33 mm). Fits a 1U face plate: 760-022-000 single, or 760-023-000 dual to share the space with a TM1000/TM2000/TM2500 time server, so drawn half width.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PoE / NTP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay"
+   }
+  ]
+ },
+ {
+  "id": "timemachines-tm2000",
+  "manufacturer": "Time Machines",
+  "partNumber": "TM2000A",
+  "name": "TM2000A GPS / GNSS NTP and PTP time server (rack plate)",
+  "family": "Time servers",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Time Machines product range",
+  "productUrl": "https://timemachinescorp.com/",
+  "notes": "Compact GNSS NTP / PTP server on the same 1U plates as the TM160. Check: model suffix and power input.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "PoE / NTP / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC (optional)"
+   }
+  ]
+ }
+]

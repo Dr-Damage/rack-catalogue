@@ -1,0 +1,68 @@
+[
+ {
+  "id": "hytera-rd985",
+  "manufacturer": "Hytera",
+  "partNumber": "RD985",
+  "name": "RD985 DMR repeater, 2U",
+  "family": "RD98x",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Hytera RD985 data sheet",
+  "productUrl": "https://hytera-europe.com/products/rd985",
+  "notes": "DMR / analogue repeater, VHF 136-174 or UHF 400-470 / 450-520 MHz, up to 50 W. 88 x 463 x 366 mm, 8.5 kg; 13.6 V DC (PS22002 external supply). RD985S is the newer version (adds 350-400 MHz and a 100 W model). Check: rear connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (IP connect)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB26",
+    "count": 1,
+    "prefix": "Accessory"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "13.6V DC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Programming"
+   }
+  ],
+  "weightKg": 8.5
+ }
+]

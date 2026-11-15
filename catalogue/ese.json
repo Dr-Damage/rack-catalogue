@@ -1,0 +1,132 @@
+[
+ {
+  "id": "ese-es-185u",
+  "manufacturer": "ESE",
+  "partNumber": "ES-185U",
+  "name": "ES-185U GPS master clock / time code generator, 1U",
+  "family": "ES-185",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "B&H and Markertek listings; ESE ES-185U manual (manualslib)",
+  "productUrl": "https://www.markertek.com/product/es-185untp/ese-es-185u-ntp-gps-master-clock-time-code-generator",
+  "notes": "1U rack master clock with a 9-digit LED UTC display (day of year, hours, minutes, seconds), 12-channel GPS receiver, SMPTE/EBU and ESE serial time code outputs that drive ESE slave clocks, 1PPS (+/-10 ns). /NTP option adds an NTP server port. Check: output counts and the antenna connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "TNC",
+    "count": 1,
+    "prefix": "GPS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SMPTE/EBU TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ESE TC89 / TC90 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "ASCII Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP (option /NTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ese-es-188f",
+  "manufacturer": "ESE",
+  "partNumber": "ES-188F",
+  "name": "ES-188F NTP-referenced master clock / time code generator, 1U",
+  "family": "ES-188",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVL Gear / Markertek listings",
+  "productUrl": "https://avlgear.com/collections/ese/products/ese-es-188f-1ru-rackmount-ntp-referenced-master-clock-and-time-code-generator",
+  "notes": "1U rack master clock that takes time from an NTP server on the LAN and generates SMPTE/EBU and ESE time code for slave clocks and displays. ES-188E is the same with a smaller display. Check: output counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP Client"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SMPTE/EBU TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ESE TC89 / TC90 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "ASCII Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

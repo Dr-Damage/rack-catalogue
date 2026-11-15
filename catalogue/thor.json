@@ -1,0 +1,52 @@
+[
+ {
+  "id": "thor-h-thunder-8",
+  "manufacturer": "Thor Broadcast",
+  "partNumber": "H-THUNDER-8",
+  "name": "H-THUNDER-8 8-channel HDMI to RF modulator (QAM / ATSC / DVB-T), 1U",
+  "family": "Thunder",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek Thor H-THUNDER-8 listing",
+  "productUrl": "https://www.markertek.com/product/thr-h-thunder-8/thor-h-thunder-8-eight-hdmi-digital-rf-encoder-modulator-full-hd-up-to-1080p-1ru",
+  "notes": "Encodes 8 HDMI sources to H.264 and modulates them onto coax (QAM, ATSC, DVB-T, ISDB-T), 50-950 MHz, about 20 W. RF only, no IPTV. H-THUNDER-1 and -4 are the 1 and 4 channel versions. Check: RF connector and SDI-input version.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 8,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NMS"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 20
+ }
+]

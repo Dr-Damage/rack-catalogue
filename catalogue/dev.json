@@ -1,0 +1,67 @@
+[
+ {
+  "id": "dev-1951",
+  "manufacturer": "DEV Systemtechnik",
+  "partNumber": "DEV 1951",
+  "name": "DEV 1951 universal switch chassis (L-band / ASI redundancy), 1U",
+  "family": "Switching",
+  "category": "router",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DEV Systemtechnik DEV 1951 product page",
+  "productUrl": "https://dev-systemtechnik.com/product/universal-switch-chassis-1-ru-dev-1951/",
+  "notes": "Two slots for DPST, transfer, ASI or optical switch cards (plus passive splitters) for L-band, ASI/SDI or broadband redundancy switching, SNMP and web control, redundant PSUs. Connectors depend on the card (F, BNC, SMA, N, E2000, SC/APC, FC/APC); drawn with two 2:1 L-band switch cards on F. Check: fitted cards.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 4,
+    "prefix": "Ch A/B In (per card)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Digital I/O"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

@@ -1,0 +1,318 @@
+[
+ {
+  "id": "tait-tb9300",
+  "manufacturer": "Tait",
+  "partNumber": "TB9300",
+  "name": "TB9300 DMR base station subrack, 4U",
+  "family": "TB9300",
+  "category": "other",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tait TB9300 specification sheet",
+  "productUrl": "https://www.taitcommunications.com/products/dmr-radio/tb9300",
+  "notes": "DMR Tier 2 / Tier 3 and analogue base station in a 4U subrack (177 x 483 x 400 mm): single-channel 50 W or 100 W, or dual 50 W. Bands: VHF 174-193 / 216-225 MHz, UHF 400-470 MHz, 900 MHz. Smart PSU switches from AC to DC battery backup. Ports shown for one reciter; a dual-channel build has two sets. Check: connectors (taken from the TB7300 sheet, the same reciter family).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Freq Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (IP / Mgmt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "System Interface (600R line, E&M, TxKey / RxGate)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In (12/24/48 V)"
+   }
+  ]
+ },
+ {
+  "id": "tait-tb9400",
+  "manufacturer": "Tait",
+  "partNumber": "TB9400",
+  "name": "TB9400 P25 base station subrack, 4U",
+  "family": "TB9400",
+  "category": "other",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tait TB9400 specification sheet",
+  "productUrl": "https://www.taitcommunications.com/",
+  "notes": "P25 Phase 1/2 and analogue sibling of the TB9300 in the same 4U subrack. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Freq Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network (IP / Mgmt)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "System Interface"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "tait-tb7300",
+  "manufacturer": "Tait",
+  "partNumber": "TB7300",
+  "name": "TB7300 DMR / analogue slimline base station, 1U",
+  "family": "TB7300",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Tait TB7300 specification sheet",
+  "productUrl": "https://www.taitcommunications.com/products/dmr-radio/tb7300",
+  "notes": "1U (44 x 483 x 400 mm) DMR Tier 2 and analogue base station / repeater. VHF 136-174 MHz 50 W, UHF 400-470 and 470-520 MHz 40 W, 762-870 MHz 35 W. AC 120-230 V or DC 13.8 V / 55.2 V.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Freq Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "System Interface (analog line / I/O)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In / 13.5V Aux Out"
+   }
+  ]
+ },
+ {
+  "id": "tait-tb8100",
+  "manufacturer": "Tait",
+  "partNumber": "TB8100",
+  "name": "TB8100 analogue base station subrack (legacy), 4U",
+  "family": "TB8100",
+  "category": "other",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Tait TB8100 installation manual",
+  "productUrl": "https://www.taitcommunications.com/",
+  "notes": "Older analogue / MPT base station in the 4U subrack that the TB9300 replaced; many still in service. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "System Interface"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ }
+]

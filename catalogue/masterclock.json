@@ -1,0 +1,174 @@
+[
+ {
+  "id": "masterclock-gmr1000",
+  "manufacturer": "Masterclock",
+  "partNumber": "GMR1000",
+  "name": "GMR1000 NTP / PTP master clock (quarter-rack)",
+  "family": "GMR",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Masterclock GMR1000 data sheet rev B",
+  "productUrl": "https://www.masterclock.com/masterclock-gmr-1000.html",
+  "notes": "Compact box (164 x 106 x 39 mm, 0.45 kg, under 7.5 W) with a 6-digit front display. NTP server/client as standard; options add PTP (IEEE 1588v2) grandmaster, GNSS, IRIG / SMPTE 12M time code generator and reader, 1PPS and 10 MHz. Mounts four across a 1U shelf with the RM4 bracket, so drawn as a quarter-width unit. External 24 V DC supply. Check: which options are fitted.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS Antenna (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Time Code Gen (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Time Code Reader (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "1PPS Out (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Prog Pulse Out (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "Sync In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Serial / NMEA"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Locking DC jack",
+    "count": 1,
+    "prefix": "9-28V DC"
+   }
+  ],
+  "powerW": 7.5,
+  "weightKg": 0.45
+ },
+ {
+  "id": "masterclock-gmr5000",
+  "manufacturer": "Masterclock",
+  "partNumber": "GMR5000",
+  "name": "GMR5000 multi-function master clock, 1U",
+  "family": "GMR",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Masterclock product range page",
+  "productUrl": "https://masterclock.com/products/master-clocks",
+  "notes": "Full-width 1U version of the GMR platform with a large front display and room for more output modules. Check: every port (the maker page gives no rear panel detail; counts are typical for a fitted unit).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "NTP / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SMPTE / IRIG Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "1PPS / 10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relays"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

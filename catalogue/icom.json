@@ -1,0 +1,59 @@
+[
+ {
+  "id": "icom-ic-fr6300",
+  "manufacturer": "Icom",
+  "partNumber": "IC-FR6300",
+  "name": "IC-FR6300 UHF digital repeater, 2U",
+  "family": "IC-FR5300",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Icom America IC-FR5300/FR6300 page",
+  "productUrl": "https://icomamerica.com/lineup/products/IC-FR5300_NXDN/",
+  "notes": "NXDN / analogue repeater, 483 x 88 x 260 mm. UHF 400-470 / 450-520 MHz up to 50 W; IC-FR5300 is VHF 136-174 MHz. Optional UR-PA6000 100 W amplifier. Check: antenna connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Accessory"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (UC-FR5300 option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "13.6V DC In"
+   }
+  ]
+ }
+]

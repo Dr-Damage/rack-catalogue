@@ -1,0 +1,231 @@
+[
+ {
+  "id": "motorola-slr5700",
+  "manufacturer": "Motorola Solutions",
+  "partNumber": "SLR 5700",
+  "name": "MOTOTRBO SLR 5700 repeater, 1U",
+  "family": "MOTOTRBO",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Motorola SLR 5700 data sheet",
+  "productUrl": "https://bearcom.com/motorola-slr-5700-analog-or-digital-repeater-two-way-radio-infrastructure",
+  "notes": "MOTOTRBO digital / analogue repeater, 1-50 W, VHF 136-174 or UHF 400-470 MHz. 44 x 483 x 370 mm, 8.6 kg. Check: accessory connector.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Accessory / Option board"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In (11-14.4 V)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Programming"
+   }
+  ],
+  "weightKg": 8.6
+ },
+ {
+  "id": "motorola-slr8000",
+  "manufacturer": "Motorola Solutions",
+  "partNumber": "SLR 8000",
+  "name": "MOTOTRBO SLR 8000 base station / repeater, 2U",
+  "family": "MOTOTRBO",
+  "category": "other",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Motorola SLR 8000 data sheet",
+  "productUrl": "https://www.motorolasolutions.com/",
+  "notes": "High-power (100 W) MOTOTRBO repeater, 2U, with optional built-in preselector. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Aux / System"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ext Ref"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "Programming"
+   }
+  ]
+ },
+ {
+  "id": "motorola-mtr3000",
+  "manufacturer": "Motorola Solutions",
+  "partNumber": "MTR3000",
+  "name": "MTR3000 MOTOTRBO base station / repeater, 3U",
+  "family": "MOTOTRBO",
+  "category": "other",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Motorola DR3000 / MTR3000 specifications",
+  "productUrl": "https://aem-cloud-prod-cdn.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/mototrbo/dr3000-mtr3000-specifications.pdf",
+  "notes": "Continuous-duty 100 W repeater, VHF 136-174 / UHF 403-470 MHz. 133 x 483 x 419 mm, 19 kg; AC 85-264 V or 28.6 V DC. Tx and Rx are both N female. Discontinued. Check: system and Ethernet connectors.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Tx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "Rx Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "System Connector"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In (28.6 V)"
+   }
+  ],
+  "weightKg": 19
+ }
+]

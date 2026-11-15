@@ -1,0 +1,83 @@
+[
+ {
+  "id": "ateme-kyrion-dr5000",
+  "manufacturer": "Ateme",
+  "partNumber": "Kyrion DR5000",
+  "name": "Kyrion DR5000 integrated receiver decoder, 1U",
+  "family": "Kyrion",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ateme Kyrion DR5000 data sheet",
+  "productUrl": "https://www.ateme.com/",
+  "notes": "Compact contribution / distribution IRD (H.264 / HEVC / MPEG-2, 4:2:2 10-bit) with BISS. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "DVB-S/S2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "TS over IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

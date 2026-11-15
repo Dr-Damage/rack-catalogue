@@ -1,0 +1,107 @@
+[
+ {
+  "id": "comtech-cdm-625a",
+  "manufacturer": "Comtech EF Data",
+  "partNumber": "CDM-625A",
+  "name": "CDM-625A advanced satellite modem, 1U",
+  "family": "CDM",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Comtech CDM-625A data sheet",
+  "productUrl": "https://www.comtechefdata.com/",
+  "notes": "SCPC satellite modem with DoubleTalk Carrier-in-Carrier, IF and L-band (BUC/LNB power options). Check: port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "L-band Tx"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "N",
+    "count": 1,
+    "prefix": "L-band Rx"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "70/140 MHz IF Tx"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "70/140 MHz IF Rx"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Traffic GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "HSSI / EIA-530",
+    "count": 1,
+    "prefix": "Data (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "Alarms"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

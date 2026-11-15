@@ -1,0 +1,83 @@
+[
+ {
+  "id": "microchip-syncserver-s650",
+  "manufacturer": "Microchip",
+  "partNumber": "SyncServer S650",
+  "name": "SyncServer S650 GNSS time server, 1U",
+  "family": "SyncServer",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Microchip SyncServer S600/S650 data sheet",
+  "productUrl": "https://www.microchip.com/",
+  "notes": "GNSS NTP server and PTP grandmaster (ex-Symmetricom), with an option bay for extra time code, frequency and sync outputs. S600 is the version without the timing I/O bay. Check: port counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "NTP / PTP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Option slot",
+    "count": 1,
+    "prefix": "Timing I/O module"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

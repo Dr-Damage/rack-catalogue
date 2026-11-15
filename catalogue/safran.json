@@ -1,0 +1,83 @@
+[
+ {
+  "id": "safran-securesync-2400",
+  "manufacturer": "Safran",
+  "partNumber": "SecureSync 2400",
+  "name": "SecureSync 2400 time and frequency server, 1U",
+  "family": "SecureSync",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Safran SecureSync data sheet",
+  "productUrl": "https://safran-navigation-timing.com/",
+  "notes": "Ex-Spectracom (Orolia, now Safran) GNSS time server: NTP, PTP grandmaster, 1PPS and 10 MHz, with 6 option bays for time code (IRIG, SMPTE/EBU LTC), video sync (black burst / tri-level), more Ethernet and PTP ports. Dual AC or DC option. Check: base port counts and fitted cards.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "SMA",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "NTP / PTP / Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Option slot",
+    "count": 6,
+    "prefix": "Option Card Slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

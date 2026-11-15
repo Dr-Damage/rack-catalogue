@@ -1,0 +1,107 @@
+[
+ {
+  "id": "harmonic-proview-7100",
+  "manufacturer": "Harmonic",
+  "partNumber": "ProView 7100",
+  "name": "ProView 7100 integrated receiver decoder, 1U",
+  "family": "ProView",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Harmonic ProView 7100 data sheet",
+  "productUrl": "https://www.harmonicinc.com/",
+  "notes": "Multi-format IRD for satellite, ASI and IP with transcoding options. Check: all counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Satellite In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "ASI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "TS over IP"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES / Analog Audio"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Alarm"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "CI slot",
+    "count": 2,
+    "prefix": "CAM"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]
