@@ -1,34 +1,82 @@
 [
  {
-  "id": "foxtel-iq5",
+  "id": "foxtel-iq",
   "manufacturer": "Foxtel",
-  "partNumber": "iQ5",
-  "name": "Foxtel iQ5 set-top box (satellite or internet)",
+  "partNumber": "iQ",
+  "name": "Foxtel iQ set-top box (first generation PDR, satellite)",
   "family": "Set-top boxes",
   "category": "converter",
-  "ru": 1,
-  "widthCols": 6,
+  "ru": 2,
+  "widthCols": 9,
   "fullDepth": false,
-  "verified": false,
-  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
-  "productUrl": "https://www.foxtel.com.au/",
-  "notes": "Streaming box that also takes a satellite feed; about half the size of earlier iQ boxes. 4K HDR over HDMI 2.1. Sits on a rack shelf for off-air monitoring (about 210 mm wide, 40 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "verified": true,
+  "source": "Foxtel iQ user manual, rear view and specification (manualslib 676006, pages 78 and 90)",
+  "productUrl": "https://www.manualslib.com/manual/676006/Foxtel-Iq.html",
+  "notes": "Original Foxtel personal digital recorder (Pace). 325 x 56 x 235 mm (W x H x D), 42 W max, 12 V DC from an external 240 V supply. Ethernet and USB were marked \"for future use\". The cable version has one cable F input instead of Input 1 and 2. Desktop box: put it on a rack shelf.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "RF",
     "connector": "F",
-    "count": 1,
-    "prefix": "Satellite In"
+    "count": 2,
+    "prefix": "Input"
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "RF",
-    "connector": "Other",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "SCART",
     "count": 1,
-    "prefix": "Aerial In (PAL)"
+    "prefix": "TV SCART"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog video",
+    "connector": "SCART",
+    "count": 1,
+    "prefix": "VCR SCART"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Audio L"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Audio R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "VCR fixed audio"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Digital audio out (coax S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical audio out (S/PDIF)"
    },
    {
     "face": "rear",
@@ -36,15 +84,7 @@
     "type": "HDMI",
     "connector": "HDMI",
     "count": 1,
-    "prefix": "HDMI Out"
-   },
-   {
-    "face": "rear",
-    "dir": "out",
-    "type": "Audio",
-    "connector": "TOSLINK",
-    "count": 1,
-    "prefix": "Optical Out"
+    "prefix": "HDMI (SD, HDCP)"
    },
    {
     "face": "rear",
@@ -56,48 +96,90 @@
    },
    {
     "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Telephone line"
+   },
+   {
+    "face": "rear",
     "dir": "in",
     "type": "Power",
     "connector": "DC barrel",
     "count": 1,
-    "prefix": "DC In"
+    "prefix": "12V DC In (3.5 A max)"
    }
   ],
   "boxMm": {
-   "w": 210,
-   "h": 40
-  }
+   "w": 325,
+   "h": 56
+  },
+  "depthMm": 235,
+  "powerW": 42
  },
  {
-  "id": "foxtel-iq4",
+  "id": "foxtel-iq2",
   "manufacturer": "Foxtel",
-  "partNumber": "iQ4",
-  "name": "Foxtel iQ4 set-top box (satellite, 4K)",
+  "partNumber": "iQ2",
+  "name": "Foxtel iQ2 HD set-top box (satellite)",
   "family": "Set-top boxes",
   "category": "converter",
   "ru": 2,
-  "widthCols": 8,
+  "widthCols": 11,
   "fullDepth": false,
-  "verified": false,
-  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
-  "productUrl": "https://www.foxtel.com.au/",
-  "notes": "Satellite-only 4K PVR (8 satellite + 2 terrestrial tuners); 4K needs a dual-output satellite feed. Sits on a rack shelf for off-air monitoring (about 300 mm wide, 50 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "verified": true,
+  "source": "Foxtel iQ2 user manual, rear view and specification (manualslib 3097228, pages 80 and 91)",
+  "productUrl": "https://www.manualslib.com/manual/3097228/Foxtel-Iq2.html",
+  "notes": "HD PVR. 404 x 60 x 294 mm (W x H x D), 45 W max, mains powered (2-pin IEC \"figure 8\" inlet). eSATA is not on every unit. The cable version has one cable F input instead of Input 1 to 4. Desktop box: put it on a rack shelf.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "RF",
     "connector": "F",
-    "count": 2,
-    "prefix": "Satellite In (dual LNB)"
+    "count": 4,
+    "prefix": "Input"
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "RF",
-    "connector": "Other",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
     "count": 1,
-    "prefix": "Aerial In (PAL)"
+    "prefix": "Telephone line"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "eSATA",
+    "count": 1,
+    "prefix": "eSATA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
    },
    {
     "face": "rear",
@@ -110,10 +192,198 @@
    {
     "face": "rear",
     "dir": "out",
-    "type": "Audio",
+    "type": "AES/EBU",
     "connector": "TOSLINK",
     "count": 1,
-    "prefix": "Optical Out"
+    "prefix": "Optical audio out (S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Digital audio out (coax S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Audio L"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Audio R"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Composite video out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog video",
+    "connector": "RCA",
+    "count": 3,
+    "prefix": "SD component out (Y/Pb/Pr)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C8",
+    "count": 1,
+    "prefix": "Mains In (240 V)"
+   }
+  ],
+  "boxMm": {
+   "w": 404,
+   "h": 60
+  },
+  "depthMm": 294,
+  "powerW": 45
+ },
+ {
+  "id": "foxtel-iq3",
+  "manufacturer": "Foxtel",
+  "partNumber": "iQ3",
+  "name": "Foxtel iQ3 set-top box (satellite)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel iQ3 domestic installation manual (manualslib 1267695); ChannelNews and EFTM launch articles",
+  "productUrl": "https://www.manualslib.com/manual/1267695/Foxtel-Iq3.html",
+  "notes": "HD PVR made by Pace (2015): 10 tuners (8 on cable), 1 TB drive, Wi-Fi, SIM card in the rear (no smart card). The cable version has one cable F input and no aerial input. Narrower than the iQ2 but taller. Check: size (Foxtel does not publish it; estimated about 330 x 75 mm) and which USB ports are on the side. Desktop box: put it on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "PAL",
+    "count": 1,
+    "prefix": "Aerial In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical audio out (S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "Digital audio out (coax S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB (back and side)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 330,
+   "h": 75
+  }
+ },
+ {
+  "id": "foxtel-iq4",
+  "manufacturer": "Foxtel",
+  "partNumber": "iQ4",
+  "name": "Foxtel iQ4 set-top box (satellite, 4K)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": false,
+  "source": "CompareTV iQ4 review; Foxtel iQ4 welcome guide; MAD Electronics iQ4 power supply listing",
+  "productUrl": "https://www.comparetv.com.au/review/foxtel-iq4k-streaming-tv-review",
+  "notes": "Satellite 4K PVR based on the ARRIS (CommScope) MS6505: 8 satellite + 2 terrestrial tuners, 1 TB drive. 4K channels need both satellite inputs fed (dual-output dish). Looks almost the same as the iQ3 (two buttons on the right of the front). Power is a 12 V 5 A plug pack with a 2.1 mm plug (from replacement supplies). Check: size (not published; estimated as the iQ3) and whether there is a coax digital audio out. Desktop box: put it on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 2,
+    "prefix": "SAT IN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "PAL",
+    "count": 1,
+    "prefix": "Aerial In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (2.0, 4K)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical audio out (S/PDIF)"
    },
    {
     "face": "rear",
@@ -135,46 +405,54 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C13",
+    "connector": "DC barrel",
     "count": 1,
-    "prefix": "Mains In"
+    "prefix": "12V DC In (5 A)"
    }
   ],
   "boxMm": {
-   "w": 300,
-   "h": 50
+   "w": 330,
+   "h": 75
   }
  },
  {
-  "id": "foxtel-iq3",
+  "id": "foxtel-iq5",
   "manufacturer": "Foxtel",
-  "partNumber": "iQ3",
-  "name": "Foxtel iQ3 set-top box (cable or satellite)",
+  "partNumber": "iQ5",
+  "name": "Foxtel iQ5 streaming set-top box (satellite or internet, 4K)",
   "family": "Set-top boxes",
   "category": "converter",
-  "ru": 2,
-  "widthCols": 8,
+  "ru": 1,
+  "widthCols": 6,
   "fullDepth": false,
   "verified": false,
-  "source": "Foxtel and review articles (CompareTV, ChannelNews)",
-  "productUrl": "https://www.foxtel.com.au/",
-  "notes": "HD PVR in cable and satellite versions; looks like the iQ4 from outside. Sits on a rack shelf for off-air monitoring (about 300 mm wide, 50 mm high). Check: size and rear connectors (Foxtel does not publish them; estimated).",
+  "source": "ChannelNews and techAU iQ5 reviews; Jim's Antennas iQ5 connection guide; Good Design Award entry",
+  "productUrl": "https://www.channelnews.com.au/review-new-foxtel-iq5-box-has-a-lot-of-surprises/",
+  "notes": "Made by CommScope (ARRIS on the label), 2021. Streams over the internet and also takes satellite: one cable in SAT IN 1, or both for dual tuning; ANT IN for free-to-air. About half the size of earlier iQ boxes; the optional 1 TB drive module stacks under it. Check: size (not published; estimated about 210 x 40 mm) and the power supply rating. Desktop box: put it on a rack shelf.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "RF",
     "connector": "F",
-    "count": 2,
-    "prefix": "Satellite / cable In"
+    "count": 1,
+    "prefix": "SAT IN 1"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "RF",
-    "connector": "Other",
+    "connector": "F",
     "count": 1,
-    "prefix": "Aerial In (PAL)"
+    "prefix": "SAT IN 2"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "PAL",
+    "count": 1,
+    "prefix": "ANT IN"
    },
    {
     "face": "rear",
@@ -182,15 +460,15 @@
     "type": "HDMI",
     "connector": "HDMI",
     "count": 1,
-    "prefix": "HDMI Out"
+    "prefix": "HDMI Out (2.1, 4K HDR)"
    },
    {
     "face": "rear",
     "dir": "out",
-    "type": "Audio",
+    "type": "AES/EBU",
     "connector": "TOSLINK",
     "count": 1,
-    "prefix": "Optical Out"
+    "prefix": "Optical audio out (S/PDIF)"
    },
    {
     "face": "rear",
@@ -204,14 +482,257 @@
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C13",
+    "connector": "DC barrel",
     "count": 1,
-    "prefix": "Mains In"
+    "prefix": "12V DC In"
    }
   ],
   "boxMm": {
-   "w": 300,
-   "h": 50
+   "w": 210,
+   "h": 40
   }
+ },
+ {
+  "id": "foxtel-now-box",
+  "manufacturer": "Foxtel",
+  "partNumber": "Foxtel Now Box",
+  "name": "Foxtel Now Box streaming player (Android TV, DVB-T)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TechRadar Foxtel Now Box review; tvsfaq DWT765FXT listing",
+  "productUrl": "https://www.techradar.com/reviews/foxtel-now-box",
+  "notes": "Technicolor DWT765FXT (2017): Android TV with a free-to-air tuner, no satellite. 104 x 83 x 72 mm, 0.27 kg, 12 V DC plug pack. Check: which way up the 72 mm and 83 mm sides go. Desktop box: put it on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "PAL",
+    "count": 1,
+    "prefix": "Aerial In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (2.0, HDCP 2.2)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical audio out (S/PDIF)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 104,
+   "h": 72
+  },
+  "depthMm": 83,
+  "weightKg": 0.27
+ },
+ {
+  "id": "foxtel-hubbl-puck",
+  "manufacturer": "Foxtel",
+  "partNumber": "Hubbl Puck",
+  "name": "Hubbl Puck streaming box (Foxtel Group)",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Choose.co.uk Sky Stream puck review; CyberShack Hubbl article",
+  "productUrl": "https://www.hubbl.com.au/",
+  "notes": "Foxtel Group's Hubbl streaming box (2023), the Sky Stream puck hardware: internet only, no tuner or aerial input, Wi-Fi or Ethernet. About 108 x 108 x 18 mm. Check: power supply voltage. Desktop box: put it on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (2.1)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (100 Mb)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 108,
+   "h": 18
+  },
+  "depthMm": 108
+ },
+ {
+  "id": "foxtel-biq",
+  "manufacturer": "Foxtel",
+  "partNumber": "Business iQ (BiQ)",
+  "name": "Foxtel Business iQ (BiQ) set-back box for hotels and venues",
+  "family": "Set-top boxes",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel Business iQ installation guide (manualslib 1982086, pages 8, 9, 17, 18)",
+  "productUrl": "https://www.manualslib.com/manual/1982086/Foxtel-Business-Iq.html",
+  "notes": "Foxtel Commercial set-back box on the ADB Ariel v2 platform (vuTyme client): 4 DVB-S2 satellite tuners (DiSEqC on RF1/RF2, Unicable), 1 DVB-T2 tuner, Wi-Fi ac, Chromecast, Irdeto cardless. Feeds: satellite on RF1, terrestrial or a second lateral on RF2, or IPTV multicast over Ethernet from a vuStreamer head end. Wall-mount 12 V DC plug pack. Check: size (not published; estimated) and the IR port connector. Desktop box: put it on a rack shelf.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF1"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "RF2"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out (2.0b, 4K)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (10/100)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "IR (prism dongle)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "12V DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 160,
+   "h": 30
+  }
+ },
+ {
+  "id": "foxtel-vustreamer",
+  "manufacturer": "ADB",
+  "partNumber": "vuStreamer",
+  "name": "ADB vuStreamer IPTV head end (Foxtel Business iQ)",
+  "family": "Foxtel Business iQ",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Foxtel BiQ self help troubleshooting guide (manualslib 2299611, pages 25 to 30); ADB vuTyme companion products",
+  "productUrl": "https://www.adbglobal.com/business-tv-vutyme/companion-products/",
+  "notes": "Rack head end that turns satellite (from a multistacker) and free-to-air RF into multicast IPTV for Business iQ boxes. Tuner cards with front status LEDs, cooling fans, two PSUs, earth point. Needs IGMPv2 and an IGMP querier on the IPTV VLAN; leave 1RU free above it. Check: height (ADB does not publish it; drawn as 1RU), tuner card count and the AC inlets.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "SAT In (Multistacker H/Lo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "F",
+    "count": 1,
+    "prefix": "Ter In (FTA)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet 1 (Mgmt)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet 2 (IPTV out)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
  }
 ]

@@ -11,7 +11,6 @@
   haivision-more.json Haivision Makito One F4 / F18 frames and the dual 12G blade (system 'Haivision Makito One').
   matrox.json         Matrox Monarch EDGE E4 (half width).
   telstra.json        Telstra DVN carrier edge placeholders (Telstra does not publish the models it installs).
-  foxtel.json         Foxtel iQ set-top boxes for off-air monitoring, as shelf items (sizes estimated, not published).
 LiveU and Dejero rack receivers were already in (liveu.json, dejero.json); Zixi sells software only; Videon and Magewell make
 desktop boxes only. Specs from maker data sheets (each entry's source); 'Check:' marks what is not confirmed."""
 import json, os
@@ -185,27 +184,7 @@ add('telstra.json', 'telstra-dvn-ntu-1ru', 'Telstra', 'DVN NTU', 'Telstra DVN ne
     TL_NOTE + 'Use for the carrier router / NTU that hands off IP services (10G-LR / 40G-LR / 100G-LR on Telstra\'s distributed production network).',
     'Telstra DVN service description (no hardware details)', TL_URL, verified=False)
 
-# ---------------- Foxtel ----------------
-FX_URL = 'https://www.foxtel.com.au/'
-for pn, name, w, h, ports, note in (
-        ('iQ5', 'Foxtel iQ5 set-top box (satellite or internet)', 210, 40,
-         [R('in', 'RF', 'F', 1, 'Satellite In'), R('in', 'RF', 'Other', 1, 'Aerial In (PAL)'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'),
-          R('out', 'Audio', 'TOSLINK', 1, 'Optical Out'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('in', 'Power', 'DC barrel', 1, 'DC In')],
-         'Streaming box that also takes a satellite feed; about half the size of earlier iQ boxes. 4K HDR over HDMI 2.1.'),
-        ('iQ4', 'Foxtel iQ4 set-top box (satellite, 4K)', 300, 50,
-         [R('in', 'RF', 'F', 2, 'Satellite In (dual LNB)'), R('in', 'RF', 'Other', 1, 'Aerial In (PAL)'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'),
-          R('out', 'Audio', 'TOSLINK', 1, 'Optical Out'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('io', 'USB', 'USB-A', 1, 'USB'),
-          R('in', 'Power', 'IEC C13', 1, 'Mains In')],
-         'Satellite-only 4K PVR (8 satellite + 2 terrestrial tuners); 4K needs a dual-output satellite feed.'),
-        ('iQ3', 'Foxtel iQ3 set-top box (cable or satellite)', 300, 50,
-         [R('in', 'RF', 'F', 2, 'Satellite / cable In'), R('in', 'RF', 'Other', 1, 'Aerial In (PAL)'), R('out', 'HDMI', 'HDMI', 1, 'HDMI Out'),
-          R('out', 'Audio', 'TOSLINK', 1, 'Optical Out'), R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('in', 'Power', 'IEC C13', 1, 'Mains In')],
-         'HD PVR in cable and satellite versions; looks like the iQ4 from outside.')):
-    cols = max(2, -(-w // 40)); ru = 1 if h <= 43 else 2
-    add('foxtel.json', 'foxtel-' + pn.lower(), 'Foxtel', pn, name, 'Set-top boxes', 'converter', ru, ports,
-        note + f' Sits on a rack shelf for off-air monitoring (about {w} mm wide, {h} mm high). Check: size and rear connectors '
-        '(Foxtel does not publish them; estimated).', 'Foxtel and review articles (CompareTV, ChannelNews)', FX_URL, verified=False, w=cols,
-        boxMm={'w': w, 'h': h})
+# Foxtel moved to tools/foxtel.py (2026-11-16), which owns foxtel.json.
 
 ip = os.path.join(CAT, 'index.json'); idx = json.load(open(ip))
 for f, ms in FILES.items():

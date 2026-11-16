@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "6b378df52e7d",
- "updated": "2026-11-16T05:54:11Z",
- "entries": 2972,
+ "version": "b4142b445a86",
+ "updated": "2026-11-16T10:30:07Z",
+ "entries": 2978,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -500,9 +500,9 @@
    "bytes": 2897
   },
   "foxtel.json": {
-   "sha256": "597c718e83c54099234ccbad55800f8976fb430d28d0c8a08afd52f67a3d7fa7",
-   "entries": 3,
-   "bytes": 4729
+   "sha256": "bbd3f940e249de8a7797b27da867430c6ec11290d0eba613dd838361f4b2e38d",
+   "entries": 9,
+   "bytes": 17430
   },
   "afl.json": {
    "sha256": "8fdd18bd95870b9a6e2d8dac379b309a4950ea61d7b56ccd15a9a30cefcb3d25",
