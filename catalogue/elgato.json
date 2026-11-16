@@ -495,13 +495,13 @@
   "name": "Stream Deck + XL, 36 LCD keys, 6 dials, touch strip",
   "family": "Stream Deck",
   "category": "control",
-  "ru": 1,
+  "ru": 4,
   "widthCols": 6,
   "fullDepth": false,
   "verified": false,
   "source": "Elgato Stream Deck + XL technical specifications",
   "productUrl": "https://help.elgato.com/hc/en-us/articles/44835542537617-Elgato-Stream-Deck-XL-Technical-Specifications",
-  "notes": "Desktop control panel with 36 LCD keys, 6 push dials (multifunction dials) and a 1200 x 100 LCD touch strip, USB 3.0 on USB-C, bus powered (5 V 0.9 A, 4 W), 1.09 kg. Check: drawn size; Elgato lists 205 x 147 x 175 mm.",
+  "notes": "Desktop control panel with 36 LCD keys, 6 push dials (multifunction dials) and a 1200 x 100 LCD touch strip, USB 3.0 on USB-C, bus powered (5 V 0.9 A, 4 W), 1.09 kg. Elgato lists 205 x 147 x 175 mm, drawn as 205 wide by 175 high (4RU on a shelf) like the Stream Deck +. Check: which dimension is the height.",
   "portGroups": [
    {
     "face": "rear",
@@ -513,6 +513,10 @@
    }
   ],
   "powerW": 4,
-  "weightKg": 1.085
+  "weightKg": 1.085,
+  "boxMm": {
+   "w": 205,
+   "h": 175
+  }
  }
 ]

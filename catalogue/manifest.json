@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "784cbf93b221",
- "updated": "2026-11-16T05:51:33Z",
+ "version": "6b378df52e7d",
+ "updated": "2026-11-16T05:54:11Z",
  "entries": 2972,
  "files": {
   "ross.json": {
@@ -1225,9 +1225,9 @@
    "bytes": 1466
   },
   "elgato.json": {
-   "sha256": "d3d9b52e9f2104b33c0808d2ffeb14c27feae2caf42a9f2b27fef6042437cee2",
+   "sha256": "7e33aeea3a8d712940728da08678d32085835a0a3d201dc3b11042a0ed6b8e10",
    "entries": 6,
-   "bytes": 11550
+   "bytes": 11683
   }
  }
 }

@@ -52,12 +52,12 @@ el('stream-deck-plus', '10GBD9901', 'Stream Deck +, 8 LCD keys, 4 dials, touch s
    'Drawn 3RU tall because of its angled body; it sits on a shelf rather than in the rails.',
    ('Elgato Stream Deck + technical specifications', HELP + '10567379685901-Elgato-Stream-Deck-Technical-Specifications'),
    weightKg=0.465, boxMm={'w': 140, 'h': 110})
-el('stream-deck-plus-xl', 'Stream Deck + XL', 'Stream Deck + XL, 36 LCD keys, 6 dials, touch strip', 'Stream Deck', 'control', 1, 6,
+el('stream-deck-plus-xl', 'Stream Deck + XL', 'Stream Deck + XL, 36 LCD keys, 6 dials, touch strip', 'Stream Deck', 'control', 4, 6,
    [R('io', 'USB', 'USB-C', 1, 'USB-C')],
    'Desktop control panel with 36 LCD keys, 6 push dials (multifunction dials) and a 1200 x 100 LCD touch strip, USB 3.0 on USB-C, bus powered '
-   '(5 V 0.9 A, 4 W), 1.09 kg. Check: drawn size; Elgato lists 205 x 147 x 175 mm.',
+   '(5 V 0.9 A, 4 W), 1.09 kg. Elgato lists 205 x 147 x 175 mm, drawn as 205 wide by 175 high (4RU on a shelf) like the Stream Deck +. Check: which dimension is the height.',
    ('Elgato Stream Deck + XL technical specifications', HELP + '44835542537617-Elgato-Stream-Deck-XL-Technical-Specifications'),
-   verified=False, powerW=4, weightKg=1.085)
+   verified=False, powerW=4, weightKg=1.085, boxMm={'w': 205, 'h': 175})
 
 ids = [m['id'] for m in OUT]; assert len(ids) == len(set(ids))
 json.dump(OUT, open(os.path.join(CAT, 'elgato.json'), 'w'), indent=1, ensure_ascii=False)
