@@ -1,0 +1,518 @@
+[
+ {
+  "id": "elgato-stream-deck-studio",
+  "manufacturer": "Elgato",
+  "partNumber": "10GBO9901",
+  "name": "Stream Deck Studio 1RU control surface, 32 LCD keys, 2 dials",
+  "family": "Stream Deck",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Elgato Stream Deck Studio technical specifications and quick start guide",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/29982976486669-Elgato-Stream-Deck-Studio-Technical-Specifications",
+  "notes": "1RU 19-inch control surface with removable rack ears (two mounting depths): 32 LCD keys in two rows of 16, 2 360-degree push encoders with LED rings and an NFC reader. Rear: RJ45 Ethernet 100 Mb/s with PoE+ (802.3at Class 4), USB-C data to a computer, and USB-C PD 3.0 power in (9 V 3 A, supply not included). Ethernet power wins when both are connected. Front: USB expansion port for a bus-powered Stream Deck. Up to 15 W. 447 x 80 x 44 mm without ears, 0.9 kg. Runs Stream Deck software over USB or Bitfocus Companion over the network. Check: connector type of the front expansion port (shown as USB-C).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C Data"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C PD In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB Expansion"
+   }
+  ],
+  "powerW": 15,
+  "weightKg": 0.9,
+  "depthMm": 80,
+  "layout": {
+   "front": [
+    {
+     "g": 3,
+     "x0": 0.8182,
+     "y0": 0.455,
+     "x1": 0.8368,
+     "y1": 0.545,
+     "rows": 1,
+     "cols": 1,
+     "order": "row",
+     "from": "tl"
+    }
+   ],
+   "fixtures": [
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.203,
+     "y0": 0.13,
+     "x1": 0.2345,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.2405,
+     "y0": 0.13,
+     "x1": 0.272,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.278,
+     "y0": 0.13,
+     "x1": 0.3095,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.3155,
+     "y0": 0.13,
+     "x1": 0.347,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.353,
+     "y0": 0.13,
+     "x1": 0.3845,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.3905,
+     "y0": 0.13,
+     "x1": 0.422,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.428,
+     "y0": 0.13,
+     "x1": 0.4595,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.4655,
+     "y0": 0.13,
+     "x1": 0.497,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.503,
+     "y0": 0.13,
+     "x1": 0.5345,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.5405,
+     "y0": 0.13,
+     "x1": 0.572,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.578,
+     "y0": 0.13,
+     "x1": 0.6095,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.6155,
+     "y0": 0.13,
+     "x1": 0.647,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.653,
+     "y0": 0.13,
+     "x1": 0.6845,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.6905,
+     "y0": 0.13,
+     "x1": 0.722,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.728,
+     "y0": 0.13,
+     "x1": 0.7595,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.7655,
+     "y0": 0.13,
+     "x1": 0.797,
+     "y1": 0.47
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.203,
+     "y0": 0.53,
+     "x1": 0.2345,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.2405,
+     "y0": 0.53,
+     "x1": 0.272,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.278,
+     "y0": 0.53,
+     "x1": 0.3095,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.3155,
+     "y0": 0.53,
+     "x1": 0.347,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.353,
+     "y0": 0.53,
+     "x1": 0.3845,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.3905,
+     "y0": 0.53,
+     "x1": 0.422,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.428,
+     "y0": 0.53,
+     "x1": 0.4595,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.4655,
+     "y0": 0.53,
+     "x1": 0.497,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.503,
+     "y0": 0.53,
+     "x1": 0.5345,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.5405,
+     "y0": 0.53,
+     "x1": 0.572,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.578,
+     "y0": 0.53,
+     "x1": 0.6095,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.6155,
+     "y0": 0.53,
+     "x1": 0.647,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.653,
+     "y0": 0.53,
+     "x1": 0.6845,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.6905,
+     "y0": 0.53,
+     "x1": 0.722,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.728,
+     "y0": 0.53,
+     "x1": 0.7595,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.7655,
+     "y0": 0.53,
+     "x1": 0.797,
+     "y1": 0.87
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.075,
+     "y0": 0.15,
+     "x1": 0.145,
+     "y1": 0.85,
+     "text": "Dial 1"
+    },
+    {
+     "face": "front",
+     "kind": "psu",
+     "x0": 0.855,
+     "y0": 0.15,
+     "x1": 0.925,
+     "y1": 0.85,
+     "text": "Dial 2"
+    },
+    {
+     "face": "front",
+     "kind": "label",
+     "x0": 0.15,
+     "y0": 0.3,
+     "x1": 0.195,
+     "y1": 0.7,
+     "text": "NFC"
+    }
+   ]
+  },
+  "layoutSource": "Schematic from Elgato Stream Deck Studio specifications (2 x 16 keys, a dial at each end); USB-C and NFC positions assumed"
+ },
+ {
+  "id": "elgato-network-dock",
+  "manufacturer": "Elgato",
+  "partNumber": "10GBW9901",
+  "name": "Network Dock for Stream Deck (Ethernet, PoE)",
+  "family": "Stream Deck",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Elgato Network Dock for Stream Deck technical specifications",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/39072725488145-Elgato-Network-Dock-for-Stream-Deck-Technical-Specifications",
+  "notes": "Puts a USB Stream Deck on the network so it can be run from Bitfocus Companion or the Stream Deck app without a local computer. RJ45 with 802.3af PoE, or USB-C PD power (5 V 0.9 A) on networks without PoE; USB-C (USB 2.0) to the Stream Deck, which gets up to 3.5 W. Works with Stream Deck Studio, Stream Deck Pedal and second-generation Stream Decks. 79 x 59 x 27 mm.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C PD In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Stream Deck"
+   }
+  ],
+  "powerW": 4.5,
+  "boxMm": {
+   "w": 79,
+   "h": 27
+  }
+ },
+ {
+  "id": "elgato-stream-deck-mk2",
+  "manufacturer": "Elgato",
+  "partNumber": "10GBA9901",
+  "name": "Stream Deck MK.2, 15 LCD keys",
+  "family": "Stream Deck",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Elgato Stream Deck MK.2 technical specifications",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/18208816152333-Elgato-Stream-Deck-MK-2-Technical-Specifications",
+  "notes": "Desktop control panel with 15 LCD keys (3 x 5) and a removable stand, USB 2.0 on USB-C to the computer, Network Dock or Stream Deck Studio expansion port; bus powered. 118 x 84 x 25 mm and 145 g without stand.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   }
+  ],
+  "weightKg": 0.145,
+  "boxMm": {
+   "w": 118,
+   "h": 25
+  }
+ },
+ {
+  "id": "elgato-stream-deck-xl",
+  "manufacturer": "Elgato",
+  "partNumber": "10GAT9901",
+  "name": "Stream Deck XL, 32 LCD keys",
+  "family": "Stream Deck",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Elgato Stream Deck XL technical specifications",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/18170516758157-Elgato-Stream-Deck-XL-Technical-Specifications",
+  "notes": "Desktop control panel with 32 LCD keys (4 x 8) and a magnetic stand, USB 3.0 on USB-C to the computer, Network Dock or Stream Deck Studio expansion port; bus powered. 182 x 112 x 34 mm and 410 g without stand.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   }
+  ],
+  "weightKg": 0.41,
+  "boxMm": {
+   "w": 182,
+   "h": 34
+  }
+ },
+ {
+  "id": "elgato-stream-deck-plus",
+  "manufacturer": "Elgato",
+  "partNumber": "10GBD9901",
+  "name": "Stream Deck +, 8 LCD keys, 4 dials, touch strip",
+  "family": "Stream Deck",
+  "category": "control",
+  "ru": 3,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Elgato Stream Deck + technical specifications",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/10567379685901-Elgato-Stream-Deck-Technical-Specifications",
+  "notes": "Desktop control panel with 8 LCD keys, 4 push dials and an LCD touch strip, USB 2.0 on USB-C; bus powered. 140 x 138 x 110 mm, 465 g. Drawn 3RU tall because of its angled body; it sits on a shelf rather than in the rails.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   }
+  ],
+  "weightKg": 0.465,
+  "boxMm": {
+   "w": 140,
+   "h": 110
+  }
+ },
+ {
+  "id": "elgato-stream-deck-plus-xl",
+  "manufacturer": "Elgato",
+  "partNumber": "Stream Deck + XL",
+  "name": "Stream Deck + XL, 36 LCD keys, 6 dials, touch strip",
+  "family": "Stream Deck",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Elgato Stream Deck + XL technical specifications",
+  "productUrl": "https://help.elgato.com/hc/en-us/articles/44835542537617-Elgato-Stream-Deck-XL-Technical-Specifications",
+  "notes": "Desktop control panel with 36 LCD keys, 6 push dials (multifunction dials) and a 1200 x 100 LCD touch strip, USB 3.0 on USB-C, bus powered (5 V 0.9 A, 4 W), 1.09 kg. Check: drawn size; Elgato lists 205 x 147 x 175 mm.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   }
+  ],
+  "powerW": 4,
+  "weightKg": 1.085
+ }
+]

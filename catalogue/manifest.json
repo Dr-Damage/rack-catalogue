@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "715f10c1c333",
- "updated": "2026-11-15T13:57:37Z",
- "entries": 2966,
+ "version": "784cbf93b221",
+ "updated": "2026-11-16T05:51:33Z",
+ "entries": 2972,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -1223,6 +1223,11 @@
    "sha256": "1a204c55999b0bf2d7186cf9a17ce247d1dca59d00f61b2a57e21619d202b7ef",
    "entries": 1,
    "bytes": 1466
+  },
+  "elgato.json": {
+   "sha256": "d3d9b52e9f2104b33c0808d2ffeb14c27feae2caf42a9f2b27fef6042437cee2",
+   "entries": 6,
+   "bytes": 11550
   }
  }
 }

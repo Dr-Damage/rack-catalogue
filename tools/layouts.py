@@ -203,6 +203,20 @@ for pid in ('sony-pdw-f1600', 'sony-pdw-hd1500'):
     p.one(15, 0.1057, 0.8817, 11, 7).one(14, 0.271, 0.8925, 31, 12.5).one(13, 0.4743, 0.8925, 31, 12.5)
     p.line(17, 0.5867, 0.6274, 0.8925, 2, hmm=14).one(16, 0.7114, 0.8817, 16, 13)
 
+# ---------------- Elgato ----------------
+# Stream Deck Studio front: schematic, not traced from a picture. Elgato's specs give 32 LCD keys in two rows of 16 with a push dial at
+# each end; the front USB-C expansion port and NFC reader positions are not published, so they are placed between the keys and the right and left dials.
+# Groups: 0 Ethernet (rear), 1 USB-C Data (rear), 2 USB-C PD In (rear), 3 USB Expansion (front).
+p = layout('elgato-stream-deck-studio', 1, 'Schematic from Elgato Stream Deck Studio specifications (2 x 16 keys, a dial at each end); '
+           'USB-C and NFC positions assumed')
+for r, (y0, y1) in enumerate(((0.13, 0.47), (0.53, 0.87))):
+    for k in range(16):
+        x0 = 0.2 + k * 0.6 / 16
+        p.fixture('psu', x0 + 0.003, y0, x0 + 0.6 / 16 - 0.003, y1, None, face='front')
+p.fixture('psu', 0.075, 0.15, 0.145, 0.85, 'Dial 1', face='front').fixture('psu', 0.855, 0.15, 0.925, 0.85, 'Dial 2', face='front')
+p.fixture('label', 0.15, 0.3, 0.195, 0.7, 'NFC', face='front')
+p.one(3, 0.8275, 0.5, 9, 4, face='front')
+
 # ---------------- apply ----------------
 def check(e, lay):
     groups = e['portGroups']; placed = {}
