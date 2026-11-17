@@ -1,0 +1,514 @@
+[
+ {
+  "id": "oracle-server-x9-2",
+  "manufacturer": "Oracle",
+  "partNumber": "Oracle Server X9-2",
+  "name": "Server X9-2 1U two-socket server",
+  "family": "Oracle x86 servers",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Oracle Server X9-2 Service Manual (back panel components)",
+  "productUrl": "https://docs.oracle.com/en/servers/x86/x9-2/service-manual/oracle-server-x9-2.html",
+  "notes": "1U Intel Xeon (3rd gen) server, 4 NVMe bays. PCIe slot 1 works only with two CPUs. Optional OCP 3.0 NIC with two QSFP ports (10-200 Gb). Two hot-plug 1200 W (or 1400 W) PSUs. No VGA on the back panel. Also the base of Oracle Database Appliance X9-2S/L and Exadata X9M database servers. Check: PSU inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 0 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC (2 x QSFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-server-x9-2l",
+  "manufacturer": "Oracle",
+  "partNumber": "Oracle Server X9-2L",
+  "name": "Server X9-2L 2U two-socket server",
+  "family": "Oracle x86 servers",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Oracle Server X9-2L Service Manual (back panel components)",
+  "productUrl": "https://docs.oracle.com/en/servers/x86/x9-2l/service-manual/oracle-server-x9-2l.html",
+  "notes": "2U Intel Xeon (3rd gen) server, 12 x 3.5 in bays. 10 PCIe slots (slots 1-5 need the second CPU). Two hot-plug PSUs. No VGA on the back panel. Check: PSU rating and inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 0 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sparc-t8-1",
+  "manufacturer": "Oracle",
+  "partNumber": "SPARC T8-1",
+  "name": "SPARC T8-1 2U one-socket SPARC M8 server",
+  "family": "SPARC servers",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Oracle SPARC T8-1 documentation",
+  "productUrl": "https://docs.oracle.com/en/servers/sparc/",
+  "notes": "2U Oracle Solaris server. Check: ports from the SPARC T8/S7 family pattern (NET 0-3 10GBASE-T, NET MGT, SER MGT, VGA, USB). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GBASE-T NET 0-3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sparc-t8-2",
+  "manufacturer": "Oracle",
+  "partNumber": "SPARC T8-2",
+  "name": "SPARC T8-2 3U two-socket SPARC M8 server",
+  "family": "SPARC servers",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Oracle SPARC T8-2 documentation",
+  "productUrl": "https://docs.oracle.com/en/servers/sparc/",
+  "notes": "3U Oracle Solaris server. Check: ports from the SPARC T8/S7 family pattern (NET 0-3 10GBASE-T, NET MGT, SER MGT, VGA, USB). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GBASE-T NET 0-3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sparc-s7-2",
+  "manufacturer": "Oracle",
+  "partNumber": "SPARC S7-2",
+  "name": "SPARC S7-2 1U two-socket SPARC S7 server",
+  "family": "SPARC servers",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Oracle SPARC S7-2 documentation",
+  "productUrl": "https://docs.oracle.com/en/servers/sparc/",
+  "notes": "1U Oracle Solaris server. Check: ports from the SPARC T8/S7 family pattern (NET 0-3 10GBASE-T, NET MGT, SER MGT, VGA, USB). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GBASE-T NET 0-3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sparc-s7-2l",
+  "manufacturer": "Oracle",
+  "partNumber": "SPARC S7-2L",
+  "name": "SPARC S7-2L 2U two-socket SPARC S7 server",
+  "family": "SPARC servers",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Oracle SPARC S7-2L documentation",
+  "productUrl": "https://docs.oracle.com/en/servers/sparc/",
+  "notes": "2U Oracle Solaris server. Check: ports from the SPARC T8/S7 family pattern (NET 0-3 10GBASE-T, NET MGT, SER MGT, VGA, USB). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "10GBASE-T NET 0-3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET MGT (ILOM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "SER MGT"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sl150-base",
+  "manufacturer": "Oracle",
+  "partNumber": "SL150 Base Module",
+  "name": "StorageTek SL150 tape library base module (3U, 30 slots)",
+  "family": "StorageTek tape",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Oracle StorageTek SL150 Library Guide (Base Module)",
+  "productUrl": "https://docs.oracle.com/en/storage/tape-storage/storagetek-sl150-modular-tape-library/slofs/base-module1.html",
+  "notes": "3U base module, always at the top of the library: two 15-slot magazines, a 4-slot mailslot (19 with the expanded mailslot), one LTO drive with room for a second, one PSU with an optional second (change the count to 1 if only one fitted). Expansion modules hang below on the USB links. Add each drive's SAS or FC port as an extra port. A common archive library behind broadcast MAM systems.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "LTO drive bay (SAS or FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 9,
+    "prefix": "Expansion module link"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "oracle-sl150-exp",
+  "manufacturer": "Oracle",
+  "partNumber": "SL150 Expansion Module",
+  "name": "StorageTek SL150 tape library expansion module (2U, 30 slots)",
+  "family": "StorageTek tape",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Oracle StorageTek SL150 Library Guide",
+  "productUrl": "https://docs.oracle.com/en/storage/tape-storage/storagetek-sl150-modular-tape-library/slofs/sl150-library.html",
+  "notes": "2U module below the base module: two 15-slot magazines and room for two drives; up to 9 per library (300 slots, 20 drives). Check: module height (2U) and link cable.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "LTO drive bay (SAS or FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Link to base module"
+   }
+  ]
+ }
+]

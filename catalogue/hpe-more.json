@@ -1,0 +1,3157 @@
+[
+ {
+  "id": "hpe-dl380-gen12",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant Compute DL380 Gen12",
+  "name": "ProLiant Compute DL380 Gen12 2U server",
+  "family": "ProLiant Gen12",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HPE ProLiant Compute DL380 Gen12 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.a00073551enw.html",
+  "notes": "2U two-socket Intel Xeon 6 server, iLO 7. No built-in NIC: ports come from the OCP 3.0 (A standard, B optional) and PCIe cards fitted. Up to 8 PCIe Gen5 slots (6 x16 + 2 x8). Optional front DisplayPort and 2 x USB 2.0 via the Universal Media Bay; optional rear serial port. 1 or 2 Flex Slot PSUs 800-2200 W (1600 W and up need 200-240 V). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl360-gen12",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant Compute DL360 Gen12",
+  "name": "ProLiant Compute DL360 Gen12 1U server",
+  "family": "ProLiant Gen12",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant Compute DL360 Gen12 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-compute-dl360-gen12.html",
+  "notes": "1U two-socket Intel Xeon 6 server, iLO 7. No built-in NIC: ports come from the OCP 3.0 and PCIe cards fitted. Check: PCIe slot count (3 assumed, as on the Gen11) and front ports (taken from the DL380 Gen12). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl360-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL360 Gen11",
+  "name": "ProLiant DL360 Gen11 1U server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HPE ProLiant DL360 Gen11 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.a50004306enw.html",
+  "notes": "1U two-socket 4th/5th gen Intel Xeon server, iLO 6. No built-in NIC: ports come from the OCP 3.0 (slot 2 needs CPU 2) and PCIe cards (2 standard, slot 3 needs CPU 2). Pre-configured models often carry a 4 x 1GbE BCM5719 OCP3 or 2 x 10GBASE-T BCM57416 card. Optional front DisplayPort (not active together with the rear VGA) and front USB 2.0; optional rear serial port. Flex Slot hot-plug PSUs: 500/800/1000 W take C13/C14 cords; 1600 W runs on 200-240 V only; Check: the inlet on 1800-2200 W Titanium supplies. Check: iLO service port connector (micro-USB assumed; Gen12 uses USB-C). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl380-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL380 Gen11",
+  "name": "ProLiant DL380 Gen11 2U server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HPE ProLiant DL380 Gen11 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.a50004307enw.html",
+  "notes": "2U two-socket 4th/5th gen Intel Xeon server, iLO 6. No built-in NIC: ports come from the OCP 3.0 and PCIe cards fitted. Up to 8 PCIe slots (3 primary, 3 secondary, 2 tertiary riser). Optional front DisplayPort and USB 2.0 via the Universal Media Bay; optional rear serial port. A common host for broadcast software (playout, graphics, MAM). Flex Slot hot-plug PSUs: 500/800/1000 W take C13/C14 cords; 1600 W runs on 200-240 V only; Check: the inlet on 1800-2200 W Titanium supplies. Check: iLO service port connector (micro-USB assumed; Gen12 uses USB-C). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl20-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL20 Gen11",
+  "name": "ProLiant DL20 Gen11 1U short-depth server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE ProLiant DL20 Gen11 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.a50007009enw.html",
+  "notes": "Short-depth 1U single-socket Intel Xeon E-2400 server, 378 mm deep (SFF). 4 x 1GbE BCM5719 embedded; NIC 1 is shared with iLO. A dedicated iLO port and serial port come with the LP Serial/iLO/M.2 enablement kit (P65407-B21). Standard 290 W non-hot-plug PSU; redundant Flex Slot PSUs (500/800/1000 W) optional, so change the PSU count to 2 if fitted.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0 (iLO service)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DisplayPort"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE embedded (port 1 shared with iLO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl320-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL320 Gen11",
+  "name": "ProLiant DL320 Gen11 1U single-socket server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL320 Gen11 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl320-gen11.html",
+  "notes": "1U single-socket Intel Xeon server for edge and VDI/GPU work. Check: rear layout taken from the DL360/DL380 Gen11 (VGA, 2 x USB, iLO, OCP 3.0, PCIe); slot counts from the product page. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl325-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL325 Gen11",
+  "name": "ProLiant DL325 Gen11 1U single-socket AMD EPYC server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL325 Gen11 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl325-gen11.html",
+  "notes": "1U single-socket AMD EPYC 9004/9005 server, iLO 6. Check: rear layout taken from the DL360/DL380 Gen11 (VGA, 2 x USB, iLO, OCP 3.0, PCIe); slot counts from the product page. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl365-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL365 Gen11",
+  "name": "ProLiant DL365 Gen11 1U two-socket AMD EPYC server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL365 Gen11 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl365-gen11.html",
+  "notes": "1U two-socket AMD EPYC 9004/9005 server, iLO 6. Check: rear layout taken from the DL360/DL380 Gen11 (VGA, 2 x USB, iLO, OCP 3.0, PCIe); slot counts from the product page. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl345-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL345 Gen11",
+  "name": "ProLiant DL345 Gen11 2U single-socket AMD EPYC server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL345 Gen11 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl345-gen11.html",
+  "notes": "2U single-socket AMD EPYC 9004/9005 server, iLO 6. Check: rear layout taken from the DL360/DL380 Gen11 (VGA, 2 x USB, iLO, OCP 3.0, PCIe); slot counts from the product page. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl385-gen11",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL385 Gen11",
+  "name": "ProLiant DL385 Gen11 2U two-socket AMD EPYC server",
+  "family": "ProLiant Gen11",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL385 Gen11 product page",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl385-gen11.html",
+  "notes": "2U two-socket AMD EPYC 9004/9005 server, iLO 6. Check: rear layout taken from the DL360/DL380 Gen11 (VGA, 2 x USB, iLO, OCP 3.0, PCIe); slot counts from the product page. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl360-gen10plus",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL360 Gen10 Plus",
+  "name": "ProLiant DL360 Gen10 Plus 1U server",
+  "family": "ProLiant Gen10 Plus",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL360 Gen10 Plus QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/a50000080enw",
+  "notes": "1U two-socket 3rd gen Intel Xeon server, iLO 5. Check: rear ports from the Gen10 Plus family (VGA, 2 x USB 3.0, iLO 5, OCP 3.0, PCIe; no embedded NIC); confirm OCP and PCIe counts in the QuickSpecs. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl380-gen10plus",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL380 Gen10 Plus",
+  "name": "ProLiant DL380 Gen10 Plus 2U server",
+  "family": "ProLiant Gen10 Plus",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL380 Gen10 Plus QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/a50000081enw",
+  "notes": "2U two-socket 3rd gen Intel Xeon server, iLO 5. Check: rear ports from the Gen10 Plus family (VGA, 2 x USB 3.0, iLO 5, OCP 3.0, PCIe; no embedded NIC); confirm OCP and PCIe counts in the QuickSpecs. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl325-gen10plus-v2",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL325 Gen10 Plus v2",
+  "name": "ProLiant DL325 Gen10 Plus v2 1U AMD EPYC server",
+  "family": "ProLiant Gen10 Plus",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL325 Gen10 Plus v2 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl325-gen10-plus-v2.html",
+  "notes": "1U single-socket AMD EPYC 7003 server, iLO 5. Check: rear ports from the Gen10 Plus family (VGA, 2 x USB 3.0, iLO 5, OCP 3.0, PCIe; no embedded NIC); confirm OCP and PCIe counts in the QuickSpecs. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl385-gen10plus-v2",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL385 Gen10 Plus v2",
+  "name": "ProLiant DL385 Gen10 Plus v2 2U AMD EPYC server",
+  "family": "ProLiant Gen10 Plus",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL385 Gen10 Plus v2 QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/hpe-proliant-dl385-gen10-plus-v2.html",
+  "notes": "2U two-socket AMD EPYC 7003 server, iLO 5. Check: rear ports from the Gen10 Plus family (VGA, 2 x USB 3.0, iLO 5, OCP 3.0, PCIe; no embedded NIC); confirm OCP and PCIe counts in the QuickSpecs. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "OCP 3.0 NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl360-gen10",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL360 Gen10",
+  "name": "ProLiant DL360 Gen10 1U server",
+  "family": "ProLiant Gen10",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL360 Gen10 QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/a00008180enw",
+  "notes": "1U two-socket Intel Xeon Scalable server (2017-2021), iLO 5. Slot 3 needs CPU 2. Check: rear ports from the Gen10 family (VGA, 2 x USB 3.0, iLO 5, embedded HPE 369i 4 x 1GbE, FlexibleLOM slot, PCIe); serial port optional. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE embedded"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl380-gen10",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL380 Gen10",
+  "name": "ProLiant DL380 Gen10 2U server",
+  "family": "ProLiant Gen10",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL380 Gen10 QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/a00008181enw",
+  "notes": "2U two-socket Intel Xeon Scalable server (2017-2021), iLO 5. Up to 8 PCIe slots over three risers. Very common under broadcast software (Avid, Grass Valley, Harmonic, Imagine). Check: rear ports from the Gen10 family (VGA, 2 x USB 3.0, iLO 5, embedded HPE 369i 4 x 1GbE, FlexibleLOM slot, PCIe); serial port optional. Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iLO service port"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE embedded"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl20-gen10",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL20 Gen10",
+  "name": "ProLiant DL20 Gen10 1U short-depth server",
+  "family": "ProLiant Gen10",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE ProLiant DL20 Gen10 QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/a00008179enw",
+  "notes": "Short-depth 1U single-socket Xeon E-2100/2200 server, iLO 5. Embedded 2 x 1GbE; optional dedicated iLO port and serial port kit. Single non-hot-plug PSU standard, redundant PSUs optional. Check: rear USB count.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE embedded (port 1 shared with iLO)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl360-gen9",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL360 Gen9",
+  "name": "ProLiant DL360 Gen9 1U server (legacy)",
+  "family": "ProLiant Gen9",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL360 Gen9 QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/c04375623",
+  "notes": "1U two-socket Xeon E5-2600 v3/v4 server (2014-2017). Sold as HP ProLiant (before HP split into HP Inc and HPE in 2015). Check: rear ports from the Gen9 family (VGA, serial, 2 x USB 3.0, iLO 4, embedded HP 331i 4 x 1GbE, FlexibleLOM slot, PCIe). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE embedded"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl380-gen9",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL380 Gen9",
+  "name": "ProLiant DL380 Gen9 2U server (legacy)",
+  "family": "ProLiant Gen9",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE ProLiant DL380 Gen9 QuickSpecs",
+  "productUrl": "https://www.hpe.com/psnow/doc/c04346247",
+  "notes": "2U two-socket Xeon E5-2600 v3/v4 server (2014-2017). Up to 6 PCIe slots. Sold as HP ProLiant (before HP split into HP Inc and HPE in 2015). Check: rear ports from the Gen9 family (VGA, serial, 2 x USB 3.0, iLO 4, embedded HP 331i 4 x 1GbE, FlexibleLOM slot, PCIe). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE embedded"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-dl380p-gen8",
+  "manufacturer": "HPE",
+  "partNumber": "ProLiant DL380p Gen8",
+  "name": "ProLiant DL380p Gen8 2U server (legacy)",
+  "family": "ProLiant",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE QuickSpecs DL380p Gen8",
+  "productUrl": "https://www.hpe.com/psnow/doc/c04123076",
+  "notes": "Sold as HP ProLiant. 2U two-socket Xeon E5-2600 / v2 server (2012-2015), FlexibleLOM 4 x 1GbE (or 2 x 10GbE), dedicated iLO 4, up to 6 PCIe slots (3 with one CPU), redundant Flex Slot PSUs. Check: FlexibleLOM fitted and PCIe cards.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE FlexibleLOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iLO 4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msa2062-fc-sff",
+  "manufacturer": "HPE",
+  "partNumber": "R0Q80A",
+  "name": "MSA 2062 16Gb FC SFF storage array (24 x 2.5 in)",
+  "family": "MSA storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE MSA 2060 / 2062 data sheets",
+  "productUrl": "https://www.hpe.com/us/en/storage/msa-shared-storage.html",
+  "notes": "2U array with two controllers; each controller has 4 host ports, 1 SAS expansion port (mini-SAS HD), 1 RJ45 management port and a CLI port, and the enclosure has 2 hot-plug PSUs. Up to 9 expansion enclosures. Check: CLI port connector and PSU inlet. 24 SFF bays, 2 x 16Gb FC 4-port controllers. MSA 2062 is the 2060 bundled with two SSDs and the advanced data services licence. 508 mm deep.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl A host 16Gb FC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl A SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl A Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl A CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl B host 16Gb FC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl B SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl B Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl B CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msa2060-fc-sff",
+  "manufacturer": "HPE",
+  "partNumber": "MSA 2060 FC SFF",
+  "name": "MSA 2060 16Gb FC SFF storage array (24 x 2.5 in)",
+  "family": "MSA storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE MSA 2060 / 2062 data sheets",
+  "productUrl": "https://www.hpe.com/us/en/storage/msa-shared-storage.html",
+  "notes": "2U array with two controllers; each controller has 4 host ports, 1 SAS expansion port (mini-SAS HD), 1 RJ45 management port and a CLI port, and the enclosure has 2 hot-plug PSUs. Up to 9 expansion enclosures. Check: CLI port connector and PSU inlet. 24 SFF bays. Also sold in 12 LFF. Check: part number for your region.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl A host 16Gb FC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl A SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl A Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl A CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl B host 16Gb FC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl B SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl B Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl B CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msa2060-iscsi-sff",
+  "manufacturer": "HPE",
+  "partNumber": "MSA 2060 10GbE iSCSI SFF",
+  "name": "MSA 2060 10GbE iSCSI SFF storage array (24 x 2.5 in)",
+  "family": "MSA storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE MSA 2060 / 2062 data sheets",
+  "productUrl": "https://www.hpe.com/us/en/storage/msa-shared-storage.html",
+  "notes": "2U array with two controllers; each controller has 4 host ports, 1 SAS expansion port (mini-SAS HD), 1 RJ45 management port and a CLI port, and the enclosure has 2 hot-plug PSUs. Up to 9 expansion enclosures. Check: CLI port connector and PSU inlet. 24 SFF bays. A 10GBASE-T iSCSI version is also sold (RJ45 host ports). Check: part number.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl A host 10GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl A SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl A Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl A CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Ctrl B host 10GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl B SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl B Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl B CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msa2060-sas-sff",
+  "manufacturer": "HPE",
+  "partNumber": "MSA 2060 12Gb SAS SFF",
+  "name": "MSA 2060 12Gb SAS SFF storage array (24 x 2.5 in)",
+  "family": "MSA storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE MSA 2060 / 2062 data sheets",
+  "productUrl": "https://www.hpe.com/us/en/storage/msa-shared-storage.html",
+  "notes": "2U array with two controllers; each controller has 4 host ports, 1 SAS expansion port (mini-SAS HD), 1 RJ45 management port and a CLI port, and the enclosure has 2 hot-plug PSUs. Up to 9 expansion enclosures. Check: CLI port connector and PSU inlet. 24 SFF bays, direct-attached to up to 4 hosts per controller pair. Check: part number.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 4,
+    "prefix": "Ctrl A host 12Gb SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl A SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl A Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl A CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 4,
+    "prefix": "Ctrl B host 12Gb SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Ctrl B SAS expansion"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ctrl B Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Ctrl B CLI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msa2060-lff-drive-enc",
+  "manufacturer": "HPE",
+  "partNumber": "MSA 2060 LFF Disk Enclosure",
+  "name": "MSA 2060 LFF disk enclosure (12 x 3.5 in)",
+  "family": "MSA storage",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE MSA 2060 / 2062 data sheets",
+  "productUrl": "https://www.hpe.com/us/en/storage/msa-shared-storage.html",
+  "notes": "Expansion shelf for MSA 2060/2062. Two I/O modules. Check: SAS ports per I/O module (3 assumed) and part number.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 3,
+    "prefix": "IOM A SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 3,
+    "prefix": "IOM B SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msl3040-base",
+  "manufacturer": "HPE",
+  "partNumber": "MSL3040 Base Module",
+  "name": "StoreEver MSL3040 tape library base module (3U, 40 slots)",
+  "family": "StoreEver tape",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE StoreEver MSL3040 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/product-catalog/storage/tape-storage/pip.hpe-storeever-msl3040-tape-library.html",
+  "notes": "3U base module, 40 cartridge slots, LTO-7/8/9 half-height SAS or FC drives. Scales to 48U (15 x 3U expansion modules) and 640 slots. Add each drive's SAS (mini-SAS HD) or FC (LC) port as an extra port. Check: drive bays per module (3 assumed), management and USB ports, PSU count (second PSU optional).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "LTO drive bay (SAS or FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msl3040-exp",
+  "manufacturer": "HPE",
+  "partNumber": "MSL3040 Expansion Module",
+  "name": "StoreEver MSL3040 tape library expansion module (3U)",
+  "family": "StoreEver tape",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE StoreEver MSL3040 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/product-catalog/storage/tape-storage/pip.hpe-storeever-msl3040-tape-library.html",
+  "notes": "3U expansion module for the MSL3040, mounted below the base module. Check: drive bays, slot count and PSU.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "LTO drive bay (SAS or FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-msl-1-8-g2",
+  "manufacturer": "HPE",
+  "partNumber": "MSL 1/8 G2",
+  "name": "StoreEver 1/8 G2 tape autoloader (1U, 8 slots)",
+  "family": "StoreEver tape",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE StoreEver 1/8 G2 autoloader QuickSpecs",
+  "productUrl": "https://www.hpe.com/us/en/product-catalog/storage/tape-storage.html",
+  "notes": "1U autoloader with one half-height LTO drive and 8 cartridge slots (two 4-slot magazines). Check: SAS connector (older units have mini-SAS) and FC drive versions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Drive SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-p9q43a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q43A",
+  "name": "G2 Basic PDU 1U 32 A single phase, 6 x C19",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "7.3 kVA basic (unmetered) PDU, 2 x 16 A single-pole breakers. Mounts in 1U or in the 0U space at the side of an HPE rack. ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3.6,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "B"
+    }
+   ]
+  }
+ },
+ {
+  "id": "hpe-p9q44a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q44A",
+  "name": "G2 Basic PDU 1U 32 A single phase, 12 x C13",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "7.3 kVA basic (unmetered) PDU, 2 x 16 A single-pole breakers. Mounts in 1U or in the 0U space at the side of an HPE rack. ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3.6,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "B"
+    }
+   ]
+  }
+ },
+ {
+  "id": "hpe-p9q45a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q45A",
+  "name": "G2 Basic PDU half-height 32 A single phase, 20 x C13",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "7.3 kVA basic (unmetered) PDU, 2 x 16 A single-pole breakers. Check: strip length (estimated). ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3.0,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 10,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 10,
+     "circuit": "B"
+    }
+   ],
+   "lengthMm": 1000,
+   "widthMm": 52,
+   "cordEnd": "bottom"
+  }
+ },
+ {
+  "id": "hpe-p9q46a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q46A",
+  "name": "G2 Basic PDU mid-height 32 A single phase, 36 x C13, 6 x C19",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "7.3 kVA basic (unmetered) PDU, 2 x 16 A single-pole breakers. Check: strip length (estimated). ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3.0,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 18,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 18,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "B"
+    }
+   ],
+   "lengthMm": 1400,
+   "widthMm": 52,
+   "cordEnd": "bottom"
+  }
+ },
+ {
+  "id": "hpe-p9q63a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q63A",
+  "name": "G2 Basic PDU 1U 32 A three phase, 6 x C19",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "22 kVA basic (unmetered) PDU, 6 x 16 A single-pole breakers. Mounts in 1U or in the 0U space at the side of an HPE rack. ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "h",
+   "phase": 3,
+   "volts": 400,
+   "amps": 32,
+   "plug": "cee3p32",
+   "cordM": 3.6,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "C",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "D",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "E",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    },
+    {
+     "id": "F",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "C"
+    },
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "D"
+    },
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "E"
+    },
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "F"
+    }
+   ]
+  }
+ },
+ {
+  "id": "hpe-p9q65a",
+  "manufacturer": "HPE",
+  "partNumber": "P9Q65A",
+  "name": "G2 Basic PDU full-height 32 A three phase, 36 x C13, 12 x C19",
+  "family": "G2 PDU",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE G2 Basic PDUs QuickSpecs (INTL models)",
+  "productUrl": "https://www.hpe.com/us/en/collaterals/collateral.c05324691.html",
+  "notes": "22 kVA basic (unmetered) PDU, 6 x 16 A single-pole breakers. High-density strip mounted on its side, outlets facing the back of the rack. Check: strip length (estimated). ",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "phase": 3,
+   "volts": 400,
+   "amps": 32,
+   "plug": "cee3p32",
+   "cordM": 3.0,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "C",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "D",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "E",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    },
+    {
+     "id": "F",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "B"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "C"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "C"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "D"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "D"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "E"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "E"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "F"
+    },
+    {
+     "type": "c19",
+     "count": 2,
+     "circuit": "F"
+    }
+   ],
+   "lengthMm": 1800,
+   "widthMm": 52,
+   "cordEnd": "bottom"
+  }
+ },
+ {
+  "id": "hpe-tft7600-g2",
+  "manufacturer": "HPE",
+  "partNumber": "TFT7600 G2",
+  "name": "TFT7600 G2 KVM console, 17.3 in LCD and keyboard, 1U",
+  "family": "KVM consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE TFT7600 G2 listings",
+  "productUrl": "https://buy.hpe.com/us/en/rack-power-infrastructure-products/rack-options/rack-console-options/c/1009830188",
+  "notes": "1U slide-out console, 17.3 in 1440 x 900 LCD, keyboard and touch pad (regional keyboard SKUs AZ870A to AZ879A). No KVM switch inside: pair it with an HPE KVM console switch or wire it to one server. Check: rear connectors and power inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Keyboard/mouse (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "Keyboard/mouse (PS/2)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB pass-through"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-af621a",
+  "manufacturer": "HPE",
+  "partNumber": "AF621A",
+  "name": "0x2x16 G2 KVM IP console switch, 1U",
+  "family": "KVM consoles",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE KVM switch QuickSpecs",
+  "productUrl": "https://buy.hpe.com/us/en/rack-power-infrastructure-products/rack-options/kvm-switches/c/1009830189",
+  "notes": "16 server ports over Cat 5 to HPE KVM interface adapters (USB or PS/2 + VGA), 2 remote IP users plus one local console (pairs with the TFT7600). Check: local console connectors, setup port and PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "ARI port (Cat 5 to interface adapter)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN (remote users)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local console VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jq074a",
+  "manufacturer": "HPE",
+  "partNumber": "JQ074A",
+  "name": "FlexFabric 5945 48SFP28 8QSFP28 switch",
+  "family": "FlexFabric 5945",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE FlexFabric 5945 Switch Series QuickSpecs",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-flexfabric-5945-switch-series/p/1010952223",
+  "notes": "Console (RJ45), management Ethernet and USB on the port side. Check: panel positions. Two hot-swap PSUs and five fan trays, port-to-power or power-to-port airflow (ordered separately). Data centre ToR switch running Comware 7.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 8,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jq077a",
+  "manufacturer": "HPE",
+  "partNumber": "JQ077A",
+  "name": "FlexFabric 5945 32QSFP28 switch",
+  "family": "FlexFabric 5945",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE FlexFabric 5945 Switch Series QuickSpecs",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-flexfabric-5945-switch-series/p/1010952223",
+  "notes": "Console (RJ45), management Ethernet and USB on the port side. Check: panel positions. Two hot-swap PSUs, fan trays ordered separately. Check: RU (1U assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 32,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jg960a",
+  "manufacturer": "HPE",
+  "partNumber": "JG960A",
+  "name": "OfficeConnect 1950 24G 2SFP+ 2XGT switch",
+  "family": "OfficeConnect 1950",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1950 data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1950-switch-series/p/7074854",
+  "notes": "Front: ports, console. Rear: fixed internal PSU (C14). Check: console connector. Web-managed smart switch, stacks over the 10G ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jg961a",
+  "manufacturer": "HPE",
+  "partNumber": "JG961A",
+  "name": "OfficeConnect 1950 48G 2SFP+ 2XGT switch",
+  "family": "OfficeConnect 1950",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1950 data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1950-switch-series/p/7074854",
+  "notes": "Front: ports, console. Rear: fixed internal PSU (C14). Check: console connector. Web-managed smart switch, stacks over the 10G ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jg962a",
+  "manufacturer": "HPE",
+  "partNumber": "JG962A",
+  "name": "OfficeConnect 1950 24G 2SFP+ 2XGT PoE+ 370W switch",
+  "family": "OfficeConnect 1950",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1950 data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1950-switch-series/p/7074854",
+  "notes": "Front: ports, console. Rear: fixed internal PSU (C14). Check: console connector. Web-managed smart switch, stacks over the 10G ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jg963a",
+  "manufacturer": "HPE",
+  "partNumber": "JG963A",
+  "name": "OfficeConnect 1950 48G 2SFP+ 2XGT PoE+ 370W switch",
+  "family": "OfficeConnect 1950",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1950 data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1950-switch-series/p/7074854",
+  "notes": "Front: ports, console. Rear: fixed internal PSU (C14). Check: console connector. Web-managed smart switch, stacks over the 10G ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jl381a",
+  "manufacturer": "HPE",
+  "partNumber": "JL381A",
+  "name": "OfficeConnect 1920S 24G 2SFP switch",
+  "family": "OfficeConnect 1920S",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1920S data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1920s-switch-series/p/1009148840",
+  "notes": "Web-managed smart switch, fanless, no console port. Check: PSU (internal assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hpe-jl382a",
+  "manufacturer": "HPE",
+  "partNumber": "JL382A",
+  "name": "OfficeConnect 1920S 48G 4SFP switch",
+  "family": "OfficeConnect 1920S",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE OfficeConnect 1920S data sheet",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-officeconnect-1920s-switch-series/p/1009148840",
+  "notes": "Web-managed smart switch, fanless, no console port. Check: PSU (internal assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

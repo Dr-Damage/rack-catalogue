@@ -1,0 +1,1123 @@
+[
+ {
+  "id": "ibm-9105-41b",
+  "manufacturer": "IBM",
+  "partNumber": "9105-41B",
+  "name": "Power S1014 4U single-socket Power10 server",
+  "family": "Power10",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "IBM Power10 S1012/S1014/S1022s/S1022/S1024 Redpaper REDP-5675",
+  "productUrl": "https://www.redbooks.ibm.com/redpapers/pdfs/redp5675.pdf",
+  "notes": "4U rack (also a desk-side tower). 5 usable PCIe slots (4 Gen5, 1 Gen4), up to 10 with an expansion drawer. Two hot-swap PSUs: 1200 W (100-127 or 200-240 V) or 1600 W (200-240 V, needed for the 24-core option). eBMC management. Network, Fibre Channel and SAS ports come from the PCIe adapters fitted: add them as extra ports. Check: PSU inlet (C14 assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9105-22b",
+  "manufacturer": "IBM",
+  "partNumber": "9105-22B",
+  "name": "Power S1022s 2U Power10 server",
+  "family": "Power10",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "IBM Power10 S1012/S1014/S1022s/S1022/S1024 Redpaper REDP-5675",
+  "productUrl": "https://www.redbooks.ibm.com/redpapers/pdfs/redp5675.pdf",
+  "notes": "2U, one or two sockets. 10 PCIe slots (5 usable with one socket; 8 Gen5, 2 Gen4). Two 1000 W PSUs (100-127 or 200-240 V). Network, Fibre Channel and SAS ports come from the PCIe adapters fitted: add them as extra ports. Check: PSU inlet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9105-22a",
+  "manufacturer": "IBM",
+  "partNumber": "9105-22A",
+  "name": "Power S1022 2U Power10 server",
+  "family": "Power10",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "IBM Power10 S1012/S1014/S1022s/S1022/S1024 Redpaper REDP-5675",
+  "productUrl": "https://www.redbooks.ibm.com/redpapers/pdfs/redp5675.pdf",
+  "notes": "2U, one or two sockets. 10 PCIe slots (5 usable with one socket). Two 2000 W PSUs, 200-240 V only. Network, Fibre Channel and SAS ports come from the PCIe adapters fitted: add them as extra ports. Check: PSU inlet (C14 assumed; 2000 W supplies may take C20).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9105-42a",
+  "manufacturer": "IBM",
+  "partNumber": "9105-42A",
+  "name": "Power S1024 4U Power10 server",
+  "family": "Power10",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "IBM Power10 S1012/S1014/S1022s/S1022/S1024 Redpaper REDP-5675",
+  "productUrl": "https://www.redbooks.ibm.com/redpapers/pdfs/redp5675.pdf",
+  "notes": "4U, one or two sockets. 10 PCIe slots (5 usable with one socket). Four 1600 W PSUs, 200-240 V only. Network, Fibre Channel and SAS ports come from the PCIe adapters fitted: add them as extra ports. Check: PSU inlet.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9043-mrx",
+  "manufacturer": "IBM",
+  "partNumber": "9043-MRX",
+  "name": "Power E1050 4U four-socket Power10 server",
+  "family": "Power10",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM Power E1050 Redpaper REDP-5684",
+  "productUrl": "https://www.redbooks.ibm.com/redpapers/pdfs/redp5684.pdf",
+  "notes": "4U, two to four sockets, eBMC management. Check: PCIe slot count (11 assumed), PSU count and rating (4 x 2300 W assumed), and front/rear USB.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 11,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9824-22a",
+  "manufacturer": "IBM",
+  "partNumber": "9824-22A",
+  "name": "Power S1122 2U Power11 server",
+  "family": "Power11",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM Power11 documentation (9824-22A)",
+  "productUrl": "https://www.ibm.com/docs/en/power11/9824-22A",
+  "notes": "Power11 successor to the S1022 (2025). Check: ports, PCIe slots and PSUs (taken from the S1022).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-9824-42a",
+  "manufacturer": "IBM",
+  "partNumber": "9824-42A",
+  "name": "Power S1124 4U Power11 server",
+  "family": "Power11",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM Power11 documentation",
+  "productUrl": "https://www.ibm.com/products/power-s1124",
+  "notes": "Power11 successor to the S1024 (2025). Check: ports, PCIe slots and PSUs (taken from the S1024).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "HMC 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "System port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 10,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-7063-cr2",
+  "manufacturer": "IBM",
+  "partNumber": "7063-CR2",
+  "name": "Hardware Management Console (HMC) 1U",
+  "family": "Power HMC",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM 7063 HMC cabling documentation",
+  "productUrl": "https://www.ibm.com/docs/en/power10?topic=hmc-7063-cr2",
+  "notes": "Rack-mount HMC appliance for managing Power servers (connects to their HMC ports). Check: all ports (from the 7063-CR1 cabling guide pattern).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "BMC"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-fs5015",
+  "manufacturer": "IBM",
+  "partNumber": "FlashSystem 5015",
+  "name": "FlashSystem 5015 2U storage (12 LFF or 24 SFF)",
+  "family": "FlashSystem",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM FlashSystem portfolio specifications",
+  "productUrl": "https://www.ibm.com/flashsystem",
+  "notes": "Entry hybrid array, 1 Gb iSCSI standard; options FC 16G, iSCSI 10G, SAS 12G. Up to 8 host ports. Two node canisters; host interface adapters (FC 32/64G, iSCSI/NVMe-TCP 10/25/100GbE) go in the canister slots: add their ports. Check: onboard ports and slots per canister.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 1 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Canister 1 1GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 1 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 2 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Canister 2 1GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 2 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-fs5045",
+  "manufacturer": "IBM",
+  "partNumber": "FlashSystem 5045",
+  "name": "FlashSystem 5045 2U storage (12 LFF or 24 SFF)",
+  "family": "FlashSystem",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM FlashSystem portfolio specifications",
+  "productUrl": "https://www.ibm.com/flashsystem",
+  "notes": "Entry hybrid array, 10 Gb iSCSI standard; options FC 16G, iSCSI 10G, SAS 12G. Up to 8 host ports. Two node canisters; host interface adapters (FC 32/64G, iSCSI/NVMe-TCP 10/25/100GbE) go in the canister slots: add their ports. Check: onboard ports and slots per canister.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 1 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Canister 1 10GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 1 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 2 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "Canister 2 10GbE iSCSI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 2 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-fs5300",
+  "manufacturer": "IBM",
+  "partNumber": "FlashSystem 5300",
+  "name": "FlashSystem 5300 1U NVMe storage (12 x 2.5 in)",
+  "family": "FlashSystem",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM FlashSystem portfolio specifications",
+  "productUrl": "https://www.ibm.com/flashsystem",
+  "notes": "1U all-flash NVMe array, 25/10 Gb iSCSI or NVMe/TCP standard; options FC 32G/64G. Up to 16 host ports. Two node canisters; host interface adapters (FC 32/64G, iSCSI/NVMe-TCP 10/25/100GbE) go in the canister slots: add their ports. Check: onboard ports and slots per canister.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 1 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "Canister 1 25GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 1 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 2 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 2,
+    "prefix": "Canister 2 25GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Canister 2 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-fs7300",
+  "manufacturer": "IBM",
+  "partNumber": "FlashSystem 7300",
+  "name": "FlashSystem 7300 2U NVMe storage (24 x 2.5 in)",
+  "family": "FlashSystem",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM FlashSystem portfolio specifications",
+  "productUrl": "https://www.ibm.com/flashsystem",
+  "notes": "2U all-flash NVMe array, 10 Gb iSCSI standard; options FC 32G/64G, 25/100 Gb iSCSI or NVMe/TCP. Up to 24 host ports. Two node canisters; host interface adapters (FC 32/64G, iSCSI/NVMe-TCP 10/25/100GbE) go in the canister slots: add their ports. Check: onboard ports and slots per canister.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 1 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Canister 1 10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "Canister 1 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 2 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "Canister 2 10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "Canister 2 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-fs9500",
+  "manufacturer": "IBM",
+  "partNumber": "FlashSystem 9500",
+  "name": "FlashSystem 9500 4U NVMe storage (48 x 2.5 in)",
+  "family": "FlashSystem",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM FlashSystem portfolio specifications",
+  "productUrl": "https://www.ibm.com/flashsystem",
+  "notes": "4U all-flash array, 48 FlashCore Modules, up to 48 host ports (FC 32G/64G, 10/25/100 Gb iSCSI or NVMe/TCP). Two node canisters; host interface adapters (FC 32/64G, iSCSI/NVMe-TCP 10/25/100GbE) go in the canister slots: add their ports. Check: adapter slots per canister and PSU count (4 assumed).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 1 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "Canister 1 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Canister 2 Mgmt / tech port"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "Canister 2 host adapter slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU (second pair)"
+   }
+  ]
+ },
+ {
+  "id": "ibm-ts4300",
+  "manufacturer": "IBM",
+  "partNumber": "TS4300 3555-L3A",
+  "name": "TS4300 tape library base module (3U)",
+  "family": "IBM tape",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM TS4300 product page",
+  "productUrl": "https://www.ibm.com/products/ts4300-tape-library",
+  "notes": "3U modular LTO library, up to 3 half-height drives and 40 slots per module, stacks to 7 modules (21U). Add each drive's SAS or FC port. Check: drive bays and slots per module, PSU count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "LTO drive bay (SAS or FC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ibm-ts2900",
+  "manufacturer": "IBM",
+  "partNumber": "TS2900 3572-S4H",
+  "name": "TS2900 tape autoloader (1U, 9 slots)",
+  "family": "IBM tape",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "IBM TS2900 product page",
+  "productUrl": "https://www.ibm.com/products/ts2900-tape-autoloader",
+  "notes": "1U autoloader, one half-height LTO SAS drive, 9-slot magazine. Check: SAS connector and part number.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Mini-SAS HD",
+    "count": 1,
+    "prefix": "Drive SAS"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ibm-x3550-m5",
+  "manufacturer": "IBM",
+  "partNumber": "System x3550 M5 (8869)",
+  "name": "System x3550 M5 1U server (legacy)",
+  "family": "System x",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Lenovo Press x3550 M5 product guide",
+  "productUrl": "https://lenovopress.lenovo.com/",
+  "notes": "Legacy IBM System x server (the x86 server line moved to Lenovo in 2014; later units are Lenovo System x). Check: rear ports from the M5 family (VGA, serial, 2 x USB 3.0, IMM2 port, 4 x 1GbE, PCIe). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IMM2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "ibm-x3650-m5",
+  "manufacturer": "IBM",
+  "partNumber": "System x3650 M5 (8871)",
+  "name": "System x3650 M5 2U server (legacy)",
+  "family": "System x",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Lenovo Press x3650 M5 product guide",
+  "productUrl": "https://lenovopress.lenovo.com/",
+  "notes": "Legacy IBM System x server (the x86 server line moved to Lenovo in 2014; later units are Lenovo System x). Check: rear ports from the M5 family (VGA, serial, 2 x USB 3.0, IMM2 port, 4 x 1GbE, PCIe). Add NIC, GPU, HBA and SDI card ports as extra ports for the cards fitted. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IMM2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]

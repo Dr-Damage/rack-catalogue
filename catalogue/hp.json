@@ -1,0 +1,582 @@
+[
+ {
+  "id": "hp-z4-rack-g5",
+  "manufacturer": "HP",
+  "partNumber": "Z4 Rack G5",
+  "name": "Z4 Rack G5 1U rack workstation",
+  "family": "Z by HP rack",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "StorageReview HP Z4 Rack G5 review (HP spec table)",
+  "productUrl": "https://www.hp.com/us-en/workstations/z4-rack.html",
+  "notes": "1U Intel Xeon W-2400/2500 workstation, 43 x 487 x 675 mm, from 9.5 kg. Front ports shown for the Premium front panel (Entry has 4 x USB-A). 1 PCIe Gen5 x16 slot standard, 2 more optional; 1 or 2 x 675 W PSUs (redundant or 1350 W combined). Remote management through HP Anyware Remote System Controller options. GPU DisplayPort count depends on the card (4 assumed). Check: PSU inlet (C14 assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C 20Gb"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A 5Gb"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A 5Gb"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (AMT)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Flex port (serial, 10GbE, 2.5GbE or fibre)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe Gen5 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hp-zcentral-4r",
+  "manufacturer": "HP",
+  "partNumber": "ZCentral 4R",
+  "name": "ZCentral 4R 1U rack workstation (legacy)",
+  "family": "Z by HP rack",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP ZCentral 4R QuickSpecs",
+  "productUrl": "https://www.hp.com/us-en/workstations/zcentral-4r.html",
+  "notes": "1U Intel Xeon W-2200 workstation (2020-2023), forerunner of the Z4 Rack G5. Optional redundant 675 W PSUs. Check: front and rear port counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "hp-z4-g5",
+  "manufacturer": "HP",
+  "partNumber": "Z4 G5",
+  "name": "Z4 G5 tower workstation on rack rails (4U)",
+  "family": "Z by HP tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP Z4 G5 QuickSpecs and HP workstation rack mounting guide",
+  "productUrl": "https://www.hp.com/us-en/workstations/z4.html",
+  "notes": "Tower lying on its side on the HP Z2/Z4/Z6 Depth Adjustable Fixed Rail Rack Kit (2A8Y5AA), 4U. Intel Xeon W-2400 tower. A common host for broadcast graphics and replay software. Check: port counts and the rack kit for G5 (the 2A8Y5AA kit lists Z4 G5).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Line in / out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hp-z4-g4",
+  "manufacturer": "HP",
+  "partNumber": "Z4 G4",
+  "name": "Z4 G4 tower workstation on rack rails (4U, legacy)",
+  "family": "Z by HP tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP workstation rack mounting guide",
+  "productUrl": "https://support.hp.com/us-en/product/details/hp-z4-g4-workstation/16449016",
+  "notes": "Tower lying on its side on the HP Z2/Z4/Z6 Depth Adjustable Fixed Rail Rack Kit (2A8Y5AA), 4U. Intel Xeon W-2100/2200 tower (2017-2022), widely used under broadcast graphics engines. Check: port counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Line in / out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hp-z8-g4",
+  "manufacturer": "HP",
+  "partNumber": "Z8 G4",
+  "name": "Z8 G4 tower workstation on rack rails (5U, legacy)",
+  "family": "Z by HP tower",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP workstation rack mounting guide",
+  "productUrl": "https://support.hp.com/us-en/product/details/hp-z8-g4-workstation/16449030",
+  "notes": "Dual Xeon Scalable tower (2017-2023) on the HP Z640/Z840/Z8 G4 Rail Rack Kit (2FZ77AA), 5U. A common host for Vizrt and other broadcast graphics engines. 1125 W or 1450 W PSU (1700 W needs a C19/C20 cord). Check: port counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Line in / out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hp-z8-fury-g5",
+  "manufacturer": "HP",
+  "partNumber": "Z8 Fury G5",
+  "name": "Z8 Fury G5 tower workstation on rack rails (5U)",
+  "family": "Z by HP tower",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP Z8 Fury G5 QuickSpecs",
+  "productUrl": "https://www.hp.com/us-en/workstations/z8-fury.html",
+  "notes": "Xeon W-3400 tower with up to four double-width GPUs. Check: rack kit and height (5U assumed, as the Z8 G4) and port counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB-A"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "hp-z2-mini-g9",
+  "manufacturer": "HP",
+  "partNumber": "Z2 Mini G9",
+  "name": "Z2 Mini G9 mini workstation",
+  "family": "Z by HP mini",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "StorageReview HP Z2 Mini G9 review (HP spec table)",
+  "productUrl": "https://www.hp.com/us-en/workstations/z2-mini.html",
+  "notes": "Mini workstation, 211 x 218 x 69 mm, 2.4 kg, external 180 W or 280 W adapter. Two Flex IO bays (serial, extra USB, DP, HDMI, VGA, Thunderbolt 3, 2.5GbE, 10GbE or fibre). With a discrete GPU (RTX A2000 etc.) add its mini DisplayPorts. Sits on a shelf, or up to 7 stand upright in 5U with HP rack brackets.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C 20Gb (side)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB-A 10Gb (side)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset (side)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB-A 10Gb"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "Flex IO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 211,
+   "h": 69
+  },
+  "formFactor": "HP Z2 Mini"
+ }
+]

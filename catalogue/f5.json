@@ -1,0 +1,2105 @@
+[
+ {
+  "id": "f5-i2600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i2600",
+  "name": "BIG-IP i2600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i2000/i4000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i2000i4000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 250 W AC PSU (second optional, or 650 W DC), 572 mm deep, 9.1 kg, 120 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 120,
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-i2800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i2800",
+  "name": "BIG-IP i2800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i2000/i4000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i2000i4000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 250 W AC PSU (second optional, or 650 W DC), 572 mm deep, 9.1 kg, 120 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 4,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 120,
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-i4600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i4600",
+  "name": "BIG-IP i4600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i2000/i4000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i2000i4000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 250 W AC PSU (second optional, or 650 W DC), 572 mm deep, 9.1 kg, 165 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 165,
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-i4800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i4800",
+  "name": "BIG-IP i4800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i2000/i4000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i2000i4000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 250 W AC PSU (second optional, or 650 W DC), 572 mm deep, 9.1 kg, 165 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 8,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 165,
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-i5600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i5600",
+  "name": "BIG-IP i5600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 650 W AC PSU (second optional), 777 mm deep, 11.1 kg, 330-420 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 420,
+  "weightKg": 11.1
+ },
+ {
+  "id": "f5-i5800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i5800",
+  "name": "BIG-IP i5800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 650 W AC PSU (second optional), 777 mm deep, 11.1 kg, 330-420 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 420,
+  "weightKg": 11.1
+ },
+ {
+  "id": "f5-i5820-df",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i5820-DF",
+  "name": "BIG-IP i5820-DF application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 1 x 650 W AC PSU (second optional), 777 mm deep, 11.1 kg, 330-420 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 420,
+  "weightKg": 11.1
+ },
+ {
+  "id": "f5-i7600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i7600",
+  "name": "BIG-IP i7600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 13.6 kg, 390-470 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 470,
+  "weightKg": 13.6
+ },
+ {
+  "id": "f5-i7800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i7800",
+  "name": "BIG-IP i7800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 13.6 kg, 390-470 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 470,
+  "weightKg": 13.6
+ },
+ {
+  "id": "f5-i7820-df",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i7820-DF",
+  "name": "BIG-IP i7820-DF application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 13.6 kg, 390-470 W max. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 4,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 470,
+  "weightKg": 13.6
+ },
+ {
+  "id": "f5-i10600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i10600",
+  "name": "BIG-IP i10600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 16.3 kg, 525 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 6,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 525,
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-i10800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i10800",
+  "name": "BIG-IP i10800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 16.3 kg, 525 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 6,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 525,
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-i11600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i11600",
+  "name": "BIG-IP i11600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 16.3 kg, 570 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 6,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 570,
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-i11800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i11800",
+  "name": "BIG-IP i11800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i5000-i11000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i5000i7000i10000i11000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 650 W AC PSUs, 777 mm deep, 16.3 kg, 570 W max.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "10G SFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 6,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 570,
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-i15600",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i15600",
+  "name": "BIG-IP i15600 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i15000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i15000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 1500 W AC or DC PSUs, 767 mm deep, 34.5 kg, 1110 W max. The management port is 10GbE. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 8,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1110,
+  "weightKg": 34.5
+ },
+ {
+  "id": "f5-i15800",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i15800",
+  "name": "BIG-IP i15800 application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i15000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i15000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 1500 W AC or DC PSUs, 767 mm deep, 34.5 kg, 1110 W max. The management port is 10GbE. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 8,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1110,
+  "weightKg": 34.5
+ },
+ {
+  "id": "f5-i15820-df",
+  "manufacturer": "F5",
+  "partNumber": "BIG-IP i15820-DF",
+  "name": "BIG-IP i15820-DF application delivery controller",
+  "family": "BIG-IP iSeries",
+  "category": "network",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "BIG-IP iSeries Platform Guide: i15000",
+  "productUrl": "https://techdocs.f5.com/en-us/hw-platforms/platform-guide-i15000-series/title--platform-specifications.html",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. 2 x 1500 W AC or DC PSUs, 767 mm deep, 34.5 kg, 1110 W max. The management port is 10GbE. -DF is the FIPS (HSM) model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 8,
+    "prefix": "40G QSFP+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "100G QSFP28"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1110,
+  "weightKg": 34.5
+ },
+ {
+  "id": "f5-r2600",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r2600",
+  "name": "rSeries r2600 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 250 W PSU (second optional), 429 mm deep, 9.1 kg, 85 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-r2800",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r2800",
+  "name": "rSeries r2800 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 250 W PSU (second optional), 429 mm deep, 9.1 kg, 85 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-r4600",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r4600",
+  "name": "rSeries r4600 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 250 W PSU (second optional), 429 mm deep, 9.1 kg, 105 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-r4800",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r4800",
+  "name": "rSeries r4800 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 250 W PSU (second optional), 429 mm deep, 9.1 kg, 105 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 9.1
+ },
+ {
+  "id": "f5-r5600",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r5600",
+  "name": "rSeries r5600 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 650 W PSU (second optional), 777 mm deep, 16.3 kg, 425 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r5800",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r5800",
+  "name": "rSeries r5800 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 650 W PSU (second optional), 777 mm deep, 16.3 kg, 425 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r5900",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r5900",
+  "name": "rSeries r5900 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 1 x 650 W PSU (second optional), 777 mm deep, 16.3 kg, 425 W typical.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 8,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r10600",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r10600",
+  "name": "rSeries r10600 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1200 W AC or DC PSUs, 777 mm deep, 16.3 kg, 680 W typical. Check: height (the data sheet says 1U).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r10800",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r10800",
+  "name": "rSeries r10800 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1200 W AC or DC PSUs, 777 mm deep, 16.3 kg, 680 W typical. Check: height (the data sheet says 1U).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r10900",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r10900",
+  "name": "rSeries r10900 application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1200 W AC or DC PSUs, 777 mm deep, 16.3 kg, 680 W typical. Check: height (the data sheet says 1U).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 16.3
+ },
+ {
+  "id": "f5-r12600-ds",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r12600-DS",
+  "name": "rSeries r12600-DS application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1224 W AC, DC or HVDC PSUs, 777 mm deep, 19 kg, 855 W typical. -DS models carry the hardware security module.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "f5-r12800-ds",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r12800-DS",
+  "name": "rSeries r12800-DS application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1224 W AC, DC or HVDC PSUs, 777 mm deep, 19 kg, 855 W typical. -DS models carry the hardware security module.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "f5-r12900-ds",
+  "manufacturer": "F5",
+  "partNumber": "rSeries r12900-DS",
+  "name": "rSeries r12900-DS application delivery appliance",
+  "family": "rSeries",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "F5 rSeries data sheet",
+  "productUrl": "https://www.f5.com/products/big-ip-services/rseries-adc-hardware-appliance",
+  "notes": "Network ports, management port, console and USB on the front (LCD panel too); PSUs on the rear. Runs F5OS-A with BIG-IP tenants. Check: panel positions of management, console and USB (the data sheet does not say). 2 x 1224 W AC, DC or HVDC PSUs, 777 mm deep, 19 kg, 855 W typical. -DS models carry the hardware security module.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 16,
+    "prefix": "10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 19
+ },
+ {
+  "id": "f5-velos-cx410",
+  "manufacturer": "F5",
+  "partNumber": "VELOS CX410",
+  "name": "VELOS CX410 4U chassis, 8 blade slots",
+  "family": "VELOS",
+  "category": "frame",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "F5 VELOS training guide (components)",
+  "productUrl": "https://www.f5.com/products/big-ip-services/velos-hardware-chassis-and-blades",
+  "notes": "4U chassis with eight quarter-width BX110 blade slots and two SX410 system controllers (fitted as standard; console and out-of-band management are on the controllers). 2 PSUs standard, up to 4 (AC or DC); front-to-back airflow, one fan tray. Change the PSU count to the number fitted. Check: controller port types and blade slot layout on the drawing.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "SX410 controller Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "SX410 controller Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 4,
+    "prefix": "PSU (2 standard, up to 4)"
+   }
+  ],
+  "frame": {
+   "system": "F5 VELOS",
+   "slots": 8,
+   "slotOrder": "ltr",
+   "orient": "h",
+   "cols": 4,
+   "rearAlign": 1,
+   "door": false,
+   "controller": "Two SX410 system controllers (fixed, not slots)",
+   "front": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.04,
+    "y1": 0.7
+   },
+   "rear": {
+    "x0": 0.04,
+    "x1": 0.96,
+    "y0": 0.04,
+    "y1": 0.96
+   }
+  }
+ },
+ {
+  "id": "f5-velos-bx110",
+  "manufacturer": "F5",
+  "partNumber": "VELOS BX110",
+  "name": "VELOS BX110 blade, 2 x 100G QSFP28",
+  "family": "VELOS",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "F5 VELOS training guide (components)",
+  "productUrl": "https://www.f5.com/products/big-ip-services/velos-hardware-chassis-and-blades",
+  "notes": "Quarter-width blade for the CX410 / CX1610. Each port runs at 40G or 100G, or 4 x 25G / 4 x 10G with breakout cables. No management ports on the blade.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 2,
+    "prefix": "40/100G (or 4 x 10/25G breakout)"
+   }
+  ],
+  "card": {
+   "fits": [
+    "F5 VELOS"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ }
+]

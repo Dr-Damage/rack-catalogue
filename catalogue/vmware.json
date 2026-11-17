@@ -1,0 +1,448 @@
+[
+ {
+  "id": "vmware-edge-840",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 840",
+  "name": "SD-WAN Edge 840, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "VMware SD-WAN by VeloCloud Edge data sheet",
+  "productUrl": "https://www.arista.com/en/products/velocloud-sd-wan",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. 40 W typical / 70 W max, single PSU. Check: panel positions, console (RJ45, VGA also listed) and size.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 70
+ },
+ {
+  "id": "vmware-edge-2000",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 2000",
+  "name": "SD-WAN Edge 2000, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "VMware SD-WAN by VeloCloud Edge data sheet",
+  "productUrl": "https://www.arista.com/en/products/velocloud-sd-wan",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. 150 W typical / 200 W max, redundant 1+1 PSUs. Check: panel positions and size.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 200
+ },
+ {
+  "id": "vmware-edge-3400",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 3400",
+  "name": "SD-WAN Edge 3400, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "VMware SD-WAN by VeloCloud Edge data sheet",
+  "productUrl": "https://www.arista.com/en/products/velocloud-sd-wan",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. 165 W typical / 400 W max, redundant 1+1 internal PSUs, about 434 x 381 x 44 mm. Also sold by Dell as the SD-WAN Edge 3000 series. Check: panel positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 400
+ },
+ {
+  "id": "vmware-edge-3800",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 3800",
+  "name": "SD-WAN Edge 3800, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "VMware SD-WAN by VeloCloud Edge data sheet",
+  "productUrl": "https://www.arista.com/en/products/velocloud-sd-wan",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. 200 W typical / 400 W max, redundant 1+1 internal PSUs, about 434 x 381 x 44 mm. Also sold by Dell as the SD-WAN Edge 3000 series. Check: panel positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 400
+ },
+ {
+  "id": "vmware-edge-3810",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 3810",
+  "name": "SD-WAN Edge 3810, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "VMware SD-WAN by VeloCloud Edge data sheet",
+  "productUrl": "https://www.arista.com/en/products/velocloud-sd-wan",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. 200 W typical / 400 W max, redundant 1+1 internal PSUs, about 434 x 381 x 44 mm. Also sold by Dell as the SD-WAN Edge 3000 series. Check: the 3810 port mix (taken from the 3800). Check: panel positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 6,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 400
+ },
+ {
+  "id": "vmware-edge-4100",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 4100",
+  "name": "VeloCloud SD-WAN Edge 4100, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Arista VeloCloud SD-WAN Edge 4100/5100 data sheet and quick start guide",
+  "productUrl": "https://www.arista.com/en/products/velocloud-4100-5100-series",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. Current model (Arista VeloCloud). 438 x 420 x 44 mm, 7.7 kg, 195 W typical / 270 W max, redundant 1+1 internal AC PSUs.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "1G LAN/WAN"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 270
+ },
+ {
+  "id": "vmware-edge-5100",
+  "manufacturer": "VMware SD-WAN (VeloCloud)",
+  "partNumber": "Edge 5100",
+  "name": "VeloCloud SD-WAN Edge 5100, 1U",
+  "family": "VMware SD-WAN Edge (VeloCloud)",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Arista VeloCloud SD-WAN Edge 4100/5100 data sheet and quick start guide",
+  "productUrl": "https://www.arista.com/en/products/velocloud-4100-5100-series",
+  "notes": "VMware SD-WAN by VeloCloud edge appliance. VMware (now part of Broadcom) sells vSphere, vSAN and NSX as software on other makers' servers; the SD-WAN edges are its only hardware, and the VeloCloud business moved to Arista in 2025. Current model (Arista VeloCloud). 11.8 kg, 300 W typical / 500 W max, redundant 1+1 internal AC PSUs, about 600 mm deep.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP+",
+    "count": 2,
+    "prefix": "40G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G Mgmt"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "IPMI"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 500
+ }
+]

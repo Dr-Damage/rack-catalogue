@@ -1,0 +1,2124 @@
+[
+ {
+  "id": "aruba-jl724a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL724A",
+  "name": "CX 6200F 24G 4SFP+ switch",
+  "family": "CX 6200F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6200 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6200-switch-series.html",
+  "notes": "Fixed internal PSU, stacks (VSF) over the SFP+ ports. Check: positions of console, OOBM and USB (drawn on the port side) and that the JL724A is the non-PoE model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink (VSF stacking)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl725a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL725A",
+  "name": "CX 6200F 24G Class4 PoE 4SFP+ 370W switch",
+  "family": "CX 6200F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6200 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6200-switch-series.html",
+  "notes": "370 W PoE. Fixed internal PSU, stacks (VSF) over the SFP+ ports. Check: positions of console, OOBM and USB (drawn on the port side) and that the JL724A is the non-PoE model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink (VSF stacking)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl726a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL726A",
+  "name": "CX 6200F 48G 4SFP+ switch",
+  "family": "CX 6200F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6200 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6200-switch-series.html",
+  "notes": "Fixed internal PSU, stacks (VSF) over the SFP+ ports. Check: positions of console, OOBM and USB (drawn on the port side) and that the JL724A is the non-PoE model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink (VSF stacking)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl727a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL727A",
+  "name": "CX 6200F 48G Class4 PoE 4SFP+ 370W switch",
+  "family": "CX 6200F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6200 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6200-switch-series.html",
+  "notes": "370 W PoE. Fixed internal PSU, stacks (VSF) over the SFP+ ports. Check: positions of console, OOBM and USB (drawn on the port side) and that the JL724A is the non-PoE model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink (VSF stacking)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl728a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL728A",
+  "name": "CX 6200F 48G Class4 PoE 4SFP+ 740W switch",
+  "family": "CX 6200F",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6200 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6200-switch-series.html",
+  "notes": "740 W PoE. Fixed internal PSU, stacks (VSF) over the SFP+ ports. Check: positions of console, OOBM and USB (drawn on the port side) and that the JL724A is the non-PoE model.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink (VSF stacking)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl675a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL675A",
+  "name": "CX 6100 48G Class4 PoE 4SFP+ 370W switch",
+  "family": "CX 6100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6100 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6100-switch-series.html",
+  "notes": "370 W PoE. Entry access switch, fixed internal PSU. Check: console connector (USB-C assumed) and any OOBM port.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl676a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL676A",
+  "name": "CX 6100 48G 4SFP+ switch",
+  "family": "CX 6100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6100 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6100-switch-series.html",
+  "notes": "Entry access switch, fixed internal PSU. Check: console connector (USB-C assumed) and any OOBM port.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl677a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL677A",
+  "name": "CX 6100 24G Class4 PoE 4SFP+ 370W switch",
+  "family": "CX 6100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6100 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6100-switch-series.html",
+  "notes": "370 W PoE. Entry access switch, fixed internal PSU. Check: console connector (USB-C assumed) and any OOBM port.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl678a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL678A",
+  "name": "CX 6100 24G 4SFP+ switch",
+  "family": "CX 6100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6100 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6100-switch-series.html",
+  "notes": "Entry access switch, fixed internal PSU. Check: console connector (USB-C assumed) and any OOBM port.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl679a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL679A",
+  "name": "CX 6100 12G Class4 PoE 2G/2SFP+ 139W switch",
+  "family": "CX 6100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 6100 listing",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6100-switch-series.html",
+  "notes": "Compact fanless desktop / rack switch, 139 W PoE, half-width (rack kit). Check: console connector and PSU (internal assumed).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-r9w86a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R9W86A",
+  "name": "CX 8100 24 x 10G SFP+ + 4 x 40/100G QSFP28 switch",
+  "family": "CX 8100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 8100 listing",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-8100-switch-series/p/1014733547",
+  "notes": "Bundle with front-to-back airflow, 3 fans and 2 AC PSUs. Collapsed-core / aggregation switch. Check: console, OOBM and USB positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-cx8100-40xt8xf4c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "CX 8100-40XT8XF4C",
+  "name": "CX 8100 40 x 10GBASE-T + 8 x 10G SFP+ + 4 x 40/100G QSFP28 switch",
+  "family": "CX 8100",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 8100 listing",
+  "productUrl": "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-8100-switch-series/p/1014733547",
+  "notes": "Two hot-swap AC PSUs. Check: order number for your airflow and region, and console/OOBM positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 40,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 8,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 4,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-r9a29a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R9A29A",
+  "name": "CX 9300-32D 32 x 400G QSFP-DD switch",
+  "family": "CX 9300",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HPE Aruba Networking CX 9300 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-9300-switch-series.html",
+  "notes": "Front-to-back airflow bundle (R9A30A is back-to-front) with 6 fans and 2 x 1500 W hot-swap PSUs. 675 W at full traffic, 590 mm deep, 11.9 kg. Spine / high-bandwidth ST 2110 core. Check: console and OOBM panel.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP-DD",
+    "count": 32,
+    "prefix": "100/200/400G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "Console (USB)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 675,
+  "weightKg": 11.9
+ },
+ {
+  "id": "aruba-cx10000-48y6c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "CX 10000-48Y6C",
+  "name": "CX 10000 48 x 25G + 6 x 100G distributed services switch",
+  "family": "CX 10000",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HPE Aruba Networking CX 10000 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-10000-switch-series.html",
+  "notes": "Data centre ToR switch with AMD Pensando DPUs for stateful firewall and telemetry. Two hot-swap PSUs. Check: order number, console/OOBM positions.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 6,
+    "prefix": "40/100G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl354a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL354A",
+  "name": "2540 24G 4SFP+ switch",
+  "family": "2540",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2540 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2540-switch-series.html",
+  "notes": "ArubaOS-Switch access switch, fixed PSU. Check: console connector and PoE budget.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl355a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL355A",
+  "name": "2540 48G 4SFP+ switch",
+  "family": "2540",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2540 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2540-switch-series.html",
+  "notes": "ArubaOS-Switch access switch, fixed PSU. Check: console connector and PoE budget.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl356a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL356A",
+  "name": "2540 24G PoE+ 4SFP+ switch",
+  "family": "2540",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2540 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2540-switch-series.html",
+  "notes": "ArubaOS-Switch access switch, fixed PSU. Check: console connector and PoE budget.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl357a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL357A",
+  "name": "2540 48G PoE+ 4SFP+ switch",
+  "family": "2540",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Aruba 2540 data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-2540-switch-series.html",
+  "notes": "ArubaOS-Switch access switch, fixed PSU. Check: console connector and PoE budget.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE+"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl682a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL682A",
+  "name": "Instant On 1930 24G 4SFP/SFP+ switch",
+  "family": "Instant On 1930",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl683a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL683A",
+  "name": "Instant On 1930 24G Class4 PoE 4SFP/SFP+ 195W switch",
+  "family": "Instant On 1930",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE (195 W)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl684b",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL684B",
+  "name": "Instant On 1930 24G Class4 PoE 4SFP/SFP+ 370W switch",
+  "family": "Instant On 1930",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE (370 W)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl685a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL685A",
+  "name": "Instant On 1930 48G 4SFP/SFP+ switch",
+  "family": "Instant On 1930",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl686b",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL686B",
+  "name": "Instant On 1930 48G Class4 PoE 4SFP/SFP+ 370W switch",
+  "family": "Instant On 1930",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE (370 W)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl805a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL805A",
+  "name": "Instant On 1960 12XGT 4SFP+ switch",
+  "family": "Instant On 1960",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 12,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 4,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl806a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL806A",
+  "name": "Instant On 1960 24G 2XGT 2SFP+ switch",
+  "family": "Instant On 1960",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl807a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL807A",
+  "name": "Instant On 1960 24G 20p Class4 4p Class6 PoE 2XGT 2SFP+ 370W switch",
+  "family": "Instant On 1960",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1G PoE (370 W)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl808a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL808A",
+  "name": "Instant On 1960 48G 2XGT 2SFP+ switch",
+  "family": "Instant On 1960",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-jl809a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "JL809A",
+  "name": "Instant On 1960 48G 40p Class4 8p Class6 PoE 2XGT 2SFP+ 600W switch",
+  "family": "Instant On 1960",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "HPE Aruba Networking Instant On switch comparison",
+  "productUrl": "https://www.arubainstanton.com/products/switches/",
+  "notes": "Cloud or web managed small-business switch (Instant On app), no console port, 1U with rack ears. Check: PoE budget and port split from the order name, and uplink count on the 48G 1960 (some lists give 4 SFP+).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G PoE (600 W)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 2,
+    "prefix": "1/10G uplink"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "aruba-r7h97a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R7H97A",
+  "name": "9240 campus gateway (RW), 4 x SFP28",
+  "family": "9200 gateway",
+  "category": "network",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "HPE Aruba Networking 9200 Series data sheet",
+  "productUrl": "https://www.hpe.com/us/en/aruba-9200-series-campus-gateways.html",
+  "notes": "Wireless/SD-Branch gateway (mobility controller), up to 2K APs with the Gold licence, 190 W max, 440 x 442 x 396 mm, 8.2 kg. One 550 W PSU plus a redundant slot (change the count to 1 if only one fitted). US model R7H95A, FIPS/TAA R7J02A/R7J03A. Check: which panel holds console and OOBM.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 4,
+    "prefix": "1/10/25G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Expansion slot (reserved)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 190,
+  "weightKg": 8.2
+ },
+ {
+  "id": "aruba-r0x26a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X26A",
+  "name": "CX 6405 chassis, 5 line module slots",
+  "family": "CX 6400",
+  "category": "frame",
+  "ru": 7,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "7U modular switch: 2 management modules (R0X31A, slots 1-2, shown as fixed frame ports) and 5 line modules (chassis slots 3 to 7; app slot n is chassis slot n + 2). Up to 4 PSUs: 1800 W R0X35A (C16 inlet) or 3000 W R0X36A (C20 inlet), not mixed. 2 fan trays. Check: line module orientation and slot order on the drawing.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM1 Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "MM1 Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM1 OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "MM1 USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM2 Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "MM2 Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM2 OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "MM2 USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C16",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "Aruba CX 6400",
+   "slots": 5,
+   "slotOrder": "ltr",
+   "orient": "h",
+   "rearAlign": 1,
+   "door": false,
+   "controller": "Two R0X31A management modules (console, USB-C console, OOBM, USB each)",
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.04,
+    "y1": 0.8
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.04,
+    "y1": 0.96
+   }
+  }
+ },
+ {
+  "id": "aruba-r0x27a",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X27A",
+  "name": "CX 6410 chassis, 10 line module slots",
+  "family": "CX 6400",
+  "category": "frame",
+  "ru": 12,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "12U modular switch: 2 management modules (R0X31A, slots 1-2, shown as fixed frame ports) and 10 line modules (chassis slots 3 to 12; app slot n is chassis slot n + 2). Up to 4 PSUs: 1800 W R0X35A (C16 inlet) or 3000 W R0X36A (C20 inlet), not mixed. 4 fan trays. Check: line module orientation and slot order on the drawing.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM1 Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "MM1 Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM1 OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "MM1 USB"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM2 Console"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "MM2 Console (USB-C)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "MM2 OOBM"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "MM2 USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C16",
+    "count": 4,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "Aruba CX 6400",
+   "slots": 10,
+   "slotOrder": "ltr",
+   "orient": "h",
+   "rearAlign": 1,
+   "door": false,
+   "controller": "Two R0X31A management modules (console, USB-C console, OOBM, USB each)",
+   "front": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.04,
+    "y1": 0.88
+   },
+   "rear": {
+    "x0": 0.05,
+    "x1": 0.95,
+    "y0": 0.04,
+    "y1": 0.96
+   }
+  }
+ },
+ {
+  "id": "aruba-r0x39c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X39C",
+  "name": "6400 48p 1GbE Class 4 PoE and 4p SFP56 v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G Class 4 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x40c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X40C",
+  "name": "6400 48p 1GbE Class 6 PoE and 4p SFP56 v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1G Class 6 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x41c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X41C",
+  "name": "6400 48p Smart Rate 1/2.5/5GbE Class 6 PoE and 4p SFP56 v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "1/2.5/5G Class 6 PoE"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x42c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X42C",
+  "name": "6400 24p 10GBASE-T and 4p SFP56 v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 24,
+    "prefix": "1/10GBASE-T"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x43c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X43C",
+  "name": "6400 24p SFP+ and 4p SFP56 v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 24,
+    "prefix": "1/10G"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP56",
+    "count": 4,
+    "prefix": "1/10/25/50G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x44c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X44C",
+  "name": "6400 48p 1/10/25GbE SFP28 extended tables v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP28",
+    "count": 48,
+    "prefix": "1/10/25G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "aruba-r0x45c",
+  "manufacturer": "HPE Aruba Networking",
+  "partNumber": "R0X45C",
+  "name": "6400 12p 40/100GbE QSFP28 extended tables v2 module",
+  "family": "CX 6400 modules",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Aruba 6400 Installation and Getting Started Guide",
+  "productUrl": "https://www.hpe.com/us/en/aruba-cx-6400-switch-series.html",
+  "notes": "Line module for the CX 6405 / 6410 (ports on the module face). B and A versions have the same ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "QSFP28",
+    "count": 12,
+    "prefix": "40/100G"
+   }
+  ],
+  "card": {
+   "fits": [
+    "Aruba CX 6400"
+   ],
+   "slotWidth": 1
+  },
+  "rearModules": [
+   {
+    "partNumber": "none",
+    "name": "No rear connections (front-loading module)",
+    "width": 1,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [],
+    "included": true
+   }
+  ]
+ }
+]
