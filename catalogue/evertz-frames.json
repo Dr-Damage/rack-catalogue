@@ -1232,6 +1232,191 @@
   ]
  },
  {
+  "id": "evertz-7867vipa16-duo-hs",
+  "manufacturer": "Evertz",
+  "partNumber": "7867VIPA16-DUO-HS",
+  "name": "7867VIPA16-DUO-HS 16-input dual-head multiviewer",
+  "family": "Evertz 7800 multiviewers",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Evertz 7867VIPA-DUO series spec sheet (via PRG Gear) and NEP rental listing",
+  "productUrl": "https://evertz.com/products/7867VIPA16-DUO-HS",
+  "notes": "VIP A DUO multiviewer: 16 auto-sensing 3G/HD/SD-SDI inputs (BNC, embedded audio metering), two independent display heads, each on DVI-I (up to 1920x1200) and on an HD/SD-SDI monitor output. HD15 carries 4 GPI, 2 GPO, RS-232/422 and 2 unbalanced AES outputs. Two 100Base-TX Ethernet. Genlock from the 7800FR frame reference. Takes 4 slots in a 7800FR (the -DIN version takes 3). Check: what the -HS suffix adds is not in public documents, and the connector order on the rear plate.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 4
+  },
+  "rearModules": [
+   {
+    "partNumber": "7867VIPA16-DUO-HS+3RU",
+    "name": "Rear plate (4 slots)",
+    "width": 4,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 16,
+      "prefix": "Video In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "GLINK Background In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DVI",
+      "connector": "DVI-I",
+      "count": 2,
+      "prefix": "Display Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Monitor Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "HD15",
+      "count": 1,
+      "prefix": "GPIO / Serial / AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Ethernet"
+     }
+    ],
+    "layout": {
+     "cols": 4
+    },
+    "included": true
+   }
+  ]
+ },
+ {
+  "id": "evertz-7707it13-8-f2",
+  "manufacturer": "Evertz",
+  "partNumber": "7707IT13-8-F2",
+  "name": "7707IT13-8-F2 8-channel intercom fibre transceiver (dual fibre, 1310 nm)",
+  "family": "Evertz 7700/7800 fibre",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Evertz 7707IT manual (ordering table 1-1, rear plate section)",
+  "productUrl": "https://evertz.com/products/7707IT13-8-F2",
+  "notes": "Carries 8 bi-directional intercom channels (matrix 4-wire or party-line, RTS-Telex or Clear-Com, mixed per channel), 8 RS-422/485 data channels and 2 GPI / 2 GPO over fibre to a matching 7707IT at the far end (up to 50 km). -F2 = separate Fiber Out (1310 nm) and Fiber In; single-fibre 7707IT13-8 has one Fiber I/O. Per channel: +/- audio in, + audio out/party-line, - audio out and +/- data in/out on pluggable terminal blocks. 2 slots in a 7700FR (1 in a 7701FR). Check: optical connector (SC/PC, ST/PC or FC/PC are ordering options; SC/PC assumed) and slot width in a 7800FR.",
+  "portGroups": [],
+  "card": {
+   "fits": [
+    "Evertz 7700/7800"
+   ],
+   "slotWidth": 2
+  },
+  "rearModules": [
+   {
+    "partNumber": "7707IT13-8-F2+3RU",
+    "name": "Dual-slot rear plate",
+    "width": 2,
+    "cardsPerModule": 1,
+    "cardOffset": 0,
+    "default": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Intercom",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Intercom In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Intercom",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Intercom Out / Party-line"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "RS-422",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Data In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RS-422",
+      "connector": "Terminal block",
+      "count": 8,
+      "prefix": "Data Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "GPI",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "GPI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "GPI",
+      "connector": "Terminal block",
+      "count": 2,
+      "prefix": "GPO"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Fibre",
+      "connector": "SC/PC",
+      "count": 1,
+      "prefix": "Fiber In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Fibre",
+      "connector": "SC/PC",
+      "count": 1,
+      "prefix": "Fiber Out"
+     }
+    ],
+    "included": true
+   }
+  ]
+ },
+ {
   "id": "tpl-ev-card",
   "manufacturer": "Generic",
   "partNumber": "Evertz 7800 card",

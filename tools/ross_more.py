@@ -143,6 +143,24 @@ card('sra-8802', 'SRA-8802', 'SRA-8802 3G/HD/SD reclocking DA with A/B failover'
 card('sea-8803', 'SEA-8803', 'SEA-8803 HD/SD equalising DA', 'openGear distribution', da_r2('HD-SDI'),
      'HD/SD-SDI equalising DA (also DVB-ASI), 200 m at HD, 500 m at SD: 1x8 with R2, 1x4 with the split R2S.',
      'Ross SEA-8803 product page and rear module drawings', OGP + 'distribution/sea-8803/')
+card('sra-8601a', 'SRA-8601A', 'SRA-8601A 3G/HD/SD-SDI reclocking DA (1x8 or 1x4)', 'openGear distribution',
+     [rm('R2', 'Full rear module (1 in, 8 out)', 2, [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 8, 'SDI Out')], cols=2, rows=5, gen=2),
+      rm('R2S', 'Split rear module (2 cards, 1 in, 4 out each)', 2, [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out')],
+         cpm=2, cols=1, rows=5, gen=2)],
+     'Discontinued 3G/HD/SD-SDI and ASI reclocking DA with auto rate detect and cable equalisation (300 m SD, 120 m HD, 80 m 3G on 1694A). '
+     'Ordered as SRA-8601A-R2 (1x8, full module) or SRA-8601A-R2S (1x4, the split module takes a second card). 2.9 W. Fits DFR-8321, OG3-FR and OGX-FR. '
+     'Check: Ross lists the 3G-capable rear modules as 8320AR-040 (full) / 8320AR-041 (split) in one chapter and 8320AR-030 / -031 in another.',
+     'Ross SRA-8201A/SRA-8601A user manual (rear modules, cabling, specifications)', OGP + 'distribution/', watts=2.9)
+card('ada-8404-c', 'ADA-8404-C', 'ADA-8404-C analog audio DA (1x8 mono or 2x4 stereo)', 'openGear audio',
+     [rm('R2C', 'Full rear module (2 in, 8 out)', 2, [R('in', 'Analog audio', 'Terminal block', 2, 'Analog In'), R('out', 'Analog audio', 'Terminal block', 8, 'Analog Out')], cols=2, rows=5, gen=2),
+      rm('R2CSM', 'Split mono rear module (2 cards, 1 in, 4 out each)', 2, [R('in', 'Analog audio', 'Terminal block', 1, 'Analog In'),
+                                                                          R('out', 'Analog audio', 'Terminal block', 4, 'Analog Out')], cpm=2, cols=1, rows=5, gen=2),
+      rm('R2CSS', 'Split stereo rear module (2 cards, dual 1x3 each)', 2, [R('in', 'Analog audio', 'Terminal block', 2, 'Analog In'),
+                                                                          R('out', 'Analog audio', 'Terminal block', 6, 'Analog Out')], cpm=2, cols=1, gen=2)],
+     'Discontinued predecessor of the ADA-8405-C: balanced analog audio DA, gain +18 to -14 dB. Mono: 1 input to 8 outputs; stereo: 2 inputs to 4 copies each. '
+     'Split mono module R2CSM-8404 gives 20 mono 1x4 DAs per 2RU frame; split stereo R2CSS-8404 gives dual 1x3 per card. '
+     'Check: rear module ports are inferred from the ADA-8405-C and dealer listings (no Ross manual found online); used units ship with rear module 8320AR-042.',
+     'Dealer listings (NWR, eBay); ports modelled on the ADA-8405-C', OGP + 'distribution/', verified=False)
 card('dea-8805', 'DEA-8805', 'DEA-8805 dual HD/SD equalising DA', 'openGear distribution',
      [rm('R2', '10 BNC rear module (dual 1x4)', 2, [R('in', 'HD-SDI', 'BNC', 1, 'In Ch A'), R('in', 'HD-SDI', 'BNC', 1, 'In Ch B'),
                                                     R('out', 'HD-SDI', 'BNC', 4, 'Out A'), R('out', 'HD-SDI', 'BNC', 4, 'Out B')], cols=2, rows=5),

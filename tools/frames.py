@@ -465,6 +465,27 @@ ev('7708sfp-2', '7708SFP-2', '7708SFP-2 dual SFP carrier', 'Evertz 7700/7800 fib
    [rm('7708SFP-2+3RU', 'Single-slot rear plate', 1, [R('io', '3G-SDI', 'BNC', 2, 'SDI'), R('io', 'Fibre', 'LC (SFP)', 2, 'Fibre')], default=True, cols=1)],
    'Card carrier for 2 Evertz 3405-series SFPs (fibre transmitters, receivers or regenerators). The SFPs fitted decide the direction of each SDI and fibre port: '
    'set the ports to in or out to match. 7708SFP has 1 SFP; 7708SFP-2-DIN uses DIN connectors.', 'Evertz 3405/7708SFP product page', verified=False)
+# ---- multiviewer and intercom fibre (added 2026-11-17) ----
+ev('7867vipa16-duo-hs', '7867VIPA16-DUO-HS', '7867VIPA16-DUO-HS 16-input dual-head multiviewer', 'Evertz 7800 multiviewers',
+   [rm('7867VIPA16-DUO-HS+3RU', 'Rear plate (4 slots)', 4, [R('in', '3G-SDI', 'BNC', 16, 'Video In'), R('in', 'Other', 'BNC', 1, 'GLINK Background In'),
+       R('out', 'DVI', 'DVI-I', 2, 'Display Out'), R('out', 'HD-SDI', 'BNC', 2, 'SDI Monitor Out'),
+       R('io', 'GPIO', 'HD15', 1, 'GPIO / Serial / AES Out'), R('io', 'Ethernet', 'RJ45', 2, 'Ethernet')], default=True, cols=4)],
+   'VIP A DUO multiviewer: 16 auto-sensing 3G/HD/SD-SDI inputs (BNC, embedded audio metering), two independent display heads, each on DVI-I '
+   '(up to 1920x1200) and on an HD/SD-SDI monitor output. HD15 carries 4 GPI, 2 GPO, RS-232/422 and 2 unbalanced AES outputs. Two 100Base-TX Ethernet. '
+   'Genlock from the 7800FR frame reference. Takes 4 slots in a 7800FR (the -DIN version takes 3). '
+   'Check: what the -HS suffix adds is not in public documents, and the connector order on the rear plate.',
+   'Evertz 7867VIPA-DUO series spec sheet (via PRG Gear) and NEP rental listing', verified=False, slotWidth=4)
+IT8 = [R('in', 'Intercom', 'Terminal block', 8, 'Intercom In'), R('out', 'Intercom', 'Terminal block', 8, 'Intercom Out / Party-line'),
+       R('in', 'RS-422', 'Terminal block', 8, 'Data In'), R('out', 'RS-422', 'Terminal block', 8, 'Data Out'),
+       R('in', 'GPI', 'Terminal block', 2, 'GPI'), R('out', 'GPI', 'Terminal block', 2, 'GPO'),
+       R('in', 'Fibre', 'SC/PC', 1, 'Fiber In'), R('out', 'Fibre', 'SC/PC', 1, 'Fiber Out')]
+ev('7707it13-8-f2', '7707IT13-8-F2', '7707IT13-8-F2 8-channel intercom fibre transceiver (dual fibre, 1310 nm)', 'Evertz 7700/7800 fibre',
+   [rm('7707IT13-8-F2+3RU', 'Dual-slot rear plate', 2, IT8, default=True)],
+   'Carries 8 bi-directional intercom channels (matrix 4-wire or party-line, RTS-Telex or Clear-Com, mixed per channel), 8 RS-422/485 data channels and 2 GPI / 2 GPO '
+   'over fibre to a matching 7707IT at the far end (up to 50 km). -F2 = separate Fiber Out (1310 nm) and Fiber In; single-fibre 7707IT13-8 has one Fiber I/O. '
+   'Per channel: +/- audio in, + audio out/party-line, - audio out and +/- data in/out on pluggable terminal blocks. 2 slots in a 7700FR (1 in a 7701FR). '
+   'Check: optical connector (SC/PC, ST/PC or FC/PC are ordering options; SC/PC assumed) and slot width in a 7800FR.',
+   'Evertz 7707IT manual (ordering table 1-1, rear plate section)', slotWidth=2)
 EV.append(card('tpl', 'ev-card', 'Generic', 'Evertz 7800 card', 'Evertz 7700/7800 single-slot card (template)', 'Templates', ['Evertz 7700/7800'],
     [rm('+3RU rear plate', 'Single-slot rear plate', 1, [R('in', '3G-SDI', 'BNC', 1, 'SDI In'), R('out', '3G-SDI', 'BNC', 4, 'SDI Out')], default=True)],
     'Template for any 7700/7800 module: edit the part number and rear plate ports to match your card.', 'Template', '', verified=False))
