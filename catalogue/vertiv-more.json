@@ -1,0 +1,1525 @@
+[
+ {
+  "id": "vertiv-gxe3-1000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-1000IRT2UXL",
+  "name": "Liebert GXE 1000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "Double-conversion online, 1000 VA / 900 W, 2U (86 mm), 430 mm deep, 16.0 kg. Up to 4 GXE3-EBC24VRT2U battery cabinets. IntelliSlot takes an IS-UNITY network card. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 16.0
+ },
+ {
+  "id": "vertiv-gxe3-1500irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-1500IRT2UXL",
+  "name": "Liebert GXE 1500 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "Double-conversion online, 1500 VA / 1350 W, 2U (86 mm), 430 mm deep, 19.6 kg. Up to 4 GXE3-EBC36VRT2U battery cabinets. IntelliSlot takes an IS-UNITY network card. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 19.6
+ },
+ {
+  "id": "vertiv-gxe3-2000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-2000IRT2UXL",
+  "name": "Liebert GXE 2000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "Double-conversion online, 2000 VA / 1800 W, 2U (86 mm), 430 mm deep, 22.7 kg. Up to 4 GXE3-EBC48VRT2U battery cabinets. IntelliSlot takes an IS-UNITY network card. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 22.7
+ },
+ {
+  "id": "vertiv-gxe3-3000irt2uxl",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-3000IRT2UXL",
+  "name": "Liebert GXE 3000 VA online rack/tower UPS 2U, 230 V",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "Double-conversion online, 3000 VA / 2700 W, 2U (86 mm), 630 mm deep, 31.5 kg. Up to 4 GXE3-EBC72VRT2U battery cabinets. IntelliSlot takes an IS-UNITY network card. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "EPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ],
+  "weightKg": 31.5
+ },
+ {
+  "id": "vertiv-gxe3-ebc24vrt2u",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-EBC24VRT2U",
+  "name": "Liebert GXE external battery cabinet 2U (4VR)",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "2U battery cabinet, 410 mm deep, 16.2 kg. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 16.2
+ },
+ {
+  "id": "vertiv-gxe3-ebc36vrt2u",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-EBC36VRT2U",
+  "name": "Liebert GXE external battery cabinet 2U (6VR)",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "2U battery cabinet, 410 mm deep, 21.2 kg. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 21.2
+ },
+ {
+  "id": "vertiv-gxe3-ebc48vrt2u",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-EBC48VRT2U",
+  "name": "Liebert GXE external battery cabinet 2U (8VR)",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "2U battery cabinet, 510 mm deep, 28.6 kg. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 28.6
+ },
+ {
+  "id": "vertiv-gxe3-ebc72vrt2u",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXE3-EBC72VRT2U",
+  "name": "Liebert GXE external battery cabinet 2U (2VR)",
+  "family": "Liebert GXE",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Liebert GXE 1-3 kVA data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-emea/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxe-1000-3000va-racktower-230v-single-phase-ups/",
+  "notes": "2U battery cabinet, 630 mm deep, 40.8 kg. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 40.8
+ },
+ {
+  "id": "vertiv-gxt5-5000irt5uxln",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-5000IRT5UXLN",
+  "name": "Liebert GXT5 5 kVA online rack/tower UPS 5U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Vertiv Liebert GXT5 5-10 kVA brochure",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-5-20kva/",
+  "notes": "Double-conversion online, 5 kVA, 430 x 630 x 217 mm (5U), about 71-75 kg. Hardwired output terminal block plus programmable C13 sockets and breakers; a rear power output distribution box (PD5-CE6HDWRMBS: 2 x C19 + 6 x C13, or PD5-CE10HDWRMBS: 4 x C19 + 4 x C13) adds more. Battery cabinet GXT5-EBC192VRT3U. Check: C13 socket count (not given), add them as extra ports. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired, input breaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot (RDU101 fitted)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "REPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt5-6000irt5uxln",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-6000IRT5UXLN",
+  "name": "Liebert GXT5 6 kVA online rack/tower UPS 5U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Vertiv Liebert GXT5 5-10 kVA brochure",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-5-20kva/",
+  "notes": "Double-conversion online, 6 kVA, 430 x 630 x 217 mm (5U), about 71-75 kg. Hardwired output terminal block plus programmable C13 sockets and breakers; a rear power output distribution box (PD5-CE6HDWRMBS: 2 x C19 + 6 x C13, or PD5-CE10HDWRMBS: 4 x C19 + 4 x C13) adds more. Battery cabinet GXT5-EBC192VRT3U. Check: C13 socket count (not given), add them as extra ports. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired, input breaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot (RDU101 fitted)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "REPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt5-8000irt5uxln",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-8000IRT5UXLN",
+  "name": "Liebert GXT5 8 kVA online rack/tower UPS 5U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Vertiv Liebert GXT5 5-10 kVA brochure",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-5-20kva/",
+  "notes": "Double-conversion online, 8 kVA, 430 x 630 x 217 mm (5U), about 71-75 kg. Hardwired output terminal block, 5 x C19 sockets and programmable C13s; a rear power output distribution box (PD5-CE6HDWRMBS: 2 x C19 + 6 x C13, or PD5-CE10HDWRMBS: 4 x C19 + 4 x C13) adds more. Battery cabinet GXT5-EBC192VRT3U. Check: C13 count (not given). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired, input breaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 5,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot (RDU101 fitted)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt5-10kirt5uxln",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-10KIRT5UXLN",
+  "name": "Liebert GXT5 10 kVA online rack/tower UPS 5U, 230 V",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Vertiv Liebert GXT5 5-10 kVA brochure",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-5-20kva/",
+  "notes": "Double-conversion online, 10 kVA, 430 x 630 x 217 mm (5U), about 71-75 kg. Hardwired output terminal block, 5 x C19 sockets and programmable C13s; a rear power output distribution box (PD5-CE6HDWRMBS: 2 x C19 + 6 x C13, or PD5-CE10HDWRMBS: 4 x C19 + 4 x C13) adds more. Battery cabinet GXT5-EBC192VRT3U. Check: C13 count (not given). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired, input breaker)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 5,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot (RDU101 fitted)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Dry contacts"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Parallel port",
+    "count": 2,
+    "prefix": "Parallel"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt5-ebc192vrt3u",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT5-EBC192VRT3U",
+  "name": "Liebert GXT5 external battery cabinet 3U (5-10 kVA)",
+  "family": "Liebert GXT5",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Vertiv Liebert GXT5 5-10 kVA brochure",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-gxt5-ups-5-20kva/",
+  "notes": "3U (130 mm) cabinet, 430 x 630 mm, 57.6 kg, 16 x 12 V VRLA. The UPS detects up to 6, supports up to 10. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 57.6
+ },
+ {
+  "id": "vertiv-gxt4-1000rt230",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT4-1000RT230",
+  "name": "Liebert GXT4 1000 VA online rack/tower UPS 2U, 230 V (legacy)",
+  "family": "Liebert GXT4",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Liebert GXT4 product documentation",
+  "productUrl": "https://www.vertiv.com/en-anz/support/",
+  "notes": "Double-conversion online UPS, replaced by the GXT5. Check: outlet count and comms ports (from the family pattern).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt4-1500rt230",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT4-1500RT230",
+  "name": "Liebert GXT4 1500 VA online rack/tower UPS 2U, 230 V (legacy)",
+  "family": "Liebert GXT4",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Liebert GXT4 product documentation",
+  "productUrl": "https://www.vertiv.com/en-anz/support/",
+  "notes": "Double-conversion online UPS, replaced by the GXT5. Check: outlet count and comms ports (from the family pattern).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt4-2000rt230",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT4-2000RT230",
+  "name": "Liebert GXT4 2000 VA online rack/tower UPS 2U, 230 V (legacy)",
+  "family": "Liebert GXT4",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Liebert GXT4 product documentation",
+  "productUrl": "https://www.vertiv.com/en-anz/support/",
+  "notes": "Double-conversion online UPS, replaced by the GXT5. Check: outlet count and comms ports (from the family pattern).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-gxt4-3000rt230",
+  "manufacturer": "Vertiv",
+  "partNumber": "GXT4-3000RT230",
+  "name": "Liebert GXT4 3000 VA online rack/tower UPS 2U, 230 V (legacy)",
+  "family": "Liebert GXT4",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Liebert GXT4 product documentation",
+  "productUrl": "https://www.vertiv.com/en-anz/support/",
+  "notes": "Double-conversion online UPS, replaced by the GXT5. Check: outlet count and comms ports (from the family pattern).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "IntelliSlot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery cabinet"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-acs8008sac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "ACS8008SAC-400",
+  "name": "Avocent ACS 8000 8-port serial console server",
+  "family": "Avocent ACS 8000",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Avocent ACS 8000 data sheet",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-serial-consoles/",
+  "notes": "1U, 438 x 241 mm deep, 28 W max. Out-of-band access to the serial (RS-232 console) ports of routers, switches, servers, PDUs and broadcast kit. Ports 1 and 2 can be RS-232, RS-422 or RS-485. Single AC supply. SAC = single AC, DAC = dual AC, MDAC = dual AC + modem, -LN/-NA = 4G LTE, SDC/DDC = -48 V DC. Check: which panel holds the serial ports, and USB count (the data sheet lists 8 USB 2.0 ports; 2 drawn).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-acs8016dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "ACS8016DAC-400",
+  "name": "Avocent ACS 8000 16-port serial console server",
+  "family": "Avocent ACS 8000",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Avocent ACS 8000 data sheet",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-serial-consoles/",
+  "notes": "1U, 438 x 241 mm deep, 28 W max. Out-of-band access to the serial (RS-232 console) ports of routers, switches, servers, PDUs and broadcast kit. Ports 1 and 2 can be RS-232, RS-422 or RS-485. Dual AC supply. SAC = single AC, DAC = dual AC, MDAC = dual AC + modem, -LN/-NA = 4G LTE, SDC/DDC = -48 V DC. Check: which panel holds the serial ports, and USB count (the data sheet lists 8 USB 2.0 ports; 2 drawn).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-acs8032mdac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "ACS8032MDAC-400",
+  "name": "Avocent ACS 8000 32-port serial console server",
+  "family": "Avocent ACS 8000",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Avocent ACS 8000 data sheet",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-serial-consoles/",
+  "notes": "1U, 438 x 241 mm deep, 28 W max. Out-of-band access to the serial (RS-232 console) ports of routers, switches, servers, PDUs and broadcast kit. Ports 1 and 2 can be RS-232, RS-422 or RS-485. Dual AC supply. Built-in analogue modem. SAC = single AC, DAC = dual AC, MDAC = dual AC + modem, -LN/-NA = 4G LTE, SDC/DDC = -48 V DC. Check: which panel holds the serial ports, and USB count (the data sheet lists 8 USB 2.0 ports; 2 drawn).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ11",
+    "count": 1,
+    "prefix": "Modem"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-acs8048dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "ACS8048DAC-400",
+  "name": "Avocent ACS 8000 48-port serial console server",
+  "family": "Avocent ACS 8000",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Avocent ACS 8000 data sheet",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-serial-consoles/",
+  "notes": "1U, 438 x 241 mm deep, 28 W max. Out-of-band access to the serial (RS-232 console) ports of routers, switches, servers, PDUs and broadcast kit. Ports 1 and 2 can be RS-232, RS-422 or RS-485. Dual AC supply. SAC = single AC, DAC = dual AC, MDAC = dual AC + modem, -LN/-NA = 4G LTE, SDC/DDC = -48 V DC. Check: which panel holds the serial ports, and USB count (the data sheet lists 8 USB 2.0 ports; 2 drawn).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 48,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network 1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "1G SFP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Console"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-mpu2-108dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "MPU2-108DAC-400",
+  "name": "Avocent MergePoint Unity 2 KVM over IP switch, 8 ports, 1 remote path",
+  "family": "Avocent MergePoint Unity 2",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Avocent MergePoint Unity 2 data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/ip-kvm/vertiv-avocentmergepointunity-2-kvm-over-ip-switches/",
+  "notes": "1U KVM over IP switch, 8 servers through MPUIQ / DSRIQ server interface modules (VGA, DVI, DisplayPort or HDMI targets, 1920 x 1080), 1 simultaneous remote sessions plus a local console (pairs with the LRA185KMM LCD tray). Serial targets through MPUIQ-SRL modules. Dual internal 100-240 V supplies, 4.9 kg. Check: local console USB count and port panel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 8,
+    "prefix": "Device port (Cat 5 to MPUIQ/DSRIQ module)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local console VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-mpu2-2016dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "MPU2-2016DAC-400",
+  "name": "Avocent MergePoint Unity 2 KVM over IP switch, 16 ports, 2 remote paths",
+  "family": "Avocent MergePoint Unity 2",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Avocent MergePoint Unity 2 data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/ip-kvm/vertiv-avocentmergepointunity-2-kvm-over-ip-switches/",
+  "notes": "1U KVM over IP switch, 16 servers through MPUIQ / DSRIQ server interface modules (VGA, DVI, DisplayPort or HDMI targets, 1920 x 1080), 2 simultaneous remote sessions plus a local console (pairs with the LRA185KMM LCD tray). Serial targets through MPUIQ-SRL modules. Dual internal 100-240 V supplies, 4.9 kg. Check: local console USB count and port panel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 16,
+    "prefix": "Device port (Cat 5 to MPUIQ/DSRIQ module)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local console VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-mpu2-2032dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "MPU2-2032DAC-400",
+  "name": "Avocent MergePoint Unity 2 KVM over IP switch, 32 ports, 2 remote paths",
+  "family": "Avocent MergePoint Unity 2",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Avocent MergePoint Unity 2 data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/ip-kvm/vertiv-avocentmergepointunity-2-kvm-over-ip-switches/",
+  "notes": "1U KVM over IP switch, 32 servers through MPUIQ / DSRIQ server interface modules (VGA, DVI, DisplayPort or HDMI targets, 1920 x 1080), 2 simultaneous remote sessions plus a local console (pairs with the LRA185KMM LCD tray). Serial targets through MPUIQ-SRL modules. Dual internal 100-240 V supplies, 4.9 kg. Check: local console USB count and port panel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Device port (Cat 5 to MPUIQ/DSRIQ module)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local console VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-mpu2-4032dac-400",
+  "manufacturer": "Vertiv",
+  "partNumber": "MPU2-4032DAC-400",
+  "name": "Avocent MergePoint Unity 2 KVM over IP switch, 32 ports, 4 remote paths",
+  "family": "Avocent MergePoint Unity 2",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Vertiv Avocent MergePoint Unity 2 data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/ip-kvm/vertiv-avocentmergepointunity-2-kvm-over-ip-switches/",
+  "notes": "1U KVM over IP switch, 32 servers through MPUIQ / DSRIQ server interface modules (VGA, DVI, DisplayPort or HDMI targets, 1920 x 1080), 4 simultaneous remote sessions plus a local console (pairs with the LRA185KMM LCD tray). Serial targets through MPUIQ-SRL modules. Dual internal 100-240 V supplies, 4.9 kg. Check: local console USB count and port panel.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "KVM link",
+    "connector": "RJ45",
+    "count": 32,
+    "prefix": "Device port (Cat 5 to MPUIQ/DSRIQ module)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Local console VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Local console USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "vertiv-lra185kmm",
+  "manufacturer": "Vertiv",
+  "partNumber": "LRA185KMM",
+  "name": "Avocent LRA185 18.5 in LCD rack console tray, 1U",
+  "family": "Avocent LCD tray",
+  "category": "control",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Vertiv Avocent MergePoint Unity 2 data sheet (EMEA)",
+  "productUrl": "https://www.vertiv.com/en-anz/products-catalog/monitoring-control-and-management/ip-kvm/vertiv-avocentmergepointunity-2-kvm-over-ip-switches/",
+  "notes": "1U slide-out 18.5 in LCD, keyboard and touch pad for the local console of an Avocent KVM switch. Check: connectors and power inlet (from similar trays).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Video In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Keyboard/mouse (USB)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1763 @@
+[
+ {
+  "id": "eaton-5p650ir",
+  "manufacturer": "Eaton",
+  "partNumber": "5P650IR",
+  "name": "5P 650 VA 1U rack UPS, 230 V",
+  "family": "5P",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5P UPS data sheet",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5p-ups.html",
+  "notes": "Line-interactive, 650 VA / 420 W, 1U, 364 mm deep, 8.6 kg. Internal batteries only (no battery module). USB and RS-232 cannot be used at the same time. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (Network-MS)"
+   }
+  ],
+  "weightKg": 8.6
+ },
+ {
+  "id": "eaton-5p850ir",
+  "manufacturer": "Eaton",
+  "partNumber": "5P850IR",
+  "name": "5P 850 VA 1U rack UPS, 230 V",
+  "family": "5P",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5P UPS data sheet",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5p-ups.html",
+  "notes": "Line-interactive, 850 VA / 600 W, 1U, 509 mm deep, 13.8 kg. Internal batteries only (no battery module). USB and RS-232 cannot be used at the same time. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 4,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (Network-MS)"
+   }
+  ],
+  "weightKg": 13.8
+ },
+ {
+  "id": "eaton-5p1150ir",
+  "manufacturer": "Eaton",
+  "partNumber": "5P1150IR",
+  "name": "5P 1150 VA 1U rack UPS, 230 V",
+  "family": "5P",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5P UPS data sheet",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5p-ups.html",
+  "notes": "Line-interactive, 1150 VA / 770 W, 1U, 509 mm deep, 14.6 kg. Internal batteries only (no battery module). USB and RS-232 cannot be used at the same time. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (Network-MS)"
+   }
+  ],
+  "weightKg": 14.6
+ },
+ {
+  "id": "eaton-5p1550ir",
+  "manufacturer": "Eaton",
+  "partNumber": "5P1550IR",
+  "name": "5P 1550 VA 1U rack UPS, 230 V",
+  "family": "5P",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 5P UPS data sheet",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-5p-ups.html",
+  "notes": "Line-interactive, 1550 VA / 1100 W, 1U, 554 mm deep, 19.4 kg. Internal batteries only (no battery module). USB and RS-232 cannot be used at the same time. Check: comms port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 6,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote ON/OFF / RPO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot (Network-MS)"
+   }
+  ],
+  "weightKg": 19.4
+ },
+ {
+  "id": "eaton-9px1000irt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX1000IRT2U",
+  "name": "9PX 1000 VA online rack/tower UPS 2U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 1000 VA / 1000 W, 2U, 450 mm deep, 17.4 kg. Extra runtime with up to 4 9PXEBM48RT2U battery modules. ANZ order code 9PX1000IRT2UANZ. Check: outlet count (taken from the 9PX1500). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 17.4
+ },
+ {
+  "id": "eaton-9px1500irt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX1500IRT2U",
+  "name": "9PX 1500 VA online rack/tower UPS 2U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 1500 VA / 1500 W, 2U, 450 mm deep, 18.9 kg. Extra runtime with up to 4 9PXEBM48RT2U battery modules. ANZ order code 9PX1500IRT2UANZ. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 18.9
+ },
+ {
+  "id": "eaton-9px2200irt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX2200IRT2U",
+  "name": "9PX 2200 VA online rack/tower UPS 2U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 2200 VA / 2200 W, 2U, 605 mm deep, 25.0 kg. Extra runtime with up to 4 9PXEBM72RT2U battery modules. ANZ order code 9PX2200IRT2UANZ. Check: outlet layout (taken from the 9PX3000IRT2U). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 25.0
+ },
+ {
+  "id": "eaton-9px2200irt3u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX2200IRT3U",
+  "name": "9PX 2200 VA online rack/tower UPS 3U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 2200 VA / 2200 W, 3U, 485 mm deep, 24.5 kg. Extra runtime with up to 4 9PXEBM72RT3U battery modules. ANZ order code 9PX2200IRT3UANZ. Check: outlet layout (taken from the 9PX3000IRT2U). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 24.5
+ },
+ {
+  "id": "eaton-9px3000irt3u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX3000IRT3U",
+  "name": "9PX 3000 VA online rack/tower UPS 3U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 3000 VA / 3000 W, 3U, 485 mm deep, 27.4 kg. Extra runtime with up to 4 9PXEBM72RT3U battery modules. ANZ order code 9PX3000IRT3UANZ. Check: outlet layout (taken from the 9PX3000IRT2U). ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 27.4
+ },
+ {
+  "id": "eaton-9pxebm48rt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PXEBM48RT2U",
+  "name": "9PX external battery module 2U (9PX 1000/1500)",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Battery module for the 9PX 1000/1500. 450 mm deep, 29.8 kg. Chains to further modules. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 29.8
+ },
+ {
+  "id": "eaton-9pxebm72rt2u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PXEBM72RT2U",
+  "name": "9PX external battery module 2U (9PX 2000/2200/3000 2U)",
+  "family": "9PX",
+  "category": "power",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Battery module for the 9PX 2000/2200/3000 2U. 605 mm deep, 39.2 kg. Chains to further modules. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 39.2
+ },
+ {
+  "id": "eaton-9pxebm72rt3u",
+  "manufacturer": "Eaton",
+  "partNumber": "9PXEBM72RT3U",
+  "name": "9PX external battery module 3U (9PX 2200/3000 3U)",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Battery module for the 9PX 2200/3000 3U. 485 mm deep, 38.2 kg. Chains to further modules. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 38.2
+ },
+ {
+  "id": "eaton-9pxebm180",
+  "manufacturer": "Eaton",
+  "partNumber": "9PXEBM180",
+  "name": "9PX external battery module 3U (9PX 5/6 kVA)",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Battery module for the 9PX 5/6 kVA. 685 mm deep, 68 kg. Chains to further modules. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 68
+ },
+ {
+  "id": "eaton-9pxebm240",
+  "manufacturer": "Eaton",
+  "partNumber": "9PXEBM240",
+  "name": "9PX external battery module 3U (9PX 8/11 kVA and 3:1 models)",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Battery module for the 9PX 8/11 kVA and 3:1 models. 680 mm deep, 65 kg. Chains to further modules. Check: connector positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 2,
+    "prefix": "Battery connector (in / daisy-chain)"
+   }
+  ],
+  "weightKg": 65
+ },
+ {
+  "id": "eaton-9px6ki",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX6Ki",
+  "name": "9PX 6 kVA online rack/tower UPS 3U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 6 kVA / 5.4 kW, 3U with internal batteries, 685 mm deep, 48 kg. 9PX5Ki is the 5 kVA version. Extra runtime with 9PXEBM180 modules. Check: output sockets (8 x C13 + 2 x C19 assumed, as on the 6 kVA guide spec) and the hardwired input on ANZ models.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 2,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 48
+ },
+ {
+  "id": "eaton-9px11kipm",
+  "manufacturer": "Eaton",
+  "partNumber": "9PX11KiPM",
+  "name": "9PX 11 kVA online UPS power module 3U, 230 V",
+  "family": "9PX",
+  "category": "power",
+  "ru": 3,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Eaton 9PX UPS ANZ product page and data sheets",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-9px-ups.html",
+  "notes": "Double-conversion online, 11 kVA / 10 kW power module with no batteries (pair with 9PXEBM240), 700 mm deep, 21 kg. 9PX8KiPM is the 8 kVA version; ...PM31 versions take 3-phase input. Output is hardwired; an optional rear distribution box adds sockets. Check: comms ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Output (hardwired)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Remote power off"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Relay out (3 out, 1 in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "Comms slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "External battery (EBM)"
+   }
+  ],
+  "weightKg": 21
+ },
+ {
+  "id": "eaton-eats16",
+  "manufacturer": "Eaton",
+  "partNumber": "EATS16",
+  "name": "Rack ATS 16 A automatic transfer switch 1U",
+  "family": "ATS",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton ATS 16 product pages",
+  "productUrl": "https://www.eaton.com/au/en-gb/skuPage.EATS16N.html",
+  "notes": "1U automatic transfer switch, 230 V 16 A: feeds the outlets from source A and switches to source B if A fails, so single-corded gear rides through a feed loss. Plug A and B into separate UPSs or circuits. Check: USB/RS-232 and network port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 2,
+    "prefix": "AC In (A primary, B secondary)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   }
+  ]
+ },
+ {
+  "id": "eaton-eats16n",
+  "manufacturer": "Eaton",
+  "partNumber": "EATS16N",
+  "name": "Rack ATS 16 A automatic transfer switch 1U with network card",
+  "family": "ATS",
+  "category": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton ATS 16 product pages",
+  "productUrl": "https://www.eaton.com/au/en-gb/skuPage.EATS16N.html",
+  "notes": "1U automatic transfer switch, 230 V 16 A: feeds the outlets from source A and switches to source B if A fails, so single-corded gear rides through a feed loss. Plug A and B into separate UPSs or circuits. Check: USB/RS-232 and network port positions.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 2,
+    "prefix": "AC In (A primary, B secondary)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C13",
+    "count": 8,
+    "prefix": "Outlet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "IEC C19",
+    "count": 1,
+    "prefix": "Outlet C19"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network-M2"
+   }
+  ]
+ },
+ {
+  "id": "eaton-evbafc20a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVBAFC20A",
+  "name": "Rack PDU G4 basic 0U, 1-phase 16 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U basic strip, 1000 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). No network. Check: breaker layout (1 circuit assumed) and outlet order along the strip.",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1000,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "c20",
+   "cordM": 3,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 12,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 12,
+     "circuit": "A"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evbaf116a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVBAF116A",
+  "name": "Rack PDU G4 basic 0U, 1-phase 16 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U basic strip, 1000 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). No network. Check: breaker layout (1 circuit assumed) and outlet order along the strip.",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1000,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 12,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 12,
+     "circuit": "A"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evbaf132a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVBAF132A",
+  "name": "Rack PDU G4 basic 0U, 1-phase 32 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U basic strip, 1730 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). No network. Check: breaker layout (2 circuits assumed) and outlet order along the strip.",
+  "portGroups": [],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1730,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3,
+   "metering": "none",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 6,
+     "circuit": "B"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evmif116a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVMIF116A",
+  "name": "Rack PDU G4 metered input 0U, 1-phase 16 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U metered input strip, 1000 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). Network management card with daisy-chain. Check: breaker layout (1 circuit assumed) and outlet order along the strip.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Daisy chain / sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1000,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "metered",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 12,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 12,
+     "circuit": "A"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evmif132a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVMIF132A",
+  "name": "Rack PDU G4 metered input 0U, 1-phase 32 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U metered input strip, 1730 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). Network management card with daisy-chain. Check: breaker layout (2 circuits assumed) and outlet order along the strip.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Daisy chain / sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1730,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "cee32",
+   "cordM": 3,
+   "metering": "metered",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 6,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 6,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 6,
+     "circuit": "B"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evmif332x",
+  "manufacturer": "Eaton",
+  "partNumber": "EVMIF332X",
+  "name": "Rack PDU G4 metered input 0U, 3-phase 32 A, 24 x C13 + 18 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U metered input strip, 1730 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). Network management card with daisy-chain. Check: breaker layout (6 circuits assumed) and outlet order along the strip.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Daisy chain / sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1730,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 3,
+   "volts": 400,
+   "amps": 32,
+   "plug": "cee3p32",
+   "cordM": 3,
+   "metering": "metered",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "B",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L1"
+    },
+    {
+     "id": "C",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "D",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L2"
+    },
+    {
+     "id": "E",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    },
+    {
+     "id": "F",
+     "type": "mcb",
+     "amps": 16,
+     "phase": "L3"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "A"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "B"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "B"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "C"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "C"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "D"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "D"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "E"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "E"
+    },
+    {
+     "type": "c13",
+     "count": 4,
+     "circuit": "F"
+    },
+    {
+     "type": "c19",
+     "count": 3,
+     "circuit": "F"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evswf116a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVSWF116A",
+  "name": "Rack PDU G4 switched 0U, 1-phase 16 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U switched strip, 1730 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). Network management card with daisy-chain. Check: breaker layout (1 circuit assumed) and outlet order along the strip.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Daisy chain / sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1730,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "switched",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 12,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 12,
+     "circuit": "A"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eaton-evmaf116a",
+  "manufacturer": "Eaton",
+  "partNumber": "EVMAF116A",
+  "name": "Rack PDU G4 managed 0U, 1-phase 16 A, 12 x C13 + 12 x C39",
+  "family": "Rack PDU G4",
+  "category": "pdu",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Eaton Rack PDU G4 (EMEA) product page",
+  "productUrl": "https://www.eaton.com/au/en-gb/catalog/backup-power-ups-surge-it-power-distribution/eaton-rack-pdu-g4-emea.html",
+  "notes": "0U managed strip, 1000 mm long, 52 x 53 mm section. C39 outlets are combination sockets that take a C14 or a C20 plug (drawn as C19). Network management card with daisy-chain. Check: breaker layout (1 circuit assumed) and outlet order along the strip.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Daisy chain / sensor"
+   }
+  ],
+  "pdu": {
+   "mount": "v",
+   "lengthMm": 1000,
+   "widthMm": 52,
+   "cordEnd": "bottom",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "cee16",
+   "cordM": 3,
+   "metering": "switched-outlet",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "none"
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 12,
+     "circuit": "A"
+    },
+    {
+     "type": "c19",
+     "count": 12,
+     "circuit": "A"
+    }
+   ]
+  }
+ }
+]

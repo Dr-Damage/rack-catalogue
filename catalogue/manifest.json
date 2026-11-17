@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "62d062e2320f",
- "updated": "2026-11-17T05:18:08Z",
- "entries": 3135,
+ "version": "1350c7fcc23c",
+ "updated": "2026-11-17T05:22:42Z",
+ "entries": 3187,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -1263,6 +1263,16 @@
    "sha256": "e1f2cbed4d2f7a4f9b47a4c28e8ef6607b37f4c372d70f28d00f8c366a4c1302",
    "entries": 7,
    "bytes": 11318
+  },
+  "eaton-more.json": {
+   "sha256": "f40229d4cb09d0689499034d67807f083d6d601982f98968885f8d9eec54bc10",
+   "entries": 26,
+   "bytes": 40151
+  },
+  "vertiv-more.json": {
+   "sha256": "d3400c8926bd33b4a74c92248d71e7d4ac100929c5630fe49ff09818674858db",
+   "entries": 26,
+   "bytes": 39782
   }
  }
 }
