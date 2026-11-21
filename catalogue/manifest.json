@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "1350c7fcc23c",
- "updated": "2026-11-17T05:22:42Z",
- "entries": 3187,
+ "version": "b1f0af06def7",
+ "updated": "2026-11-21T01:56:03Z",
+ "entries": 3208,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -1273,6 +1273,21 @@
    "sha256": "d3400c8926bd33b4a74c92248d71e7d4ac100929c5630fe49ff09818674858db",
    "entries": 26,
    "bytes": 39782
+  },
+  "dell-nx.json": {
+   "sha256": "9340e3e668e5b966f76a2e030dd84256b13279ff76c688353bb4eec434e54e28",
+   "entries": 9,
+   "bytes": 20640
+  },
+  "hp-z.json": {
+   "sha256": "ee7b082682969c880ec83b0b714df501c598a4446925d03135c8da5c9f711a1f",
+   "entries": 7,
+   "bytes": 20543
+  },
+  "sprolink.json": {
+   "sha256": "6323ffac8be6994b4fa3f52dbcfa8ce90f34c134153540c2d44108a4a88cf470",
+   "entries": 5,
+   "bytes": 8982
   }
  }
 }
