@@ -1,0 +1,371 @@
+[
+ {
+  "id": "sprolink-sg-uhd",
+  "manufacturer": "Sprolink",
+  "partNumber": "SG-UHD",
+  "name": "SG-UHD 4K UHD HDMI 2.0 / 3G-SDI / fibre test signal generator",
+  "family": "SG",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama and AVLGEAR SG-UHD listings",
+  "productUrl": "https://www.adorama.com/sprolink-sg-uhd-4k-ultra-hd-hdmi-3g-sdi-signal-generator/p/sprsguhd",
+  "notes": "Pocket test pattern and tone generator, 135.2 x 117.2 x 35.6 mm, 310 g, metal case, 4.3 in colour screen with buttons. Patterns (colour bars, grey bars, ramps, your own images), tone -60 to 0 dB, 20 Hz-20 kHz with 0/90/180/270 degree phase, LTC/VITC timecode, 16 ch embedded SDI audio and 8 ch HDMI audio. SDI: SD 525/625, HD 720p/1080i/p, 2K, 3G Level A/B up to 1080p60; HDMI 2.0 up to 4096 x 2160 and VESA up to 240 Hz. Power 5 V over USB-C or 12 V DC. Sits on a rack shelf (4 columns drawn). Check: no genlock input is listed; the analogue audio jack and the 12 V DC socket are on one retailer's spec list only; SFP module type (SDI over fibre) is not stated.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "SFP",
+    "connector": "SFP",
+    "count": 1,
+    "prefix": "Fibre SDI Out (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI 2.0 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C (5 V power / control)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC 12V In"
+   }
+  ],
+  "boxMm": {
+   "w": 135,
+   "h": 36
+  },
+  "weightKg": 0.31
+ },
+ {
+  "id": "sprolink-vd-8k-2u",
+  "manufacturer": "Sprolink",
+  "partNumber": "VD-8K 2U",
+  "name": "VD-8K 2U 8K video wall processor (HDMI 2.1 / DP in, 4 x HDMI 2.0 out)",
+  "family": "VD",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Adorama and AVLGEAR VD-8K 2U listings",
+  "productUrl": "https://www.adorama.com/sprolink-vd-8k-2u-hdmi-2-0-video-wall-processor/p/sprvd8k2u",
+  "notes": "2U video wall splicer / processor for LED and LCD walls: up to 8K input split over four 4K HDMI outputs, with genlock. 485 x 325 x 90 mm, 150 W max. Check: RS-232 connector (DB9 drawn), the redundant PSU inlets (two IEC C14 drawn) and whether HDMI ins are 2.0 or 2.1 (the listing says both).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.1 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP 1.4 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP 2.1 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C video In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI 2.0 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 4,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 2,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (control)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 150
+ },
+ {
+  "id": "sprolink-vf4-pro",
+  "manufacturer": "Sprolink",
+  "partNumber": "VF4 PRO",
+  "name": "VF4 PRO 4K60 multi-format seamless switcher / scaler",
+  "family": "VF",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sprolink VF4 PRO brochure (2021)",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0610/0418/5813/files/VF4PRO_Brochure_EN_V1.0_20210105.pdf",
+  "notes": "4K60 HDMI 2.0 presentation / LED processor with seamless switching and layers. 480 x 350 x 90 mm (2U high), 8.2 kg, AC 100-264 V internal, 20 W max. An optional extra HDMI 2.0 loop out. Check: rack ears (2U size, rack-mount not stated), genlock connector type and the IEC inlet.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 4,
+    "prefix": "HDMI 2.0 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP 1.2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 2,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI 2.0 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 20,
+  "weightKg": 8.2
+ },
+ {
+  "id": "sprolink-sd8",
+  "manufacturer": "Sprolink",
+  "partNumber": "SD8",
+  "name": "SD8 video wall sending box, 4 x DVI in, 8 x DVI out",
+  "family": "SD",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sprolink product catalogue (2020)",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0610/0418/5813/files/SPROLINK_Catalog_2020_V1.0_EN_20220318_B.pdf",
+  "notes": "LED/LCD wall sending (distribution) box with built-in fan. 480 x 283 x 89 mm (2U high), 3.8 kg, AC 100-264 V internal, 50 W max. Check: rack ears (not stated), the DVI in/out split (read from the catalogue table) and any control port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 4,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 8,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 50,
+  "weightKg": 3.8
+ },
+ {
+  "id": "sprolink-sd6",
+  "manufacturer": "Sprolink",
+  "partNumber": "SD6",
+  "name": "SD6 video wall sending box, 4 x DVI in, 4 x DVI out",
+  "family": "SD",
+  "category": "switcher",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sprolink product catalogue (2020)",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0610/0418/5813/files/SPROLINK_Catalog_2020_V1.0_EN_20220318_B.pdf",
+  "notes": "LED/LCD wall sending (distribution) box with built-in fan. 480 x 283 x 89 mm (2U high), 3.8 kg, AC 100-264 V internal, 50 W max. Check: rack ears (not stated), the DVI in/out split (read from the catalogue table) and any control port.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 4,
+    "prefix": "DVI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DVI",
+    "connector": "DVI-I",
+    "count": 4,
+    "prefix": "DVI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 50,
+  "weightKg": 3.8
+ }
+]

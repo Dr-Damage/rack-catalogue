@@ -1,0 +1,832 @@
+[
+ {
+  "id": "hp-z840",
+  "manufacturer": "HP",
+  "partNumber": "Z840",
+  "name": "Z840 tower workstation on rack rails (5U, legacy)",
+  "family": "Z by HP tower (G2)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z840 Workstation QuickSpecs (v34)",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/HP/HP%20Z840/HP%20Z840%20Workstation%20QuickSpecs.pdf",
+  "notes": "Dual-socket Xeon E5-2600 v3/v4 tower (2014-2018), rackable: 5U on the HP Z6/8 Adjustable Rail Rack Kit, Flush Mount (B8S55AA) or the Z640/Z840/Z8 G4 Rail Rack Kit (2FZ77AA). 444.5 x 203.2 x 525.8 mm (H x W x D), 22.8 kg typical. 850 W or 1125 W PSU (the 1125 W gives 1450 W on 200-240 V). 7 slots: 1 Gen3 x4, 2 Gen3 x16, 3 Gen3 x8 (2nd CPU), 4 Gen3 x16 (2nd CPU), 5 Gen2 x4 (Gen3 x8 with the 2nd CPU), 6 Gen3 x16, 7 Gen2 x1. A common host for broadcast graphics, playout and capture (DeckLink, AJA KONA) cards: add the card ports as extra ports, or use the \"with DeckLink Quad 2\" entry. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE (Intel I218LM / I210AT)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 22.8
+ },
+ {
+  "id": "hp-z840-decklink-quad2",
+  "manufacturer": "HP",
+  "partNumber": "Z840 + DeckLink Quad 2",
+  "name": "Z840 workstation with Blackmagic DeckLink Quad 2 (8 x 3G-SDI in/out), 5U",
+  "family": "Z by HP tower (G2)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z840 QuickSpecs and Blackmagic DeckLink Quad 2 tech specs",
+  "productUrl": "https://www.bhphotovideo.com/c/product/1186263-REG/blackmagic_design_bdlkdvqd2_decklink_quad_2_8_channel.html/specs",
+  "notes": "HP Z840 fitted with a Blackmagic DeckLink Quad 2 (BDLKDVQD2): 8 SD/HD/3G-SDI channels on DIN 1.0/2.3 connectors, each set as an input or an output in Blackmagic Desktop Video Setup (wire each one either way; pairs can run key and fill), 16 channels of embedded audio per channel, tri-level or black burst sync input, PCIe Gen2 x8, 22 W. The card comes with no cables: use DIN 1.0/2.3 to BNC leads (set the cable connector to DIN 1.0/2.3 at the card end). Fit it in slot 2 or 6 (x16) on a single-CPU machine; one card slot is used, 6 left. Dual-socket Xeon E5-2600 v3/v4 tower (2014-2018), rackable: 5U on the HP Z6/8 Adjustable Rail Rack Kit, Flush Mount (B8S55AA) or the Z640/Z840/Z8 G4 Rail Rack Kit (2FZ77AA). 444.5 x 203.2 x 525.8 mm (H x W x D), 22.8 kg typical. 850 W or 1125 W PSU (the 1125 W gives 1450 W on 200-240 V). 7 slots: 1 Gen3 x4, 2 Gen3 x16, 3 Gen3 x8 (2nd CPU), 4 Gen3 x16 (2nd CPU), 5 Gen2 x4 (Gen3 x8 with the 2nd CPU), 6 Gen3 x16, 7 Gen2 x1. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). Check: the reference input connector on the card bracket.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE (Intel I218LM / I210AT)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "DIN 1.0/2.3",
+    "count": 8,
+    "prefix": "DeckLink SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "DIN 1.0/2.3",
+    "count": 1,
+    "prefix": "DeckLink Ref In"
+   }
+  ],
+  "weightKg": 22.8
+ },
+ {
+  "id": "hp-z640",
+  "manufacturer": "HP",
+  "partNumber": "Z640",
+  "name": "Z640 tower workstation on rack rails (4U, legacy)",
+  "family": "Z by HP tower (G2)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z640 Workstation QuickSpecs (v17)",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/HP/HP%20Z640/HP%20Z640%20Workstation%20Quickspecs.pdf",
+  "notes": "Xeon E5-1600/2600 v3/v4 tower (2014-2018, second CPU on a riser), rackable minitower: 4U on the HP Z6/8 Adjustable Rail Rack Kit, Flush Mount (B8S55AA). 442.9 x 171.5 x 464.8 mm (H x W x D), 17 kg typical. 925 W PSU. 6 slots: 1 Gen2 x1 (lost with the 2nd CPU), 2 Gen3 x16, 3 Gen2 x4, 4 Gen3 x8, 5 Gen3 x16, 6 legacy PCI. A serial port is an optional PCI-bracket cable. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel I218LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe / PCI slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 17
+ },
+ {
+  "id": "hp-z440",
+  "manufacturer": "HP",
+  "partNumber": "Z440",
+  "name": "Z440 tower workstation on rack rails (4U, legacy)",
+  "family": "Z by HP tower (G2)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z440 Workstation QuickSpecs (v37)",
+  "productUrl": "https://manualmachine.com/hp/z440/24305858-quickspecs",
+  "notes": "Single-socket Xeon E5-1600/2600 v3/v4 tower (2014-2018) on the HP Z240/Z440 Depth Adjust Fixed Rail Rack Kit (WH340AA), 4U. 431.8 x 168.9 x 444.7 mm (H x W x D), 13.5 kg typical. 525 W or 700 W PSU (700 W needed for graphics over 75 W, up to 225 W). 6 slots: 1 Gen2 x1, 2 Gen3 x16, 3 Gen2 x4, 4 Gen3 x8, 5 Gen3 x16, 6 legacy PCI. A serial port is an optional PCI-bracket cable. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel I218LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe / PCI slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 13.5
+ },
+ {
+  "id": "hp-z820",
+  "manufacturer": "HP",
+  "partNumber": "Z820",
+  "name": "Z820 tower workstation on rack rails (5U, legacy)",
+  "family": "Z by HP tower (G1)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "HP Z820 Workstation QuickSpecs (v48)",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/HP/HP%20Z820/HP%20Z820%20Workstation%20QuickSpecs.pdf",
+  "notes": "Dual-socket Xeon E5-2600 tower (2012-2015), rackable minitower on the HP Z6/8 Adjustable Rail Rack Kit, Flush Mount (B8S55AA). 444 x 203 x 525 mm (H x W x D, the same chassis as the Z840), 22.8 kg typical. 850 W or 1125 W PSU. 6 PCIe slots (three need the 2nd CPU) plus one legacy PCI slot. Long the standard host for Vizrt engines, playout and DeckLink capture. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). Check: rack height (5U drawn, as the Z840; the QuickSpecs give no U figure).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FireWire 400",
+    "count": 1,
+    "prefix": "IEEE 1394a"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "FireWire 400",
+    "count": 1,
+    "prefix": "IEEE 1394a"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Microphone"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe / PCI slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 22.8
+ },
+ {
+  "id": "hp-z6-g4",
+  "manufacturer": "HP",
+  "partNumber": "Z6 G4",
+  "name": "Z6 G4 tower workstation on rack rails (4U)",
+  "family": "Z by HP tower (G4)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z6 G4 Workstation QuickSpecs (v51)",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/HP/HP%20Z6%20G4/HP%20Z6%20G4%20Workstation%20QuickSpecs.pdf",
+  "notes": "Xeon Scalable tower (2017-2023, second CPU on a riser), 4U on the HP Z4/Z6 Depth Adjustable Fixed Rail Rack Kit (2HW42AA) or the Z2/Z4/Z6 kit (2A8Y5AA). 445 x 169 x 465 mm (H x W x D), 13.6 kg standard. 1000 W PSU. 6 PCIe slots. The Premium front panel swaps two USB-A for two 10 Gb USB-C. Serial is optional. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C14 drawn). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.1 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.1 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE (1 with AMT)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 13.6
+ },
+ {
+  "id": "hp-z8-g5",
+  "manufacturer": "HP",
+  "partNumber": "Z8 G5",
+  "name": "Z8 G5 tower workstation on rack rails (5U)",
+  "family": "Z by HP tower (G5)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "HP Z8 G5 Workstation QuickSpecs (v37)",
+  "productUrl": "https://cdn.iceshop.nl/objects/mmo_113710094_1787535595_1892_2552343.pdf",
+  "notes": "Dual Xeon Scalable (4th gen) tower, 5U on the HP Z640/Z840/Z8 G4 Rail Rack Kit (2FZ77AA) or the Z8 Rack Rail Upgrade Kit (2FZ76AA). 444.5 x 215.9 x 551.2 mm (H x W x D), 24.3 kg typical. 1125 W, 1450 W or 1700 W PSU. 7 PCIe slots (Gen3 to Gen5) plus 2 M.2 personality slots; optional 2 x 10GbE, internal serial and PS/2 kit. GPU DisplayPort count depends on the card fitted (4 drawn, as a Quadro/RTX card). Check: PSU inlet (IEC C20 drawn; HP says the 1700 W needs a C19/C20 cord, the smaller ones may take C13/C14).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 5Gb"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 5Gb"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE (1 with AMT)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 7,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 24.3
+ }
+]

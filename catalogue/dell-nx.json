@@ -1,0 +1,831 @@
+[
+ {
+  "id": "dell-nx3240",
+  "manufacturer": "Dell",
+  "partNumber": "NX3240",
+  "name": "PowerVault NX3240 2U NAS, 12 x 3.5 in (Windows Storage Server 2016)",
+  "family": "PowerVault NX (14G)",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell PowerVault NX Series Product Support Matrix (Rev A10)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/powervault-nx",
+  "notes": "Windows Storage Server 2016 Standard NAS on the PowerEdge R740xd. 12 x 3.5 in hot-swap front bays for data, 4 x 3.5 in mid-bay (not set up at the factory) and 2 rear hot-swap bays for the OS. Broadcom 5720 quad 1GbE daughter card standard (25GbE SFP28 or 10GbE SFP+ cards optional), iDRAC9 Enterprise, up to three PCIe 3.0 x8 slots. One 750 W hot-plug PSU standard; a second 750 W or 1100 W makes it 1+1 redundant (change the PSU count to 1 if only one fitted). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE NDC (Broadcom 5720 QP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-nx3340",
+  "manufacturer": "Dell",
+  "partNumber": "NX3340",
+  "name": "PowerVault NX3340 1U NAS gateway, 8 x 2.5 in (Windows Storage Server 2016)",
+  "family": "PowerVault NX (14G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell PowerVault NX Series Product Support Matrix (Rev A10)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/powervault-nx",
+  "notes": "Windows Storage Server 2016 Standard NAS head on the PowerEdge R640: 8 x 2.5 in hot-swap bays (2 or 4 for the OS, the rest free). Serves storage on PowerVault ME/MD, Compellent or EqualLogic arrays, or clusters. Quad 1GbE daughter card standard, iDRAC9 Enterprise, three PCIe 3.0 x16 slots (put SAS HBAs in slots 1 and 3). One 750 W hot-plug PSU standard, second optional (1+1). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE NDC (Broadcom 5720 QP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-nx440",
+  "manufacturer": "Dell",
+  "partNumber": "NX440",
+  "name": "PowerVault NX440 1U NAS, 4 x 3.5 in (Windows Storage Server 2016)",
+  "family": "PowerVault NX (14G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Storage NX440 owner's manual and Dell PowerVault NX Series Product Support Matrix (Rev A10)",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/powervault-nx",
+  "notes": "Entry Windows Storage Server 2016 Standard or Workgroup NAS on the PowerEdge R340: 4 x 3.5 in hot-swap SAS/SATA bays, 482 x 42.8 x 534.5 mm deep, up to 13.2 kg. Two 1GbE ports and a dedicated iDRAC9 port on the back, two PCIe 3.0 slots (x8 low profile, x16). One 350 W hot-plug PSU standard, a second makes it redundant. Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "Micro-USB",
+    "count": 1,
+    "prefix": "iDRAC Direct"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 13.2
+ },
+ {
+  "id": "dell-nx430",
+  "manufacturer": "Dell",
+  "partNumber": "NX430",
+  "name": "PowerVault NX430 1U NAS, 4 x 3.5 in (Windows Storage Server 2016)",
+  "family": "PowerVault NX (13G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell Storage NX430 support matrix",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/powervault-nx",
+  "notes": "Windows Storage Server 2016 Standard or Workgroup NAS on the PowerEdge R330 (2016-2019, replaced by the NX440): 4 x 3.5 in hot-swap bays, two PCIe 3.0 slots (x8, x16). Hot-plug 350 W PSU, second optional. The matrix lists a Broadcom 5720 quad 1GbE NIC as standard. Check: rear panel taken from the R330 (2 x 1GbE, iDRAC, VGA, serial, 2 x USB 3.0); if the quad NIC card is fitted, add 4 more 1GbE ports. Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-nx3230",
+  "manufacturer": "Dell",
+  "partNumber": "NX3230",
+  "name": "Storage NX3230 2U NAS, 12 x 3.5 in + 2 rear 2.5 in (Windows Storage Server 2012 R2 / 2016)",
+  "family": "PowerVault NX (13G)",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell Storage NX3230 owner's manual (technical specifications) and Icecat listing",
+  "productUrl": "https://www.dell.com/support/manuals/en-us/storage-nx3230/nx3230ompub/about-your-system",
+  "notes": "Windows Storage Server NAS (2014-2018, replaced by the NX3240): 12 x 3.5 in hot-swap data bays plus 2 x 2.5 in rear OS bays, up to two Xeon E5-2600 v3. 87.3 x 482 x 755.8 mm, up to 36.5 kg. Network daughter card: 4 x 1GbE, 2 x 1GbE + 2 x 10GBASE-T (QLogic 57800, a common build) or 4 x 10GbE. 750 W or 1100 W PSUs. Check: the dedicated iDRAC8 port (the PowerEdge R730xd it matches has one), the PCIe slot count (6 drawn) and the PSU count (redundant pair drawn). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB management (iDRAC Direct)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "NDC NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 36.5
+ },
+ {
+  "id": "dell-nx3330",
+  "manufacturer": "Dell",
+  "partNumber": "NX3330",
+  "name": "Storage NX3330 1U NAS gateway (Windows Storage Server 2012 R2 / 2016)",
+  "family": "PowerVault NX (13G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell Storage NX3330 spec sheet",
+  "productUrl": "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/SS_Dell_Storage_NX3330_121114.pdf",
+  "notes": "Windows Storage Server NAS head (2014-2018, replaced by the NX3340): 2 or 4 x 2.5 in OS drives only; serves storage on PowerVault MD3, EqualLogic or Compellent arrays. Two Xeon E5-2600 v3, iDRAC8 Enterprise, three low-profile PCIe 3.0 slots (two x16, one x8), 750 W hot-plug PSUs (redundant or single). 42.8 x 482.3 x 700.5 mm, up to 16.9 kg. Check: NDC port mix (customer selectable; 4 x 1GbE drawn). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB management (iDRAC Direct)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "NDC NIC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 16.9
+ },
+ {
+  "id": "dell-nx3200",
+  "manufacturer": "Dell",
+  "partNumber": "NX3200",
+  "name": "PowerVault NX3200 2U NAS, 12 x 3.5 in (Windows Storage Server 2012)",
+  "family": "PowerVault NX (12G)",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell PowerVault NX3200 spec sheet",
+  "productUrl": "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/ESG-PowerVault-NX3200-Spec-Sheet.pdf",
+  "notes": "Windows Storage Server 2012 / 2012 R2 NAS on the PowerEdge R720xd (2012-2014): 12 x 3.5 in hot-swap data bays (up to 48 TB) plus 2 x 2.5 in OS drives, iDRAC7 Enterprise, six PCIe slots (two x16 and one x8 full height, three x8 half height). 495 W, 750 W or 1100 W hot-plug PSUs. 87.3 x 482 x 755.8 mm, up to 32.5 kg. Add a PERC card for MD1200 shelves. Check: NDC port mix (4 x 1GbE drawn) and front USB count. Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE NDC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 32.5
+ },
+ {
+  "id": "dell-nx3300",
+  "manufacturer": "Dell",
+  "partNumber": "NX3300",
+  "name": "PowerVault NX3300 1U NAS gateway (Windows Storage Server 2012)",
+  "family": "PowerVault NX (12G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Microsoft Storage Server team blog (Dell NX on WSS 2012 R2)",
+  "productUrl": "https://learn.microsoft.com/en-us/archive/blogs/storageserver/dell-powervault-nx-now-available-with-windows-storage-server-2012-r2",
+  "notes": "Windows Storage Server 2012 / 2012 R2 NAS head on the PowerEdge R620 (2012-2014): 2 or 4 x 2.5 in OS drives, no data bays; gateway to Compellent, EqualLogic or PowerVault MD3 arrays, clusters up to 8 nodes. Two Xeon E5-2600. Check: rear panel taken from the R620 (4-port NDC, iDRAC7, 3 PCIe, 2 PSUs). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE NDC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "dell-nx400",
+  "manufacturer": "Dell",
+  "partNumber": "NX400",
+  "name": "PowerVault NX400 1U NAS, 4 x 3.5 in (Windows Storage Server 2012 R2)",
+  "family": "PowerVault NX (12G)",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell PowerVault NX400 product page",
+  "productUrl": "https://www.dell.com/en-au/shop/ipovw/powervault-nx400",
+  "notes": "Entry Windows Storage Server NAS on the PowerEdge R320 (2012-2016): up to 4 x 3.5 in hot-swap NL-SAS/SATA drives (16 TB), one Xeon E5-2400, redundant 550 W PSUs. MD1200 / MD1220 shelves for more space. Check: rear panel taken from the R320 (2 x 1GbE, iDRAC7 port with the Enterprise licence, 2 PCIe slots). Card slots: add the ports of the cards fitted (PERC H840 or SAS HBA to MD1200/MD1400 shelves, 10/25GbE NICs, tape HBA) as extra ports. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE LOM"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ }
+]
