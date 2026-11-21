@@ -1,0 +1,6450 @@
+[
+ {
+  "id": "generic-camera-smpte-fibre",
+  "manufacturer": "Generic",
+  "partNumber": "System camera (SMPTE fibre)",
+  "name": "System camera head, SMPTE 311 fibre to CCU",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Video, returns, tally, intercom and power all travel on the hybrid fibre to the CCU. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "generic-camera-triax",
+  "manufacturer": "Generic",
+  "partNumber": "System camera (triax)",
+  "name": "System camera head, triax to CCU",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Triax",
+    "connector": "Fischer triax",
+    "count": 1,
+    "prefix": "CCU (triax)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "generic-camera-ptz",
+  "manufacturer": "Generic",
+  "partNumber": "PTZ camera (SDI + IP)",
+  "name": "PTZ camera with SDI, HDMI and IP (NDI / SRT) out",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "generic-camera-ptz-ip",
+  "manufacturer": "Generic",
+  "partNumber": "PTZ camera (IP / NDI only)",
+  "name": "PTZ camera, single PoE cable (NDI or SRT)",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "generic-camcorder",
+  "manufacturer": "Generic",
+  "partNumber": "Camcorder (SDI)",
+  "name": "Shoulder or handheld camcorder with SDI out",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "generic-camera-box-sdi",
+  "manufacturer": "Generic",
+  "partNumber": "Box / POV camera (SDI)",
+  "name": "Box or POV camera, SDI out",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-485",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "generic-camera-wireless",
+  "manufacturer": "Generic",
+  "partNumber": "Wireless camera (RF / bonded cellular)",
+  "name": "Camera with an on-board wireless or bonded cellular transmitter",
+  "family": "Generic camera",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "The link to the receiver is wireless: draw it as an RF cable to the receiver so it shows on the wiring. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RF / cellular (to receiver)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "Battery"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-3500",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-3500",
+  "name": "HDC-3500 4K/HD system camera (2/3\" 3-CMOS global shutter)",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-3500",
+  "notes": "Pairs with the HDCU-3500 / HDCU-5500. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-5500",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-5500",
+  "name": "HDC-5500 4K/HD system camera, shoulder type",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-5500",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-5500v",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-5500V",
+  "name": "HDC-5500V 4K/HD system camera with variable ND",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-5500v",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-f5500",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-F5500",
+  "name": "HDC-F5500 Super 35 4K system camera",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-f5500",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "PL lens / LEMO"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-3200",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-3200",
+  "name": "HDC-3200 4K/HD system camera",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-3200",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-3100",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-3100",
+  "name": "HDC-3100 HD system camera",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-3100",
+  "notes": "Pairs with the HDCU-3100. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-4800",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-4800",
+  "name": "HDC-4800 4K/HD high frame rate system camera",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-4800",
+  "notes": "Pairs with the BPU-4800 and HDCU-4300. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hdc-p50",
+  "manufacturer": "Sony",
+  "partNumber": "HDC-P50",
+  "name": "HDC-P50 4K/HD POV system camera (box, fibre)",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hdc-p50",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-hxc-fz90",
+  "manufacturer": "Sony",
+  "partNumber": "HXC-FZ90",
+  "name": "HXC-FZ90 4K/HD studio camera (fibre or triax)",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hxc-fz90",
+  "notes": "Pairs with the HXCU-FZ90. The triax version (HXC-FB80 range) uses a triax CCU instead. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "sony-hxc-fb80",
+  "manufacturer": "Sony",
+  "partNumber": "HXC-FB80",
+  "name": "HXC-FB80 HD studio camera, triax",
+  "family": "Sony system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/broadcast-cameras/hxc-fb80",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Triax",
+    "connector": "Fischer triax",
+    "count": 1,
+    "prefix": "CCU (triax)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-pxw-z750",
+  "manufacturer": "Sony",
+  "partNumber": "PXW-Z750",
+  "name": "PXW-Z750 4K 2/3\" shoulder camcorder",
+  "family": "Sony camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/camcorders/pxw-z750",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Mic In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-pxw-z280",
+  "manufacturer": "Sony",
+  "partNumber": "PXW-Z280",
+  "name": "PXW-Z280 4K handheld camcorder",
+  "family": "Sony camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/camcorders/pxw-z280",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-pxw-fx9",
+  "manufacturer": "Sony",
+  "partNumber": "PXW-FX9",
+  "name": "PXW-FX9 full-frame camcorder",
+  "family": "Sony camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/camcorders/pxw-fx9",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-ilme-fr7",
+  "manufacturer": "Sony",
+  "partNumber": "ILME-FR7",
+  "name": "ILME-FR7 full-frame PTZ cinema camera",
+  "family": "Sony PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/cinema-line-cameras/ilme-fr7",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-brc-x1000",
+  "manufacturer": "Sony",
+  "partNumber": "BRC-X1000",
+  "name": "BRC-X1000 4K PTZ camera",
+  "family": "Sony PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/ptz-network-cameras/brc-x1000",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Mini-DIN 8",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-brc-am7",
+  "manufacturer": "Sony",
+  "partNumber": "BRC-AM7",
+  "name": "BRC-AM7 4K compact PTZ camera",
+  "family": "Sony PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/ptz-network-cameras/brc-am7",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "sony-srg-a40",
+  "manufacturer": "Sony",
+  "partNumber": "SRG-A40",
+  "name": "SRG-A40 4K PTZ camera with auto framing",
+  "family": "Sony PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sony product page",
+  "productUrl": "https://pro.sony/ue_US/products/ptz-network-cameras/srg-a40",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-100",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 100",
+  "name": "LDX 100 native UHD system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-100/",
+  "notes": "Pairs with the XCU base station (fibre) or a triax XCU. Also an IP (XCU-less, SMPTE 2110) version. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-110",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 110",
+  "name": "LDX 110 UHD system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-110/",
+  "notes": "Pairs with the XCU base station (fibre) or a triax XCU. Also an IP (XCU-less, SMPTE 2110) version. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-135",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 135",
+  "name": "LDX 135 HD system camera, 3X HFR",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-135/",
+  "notes": "Pairs with the XCU base station (fibre) or a triax XCU. Also an IP (XCU-less, SMPTE 2110) version. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-150",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 150",
+  "name": "LDX 150 UHD HFR system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-150/",
+  "notes": "Pairs with the XCU base station (fibre) or a triax XCU. Also an IP (XCU-less, SMPTE 2110) version. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-180",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 180",
+  "name": "LDX 180 Super 35 system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-180/",
+  "notes": "Pairs with the XCU base station (fibre) or a triax XCU. Also an IP (XCU-less, SMPTE 2110) version. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-c135",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX C135",
+  "name": "LDX C135 compact HD system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-c135/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "gv-ldx-86n",
+  "manufacturer": "Grass Valley",
+  "partNumber": "LDX 86N",
+  "name": "LDX 86N HD/4K system camera",
+  "family": "LDX cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Grass Valley product page",
+  "productUrl": "https://www.grassvalley.com/products/cameras/ldx-86n-series/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "ikegami-uhk-x700",
+  "manufacturer": "Ikegami",
+  "partNumber": "UHK-X700",
+  "name": "UHK-X700 4K/HD system camera, global shutter",
+  "family": "Ikegami system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikegami product page",
+  "productUrl": "https://www.ikegami.co.uk/products/uhk-x700/",
+  "notes": "Pairs with the BSX-100 base station. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "ikegami-uhk-x600",
+  "manufacturer": "Ikegami",
+  "partNumber": "UHK-X600",
+  "name": "UHK-X600 4K/HD system camera",
+  "family": "Ikegami system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikegami product page",
+  "productUrl": "https://www.ikegami.co.uk/products/uhk-x600/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "ikegami-uhl-x40",
+  "manufacturer": "Ikegami",
+  "partNumber": "UHL-X40",
+  "name": "UHL-X40 compact 4K/HD box camera",
+  "family": "Ikegami system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikegami product page",
+  "productUrl": "https://www.ikegami.co.uk/products/uhl-x40/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "ikegami-hdk-99",
+  "manufacturer": "Ikegami",
+  "partNumber": "HDK-99",
+  "name": "HDK-99 HD system camera",
+  "family": "Ikegami system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikegami product page",
+  "productUrl": "https://www.ikegami.co.uk/products/hdk-99/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "ikegami-hdk-73",
+  "manufacturer": "Ikegami",
+  "partNumber": "HDK-73",
+  "name": "HDK-73 HD studio camera (fibre or triax)",
+  "family": "Ikegami system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Ikegami product page",
+  "productUrl": "https://www.ikegami.co.uk/products/hdk-73/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "hitachi-sk-uhd7000",
+  "manufacturer": "Hitachi",
+  "partNumber": "SK-UHD7000",
+  "name": "SK-UHD7000 4K/HD system camera",
+  "family": "Hitachi system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Hitachi product page",
+  "productUrl": "https://www.hitachi-kokusai.co.jp/global/en/products/broadcast/",
+  "notes": "Pairs with the CU-UHD7000. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "hitachi-sk-hd1300",
+  "manufacturer": "Hitachi",
+  "partNumber": "SK-HD1300",
+  "name": "SK-HD1300 HD system camera (fibre or triax)",
+  "family": "Hitachi system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Hitachi product page",
+  "productUrl": "https://www.hitachi-kokusai.co.jp/global/en/products/broadcast/",
+  "notes": "Pairs with the CU-HD1300. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "hitachi-z-hd5500",
+  "manufacturer": "Hitachi",
+  "partNumber": "Z-HD5500",
+  "name": "Z-HD5500 HD studio camera (digital triax or fibre)",
+  "family": "Hitachi system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Hitachi product page",
+  "productUrl": "https://www.hitachi-kokusai.co.jp/global/en/products/broadcast/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Triax",
+    "connector": "Fischer triax",
+    "count": 1,
+    "prefix": "CCU (triax)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "hitachi-dk-h200",
+  "manufacturer": "Hitachi",
+  "partNumber": "DK-H200",
+  "name": "DK-H200 HD box camera",
+  "family": "Hitachi system cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Hitachi product page",
+  "productUrl": "https://www.hitachi-kokusai.co.jp/global/en/products/broadcast/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-ak-uc4000",
+  "manufacturer": "Panasonic",
+  "partNumber": "AK-UC4000",
+  "name": "AK-UC4000 4K studio camera",
+  "family": "Panasonic studio cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ak-uc4000/",
+  "notes": "Pairs with the AK-UCU600. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-ak-uc3300",
+  "manufacturer": "Panasonic",
+  "partNumber": "AK-UC3300",
+  "name": "AK-UC3300 4K studio camera",
+  "family": "Panasonic studio cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ak-uc3300/",
+  "notes": "Pairs with the AK-UCU600. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-ak-hc5000",
+  "manufacturer": "Panasonic",
+  "partNumber": "AK-HC5000",
+  "name": "AK-HC5000 HD studio camera",
+  "family": "Panasonic studio cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ak-hc5000/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-ak-plv100",
+  "manufacturer": "Panasonic",
+  "partNumber": "AK-PLV100",
+  "name": "AK-PLV100 Super 35 8K/4K studio camera",
+  "family": "Panasonic studio cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ak-plv100/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HD-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Prompter Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Intercom"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Network"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tracker"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC Out"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-ue150",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-UE150",
+  "name": "AW-UE150 4K PTZ camera",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-ue150/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Optical (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-ue160",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-UE160",
+  "name": "AW-UE160 4K PTZ camera (NDI, SRT, ST 2110 option)",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-ue160/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "SFP",
+    "connector": "SFP+",
+    "count": 1,
+    "prefix": "Optical (SFP)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-ue100",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-UE100",
+  "name": "AW-UE100 4K PTZ camera (NDI)",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-ue100/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-ue80",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-UE80",
+  "name": "AW-UE80 4K PTZ camera (NDI)",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-ue80/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-ue50",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-UE50",
+  "name": "AW-UE50 4K PTZ camera",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-ue50/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aw-he40",
+  "manufacturer": "Panasonic",
+  "partNumber": "AW-HE40",
+  "name": "AW-HE40 HD PTZ camera",
+  "family": "Panasonic PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aw-he40/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-aj-cx4000",
+  "manufacturer": "Panasonic",
+  "partNumber": "AJ-CX4000",
+  "name": "AJ-CX4000 4K shoulder camcorder",
+  "family": "Panasonic camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/aj-cx4000/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Mic In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "panasonic-ag-cx350",
+  "manufacturer": "Panasonic",
+  "partNumber": "AG-CX350",
+  "name": "AG-CX350 4K handheld camcorder",
+  "family": "Panasonic camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Panasonic product page",
+  "productUrl": "https://pro-av.panasonic.net/en/products/ag-cx350/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "bmd-ursa-broadcast-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "URSA Broadcast G2",
+  "name": "Blackmagic URSA Broadcast G2 (B4 mount)",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs",
+  "notes": "Add the Blackmagic Camera Fiber Converter for SMPTE fibre to a Studio Fiber Converter. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Mic In (3.5mm)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Hirose 12-pin",
+    "count": 1,
+    "prefix": "Lens"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "2.5mm jack",
+    "count": 1,
+    "prefix": "LANC"
+   }
+  ]
+ },
+ {
+  "id": "bmd-studio-camera-4k-plus-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Studio Camera 4K Plus G2",
+  "name": "Blackmagic Studio Camera 4K Plus G2",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Talkback (headset)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "bmd-studio-camera-4k-pro-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Studio Camera 4K Pro G2",
+  "name": "Blackmagic Studio Camera 4K Pro G2",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs",
+  "notes": "The 10G Ethernet carries video, return, talkback, tally and control to an ATEM or Studio Converter. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Talkback"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G Ethernet (IP link)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "bmd-studio-camera-6k-pro",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Studio Camera 6K Pro",
+  "name": "Blackmagic Studio Camera 6K Pro (EF mount)",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Talkback"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10G Ethernet (IP link)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "bmd-micro-studio-camera-4k-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Micro Studio Camera 4K G2",
+  "name": "Blackmagic Micro Studio Camera 4K G2 (MFT)",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera/techspecs",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "Expansion (power, PTZ, tally)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ],
+  "boxMm": [
+   83,
+   66,
+   72
+  ]
+ },
+ {
+  "id": "bmd-camera-fiber-converter",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Blackmagic Camera Fiber Converter",
+  "name": "Blackmagic Camera Fiber Converter (fits on the camera)",
+  "family": "Blackmagic cameras",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product page",
+  "productUrl": "https://www.blackmagicdesign.com/products/blackmagicstudiofiberconverter/techspecs",
+  "notes": "Pairs with the Studio Fiber Converter at the other end of the SMPTE fibre; powers the camera from the studio end. Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Fibre",
+    "connector": "LEMO 3K.93C (SMPTE 304)",
+    "count": 1,
+    "prefix": "CCU"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In (from camera)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out (return to camera / monitor)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR5F",
+    "count": 2,
+    "prefix": "Talkback"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Ethernet"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "XLR4F",
+    "count": 1,
+    "prefix": "12V Out (to camera)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Battery connector",
+    "count": 1,
+    "prefix": "V-mount battery"
+   }
+  ]
+ },
+ {
+  "id": "canon-cr-n700",
+  "manufacturer": "Canon",
+  "partNumber": "CR-N700",
+  "name": "CR-N700 4K PTZ camera",
+  "family": "Canon PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canon product page",
+  "productUrl": "https://www.canon.com.au/business/products/cameras/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "canon-cr-n500",
+  "manufacturer": "Canon",
+  "partNumber": "CR-N500",
+  "name": "CR-N500 4K PTZ camera",
+  "family": "Canon PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canon product page",
+  "productUrl": "https://www.canon.com.au/business/products/cameras/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "canon-cr-n300",
+  "manufacturer": "Canon",
+  "partNumber": "CR-N300",
+  "name": "CR-N300 4K PTZ camera",
+  "family": "Canon PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canon product page",
+  "productUrl": "https://www.canon.com.au/business/products/cameras/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "canon-cr-x300",
+  "manufacturer": "Canon",
+  "partNumber": "CR-X300",
+  "name": "CR-X300 4K outdoor PTZ camera",
+  "family": "Canon PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canon product page",
+  "productUrl": "https://www.canon.com.au/business/products/cameras/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "canon-xf605",
+  "manufacturer": "Canon",
+  "partNumber": "XF605",
+  "name": "XF605 4K handheld camcorder",
+  "family": "Canon camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Canon product page",
+  "productUrl": "https://www.canon.com.au/business/products/cameras/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "jvc-gy-hc900",
+  "manufacturer": "JVC",
+  "partNumber": "GY-HC900",
+  "name": "GY-HC900 HD connected shoulder camcorder",
+  "family": "JVC camcorders",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "JVC product page",
+  "productUrl": "https://pro.jvc.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Return In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Mic In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "jvc-ky-pz510",
+  "manufacturer": "JVC",
+  "partNumber": "KY-PZ510",
+  "name": "KY-PZ510 HD PTZ camera (NDI|HX, SRT)",
+  "family": "JVC PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "JVC product page",
+  "productUrl": "https://pro.jvc.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "birddog-p400",
+  "manufacturer": "BirdDog",
+  "partNumber": "P400",
+  "name": "P400 4K PTZ camera (full NDI)",
+  "family": "BirdDog PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BirdDog product page",
+  "productUrl": "https://birddog.tv/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "birddog-p240",
+  "manufacturer": "BirdDog",
+  "partNumber": "P240",
+  "name": "P240 HD PTZ camera (full NDI)",
+  "family": "BirdDog PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BirdDog product page",
+  "productUrl": "https://birddog.tv/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "birddog-maverick",
+  "manufacturer": "BirdDog",
+  "partNumber": "MAKI Ultra",
+  "name": "MAKI Ultra 4K PTZ camera (NDI)",
+  "family": "BirdDog PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "BirdDog product page",
+  "productUrl": "https://birddog.tv/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "ptzoptics-move-4k",
+  "manufacturer": "PTZOptics",
+  "partNumber": "Move 4K",
+  "name": "Move 4K PTZ camera (NDI|HX, SRT)",
+  "family": "PTZOptics PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "PTZOptics product page",
+  "productUrl": "https://ptzoptics.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Mini-DIN 8",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "ptzoptics-studio-pro",
+  "manufacturer": "PTZOptics",
+  "partNumber": "Studio Pro",
+  "name": "Studio Pro HD box/PTZ camera",
+  "family": "PTZOptics PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "PTZOptics product page",
+  "productUrl": "https://ptzoptics.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "aver-ptc320uv2",
+  "manufacturer": "AVer",
+  "partNumber": "PTC320UV2",
+  "name": "PTC320UV2 4K auto-tracking PTZ camera",
+  "family": "AVer PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AVer product page",
+  "productUrl": "https://www.aver.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ]
+ },
+ {
+  "id": "lumens-vc-a71p",
+  "manufacturer": "Lumens",
+  "partNumber": "VC-A71P",
+  "name": "VC-A71P 4K PTZ camera",
+  "family": "Lumens PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lumens product page",
+  "productUrl": "https://www.mylumens.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out 12G"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "marshall-cv568",
+  "manufacturer": "Marshall",
+  "partNumber": "CV568",
+  "name": "CV568 3G/HD-SDI miniature camera (genlock)",
+  "family": "Marshall POV",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Marshall product page",
+  "productUrl": "https://marshall-usa.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Genlock In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-485",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-485 (Visca / Pelco)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ],
+  "boxMm": [
+   45,
+   45,
+   77
+  ]
+ },
+ {
+  "id": "marshall-cv420-12g",
+  "manufacturer": "Marshall",
+  "partNumber": "CV420-12G",
+  "name": "CV420-12G 4K POV camera",
+  "family": "Marshall POV",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Marshall product page",
+  "productUrl": "https://marshall-usa.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-485",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "RS-485"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "marshall-cv605",
+  "manufacturer": "Marshall",
+  "partNumber": "CV605",
+  "name": "CV605 HD PTZ camera",
+  "family": "Marshall PTZ",
+  "category": "camera",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Marshall product page",
+  "productUrl": "https://marshall-usa.com/",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is. Check: connectors from the maker spec page; confirm against the operating manual.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE+)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "RS-422 (VISCA/AW)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally / GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "campos-smpte-basic",
+  "manufacturer": "Generic",
+  "partNumber": "Camera position box: SMPTE, 2 BNC, XLR, etherCON",
+  "name": "Camera position box: SMPTE, 2 BNC, XLR, etherCON",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "SMPTE fibre to the CCU, BNC for a programme return and a spare SDI, an XLR for a mic and an etherCON for data. Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 6,
+   "rows": 2,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "smpte",
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "ethercon",
+    "blank"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-smpte-full",
+  "manufacturer": "Generic",
+  "partNumber": "Camera position box: SMPTE, 4 BNC, 2 XLR, 2 etherCON",
+  "name": "Camera position box: SMPTE, 4 BNC, 2 XLR, 2 etherCON",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "BNC for camera out, return, prompter and tally / spare; XLR mic lines; etherCON for PTZ, data or Dante. Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 10,
+   "rows": 2,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "smpte",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "ethercon",
+    "ethercon",
+    "blank"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-smpte-dual",
+  "manufacturer": "Generic",
+  "partNumber": "Camera position box: 2 SMPTE, 2 BNC, 2 XLR, etherCON",
+  "name": "Camera position box: 2 SMPTE, 2 BNC, 2 XLR, etherCON",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Two camera positions side by side, or a main and a spare fibre. Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "smpte",
+    "smpte",
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "ethercon",
+    "blank"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-triax",
+  "manufacturer": "Generic",
+  "partNumber": "Camera position box: triax, 2 BNC, XLR",
+  "name": "Camera position box: triax, 2 BNC, XLR",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "triax",
+    "bnc",
+    "bnc",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-ptz",
+  "manufacturer": "Generic",
+  "partNumber": "PTZ camera plate: 2 BNC, 2 etherCON",
+  "name": "PTZ camera plate: 2 BNC, 2 etherCON",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "SDI out and genlock on BNC; LAN / PoE and RS-422 control on etherCON. Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "ethercon",
+    "ethercon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-floor-smpte",
+  "manufacturer": "Generic",
+  "partNumber": "Camera floor box: 2 SMPTE, 4 BNC, 4 XLR, 2 etherCON",
+  "name": "Camera floor box: 2 SMPTE, 4 BNC, 4 XLR, 2 etherCON",
+  "family": "Camera floor box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 12,
+   "rows": 3,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "smpte",
+    "smpte",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "ethercon",
+    "ethercon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "campos-ob-panel",
+  "manufacturer": "Generic",
+  "partNumber": "OB / venue camera tie panel: 4 SMPTE, 4 BNC",
+  "name": "OB / venue camera tie panel: 4 SMPTE, 4 BNC",
+  "family": "Camera position box",
+  "category": "wallbox",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Venue or stadium camera point that ties back to the OB dock. Camera end point: leave it out of the racks and type where it is (e.g. Studio 1 cam 3). Inserts come fitted and can be changed per hole. Check: the inserts against the box you buy.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "smpte",
+    "smpte",
+    "smpte",
+    "smpte",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ }
+]
