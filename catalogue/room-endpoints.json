@@ -1,0 +1,2219 @@
+[
+ {
+  "id": "room-sdi-1",
+  "manufacturer": "Generic",
+  "partNumber": "SDI patch point 1 x BNC",
+  "name": "SDI patch point, 1 x BNC (12G) wall plate",
+  "family": "SDI patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "SDI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-sdi-2",
+  "manufacturer": "Generic",
+  "partNumber": "SDI patch point 2 x BNC",
+  "name": "SDI patch point, 2 x BNC (12G) wall plate",
+  "family": "SDI patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "SDI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-sdi-4",
+  "manufacturer": "Generic",
+  "partNumber": "SDI patch point 4 x BNC",
+  "name": "SDI patch point, 4 x BNC (12G) wall plate",
+  "family": "SDI patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "SDI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-sdi-6",
+  "manufacturer": "Generic",
+  "partNumber": "SDI patch point 6 x BNC",
+  "name": "SDI patch point, 6 x BNC (12G) wall plate",
+  "family": "SDI patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 6,
+   "rows": 2,
+   "prefix": "SDI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-sdi-8",
+  "manufacturer": "Generic",
+  "partNumber": "SDI patch point 8 x BNC",
+  "name": "SDI patch point, 8 x BNC (12G) wall plate",
+  "family": "SDI patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "SDI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-1f",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 1 x XLR3F",
+  "name": "XLR patch point, 1 x XLR3 female (mic / line into the rack)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-2f",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 2 x XLR3F",
+  "name": "XLR patch point, 2 x XLR3 female (mic / line into the rack)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-4f",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 4 x XLR3F",
+  "name": "XLR patch point, 4 x XLR3 female (mic / line into the rack)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-6f",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 6 x XLR3F",
+  "name": "XLR patch point, 6 x XLR3 female (mic / line into the rack)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 6,
+   "rows": 2,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-8f",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 8 x XLR3F",
+  "name": "XLR patch point, 8 x XLR3 female (mic / line into the rack)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-1m",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 1 x XLR3M",
+  "name": "XLR patch point, 1 x XLR3 male (line out to the room)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3m"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-2m",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 2 x XLR3M",
+  "name": "XLR patch point, 2 x XLR3 male (line out to the room)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3m",
+    "xlr3m"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-4m",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 4 x XLR3M",
+  "name": "XLR patch point, 4 x XLR3 male (line out to the room)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3m",
+    "xlr3m",
+    "xlr3m",
+    "xlr3m"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-2f2m",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 2F + 2M",
+  "name": "XLR patch point, 2 x XLR3 female in + 2 x XLR3 male out",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3m",
+    "xlr3m"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-4f4m",
+  "manufacturer": "Generic",
+  "partNumber": "XLR patch point 4F + 4M",
+  "name": "XLR patch point, 4 x XLR3 female in + 4 x XLR3 male out",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3m",
+    "xlr3m",
+    "xlr3m",
+    "xlr3m"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-xlr-db25-8",
+  "manufacturer": "Generic",
+  "partNumber": "XLR stage plate 8 x XLR3F",
+  "name": "Stage / audio plate, 8 x XLR3 female (8-channel multicore or DB25 tie)",
+  "family": "XLR patch point",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "XLR",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-rj45-1",
+  "manufacturer": "Generic",
+  "partNumber": "Data outlet 1 x RJ45",
+  "name": "Data outlet, 1 x RJ45 Cat6 (wall plate)",
+  "family": "Data outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "DATA",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-rj45-2",
+  "manufacturer": "Generic",
+  "partNumber": "Data outlet 2 x RJ45",
+  "name": "Data outlet, 2 x RJ45 Cat6 (wall plate)",
+  "family": "Data outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "DATA",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "rj45",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-rj45-4",
+  "manufacturer": "Generic",
+  "partNumber": "Data outlet 4 x RJ45",
+  "name": "Data outlet, 4 x RJ45 Cat6 (wall plate)",
+  "family": "Data outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "DATA",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "rj45",
+    "rj45",
+    "rj45",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-ethercon-2",
+  "manufacturer": "Generic",
+  "partNumber": "etherCON patch point 2",
+  "name": "etherCON patch point, 2 x etherCON (touring / stage)",
+  "family": "Data outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "NET",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "ethercon",
+    "ethercon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-hdmi-1",
+  "manufacturer": "Generic",
+  "partNumber": "HDMI wall plate 1",
+  "name": "HDMI wall plate, 1 x HDMI",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "HDMI",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "hdmi"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-hdmi-usb",
+  "manufacturer": "Generic",
+  "partNumber": "HDMI + USB wall plate",
+  "name": "Presenter wall plate, HDMI + USB",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "AV",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "hdmi",
+    "usb"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-hdmi-rj45",
+  "manufacturer": "Generic",
+  "partNumber": "HDMI + RJ45 wall plate",
+  "name": "Display wall plate, HDMI + RJ45 data (behind a TV)",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "AV",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "hdmi",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-tv-plate",
+  "manufacturer": "Generic",
+  "partNumber": "TV wall plate: SDI, HDMI, 2 x RJ45",
+  "name": "TV / display wall plate: BNC, HDMI, 2 x RJ45",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Typical plate behind a wall-mounted TV or monitor. Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 4,
+   "rows": 1,
+   "prefix": "AV",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "hdmi",
+    "rj45",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-combo-av",
+  "manufacturer": "Generic",
+  "partNumber": "AV patch point: 2 BNC, 2 XLR, etherCON",
+  "name": "AV patch point: 2 x BNC, 2 x XLR3F, 1 x etherCON",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 5,
+   "rows": 1,
+   "prefix": "AV",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "ethercon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-combo-av-big",
+  "manufacturer": "Generic",
+  "partNumber": "AV patch point: 4 BNC, 4 XLR, 2 etherCON, HDMI",
+  "name": "AV patch point: 4 x BNC, 4 x XLR3F, 2 x etherCON, HDMI",
+  "family": "AV wall plate",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 11,
+   "rows": 2,
+   "prefix": "AV",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "ethercon",
+    "ethercon",
+    "hdmi"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-lc-1",
+  "manufacturer": "Generic",
+  "partNumber": "Fibre outlet 1 x LC duplex",
+  "name": "Fibre outlet, 1 x LC duplex",
+  "family": "Fibre outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "FO",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "lc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-lc-2",
+  "manufacturer": "Generic",
+  "partNumber": "Fibre outlet 2 x LC duplex",
+  "name": "Fibre outlet, 2 x LC duplex",
+  "family": "Fibre outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "FO",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "lc",
+    "lc"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-ocduo-1",
+  "manufacturer": "Generic",
+  "partNumber": "opticalCON DUO patch point",
+  "name": "Fibre patch point, 1 x opticalCON DUO",
+  "family": "Fibre outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "FO",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "ocduo"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-speakon-1",
+  "manufacturer": "Generic",
+  "partNumber": "Speaker outlet 1 x speakON",
+  "name": "Speaker outlet, 1 x speakON NL4",
+  "family": "Speaker / DMX outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 1,
+   "rows": 1,
+   "prefix": "SPK",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "speakon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-speakon-2",
+  "manufacturer": "Generic",
+  "partNumber": "Speaker outlet 2 x speakON",
+  "name": "Speaker outlet, 2 x speakON NL4",
+  "family": "Speaker / DMX outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "SPK",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "speakon",
+    "speakon"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-dmx-2",
+  "manufacturer": "Generic",
+  "partNumber": "DMX outlet 2 x XLR5",
+  "name": "DMX outlet, 2 x XLR5 female (lighting)",
+  "family": "Speaker / DMX outlet",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 2,
+   "rows": 1,
+   "prefix": "DMX",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr5f",
+    "xlr5f"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-desk-op",
+  "manufacturer": "Generic",
+  "partNumber": "Desk plate: 2 BNC, 2 XLR, 4 RJ45, HDMI",
+  "name": "Operator desk termination plate: 2 x BNC, 2 x XLR3F, 4 x RJ45, HDMI",
+  "family": "Desk / floor termination",
+  "category": "wallbox",
+  "endpoint": "desk",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 9,
+   "rows": 2,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "rj45",
+    "rj45",
+    "rj45",
+    "rj45",
+    "hdmi"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-desk-ic",
+  "manufacturer": "Generic",
+  "partNumber": "Desk plate: intercom XLR, 2 RJ45",
+  "name": "Desk termination plate: intercom XLR3F, 2 x RJ45",
+  "family": "Desk / floor termination",
+  "category": "wallbox",
+  "endpoint": "desk",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 3,
+   "rows": 1,
+   "prefix": "D",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "xlr3f",
+    "rj45",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-floor-pocket",
+  "manufacturer": "Generic",
+  "partNumber": "Floor pocket: 2 BNC, 4 XLR, 2 RJ45",
+  "name": "Floor pocket: 2 x BNC, 4 x XLR3F, 2 x RJ45",
+  "family": "Desk / floor termination",
+  "category": "wallbox",
+  "endpoint": "patch",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Rear = the tie line from the rack, front = the room side you plug into. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "thru": {
+   "holes": 8,
+   "rows": 2,
+   "prefix": "FP",
+   "insert": "",
+   "fixed": false,
+   "inserts": [
+    "bnc",
+    "bnc",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "xlr3f",
+    "rj45",
+    "rj45"
+   ]
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-tv",
+  "manufacturer": "Generic",
+  "partNumber": "Generic TV",
+  "name": "TV (consumer), 3 x HDMI, LAN, RF",
+  "family": "TV / display",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "F connector",
+    "count": 1,
+    "prefix": "RF In (antenna)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Toslink",
+    "count": 1,
+    "prefix": "Optical Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C7",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-tv-hotel",
+  "manufacturer": "Generic",
+  "partNumber": "Generic TV with RS-232",
+  "name": "TV (commercial / hospitality), 3 x HDMI, RS-232, LAN, RF",
+  "family": "TV / display",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 3,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "F connector",
+    "count": 1,
+    "prefix": "RF In (antenna)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "RS-232 Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C7",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-display-commercial",
+  "manufacturer": "Generic",
+  "partNumber": "Generic commercial display",
+  "name": "Commercial display, 2 x HDMI, DisplayPort, HDBaseT, RS-232, LAN",
+  "family": "TV / display",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-display-sdi",
+  "manufacturer": "Generic",
+  "partNumber": "Generic commercial display with SDI",
+  "name": "Commercial display with 3G-SDI in and loop, HDMI, LAN",
+  "family": "TV / display",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-mon-sdi-3g",
+  "manufacturer": "Generic",
+  "partNumber": "Generic 3G-SDI monitor",
+  "name": "Broadcast / field monitor, 2 x 3G-SDI in with loop, HDMI",
+  "family": "SDI monitor",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Tally / GPI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "DC In 12V"
+   }
+  ]
+ },
+ {
+  "id": "room-mon-sdi-12g",
+  "manufacturer": "Generic",
+  "partNumber": "Generic 12G-SDI monitor",
+  "name": "Broadcast reference monitor, 12G-SDI in and out, quad 3G, HDMI, ref",
+  "family": "SDI monitor",
+  "category": "endpoint",
+  "endpoint": "monitor",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "GPI / Tally"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-proj",
+  "manufacturer": "Generic",
+  "partNumber": "Generic projector",
+  "name": "Projector, 2 x HDMI, HDBaseT, RS-232, LAN",
+  "family": "Projector",
+  "category": "endpoint",
+  "endpoint": "projector",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-proj-sdi",
+  "manufacturer": "Generic",
+  "partNumber": "Generic large-venue projector",
+  "name": "Large-venue laser projector, 3G-SDI, 2 x HDMI, HDBaseT, DisplayPort, RS-232, LAN",
+  "family": "Projector",
+  "category": "endpoint",
+  "endpoint": "projector",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 2,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 1,
+    "prefix": "DP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "HDBaseT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-232"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-pc",
+  "manufacturer": "Generic",
+  "partNumber": "Generic desktop PC",
+  "name": "Desktop PC, 2 x DisplayPort, HDMI, LAN, USB, audio",
+  "family": "PC",
+  "category": "endpoint",
+  "endpoint": "workstation",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-pc-capture",
+  "manufacturer": "Generic",
+  "partNumber": "Generic PC with SDI capture card",
+  "name": "Workstation PC with a 4-channel SDI I/O card (e.g. DeckLink), ref in",
+  "family": "PC",
+  "category": "endpoint",
+  "endpoint": "workstation",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "SDI ports are bidirectional, as on DeckLink Quad cards; set each to In or Out in the unit panel if needed. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-laptop",
+  "manufacturer": "Generic",
+  "partNumber": "Generic laptop",
+  "name": "Laptop, HDMI out, USB-C, LAN",
+  "family": "PC",
+  "category": "endpoint",
+  "endpoint": "workstation",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-kvm-rx",
+  "manufacturer": "Generic",
+  "partNumber": "Generic KVM desk receiver",
+  "name": "KVM extender receiver at a desk: link in, 2 x DisplayPort, USB, audio",
+  "family": "PC",
+  "category": "endpoint",
+  "endpoint": "workstation",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "For a fibre KVM link, change Link In to Fibre / LC duplex. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Link In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DP Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Audio Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "room-mic-dyn",
+  "manufacturer": "Generic",
+  "partNumber": "Generic dynamic mic",
+  "name": "Dynamic microphone (XLR3M out)",
+  "family": "Microphone",
+  "category": "endpoint",
+  "endpoint": "mic",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Mic Out"
+   }
+  ]
+ },
+ {
+  "id": "room-mic-cond",
+  "manufacturer": "Generic",
+  "partNumber": "Generic condenser mic",
+  "name": "Condenser microphone (XLR3M out, needs 48V phantom)",
+  "family": "Microphone",
+  "category": "endpoint",
+  "endpoint": "mic",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Mic Out"
+   }
+  ]
+ },
+ {
+  "id": "room-mic-gooseneck",
+  "manufacturer": "Generic",
+  "partNumber": "Generic gooseneck mic",
+  "name": "Gooseneck desk microphone (XLR3M out)",
+  "family": "Microphone",
+  "category": "endpoint",
+  "endpoint": "mic",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Mic Out"
+   }
+  ]
+ },
+ {
+  "id": "room-mic-ceiling-dante",
+  "manufacturer": "Generic",
+  "partNumber": "Generic Dante ceiling mic",
+  "name": "Ceiling array microphone, Dante over PoE",
+  "family": "Microphone",
+  "category": "endpoint",
+  "endpoint": "mic",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   }
+  ]
+ },
+ {
+  "id": "room-spk-passive",
+  "manufacturer": "Generic",
+  "partNumber": "Generic passive speaker",
+  "name": "Passive loudspeaker, speakON NL4 in and link",
+  "family": "Speaker",
+  "category": "endpoint",
+  "endpoint": "speaker",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "speakON",
+    "count": 1,
+    "prefix": "Speaker In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "speakON",
+    "count": 1,
+    "prefix": "Speaker Link"
+   }
+  ]
+ },
+ {
+  "id": "room-spk-active",
+  "manufacturer": "Generic",
+  "partNumber": "Generic active speaker",
+  "name": "Active loudspeaker / monitor, XLR in and thru, IEC power",
+  "family": "Speaker",
+  "category": "endpoint",
+  "endpoint": "speaker",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Line Thru"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-spk-100v",
+  "manufacturer": "Generic",
+  "partNumber": "Generic 100V ceiling speaker",
+  "name": "100V line ceiling speaker (Phoenix / terminal)",
+  "family": "Speaker",
+  "category": "endpoint",
+  "endpoint": "speaker",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "100V In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "Phoenix",
+    "count": 1,
+    "prefix": "100V Link"
+   }
+  ]
+ },
+ {
+  "id": "room-spk-dante",
+  "manufacturer": "Generic",
+  "partNumber": "Generic Dante PoE speaker",
+  "name": "Dante PoE speaker",
+  "family": "Speaker",
+  "category": "endpoint",
+  "endpoint": "speaker",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   }
+  ]
+ },
+ {
+  "id": "room-ap",
+  "manufacturer": "Generic",
+  "partNumber": "Generic PoE access point",
+  "name": "Wireless access point, PoE powered",
+  "family": "Access point",
+  "category": "endpoint",
+  "endpoint": "ap",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE)"
+   }
+  ]
+ },
+ {
+  "id": "room-ap-dual",
+  "manufacturer": "Generic",
+  "partNumber": "Generic Wi-Fi 6E/7 access point",
+  "name": "Wireless access point with 2 uplinks (one PoE)",
+  "family": "Access point",
+  "category": "endpoint",
+  "endpoint": "ap",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 1 (PoE)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN 2"
+   }
+  ]
+ },
+ {
+  "id": "room-ic-beltpack",
+  "manufacturer": "Generic",
+  "partNumber": "Generic wired beltpack",
+  "name": "Partyline intercom beltpack (XLR3 in and loop, headset XLR4)",
+  "family": "Intercom station",
+  "category": "endpoint",
+  "endpoint": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Line Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "Headset"
+   }
+  ]
+ },
+ {
+  "id": "room-ic-wall",
+  "manufacturer": "Generic",
+  "partNumber": "Generic intercom wall station",
+  "name": "Intercom wall / speaker station (4-wire XLR or IP)",
+  "family": "Intercom station",
+  "category": "endpoint",
+  "endpoint": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Intercom",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "4-wire / IP"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "XLR5F",
+    "count": 1,
+    "prefix": "Headset"
+   }
+  ]
+ },
+ {
+  "id": "room-tally-light",
+  "manufacturer": "Generic",
+  "partNumber": "Generic tally light",
+  "name": "Studio tally / on-air light (GPI)",
+  "family": "Tally",
+  "category": "endpoint",
+  "endpoint": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Tally In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ },
+ {
+  "id": "room-onair-sign",
+  "manufacturer": "Generic",
+  "partNumber": "Generic on-air sign",
+  "name": "On-air / recording sign (GPI, mains)",
+  "family": "Tally",
+  "category": "endpoint",
+  "endpoint": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "GPI",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "GPI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C8",
+    "count": 1,
+    "prefix": "Power In"
+   }
+  ]
+ }
+]
