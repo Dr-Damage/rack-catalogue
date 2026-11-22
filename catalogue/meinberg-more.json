@@ -5,7 +5,7 @@
   "partNumber": "LANTIME M300",
   "name": "LANTIME M300 GPS NTP time server, 1U",
   "family": "LANTIME",
-  "category": "other",
+  "category": "clock",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,

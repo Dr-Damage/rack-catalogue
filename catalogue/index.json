@@ -257,5 +257,6 @@
  "hp-z.json",
  "sprolink.json",
  "cameras.json",
- "room-endpoints.json"
+ "room-endpoints.json",
+ "clocks.json"
 ]

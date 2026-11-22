@@ -30,7 +30,7 @@ AC = lambda n=1: R('in', 'Power', 'IEC C14', n, 'PSU' if n > 1 else 'AC In')
 LAN = lambda n=1, p='LAN': R('io', 'Ethernet', 'RJ45', n, p)
 
 # ======================= Masterclock =======================
-add('masterclock.json', 'masterclock-gmr1000', 'Masterclock', 'GMR1000', 'GMR1000 NTP / PTP master clock (quarter-rack)', 'GMR', 'other', 1,
+add('masterclock.json', 'masterclock-gmr1000', 'Masterclock', 'GMR1000', 'GMR1000 NTP / PTP master clock (quarter-rack)', 'GMR', 'clock', 1,
     [R('in', 'RF', 'SMA', 1, 'GNSS Antenna (option)'), LAN(1, 'NTP / PTP'), R('out', 'Timecode', 'DB9', 1, 'Time Code Gen (option)'),
      R('in', 'Timecode', 'DB9', 1, 'Time Code Reader (option)'), R('out', 'Reference', 'SMA', 1, '1PPS Out (option)'),
      R('out', 'Reference', 'SMA', 1, 'Prog Pulse Out (option)'), R('in', 'Reference', 'SMA', 1, 'Sync In (option)'),
@@ -40,7 +40,7 @@ add('masterclock.json', 'masterclock-gmr1000', 'Masterclock', 'GMR1000', 'GMR100
     'PTP (IEEE 1588v2) grandmaster, GNSS, IRIG / SMPTE 12M time code generator and reader, 1PPS and 10 MHz. Mounts four across a 1U '
     'shelf with the RM4 bracket, so drawn as a quarter-width unit. External 24 V DC supply. Check: which options are fitted.',
     'Masterclock GMR1000 data sheet rev B', 'https://www.masterclock.com/masterclock-gmr-1000.html', w=3, powerW=7.5, weightKg=0.45)
-add('masterclock.json', 'masterclock-gmr5000', 'Masterclock', 'GMR5000', 'GMR5000 multi-function master clock, 1U', 'GMR', 'other', 1,
+add('masterclock.json', 'masterclock-gmr5000', 'Masterclock', 'GMR5000', 'GMR5000 multi-function master clock, 1U', 'GMR', 'clock', 1,
     [R('in', 'RF', 'SMA', 1, 'GNSS Antenna'), LAN(2, 'NTP / PTP'), R('out', 'Timecode', 'BNC', 2, 'SMPTE / IRIG Out'),
      R('out', 'Reference', 'BNC', 2, '1PPS / 10 MHz Out'), R('io', 'RS-232', 'DB9', 2, 'Serial'), R('out', 'Other', 'Terminal block', 1, 'Relays'), AC(2)],
     'Full-width 1U version of the GMR platform with a large front display and room for more output modules. '
@@ -48,7 +48,7 @@ add('masterclock.json', 'masterclock-gmr5000', 'Masterclock', 'GMR5000', 'GMR500
     'Masterclock product range page', 'https://masterclock.com/products/master-clocks', verified=False)
 
 # ======================= ESE =======================
-add('ese.json', 'ese-es-185u', 'ESE', 'ES-185U', 'ES-185U GPS master clock / time code generator, 1U', 'ES-185', 'other', 1,
+add('ese.json', 'ese-es-185u', 'ESE', 'ES-185U', 'ES-185U GPS master clock / time code generator, 1U', 'ES-185', 'clock', 1,
     [R('in', 'RF', 'TNC', 1, 'GPS Antenna'), R('out', 'Timecode', 'BNC', 1, 'SMPTE/EBU TC Out'), R('out', 'Timecode', 'BNC', 2, 'ESE TC89 / TC90 Out'),
      R('out', 'Reference', 'BNC', 1, '1PPS Out'), R('out', 'RS-232', 'DB9', 1, 'ASCII Out'), LAN(1, 'NTP (option /NTP)'),
      R('in', 'Power', 'IEC C14', 1, 'AC In')],
@@ -56,7 +56,7 @@ add('ese.json', 'ese-es-185u', 'ESE', 'ES-185U', 'ES-185U GPS master clock / tim
     'SMPTE/EBU and ESE serial time code outputs that drive ESE slave clocks, 1PPS (+/-10 ns). /NTP option adds an NTP server port. '
     'Check: output counts and the antenna connector.', 'B&H and Markertek listings; ESE ES-185U manual (manualslib)',
     'https://www.markertek.com/product/es-185untp/ese-es-185u-ntp-gps-master-clock-time-code-generator', verified=False)
-add('ese.json', 'ese-es-188f', 'ESE', 'ES-188F', 'ES-188F NTP-referenced master clock / time code generator, 1U', 'ES-188', 'other', 1,
+add('ese.json', 'ese-es-188f', 'ESE', 'ES-188F', 'ES-188F NTP-referenced master clock / time code generator, 1U', 'ES-188', 'clock', 1,
     [LAN(1, 'NTP Client'), R('out', 'Timecode', 'BNC', 1, 'SMPTE/EBU TC Out'), R('out', 'Timecode', 'BNC', 2, 'ESE TC89 / TC90 Out'),
      R('out', 'RS-232', 'DB9', 1, 'ASCII Out'), R('in', 'Power', 'IEC C14', 1, 'AC In')],
     '1U rack master clock that takes time from an NTP server on the LAN and generates SMPTE/EBU and ESE time code for slave clocks '
@@ -64,7 +64,7 @@ add('ese.json', 'ese-es-188f', 'ESE', 'ES-188F', 'ES-188F NTP-referenced master 
     'https://avlgear.com/collections/ese/products/ese-es-188f-1ru-rackmount-ntp-referenced-master-clock-and-time-code-generator', verified=False)
 
 # ======================= Wharton =======================
-add('wharton.json', 'wharton-5400', 'Wharton', '5400', '5400 NTP time server / master clock (dual PSU)', '5000 Series', 'other', 1,
+add('wharton.json', 'wharton-5400', 'Wharton', '5400', '5400 NTP time server / master clock (dual PSU)', '5000 Series', 'clock', 1,
     [LAN(1, 'NTP Server'), R('in', 'Timecode', 'Other', 1, 'Time Ref In (488HS4-GPS option)'), R('out', 'Timecode', 'Other', 2, 'zCode / Slave Clock Drive'),
      R('out', 'Timecode', 'Other', 2, 'AFOUT IRIG-B / EBU LTC'), R('io', 'RS-232', 'DB9', 2, 'SER23 RS-232/485 (option)'), AC(2)],
     'Rack-mount NTP / SNTP time server that also drives Wharton slave clocks (w482 mode up to fifty 4000E/NE clocks, impulse, '
@@ -73,18 +73,18 @@ add('wharton.json', 'wharton-5400', 'Wharton', '5400', '5400 NTP time server / m
     'Canford Wharton 5000 Series page', 'https://canford.co.uk/WHARTON-CLOCKS-NTP-Time-Servers-Ethernet-5000-Series', verified=False)
 
 # ======================= Time Machines =======================
-add('timemachines.json', 'timemachines-tm160', 'Time Machines', 'TM160', 'TM160 PoE NTP clock display, 0.5-inch digits (rack plate)', 'Rack clocks', 'other', 1,
+add('timemachines.json', 'timemachines-tm160', 'Time Machines', 'TM160', 'TM160 PoE NTP clock display, 0.5-inch digits (rack plate)', 'Rack clocks', 'clock', 1,
     [R('in', 'Ethernet', 'RJ45', 1, 'PoE / NTP'), R('out', 'Other', 'Terminal block', 1, 'Relay')],
     'Small red-LED NTP clock powered from PoE (127 x 107 x 33 mm). Fits a 1U face plate: 760-022-000 single, or 760-023-000 dual to '
     'share the space with a TM1000/TM2000/TM2500 time server, so drawn half width.', 'Time Machines product page',
     'https://timemachinescorp.com/product/rack-mount-0-5-inch-poe-ntp-clock/', w=6)
-add('timemachines.json', 'timemachines-tm2000', 'Time Machines', 'TM2000A', 'TM2000A GPS / GNSS NTP and PTP time server (rack plate)', 'Time servers', 'other', 1,
+add('timemachines.json', 'timemachines-tm2000', 'Time Machines', 'TM2000A', 'TM2000A GPS / GNSS NTP and PTP time server (rack plate)', 'Time servers', 'clock', 1,
     [R('in', 'RF', 'SMA', 1, 'GNSS Antenna'), R('in', 'Ethernet', 'RJ45', 1, 'PoE / NTP / PTP'), R('in', 'Power', 'DC barrel', 1, '12V DC (optional)')],
     'Compact GNSS NTP / PTP server on the same 1U plates as the TM160. Check: model suffix and power input.', 'Time Machines product range',
     'https://timemachinescorp.com/', verified=False, w=6)
 
 # ======================= Safran (Orolia / Spectracom) =======================
-add('safran.json', 'safran-securesync-2400', 'Safran', 'SecureSync 2400', 'SecureSync 2400 time and frequency server, 1U', 'SecureSync', 'other', 1,
+add('safran.json', 'safran-securesync-2400', 'Safran', 'SecureSync 2400', 'SecureSync 2400 time and frequency server, 1U', 'SecureSync', 'clock', 1,
     [R('in', 'RF', 'SMA', 1, 'GNSS Antenna'), LAN(4, 'NTP / PTP / Mgmt'), R('out', 'Reference', 'BNC', 1, '1PPS Out'), R('out', 'Reference', 'BNC', 1, '10 MHz Out'),
      R('io', 'Other', 'Option slot', 6, 'Option Card Slot'), R('io', 'RS-232', 'DB9', 1, 'Serial'), R('out', 'Other', 'Terminal block', 1, 'Alarm'), AC(2)],
     'Ex-Spectracom (Orolia, now Safran) GNSS time server: NTP, PTP grandmaster, 1PPS and 10 MHz, with 6 option bays for time code '
@@ -92,7 +92,7 @@ add('safran.json', 'safran-securesync-2400', 'Safran', 'SecureSync 2400', 'Secur
     'Check: base port counts and fitted cards.', 'Safran SecureSync data sheet', 'https://safran-navigation-timing.com/', verified=False)
 
 # ======================= Microchip =======================
-add('microchip-timing.json', 'microchip-syncserver-s650', 'Microchip', 'SyncServer S650', 'SyncServer S650 GNSS time server, 1U', 'SyncServer', 'other', 1,
+add('microchip-timing.json', 'microchip-syncserver-s650', 'Microchip', 'SyncServer S650', 'SyncServer S650 GNSS time server, 1U', 'SyncServer', 'clock', 1,
     [R('in', 'RF', 'BNC', 1, 'GNSS Antenna'), LAN(4, 'NTP / PTP'), R('out', 'Reference', 'BNC', 1, '1PPS Out'), R('out', 'Reference', 'BNC', 1, '10 MHz Out'),
      R('out', 'Timecode', 'BNC', 1, 'IRIG-B Out'), R('io', 'Other', 'Option slot', 1, 'Timing I/O module'), R('io', 'RS-232', 'DB9', 1, 'Console'), AC(2)],
     'GNSS NTP server and PTP grandmaster (ex-Symmetricom), with an option bay for extra time code, frequency and sync outputs. '
@@ -108,7 +108,7 @@ add('rosendahl.json', 'rosendahl-nanosyncs-hd', 'Rosendahl', 'nanosyncs HD', 'na
     'Check: output counts.', 'Rosendahl nanosyncs HD manual', 'https://www.rosendahl-studiotechnik.com/', verified=False)
 
 # ======================= Meinberg (more) =======================
-add('meinberg-more.json', 'meinberg-lantime-m300', 'Meinberg', 'LANTIME M300', 'LANTIME M300 GPS NTP time server, 1U', 'LANTIME', 'other', 1,
+add('meinberg-more.json', 'meinberg-lantime-m300', 'Meinberg', 'LANTIME M300', 'LANTIME M300 GPS NTP time server, 1U', 'LANTIME', 'clock', 1,
     [R('in', 'RF', 'BNC', 1, 'GPS Antenna'), LAN(1, 'NTP'), R('out', 'Reference', 'BNC', 1, '1PPS Out'), R('out', 'Reference', 'BNC', 1, '10 MHz Out'),
      R('out', 'Timecode', 'BNC', 1, 'IRIG-B Out'), R('io', 'RS-232', 'DB9', 2, 'COM'), R('out', 'Other', 'DB9', 1, 'Error Relay'), AC()],
     'Classic 1U NTP server with a built-in GPS receiver and front display. Extra Ethernet ports with the LAN option. '

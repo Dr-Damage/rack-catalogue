@@ -5,7 +5,7 @@
   "partNumber": "SecureSync 2400",
   "name": "SecureSync 2400 time and frequency server, 1U",
   "family": "SecureSync",
-  "category": "other",
+  "category": "clock",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
