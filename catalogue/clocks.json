@@ -1,0 +1,1265 @@
+[
+ {
+  "id": "generic-clock-master-gps",
+  "manufacturer": "Generic",
+  "partNumber": "Master clock (GPS / NTP / PTP)",
+  "name": "GPS master clock and NTP / PTP time server, 1U",
+  "family": "Generic master clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "The top of a world clock pathway: GNSS locks the time, then NTP / PTP on the LAN, LTC and IRIG-B on BNC, impulse and RS-485 clock lines on terminals. Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "RF",
+    "connector": "TNC",
+    "count": 1,
+    "prefix": "GNSS Antenna"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "NTP / PTP LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Impulse Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Time Data Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "1PPS Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "10 MHz Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ]
+ },
+ {
+  "id": "generic-clock-tc-da",
+  "manufacturer": "Generic",
+  "partNumber": "Time code DA 1x8",
+  "name": "Time code (LTC / IRIG-B) distribution amplifier, 1 in 8 out, 1U",
+  "family": "Generic clock distribution",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Splits one time code feed from the master to clocks and units around the plant. Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC Loop"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 8,
+    "prefix": "TC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "generic-clock-line-driver",
+  "manufacturer": "Generic",
+  "partNumber": "Clock line driver / sub-master",
+  "name": "Slave clock line driver / sub-master, NTP in, 4 impulse and 2 RS-485 lines, 1U",
+  "family": "Generic clock distribution",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Takes time from the master (NTP or time code) and drives lines of impulse or RS-485 slave clocks, each line to a floor or area. Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Impulse Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "RS-485 Time Data Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "generic-clock-world-graphics",
+  "manufacturer": "Generic",
+  "partNumber": "World clock generator (on screens)",
+  "name": "World clock graphics generator, clocks and time zones on SDI / HDMI screens, 1U",
+  "family": "Generic world clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "For world clocks shown on monitors or a multiviewer input: type every zone it shows in Time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NTP In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "zones": 12
+ },
+ {
+  "id": "generic-gnss-antenna",
+  "manufacturer": "Generic",
+  "partNumber": "GNSS antenna",
+  "name": "GPS / GNSS timing antenna (roof)",
+  "family": "Generic GNSS antenna",
+  "category": "other",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Roof antenna for the master clock. Off-rack: add it as an Other end point. Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "RF",
+    "connector": "N-type",
+    "count": 1,
+    "prefix": "RF Out"
+   }
+  ]
+ },
+ {
+  "id": "generic-clock-ntp-poe-digital",
+  "manufacturer": "Generic",
+  "partNumber": "NTP PoE digital clock",
+  "name": "Digital wall clock, NTP over PoE, 4 or 6 digits",
+  "family": "Generic wall clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Time from the master over the network (NTP), power from the PoE switch port. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-ntp-poe-analogue",
+  "manufacturer": "Generic",
+  "partNumber": "NTP PoE analogue clock",
+  "name": "Analogue wall clock, NTP over PoE",
+  "family": "Generic wall clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Time and power on one network cable. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-impulse-analogue",
+  "manufacturer": "Generic",
+  "partNumber": "Impulse slave clock",
+  "name": "Analogue slave clock on a polarised minute impulse line (24 V)",
+  "family": "Generic wall clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Driven and powered by the master clock or line driver impulse line; clocks on one line are wired in parallel. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Impulse Line In"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-rs485-digital",
+  "manufacturer": "Generic",
+  "partNumber": "RS-485 slave digital clock",
+  "name": "Digital slave clock on an RS-485 time data line",
+  "family": "Generic wall clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Up to about 31 clocks daisy-chained on one RS-485 line from the master or line driver. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Time Data In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Time Data Thru"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-ltc-display",
+  "manufacturer": "Generic",
+  "partNumber": "Time code display",
+  "name": "SMPTE / EBU LTC time code display",
+  "family": "Generic studio clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Shows the house time code from the master clock or a time code DA. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "LTC Thru"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-irig-display",
+  "manufacturer": "Generic",
+  "partNumber": "IRIG-B time display",
+  "name": "IRIG-B time display",
+  "family": "Generic studio clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "IRIG-B In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-clock-studio-onair",
+  "manufacturer": "Generic",
+  "partNumber": "Studio clock with on-air light",
+  "name": "Studio LED ring clock with on-air tally, NTP or LTC",
+  "family": "Generic studio clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (NTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "Tally / GPI In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "generic-world-clock-4-ntp",
+  "manufacturer": "Generic",
+  "partNumber": "World clock, 4 zones (NTP PoE)",
+  "name": "World clock panel, 4 time zones with city names, NTP over PoE",
+  "family": "Generic world clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "One network cable for time and power; type the four zones (e.g. Perth, Sydney, London, New York). Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 4
+ },
+ {
+  "id": "generic-world-clock-8-line",
+  "manufacturer": "Generic",
+  "partNumber": "World clock, 8 zones (clock line)",
+  "name": "World clock panel, 8 time zones, fed from a clock line (impulse, MOBALine, IRIG-B) or NTP",
+  "family": "Generic world clock",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "productUrl": "",
+  "notes": "Cable the clock line or the LAN, whichever the master uses. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: a typical layout, not a product; set the connectors to the real clock.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Clock Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (NTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "zones": 8
+ },
+ {
+  "id": "timemachines-760-2482-000",
+  "manufacturer": "Time Machines",
+  "partNumber": "760-2482-000",
+  "name": "Time zone clock, 2.5\" 4-digit, 2-line dot matrix, PoE (SNTP)",
+  "family": "Time zone displays",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TimeMachines time zone clock / timer displays page",
+  "productUrl": "https://timemachinescorp.com/timezone-clock-timer-displays/",
+  "notes": "Line 1 is the time (2.5\" 7-segment), line 2 a dot-matrix text line naming the zone; switches between up to 5 time zones on set intervals; also timer and bar-graph modes. Powered by PoE 802.3af only (WiFi versions end in W). Wall or shelf / desk. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 5,
+  "boxMm": {
+   "w": 400,
+   "h": 200
+  }
+ },
+ {
+  "id": "timemachines-760-2682-000",
+  "manufacturer": "Time Machines",
+  "partNumber": "760-2682-000",
+  "name": "Time zone clock, 2.5\" 6-digit, 2-line dot matrix, PoE (SNTP)",
+  "family": "Time zone displays",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TimeMachines time zone clock / timer displays page",
+  "productUrl": "https://timemachinescorp.com/timezone-clock-timer-displays/",
+  "notes": "Line 1 is the time (2.5\" 7-segment), line 2 a dot-matrix text line naming the zone; switches between up to 5 time zones on set intervals; also timer and bar-graph modes. Powered by PoE 802.3af only (WiFi versions end in W). Wall or shelf / desk. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 5,
+  "boxMm": {
+   "w": 400,
+   "h": 200
+  }
+ },
+ {
+  "id": "timemachines-760-4482-000",
+  "manufacturer": "Time Machines",
+  "partNumber": "760-4482-000",
+  "name": "Time zone clock, 4\" 4-digit, 2-line dot matrix, PoE (SNTP)",
+  "family": "Time zone displays",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "TimeMachines time zone clock / timer displays page",
+  "productUrl": "https://timemachinescorp.com/timezone-clock-timer-displays/",
+  "notes": "Line 1 is the time (4\" 7-segment), line 2 a dot-matrix text line naming the zone; switches between up to 5 time zones on set intervals; also timer and bar-graph modes. Powered by PoE 802.3af only (WiFi versions end in W). Wall or shelf / desk. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   }
+  ],
+  "zones": 5,
+  "boxMm": {
+   "w": 445,
+   "h": 251
+  }
+ },
+ {
+  "id": "mobatime-dts-4801",
+  "manufacturer": "MOBATIME",
+  "partNumber": "DTS 4801",
+  "name": "DTS 4801 network master clock and NTP server, 1 MOBALine / impulse line, 1U",
+  "family": "DTS 48xx",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOBATIME leaflet LE-800719.08",
+  "productUrl": "https://www.mobatime.com/wp-content/uploads/2022/01/LE-800719.08-DTS-4801-4802-4806-masterclock.pdf",
+  "notes": "Master clock for impulse, MOBALine or IRIG-B / AFNOR (option on 4801) slave clocks, NTP server and NTP time zone server; RS-485 clock line for up to 31 clocks. Time from a DCF 4500 / GPS 4500 receiver and / or NTP. 80 predefined and 20 programmable time zones. 90-240 VAC (max 30 VA) or 24-28 VDC. 483 x 44 x 125 mm. Check: terminal layout and line counts (the leaflet output table is hard to read).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (NTP server / client)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Terminal"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / GPS 4500 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC Out (GPS 4500)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "MOBALine / Impulse Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Clock Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / Pulse Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Alarm / Control In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 24-28V"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "mobatime-dts-4802",
+  "manufacturer": "MOBATIME",
+  "partNumber": "DTS 4802",
+  "name": "DTS 4802 network master clock and NTP server, 2 MOBALine / impulse lines, 1U",
+  "family": "DTS 48xx",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOBATIME leaflet LE-800719.08",
+  "productUrl": "https://www.mobatime.com/wp-content/uploads/2022/01/LE-800719.08-DTS-4801-4802-4806-masterclock.pdf",
+  "notes": "Master clock for impulse, MOBALine or IRIG-B / AFNOR (option on 4801) slave clocks, NTP server and NTP time zone server; RS-485 clock line for up to 31 clocks. Time from a DCF 4500 / GPS 4500 receiver and / or NTP. 80 predefined and 20 programmable time zones. 90-240 VAC (max 30 VA) or 24-28 VDC. 483 x 44 x 125 mm. Check: terminal layout and line counts (the leaflet output table is hard to read).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (NTP server / client)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Terminal"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / GPS 4500 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC Out (GPS 4500)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 2,
+    "prefix": "MOBALine / Impulse Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Clock Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / Pulse Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Alarm / Control In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 24-28V"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "mobatime-dts-4806",
+  "manufacturer": "MOBATIME",
+  "partNumber": "DTS 4806",
+  "name": "DTS 4806 network master clock and NTP server, 6 MOBALine / impulse lines, 1U",
+  "family": "DTS 48xx",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOBATIME leaflet LE-800719.08",
+  "productUrl": "https://www.mobatime.com/wp-content/uploads/2022/01/LE-800719.08-DTS-4801-4802-4806-masterclock.pdf",
+  "notes": "Master clock for impulse, MOBALine or IRIG-B / AFNOR (option on 4801) slave clocks, NTP server and NTP time zone server; RS-485 clock line for up to 31 clocks. Time from a DCF 4500 / GPS 4500 receiver and / or NTP. 80 predefined and 20 programmable time zones. 90-240 VAC (max 30 VA) or 24-28 VDC. 483 x 44 x 224 mm. Check: terminal layout and line counts (the leaflet output table is hard to read).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (NTP server / client)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Terminal"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / GPS 4500 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC Out (GPS 4500)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 6,
+    "prefix": "MOBALine / Impulse Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 Clock Line"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DCF / Pulse Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 4,
+    "prefix": "Alarm / Control In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Alarm Relay"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "DC In 24-28V"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "mobatime-tzi-57",
+  "manufacturer": "MOBATIME",
+  "partNumber": "TZI.57",
+  "name": "TZI.57 time zone display, 57 mm digits with city name line, up to 8 zones",
+  "family": "TZI",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOBATIME TZI manual BE-801220.00",
+  "productUrl": "https://www.mobatime.com/wp-content/uploads/2020/02/BE-801220.00-TZI-Time-zone-display_170316.pdf",
+  "notes": "Indoor world time display: one row per zone, time in 7-segment digits and the location in dot matrix; up to 8 zones. Wall, ceiling or custom mount. Set by MOBALine, impulse, IRIG-B / AFNOR, DCF, MOBATIME serial code or NTP. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: variant names and how many rows your order has.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Lines In (MOBALine / impulse / IRIG-B / DCF)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-232 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN NTP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In 100-240V"
+   }
+  ],
+  "zones": 8
+ },
+ {
+  "id": "mobatime-tzi-100",
+  "manufacturer": "MOBATIME",
+  "partNumber": "TZI.100",
+  "name": "TZI.100 time zone display, 100 mm digits with city name line, up to 8 zones",
+  "family": "TZI",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOBATIME TZI manual BE-801220.00",
+  "productUrl": "https://www.mobatime.com/wp-content/uploads/2020/02/BE-801220.00-TZI-Time-zone-display_170316.pdf",
+  "notes": "Indoor world time display: one row per zone, time in 7-segment digits and the location in dot matrix; up to 8 zones. Wall, ceiling or custom mount. Set by MOBALine, impulse, IRIG-B / AFNOR, DCF, MOBATIME serial code or NTP. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: variant names and how many rows your order has.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Clock impulse",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "Lines In (MOBALine / impulse / IRIG-B / DCF)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-485 In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "RS-232 (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN NTP (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "Terminal block",
+    "count": 1,
+    "prefix": "AC In 100-240V"
+   }
+  ],
+  "zones": 8
+ },
+ {
+  "id": "masterclock-ntds-tz",
+  "manufacturer": "Masterclock",
+  "partNumber": "NTDS time zone module",
+  "name": "Modular time zone clock, PoE NTP, 4 or 6 digits with 8-character zone line (e.g. NTDS24-8AL)",
+  "family": "Modular time zone clocks",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Masterclock modular time zone clocks page",
+  "productUrl": "https://www.masterclock.com/modular-time-zone-clocks.html",
+  "notes": "One module per zone on a quick-release DIN rail; add a Clock end point per module, or one for the row and type every zone. Off-rack end point: leave it out of the racks; add it in Signal paths as a Clock end point and type its time zone(s). Check: part number per digit size and colour.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "LAN (PoE in, NTP)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Time Code In (option)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC jack",
+    "count": 1,
+    "prefix": "DC In (option)"
+   }
+  ],
+  "zones": 1
+ },
+ {
+  "id": "ese-es-192u",
+  "manufacturer": "ESE",
+  "partNumber": "ES-192U",
+  "name": "ES-192U low-cost master clock, 6-digit, TC90 output to slave displays, 1U",
+  "family": "ES-192",
+  "category": "clock",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Markertek ES-192U listing",
+  "productUrl": "https://m.markertek.com/product/es-192u/es-192u-master-clock-6-digit-12-hour",
+  "notes": "Line-frequency (or optional quartz) timebase, drives ESE slave displays over TC90 time code; auto daylight saving. Check: connectors and rack size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "TC90 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ }
+]

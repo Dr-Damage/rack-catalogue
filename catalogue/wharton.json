@@ -5,7 +5,7 @@
   "partNumber": "5400",
   "name": "5400 NTP time server / master clock (dual PSU)",
   "family": "5000 Series",
-  "category": "other",
+  "category": "clock",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,

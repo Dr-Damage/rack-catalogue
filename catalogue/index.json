@@ -256,5 +256,6 @@
  "dell-nx.json",
  "hp-z.json",
  "sprolink.json",
- "cameras.json"
+ "cameras.json",
+ "clocks.json"
 ]

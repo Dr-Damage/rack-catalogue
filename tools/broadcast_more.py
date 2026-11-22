@@ -161,7 +161,7 @@ add('riedel-bolero.json', 'riedel-nsa-002a', 'Riedel', 'NSA-002A', 'NSA-002A net
     'Riedel Bolero product page', 'https://www.riedel.net/en/products-solutions/intercom/bolero-wireless-intercom-1', verified=False, w=6)
 
 # ======================= Timing =======================
-add('meinberg.json', 'meinberg-lantime-m1000', 'Meinberg', 'LANTIME M1000', 'LANTIME M1000 modular time server / PTP grandmaster, 1U', 'IMS LANTIME', 'other', 1,
+add('meinberg.json', 'meinberg-lantime-m1000', 'Meinberg', 'LANTIME M1000', 'LANTIME M1000 modular time server / PTP grandmaster, 1U', 'IMS LANTIME', 'clock', 1,
     [R('in', 'RF', 'BNC', 1, 'GNSS Antenna'), R('io', 'RS-232', 'DB9', 1, 'GNSS COM'), R('io', 'Ethernet', 'RJ45', 1, 'CPU LAN / NTP'), R('io', 'RS-232', 'DB9', 1, 'CPU Terminal'),
      R('io', 'USB', 'USB-A', 1, 'CPU USB'), R('io', 'SFP', 'SFP', 1, 'PTP SFP'), R('io', 'Ethernet', 'RJ45', 1, 'PTP'),
      R('io', 'Ethernet', 'RJ45', 2, 'I/O LAN'), R('out', 'Reference', 'BNC', 2, '10 MHz / PPS'), R('in', 'Power', 'Terminal block', 2, 'PSU A/B'),
@@ -170,7 +170,7 @@ add('meinberg.json', 'meinberg-lantime-m1000', 'Meinberg', 'LANTIME M1000', 'LAN
     '(PTP / NTP, pulse, frequency and time-code outputs, up to 4 PTP modules, up to 16 extra ports with LNE). 483 x 290 mm. '
     'Ports follow the fit-out in Meinberg\'s rear photo (CPU, GNSS receiver, I/O module, PTP module, two AC PSUs). Check: modules fitted.', 'Meinberg LANTIME M1000 short info; panels from Meinberg product photos',
     'https://www.meinbergglobal.com/download/docs/shortinfo/english/info_ims-lantime-m1000.pdf', verified=False, powerW=100)
-add('meinberg.json', 'meinberg-lantime-m3000-broadcast', 'Meinberg', 'LANTIME M3000 (broadcast)', 'LANTIME M3000 broadcast sync platform, 3U', 'IMS LANTIME', 'other', 3,
+add('meinberg.json', 'meinberg-lantime-m3000-broadcast', 'Meinberg', 'LANTIME M3000 (broadcast)', 'LANTIME M3000 broadcast sync platform, 3U', 'IMS LANTIME', 'clock', 3,
     [R('in', 'RF', 'BNC', 1, 'GPS Antenna'), R('in', 'RF', 'SMA', 1, 'GNSS L1 Antenna'), R('out', 'Reference', 'BNC', 8, 'Video Sync (BB/Tri)'),
      R('out', 'AES/EBU', 'BNC', 1, 'DARS'), R('out', 'Reference', 'BNC', 4, 'Word Clock'), R('out', 'Reference', 'BNC', 4, '10 MHz'),
      R('io', 'Ethernet', 'RJ45', 3, 'PTP / SyncE'), R('io', 'Ethernet', 'RJ45', 4, 'LNE GbE'), R('io', 'Ethernet', 'RJ45', 1, 'Mgmt'),
@@ -178,7 +178,7 @@ add('meinberg.json', 'meinberg-lantime-m3000-broadcast', 'Meinberg', 'LANTIME M3
     '3U IMS chassis in the broadcast build: redundant GNSS receivers and PSUs, HPS-100 PTP/NTP (ST 2059-2), VSG video sync module '
     '(8 black burst / tri-level), SCG-U studio clock (word clock), LNO 10 MHz. 483 x 132 x 270 mm. Check: modules fitted.',
     'Meinberg M3000 broadcast configuration sheet', 'https://www.meinbergglobal.com/download/docs/other/M3000-Broadcast.pdf', verified=False)
-add('brandywine.json', 'brandywine-ptp-800', 'Brandywine Communications', 'PTP-800', 'PTP-800 IEEE 1588 grandmaster clock, 1U', 'PTP', 'other', 1,
+add('brandywine.json', 'brandywine-ptp-800', 'Brandywine Communications', 'PTP-800', 'PTP-800 IEEE 1588 grandmaster clock, 1U', 'PTP', 'clock', 1,
     [R('io', 'Ethernet', 'RJ45', 4, 'PTP/NTP (RJ45/SFP combo)'), R('in', 'RF', 'BNC', 1, 'GNSS Antenna'), R('in', 'Reference', 'BNC', 1, '10 MHz In'),
      R('out', 'Reference', 'BNC', 1, '10 MHz Out'), R('in', 'Reference', 'BNC', 1, '1PPS In'), R('out', 'Reference', 'BNC', 1, '1PPS Out'),
      R('in', 'Timecode', 'BNC', 1, 'IRIG-B In'), R('out', 'Timecode', 'BNC', 1, 'IRIG-B Out'), F('io', 'USB', 'USB micro-B', 1, 'USB'), PSU(2)],

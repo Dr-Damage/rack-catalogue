@@ -5,7 +5,7 @@
   "partNumber": "PTP-800",
   "name": "PTP-800 IEEE 1588 grandmaster clock, 1U",
   "family": "PTP",
-  "category": "other",
+  "category": "clock",
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,

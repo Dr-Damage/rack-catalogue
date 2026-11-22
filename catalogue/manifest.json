@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "9fec701ab9de",
- "updated": "2026-11-21T05:03:50Z",
- "entries": 3290,
+ "version": "5cd394085e33",
+ "updated": "2026-11-22T23:38:47Z",
+ "entries": 3314,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -690,12 +690,12 @@
    "bytes": 1405
   },
   "meinberg.json": {
-   "sha256": "39dc471e169c0a72d1703c1457e67914df58d598ffc6573c64a974a688cf099b",
+   "sha256": "7b068b69c51548e553e817458ecad980106b3e1b72772f1d0dcb6c2cac88271c",
    "entries": 2,
    "bytes": 4826
   },
   "brandywine.json": {
-   "sha256": "74136b32734b17973707c1a988410b3a196726d6123706e9691b6bc4478f6340",
+   "sha256": "38d3ae8310f55743b3e5b07e7c43a1d7cbe9ff2e0f32e932225b2da73d1ec59b",
    "entries": 1,
    "bytes": 2096
   },
@@ -715,32 +715,32 @@
    "bytes": 20603
   },
   "masterclock.json": {
-   "sha256": "77477d93f8f1e070185763f66bdfb42e1e0b1a79fb520ec04c3c4b2c355648b2",
+   "sha256": "6af2373b1827fba1a42400a34c965e98efe78d637f8fdc9a3a92c4e2a86ca73d",
    "entries": 2,
    "bytes": 3921
   },
   "ese.json": {
-   "sha256": "86aa680e36a4abebf4388f7be8c89244e3bddf3951b157eac7b144be7c66363c",
+   "sha256": "c95c03d8f9fbcfa0d6d40a0b3dc5531c05d1d95b8b6e21fb5a2c104184acaff9",
    "entries": 2,
    "bytes": 3181
   },
   "wharton.json": {
-   "sha256": "c0700ece04bec0c17e5cae17eef73e96112e92d6339d2b79a915b679ab606ed2",
+   "sha256": "842419900998b702fd09ea8fc55f73d60f6de94d8db3a86af2916655ab8c10de",
    "entries": 1,
    "bytes": 1686
   },
   "timemachines.json": {
-   "sha256": "c9f042ccb0383c8636acdb22f8aabe014b4af958c838ff6dab3dd9a7ea1646a4",
+   "sha256": "bd0905f7c0f43ebf0ca132aa0fa6d3e474ed3e8a746a31732e9bc76478d5b3a2",
    "entries": 2,
    "bytes": 1897
   },
   "safran.json": {
-   "sha256": "2768b82815d08eaca59a2585d0357f2bcfca69eb8bbc22580e44f3db710494d5",
+   "sha256": "a733ecbeee30ec29d8a7fd4cde9c13de30f9537feab0d1f580541e191552db42",
    "entries": 1,
    "bytes": 1822
   },
   "microchip-timing.json": {
-   "sha256": "46c9b79472d531dd4e3926ddb92c7f64ccc82a61ce8751119fed2f0c2c6f0ebf",
+   "sha256": "afc9f9b091b5ed0d7dfe53b97ffb07b491ba50f0f2c43aa19c34d4bc87749e4e",
    "entries": 1,
    "bytes": 1724
   },
@@ -750,7 +750,7 @@
    "bytes": 1846
   },
   "meinberg-more.json": {
-   "sha256": "dca2e6b3cfea8097c13ed93beb7a6dd17fb01c2ad33994d391008ef54f401680",
+   "sha256": "8f07386789482dfae950c0e7479f90ce00e5516f5efff753257601906a3d8682",
    "entries": 1,
    "bytes": 1728
   },
@@ -1293,6 +1293,11 @@
    "sha256": "e19ec8eeee475e4f72739e6b7d79d53eb24c8bd44737f7d32e7326586f847f8b",
    "entries": 82,
    "bytes": 135151
+  },
+  "clocks.json": {
+   "sha256": "d2cd9707b25327333ad1bda111a8bcdaf3bc270bd2391f79d708f7e6fe80508f",
+   "entries": 24,
+   "bytes": 32777
   }
  }
 }
