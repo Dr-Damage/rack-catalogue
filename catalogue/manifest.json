@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "8ee5685b07ba",
- "updated": "2026-11-23T23:28:30Z",
+ "version": "9e10737a9327",
+ "updated": "2026-11-23T23:47:27Z",
  "entries": 3563,
  "files": {
   "ross.json": {
@@ -260,9 +260,9 @@
    "bytes": 31307
   },
   "intel.json": {
-   "sha256": "39ed0cb50bfa68022c3731fdad86df26128b11d4edab2dc8c03d8ee4900d30c9",
+   "sha256": "01ac187b75d4e7a194493c7ed5df2462a099c6bd099624fd50a9eb16e81e20b9",
    "entries": 9,
-   "bytes": 20021
+   "bytes": 21919
   },
   "asus.json": {
    "sha256": "d4a8cc74ef194a6576d3f30b43ac35d928520a487c1f194e19d66c9ec5b055f8",
