@@ -1,0 +1,4187 @@
+[
+ {
+  "id": "focusrite-scarlett-solo-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett Solo 4th Gen",
+  "name": "Scarlett Solo 4th Gen USB audio interface",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Inst In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 144,
+   "h": 44
+  }
+ },
+ {
+  "id": "focusrite-scarlett-2i2-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett 2i2 4th Gen",
+  "name": "Scarlett 2i2 4th Gen USB audio interface",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 180,
+   "h": 47
+  }
+ },
+ {
+  "id": "focusrite-scarlett-4i4-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett 4i4 4th Gen",
+  "name": "Scarlett 4i4 4th Gen USB audio interface",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line In 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Power"
+   }
+  ],
+  "boxMm": {
+   "w": 180,
+   "h": 47
+  }
+ },
+ {
+  "id": "focusrite-scarlett-16i16-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett 16i16 4th Gen",
+  "name": "Scarlett 16i16 4th Gen USB audio interface",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line In 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 230,
+   "h": 50
+  }
+ },
+ {
+  "id": "focusrite-scarlett-18i16-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett 18i16 4th Gen",
+  "name": "Scarlett 18i16 4th Gen USB audio interface",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 290,
+   "h": 50
+  }
+ },
+ {
+  "id": "focusrite-scarlett-18i20-4",
+  "manufacturer": "Focusrite",
+  "partNumber": "Scarlett 18i20 4th Gen",
+  "name": "Scarlett 18i20 4th Gen USB audio interface (1U)",
+  "family": "Scarlett 4th Gen",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Rack mount 1U. Check: word clock (some revisions only have out).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 6,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "focusrite-clarett-plus-2pre",
+  "manufacturer": "Focusrite",
+  "partNumber": "Clarett+ 2Pre",
+  "name": "Clarett+ 2Pre USB audio interface",
+  "family": "Clarett+",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line In 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 180,
+   "h": 47
+  }
+ },
+ {
+  "id": "focusrite-clarett-plus-4pre",
+  "manufacturer": "Focusrite",
+  "partNumber": "Clarett+ 4Pre",
+  "name": "Clarett+ 4Pre USB audio interface",
+  "family": "Clarett+",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 7,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: rear counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line In 5-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 270,
+   "h": 47
+  }
+ },
+ {
+  "id": "focusrite-clarett-plus-8pre",
+  "manufacturer": "Focusrite",
+  "partNumber": "Clarett+ 8Pre",
+  "name": "Clarett+ 8Pre USB audio interface (1U)",
+  "family": "Clarett+",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 6,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "RCA",
+    "count": 1,
+    "prefix": "S/PDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "focusrite-vocaster-two",
+  "manufacturer": "Focusrite",
+  "partNumber": "Vocaster Two",
+  "name": "Vocaster Two podcast USB interface",
+  "family": "Vocaster",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Speaker Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm TRRS",
+    "count": 1,
+    "prefix": "Phone In/Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB Host"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB Power"
+   }
+  ],
+  "boxMm": {
+   "w": 190,
+   "h": 50
+  }
+ },
+ {
+  "id": "focusrite-rednet-x2p",
+  "manufacturer": "Focusrite",
+  "partNumber": "RedNet X2P",
+  "name": "RedNet X2P 2 x 2 Dante interface with mic pres",
+  "family": "RedNet",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product page",
+  "productUrl": "https://focusrite.com",
+  "notes": "Dante connected: cable its Dante port to a USB / Thunderbolt port on the computer. Network audio, not USB: PoE powered. Half rack.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante (PoE)"
+   }
+  ],
+  "boxMm": {
+   "w": 220,
+   "h": 44
+  }
+ },
+ {
+  "id": "ua-apollo-twin-x-duo",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Apollo Twin X DUO",
+  "name": "Apollo Twin X DUO Thunderbolt 3 interface",
+  "family": "Apollo",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Hi-Z In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 1,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 160,
+   "h": 70
+  }
+ },
+ {
+  "id": "ua-apollo-x4",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Apollo x4",
+  "name": "Apollo x4 Thunderbolt 3 interface (desktop)",
+  "family": "Apollo",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 7,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Hi-Z In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 270,
+   "h": 70
+  }
+ },
+ {
+  "id": "ua-apollo-x8",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Apollo x8",
+  "name": "Apollo x8 Thunderbolt 3 interface (1U)",
+  "family": "Apollo",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. Check: rear analog layout (TRS vs DB25).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Hi-Z In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Line In 5-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ua-apollo-x8p",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Apollo x8p",
+  "name": "Apollo x8p Thunderbolt 3 interface, 8 mic pres (1U)",
+  "family": "Apollo",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Hi-Z In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ua-apollo-x16",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Apollo x16",
+  "name": "Apollo x16 Thunderbolt 3 interface, 16 x 16 line (1U)",
+  "family": "Apollo",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 2,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "ua-volt-276",
+  "manufacturer": "Universal Audio",
+  "partNumber": "Volt 276",
+  "name": "Volt 276 USB-C audio interface",
+  "family": "Volt",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Universal Audio product page",
+  "productUrl": "https://www.uaudio.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 190,
+   "h": 80
+  }
+ },
+ {
+  "id": "rme-fireface-ufx-iii",
+  "manufacturer": "RME",
+  "partNumber": "Fireface UFX III",
+  "name": "Fireface UFX III USB 3 interface, 94 ch with MADI (1U)",
+  "family": "Fireface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: rear counts. MADI optical in and out.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line In 5-12"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line Out 3-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Main Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rme-ucx-ii",
+  "manufacturer": "RME",
+  "partNumber": "Fireface UCX II",
+  "name": "Fireface UCX II USB interface (half rack)",
+  "family": "Fireface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Half rack 1U. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line In 3-8"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Main Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "rme-802-fs",
+  "manufacturer": "RME",
+  "partNumber": "Fireface 802 FS",
+  "name": "Fireface 802 FS USB interface (1U)",
+  "family": "Fireface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rme-babyface-pro-fs",
+  "manufacturer": "RME",
+  "partNumber": "Babyface Pro FS",
+  "name": "Babyface Pro FS USB interface",
+  "family": "Babyface",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Inst In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 108,
+   "h": 35
+  }
+ },
+ {
+  "id": "rme-madiface-usb",
+  "manufacturer": "RME",
+  "partNumber": "MADIface USB",
+  "name": "MADIface USB: 64 ch MADI to USB",
+  "family": "MADIface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Coax MADI. Bus powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 110,
+   "h": 30
+  }
+ },
+ {
+  "id": "rme-madiface-xt-ii",
+  "manufacturer": "RME",
+  "partNumber": "MADIface XT II",
+  "name": "MADIface XT II: 3 x MADI to USB 3 / PCIe (1U)",
+  "family": "MADIface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Half rack. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 2,
+    "prefix": "MADI Optical In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 2,
+    "prefix": "MADI Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Coax In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "MADI Coax Out"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 2,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "XLR3M",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "AES In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "XLR3M",
+    "count": 1,
+    "prefix": "AES Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "DAW net"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "rme-digiface-dante",
+  "manufacturer": "RME",
+  "partNumber": "Digiface Dante",
+  "name": "Digiface Dante: 256 ch Dante to USB 3 interface",
+  "family": "Digiface",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: SFP / RJ45 mix.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "SFP",
+    "count": 2,
+    "prefix": "Dante Pri/Sec"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Dante/AES67",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Dante"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT/SPDIF Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 140,
+   "h": 40
+  }
+ },
+ {
+  "id": "motu-m4",
+  "manufacturer": "MOTU",
+  "partNumber": "M4",
+  "name": "M4 USB-C audio interface",
+  "family": "M Series",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOTU product page",
+  "productUrl": "https://motu.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line In 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 190,
+   "h": 45
+  }
+ },
+ {
+  "id": "motu-ultralite-mk5",
+  "manufacturer": "MOTU",
+  "partNumber": "UltraLite-mk5",
+  "name": "UltraLite-mk5 USB interface (half rack)",
+  "family": "UltraLite",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOTU product page",
+  "productUrl": "https://motu.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 6,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "Optical Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "motu-828-2024",
+  "manufacturer": "MOTU",
+  "partNumber": "828",
+  "name": "828 USB-C audio interface (1U, 2024)",
+  "family": "828",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOTU product page",
+  "productUrl": "https://motu.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "motu-8pre-es",
+  "manufacturer": "MOTU",
+  "partNumber": "8pre-es",
+  "name": "8pre-es USB / AVB interface (1U)",
+  "family": "AVB",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MOTU product page",
+  "productUrl": "https://motu.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AVB"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "audient-id14-mkii",
+  "manufacturer": "Audient",
+  "partNumber": "iD14 MKII",
+  "name": "iD14 MKII USB-C audio interface",
+  "family": "iD",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audient product page",
+  "productUrl": "https://audient.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "DI In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 180,
+   "h": 70
+  }
+ },
+ {
+  "id": "audient-id44-mkii",
+  "manufacturer": "Audient",
+  "partNumber": "iD44 MKII",
+  "name": "iD44 MKII USB-C audio interface",
+  "family": "iD",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 7,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audient product page",
+  "productUrl": "https://audient.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Mic/Line In 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 250,
+   "h": 80
+  }
+ },
+ {
+  "id": "audient-evo-8",
+  "manufacturer": "Audient",
+  "partNumber": "EVO 8",
+  "name": "EVO 8 USB audio interface",
+  "family": "EVO",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Audient product page",
+  "productUrl": "https://audient.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Inst In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 230,
+   "h": 70
+  }
+ },
+ {
+  "id": "ssl-2-plus-mkii",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SSL 2+ MKII",
+  "name": "SSL 2+ MKII USB-C audio interface",
+  "family": "SSL",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Solid State Logic product page",
+  "productUrl": "https://www.solidstatelogic.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 234,
+   "h": 67
+  }
+ },
+ {
+  "id": "ssl-12",
+  "manufacturer": "Solid State Logic",
+  "partNumber": "SSL 12",
+  "name": "SSL 12 USB audio interface",
+  "family": "SSL",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 7,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Solid State Logic product page",
+  "productUrl": "https://www.solidstatelogic.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "boxMm": {
+   "w": 270,
+   "h": 70
+  }
+ },
+ {
+  "id": "presonus-studio-1824c",
+  "manufacturer": "PreSonus",
+  "partNumber": "Studio 1824c",
+  "name": "Studio 1824c USB-C audio interface (1U)",
+  "family": "Studio",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "PreSonus product page",
+  "productUrl": "https://www.presonus.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 6,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "presonus-quantum-hd8",
+  "manufacturer": "PreSonus",
+  "partNumber": "Quantum HD 8",
+  "name": "Quantum HD 8 USB-C interface (1U)",
+  "family": "Quantum",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "PreSonus product page",
+  "productUrl": "https://www.presonus.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 4,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "antelope-orion-32-gen4",
+  "manufacturer": "Antelope Audio",
+  "partNumber": "Orion 32+ Gen 4",
+  "name": "Orion 32+ Gen 4: 64 ch AD/DA, MADI, USB / Thunderbolt (1U)",
+  "family": "Orion",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Antelope Audio product page",
+  "productUrl": "https://en.antelopeaudio.com",
+  "notes": "USB / Thunderbolt connected: cable its USB / Thunderbolt port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 4,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 4,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 2,
+    "prefix": "MADI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "MADI audio",
+    "connector": "SC",
+    "count": 2,
+    "prefix": "MADI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 2,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 1,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ]
+ },
+ {
+  "id": "behringer-umc204hd",
+  "manufacturer": "Behringer",
+  "partNumber": "UMC204HD",
+  "name": "U-PHORIA UMC204HD USB audio interface",
+  "family": "U-PHORIA",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Behringer product page",
+  "productUrl": "https://www.behringer.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Main Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RCA",
+    "count": 2,
+    "prefix": "Line Out 3-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 185,
+   "h": 50
+  }
+ },
+ {
+  "id": "behringer-umc1820",
+  "manufacturer": "Behringer",
+  "partNumber": "UMC1820",
+  "name": "U-PHORIA UMC1820 USB audio interface (1U)",
+  "family": "U-PHORIA",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Behringer product page",
+  "productUrl": "https://www.behringer.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 8,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 10,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 2,
+    "prefix": "MIDI"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "steinberg-ur816c",
+  "manufacturer": "Steinberg",
+  "partNumber": "UR816C",
+  "name": "UR816C USB-C audio interface (1U)",
+  "family": "UR-C",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Steinberg product page",
+  "productUrl": "https://www.steinberg.net",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Front Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 6,
+    "prefix": "Mic/Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 8,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "TOSLINK",
+    "count": 1,
+    "prefix": "ADAT Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Word clock",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Word Clock Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ]
+ },
+ {
+  "id": "steinberg-ur22c",
+  "manufacturer": "Steinberg",
+  "partNumber": "UR22C",
+  "name": "UR22C USB-C audio interface",
+  "family": "UR-C",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Steinberg product page",
+  "productUrl": "https://www.steinberg.net",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 2,
+    "prefix": "Input"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "MIDI DIN",
+    "count": 1,
+    "prefix": "MIDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "5V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 159,
+   "h": 47
+  }
+ },
+ {
+  "id": "yamaha-ag06-mk2",
+  "manufacturer": "Yamaha",
+  "partNumber": "AG06MK2",
+  "name": "AG06MK2 live streaming mixer / USB interface",
+  "family": "AG",
+  "category": "audio",
+  "ru": 2,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Yamaha product page",
+  "productUrl": "https://usa.yamaha.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: ports.",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR/TRS combo",
+    "count": 1,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "front",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Line In"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Monitor Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB"
+   }
+  ],
+  "boxMm": {
+   "w": 126,
+   "h": 63
+  }
+ },
+ {
+  "id": "aja-io-x3",
+  "manufacturer": "AJA",
+  "partNumber": "Io X3",
+  "name": "Io X3 Thunderbolt 3 video I/O (4 x 3G-SDI, HDMI)",
+  "family": "Io",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product page",
+  "productUrl": "https://www.aja.com/products/io-x3",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. Half rack wide. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Analog Audio"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 222,
+   "h": 45
+  }
+ },
+ {
+  "id": "aja-io-4k-plus",
+  "manufacturer": "AJA",
+  "partNumber": "Io 4K Plus",
+  "name": "Io 4K Plus Thunderbolt 3 video I/O (12G-SDI, HDMI 2.0)",
+  "family": "Io",
+  "category": "converter",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product page",
+  "productUrl": "https://www.aja.com/products/io-4k-plus",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. Check: counts.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 4,
+    "prefix": "SDI"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Timecode",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "LTC Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-422",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "RS-422"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "DB25 (8 ch)",
+    "count": 1,
+    "prefix": "Analog Audio"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "XLR4M",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 222,
+   "h": 60
+  }
+ },
+ {
+  "id": "aja-t-tap-pro",
+  "manufacturer": "AJA",
+  "partNumber": "T-TAP Pro",
+  "name": "T-TAP Pro Thunderbolt 3 output (12G-SDI, HDMI 2.0)",
+  "family": "T-TAP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product page",
+  "productUrl": "https://www.aja.com/products/t-tap-pro",
+  "notes": "Thunderbolt connected: cable its Thunderbolt port to a USB / Thunderbolt port on the computer. ",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "12G-SDI",
+    "connector": "BNC",
+    "count": 2,
+    "prefix": "SDI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Reference",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Ref In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 2,
+    "prefix": "Analog Out"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "1/4\" TRS",
+    "count": 1,
+    "prefix": "Phones"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "12V DC"
+   }
+  ],
+  "boxMm": {
+   "w": 150,
+   "h": 40
+  }
+ },
+ {
+  "id": "aja-u-tap-sdi",
+  "manufacturer": "AJA",
+  "partNumber": "U-TAP SDI",
+  "name": "U-TAP SDI USB 3 capture",
+  "family": "U-TAP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product page",
+  "productUrl": "https://www.aja.com/products/u-tap",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 70,
+   "h": 25
+  }
+ },
+ {
+  "id": "aja-u-tap-hdmi",
+  "manufacturer": "AJA",
+  "partNumber": "U-TAP HDMI",
+  "name": "U-TAP HDMI USB 3 capture",
+  "family": "U-TAP",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product page",
+  "productUrl": "https://www.aja.com/products/u-tap",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 70,
+   "h": 25
+  }
+ },
+ {
+  "id": "magewell-usb-capture-sdi-gen2",
+  "manufacturer": "Magewell",
+  "partNumber": "32060",
+  "name": "USB Capture SDI Gen 2",
+  "family": "USB Capture",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product page",
+  "productUrl": "https://www.magewell.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered. Check: loop out.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 63,
+   "h": 21
+  }
+ },
+ {
+  "id": "magewell-usb-capture-hdmi-gen2",
+  "manufacturer": "Magewell",
+  "partNumber": "32090",
+  "name": "USB Capture HDMI Gen 2",
+  "family": "USB Capture",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 2,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product page",
+  "productUrl": "https://www.magewell.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Bus powered.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-B",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 63,
+   "h": 21
+  }
+ },
+ {
+  "id": "magewell-usb-capture-hdmi-4k-plus",
+  "manufacturer": "Magewell",
+  "partNumber": "32100",
+  "name": "USB Capture HDMI 4K Plus",
+  "family": "USB Capture",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 3,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product page",
+  "productUrl": "https://www.magewell.com",
+  "notes": "USB connected: cable its USB port to a USB / Thunderbolt port on the computer. Check: ports.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "HDMI Loop Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3"
+   }
+  ],
+  "boxMm": {
+   "w": 110,
+   "h": 25
+  }
+ }
+]

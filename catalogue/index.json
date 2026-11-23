@@ -258,5 +258,7 @@
  "sprolink.json",
  "cameras.json",
  "room-endpoints.json",
- "clocks.json"
+ "clocks.json",
+ "pcie-cards.json",
+ "usb-interfaces.json"
 ]

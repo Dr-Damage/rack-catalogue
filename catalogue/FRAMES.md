@@ -29,6 +29,22 @@ A model with a `frame` block is a frame whatever its category (the Ross frames s
 | `controller` | text: the controller card and where it lives |
 | `controllerSlot` | optional slot number a controller card normally takes (Evertz slot 1). Advisory only |
 | `fixed` | optional `[{slot, label}]` slots always taken by the frame itself (system card, PSU); block them |
+| `rearOnly` | true when the slots are only seen from behind (a computer's PCIe slots). The front is drawn as a normal panel, and slots are numbered as seen from the rear (slot 1 at the left, or at the bottom for flat cards), not mirrored |
+
+## PCIe cards in computers
+
+Computers take PCIe cards the same way (`tools/pcie_cards.py`, `pcie-cards.json`). A PCIe card is a card with `card.fits: ["PCIe"]`,
+no card-edge ports and one rear module, `partNumber: "bracket"` (`included: true`), holding the connectors on its slot bracket
+(and its breakout cable). `card.slotWidth` 2 is a double-width card (most GPUs, DeckLink 8K Pro G2).
+
+A computer becomes a PCIe frame in two ways:
+- an explicit `frame` block with `system: "PCIe"` and `rearOnly: true` (Sonnet Echo chassis and the generic PC templates in `pcie-cards.json`);
+- automatically: any `category: "computer"` entry whose `portGroups` list `connector: "Card slot"` groups with `PCIe` in the prefix
+  (Dell PowerEdge / Precision, HP Z, HPE, Mac Pro ...). The app adds up those slots, draws them on the rear (flat for 1U units, towers on their
+  side and the Mac Pro; upright for 2U-3U servers) and hides the placeholder "PCIe slot" ports. Other "Card slot" groups (OCP NIC) stay as ports.
+
+PCIe slots list only PCIe cards and PCIe cards go only in PCIe slots. USB and Thunderbolt interfaces are ordinary units in
+`usb-interfaces.json`; cable them from their USB / Thunderbolt port to the computer's port.
 
 ## Card
 
