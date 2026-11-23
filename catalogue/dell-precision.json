@@ -109,7 +109,32 @@
    "w": 188.1,
    "h": 70.2
   },
-  "formFactor": "Dell Precision Compact"
+  "formFactor": "Dell Precision Compact",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 2,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 188.1,
+     "h": 70.2
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 5,
+    "widthCols": 2,
+    "boxMm": {
+     "w": 70.2,
+     "h": 188.1
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3260-compact",
@@ -221,7 +246,32 @@
    "w": 190,
    "h": 71.8
   },
-  "formFactor": "Dell Precision Compact"
+  "formFactor": "Dell Precision Compact",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 2,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 190,
+     "h": 71.8
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 5,
+    "widthCols": 2,
+    "boxMm": {
+     "w": 71.8,
+     "h": 190
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3280-compact",
@@ -325,7 +375,32 @@
    "w": 206,
    "h": 79.3
   },
-  "formFactor": "Dell Precision Compact"
+  "formFactor": "Dell Precision Compact",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 2,
+    "widthCols": 6,
+    "boxMm": {
+     "w": 206,
+     "h": 79.3
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 5,
+    "widthCols": 2,
+    "boxMm": {
+     "w": 79.3,
+     "h": 206
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3450-sff",
@@ -477,7 +552,32 @@
    "w": 290,
    "h": 92.6
   },
-  "formFactor": "Dell Precision SFF"
+  "formFactor": "Dell Precision SFF",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 3,
+    "widthCols": 8,
+    "boxMm": {
+     "w": 290,
+     "h": 92.6
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 7,
+    "widthCols": 3,
+    "boxMm": {
+     "w": 92.6,
+     "h": 290
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3460-sff",
@@ -613,7 +713,32 @@
    "w": 290,
    "h": 92.6
   },
-  "formFactor": "Dell Precision SFF"
+  "formFactor": "Dell Precision SFF",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 3,
+    "widthCols": 8,
+    "boxMm": {
+     "w": 290,
+     "h": 92.6
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 7,
+    "widthCols": 3,
+    "boxMm": {
+     "w": 92.6,
+     "h": 290
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3630-tower",
@@ -765,7 +890,32 @@
    "w": 335,
    "h": 176.6
   },
-  "formFactor": "Dell Precision 36xx tower (on its side)"
+  "formFactor": "Dell Precision 36xx tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 9,
+    "boxMm": {
+     "w": 335,
+     "h": 176.6
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 8,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.6,
+     "h": 335
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3640-tower",
@@ -917,7 +1067,32 @@
    "w": 335,
    "h": 176.6
   },
-  "formFactor": "Dell Precision 36xx tower (on its side)"
+  "formFactor": "Dell Precision 36xx tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 9,
+    "boxMm": {
+     "w": 335,
+     "h": 176.6
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 8,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.6,
+     "h": 335
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3650-tower",
@@ -1069,7 +1244,32 @@
    "w": 335,
    "h": 176.6
   },
-  "formFactor": "Dell Precision 36xx tower (on its side)"
+  "formFactor": "Dell Precision 36xx tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 9,
+    "boxMm": {
+     "w": 335,
+     "h": 176.6
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 8,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.6,
+     "h": 335
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3660-tower",
@@ -1213,7 +1413,32 @@
    "w": 372.9,
    "h": 173
   },
-  "formFactor": "Dell Precision 36xx tower (on its side)"
+  "formFactor": "Dell Precision 36xx tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 10,
+    "boxMm": {
+     "w": 372.9,
+     "h": 173
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 9,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 173,
+     "h": 372.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-3680-tower",
@@ -1349,7 +1574,32 @@
    "w": 372.9,
    "h": 173
   },
-  "formFactor": "Dell Precision 36xx tower (on its side)"
+  "formFactor": "Dell Precision 36xx tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 10,
+    "boxMm": {
+     "w": 372.9,
+     "h": 173
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 9,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 173,
+     "h": 372.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-5820-tower",
@@ -1477,7 +1727,32 @@
    "w": 417.9,
    "h": 176.5
   },
-  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 11,
+    "boxMm": {
+     "w": 417.9,
+     "h": 176.5
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 10,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.5,
+     "h": 417.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-7820-tower",
@@ -1605,7 +1880,32 @@
    "w": 417.9,
    "h": 176.5
   },
-  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 11,
+    "boxMm": {
+     "w": 417.9,
+     "h": 176.5
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 10,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.5,
+     "h": 417.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-7920-tower",
@@ -1864,7 +2164,32 @@
    "w": 417.9,
    "h": 176.5
   },
-  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 11,
+    "boxMm": {
+     "w": 417.9,
+     "h": 176.5
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 10,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.5,
+     "h": 417.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-7865-tower",
@@ -1992,7 +2317,32 @@
    "w": 417.9,
    "h": 176.5
   },
-  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 11,
+    "boxMm": {
+     "w": 417.9,
+     "h": 176.5
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 10,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.5,
+     "h": 417.9
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-7875-tower",
@@ -2120,7 +2470,32 @@
    "w": 446.6,
    "h": 176.5
   },
-  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)",
+  "pcieOrient": "v",
+  "orientations": [
+   {
+    "key": "side",
+    "label": "On its side",
+    "pcie": "v",
+    "ru": 4,
+    "widthCols": 12,
+    "boxMm": {
+     "w": 446.6,
+     "h": 176.5
+    }
+   },
+   {
+    "key": "upright",
+    "label": "Upright",
+    "pcie": "h",
+    "ru": 11,
+    "widthCols": 5,
+    "boxMm": {
+     "w": 176.5,
+     "h": 446.6
+    }
+   }
+  ]
  },
  {
   "id": "dell-precision-7960-tower",
