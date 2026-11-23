@@ -6,8 +6,9 @@ Ports come from Dell spec sheets, setup-and-specifications manuals and technical
 no Precision 3360 desktop; the nearest models are the 3260/3280 Compact, the 3460 SFF and the 3660 Tower.
 
 How each body sits in a rack:
-  Compact, SFF and 36xx towers have no Dell rack kit: they are part-width units with boxMm (front width x height, mm) lying on
-  their side on a shelf, the same way NUCs and Mac minis are drawn. formFactor names the body so a rack kit can list it later.
+  Compact, SFF and 36xx towers have no Dell rack kit: they are part-width units with boxMm (front width x height, mm) on a
+  shelf, the same way NUCs and Mac minis are drawn. Each has orientations (on its side first, then upright) and the app asks
+  which when one is placed. formFactor names the body so a rack kit can list it later.
   5820/7820/5860/7865/7875 towers also lie on their side on a shelf (4U). The 7920 Tower and 7960 Tower have Dell's optional
   19-inch rack rail kit (5U, full width).
 Card slots are drawn as PCIe slots so PCIe cards (DeckLink, KONA, GPUs, NICs) can be fitted from pcie-cards.json. Anything a
@@ -46,7 +47,11 @@ def AC(conn='IEC C14', n=1, label='AC In'): return R('in', 'Power', conn, n, lab
 CW, RU = 482.6 / 12, 44.45
 def side(w_mm, h_mm, ff):
     """Part-width body lying on its side on a shelf: front face w_mm wide, h_mm high."""
-    return dict(ru=math.ceil(h_mm / RU - 0.02), w=min(12, math.ceil(w_mm / CW - 0.02)), boxMm={'w': w_mm, 'h': h_mm}, formFactor=ff)
+    fit = lambda w, h: dict(ru=math.ceil(h / RU - 0.02), widthCols=min(12, math.ceil(w / CW - 0.02)), boxMm={'w': w, 'h': h})
+    a, b = fit(w_mm, h_mm), fit(h_mm, w_mm)
+    # the app asks on placing whether it sits on its side (the model's own size, first) or upright; pcie = how the card brackets run
+    return dict(ru=a['ru'], w=a['widthCols'], boxMm=a['boxMm'], formFactor=ff, pcieOrient='v',
+                orientations=[dict(key='side', label='On its side', pcie='v', **a), dict(key='upright', label='Upright', pcie='h', **b)])
 
 GPU_NOTE = 'GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). '
 CARD_NOTE = ('Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra '

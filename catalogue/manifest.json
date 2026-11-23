@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": "94c2394a0fed",
- "updated": "2026-11-23T23:20:49Z",
+ "version": "8ee5685b07ba",
+ "updated": "2026-11-23T23:28:30Z",
  "entries": 3563,
  "files": {
   "ross.json": {
@@ -1315,9 +1315,9 @@
    "bytes": 82253
   },
   "dell-precision.json": {
-   "sha256": "62152b32be6fb75d5b5f8139037246817a967335baa6d8eacc1a5db37269e4b3",
+   "sha256": "8aec292daec8e8d457c967e31dab796f715bd6f1f16e9dcdb52126eeaa29664e",
    "entries": 19,
-   "bytes": 63753
+   "bytes": 69239
   }
  }
 }
