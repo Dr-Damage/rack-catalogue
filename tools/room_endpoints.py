@@ -8,6 +8,8 @@ Two kinds:
 - Room gear (category 'endpoint', tag EP): generic TVs, commercial displays, SDI monitors, projectors, PCs, laptops, KVM desk
   receivers, mics, speakers, access points, intercom beltpacks and wall stations, tally lights. Each carries `endpoint` (the
   Signal paths end point kind it belongs to) so the Model picker on New endpoint lists it.
+- Mains power outlets (GPOs, 2026-11-23; category 'endpoint', endpoint 'power'): AU / NZ 10A, 15A, 20A, 32A and 3 phase outlets, plus IEC
+  C13 / C19, IEC 60309, Schuko, UK and NEMA. Each carries a hardwired `pdu` block, so it has outlets to cable power into.
 
 All generic, so connectors are typical rather than one product's: verified=False with a 'Check:' note.
 """
@@ -141,6 +143,59 @@ ep('ic-wall', 'other', 'Generic intercom wall station', 'Intercom wall / speaker
    [g('io', 'Intercom', 'RJ45', 1, '4-wire / IP'), g('io', 'Other', 'XLR5F', 1, 'Headset')])
 ep('tally-light', 'other', 'Generic tally light', 'Studio tally / on-air light (GPI)', 'Tally', [g('in', 'GPI', 'Other', 1, 'Tally In'), g('in', 'Power', 'Other', 1, 'Power In')])
 ep('onair-sign', 'other', 'Generic on-air sign', 'On-air / recording sign (GPI, mains)', 'Tally', [g('in', 'GPI', 'Other', 1, 'GPI In'), IEC('IEC C8')])
+
+
+# ---------------- mains power outlets (GPOs) ----------------
+# A GPO is modelled like a hardwired power strip: a `pdu` block (plug 'hard', the outlets and the circuit that feeds them), so
+# its ports are "Mains In" + "Outlet n", a room unit's Power In cables to an outlet (cable P-nnnn) and the outlet shows its
+# load like a rack PDU does. Category 'endpoint', endpoint 'power' (Signal paths: Mains power outlet (GPO)).
+GPO_NOTE = ('Mains outlet in the room. Cable a unit\'s Power In to one of its outlets to show what it feeds and the load on the '
+            'circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is '
+            'for a licensed electrician.')
+
+
+def gpo(id, pn, name, fam, outlets, volts=230, amps=10, phase=1, circuit=None, notes=''):
+    circuit = circuit or {'id': 'A', 'type': 'rcbo', 'amps': 16 if amps <= 10 else 20 if amps <= 16 else 32 if amps <= 32 else amps, 'mA': 30}
+    items.append({'id': 'room-' + id, 'manufacturer': 'Generic', 'partNumber': pn, 'name': name, 'family': fam, 'category': 'endpoint',
+                  'endpoint': 'power', 'ru': 1, 'widthCols': 12, 'fullDepth': False, 'verified': False, 'source': 'Generic',
+                  'notes': (notes + ' ' if notes else '') + GPO_NOTE + ' ' + OFF + ' ' + CHECK,
+                  'pdu': {'mount': 'h', 'phase': phase, 'volts': volts, 'amps': amps, 'plug': 'hard', 'main': {'type': 'none'},
+                          'circuits': [circuit], 'outlets': [{'type': t, 'count': n, 'circuit': 'A', 'switched': sw} for t, n, sw in outlets],
+                          'metering': 'none'},
+                  'portGroups': []})
+
+
+AU = 'AU / NZ power outlet (GPO)'
+gpo('gpo-au-1-10', 'GPO single 10A', 'Power point (GPO), single 10A switched, AS/NZS 3112', AU, [('au10', 1, True)])
+gpo('gpo-au-2-10', 'GPO double 10A', 'Power point (GPO), double 10A switched, AS/NZS 3112', AU, [('au10', 2, True)])
+gpo('gpo-au-4-10', 'GPO quad 10A', 'Power point (GPO), quad 10A switched (desk / AV wall)', AU, [('au10', 4, True)])
+gpo('gpo-au-2-10-ip', 'GPO double 10A IP56', 'Weatherproof power point, double 10A switched, IP56', AU, [('au10', 2, True)],
+    notes='For outdoor camera positions, roofs and wash-down areas.')
+gpo('gpo-au-1-15', 'GPO single 15A', 'Power point (GPO), single 15A switched (wide earth pin)', AU, [('au15', 1, True)], amps=15)
+gpo('gpo-au-2-15', 'GPO double 15A', 'Power point (GPO), double 15A switched (wide earth pin)', AU, [('au15', 2, True)], amps=15)
+gpo('gpo-au-1-20', 'Outlet single 20A', 'Power outlet, single 20A switched, AS/NZS 3112', AU, [('au20', 1, True)], amps=20)
+gpo('gpo-au-32-1p', 'Outlet 32A single phase', 'Industrial outlet, 32A single phase 3 pin round (AS/NZS 3123), switched', AU, [('au32', 1, True)], amps=32,
+    notes='For a large PDU, UPS or OB truck feed.')
+gpo('gpo-au-20-3p', 'Outlet 20A 3 phase 5 pin', 'Industrial outlet, 20A 3 phase 5 pin (AS/NZS 3123), switched', AU, [('au3p20', 1, True)], volts=400, amps=20, phase=3,
+    circuit={'id': 'A', 'type': 'rcbo', 'amps': 20, 'mA': 30})
+gpo('gpo-au-32-3p', 'Outlet 32A 3 phase 5 pin', 'Industrial outlet, 32A 3 phase 5 pin (AS/NZS 3123), switched', AU, [('au3p32', 1, True)], volts=400, amps=32, phase=3,
+    circuit={'id': 'A', 'type': 'rcbo', 'amps': 32, 'mA': 30}, notes='For a 3 phase rack PDU, dimmer rack or OB truck feed.')
+IEC = 'IEC and other region outlets'
+gpo('gpo-c13-2', 'Outlet plate 2 x IEC C13', 'Outlet plate, 2 x IEC C13 (UPS or clean power circuit)', IEC, [('c13', 2, False)])
+gpo('gpo-c19-1', 'Outlet plate 1 x IEC C19', 'Outlet plate, 1 x IEC C19 16A', IEC, [('c19', 1, False)], amps=16)
+gpo('gpo-cee16-1', 'Outlet IEC 60309 16A blue', 'Industrial outlet, IEC 60309 16A single phase (blue)', IEC, [('cee16', 1, True)], amps=16)
+gpo('gpo-cee32-1', 'Outlet IEC 60309 32A blue', 'Industrial outlet, IEC 60309 32A single phase (blue)', IEC, [('cee32', 1, True)], amps=32)
+gpo('gpo-cee3p16-1', 'Outlet IEC 60309 16A red 3 phase', 'Industrial outlet, IEC 60309 16A 3 phase (red)', IEC, [('cee3p16', 1, True)], volts=400, amps=16, phase=3,
+    circuit={'id': 'A', 'type': 'rcbo', 'amps': 16, 'mA': 30})
+gpo('gpo-cee3p32-1', 'Outlet IEC 60309 32A red 3 phase', 'Industrial outlet, IEC 60309 32A 3 phase (red)', IEC, [('cee3p32', 1, True)], volts=400, amps=32, phase=3,
+    circuit={'id': 'A', 'type': 'rcbo', 'amps': 32, 'mA': 30})
+gpo('gpo-schuko-2', 'Outlet double Schuko', 'Power outlet, double Schuko (Europe, CEE 7/3)', IEC, [('schuko', 2, False)], amps=16)
+gpo('gpo-uk-2', 'Outlet twin UK 13A', 'Power outlet, twin switched 13A (UK, BS 1363)', IEC, [('uk', 2, True)], amps=13,
+    circuit={'id': 'A', 'type': 'rcbo', 'amps': 32, 'mA': 30}, notes='UK sockets are usually on a 32A ring final circuit.')
+gpo('gpo-nema-515-2', 'Duplex receptacle NEMA 5-15R', 'Duplex receptacle, 2 x NEMA 5-15R 15A 120V (North America)', IEC, [('n515', 2, False)], volts=120, amps=15,
+    circuit={'id': 'A', 'type': 'mcb', 'amps': 15})
+gpo('gpo-nema-520-2', 'Duplex receptacle NEMA 5-20R', 'Duplex receptacle, 2 x NEMA 5-20R 20A 120V (North America)', IEC, [('n520', 2, False)], volts=120, amps=20,
+    circuit={'id': 'A', 'type': 'mcb', 'amps': 20})
 
 json.dump(items, open(OUT, 'w'), indent=1)
 print(len(items), 'entries ->', OUT)

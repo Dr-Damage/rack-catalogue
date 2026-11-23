@@ -2215,5 +2215,863 @@
     "prefix": "Power In"
    }
   ]
+ },
+ {
+  "id": "room-gpo-au-1-10",
+  "manufacturer": "Generic",
+  "partNumber": "GPO single 10A",
+  "name": "Power point (GPO), single 10A switched, AS/NZS 3112",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 10,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au10",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-2-10",
+  "manufacturer": "Generic",
+  "partNumber": "GPO double 10A",
+  "name": "Power point (GPO), double 10A switched, AS/NZS 3112",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 10,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au10",
+     "count": 2,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-4-10",
+  "manufacturer": "Generic",
+  "partNumber": "GPO quad 10A",
+  "name": "Power point (GPO), quad 10A switched (desk / AV wall)",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 10,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au10",
+     "count": 4,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-2-10-ip",
+  "manufacturer": "Generic",
+  "partNumber": "GPO double 10A IP56",
+  "name": "Weatherproof power point, double 10A switched, IP56",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "For outdoor camera positions, roofs and wash-down areas. Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 10,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au10",
+     "count": 2,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-1-15",
+  "manufacturer": "Generic",
+  "partNumber": "GPO single 15A",
+  "name": "Power point (GPO), single 15A switched (wide earth pin)",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 15,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au15",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-2-15",
+  "manufacturer": "Generic",
+  "partNumber": "GPO double 15A",
+  "name": "Power point (GPO), double 15A switched (wide earth pin)",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 15,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au15",
+     "count": 2,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-1-20",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet single 20A",
+  "name": "Power outlet, single 20A switched, AS/NZS 3112",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 20,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au20",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-32-1p",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet 32A single phase",
+  "name": "Industrial outlet, 32A single phase 3 pin round (AS/NZS 3123), switched",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "For a large PDU, UPS or OB truck feed. Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au32",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-20-3p",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet 20A 3 phase 5 pin",
+  "name": "Industrial outlet, 20A 3 phase 5 pin (AS/NZS 3123), switched",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 3,
+   "volts": 400,
+   "amps": 20,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au3p20",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-au-32-3p",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet 32A 3 phase 5 pin",
+  "name": "Industrial outlet, 32A 3 phase 5 pin (AS/NZS 3123), switched",
+  "family": "AU / NZ power outlet (GPO)",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "For a 3 phase rack PDU, dimmer rack or OB truck feed. Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 3,
+   "volts": 400,
+   "amps": 32,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "au3p32",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-c13-2",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet plate 2 x IEC C13",
+  "name": "Outlet plate, 2 x IEC C13 (UPS or clean power circuit)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 10,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c13",
+     "count": 2,
+     "circuit": "A",
+     "switched": false
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-c19-1",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet plate 1 x IEC C19",
+  "name": "Outlet plate, 1 x IEC C19 16A",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "c19",
+     "count": 1,
+     "circuit": "A",
+     "switched": false
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-cee16-1",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet IEC 60309 16A blue",
+  "name": "Industrial outlet, IEC 60309 16A single phase (blue)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "cee16",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-cee32-1",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet IEC 60309 32A blue",
+  "name": "Industrial outlet, IEC 60309 32A single phase (blue)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 32,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "cee32",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-cee3p16-1",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet IEC 60309 16A red 3 phase",
+  "name": "Industrial outlet, IEC 60309 16A 3 phase (red)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 3,
+   "volts": 400,
+   "amps": 16,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 16,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "cee3p16",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-cee3p32-1",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet IEC 60309 32A red 3 phase",
+  "name": "Industrial outlet, IEC 60309 32A 3 phase (red)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 3,
+   "volts": 400,
+   "amps": 32,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "cee3p32",
+     "count": 1,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-schuko-2",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet double Schuko",
+  "name": "Power outlet, double Schuko (Europe, CEE 7/3)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 16,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 20,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "schuko",
+     "count": 2,
+     "circuit": "A",
+     "switched": false
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-uk-2",
+  "manufacturer": "Generic",
+  "partNumber": "Outlet twin UK 13A",
+  "name": "Power outlet, twin switched 13A (UK, BS 1363)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "UK sockets are usually on a 32A ring final circuit. Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 230,
+   "amps": 13,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "rcbo",
+     "amps": 32,
+     "mA": 30
+    }
+   ],
+   "outlets": [
+    {
+     "type": "uk",
+     "count": 2,
+     "circuit": "A",
+     "switched": true
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-nema-515-2",
+  "manufacturer": "Generic",
+  "partNumber": "Duplex receptacle NEMA 5-15R",
+  "name": "Duplex receptacle, 2 x NEMA 5-15R 15A 120V (North America)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 120,
+   "amps": 15,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 15
+    }
+   ],
+   "outlets": [
+    {
+     "type": "n515",
+     "count": 2,
+     "circuit": "A",
+     "switched": false
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
+ },
+ {
+  "id": "room-gpo-nema-520-2",
+  "manufacturer": "Generic",
+  "partNumber": "Duplex receptacle NEMA 5-20R",
+  "name": "Duplex receptacle, 2 x NEMA 5-20R 20A 120V (North America)",
+  "family": "IEC and other region outlets",
+  "category": "endpoint",
+  "endpoint": "power",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic",
+  "notes": "Mains outlet in the room. Cable a unit's Power In to one of its outlets to show what it feeds and the load on the circuit. The circuit (breaker / RCD at the board) is typical: set it to match the electrical drawings. Mains wiring is for a licensed electrician. Off-rack end point: leave it out of the racks and type where it is (or add it as an end point in Signal paths and pick the model there). Generic room end point: typical connectors, check against the actual product before ordering.",
+  "pdu": {
+   "mount": "h",
+   "phase": 1,
+   "volts": 120,
+   "amps": 20,
+   "plug": "hard",
+   "main": {
+    "type": "none"
+   },
+   "circuits": [
+    {
+     "id": "A",
+     "type": "mcb",
+     "amps": 20
+    }
+   ],
+   "outlets": [
+    {
+     "type": "n520",
+     "count": 2,
+     "circuit": "A",
+     "switched": false
+    }
+   ],
+   "metering": "none"
+  },
+  "portGroups": []
  }
 ]
