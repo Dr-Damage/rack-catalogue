@@ -95,15 +95,7 @@ DE('precision-7960-rack', 'Precision 7960 Rack', 'Precision 7960 Rack 2U worksta
    'one or two hot-plug PSUs 800-2400 W (1400/2400 W need C19 cords). GPU DisplayPort count depends on the card fitted (4 assumed). '
    'Serial only via PCIe card.', 'Dell Precision 7960 Rack spec sheet',
    'https://www.dell.com/en-au/shop/desktop-computers/precision-7960-rack/spd/precision-r7960-workstation', full=True)
-for code, ru, notes in [('7920', 2, 'Two-socket Xeon Scalable, up to 3 double-wide GPUs, iDRAC9, dual PSUs.'),
-                        ('3930', 1, 'Single-socket Xeon E / Core, short depth, up to 1 GPU, 1 or 2 PSUs.')]:
-    DE(f'precision-{code}-rack', f'Precision {code} Rack', f'Precision {code} Rack {ru}U workstation', 'Precision Rack', 'computer', ru,
-       [F('io', 'USB', 'USB-A', 2, 'USB'), R('out', 'Other', 'VGA', 1, 'VGA'), R('io', 'USB', 'USB-A', 4, 'USB'),
-        R('io', 'Ethernet', 'RJ45', 2, '1GbE'), R('io', 'Ethernet', 'RJ45', 1, 'iDRAC/Remote mgmt'), R('io', 'Other', 'DB9', 1, 'Serial'),
-        R('io', 'Other', 'Card slot', 3 if ru == 1 else 6, 'PCIe slot'), R('out', 'DisplayPort', 'DisplayPort', 4, 'GPU outputs'),
-        R('in', 'Power', 'IEC C14', 2, 'PSU')],
-       f'{ru}U rack workstation (previous generation). {notes} Check: every port count (catalogued from the platform family, not the spec sheet).',
-       'Dell Precision rack workstation family', 'https://www.dell.com/en-au/shop/workstations', verified=False, full=(ru == 2))
+# Precision 7920 Rack and 3930 Rack moved to tools/precision.py (catalogue/dell-precision.json) on 2026-11-24 with spec-sheet ports.
 
 # ---- Dell Smart-UPS (APC-built, same hardware as APC SMT) ----
 for va, w, out, inp in [(1500, 1000, [('IEC C13', 4)], 'IEC C14'), (3000, 2700, [('IEC C13', 8), ('IEC C19', 1)], 'IEC C20')]:

@@ -1,0 +1,2501 @@
+[
+ {
+  "id": "dell-precision-3240-compact",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3240 Compact",
+  "name": "Precision 3240 Compact workstation",
+  "family": "Precision Compact",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3240 Compact visual guide (KB 000180594) and setup and specifications",
+  "productUrl": "https://www.dell.com/support/kbdoc/en-us/000180594/precision-3240-compact-visual-guide-to-your-computer",
+  "notes": "Ultra-small workstation (10th gen Core / Xeon W, 2020). 188.1 x 70.2 x 178.65 mm (H x W x D), 1.71 kg. One low-profile PCIe x8 Gen3 slot for a Quadro P620 / P1000 (their mini-DP outputs: fit the card or add the ports). External 180 W adapter, 240 W with a graphics card (19.5 V DC, 7.4 mm barrel; the adapter itself takes an IEC C5 or C13 cord, Check). VESA 100 mount points. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. No Dell rack kit: drawn lying on its side on a shelf. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out / line in (re-tasking)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4 (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 (1 SmartPower)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x8 slot (low profile)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC in (19.5 V, 7.4 mm barrel, external adapter)"
+   }
+  ],
+  "weightKg": 1.71,
+  "powerW": 240,
+  "boxMm": {
+   "w": 188.1,
+   "h": 70.2
+  },
+  "formFactor": "Dell Precision Compact"
+ },
+ {
+  "id": "dell-precision-3260-compact",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3260 Compact",
+  "name": "Precision 3260 Compact workstation",
+  "family": "Precision Compact",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 5,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3260 Compact spec sheet",
+  "productUrl": "https://www.delltechnologies.com/asset/en-gb/products/workstations/technical-support/precision-3260-spec-sheet.pdf",
+  "notes": "Ultra-small workstation (12th/13th gen Core, 2022-2024). 190 x 71.8 x 178 mm (H x W x D), 1.37 to 2.03 kg. One half-height PCIe Gen4 x8 slot for an NVIDIA T400 / T1000 / RTX 3000 class card. External 180 W or 240 W adapter (7.4 mm barrel). The optional rear port can be PS/2 + serial, HDMI 2.0b, DP 1.4a, VGA or USB-C with DP Alt. VESA 100 mount points. No Dell rack kit: drawn lying on its side on a shelf. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out / line in (re-tasking)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 3,
+    "prefix": "DisplayPort 1.4a (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional port (HDMI / DP / VGA / USB-C / PS2-serial, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x8 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC in (19.5 V, 7.4 mm barrel, external adapter)"
+   }
+  ],
+  "weightKg": 2.03,
+  "powerW": 240,
+  "boxMm": {
+   "w": 190,
+   "h": 71.8
+  },
+  "formFactor": "Dell Precision Compact"
+ },
+ {
+  "id": "dell-precision-3280-compact",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3280 Compact",
+  "name": "Precision 3280 Compact workstation",
+  "family": "Precision Compact",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3280 CFF technical guidebook (Rev A01, May 2024)",
+  "productUrl": "https://delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3280-cff-technical-guidebook.pdf.external",
+  "notes": "Compact workstation (14th gen Core, 2024). 206 x 79.3 x 178 mm (H x W x D), 1.83 to 2.54 kg. One PCIe x8 slot (75 W) for an RTX 4000 SFF Ada (4 x DP), RTX 2000 Ada / T1000 (4 x mini-DP) or T400 (3 x mini-DP). Serial only as a PCIe card. External 180 W or 280 W adapter (7.4 mm barrel). No Dell rack kit: drawn lying on its side on a shelf. ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C (20 Gb)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2 (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 3,
+    "prefix": "DisplayPort 1.4a (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI 2.1 / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x8 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC in (19.5 V, 7.4 mm barrel, external adapter)"
+   }
+  ],
+  "weightKg": 2.54,
+  "powerW": 280,
+  "boxMm": {
+   "w": 206,
+   "h": 79.3
+  },
+  "formFactor": "Dell Precision Compact"
+ },
+ {
+  "id": "dell-precision-3450-sff",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3450 SFF",
+  "name": "Precision 3450 Small Form Factor workstation",
+  "family": "Precision SFF",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3450 SFF setup and specifications (Rev A02)",
+  "productUrl": "https://coloradosos.gov/pubs/elections/VotingSystems/DVS-DemocracySuite517/documentation/DellPrecision3450-SFFSetupandSpecifications.pdf",
+  "notes": "SFF workstation (10th/11th gen Core, Xeon W, 2021). 290 x 92.6 x 292.8 mm (H x W x D), up to 5.96 kg. Two half-height PCIe slots (Gen4 x16, Gen3 x4) for a Quadro P400 to P1000 / Radeon Pro WX class card. Internal 260 W Bronze or 300 W Platinum PSU, 90-264 V AC. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. No Dell rack kit: drawn lying on its side on a shelf. Check: AC inlet (IEC C14 drawn, the spec says \"AC-in\").",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4 (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219-LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out / line in (re-tasking)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen4 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 5.96,
+  "powerW": 300,
+  "boxMm": {
+   "w": 290,
+   "h": 92.6
+  },
+  "formFactor": "Dell Precision SFF"
+ },
+ {
+  "id": "dell-precision-3460-sff",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3460 SFF",
+  "name": "Precision 3460 Small Form Factor workstation",
+  "family": "Precision SFF",
+  "category": "computer",
+  "ru": 3,
+  "widthCols": 8,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3460 SFF spec sheet and technical guidebook (Rev A04)",
+  "productUrl": "https://www.delltechnologies.com/asset/en-ca/products/workstations/technical-support/precision-3460-sff-spec-sheet.pdf",
+  "notes": "SFF workstation (12th to 14th gen Core, 2022-2024). 290 x 92.6 x 292.8 mm (H x W x D), 3.87 to 5.38 kg. Two half-height PCIe slots (Gen4 x16, Gen3 x4) for low-profile cards up to an RTX 4000 SFF Ada / RTX A2000. Optional rear serial / PS2 port (add it if fitted). Internal 260 W Bronze or 300 W Platinum PSU. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. No Dell rack kit: drawn lying on its side on a shelf. Check: AC inlet (IEC C14 drawn) and the RJ45 speed (Dell papers give 1GbE i219 and 2.5GbE i225).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 3,
+    "prefix": "DisplayPort 1.4a (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out / line in (re-tasking)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen4 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot (half height)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 5.38,
+  "powerW": 300,
+  "boxMm": {
+   "w": 290,
+   "h": 92.6
+  },
+  "formFactor": "Dell Precision SFF"
+ },
+ {
+  "id": "dell-precision-3630-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3630 Tower",
+  "name": "Precision 3630 Tower workstation",
+  "family": "Precision 36xx Tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision Tower 3630 technical guidebook (Rev A01)",
+  "productUrl": "https://japancatalog.dell.com/c/wp-content/uploads/Dell_Precision_Tower_3630_Technical_Guide_Book.pdf",
+  "notes": "Mini tower workstation (8th/9th gen Core, Xeon E, 2018). 335 x 176.6 x 345 mm (H x W x D), 10.6 kg. 4 full-height slots: PCIe x16, 2 x PCIe x4 (open ended), legacy PCI. 300 W Bronze, 460 W or 850 W Gold PSU. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit: drawn lying on its side on a shelf (stood upright it is 8U to 9U tall and 4 to 5 columns wide). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Front USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Front USB 3.1 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.1 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 4,
+    "prefix": "USB 3.1 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x4 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCI slot (legacy)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 10.6,
+  "powerW": 850,
+  "boxMm": {
+   "w": 335,
+   "h": 176.6
+  },
+  "formFactor": "Dell Precision 36xx tower (on its side)"
+ },
+ {
+  "id": "dell-precision-3640-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3640 Tower",
+  "name": "Precision 3640 Tower workstation",
+  "family": "Precision 36xx Tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3640 Tower setup and specifications (Rev A02)",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/Dell/Dell%20Precision%20T3640/Precision%203640%20Tower%20Setup%20and%20Specifications.pdf",
+  "notes": "Mini tower workstation (10th gen Core, Xeon W-1200, 2020). 335 x 176.6 x 345 mm (H x W x D), 10.6 kg. Front shown is the standard I/O panel; the advanced panel has 3 USB-A, 1 USB-C and an SD reader. 3 full-height slots: PCIe x16, PCIe x4, legacy PCI. Serial only as an add-in card. 300 W to 1000 W PSU, 90-264 V AC. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit: drawn lying on its side on a shelf (stood upright it is 8U to 9U tall and 4 to 5 columns wide). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1 (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headphone"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4 (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219-LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out / line in (re-tasking)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCI slot (legacy)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 10.6,
+  "powerW": 1000,
+  "boxMm": {
+   "w": 335,
+   "h": 176.6
+  },
+  "formFactor": "Dell Precision 36xx tower (on its side)"
+ },
+ {
+  "id": "dell-precision-3650-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3650 Tower",
+  "name": "Precision 3650 Tower workstation",
+  "family": "Precision 36xx Tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 9,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3650 Tower spec sheet",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/Dell/Dell%20Precision%203650/Dell%20Precision%203650%20Tower%20Workstation%20Spec%20Sheet.pdf",
+  "notes": "Mini tower workstation (11th gen Core, Xeon W-1300, 2021). 335 x 176.6 x 345 mm (H x W x D), 8.5 kg. Front shown is the standard I/O panel (the advanced panel adds USB-A, a 20 Gb USB-C and an SD reader). Optional second RJ45 (2.5GbE): add it if fitted. 3 full-height slots: PCIe x16 Gen4 (graphics up to 350 W), PCIe x4, legacy PCI. 300 W to 1000 W Gold PSU. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit: drawn lying on its side on a shelf (stood upright it is 8U to 9U tall and 4 to 5 columns wide). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 1 (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Headset"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4 (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219-LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCI slot (legacy)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 8.5,
+  "powerW": 1000,
+  "boxMm": {
+   "w": 335,
+   "h": 176.6
+  },
+  "formFactor": "Dell Precision 36xx tower (on its side)"
+ },
+ {
+  "id": "dell-precision-3660-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3660 Tower",
+  "name": "Precision 3660 Tower workstation",
+  "family": "Precision 36xx Tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 10,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3660 Tower technical guidebook (Rev A03, June 2023)",
+  "productUrl": "https://delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3660t-technical-guidebook.pdf",
+  "notes": "Tower workstation (12th/13th gen Core, 2022-2023). 372.9 x 173 x 420.2 mm (H x W x D), 8.44 to 16.36 kg. SD reader and slim optical bay on the front. Optional 2.5GbE RJ45 (add it if fitted). No rear serial or PS/2 (add-in brackets). 3 slots: PCIe x16 Gen5 (graphics), x4 Gen4, x4 Gen3. 300 W to 1000 W Platinum PSU, 90-264 V AC. The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit: drawn lying on its side on a shelf (stood upright it is 8U to 9U tall and 4 to 5 columns wide). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4a (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219-LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen5 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 16.36,
+  "powerW": 1000,
+  "boxMm": {
+   "w": 372.9,
+   "h": 173
+  },
+  "formFactor": "Dell Precision 36xx tower (on its side)"
+ },
+ {
+  "id": "dell-precision-3680-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3680 Tower",
+  "name": "Precision 3680 Tower workstation",
+  "family": "Precision 36xx Tower",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 10,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 3680 Tower technical guidebook (Rev A02, June 2025)",
+  "productUrl": "https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3680-tower-technical-guidebook.pdf",
+  "notes": "Tower workstation (14th gen Core, 2024-2025). 372.9 x 173 x 420.2 mm (H x W x D), 7.58 to 16.05 kg. SD slot on the front. Optional 2.5GbE RJ45 (add it if fitted). Serial only as a PCIe card. 3 slots: PCIe x16, Gen3 x4, Gen4 x4. 300 W, 500 W or 1000 W Platinum PSU (1000 W for K-series CPUs). The optional rear video port is a factory-fitted module: HDMI, DisplayPort, VGA or USB-C with DP Alt mode; rename or delete the \"Optional video port\" if yours differs or is blank. Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit: drawn lying on its side on a shelf (stood upright it is 8U to 9U tall and 4 to 5 columns wide). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0 (Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 2,
+    "prefix": "DisplayPort 1.4a (on board)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Optional video port (HDMI / DP / VGA / USB-C, or empty)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219-LM)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 16.05,
+  "powerW": 1000,
+  "boxMm": {
+   "w": 372.9,
+   "h": 173
+  },
+  "formFactor": "Dell Precision 36xx tower (on its side)"
+ },
+ {
+  "id": "dell-precision-5820-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 5820 Tower",
+  "name": "Precision 5820 Tower workstation",
+  "family": "Precision 5000/7000 Tower (2017)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 11,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 5820 Tower spec sheet and 5820/7820 technical guidebook",
+  "productUrl": "https://delltechnologies.com/asset/en-vn/products/workstations/technical-support/Precision_5820_Tower_Spec_Sheet.pdf",
+  "notes": "Single-socket Xeon W-2100/2200 tower (2017-2022). 425 W or 950 W Gold PSU. Up to 2 x 295 W double-width GPUs. 417.9 x 176.5 x 518.2 mm (H x W x D), 13.2 to 15.4 kg. SD slot on the front. 5 PCIe x16 physical slots (2 x16, x8, x4 and x1 wired) plus one legacy PCI. GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit listed for this model: drawn lying on its side on a shelf (4U, about 520 mm deep with feet). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 Type-C (1 DP / Power Delivery)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.2 Gen 1 (1 DP / Power Delivery)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in / mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCI slot (legacy)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 15.4,
+  "powerW": 950,
+  "boxMm": {
+   "w": 417.9,
+   "h": 176.5
+  },
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+ },
+ {
+  "id": "dell-precision-7820-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7820 Tower",
+  "name": "Precision 7820 Tower workstation",
+  "family": "Precision 5000/7000 Tower (2017)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 11,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 7820 Tower spec sheet and 5820/7820 technical guidebook",
+  "productUrl": "https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/Precision_7820_Tower_Spec_Sheet.pdf",
+  "notes": "Dual-socket Xeon Scalable tower (2017-2022). 950 W Gold PSU. Up to 2 x 295 W double-width GPUs (2 x 160 W single-width with the second CPU). 417.9 x 176.5 x 518.2 mm (H x W x D), 13.2 to 15.4 kg. SD slot on the front. 5 PCIe x16 physical slots (2 x16, x8, x4 and x1 wired) plus one legacy PCI. GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit listed for this model: drawn lying on its side on a shelf (4U, about 520 mm deep with feet). Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1 Type-C (1 DP / Power Delivery)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.2 Gen 1 (1 DP / Power Delivery)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in / mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel i219)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 5,
+    "prefix": "PCIe slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCI slot (legacy)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 15.4,
+  "powerW": 950,
+  "boxMm": {
+   "w": 417.9,
+   "h": 176.5
+  },
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+ },
+ {
+  "id": "dell-precision-7920-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7920 Tower",
+  "name": "Precision 7920 Tower workstation on rack rails (5U)",
+  "family": "Precision 5000/7000 Tower (2017)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Dell Precision 7920 Tower spec sheet and technical guidebook",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0248/8539/5502/files/Precision-7920-Tower-Spec-Sheet.pdf",
+  "notes": "Dual-socket Xeon Scalable full tower (2017-2022). 433 x 218 x 566 mm (H x W x D), 20.4 to 24.3 kg. Optional Dell 19-inch rack rail kit: drawn 5U on its side (Dell gives no U figure; the 7960 Tower on the same kit takes 5U). 7 slots (slots 6 and 7 need the second CPU), up to 3 x 300 W double-width GPUs. 1400 W Gold PSU (1100 W at 108-180 V). Optional 10GbE X550-T2 card. SD slot on the front. GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. Check: rack height and the AC inlet (IEC C14 drawn; 1400 W units often take C19/C20).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.1 Type-C (1 PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3.1 Gen 1 (1 PowerShare)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "1GbE (Intel i219 + i210, 1 AMT)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line in / mic"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x8 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 6,
+    "prefix": "PCIe x16 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 24.3,
+  "powerW": 1400
+ },
+ {
+  "id": "dell-precision-5860-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 5860 Tower",
+  "name": "Precision 5860 Tower workstation",
+  "family": "Precision 5000/7000 Tower (2023)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 11,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Dell Precision 5860 Tower spec sheet",
+  "productUrl": "https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-5860-tower-spec-sheet.pdf",
+  "notes": "Single-socket Xeon W-2400/2500 mid tower (2023-). 414 x 172.6 x 429.6 mm (417.9 x 176.5 x 452.1 mm with feet), 14.4 to 21.7 kg. SD slot on the front. 5 full-height slots (Gen5 x16, Gen4 x16, 3 x Gen4 x8, one wired x4), up to 2 GPUs. 750 W or 1350 W Platinum PSU. Serial and PS/2 are optional on the rear (add them if fitted). GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit listed for this model: drawn lying on its side on a shelf (4U, about 520 mm deep with feet). Check: AC inlet (IEC C14 drawn; the 1350 W unit takes C20 on the 7875).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen5 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe x8 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 21.7,
+  "powerW": 1350,
+  "boxMm": {
+   "w": 417.9,
+   "h": 176.5
+  },
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+ },
+ {
+  "id": "dell-precision-7865-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7865 Tower",
+  "name": "Precision 7865 Tower workstation (AMD Threadripper PRO)",
+  "family": "Precision 5000/7000 Tower (2023)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 11,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Dell Precision 7865 spec sheet",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0593/9249/1689/files/precision-7865-spec-sheet.pdf",
+  "notes": "AMD Threadripper PRO 5000WX tower (2022-2023). 414 x 172.6 x 429.6 mm (417.9 x 176.5 x 452.1 mm with feet), 16.1 to 21.9 kg. SD reader on the front. 5 full-height slots (2 x Gen4 x16, 3 x Gen4 x8), up to 2 x 300 W GPUs. 1350 W Platinum PSU. Serial and PS/2 are optional on the rear (add them if fitted). GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit listed for this model: drawn lying on its side on a shelf (4U, about 520 mm deep with feet). Check: AC inlet (IEC C20 drawn, as the 1350 W unit on the 7875).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x16 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 3,
+    "prefix": "PCIe x8 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 21.9,
+  "powerW": 1350,
+  "boxMm": {
+   "w": 417.9,
+   "h": 176.5
+  },
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+ },
+ {
+  "id": "dell-precision-7875-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7875 Tower",
+  "name": "Precision 7875 Tower workstation (AMD Threadripper PRO)",
+  "family": "Precision 5000/7000 Tower (2023)",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 7875 Tower spec sheet",
+  "productUrl": "https://pcserverandparts.com/content/Spec%20Sheets/Workstations/Dell/Dell%20Precision%207875/Dell%20Precision%207875%20Tower%20Spec%20Sheet.pdf",
+  "notes": "AMD Threadripper PRO 7000WX / 9000WX tower (2023-). 442.7 x 172.6 x 465 mm (446.6 x 176.5 x 487.5 mm with feet), 18.3 to 25.6 kg. SD slot on the front. 6 full-height slots, up to 2 x 300 W GPUs or one 500 W triple-wide card; no integrated graphics. 1350 W Platinum PSU on an IEC C20 inlet (the 1000 W option takes C14). Serial and PS/2 are optional on the rear (add them if fitted). GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. No Dell rack kit listed for this model: drawn lying on its side on a shelf (4U, about 520 mm deep with feet). ",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x16 slot (1 Gen5)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "PCIe x8 slot (1 Gen5)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 25.6,
+  "powerW": 1350,
+  "boxMm": {
+   "w": 446.6,
+   "h": 176.5
+  },
+  "formFactor": "Dell Precision 5000/7000 tower (on its side)"
+ },
+ {
+  "id": "dell-precision-7960-tower",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7960 Tower",
+  "name": "Precision 7960 Tower workstation on rack rails (5U)",
+  "family": "Precision 5000/7000 Tower (2023)",
+  "category": "computer",
+  "ru": 5,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 7960 Tower spec sheet and technical guidebook (Rev A02)",
+  "productUrl": "https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7960-tower-spec-sheet.pdf",
+  "notes": "Xeon W-3400/3500 full tower (2023-). 430.7 x 218 x 538.3 mm (434.2 x 218 x 569.2 mm with feet), 21 to 37.6 kg. Dell 19-inch rack mount kit: 5U. SD slot and drive flex bays on the front. 8 slots (2 Gen5 x16, 2 Gen4 x16, 4 Gen4 x8, two of them wired x4), up to 4 double-width GPUs. 1100/1400 W Gold or 1500/2200 W Platinum PSU (low/high line). GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. Check: AC inlet (IEC C20 drawn: Dell gives C19/C20 cords for the 1500/2200 W units).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.2 Gen 1"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.2 Gen 2x2 Type-C (PowerShare)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "Front USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 2 Type-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 3,
+    "prefix": "USB 3.2 Gen 1 (1 Smart Power On)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Mini-DIN 6",
+    "count": 2,
+    "prefix": "PS/2 keyboard / mouse"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x16 Gen5 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 2,
+    "prefix": "PCIe x16 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 4,
+    "prefix": "PCIe x8 Gen4 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C20",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "weightKg": 37.6,
+  "powerW": 2200
+ },
+ {
+  "id": "dell-precision-3930-rack",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 3930 Rack",
+  "name": "Precision 3930 Rack 1U workstation",
+  "family": "Precision Rack",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 3930 Rack spec sheet",
+  "productUrl": "https://cdn.shopify.com/s/files/1/0593/9249/1689/files/precision_3930_rack_spec_sheet.pdf",
+  "notes": "1U short-depth rack workstation (Xeon E-2100/2200, 8th/9th gen Core, 2018-2022). 42.8 x 482 x 589.1 mm with bezel (577.6 without), 8.74 kg. SD reader on the front. 3 full-height slots: one double-width x16 GPU up to 295 W or two single-width x8. One or two hot-plug 550 W Platinum PSUs (two needed, non-redundant, for RTX 4000 x 2 / RTX 5000 / RTX 6000; change the count to 1 if only one is fitted). Optional legacy PCI riser. No iDRAC. GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. Check: AC inlet (IEC C14 drawn).",
+  "portGroups": [
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Universal audio jack"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB 3.1 Type-C"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB 3.1 Type-C / DisplayPort (iGPU)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Other",
+    "connector": "Other",
+    "count": 1,
+    "prefix": "Remote power switch"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "1GbE (Intel)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "10GbE (Aquantia)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x16 Gen3 slot (FH, double width)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x8 Gen3 slot (FH)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 1,
+    "prefix": "PCIe x4 Gen3 slot (FH)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "weightKg": 8.74,
+  "powerW": 1100
+ },
+ {
+  "id": "dell-precision-7920-rack",
+  "manufacturer": "Dell",
+  "partNumber": "Precision 7920 Rack",
+  "name": "Precision 7920 Rack 2U workstation",
+  "family": "Precision Rack",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": true,
+  "source": "Dell Precision 7920 Rack (R7920XL) spec sheet",
+  "productUrl": "https://new.abb.com/docs/librariesprovider104/pcp-global-sales-support/dell-precision-r7920xl.pdf",
+  "notes": "2U dual-socket Xeon Scalable rack workstation (2018-2022). 86.8 x 482 x 715.5 mm (751.3 mm with bezel). iDRAC9 with its own RJ45 and VGA. Base network is an Intel i350 quad 1GbE (options: X550 dual 10GbE + i350, or X710 dual 10GbE SFP+; change the ports to suit). 8 PCIe Gen3 slots (x16 mechanical), up to 3 x 300 W double-width GPUs. One or two hot-plug 1100 W Gold PSUs (1600 W at 220 V for big GPU builds; change the count to 1 if only one is fitted). GPU DisplayPort count depends on the card fitted (4 drawn, as an NVIDIA RTX card). Fit PCIe cards (DeckLink, KONA, NICs, GPUs) in the PCIe slots from the card list, or add their ports as extra ports. Check: AC inlet (IEC C14 drawn; 1600 W units take C20).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "VGA (iDRAC)"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 2.0"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "USB 2.0 iDRAC Direct"
+   },
+   {
+    "face": "front",
+    "dir": "out",
+    "type": "Other",
+    "connector": "VGA",
+    "count": 1,
+    "prefix": "Front VGA (iDRAC)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3.1"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "1GbE (Intel i350 quad)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "iDRAC9"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "RS-232",
+    "connector": "DB9",
+    "count": 1,
+    "prefix": "Serial"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Other",
+    "connector": "Card slot",
+    "count": 8,
+    "prefix": "PCIe x16 Gen3 slot"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "DisplayPort",
+    "connector": "DisplayPort",
+    "count": 4,
+    "prefix": "GPU outputs"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "powerW": 1600
+ }
+]
