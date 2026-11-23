@@ -1,0 +1,5506 @@
+[
+ {
+  "id": "bmdcard-decklink-mini-recorder",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Mini Recorder",
+  "name": "DeckLink Mini Recorder (HD capture)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "bmdcard-decklink-mini-monitor",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Mini Monitor",
+  "name": "DeckLink Mini Monitor (HD playback)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "bmdcard-decklink-mini-recorder-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Mini Recorder 4K",
+  "name": "DeckLink Mini Recorder 4K",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.0 In"
+     }
+    ]
+   }
+  ],
+  "powerW": 7
+ },
+ {
+  "id": "bmdcard-decklink-mini-monitor-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Mini Monitor 4K",
+  "name": "DeckLink Mini Monitor 4K",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.0 Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 7
+ },
+ {
+  "id": "bmdcard-decklink-duo-2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Duo 2",
+  "name": "DeckLink Duo 2 (4 x 3G-SDI, each in or out)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Each SDI connector is set as an input or output in Desktop Video. DIN to BNC adapter cables in the box. Check: reference connector.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "bmdcard-decklink-duo-2-mini",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Duo 2 Mini",
+  "name": "DeckLink Duo 2 Mini (2 in, 2 out 3G-SDI)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 2,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "bmdcard-decklink-quad-2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Quad 2",
+  "name": "DeckLink Quad 2 (8 x 3G-SDI, each in or out)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x8 Gen 2 card. 8 mini DIN SDI connections, each set as an input or output (tech specs). Reference Tri-Sync or black burst. Check: reference connector.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 22
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 22
+ },
+ {
+  "id": "bmdcard-decklink-quad-hdmi-recorder",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Quad HDMI Recorder",
+  "name": "DeckLink Quad HDMI Recorder (4 x HDMI 2.0 in)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x8 Gen 3 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 23
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 23
+ },
+ {
+  "id": "bmdcard-decklink-8k-pro",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink 8K Pro",
+  "name": "DeckLink 8K Pro (4 x 12G-SDI bidirectional)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x8 Gen 3 card. Each 12G-SDI connector can be an input or output (dual and quad link 8K). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "bmdcard-decklink-8k-pro-g2",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink 8K Pro G2",
+  "name": "DeckLink 8K Pro G2 (4 x 12G-SDI, HDMI 2.1 in/out)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic DeckLink 8K Pro G2 tech specs (W-DLK-33)",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs/W-DLK-33",
+  "notes": "PCIe x8 Gen 3 card. Takes 2 slots. Tech specs: 4 bidirectional 12G-SDI, HDMI 2.1 in and out, Tri-Sync or black burst reference, RS-422 out, needs 2 PCI slots, 30 W. Check: SDI and RS-422 connector types.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 30
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.1 In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.1 Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "RS-422",
+      "connector": "Other",
+      "count": 1,
+      "prefix": "RS-422 Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "bmdcard-decklink-8k-pro-mini",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink 8K Pro Mini",
+  "name": "DeckLink 8K Pro Mini (4 x 12G-SDI, low profile)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic DeckLink 8K Pro Mini tech specs",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs/W-DLK-33",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). Tech specs: 4 bidirectional 12G-SDI on Micro BNC, Tri-Sync or black burst reference, 18 W. Check: reference connector.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 18
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "Micro BNC",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "Micro BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 18
+ },
+ {
+  "id": "bmdcard-decklink-4k-extreme-12g",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink 4K Extreme 12G",
+  "name": "DeckLink 4K Extreme 12G (with breakout cable)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic DeckLink 4K Extreme 12G tech specs",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs/W-DLK-33",
+  "notes": "PCIe x8 Gen 2 card. Takes 2 slots. Main card plus HDMI or SDI mezzanine card, so it takes 2 slots. Analog, AES and RS-422 are on the breakout cable. Optional 12G optical fibre in/out (SFP) not drawn.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 30
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC (breakout)",
+      "count": 3,
+      "prefix": "Component In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC (breakout)",
+      "count": 3,
+      "prefix": "Component Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR3F (breakout)",
+      "count": 2,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR3M (breakout)",
+      "count": 2,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 2,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 2,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "RS-422"
+     }
+    ]
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "bmdcard-decklink-studio-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Studio 4K",
+  "name": "DeckLink Studio 4K (with breakout cable)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Analog audio, AES and RS-422 on the included breakout cable. Check: AES counts.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 22
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "1/4\" TRS (breakout)",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "1/4\" TRS (breakout)",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 2,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 2,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "RS-422"
+     }
+    ]
+   }
+  ],
+  "powerW": 22
+ },
+ {
+  "id": "bmdcard-decklink-sdi-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink SDI 4K",
+  "name": "DeckLink SDI 4K",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Check: RS-422 connector (breakout).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 11
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "6G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9",
+      "count": 1,
+      "prefix": "RS-422"
+     }
+    ]
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "bmdcard-decklink-sdi-micro",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink SDI Micro",
+  "name": "DeckLink SDI Micro (1 in, 1 out 3G-SDI)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "bmdcard-decklink-micro-recorder",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink Micro Recorder",
+  "name": "DeckLink Micro Recorder (SDI and HDMI in)",
+  "family": "DeckLink",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 4
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 4
+ },
+ {
+  "id": "bmdcard-decklink-ip-hd",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink IP HD",
+  "name": "DeckLink IP HD (SMPTE 2110 over 10G Ethernet)",
+  "family": "DeckLink IP",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). SMPTE ST 2110 video, audio and ancillary as 2 HD channels. Check: SFP count.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "10G SFP"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "bmdcard-decklink-ip-hd-optical",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink IP HD Optical",
+  "name": "DeckLink IP HD Optical (2110, fibre)",
+  "family": "DeckLink IP",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). Check: connector count.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Fibre",
+      "connector": "LC duplex",
+      "count": 1,
+      "prefix": "10G Optical"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "bmdcard-decklink-ip-uhd",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "DeckLink IP 25G",
+  "name": "DeckLink IP 25G (SMPTE 2110 UHD)",
+  "family": "DeckLink IP",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/decklink/techspecs",
+  "notes": "PCIe x8 Gen 3 card. Check: model name and port count with Blackmagic.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 15
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25G SFP"
+     }
+    ]
+   }
+  ],
+  "powerW": 15
+ },
+ {
+  "id": "bmdcard-intensity-pro-4k",
+  "manufacturer": "Blackmagic Design",
+  "partNumber": "Intensity Pro 4K",
+  "name": "Intensity Pro 4K (HDMI and analog)",
+  "family": "Intensity",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Blackmagic Design product / tech specs page",
+  "productUrl": "https://www.blackmagicdesign.com/products/intensity",
+  "notes": "PCIe x4 Gen 2 card. Analog on the breakout cable.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "RCA (breakout)",
+      "count": 3,
+      "prefix": "Component In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "RCA (breakout)",
+      "count": 3,
+      "prefix": "Component Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "RCA (breakout)",
+      "count": 2,
+      "prefix": "Audio In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "RCA (breakout)",
+      "count": 2,
+      "prefix": "Audio Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "TOSLINK",
+      "count": 1,
+      "prefix": "Optical Audio Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "ajacard-kona-5",
+  "manufacturer": "AJA",
+  "partNumber": "KONA 5",
+  "name": "KONA 5 (4 x 12G-SDI bidirectional, HDMI 2.0 out)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA KONA 5 product page",
+  "productUrl": "https://www.aja.com/products/kona-5",
+  "notes": "PCIe x8 Gen 3 card. Product page: 4 x HD-BNC 12G-SDI bidirectional, full-size HDMI 2.0 out, reference, LTC, RS-422 and 8 AES in / 8 out on the included breakout. Check: AES channel vs connector count (AES pairs).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 30
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.0 Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC (breakout)",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "LTC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "LTC Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "RS-422"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 8,
+      "prefix": "AES Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "ajacard-kona-x",
+  "manufacturer": "AJA",
+  "partNumber": "KONA X",
+  "name": "KONA X (2 x 12G-SDI, HDMI 2.0 in and out)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA KONA X product page",
+  "productUrl": "https://www.aja.com/products/kona-x",
+  "notes": "PCIe x4 Gen 3 card. Optional KONA Xpand adds reference (BNC), LTC in/out, RS-422, 8 ch AES and 2 ch analog (add as extra ports or a second card).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.0 In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI 2.0 Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "ajacard-kona-xm",
+  "manufacturer": "AJA",
+  "partNumber": "KONA XM",
+  "name": "KONA XM (2 x 12G-SDI, HDMI, low profile)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/kona-xm",
+  "notes": "PCIe x4 Gen 3 card. Low profile (full-height bracket usually in the box). Check: connector types and HDMI direction.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 20
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "Micro BNC",
+      "count": 2,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "Mini HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 20
+ },
+ {
+  "id": "ajacard-kona-4",
+  "manufacturer": "AJA",
+  "partNumber": "KONA 4",
+  "name": "KONA 4 (4 x 3G-SDI bidirectional, with breakout)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/kona-4",
+  "notes": "PCIe x8 Gen 2 card. Check: analog channel counts on the breakout.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "LTC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "LTC Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "RS-422"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "BNC (breakout)",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 4,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 4,
+      "prefix": "Analog Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "ajacard-kona-1",
+  "manufacturer": "AJA",
+  "partNumber": "KONA 1",
+  "name": "KONA 1 (3G-SDI in/out, low profile)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/kona-1",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). Check: SDI in/out counts (some firmware makes them bidirectional).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "3G-SDI",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "ajacard-kona-hdmi",
+  "manufacturer": "AJA",
+  "partNumber": "KONA HDMI",
+  "name": "KONA HDMI (4 x HDMI in)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA KONA HDMI product page",
+  "productUrl": "https://www.aja.com/products/kona-hdmi",
+  "notes": "PCIe x8 Gen 2 card. Inputs 1-2 HDMI 2.0, 3-4 HDMI 1.4b.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 20
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 20
+ },
+ {
+  "id": "ajacard-kona-lhe-plus",
+  "manufacturer": "AJA",
+  "partNumber": "KONA LHe Plus",
+  "name": "KONA LHe Plus (HD-SDI and analog, with breakout)",
+  "family": "KONA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/kona-lhe-plus",
+  "notes": "PCIe x1 Gen 1 card. Legacy. Check: counts.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "SDI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HD-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog video",
+      "connector": "BNC (breakout)",
+      "count": 3,
+      "prefix": "Component In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog video",
+      "connector": "BNC (breakout)",
+      "count": 3,
+      "prefix": "Component Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 2,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 2,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "RS-422"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "ajacard-kona-ip25",
+  "manufacturer": "AJA",
+  "partNumber": "KONA IP25",
+  "name": "KONA IP25 (SMPTE 2110, 2 x 10/25G SFP)",
+  "family": "KONA IP",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA KONA IP25 product page",
+  "productUrl": "https://www.aja.com/products/kona-ip25",
+  "notes": "PCIe x8 Gen 4 card. SMPTE ST 2110, 2022-6 and 2022-7.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "10/25G SFP"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "1GbE Control"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "ajacard-corvid-88",
+  "manufacturer": "AJA",
+  "partNumber": "Corvid 88",
+  "name": "Corvid 88 (8 x 3G-SDI bidirectional, OEM)",
+  "family": "Corvid",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/corvid-88",
+  "notes": "PCIe x8 Gen 2 card. OEM card used in playout and graphics servers. Check: reference connector.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "ajacard-corvid-44-12g",
+  "manufacturer": "AJA",
+  "partNumber": "Corvid 44 12G",
+  "name": "Corvid 44 12G (4 x 12G-SDI bidirectional, OEM)",
+  "family": "Corvid",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/corvid-44-12g",
+  "notes": "PCIe x8 Gen 3 card. A BNC version exists (Corvid 44 12G BNC). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "ajacard-corvid-44",
+  "manufacturer": "AJA",
+  "partNumber": "Corvid 44",
+  "name": "Corvid 44 (4 x 3G-SDI bidirectional, OEM)",
+  "family": "Corvid",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AJA product / tech specs page",
+  "productUrl": "https://www.aja.com/products/corvid-44",
+  "notes": "PCIe x8 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 15
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 15
+ },
+ {
+  "id": "magewell-pro-capture-quad-sdi",
+  "manufacturer": "Magewell",
+  "partNumber": "11040",
+  "name": "Pro Capture Quad SDI (4 x 3G-SDI in)",
+  "family": "Pro Capture",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product / tech specs page",
+  "productUrl": "https://www.magewell.com/products/pro-capture-quad-sdi",
+  "notes": "PCIe x4 Gen 2 card. Check: connector (DIN breakout to BNC).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 4,
+      "prefix": "SDI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "magewell-pro-capture-dual-sdi",
+  "manufacturer": "Magewell",
+  "partNumber": "11030",
+  "name": "Pro Capture Dual SDI (2 x 3G-SDI in)",
+  "family": "Pro Capture",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product / tech specs page",
+  "productUrl": "https://www.magewell.com/products/pro-capture-dual-sdi",
+  "notes": "PCIe x2 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "magewell-pro-capture-quad-hdmi",
+  "manufacturer": "Magewell",
+  "partNumber": "11080",
+  "name": "Pro Capture Quad HDMI (4 x HDMI in)",
+  "family": "Pro Capture",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product / tech specs page",
+  "productUrl": "https://www.magewell.com/products/pro-capture-quad-hdmi",
+  "notes": "PCIe x4 Gen 2 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 4,
+      "prefix": "HDMI In"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "magewell-pro-capture-hdmi-4k-plus",
+  "manufacturer": "Magewell",
+  "partNumber": "11100",
+  "name": "Pro Capture HDMI 4K Plus (HDMI in, loop out)",
+  "family": "Pro Capture",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Magewell product / tech specs page",
+  "productUrl": "https://www.magewell.com",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Loop Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "bluefish-kronos-k8",
+  "manufacturer": "Bluefish444",
+  "partNumber": "KRONOS K8",
+  "name": "KRONOS K8 (8 x 12G-SDI bidirectional)",
+  "family": "KRONOS",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Bluefish444 product / tech specs page",
+  "productUrl": "https://www.bluefish444.com",
+  "notes": "PCIe x8 Gen 3 card. Check: port count and HDMI.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 30
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Monitor Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "deltacast-delta-12g-elp-h-4c",
+  "manufacturer": "DELTACAST",
+  "partNumber": "DELTA-12G-elp-h 4c",
+  "name": "DELTA-12G-elp-h 4c (4 x 12G-SDI bidirectional)",
+  "family": "DELTA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DELTACAST product / tech specs page",
+  "productUrl": "https://www.deltacast.tv",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 20
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "12G-SDI",
+      "connector": "HD-BNC",
+      "count": 4,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "HD-BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 20
+ },
+ {
+  "id": "deltacast-delta-3g-elp-d-8c",
+  "manufacturer": "DELTACAST",
+  "partNumber": "DELTA-3G-elp-d 8c",
+  "name": "DELTA-3G-elp-d 8c (8 x 3G-SDI bidirectional)",
+  "family": "DELTA",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "DELTACAST product / tech specs page",
+  "productUrl": "https://www.deltacast.tv",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 15
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "DIN 1.0/2.3",
+      "count": 8,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "DIN 1.0/2.3",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 15
+ },
+ {
+  "id": "matroxcard-xmio5-q25",
+  "manufacturer": "Matrox",
+  "partNumber": "X.mio5 Q25",
+  "name": "X.mio5 Q25 (SMPTE 2110, 4 x 25G SFP)",
+  "family": "X.mio",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Matrox product / tech specs page",
+  "productUrl": "https://video.matrox.com",
+  "notes": "PCIe x16 Gen 3 card. Check: port count and model naming (X.mio5 Q25).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 75
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 4,
+      "prefix": "25G SFP"
+     }
+    ]
+   }
+  ],
+  "powerW": 75
+ },
+ {
+  "id": "avidcard-hdx",
+  "manufacturer": "Avid",
+  "partNumber": "9900-65163-00",
+  "name": "Pro Tools | HDX PCIe card (2 x DigiLink Mini)",
+  "family": "Pro Tools HDX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Avid product / tech specs page",
+  "productUrl": "https://www.avid.com/products/pro-tools-hdx",
+  "notes": "PCIe x1 Gen 1 card. Connects to HD I/O, HD OMNI, HD MADI and MTRX (DigiLink cable). Up to 64 ch per card. Check: the expansion port.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "DigiLink Mini",
+      "count": 2,
+      "prefix": "DigiLink Port"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "Mini-DIN",
+      "count": 1,
+      "prefix": "Loop Sync / expansion"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "avidcard-hd-native",
+  "manufacturer": "Avid",
+  "partNumber": "9900-65102-00",
+  "name": "Pro Tools | HD Native PCIe card (1 x DigiLink Mini)",
+  "family": "Pro Tools HD Native",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Avid product / tech specs page",
+  "productUrl": "https://www.avid.com",
+  "notes": "PCIe x1 Gen 1 card. Legacy. Check: part number.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "DigiLink Mini",
+      "count": 1,
+      "prefix": "DigiLink Port"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "avidcard-dnxid",
+  "manufacturer": "Avid",
+  "partNumber": "Artist | DNxID",
+  "name": "Artist | DNxID (Media Composer video I/O, rebadged AJA KONA)",
+  "family": "Artist",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Avid product / tech specs page",
+  "productUrl": "https://www.avid.com",
+  "notes": "PCIe x4 Gen 2 card. Check: model and ports; Avid now qualifies Blackmagic and AJA cards for Media Composer.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 20
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "3G-SDI",
+      "connector": "BNC",
+      "count": 2,
+      "prefix": "SDI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "HDMI",
+      "connector": "HDMI",
+      "count": 1,
+      "prefix": "HDMI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Ref In"
+     }
+    ]
+   }
+  ],
+  "powerW": 20
+ },
+ {
+  "id": "nvcard-connectx-4-lx-25g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX4121A-ACAT",
+  "name": "ConnectX-4 Lx 2 x 25GbE SFP28",
+  "family": "ConnectX-4 Lx",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "nvcard-connectx-5-25g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX512A-ACAT",
+  "name": "ConnectX-5 2 x 25GbE SFP28",
+  "family": "ConnectX-5",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "nvcard-connectx-5-100g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX516A-CCAT",
+  "name": "ConnectX-5 2 x 100GbE QSFP28",
+  "family": "ConnectX-5",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 19
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP28",
+      "count": 2,
+      "prefix": "100GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 19
+ },
+ {
+  "id": "nvcard-connectx-6-lx-25g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX631102AN-ADAT",
+  "name": "ConnectX-6 Lx 2 x 25GbE SFP28 (ST 2110 / Rivermax)",
+  "family": "ConnectX-6 Lx",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x8 Gen 4 card. Low profile (full-height bracket usually in the box). PTP hardware timestamping and packet pacing for SMPTE ST 2110 with NVIDIA Rivermax.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "nvcard-connectx-6-dx-25g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX623102AN-ADAT",
+  "name": "ConnectX-6 Dx 2 x 25GbE SFP56 (ST 2110 / Rivermax)",
+  "family": "ConnectX-6 Dx",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 4 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 15
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP56",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 15
+ },
+ {
+  "id": "nvcard-connectx-6-dx-100g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX623106AN-CDAT",
+  "name": "ConnectX-6 Dx 2 x 100GbE QSFP56 (ST 2110 / Rivermax)",
+  "family": "ConnectX-6 Dx",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 4 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 21
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP28",
+      "count": 2,
+      "prefix": "100GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 21
+ },
+ {
+  "id": "nvcard-connectx-7-200g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX713106AC-VEAT",
+  "name": "ConnectX-7 2 x 200GbE QSFP112",
+  "family": "ConnectX-7",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 5 card. Low profile (full-height bracket usually in the box). Check: part number and port speed.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP112",
+      "count": 2,
+      "prefix": "200GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "nvcard-connectx-7-400g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MCX75310AAS-NEAT",
+  "name": "ConnectX-7 1 x 400G OSFP",
+  "family": "ConnectX-7",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 5 card. Low profile (full-height bracket usually in the box). Check: InfiniBand / Ethernet variant.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 25
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "OSFP",
+      "count": 1,
+      "prefix": "400G"
+     }
+    ]
+   }
+  ],
+  "powerW": 25
+ },
+ {
+  "id": "nvcard-bluefield-2-100g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "MBF2M516A-CEEOT",
+  "name": "BlueField-2 DPU 2 x 100GbE QSFP56",
+  "family": "BlueField",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 4 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 75
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP28",
+      "count": 2,
+      "prefix": "100GbE"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "1GbE OOB"
+     }
+    ]
+   }
+  ],
+  "powerW": 75
+ },
+ {
+  "id": "nvcard-bluefield-3-200g",
+  "manufacturer": "NVIDIA (Mellanox)",
+  "partNumber": "B3220",
+  "name": "BlueField-3 DPU 2 x 200GbE QSFP112",
+  "family": "BlueField",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA (Mellanox) product / tech specs page",
+  "productUrl": "https://www.nvidia.com/en-us/networking/ethernet-adapters/",
+  "notes": "PCIe x16 Gen 5 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 150
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP112",
+      "count": 2,
+      "prefix": "200GbE"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 1,
+      "prefix": "1GbE OOB"
+     }
+    ]
+   }
+  ],
+  "powerW": 150
+ },
+ {
+  "id": "intelcard-x710-da2",
+  "manufacturer": "Intel",
+  "partNumber": "X710-DA2",
+  "name": "Ethernet X710-DA2 2 x 10GbE SFP+",
+  "family": "Ethernet 700",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 4
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 4
+ },
+ {
+  "id": "intelcard-x710-da4",
+  "manufacturer": "Intel",
+  "partNumber": "X710-DA4",
+  "name": "Ethernet X710-DA4 4 x 10GbE SFP+",
+  "family": "Ethernet 700",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 7
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 4,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 7
+ },
+ {
+  "id": "intelcard-x550-t2",
+  "manufacturer": "Intel",
+  "partNumber": "X550-T2",
+  "name": "Ethernet X550-T2 2 x 10GBASE-T",
+  "family": "Ethernet 500",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x4 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 11
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 11
+ },
+ {
+  "id": "intelcard-x710-t4l",
+  "manufacturer": "Intel",
+  "partNumber": "X710-T4L",
+  "name": "Ethernet X710-T4L 4 x 10GBASE-T",
+  "family": "Ethernet 700",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 14
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 4,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 14
+ },
+ {
+  "id": "intelcard-e810-xxvda2",
+  "manufacturer": "Intel",
+  "partNumber": "E810-XXVDA2",
+  "name": "Ethernet E810-XXVDA2 2 x 25GbE SFP28",
+  "family": "Ethernet 800",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x8 Gen 4 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "intelcard-e810-xxvda4",
+  "manufacturer": "Intel",
+  "partNumber": "E810-XXVDA4",
+  "name": "Ethernet E810-XXVDA4 4 x 25GbE SFP28",
+  "family": "Ethernet 800",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x16 Gen 4 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 18
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 4,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 18
+ },
+ {
+  "id": "intelcard-e810-cqda2",
+  "manufacturer": "Intel",
+  "partNumber": "E810-CQDA2",
+  "name": "Ethernet E810-CQDA2 2 x 100GbE QSFP28",
+  "family": "Ethernet 800",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x16 Gen 4 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 20
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "QSFP28",
+      "count": 2,
+      "prefix": "100GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 20
+ },
+ {
+  "id": "intelcard-i350-t4",
+  "manufacturer": "Intel",
+  "partNumber": "I350-T4",
+  "name": "Ethernet I350-T4 4 x 1GbE",
+  "family": "Ethernet 300",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x4 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Ethernet",
+      "connector": "RJ45",
+      "count": 4,
+      "prefix": "1GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "intelcard-x520-da2",
+  "manufacturer": "Intel",
+  "partNumber": "X520-DA2",
+  "name": "Ethernet X520-DA2 2 x 10GbE SFP+ (legacy)",
+  "family": "Ethernet 500",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Intel product / tech specs page",
+  "productUrl": "https://www.intel.com",
+  "notes": "PCIe x8 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 8
+ },
+ {
+  "id": "broadcomcard-p225p",
+  "manufacturer": "Broadcom",
+  "partNumber": "BCM957414A4142CC",
+  "name": "NetXtreme-E P225P 2 x 25GbE SFP28",
+  "family": "NetXtreme-E",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Broadcom product / tech specs page",
+  "productUrl": "https://www.broadcom.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP28",
+      "count": 2,
+      "prefix": "25GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "atto-fastframe3-tlns",
+  "manufacturer": "ATTO",
+  "partNumber": "FFRM-NS12",
+  "name": "FastFrame 3 2 x 10GbE SFP+",
+  "family": "FastFrame",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATTO product / tech specs page",
+  "productUrl": "https://www.atto.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). Common in Mac Pro and media storage workstations. Check: part number.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "10GbE"
+     }
+    ]
+   }
+  ],
+  "powerW": 8
+ },
+ {
+  "id": "atto-celerity-fc-32",
+  "manufacturer": "ATTO",
+  "partNumber": "CTFC-322E",
+  "name": "Celerity FC-322E 2 x 32Gb Fibre Channel",
+  "family": "Celerity",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ATTO product / tech specs page",
+  "productUrl": "https://www.atto.com",
+  "notes": "PCIe x8 Gen 3 card. Low profile (full-height bracket usually in the box). Fibre Channel SAN storage (Avid / Xsan). Check: part number.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 12
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "SFP",
+      "connector": "SFP+",
+      "count": 2,
+      "prefix": "32Gb FC"
+     }
+    ]
+   }
+  ],
+  "powerW": 12
+ },
+ {
+  "id": "nvgpu-rtx-a2000",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX A2000",
+  "name": "RTX A2000 graphics (4 x mini DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. Low profile (full-height bracket usually in the box). Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 70,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "Mini DisplayPort",
+      "count": 4,
+      "prefix": "mDP"
+     }
+    ]
+   }
+  ],
+  "powerW": 70
+ },
+ {
+  "id": "nvgpu-rtx-a4000",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX A4000",
+  "name": "RTX A4000 graphics (4 x DisplayPort, single slot)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 140,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 140
+ },
+ {
+  "id": "nvgpu-rtx-a5000",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX A5000",
+  "name": "RTX A5000 graphics (4 x DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 230,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 230
+ },
+ {
+  "id": "nvgpu-rtx-a6000",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX A6000",
+  "name": "RTX A6000 graphics (4 x DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 300,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 300
+ },
+ {
+  "id": "nvgpu-rtx-2000-ada",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX 2000 Ada",
+  "name": "RTX 2000 Ada graphics (4 x mini DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x8 Gen 4 card. Low profile (full-height bracket usually in the box). Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 70,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "Mini DisplayPort",
+      "count": 4,
+      "prefix": "mDP"
+     }
+    ]
+   }
+  ],
+  "powerW": 70
+ },
+ {
+  "id": "nvgpu-rtx-4000-ada",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX 4000 Ada",
+  "name": "RTX 4000 Ada graphics (4 x DisplayPort, single slot)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 130,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 130
+ },
+ {
+  "id": "nvgpu-rtx-5000-ada",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX 5000 Ada",
+  "name": "RTX 5000 Ada graphics (4 x DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 250,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 250
+ },
+ {
+  "id": "nvgpu-rtx-6000-ada",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX 6000 Ada",
+  "name": "RTX 6000 Ada graphics (4 x DisplayPort)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 4 card. Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 300,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP"
+     }
+    ]
+   }
+  ],
+  "powerW": 300
+ },
+ {
+  "id": "nvgpu-rtx-pro-6000-blackwell",
+  "manufacturer": "NVIDIA",
+  "partNumber": "RTX PRO 6000 Blackwell",
+  "name": "RTX PRO 6000 Blackwell Workstation (4 x DisplayPort 2.1)",
+  "family": "NVIDIA RTX PRO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe x16 Gen 5 card. Takes 2 slots. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 600,
+   "color": "#1f2a1a"
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP 2.1"
+     }
+    ]
+   }
+  ],
+  "powerW": 600
+ },
+ {
+  "id": "nvgpu-quadro-sync-ii",
+  "manufacturer": "NVIDIA",
+  "partNumber": "Quadro Sync II",
+  "name": "Quadro Sync II (frame lock / genlock for RTX cards)",
+  "family": "NVIDIA RTX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "NVIDIA product / tech specs page",
+  "productUrl": "https://www.nvidia.com",
+  "notes": "PCIe (no PCIe link; bracket only) card. Ribbon cables to up to 4 RTX cards; draws its power from the slot/PSU. Use for genlocked video walls and LED processors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Reference",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "House Sync In"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Frame Lock"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "amdgpu-radeon-pro-w7800",
+  "manufacturer": "AMD",
+  "partNumber": "Radeon PRO W7800",
+  "name": "Radeon PRO W7800 graphics (DisplayPort 2.1)",
+  "family": "Radeon PRO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMD product / tech specs page",
+  "productUrl": "https://www.amd.com",
+  "notes": "PCIe x16 Gen 4 card. Takes 2 slots. Check: output mix.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 2,
+   "watts": 260
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 2,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 3,
+      "prefix": "DP 2.1"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "Mini DisplayPort",
+      "count": 1,
+      "prefix": "mDP 2.1"
+     }
+    ]
+   }
+  ],
+  "powerW": 260
+ },
+ {
+  "id": "amdgpu-radeon-pro-w7600",
+  "manufacturer": "AMD",
+  "partNumber": "Radeon PRO W7600",
+  "name": "Radeon PRO W7600 graphics (4 x DisplayPort 2.1, single slot)",
+  "family": "Radeon PRO",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "AMD product / tech specs page",
+  "productUrl": "https://www.amd.com",
+  "notes": "PCIe x8 Gen 4 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 130
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "DisplayPort",
+      "connector": "DisplayPort",
+      "count": 4,
+      "prefix": "DP 2.1"
+     }
+    ]
+   }
+  ],
+  "powerW": 130
+ },
+ {
+  "id": "rmecard-hdspe-madi-fx",
+  "manufacturer": "RME",
+  "partNumber": "HDSPe MADI FX",
+  "name": "HDSPe MADI FX (3 x MADI, 390 channels)",
+  "family": "HDSPe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product / tech specs page",
+  "productUrl": "https://www.rme-audio.de/hdspe-madi-fx.html",
+  "notes": "PCIe x1 Gen 1 card. Two optical MADI on the bracket, third MADI (coax), AES, word clock and MIDI on the breakout cable. Check: layout.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 2,
+      "prefix": "MADI Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 2,
+      "prefix": "MADI Optical Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "MADI Coax In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "MADI Coax Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock Out"
+     },
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Other",
+      "connector": "MIDI DIN (breakout)",
+      "count": 3,
+      "prefix": "MIDI"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "1/4\" TRS",
+      "count": 1,
+      "prefix": "Headphones"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "rmecard-hdspe-madi",
+  "manufacturer": "RME",
+  "partNumber": "HDSPe MADI",
+  "name": "HDSPe MADI (64 x 64 channels, optical and coax)",
+  "family": "HDSPe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product / tech specs page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "PCIe x1 Gen 1 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI Optical Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI Coax In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI Coax Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 8
+ },
+ {
+  "id": "rmecard-hdspe-raydat",
+  "manufacturer": "RME",
+  "partNumber": "HDSPe RayDAT",
+  "name": "HDSPe RayDAT (4 x ADAT, AES, 72 ch)",
+  "family": "HDSPe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product / tech specs page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "PCIe x1 Gen 1 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "TOSLINK",
+      "count": 4,
+      "prefix": "ADAT In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "TOSLINK",
+      "count": 4,
+      "prefix": "ADAT Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 8
+ },
+ {
+  "id": "rmecard-hdspe-aio-pro",
+  "manufacturer": "RME",
+  "partNumber": "HDSPe AIO Pro",
+  "name": "HDSPe AIO Pro (analog, AES, ADAT, with breakout)",
+  "family": "HDSPe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "RME product / tech specs page",
+  "productUrl": "https://www.rme-audio.de",
+  "notes": "PCIe x1 Gen 1 card. Check: analog counts.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 8
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 2,
+      "prefix": "Analog In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "XLR (breakout)",
+      "count": 4,
+      "prefix": "Analog Out"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Analog audio",
+      "connector": "1/4\" TRS",
+      "count": 1,
+      "prefix": "Phones"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "XLR (breakout)",
+      "count": 1,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Other",
+      "connector": "TOSLINK",
+      "count": 1,
+      "prefix": "ADAT/SPDIF In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Other",
+      "connector": "TOSLINK",
+      "count": 1,
+      "prefix": "ADAT/SPDIF Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 8
+ },
+ {
+  "id": "focusritecard-rednet-pcier",
+  "manufacturer": "Focusrite",
+  "partNumber": "RedNet PCIeR",
+  "name": "RedNet PCIeR (Dante PCIe card, 128 x 128, redundant)",
+  "family": "RedNet",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Focusrite product / tech specs page",
+  "productUrl": "https://focusrite.com/rednet-pcier",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). Dante primary and secondary Ethernet. Mac and Windows, low latency for Pro Tools and other DAWs. Check: connectors (some revisions use SFP).",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "digigramcard-lx-dante",
+  "manufacturer": "Digigram",
+  "partNumber": "LX-DANTE",
+  "name": "LX-DANTE (Dante PCIe sound card, 128 x 128)",
+  "family": "LX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Digigram product / tech specs page",
+  "productUrl": "https://www.digigram.com",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). Used in radio playout and automation PCs.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "Dante Pri/Sec"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "digigramcard-lx-madi",
+  "manufacturer": "Digigram",
+  "partNumber": "LX-MADI",
+  "name": "LX-MADI (MADI PCIe sound card, 64 x 64)",
+  "family": "LX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Digigram product / tech specs page",
+  "productUrl": "https://www.digigram.com",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI Optical In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI Optical Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Word Clock In"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "digigramcard-lx-ip-madi",
+  "manufacturer": "Digigram",
+  "partNumber": "LX-IP-MADI",
+  "name": "LX-IP-MADI (AES67/RAVENNA and MADI, 256 ch)",
+  "family": "LX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Digigram product / tech specs page",
+  "productUrl": "https://www.digigram.com",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). Check: ports.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "Dante/AES67",
+      "connector": "RJ45",
+      "count": 2,
+      "prefix": "AES67 / RAVENNA"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "MADI Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "lynxcard-aes16e",
+  "manufacturer": "Lynx Studio",
+  "partNumber": "AES16e",
+  "name": "AES16e (16 ch AES/EBU in and out, with breakout)",
+  "family": "AES16e",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Lynx Studio product / tech specs page",
+  "productUrl": "https://www.lynxstudio.com",
+  "notes": "PCIe x1 Gen 1 card. Two VHDCI ports on the bracket go to AES breakout cables. 8 AES pairs each way = 16 channels.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "AES/EBU",
+      "connector": "XLR3F (breakout)",
+      "count": 8,
+      "prefix": "AES In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "AES/EBU",
+      "connector": "XLR3M (breakout)",
+      "count": 8,
+      "prefix": "AES Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC (breakout)",
+      "count": 1,
+      "prefix": "Word Clock In"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "marian-clara-e",
+  "manufacturer": "MARIAN",
+  "partNumber": "Clara E",
+  "name": "Clara E (MADI PCIe card, 64 x 64)",
+  "family": "Clara",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "MARIAN product / tech specs page",
+  "productUrl": "https://www.marian.de",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "MADI audio",
+      "connector": "SC",
+      "count": 1,
+      "prefix": "MADI Out"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Word Clock In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Word clock",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Word Clock Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "asuscard-thunderboltex-4",
+  "manufacturer": "ASUS",
+  "partNumber": "ThunderboltEX 4",
+  "name": "ThunderboltEX 4 card (2 x Thunderbolt 4, 2 x DisplayPort in)",
+  "family": "ThunderboltEX",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "ASUS product / tech specs page",
+  "productUrl": "https://www.asus.com",
+  "notes": "PCIe x4 Gen 3 card. Needs a motherboard with a Thunderbolt header. Lets a PC drive UltraStudio, AJA Io and UA Apollo Thunderbolt gear.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB-C (Thunderbolt 4)",
+      "count": 2,
+      "prefix": "Thunderbolt"
+     },
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "DisplayPort",
+      "connector": "Mini DisplayPort",
+      "count": 2,
+      "prefix": "DP In (from GPU)"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "sonnet-allegro-usb-c-4",
+  "manufacturer": "Sonnet",
+  "partNumber": "USB3C-4PM-E",
+  "name": "Allegro USB-C 4-port PCIe card",
+  "family": "Allegro",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sonnet product / tech specs page",
+  "productUrl": "https://www.sonnettech.com",
+  "notes": "PCIe x8 Gen 3 card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 10
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB-C",
+      "count": 4,
+      "prefix": "USB-C 10Gb"
+     }
+    ]
+   }
+  ],
+  "powerW": 10
+ },
+ {
+  "id": "generic-pcie-usb3-4a",
+  "manufacturer": "Generic",
+  "partNumber": "PCIe USB 3.0 4-port",
+  "name": "USB 3.0 card, 4 x USB-A",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe x1 Gen 2 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 5
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "USB",
+      "connector": "USB-A",
+      "count": 4,
+      "prefix": "USB 3.0"
+     }
+    ]
+   }
+  ],
+  "powerW": 5
+ },
+ {
+  "id": "generic-pcie-serial-2",
+  "manufacturer": "Generic",
+  "partNumber": "PCIe RS-232/422 2-port",
+  "name": "Serial card, 2 x DB9 (RS-232/422/485)",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). For VTR / router / PTZ serial control. Set each port to RS-232, 422 or 485 in its driver.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "RS-422",
+      "connector": "DB9",
+      "count": 2,
+      "prefix": "COM"
+     }
+    ]
+   }
+  ],
+  "powerW": 3
+ },
+ {
+  "id": "generic-pcie-gpio-16",
+  "manufacturer": "Generic",
+  "partNumber": "PCIe GPIO 16",
+  "name": "GPI/O card (8 in, 8 out, DB37)",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). For tally and automation triggers.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "io",
+      "type": "GPIO",
+      "connector": "DB37",
+      "count": 1,
+      "prefix": "GPIO"
+     }
+    ]
+   }
+  ],
+  "powerW": 3
+ },
+ {
+  "id": "generic-pcie-nvme-4",
+  "manufacturer": "Generic",
+  "partNumber": "PCIe NVMe x4",
+  "name": "NVMe carrier card (4 x M.2 SSD, no external ports)",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe x16 Gen 4 card. Takes a slot but has no connectors; storage for record and playout cache.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 30
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ],
+  "powerW": 30
+ },
+ {
+  "id": "generic-pcie-blank",
+  "manufacturer": "Generic",
+  "partNumber": "Blank slot cover",
+  "name": "Blank PCIe slot cover",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe (none) card. ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Full-height bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": []
+   }
+  ]
+ },
+ {
+  "id": "meinberg-gps180pex",
+  "manufacturer": "Meinberg",
+  "partNumber": "GPS180PEX",
+  "name": "GPS180PEX GPS clock card (time code, PPS)",
+  "family": "PCIe clocks",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Meinberg product / tech specs page",
+  "productUrl": "https://www.meinberg.de",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 6
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "RF",
+      "connector": "SMA",
+      "count": 1,
+      "prefix": "GPS Antenna"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "IRIG / PPS Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 6
+ },
+ {
+  "id": "meinberg-tcr180pex",
+  "manufacturer": "Meinberg",
+  "partNumber": "TCR180PEX",
+  "name": "TCR180PEX time code reader card (IRIG / LTC in)",
+  "family": "PCIe clocks",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Meinberg product / tech specs page",
+  "productUrl": "https://www.meinberg.de",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). Check: connectors.",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 4
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "BNC",
+      "count": 1,
+      "prefix": "Time Code In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "DB9 (breakout)",
+      "count": 1,
+      "prefix": "PPS / Serial Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 4
+ },
+ {
+  "id": "generic-pcie-ltc",
+  "manufacturer": "Generic",
+  "partNumber": "PCIe LTC reader",
+  "name": "LTC timecode reader/generator card",
+  "family": "Generic PCIe",
+  "category": "card",
+  "ru": 0,
+  "widthCols": 0,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Generic product / tech specs page",
+  "productUrl": "",
+  "notes": "PCIe x1 Gen 1 card. Low profile (full-height bracket usually in the box). ",
+  "card": {
+   "fits": [
+    "PCIe"
+   ],
+   "slotWidth": 1,
+   "watts": 3
+  },
+  "portGroups": [],
+  "rearModules": [
+   {
+    "partNumber": "bracket",
+    "name": "Low-profile bracket",
+    "width": 1,
+    "default": true,
+    "included": true,
+    "portGroups": [
+     {
+      "face": "rear",
+      "dir": "in",
+      "type": "Timecode",
+      "connector": "XLR3F",
+      "count": 1,
+      "prefix": "LTC In"
+     },
+     {
+      "face": "rear",
+      "dir": "out",
+      "type": "Timecode",
+      "connector": "XLR3M",
+      "count": 1,
+      "prefix": "LTC Out"
+     }
+    ]
+   }
+  ],
+  "powerW": 3
+ },
+ {
+  "id": "sonnet-echo-iii-rack",
+  "manufacturer": "Sonnet",
+  "partNumber": "ECHO-III-R1",
+  "name": "Echo III Rackmount Thunderbolt 3 to PCIe expansion (3 slots, 1U)",
+  "family": "Echo",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sonnet product page",
+  "productUrl": "https://www.sonnettech.com",
+  "notes": "Puts full-length PCIe cards (DeckLink, KONA, RedNet PCIeR, HDX, NICs) on a Mac or Thunderbolt PC. 2 Thunderbolt ports (host and daisy chain).",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 3,
+   "rearOnly": true,
+   "orient": "h",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.5,
+    "x1": 0.95,
+    "y0": 0.1,
+    "y1": 0.9
+   },
+   "cols": 3
+  },
+  "powerW": 400
+ },
+ {
+  "id": "sonnet-echo-i-desktop",
+  "manufacturer": "Sonnet",
+  "partNumber": "ECHO-I-TB3",
+  "name": "Echo I Desktop Thunderbolt 3 to PCIe expansion (1 slot)",
+  "family": "Echo",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 4,
+  "fullDepth": false,
+  "verified": false,
+  "source": "Sonnet product page",
+  "productUrl": "https://www.sonnettech.com",
+  "notes": "Desktop box; put it on a shelf. Check: size.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt 3)",
+    "count": 2,
+    "prefix": "Thunderbolt 3"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "DC In"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 1,
+   "rearOnly": true,
+   "orient": "v",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.38,
+    "x1": 0.9,
+    "y0": 0.08,
+    "y1": 0.92
+   }
+  },
+  "boxMm": {
+   "w": 110,
+   "h": 80
+  }
+ },
+ {
+  "id": "sonnet-xmac-studio-echo",
+  "manufacturer": "Sonnet",
+  "partNumber": "XMAC-STUDIO",
+  "name": "xMac Studio: Mac Studio rack enclosure with 2 PCIe slots (4U)",
+  "family": "xMac",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Sonnet product page",
+  "productUrl": "https://www.sonnettech.com",
+  "notes": "A Mac Studio sits inside; 2 full-length PCIe slots through Thunderbolt. Check: RU and slot count.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C (Thunderbolt)",
+    "count": 2,
+    "prefix": "Thunderbolt"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 2,
+   "rearOnly": true,
+   "orient": "v",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.38,
+    "x1": 0.9,
+    "y0": 0.08,
+    "y1": 0.92
+   }
+  }
+ },
+ {
+  "id": "generic-ws-4u-7slot",
+  "manufacturer": "Generic",
+  "partNumber": "4U rackmount workstation",
+  "name": "4U rackmount workstation, 7 PCIe slots",
+  "family": "Generic PC",
+  "category": "computer",
+  "ru": 4,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Generic product page",
+  "productUrl": "",
+  "notes": "Template for a broadcast graphics / playout / capture PC. Add cards in its slots on the rear view.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 6,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 2,
+    "prefix": "USB-C"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Line Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "Front USB"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 7,
+   "rearOnly": true,
+   "orient": "v",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.38,
+    "x1": 0.9,
+    "y0": 0.08,
+    "y1": 0.92
+   }
+  }
+ },
+ {
+  "id": "generic-server-2u-6slot",
+  "manufacturer": "Generic",
+  "partNumber": "2U rackmount server",
+  "name": "2U rackmount server, 6 PCIe slots",
+  "family": "Generic PC",
+  "category": "computer",
+  "ru": 2,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Generic product page",
+  "productUrl": "",
+  "notes": "Template for an encoder, ingest or media server.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "BMC / IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 6,
+   "rearOnly": true,
+   "orient": "v",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.38,
+    "x1": 0.9,
+    "y0": 0.08,
+    "y1": 0.92
+   }
+  }
+ },
+ {
+  "id": "generic-server-1u-3slot",
+  "manufacturer": "Generic",
+  "partNumber": "1U rackmount server",
+  "name": "1U rackmount server, 3 PCIe slots",
+  "family": "Generic PC",
+  "category": "computer",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": true,
+  "verified": false,
+  "source": "Generic product page",
+  "productUrl": "",
+  "notes": "",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 2,
+    "prefix": "USB 3"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 2,
+    "prefix": "LAN"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "BMC / IPMI"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "VGA",
+    "connector": "HD15",
+    "count": 1,
+    "prefix": "VGA"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 2,
+    "prefix": "PSU"
+   }
+  ],
+  "frame": {
+   "system": "PCIe",
+   "slots": 3,
+   "rearOnly": true,
+   "orient": "h",
+   "rearAlign": 1,
+   "rear": {
+    "x0": 0.5,
+    "x1": 0.95,
+    "y0": 0.1,
+    "y1": 0.9
+   },
+   "cols": 3
+  }
+ }
+]
