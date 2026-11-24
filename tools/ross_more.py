@@ -151,6 +151,26 @@ card('sra-8601a', 'SRA-8601A', 'SRA-8601A 3G/HD/SD-SDI reclocking DA (1x8 or 1x4
      'Ordered as SRA-8601A-R2 (1x8, full module) or SRA-8601A-R2S (1x4, the split module takes a second card). 2.9 W. Fits DFR-8321, OG3-FR and OGX-FR. '
      'Check: Ross lists the 3G-capable rear modules as 8320AR-040 (full) / 8320AR-041 (split) in one chapter and 8320AR-030 / -031 in another.',
      'Ross SRA-8201A/SRA-8601A user manual (rear modules, cabling, specifications)', OGP + 'distribution/', watts=2.9)
+
+# ---- logo insertion (added 2026-11-24, from the MDK-111A-K user guide 111AKDR-004-02 and cut sheet) ----
+def _mdk_rear(pn, name, bypass):
+    r = rm(pn, name, 4,
+           [R('in', 'HD-SDI', 'BNC', 4, 'BKGD In'), R('out', 'HD-SDI', 'BNC', 4, 'Out'), R('in', 'Reference', 'BNC', 1, 'Ref In'),
+            R('io', 'Ethernet', 'RJ45', 1, 'Ethernet'), R('io', 'RS-422', 'RJ45', 1, 'Serial'), R('io', 'GPIO', 'Terminal block', 8, 'GPI/O')],
+           cols=2, gen=2, notes='Relay bypass ' + bypass + ' when the card is pulled or loses power.')
+    r['cardOffset'] = 1   # card sits in the second slot of the 4-slot span (rear slots 1-4 = card slot 2)
+    return r
+card('mdk-111a-k', 'MDK-111A-K', 'MDK-111A-K HD/SD-SDI quad logo inserter / keyer (4 channels)', 'openGear logo insertion',
+     [_mdk_rear('R2', 'R2 rear module (8320AR-033, 4 slots, 4 in, 4 out)', 'BKGD A to Out 1'),
+      _mdk_rear('8320AR-061', '8320AR-061 rear module (4 slots, dual bypass)', 'BKGD A to Out 1 and BKGD B to Out 2')],
+     'Four independent logo inserter / keyer channels, each keying its own animated or static logo over its own background: 4 HD/SD-SDI '
+     'BKGD inputs (A-D) and 4 program outputs (SMPTE 259M / 292M: 480i, 576i, 720p, 1080i, 1080PsF 23.98/24, 1080p 50/59.94). '
+     'Genlock to frame reference 1/2 or the module Ref In (analog). Logos in TGA/PNG/BMP/JPG/GIF, stored on a 2 GB CompactFlash card at '
+     'the card edge with 2 GB playout memory, uploaded over Ethernet (FTP / RossLinq). LTC time-code burn-in, GVG M-2100 serial emulation '
+     '(RS-422/232), 8 GPI/O (GPI or tally, set in DashBoard), SNMP. 18.4 W. Ordered as MDK-111A-K-R2; the rear module is 4 slots wide, so '
+     'up to 5 cards per 20-slot frame. Fits DFR-8321, OG3-FR and OGX-FR series frames. Check: which 8320AR module the -R2 suffix ships with '
+     '(assumed 8320AR-033), the LTC input connector, and the panel order of the RJ45s and GPI blocks.',
+     'Ross MDK-111A-K user guide (111AKDR-004-02, Aug 2023) and cut sheet', OGP, watts=18.4, gen=2)
 card('ada-8404-c', 'ADA-8404-C', 'ADA-8404-C analog audio DA (1x8 mono or 2x4 stereo)', 'openGear audio',
      [rm('R2C', 'Full rear module (2 in, 8 out)', 2, [R('in', 'Analog audio', 'Terminal block', 2, 'Analog In'), R('out', 'Analog audio', 'Terminal block', 8, 'Analog Out')], cols=2, rows=5, gen=2),
       rm('R2CSM', 'Split mono rear module (2 cards, 1 in, 4 out each)', 2, [R('in', 'Analog audio', 'Terminal block', 1, 'Analog In'),
