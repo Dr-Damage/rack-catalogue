@@ -1598,7 +1598,7 @@
   "verified": true,
   "source": "Ross MDK-111A-K user guide (111AKDR-004-02, Aug 2023) and cut sheet",
   "productUrl": "https://www.rossvideo.com/products/signal-processing/opengear/",
-  "notes": "Four independent logo inserter / keyer channels, each keying its own animated or static logo over its own background: 4 HD/SD-SDI BKGD inputs (A-D) and 4 program outputs (SMPTE 259M / 292M: 480i, 576i, 720p, 1080i, 1080PsF 23.98/24, 1080p 50/59.94). Genlock to frame reference 1/2 or the module Ref In (analog). Logos in TGA/PNG/BMP/JPG/GIF, stored on a 2 GB CompactFlash card at the card edge with 2 GB playout memory, uploaded over Ethernet (FTP / RossLinq). LTC time-code burn-in, GVG M-2100 serial emulation (RS-422/232), 8 GPI/O (GPI or tally, set in DashBoard), SNMP. 18.4 W. Ordered as MDK-111A-K-R2; the rear module covers 2 slots (confirmed on a real card), so up to 10 cards per 20-slot frame. Fits DFR-8321, OG3-FR and OGX-FR series frames. Check: which 8320AR module the -R2 suffix ships with (assumed 8320AR-033), the LTC input connector, and the panel order of the RJ45s and GPI blocks.",
+  "notes": "Four independent logo inserter / keyer channels, each keying its own animated or static logo over its own background: 4 HD/SD-SDI BKGD inputs (A-D) and 4 program outputs (SMPTE 259M / 292M: 480i, 576i, 720p, 1080i, 1080PsF 23.98/24, 1080p 50/59.94). Genlock to frame reference 1/2 or the module Ref In (analog). Logos in TGA/PNG/BMP/JPG/GIF, stored on a 2 GB CompactFlash card at the card edge with 2 GB playout memory, uploaded over Ethernet (FTP / RossLinq). LTC time-code burn-in, GVG M-2100 serial emulation (RS-422/232), 8 GPI/O (GPI or tally, set in DashBoard), SNMP. 18.4 W. Ordered as MDK-111A-K-R2; the rear module covers 4 slots (confirmed on a real card: rear slots 17-20), so up to 5 cards per 20-slot frame. Fits DFR-8321, OG3-FR and OGX-FR series frames. Check: which 8320AR module the -R2 suffix ships with (assumed 8320AR-033), the LTC input connector, and the panel order of the RJ45s and GPI blocks.",
   "portGroups": [],
   "card": {
    "fits": [
@@ -1611,10 +1611,10 @@
   "rearModules": [
    {
     "partNumber": "R2",
-    "name": "R2 rear module (8320AR-033, 2 slots, 4 in, 4 out)",
-    "width": 2,
+    "name": "R2 rear module (8320AR-033, 4 slots, 4 in, 4 out)",
+    "width": 4,
     "cardsPerModule": 1,
-    "cardOffset": 0,
+    "cardOffset": 1,
     "default": true,
     "portGroups": [
      {
@@ -1675,10 +1675,10 @@
    },
    {
     "partNumber": "8320AR-061",
-    "name": "8320AR-061 rear module (2 slots, dual bypass)",
-    "width": 2,
+    "name": "8320AR-061 rear module (4 slots, dual bypass)",
+    "width": 4,
     "cardsPerModule": 1,
-    "cardOffset": 0,
+    "cardOffset": 1,
     "default": false,
     "portGroups": [
      {
