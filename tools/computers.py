@@ -123,18 +123,19 @@ for tall in (True, False):
        'Simply NUC NUC11TN product brief', 'https://simplynuc.com/wp-content/uploads/briefs/SimplyNUCProductBrief-11TNHi5.pdf',
        verified=False)
 
-# NUC Extreme: small towers with a full-height PCIe x16 slot for a graphics card. On a shelf they lie on their side, so the
-# front panel is the tower's height wide and its width high: about 120-130 mm, 3RU.
-EXT_SHELF = (' On a rack shelf the app asks how it sits: on its side (3RU, front ports stay at the front, one per shelf), upright '
-             '(9RU, narrow, three fit side by side), or for the 357 mm models also on its side turned sideways with the skull panel '
-             'facing out (3RU, two fit side by side, but the front and rear ports then face the sides of the rack). The graphics '
-             'card\'s outputs are on the back: add them to the device to match your card.')
+# NUC Extreme. The NUC 11 and 12 Extreme (357 x 189 x 120 mm) are long boxes: 357 mm runs front to back (the graphics card
+# lies along it), the skull panel is the 120 x 189 mm front and the ports are on the back. Normal: standing on its 120 mm
+# edge (5RU, 3 columns); on its side 3RU, 5 columns (two per shelf). The NUC 13 Extreme (337 x 318 x 129 mm, H x D x W) is a
+# real small tower: on its side 3RU x 9 columns, upright 8RU x 4 columns.
+EXT_NOTE = (' On a rack shelf the app asks how it sits. The graphics card\'s outputs are on the back: add them to the device to '
+            'match your card.')
 CWE, RUE = 482.6 / 12, 44.45
-def ext_orients(h, w, d):  # tower height, width and depth in mm
-    fit = lambda a, b: dict(ru=math.ceil(b / RUE - 0.02), widthCols=min(12, math.ceil(a / CWE - 0.02)), boxMm={'w': a, 'h': b})
-    o = [dict(key='side', label='On its side', **fit(h, w)), dict(key='upright', label='Upright', **fit(w, h))]
-    if d < 250: o.append(dict(key='sideways', label='On its side, turned sideways (ports to the rack sides)', **fit(d, w)))
-    return o
+def ext_fit(key, label, w, h, pcie):
+    return dict(key=key, label=label, ru=math.ceil(h / RUE - 0.02), widthCols=min(12, math.ceil(w / CWE - 0.02)),
+                boxMm={'w': w, 'h': h}, pcie=pcie)
+EXT_LONG = [ext_fit('upright', 'Upright, skull to the front (normal)', 120, 189, 'v'),
+            ext_fit('side', 'On its side, skull to the front', 189, 120, 'h')]
+EXT_TOWER13 = [ext_fit('side', 'On its side', 337, 129, 'v'), ext_fit('upright', 'Upright', 129, 337, 'h')]
 GPU = R('io', 'Other', 'Card slot', 1, 'PCIe x16 slot (graphics card)')
 EXT_AC = R('in', 'Power', 'IEC C14', 1, 'AC In')
 for id_, pn, name, fam, front, rear, notes, src, url, verified, mm in [
@@ -146,25 +147,27 @@ for id_, pn, name, fam, front, rear, notes, src, url, verified, mm in [
          'Front: 2 x USB 3.2 Gen 1 Type-A, USB 3.2 Gen 2x2 Type-C, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, '
          'HDMI 2.1, 10GbE (Marvell AQC113) and 2.5GbE (Intel i226-V), 7.1 audio (3 x 3.5 mm plus optical), Wi-Fi 6E. PCIe 5.0 x16 slot '
          'for a graphics card up to 3 slots wide. Check: power supply rating and AC inlet type.',
-         'ASUS NUC 13 Extreme Kit tech specs', 'https://asus.com/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/techspec', True, (337, 129, 318)),
+         'ASUS NUC 13 Extreme Kit tech specs', 'https://asus.com/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/techspec', True, EXT_TOWER13),
         ('nuc12dcm', 'NUC12DCMi9', 'NUC 12 Extreme kit (NUC12DCMi9 / i7)', 'NUC 12 Extreme',
          [UC(1, 'USB 3.2 Gen 2'), UA(1, 'USB 3.2 Gen 2', 'front'), g('front', 'io', 'Other', 'Card slot', 1, 'SDXC card'), HP('front', 'Headset')],
          [UA(6, 'USB 3.2 Gen 2'), TB(2, 4), HD(1, 'HDMI 2.0b'), LAN(1, '10GbE'), LAN(1, '2.5GbE'), GPU, EXT_AC],
-         '12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm, about 8 litres, internal power '
+         '12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm (D x H x W, the Beast Canyon box: front panel 120 x 189 mm, 357 mm deep), about 8 litres, internal power '
          'supply. Front: USB 3.2 Gen 2 Type-C and Type-A, UHS-II SDXC reader, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, '
          '2 x Thunderbolt 4, HDMI 2.0b, 10GbE (Marvell AQC113C) and 2.5GbE (Intel I225-LM; i9 and vPro models). PCIe 5.0 x16 slot for a '
          'dual-slot graphics card up to about 300 mm long. Check: power supply rating and AC inlet type.',
          'Intel NUC 12 Extreme feature summary (doc 721073)',
-         'https://edc.intel.com/content/www/us/en/publications/specification-nuc12dcm-nuc12edb/feature-summary/', True, (357, 120, 189)),
+         'https://edc.intel.com/content/www/us/en/publications/specification-nuc12dcm-nuc12edb/feature-summary/', True, EXT_LONG),
         ('nuc11btm', 'NUC11BTMi9', 'NUC 11 Extreme kit (NUC11BTMi9 / i7 / i5)', 'NUC 11 Extreme',
          [UA(2, 'USB 3.1 Gen 2', 'front')],
          [UA(6, 'USB 3.1 Gen 2'), TB(2, 4), HD(1, 'HDMI 2.0b'), LAN(1, '2.5GbE'), GPU, EXT_AC],
-         '11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm (H x D x W, Intel kit form factor), skull logo on the side mesh panel, about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 '
+         '11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm (D x H x W, Intel kit form factor; the RGB skull is on the front), about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 '
          'Gen 2. Back: 6 x USB 3.1 Gen 2, 2 x Thunderbolt 4, HDMI 2.0b, 2.5GbE. PCIe 4.0 x16 slot for a graphics card up to about 308 mm long. '
          'Check: front audio and card reader, and the AC inlet type.',
-         "Tom's Hardware launch article", 'https://www.tomshardware.com/news/intel-unchains-beast-canyon-nuc-to-disrupt-the-sff-market', False, (357, 120, 189))]:
-    add('intel.json', 'intel-', 'Intel', id_, pn, name, fam, 'computer', 3, front + rear, notes + EXT_SHELF, src, url, verified=verified,
-        w=9, boxMm={'w': mm[0], 'h': mm[1]}, formFactor='NUC Extreme (on its side)', orientations=ext_orients(*mm))
+         "Tom's Hardware launch article", 'https://www.tomshardware.com/news/intel-unchains-beast-canyon-nuc-to-disrupt-the-sff-market', False, EXT_LONG)]:
+    o0 = mm[0]
+    add('intel.json', 'intel-', 'Intel', id_, pn, name, fam, 'computer', o0['ru'], front + rear, notes + EXT_NOTE, src, url,
+        verified=verified, w=o0['widthCols'], boxMm=o0['boxMm'], formFactor='NUC Extreme (on its side)', pcieOrient=o0['pcie'],
+        orientations=mm)
 
 # ======================= ASUS NUC =======================
 AS = lambda *a, **k: nuc('asus.json', 'asus-', 'ASUS', *a, **k)
