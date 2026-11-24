@@ -532,7 +532,7 @@
   "verified": true,
   "source": "ASUS NUC 13 Extreme Kit tech specs",
   "productUrl": "https://asus.com/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/techspec",
-  "notes": "13th gen Intel Core desktop CPU (Raptor Canyon), 337 x 318 x 129 mm (H x D x W), about 13.8 litres, internal power supply. Front: 2 x USB 3.2 Gen 1 Type-A, USB 3.2 Gen 2x2 Type-C, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.1, 10GbE (Marvell AQC113) and 2.5GbE (Intel i226-V), 7.1 audio (3 x 3.5 mm plus optical), Wi-Fi 6E. PCIe 5.0 x16 slot for a graphics card up to 3 slots wide. Check: power supply rating and AC inlet type. On a rack shelf the app asks how it sits: on its side (3RU, front ports stay at the front, one per shelf), upright (9RU, narrow, three fit side by side), or for the 357 mm models also on its side turned sideways with the skull panel facing out (3RU, two fit side by side, but the front and rear ports then face the sides of the rack). The graphics card's outputs are on the back: add them to the device to match your card.",
+  "notes": "13th gen Intel Core desktop CPU (Raptor Canyon), 337 x 318 x 129 mm (H x D x W), about 13.8 litres, internal power supply. Front: 2 x USB 3.2 Gen 1 Type-A, USB 3.2 Gen 2x2 Type-C, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.1, 10GbE (Marvell AQC113) and 2.5GbE (Intel i226-V), 7.1 audio (3 x 3.5 mm plus optical), Wi-Fi 6E. PCIe 5.0 x16 slot for a graphics card up to 3 slots wide. Check: power supply rating and AC inlet type. On a rack shelf the app asks how it sits. The graphics card's outputs are on the back: add them to the device to match your card.",
   "portGroups": [
    {
     "face": "front",
@@ -636,6 +636,7 @@
    "h": 129
   },
   "formFactor": "NUC Extreme (on its side)",
+  "pcieOrient": "v",
   "orientations": [
    {
     "key": "side",
@@ -645,7 +646,8 @@
     "boxMm": {
      "w": 337,
      "h": 129
-    }
+    },
+    "pcie": "v"
    },
    {
     "key": "upright",
@@ -655,7 +657,8 @@
     "boxMm": {
      "w": 129,
      "h": 337
-    }
+    },
+    "pcie": "h"
    }
   ]
  },
@@ -666,13 +669,13 @@
   "name": "NUC 12 Extreme kit (NUC12DCMi9 / i7)",
   "family": "NUC 12 Extreme",
   "category": "computer",
-  "ru": 3,
-  "widthCols": 9,
+  "ru": 5,
+  "widthCols": 3,
   "fullDepth": false,
   "verified": true,
   "source": "Intel NUC 12 Extreme feature summary (doc 721073)",
   "productUrl": "https://edc.intel.com/content/www/us/en/publications/specification-nuc12dcm-nuc12edb/feature-summary/",
-  "notes": "12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm, about 8 litres, internal power supply. Front: USB 3.2 Gen 2 Type-C and Type-A, UHS-II SDXC reader, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.0b, 10GbE (Marvell AQC113C) and 2.5GbE (Intel I225-LM; i9 and vPro models). PCIe 5.0 x16 slot for a dual-slot graphics card up to about 300 mm long. Check: power supply rating and AC inlet type. On a rack shelf the app asks how it sits: on its side (3RU, front ports stay at the front, one per shelf), upright (9RU, narrow, three fit side by side), or for the 357 mm models also on its side turned sideways with the skull panel facing out (3RU, two fit side by side, but the front and rear ports then face the sides of the rack). The graphics card's outputs are on the back: add them to the device to match your card.",
+  "notes": "12th gen Intel Core i9-12900 / i7-12700 on a compute element (Dragon Canyon), 357 x 189 x 120 mm (D x H x W, the Beast Canyon box: front panel 120 x 189 mm, 357 mm deep), about 8 litres, internal power supply. Front: USB 3.2 Gen 2 Type-C and Type-A, UHS-II SDXC reader, 3.5 mm headset jack. Back: 6 x USB 3.2 Gen 2 Type-A, 2 x Thunderbolt 4, HDMI 2.0b, 10GbE (Marvell AQC113C) and 2.5GbE (Intel I225-LM; i9 and vPro models). PCIe 5.0 x16 slot for a dual-slot graphics card up to about 300 mm long. Check: power supply rating and AC inlet type. On a rack shelf the app asks how it sits. The graphics card's outputs are on the back: add them to the device to match your card.",
   "portGroups": [
    {
     "face": "front",
@@ -764,40 +767,33 @@
    }
   ],
   "boxMm": {
-   "w": 357,
-   "h": 120
+   "w": 120,
+   "h": 189
   },
   "formFactor": "NUC Extreme (on its side)",
+  "pcieOrient": "v",
   "orientations": [
    {
-    "key": "side",
-    "label": "On its side",
-    "ru": 3,
-    "widthCols": 9,
-    "boxMm": {
-     "w": 357,
-     "h": 120
-    }
-   },
-   {
     "key": "upright",
-    "label": "Upright",
-    "ru": 9,
+    "label": "Upright, skull to the front (normal)",
+    "ru": 5,
     "widthCols": 3,
     "boxMm": {
      "w": 120,
-     "h": 357
-    }
+     "h": 189
+    },
+    "pcie": "v"
    },
    {
-    "key": "sideways",
-    "label": "On its side, turned sideways (ports to the rack sides)",
+    "key": "side",
+    "label": "On its side, skull to the front",
     "ru": 3,
     "widthCols": 5,
     "boxMm": {
      "w": 189,
      "h": 120
-    }
+    },
+    "pcie": "h"
    }
   ]
  },
@@ -808,13 +804,13 @@
   "name": "NUC 11 Extreme kit (NUC11BTMi9 / i7 / i5)",
   "family": "NUC 11 Extreme",
   "category": "computer",
-  "ru": 3,
-  "widthCols": 9,
+  "ru": 5,
+  "widthCols": 3,
   "fullDepth": false,
   "verified": false,
   "source": "Tom's Hardware launch article",
   "productUrl": "https://www.tomshardware.com/news/intel-unchains-beast-canyon-nuc-to-disrupt-the-sff-market",
-  "notes": "11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm (H x D x W, Intel kit form factor), skull logo on the side mesh panel, about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 Gen 2. Back: 6 x USB 3.1 Gen 2, 2 x Thunderbolt 4, HDMI 2.0b, 2.5GbE. PCIe 4.0 x16 slot for a graphics card up to about 308 mm long. Check: front audio and card reader, and the AC inlet type. On a rack shelf the app asks how it sits: on its side (3RU, front ports stay at the front, one per shelf), upright (9RU, narrow, three fit side by side), or for the 357 mm models also on its side turned sideways with the skull panel facing out (3RU, two fit side by side, but the front and rear ports then face the sides of the rack). The graphics card's outputs are on the back: add them to the device to match your card.",
+  "notes": "11th gen Intel Core (Beast Canyon), 357 x 189 x 120 mm (D x H x W, Intel kit form factor; the RGB skull is on the front), about 8 litres, internal 650 W 80 Plus Gold power supply. Front: 2 x USB 3.1 Gen 2. Back: 6 x USB 3.1 Gen 2, 2 x Thunderbolt 4, HDMI 2.0b, 2.5GbE. PCIe 4.0 x16 slot for a graphics card up to about 308 mm long. Check: front audio and card reader, and the AC inlet type. On a rack shelf the app asks how it sits. The graphics card's outputs are on the back: add them to the device to match your card.",
   "portGroups": [
    {
     "face": "front",
@@ -874,40 +870,33 @@
    }
   ],
   "boxMm": {
-   "w": 357,
-   "h": 120
+   "w": 120,
+   "h": 189
   },
   "formFactor": "NUC Extreme (on its side)",
+  "pcieOrient": "v",
   "orientations": [
    {
-    "key": "side",
-    "label": "On its side",
-    "ru": 3,
-    "widthCols": 9,
-    "boxMm": {
-     "w": 357,
-     "h": 120
-    }
-   },
-   {
     "key": "upright",
-    "label": "Upright",
-    "ru": 9,
+    "label": "Upright, skull to the front (normal)",
+    "ru": 5,
     "widthCols": 3,
     "boxMm": {
      "w": 120,
-     "h": 357
-    }
+     "h": 189
+    },
+    "pcie": "v"
    },
    {
-    "key": "sideways",
-    "label": "On its side, turned sideways (ports to the rack sides)",
+    "key": "side",
+    "label": "On its side, skull to the front",
     "ru": 3,
     "widthCols": 5,
     "boxMm": {
      "w": 189,
      "h": 120
-    }
+    },
+    "pcie": "h"
    }
   ]
  }
