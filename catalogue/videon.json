@@ -12,7 +12,7 @@
   "verified": true,
   "source": "Videon LiveEdge Node tech specs (videonlabs.com/node-tech-specs and Tech Specs PDF)",
   "productUrl": "https://www.videonlabs.com/liveedge-node",
-  "notes": "Fanless single channel edge encoder (Qualcomm Snapdragon) with Docker container support. Video in: HDMI 1.4a or 3G-SDI (one channel; up to 8 embedded audio channels on SDI), plus a 3.5 mm line level analog audio in. Encodes H.264/AVC or H.265/HEVC up to 3840x2160p30; RTMP, SRT, HLS, UDP/RTP, recording to USB 3.0 or SD card (MPEG-TS or MP4, FAT32), FTP upload. KLV metadata (SMPTE 336M) and SMPTE 2038 ANC from SDI. Network: 1 x 10/100/1000 RJ45. Power: +12V DC in or IEEE 802.3af PoE, 8 W total. Front: SD card slot and an Action button (start/stop RTMP streaming). 127 x 38 x 107.5 mm (5.0 x 1.5 x 4.234 in, W x H x D read from Videon's figures), weight not published. No SDI or HDMI out. Three fit in 1RU on the Videon Horizontal Rack Mount Tray. Check: which end each connector is on and the DC jack type.",
+  "notes": "Fanless single channel edge encoder (Qualcomm Snapdragon) with Docker container support. Video in: HDMI 1.4a or 3G-SDI (one channel; up to 8 embedded audio channels on SDI), plus a 3.5 mm line level analog audio in. Encodes H.264/AVC or H.265/HEVC up to 3840x2160p30; RTMP, SRT, HLS, UDP/RTP, recording to USB 3.0 or SD card (MPEG-TS or MP4, FAT32), FTP upload. KLV metadata (SMPTE 336M) and SMPTE 2038 ANC from SDI. Network: 1 x 10/100/1000 RJ45. Power: +12V DC in or IEEE 802.3af PoE, 8 W total. Front: SD card slot and an Action button (start/stop RTMP streaming). 127 x 38 x 107.5 mm (5.0 x 1.5 x 4.234 in, W x H x D read from Videon's figures), weight not published. No SDI or HDMI out. Rear, left to right: Ethernet over 3G-SDI input, HDMI in, USB 3.0, DC 12V over audio in. Front: power LED, SD slot, Action button, Source/Record/Stream LEDs. Three fit in 1RU on the Videon Horizontal Rack Mount Tray.",
   "portGroups": [
    {
     "face": "rear",
@@ -44,7 +44,7 @@
     "type": "3G-SDI",
     "connector": "BNC",
     "count": 1,
-    "prefix": "SDI In"
+    "prefix": "3G-SDI Input"
    },
    {
     "face": "rear",
@@ -52,7 +52,7 @@
     "type": "Analog audio",
     "connector": "3.5mm jack",
     "count": 1,
-    "prefix": "Line In"
+    "prefix": "Audio In"
    },
    {
     "face": "rear",
@@ -92,23 +92,15 @@
   "verified": true,
   "source": "Videon LiveEdge Max 2 Tech Specs PDF and product page",
   "productUrl": "https://www.videonlabs.com/liveedge-max",
-  "notes": "Edge encoder with an 8 core CPU (2.5x the compute of LiveEdge Node, 20x for AI/ML). Video in: 2 x 12G-SDI (4Kp60 each, used as two channels, a backup feed or a loop-through depending on licence) and 1 x HDMI 2.0, up to 16 embedded audio channels, plus a 3.5 mm line level analog audio in. Recording to USB 3.0 or SD card. Network: dual 1000/2500 Mb/s RJ45. Dual power: +12V DC (10-15V, 25 W max) and IEEE 802.3af/PoE+. Front: 2.35 inch LCD and 3 buttons. 145 x 43 x 170 mm (5.7 x 1.7 x 6.7 in, W x H x D read from Videon's figures), weight not published. Videon says output types and counts depend on licensing; no SDI out is listed. Three fit in 1RU on the Videon Horizontal Short Rack Mount Tray. Check: whether the two power inputs are two DC jacks, and connector ends.",
+  "notes": "Edge encoder with an 8 core CPU (2.5x the compute of LiveEdge Node, 20x for AI/ML). Video in: 2 x 12G-SDI (4Kp60 each, used as two channels, a backup feed or a loop-through depending on licence) and 1 x HDMI 2.0, up to 16 embedded audio channels, plus a 3.5 mm line level analog audio in. Recording to USB (USB-C, USB 3.0) or SD card. Network: 2 x 1000/2500 Mb/s RJ45 (NET 1 takes PoE+). Dual power: a threaded 12V 3A DC jack (10-15V, 25 W max) and PoE+ on NET 1. Rear, left to right: SDI 1, SDI 2, HDMI in, USB-C, audio in, DC 12V over NET 1 and NET 2. Front: 2.35 inch LCD and 3 buttons. 145 x 43 x 170 mm (5.7 x 1.7 x 6.7 in, W x H x D read from Videon's figures), weight not published. Videon says output types and counts depend on licensing; no SDI out is listed. Three fit in 1RU on the Videon Horizontal Short Rack Mount Tray. Check: NET 2 is cut off in Videon's rear photo.",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
-    "type": "Power",
-    "connector": "DC barrel",
+    "type": "12G-SDI",
+    "connector": "BNC",
     "count": 2,
-    "prefix": "12V DC In"
-   },
-   {
-    "face": "rear",
-    "dir": "io",
-    "type": "Ethernet",
-    "connector": "RJ45",
-    "count": 2,
-    "prefix": "Ethernet 2.5G"
+    "prefix": "SDI"
    },
    {
     "face": "rear",
@@ -116,15 +108,15 @@
     "type": "HDMI",
     "connector": "HDMI",
     "count": 1,
-    "prefix": "HDMI 2.0 In"
+    "prefix": "HDMI In"
    },
    {
     "face": "rear",
-    "dir": "in",
-    "type": "12G-SDI",
-    "connector": "BNC",
-    "count": 2,
-    "prefix": "SDI In"
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-C",
+    "count": 1,
+    "prefix": "USB-C"
    },
    {
     "face": "rear",
@@ -132,15 +124,31 @@
     "type": "Analog audio",
     "connector": "3.5mm jack",
     "count": 1,
-    "prefix": "Line In"
+    "prefix": "Audio In"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "DC 12V 3A"
    },
    {
     "face": "rear",
     "dir": "io",
-    "type": "USB",
-    "connector": "USB-A",
+    "type": "Ethernet",
+    "connector": "RJ45",
     "count": 1,
-    "prefix": "USB 3.0"
+    "prefix": "2.5G NET 1 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "2.5G NET 2"
    },
    {
     "face": "front",
@@ -213,34 +221,178 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack page",
+  "verified": true,
+  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack rear photo",
   "productUrl": "https://www.videonlabs.com/liveedge-rack",
-  "notes": "1RU, 3 channel edge encoder built from three LiveEdge Node engines (sold as EdgeCaster Rack / LiveEdge Rack). 3 x 3G-SDI in, 3 channels of 1080p60, 3 x Ethernet uplinks, 3 x 110/220 VAC inputs (one per engine), about 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run). Check: the overview PDF text is garbled, so confirm the power inlet type and count and any HDMI or USB ports.",
+  "notes": "1RU, 3 channel edge encoder: three LiveEdge Node engines side by side on a 19 inch tray with ears (sold as EdgeCaster Rack / LiveEdge Rack). Each engine has its own rear Ethernet (PoE in), 3G-SDI input, HDMI in, USB 3.0, DC 12V and audio in, and its own front SD slot and Action button, so the unit has 3 of each. 3 channels of 1080p60; Videon lists 3 x 110/220 VAC inputs, meaning one 12V adapter per engine (or PoE). About 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run).",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C14",
-    "count": 3,
-    "prefix": "AC In"
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 1 DC 12V"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 3,
-    "prefix": "Ethernet"
+    "count": 1,
+    "prefix": "Node 1 Ethernet (PoE in)"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "3G-SDI",
     "connector": "BNC",
-    "count": 3,
-    "prefix": "SDI In"
+    "count": 1,
+    "prefix": "Node 1 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 1 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 1 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 1 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 1 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 2 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 2 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 2 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 2 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 2 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 2 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 2 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 3 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 3 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 3 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 3 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 3 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 3 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 3 SD Card"
    }
   ],
   "depthMm": 151,
@@ -256,34 +408,178 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack page",
+  "verified": true,
+  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack rear photo",
   "productUrl": "https://www.videonlabs.com/liveedge-rack",
-  "notes": "1RU, 3 channel edge encoder built from three LiveEdge Node engines (sold as EdgeCaster Rack / LiveEdge Rack). 3 x 3G-SDI in, 3 channels of 1080p60, 3 x Ethernet uplinks, 3 x 110/220 VAC inputs (one per engine), about 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run). Check: the overview PDF text is garbled, so confirm the power inlet type and count and any HDMI or USB ports.",
+  "notes": "1RU, 3 channel edge encoder: three LiveEdge Node engines side by side on a 19 inch tray with ears (sold as EdgeCaster Rack / LiveEdge Rack). Each engine has its own rear Ethernet (PoE in), 3G-SDI input, HDMI in, USB 3.0, DC 12V and audio in, and its own front SD slot and Action button, so the unit has 3 of each. 3 channels of 1080p60; Videon lists 3 x 110/220 VAC inputs, meaning one 12V adapter per engine (or PoE). About 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run).",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C14",
-    "count": 3,
-    "prefix": "AC In"
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 1 DC 12V"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 3,
-    "prefix": "Ethernet"
+    "count": 1,
+    "prefix": "Node 1 Ethernet (PoE in)"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "3G-SDI",
     "connector": "BNC",
-    "count": 3,
-    "prefix": "SDI In"
+    "count": 1,
+    "prefix": "Node 1 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 1 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 1 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 1 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 1 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 2 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 2 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 2 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 2 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 2 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 2 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 2 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 3 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 3 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 3 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 3 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 3 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 3 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 3 SD Card"
    }
   ],
   "depthMm": 151,
@@ -299,34 +595,178 @@
   "ru": 1,
   "widthCols": 12,
   "fullDepth": false,
-  "verified": false,
-  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack page",
+  "verified": true,
+  "source": "Videon EdgeCaster Rack Product Overview PDF and LiveEdge Rack rear photo",
   "productUrl": "https://www.videonlabs.com/liveedge-rack",
-  "notes": "1RU, 3 channel edge encoder built from three LiveEdge Node engines (sold as EdgeCaster Rack / LiveEdge Rack). 3 x 3G-SDI in, 3 channels of 1080p60, 3 x Ethernet uplinks, 3 x 110/220 VAC inputs (one per engine), about 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run). Check: the overview PDF text is garbled, so confirm the power inlet type and count and any HDMI or USB ports.",
+  "notes": "1RU, 3 channel edge encoder: three LiveEdge Node engines side by side on a 19 inch tray with ears (sold as EdgeCaster Rack / LiveEdge Rack). Each engine has its own rear Ethernet (PoE in), 3G-SDI input, HDMI in, USB 3.0, DC 12V and audio in, and its own front SD slot and Action button, so the unit has 3 of each. 3 channels of 1080p60; Videon lists 3 x 110/220 VAC inputs, meaning one 12V adapter per engine (or PoE). About 30 W max for the whole unit. 19 x 5.95 in (480 x 151 mm deep); weight not published. Bundles: VCS-ECRACK-3I (base, ready for custom options), VCS-ECRACK-3IS (+ LiveEdge Stream), VCS-ECRACK-3AI (fully loaded: Stream, Advanced and Run).",
   "portGroups": [
    {
     "face": "rear",
     "dir": "in",
     "type": "Power",
-    "connector": "IEC C14",
-    "count": 3,
-    "prefix": "AC In"
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 1 DC 12V"
    },
    {
     "face": "rear",
     "dir": "io",
     "type": "Ethernet",
     "connector": "RJ45",
-    "count": 3,
-    "prefix": "Ethernet"
+    "count": 1,
+    "prefix": "Node 1 Ethernet (PoE in)"
    },
    {
     "face": "rear",
     "dir": "in",
     "type": "3G-SDI",
     "connector": "BNC",
-    "count": 3,
-    "prefix": "SDI In"
+    "count": 1,
+    "prefix": "Node 1 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 1 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 1 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 1 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 1 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 2 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 2 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 2 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 2 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 2 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 2 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 2 SD Card"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC barrel",
+    "count": 1,
+    "prefix": "Node 3 DC 12V"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Node 3 Ethernet (PoE in)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "Node 3 3G-SDI Input"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "HDMI",
+    "connector": "HDMI",
+    "count": 1,
+    "prefix": "Node 3 HDMI In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "USB",
+    "connector": "USB-A",
+    "count": 1,
+    "prefix": "Node 3 USB 3.0"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "3.5mm jack",
+    "count": 1,
+    "prefix": "Node 3 Audio In"
+   },
+   {
+    "face": "front",
+    "dir": "io",
+    "type": "Other",
+    "connector": "SD card",
+    "count": 1,
+    "prefix": "Node 3 SD Card"
    }
   ],
   "depthMm": 151,
