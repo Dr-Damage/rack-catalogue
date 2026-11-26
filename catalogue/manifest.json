@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": "fd1668bb945f",
- "updated": "2026-11-25T13:52:30Z",
- "entries": 3571,
+ "version": "ec8967f8da7a",
+ "updated": "2026-11-26T05:20:37Z",
+ "entries": 3577,
  "files": {
   "ross.json": {
    "sha256": "72c24462e1b43c014023fde75bb836e1eea92dacadb84fbf2685d84be963c5e2",
@@ -1323,6 +1323,11 @@
    "sha256": "8e12294204453d6dceba0878426297663813df645ed489ceb1e96c8c91b5477f",
    "entries": 7,
    "bytes": 19171
+  },
+  "telos.json": {
+   "sha256": "e484dab2ea760e274b4f7683b53447c959d52fd79350249ea8f7dc27f416a8b8",
+   "entries": 6,
+   "bytes": 14100
   }
  }
 }
