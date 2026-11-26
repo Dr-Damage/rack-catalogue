@@ -392,10 +392,582 @@
   "powerW": 14
  },
  {
+  "id": "telos-xnode2-analog",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "Analog xNode2",
+  "name": "Analog xNode2 4x4 stereo line I/O (Livewire+/AES67)",
+  "family": "Axia xNode2",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance xNode2 pages and docs.telosalliance.com xNode2 manual (rear labels from Telos product photos)",
+  "productUrl": "https://docs.telosalliance.com/docs/analog-xnode2",
+  "notes": "Fanless half-rack 1RU Livewire+/AES67 audio node (current xNode2 range). Front: colour LCD, two navigation buttons, PoE and AC LEDs. Network: two gigabit RJ45 ports; NET 1 (top) is the default AoIP port and takes IEEE 802.3at PoE+, NET 2 is management or SMPTE 2022-7 redundancy. Power: 100-240 VAC 50/60 Hz IEC inlet with automatic switchover to PoE+, 16 W. 216 x 44 x 298 mm (8.5 x 1.72 x 11.75 in); weight not published. Rack-mount kit included (two side by side in 1RU); optional surface-mount kit. 4 stereo (8 mono) balanced line inputs and outputs, +4 dBu nominal, +24 dBu max. The same channels appear in parallel on the RJ45 jacks (stereo per jack) and the two DB25s (AES59/Tascam pinout), so wire one or the other. Rear: DB25 inputs over outputs, RJ45 inputs 1-4 over outputs 1-4, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Line Inputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Line Outputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog Line In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Analog Line Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100/1000 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100/1000 (management or 2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ],
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 16
+ },
+ {
+  "id": "telos-xnode2-aes",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "AES/EBU xNode2",
+  "name": "AES/EBU xNode2 4x4 AES3 I/O (Livewire+/AES67)",
+  "family": "Axia xNode2",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance xNode2 pages and docs.telosalliance.com xNode2 manual (rear labels from Telos product photos)",
+  "productUrl": "https://docs.telosalliance.com/docs/digital-aes3-xnode2",
+  "notes": "Fanless half-rack 1RU Livewire+/AES67 audio node (current xNode2 range). Front: colour LCD, two navigation buttons, PoE and AC LEDs. Network: two gigabit RJ45 ports; NET 1 (top) is the default AoIP port and takes IEEE 802.3at PoE+, NET 2 is management or SMPTE 2022-7 redundancy. Power: 100-240 VAC 50/60 Hz IEC inlet with automatic switchover to PoE+, 16 W. 216 x 44 x 298 mm (8.5 x 1.72 x 11.75 in); weight not published. Rack-mount kit included (two side by side in 1RU); optional surface-mount kit. 4 AES3 inputs (32-192 kHz) and 4 AES3 outputs, 24 bit. The same signals appear in parallel on the RJ45 jacks and the two DB25s, so wire one or the other. Rear: DB25 inputs over outputs, RJ45 inputs 1-4 over outputs 1-4, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES/EBU Inputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "AES/EBU Outputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES/EBU In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "AES/EBU Out"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100/1000 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100/1000 (management or 2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ],
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 16
+ },
+ {
+  "id": "telos-xnode2-mic",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "Microphone xNode2",
+  "name": "Microphone xNode2 4 mic in / 4 stereo line out (Livewire+/AES67)",
+  "family": "Axia xNode2",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance xNode2 pages and docs.telosalliance.com xNode2 manual (rear labels from Telos product photos)",
+  "productUrl": "https://docs.telosalliance.com/docs/microphone-xnode2",
+  "notes": "Fanless half-rack 1RU Livewire+/AES67 audio node (current xNode2 range). Front: colour LCD, two navigation buttons, PoE and AC LEDs. Network: two gigabit RJ45 ports; NET 1 (top) is the default AoIP port and takes IEEE 802.3at PoE+, NET 2 is management or SMPTE 2022-7 redundancy. Power: 100-240 VAC 50/60 Hz IEC inlet with automatic switchover to PoE+, 16 W. 216 x 44 x 298 mm (8.5 x 1.72 x 11.75 in); weight not published. Rack-mount kit included (two side by side in 1RU); optional surface-mount kit. 4 mono mic/line inputs (14-68 dB gain, switchable +48 V phantom) and 4 stereo line outputs, on RJ45 or DB25 (parallel, wire one or the other); no XLR. The RJ45 block differs from the other xNode2s: Mic In 1/2 top left, Mic In 3/4 bottom left, Line Out 1/2 top right, Line Out 3/4 bottom right. Rear: DB25 mic inputs over DB25 line outputs, the RJ45 block, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Microphone Inputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "DB25",
+    "count": 1,
+    "prefix": "Analog Line Outputs 1-4"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Mic In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 4,
+    "prefix": "Line Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100/1000 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100/1000 (management or 2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ],
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 16
+ },
+ {
+  "id": "telos-xnode2-mixed-signal",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "Mixed Signal xNode2",
+  "name": "Mixed Signal xNode2 mic, analog, AES3 and GPIO (Livewire+/AES67)",
+  "family": "Axia xNode2",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance xNode2 pages and docs.telosalliance.com xNode2 manual (rear labels from Telos product photos)",
+  "productUrl": "https://docs.telosalliance.com/docs/mixed-signal-xnode2",
+  "notes": "Fanless half-rack 1RU Livewire+/AES67 audio node (current xNode2 range). Front: colour LCD, two navigation buttons, PoE and AC LEDs. Network: two gigabit RJ45 ports; NET 1 (top) is the default AoIP port and takes IEEE 802.3at PoE+, NET 2 is management or SMPTE 2022-7 redundancy. Power: 100-240 VAC 50/60 Hz IEC inlet with automatic switchover to PoE+, 16 W. 216 x 44 x 298 mm (8.5 x 1.72 x 11.75 in); weight not published. Rack-mount kit included (two side by side in 1RU); optional surface-mount kit. 1 mic/mono line input on an XLR-F, 3 stereo line inputs and 1 AES3 input on RJ45 (top row), 3 stereo line outputs and 1 AES3 output on RJ45 (bottom row), and 2 GPIO ports on DA-15 female (5 opto inputs, 5 relay outputs, +5 V each). Rear: XLR, RJ45 block, GPIO 1 over GPIO 2, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "XLR3F",
+    "count": 1,
+    "prefix": "Mic (1)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "Analog Line In (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AES/EBU Input"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "Analog audio",
+    "connector": "RJ45",
+    "count": 3,
+    "prefix": "Analog Line Out (stereo)"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "AES/EBU",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AES/EBU Output"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 2,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100/1000 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100/1000 (management or 2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ],
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 16
+ },
+ {
+  "id": "telos-xnode2-gpio",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "GPIO xNode2",
+  "name": "GPIO xNode2 6 logic ports (Livewire+)",
+  "family": "Axia xNode2",
+  "category": "audio",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance xNode2 pages and docs.telosalliance.com xNode2 manual (rear labels from Telos product photos)",
+  "productUrl": "https://telosalliance.com/distributed-decentralized-routing/audio-interfaces/telos-alliance-xnode2s/gpio-xnode2",
+  "notes": "Fanless half-rack 1RU Livewire+/AES67 audio node (current xNode2 range). Front: colour LCD, two navigation buttons, PoE and AC LEDs. Network: two gigabit RJ45 ports; NET 1 (top) is the default AoIP port and takes IEEE 802.3at PoE+, NET 2 is management or SMPTE 2022-7 redundancy. Power: 100-240 VAC 50/60 Hz IEC inlet with automatic switchover to PoE+, 16 W. 216 x 44 x 298 mm (8.5 x 1.72 x 11.75 in); weight not published. Rack-mount kit included (two side by side in 1RU); optional surface-mount kit. 6 GPIO ports on DA-15 female, each with 5 opto-isolated inputs and 5 outputs plus +5 V. Rear: GPIO 1/2, 3/4, 5/6 in three columns, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 6,
+    "prefix": "GPIO"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100/1000 (PoE+ in)"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100/1000 (management or 2022-7)"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ],
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 16
+ },
+ {
+  "id": "telos-sdi-xnode",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "SDI xNode",
+  "name": "SDI xNode 2-channel SDI audio embedder/de-embedder (Livewire+/AES67)",
+  "family": "Linear Acoustic xNode",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 6,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance legacy SDI xNode page and Linear Acoustic SDI xNode manual (rear labels from Telos product photo)",
+  "productUrl": "https://telosalliance.com/legacy/sdi-xnode",
+  "formFactor": "Telos xNode",
+  "boxMm": {
+   "w": 216,
+   "h": 44
+  },
+  "depthMm": 298,
+  "powerW": 18,
+  "notes": "Legacy Linear Acoustic SDI xNode (replaced by the SDI AoIP Node). Two 3G/HD/SD-SDI inputs de-embed up to 8 pairs each to Livewire+/AES67, and two SDI outputs re-embed up to 8 pairs from the network. Fanless half-rack 1RU, same chassis and rack kit as the other xNodes. Front: OLED meters/display, two buttons, status LED. Network: two 10/100 RJ45 (NET 1, NET 2; redundant or Livewire plus management). Power: 90-240 VAC IEC (0.2 A) plus a locking +12 VDC backup input; 15-18 W max. 216 x 44 x 298 mm. Rear, left to right: SDI 1 In/Out, SDI 2 In/Out, +12VDC Backup In, NET 1 over NET 2, IEC.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 1 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 1 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "DC locking",
+    "count": 1,
+    "prefix": "+12VDC Backup In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 1 Livewire+/AES67 10/100"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "NET 2 10/100"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "AC Input"
+   }
+  ]
+ },
+ {
+  "id": "telos-sdi-aoip-node",
+  "manufacturer": "Telos Alliance",
+  "partNumber": "SDI AoIP Node",
+  "name": "SDI AoIP Node 2-channel 3G-SDI embedder/de-embedder (AES67)",
+  "family": "Linear Acoustic xNode",
+  "category": "converter",
+  "ru": 1,
+  "widthCols": 12,
+  "fullDepth": false,
+  "verified": true,
+  "source": "Telos Alliance SDI AoIP Node page, brochure and docs.telosalliance.com front/rear panel overview (rear from Telos product photo)",
+  "productUrl": "https://telosalliance.com/Linear/SDI-Node",
+  "depthMm": 229,
+  "powerW": 30,
+  "weightKg": 2.72,
+  "notes": "Successor to the SDI xNode. Full-width 1RU. Two 3G/HD/SD-SDI inputs de-embed up to 8 pairs each to AES67, two SDI outputs re-embed up to 8 pairs. Reference: PTP (AES67), SDI or internal 48 kHz. Front: four status LEDs (PWR 1, PWR 2, status, sync), colour LCD, five-button navigation cluster. Rear, left to right: GPI/O DB15 female (5 in / 5 out, not supported in firmware 1.2.006), AES in/out holes (blanked in Telos photo, not listed in the docs, so not added as ports), SDI 1 Out/In, SDI 2 Out/In, AES67 and CONTROL gigabit RJ45, PWR 1 and PWR 2 IEC (dual internal redundant 95-240 VAC supplies, 30 W max). 483 x 229 x 45 mm (19 x 9 x 1.75 in), 2.72 kg.",
+  "portGroups": [
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "GPIO",
+    "connector": "DB15",
+    "count": 1,
+    "prefix": "GPI/O"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 1 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 1 In"
+   },
+   {
+    "face": "rear",
+    "dir": "out",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 2 Out"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "3G-SDI",
+    "connector": "BNC",
+    "count": 1,
+    "prefix": "SDI 2 In"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "AES67"
+   },
+   {
+    "face": "rear",
+    "dir": "io",
+    "type": "Ethernet",
+    "connector": "RJ45",
+    "count": 1,
+    "prefix": "Control"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "PWR 1"
+   },
+   {
+    "face": "rear",
+    "dir": "in",
+    "type": "Power",
+    "connector": "IEC C14",
+    "count": 1,
+    "prefix": "PWR 2"
+   }
+  ]
+ },
+ {
   "id": "telos-xnode-rack-kit",
   "manufacturer": "Telos Alliance",
   "partNumber": "2011-00076",
-  "name": "xNode rack-mount kit (2 xNodes in 1RU)",
+  "name": "xNode rack-mount kit (2 xNodes, xNode2s or SDI xNodes in 1RU)",
   "family": "Axia xNode",
   "category": "shelf",
   "ru": 1,
